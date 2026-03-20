@@ -2,7 +2,7 @@ export default function CourseOverview({ data }: any) {
   if (!data?.overview) return null;
 
   return (
-    <section className="bg-white py-16">
+    <section className="bg-white py-16 pt-28">
       <div className="max-w-[1400px] mx-auto px-6">
         {/* LABEL */}
         <p className="text-sm font-semibold text-gray-500 mb-2">
