@@ -1,0 +1,81 @@
+"use client";
+
+import { motion } from "motion/react";
+
+export function ResearchHighlightsSection() {
+  const sections = [
+    {
+      title: "Advancing Knowledge Through Research and Innovation",
+      description:
+        "Presidency University is committed to building a globally connected research culture. The Research & Innovation Council oversees academic and sponsored research.",
+      image:
+        "img/innovation.png",
+      bg: "bg-[#1565A8]",
+    },
+    {
+      title: "Supporting Global Research Collaboration",
+      description:
+        "International scholars benefit from advanced labs, seed funding, and global partnerships to solve real-world challenges.",
+      image:
+        "img/global.png",
+      bg: "bg-[#0B3551]",
+    },
+  ];
+
+  return (
+    <section className="py-24 bg-[#EEF1F5]">
+      <div className="max-w-[1300px] mx-auto px-6 md:px-10">
+        {/* HEADER */}
+        <div className="text-center mb-16">
+          <motion.span className="inline-block bg-[#0A8F96]/10 text-[#0A8F96] px-4 py-2 rounded-full text-sm mb-4">
+            Research & Innovation
+          </motion.span>
+
+          <motion.h2 className="text-3xl md:text-4xl text-[#1e3a5f]">
+            Driving Impact Through
+            <span className="block text-[#0A8F96]">Research Excellence</span>
+          </motion.h2>
+
+          <motion.p className="text-gray-600 mt-4 max-w-2xl mx-auto">
+            Explore how Presidency University fosters innovation, global
+            collaboration, and impactful discoveries.
+          </motion.p>
+        </div>
+
+        {/* 🔥 GRID: 2 CARDS PER ROW */}
+        <div className="grid md:grid-cols-2 gap-8">
+          {sections.map((item, index) => (
+            <div
+              key={index}
+              className="flex bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 group"
+            >
+              {/* IMAGE */}
+              <div className="w-1/2 h-[290px] overflow-hidden">
+                <img
+                  src={item.image}
+                  alt={item.title}
+                  className="w-100px h-200px object-cover group-hover:scale-105 transition duration-500"
+                />
+              </div>
+
+              {/* TEXT */}
+              <div
+                className={`${item.bg} text-white w-1/2 p-6 flex flex-col justify-center`}
+              >
+                <h3 className="text-lg md:text-xl mb-2 leading-snug">
+                  {item.title}
+                </h3>
+
+                <p className="text-white/90 text-sm mb-4">{item.description}</p>
+
+                <button className="bg-white text-[#1e3a5f] px-5 py-2 rounded-full text-sm font-semibold w-fit hover:scale-105 transition">
+                  Explore
+                </button>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
