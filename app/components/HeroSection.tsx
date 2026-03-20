@@ -16,7 +16,7 @@ export function HeroSection() {
     <section className="relative h-screen min-h-[700px] flex items-center justify-center overflow-hidden">
       {/* Video Background */}
       <div className="absolute inset-0 z-0">
-        {!videoError ? (
+        {/* {!videoError ? (
           <>
             <video
               autoPlay
@@ -43,9 +43,27 @@ export function HeroSection() {
             alt="University Campus"
             className="w-full h-full object-cover"
           />
-        )}
+        )} */}
+        <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full h-full object-cover scale-105"
+              onError={() => setVideoError(true)}
+              poster="https://images.unsplash.com/photo-1769905226788-1bf5ba8f50d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5JTIwY2FtcHVzJTIwc3R1ZGVudHMlMjB3YWxraW5nfGVufDF8fHx8MTc3MzM5ODc4N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+            >
+              <source
+                src="/videos/hero-video.mp4"
+                type="video/mp4"
+              />
+              {/* <source
+                src="https://cdn.coverr.co/videos/coverr-university-students-studying-together-5237/1080p.mp4"
+                type="video/mp4"
+              /> */}
+            </video>
         {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#0F1E3D]/95 via-[#0F1E3D]/85 to-[#0F1E3D]/75"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-[#0F1E3D]/50 via-[#0F1E3D]/50 to-[#0F1E3D]/50"></div>
 
         {/* Animated Overlay Pattern */}
         <div className="absolute inset-0 opacity-10">
@@ -160,7 +178,7 @@ export function HeroSection() {
       </div>
 
       {/* Scroll Indicator */}
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 1.2 }}
@@ -173,7 +191,7 @@ export function HeroSection() {
             className="w-1.5 h-1.5 bg-white rounded-full"
           ></motion.div>
         </div>
-      </motion.div>
+      </motion.div> */}
     </section>
   );
 }

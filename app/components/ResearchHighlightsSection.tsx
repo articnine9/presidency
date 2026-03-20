@@ -15,7 +15,7 @@ export function ResearchHighlightsSection() {
     {
       title: "Supporting Global Research Collaboration",
       description:
-        "International scholars benefit from advanced labs, seed funding, and global partnerships to solve real-world challenges.",
+        "International scholars benefit from advanced labs, seed funding, and global partnerships to solve real-world challenges through cutting-edge research initiatives, fostering innovation and sustainable global impact",
       image:
         "img/global.png",
       bg: "bg-[#0B3551]",
@@ -67,10 +67,12 @@ export function ResearchHighlightsSection() {
                 </h3>
 
                 <p className="text-white/90 text-sm mb-4">{item.description}</p>
+                <div className="flex justify-center align-center">
 
                 <button className="bg-white text-[#1e3a5f] px-5 py-2 rounded-full text-sm font-semibold w-fit hover:scale-105 transition">
                   Explore
                 </button>
+                </div>
               </div>
             </div>
           ))}

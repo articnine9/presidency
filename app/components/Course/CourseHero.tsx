@@ -26,7 +26,8 @@ export default function CourseHero({ data, school }: any) {
 
         {/* TITLE */}
         <h1 className="text-2xl sm:text-3xl md:text-5xl font-serif leading-tight max-w-3xl">
-          {hero?.title}
+          {hero?.title.normal}
+          <i>{hero?.title.italic}</i>
         </h1>
 
         {/* DESCRIPTION */}

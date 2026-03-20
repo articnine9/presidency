@@ -30,7 +30,7 @@ export default function SchoolAbout({ data }: SchoolAboutProps) {
           {/* LEFT CONTENT */}
           <div>
             <p className="text-sm uppercase tracking-widest text-teal-600 font-semibold mb-2">
-              About the School
+              About Us
             </p>
 
             <h2 className="text-3xl md:text-4xl font-serif text-gray-900 mb-10">
@@ -116,31 +116,35 @@ export default function SchoolAbout({ data }: SchoolAboutProps) {
                     <div className="mb-4 flex justify-center">
                       {index === 0 && (
                         <img
-                          src="/icons/ai-lab.png"
+                          src="/img/classes/1.jpg"
                           className="h-16 object-contain"
                         />
                       )}
                       {index === 1 && (
                         <img
-                          src="/icons/faculty.png"
+                          src="/img/classes/2.jpg"
                           className="h-16 object-contain"
                         />
                       )}
                       {index === 2 && (
-                        <div className="flex items-center gap-3">
-                          <img
-                            src="/icons/google-cloud.png"
-                            className="h-8 object-contain"
-                          />
-                          <img
-                            src="/icons/aws.png"
-                            className="h-6 object-contain"
-                          />
-                          <img
-                            src="/icons/azure.png"
-                            className="h-6 object-contain"
-                          />
-                        </div>
+                        <img
+                          src="/img/classes/3.jpg"
+                          className="h-16 object-contain"
+                        />
+                        // <div className="flex items-center gap-3">
+                        //   <img
+                        //     src="/img/classes/3.jpg"
+                        //     className="h-8 object-contain"
+                        //   />
+                        //   <img
+                        //     src="/icons/aws.png"
+                        //     className="h-6 object-contain"
+                        //   />
+                        //   <img
+                        //     src="/icons/azure.png"
+                        //     className="h-6 object-contain"
+                        //   />
+                        // </div>
                       )}
                     </div>
 

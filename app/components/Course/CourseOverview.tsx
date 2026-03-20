@@ -11,7 +11,7 @@ export default function CourseOverview({ data }: any) {
 
         {/* TITLE */}
         <h2 className="text-3xl md:text-4xl font-serif text-gray-900 mt-2 mb-8">
-          Building Intelligent Systems for a Changing World
+          Designing the Communication Systems of Tomorrow
         </h2>
 
         {/* CONTENT */}

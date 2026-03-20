@@ -51,7 +51,7 @@ export function SchoolsSliderSection() {
       <Swiper
         modules={[Pagination, Autoplay]}
         autoplay={{ delay: 5000 }}
-        pagination={{ clickable: true }}
+        pagination={false}
         loop
         className="w-full h-full"
       >
@@ -69,17 +69,17 @@ export function SchoolsSliderSection() {
               <div className="absolute inset-0 bg-black/50"></div>
 
               {/* CONTENT */}
-              <div className="absolute inset-0 flex items-center">
-                <div className="max-w-[1200px] mx-auto px-6 md:px-10 w-full">
-                  <div className="bg-white/90 backdrop-blur-lg shadow-xl rounded-2xl overflow-hidden max-w-xl hover:-translate-y-1 transition duration-300">
+              <div className="absolute bottom-20 left-20">
+                <div className="max-w-[1200px] mx-auto w-full">
+                  <div className="bg-white/10  rounded-2xl border border-white/20 shadow-2xl rounded-2xl overflow-hidden max-w-xl hover:-translate-y-1 transition duration-300">
                     {/* TITLE */}
-                    <div className="bg-[#1e3a5f] text-white px-6 py-4 text-xl md:text-2xl font-semibold">
+                    <div className="bg-transperancy /0 text-white px-6 py-4 text-xl md:text-2xl font-semibold">
                       {school.title}
                     </div>
 
                     {/* BODY */}
                     <div className="p-6 md:p-8">
-                      <p className="text-gray-700 mb-6">{school.description}</p>
+                      <p className="text-white mb-6">{school.description}</p>
 
                       {/* BUTTON */}
                       <button className="bg-gradient-to-r from-[#0A8F96] to-[#0BB5B5] text-white px-7 py-3 flex items-center gap-3 rounded-full text-sm font-semibold shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300">

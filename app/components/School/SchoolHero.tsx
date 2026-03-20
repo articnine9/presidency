@@ -1,6 +1,9 @@
 type SchoolHeroProps = {
   data: {
-    title: string;
+    title: {
+      normal: string;
+      italic: string;
+    };
     description: string;
     breadcrumb?: string[];
     stats?: {
@@ -49,7 +52,14 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
           <div className="max-w-xl text-white pt-10 md:pt-0 pb-28 md:pb-0">
             {/* TITLE */}
             <h1 className="text-2xl sm:text-3xl md:text-5xl font-serif leading-tight mb-4">
-              {data.title}
+             {typeof data.title === "string" ? (
+    data.title
+  ) : (
+    <>
+      {data.title.normal}
+      <i>{data.title.italic}</i>
+    </>
+  )}
             </h1>
 
             {/* DESCRIPTION */}

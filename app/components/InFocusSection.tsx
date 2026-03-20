@@ -22,7 +22,7 @@ const focusItems = [
     description:
       "The Research & Innovation Council supports faculty and scholars through global collaborations and advanced labs.",
     image:
-      "https://images.unsplash.com/photo-1581093458791-9f3c3250f3a1?q=80&w=2070",
+      "/img/research-innovation.jpeg",
   },
   {
     title: "International Student Community",

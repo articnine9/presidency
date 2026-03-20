@@ -42,14 +42,27 @@ export function Navigation() {
   };
 
   const navItems = [
+    { label: "Home" },
     { label: "About" },
-    { label: "Academics", hasDropdown: true },
-    { label: "Admissions", hasDropdown: true },
+    { label: "Schools" },
     { label: "Programmes" },
-    { label: "Living in Bangalore" },
-    { label: "Scholarships" },
-    { label: "FAQ" },
-    { label: "Contact" },
+    {
+      label: "International",
+      hasDropdown: true,
+      dropdown: [
+        "Study in India[overview]",
+        "UG Programmes",
+        "PG Programmes",
+        "Research & PhD",
+        "How to Apply",
+        "Scholarships",
+        "Contact OIA",
+        "FAQ'S"
+      ],
+    },
+    { label: "Campus Life" },
+    { label: "Life in Bangalore" },
+    { label: "Contact" }
   ];
 
   return (
@@ -70,7 +83,7 @@ export function Navigation() {
           </div>
 
           <div className="flex items-center gap-6">
-            <span className="hidden md:block opacity-80">Current Students</span>
+            <span className="hidden md:block opacity-80">Student Community</span>
             <span className="hidden lg:block opacity-80">Alumni</span>
             <span className="hidden lg:block opacity-80">Faculty & Staff</span>
             <Search size={16} className="cursor-pointer opacity-80" />
@@ -80,9 +93,8 @@ export function Navigation() {
 
       {/* ⚪ NAVBAR */}
       <nav
-        className={`sticky top-0 z-40 transition-all ${
-          isScrolled ? "bg-white/90 backdrop-blur-md shadow-md" : "bg-white"
-        }`}
+        className={`sticky top-0 z-40 transition-all ${isScrolled ? "bg-white/90 backdrop-blur-md shadow-md" : "bg-white"
+          }`}
       >
         <div className="max-w-[1400px] mx-auto px-6">
           <div className="flex items-center justify-between h-[70px]">
@@ -90,7 +102,7 @@ export function Navigation() {
             <img src="/img/logo.webp" className="h-12" />
 
             {/* MENU */}
-            <div className="hidden lg:flex items-center gap-8">
+            <div className="hidden lg:flex items-center gap-5">
               {navItems.map((item, i) => (
                 <div
                   key={i}
@@ -107,7 +119,20 @@ export function Navigation() {
 
                     {/* underline */}
                     <span className="absolute left-0 -bottom-1 w-0 h-[2px] bg-[#0A8F96] transition-all duration-300 group-hover:w-full"></span>
+
                   </span>
+                  {item.hasDropdown && activeDropdown === item.label && (
+      <div className="absolute top-full left-0 mt-3 w-56 bg-white shadow-xl rounded-xl py-3 z-50">
+        {item.dropdown?.map((subItem: string, idx: number) => (
+          <div
+            key={idx}
+            className="px-5 py-2 text-sm text-gray-700 hover:bg-[#0A8F96]/10 hover:text-[#0A8F96] cursor-pointer transition"
+          >
+            {subItem}
+          </div>
+        ))}
+      </div>
+    )}
                 </div>
               ))}
 
@@ -139,11 +164,10 @@ export function Navigation() {
           onMouseLeave={handleMouseLeave}
           className={`absolute left-0 top-full w-full bg-white shadow-2xl border-t z-30
           transition-all duration-300 ease-out
-          ${
-            activeDropdown
+          ${activeDropdown
               ? "opacity-100 translate-y-0 pointer-events-auto"
               : "opacity-0 -translate-y-3 pointer-events-none"
-          }`}
+            }`}
         >
           <div className="max-w-[1400px] mx-auto px-10 py-10 grid grid-cols-4 gap-10">
             <div>

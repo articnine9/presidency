@@ -17,6 +17,9 @@ export default function CourseUSP({ data }: any) {
         <h2 className="text-3xl md:text-4xl font-serif text-gray-900 mb-10">
           Why Choose This Programme
         </h2>
+        <p className="text-sm font-semibold text-gray-500 mb-2">
+          Key Highlights for International Students 
+        </p>
 
         {/* GRID */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
