@@ -13,7 +13,7 @@ export function InternationalStudentsSection() {
       />
 
       {/* OVERLAY */}
-      <div className="absolute inset-0 bg-black/50 group-hover:bg-black/70 transition duration-500"></div>
+      <div className="absolute inset-0 bg-black/20 transition duration-500"></div>
 
       {/* CONTENT */}
       <div className="relative max-w-[1200px] mx-auto px-6 h-full flex items-center">

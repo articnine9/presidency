@@ -2,17 +2,37 @@
 
 import { ArrowRight } from "lucide-react";
 import { motion } from "motion/react";
+import { useState } from "react";
 
 export function CampusVirtualTourSection() {
+  const [videoError, setVideoError] = useState(false);
   return (
     <section className="relative pt-24 pb-32 bg-[#F5F6F8]">
       {/* IMAGE */}
       <div className="relative h-[420px] w-full overflow-hidden">
-        <img
-          src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=2070"
+        {/* <img
+          src="https://www.360cities.net/"
           alt="Campus"
           className="w-full h-full object-cover"
-        />
+        /> */}
+        <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full h-full object-cover scale-105"
+              onError={() => setVideoError(true)}
+              // poster="https://images.unsplash.com/photo-1769905226788-1bf5ba8f50d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5JTIwY2FtcHVzJTIwc3R1ZGVudHMlMjB3YWxraW5nfGVufDF8fHx8MTc3MzM5ODc4N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+            >
+              <source
+                src="/videos/hero-video.mp4"
+                type="video/mp4"
+              />
+              {/* <source
+                src="https://cdn.coverr.co/videos/coverr-university-students-studying-together-5237/1080p.mp4"
+                type="video/mp4"
+              /> */}
+            </video>
 
         {/* OVERLAY */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-black/20"></div>

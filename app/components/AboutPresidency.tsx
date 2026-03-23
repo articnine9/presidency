@@ -50,6 +50,11 @@ export function AboutPresidency() {
           >
             From undergraduate and postgraduate degrees to doctoral research, international exchange programmes, and professional short courses, Presidency University offers a pathway for every ambition — backed by national accreditations, industry-leading placements, and a dedicated Office of International Affairs to support you every step of the way.
           </motion.p>
+          <div className="flex justify-center align-center">
+          <button className="bg-[#0A8F96] text-white px-8 py-4 rounded-lg hover:bg-[#0BB5B5] transition-all duration-300 hover:shadow-xl hover:scale-105 flex items-center gap-2 text-lg">
+              Discover Presidency
+            </button>
+          </div>
 
           
         </div>
@@ -63,11 +68,11 @@ export function AboutPresidency() {
             />
 
             {/* OVERLAY */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6 ">
+            {/* <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6 ">
               <p className="text-white text-sm">
                 Explore campus life and academic excellence
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
 

@@ -1,0 +1,16 @@
+.customSwiper :global(.swiper-pagination) {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.customSwiper :global(.swiper-pagination-bullet) {
+  background: #0BB5B5;
+  width: 10px;
+  height: 10px;
+  border-radius: 0;
+}
+
+.customSwiper :global(.swiper-pagination-bullet-active) {
+  background: #0BB5B5;
+  transform: scale(1.2);
+ 
+}

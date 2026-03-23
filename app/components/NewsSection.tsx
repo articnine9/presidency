@@ -86,7 +86,7 @@ export function NewsSection() {
             spaceBetween={20}
             slidesPerView={2}
             autoplay={{ delay: 3500 }}
-            pagination={{ clickable: true }}
+            pagination={false}
             breakpoints={{
               0: { slidesPerView: 1 },
               768: { slidesPerView: 2 },
@@ -98,7 +98,7 @@ export function NewsSection() {
                   <div className="overflow-hidden">
                     <img
                       src={item.image}
-                      className="w-full h-[160px] object-cover group-hover:scale-110 transition duration-500"
+                      className="w-full h-[300px] object-cover group-hover:scale-110 transition duration-500"
                       alt=""
                     />
                   </div>

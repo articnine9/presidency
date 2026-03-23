@@ -3,6 +3,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 import { ArrowRight } from "lucide-react";
+import styles from "@/styles/swiper.module.css";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -51,9 +52,9 @@ export function SchoolsSliderSection() {
       <Swiper
         modules={[Pagination, Autoplay]}
         autoplay={{ delay: 5000 }}
-        pagination={false}
+        pagination={{clickable: true}}
         loop
-        className="w-full h-full"
+        className={`w-full h-full ${styles.customSwiper}`}
       >
         {schools.map((school, index) => (
           <SwiperSlide key={index}>
@@ -66,14 +67,14 @@ export function SchoolsSliderSection() {
               />
 
               {/* OVERLAY */}
-              <div className="absolute inset-0 bg-black/50"></div>
+              <div className="absolute inset-0 bg-black/20"></div>
 
               {/* CONTENT */}
               <div className="absolute bottom-20 left-20">
                 <div className="max-w-[1200px] mx-auto w-full">
-                  <div className="bg-white/10  rounded-2xl border border-white/20 shadow-2xl rounded-2xl overflow-hidden max-w-xl hover:-translate-y-1 transition duration-300">
+                  <div className="bg-white/10  rounded-2xl border border-white/20 shadow-2xl rounded-2xl overflow-hidden max-w-xl hover:-translate-y-1 transition duration-300 mb-3">
                     {/* TITLE */}
-                    <div className="bg-transperancy /0 text-white px-6 py-4 text-xl md:text-2xl font-semibold">
+                    <div className="bg-transperancy/0 text-white px-6 py-4 text-xl md:text-2xl font-semibold">
                       {school.title}
                     </div>
 

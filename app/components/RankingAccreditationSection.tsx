@@ -24,9 +24,9 @@ const accreditations = [
     image: "/img/accreditation/aicte.webp",
   },
   {
-    title: "AASHE",
-    desc: "STARS Gold Rating",
-    image: "/img/accreditation/aashe.svg",
+    title: "QS Sustainability",
+    desc: "Rankings 2026",
+    image: "/img/accreditation/QS.jpeg",
   },
 ];
 

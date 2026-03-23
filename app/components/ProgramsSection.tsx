@@ -21,17 +21,17 @@ export function ProgrammesSection() {
         <div>
           <div className="relative h-[500px] lg:h-[600px] rounded-2xl overflow-hidden shadow-xl group mt-5">
             <img
-              src="img/bang-coll.png"
+              src="img/degree-program.jpeg"
               alt="Students"
               className="w-full h-full object-cover transition duration-500"
             />
 
             {/* OVERLAY */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6 ">
+            {/* <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6 ">
               <p className="text-white text-sm">
                 Explore campus life and academic excellence
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
 
