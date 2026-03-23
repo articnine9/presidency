@@ -5,9 +5,12 @@
       "name": "School of Computer Science & Engineering",
 
       "hero": {
-        "title": "School of Computer Science & Engineering",
+        "title": {
+          "normal":"School of Computer Science ",
+          "italic":"& Engineering"
+        },
         "description": "Discover cutting-edge computing programmes in India’s technology capital.",
-        "breadcrumb": ["Home", "Schools", "Computer Science"],
+        "breadcrumb": ["Home", "Schools", "Computer Science & Engineering"],
         "image": "/img/classes/1.jpg",
         "stats": [
           { "label": "UG Programmes", "value": "13+" },
@@ -19,8 +22,8 @@
       "about": {
         "title": "A Gateway to India’s Tech Ecosystem",
         "content": [
-          "The Presidency flagship Stats of Computer Science & Tech Engineering is the classroom on the cusp of the country’s innovation and industry.",
-          "The comprehensive curriculum covers AI, Cyber Security, Blockchain, and DevOps with strong industry exposure."
+          "The Presidency School of Computer Science & Engineering is one of the university’s flagship academic divisions, offering a comprehensive portfolio of undergraduate, postgraduate, and doctoral programmes in computing, software development, and emerging technologies. Situated on the Presidency University campus in Bengaluru — widely regarded as India’s technology capital — the school provides international students with direct access to one of the world’s most dynamic tech ecosystems",
+          "Programmes within this school span foundational computer science, artificial intelligence, machine learning, data science, cyber security, blockchain technology, the Internet of Things, big data analytics, and DevOps engineering. The curriculum is designed with industry alignment at its core, ensuring that graduates are prepared for roles in multinational technology firms, research organisations, and innovative start-ups worldwide"
         ],
         "image": "/img/classes/1.jpg",
 
@@ -69,15 +72,15 @@
         "features": [
           {
             "title": "Advanced AI & Computing Labs",
-            "description": "Access high-performance GPU clusters and AI tools."
+            "description": "Access dedicated laboratories with high-performance GPU clusters and industry-standard AI/ML platforms including TensorFlow, PyTorch, and cloud-based AI services."
           },
           {
             "title": "Global Faculty Mentorship",
-            "description": "Learn from global experts."
+            "description": "Learn from researchers with international academic credentials and active industry consulting experience who bring real-world insights beyond the textbook."
           },
           {
             "title": "Industry Partnerships",
-            "description": "Collaborations with AWS, Azure, Google Cloud."
+            "description": "Collaborations with leading technology companies facilitate internships, globally recognised certifications (AWS, Google Cloud, Microsoft Azure), and placement opportunities."
           }
         ]
       },
@@ -191,18 +194,21 @@
         {
           "slug": "btech-cse",
           "name": "B.Tech Computer Science & Engineering",
-          "duration": "4 Years",
+          "duration": "4 Years.Full-Time",
           "type": "UG",
           "degree": "Bachelor of Technology",
 
           "hero": {
-            "title": "B.Tech Computer Science & Engineering",
+            "title": {
+              "normal":"B.Tech Computer Science",
+              "italic":" & Engineering"
+            },
             "description": "Build a strong foundation in computing, AI, and modern software technologies.",
-            "breadcrumb": ["Home", "Schools", "Computer Science", "B.Tech CSE"],
+            "breadcrumb": ["Home", "Schools", "Computer Science & Engineering", "B.Tech CSE"],
             "stats": [
               { "label": "Duration", "value": "4 Yr" },
               { "label": "Semesters", "value": "8" },
-              { "label": "Level", "value": "UG" }
+              { "label": "Core Programme", "value": "CSE" }
             ]
           },
 
@@ -213,9 +219,9 @@
           },
 
           "overview": [
-            "The B.Tech Computer Science & Engineering programme provides a strong foundation in computing, programming, and software development.",
-            "Students gain hands-on experience in emerging technologies such as Artificial Intelligence, Machine Learning, Cloud Computing, and Data Science.",
-            "The curriculum is industry-aligned to ensure graduates are job-ready with real-world experience."
+            "The B.Tech in Electronics & Communication Engineering explores the design, development, and deployment of electronic devices, circuits, and communication systems that underpin modern life. From mobile networks and satellite communications to embedded controllers and IoT devices, the programme builds expertise across analogue and digital electronics, signal processing, wireless systems, VLSI technology, and microcontroller-based design. Students gain fluency in both hardware and software aspects of electronic engineering through an integrated curriculum of theory, laboratory practice, and project work.",
+            "Bengaluru’s position as a centre for semiconductor manufacturing, telecom R&D, and electronics innovation gives students proximity to major employers and research organisations. The programme incorporates industry-oriented certifications, collaborative projects, and internship placements that connect classroom learning to professional practice. Graduates emerge prepared for roles in telecommunications, semiconductor design, consumer electronics, aerospace, defence, and automation industries worldwide."
+            
           ],
 
           "eligibility": {
@@ -271,16 +277,76 @@
               "POs": [
                 {
                   "id": "PO 1",
-                  "title": "Engineering Knowledge",
-                  "text": "Apply knowledge of computing and mathematics."
+                  
+                  "text": "Apply knowledge of mathematics, science, and engineering fundamentals to solve complex engineering problems."
+                },{
+                  "id": "PO 2",
+                  
+                  "text": "Identify, formulate, and analyse complex engineering problems using first principles of mathematics, natural sciences, and engineering."
+                },{
+                  "id": "PO 3",
+                  
+                  "text": "Design solutions for complex problems, including system components and processes, considering public health, safety, and societal and environmental factors."
+                },{
+                  "id": "PO 4",
+                 
+                  "text": "Conduct investigations of complex problems using research-based methods, data analysis, and synthesis to provide valid conclusions."
+                },
+                {
+                  "id": "PO 5",
+                  
+                  "text": "Select and apply appropriate techniques, resources, and modern engineering tools — including prediction and modelling — to complex engineering activities."
+                },
+                {
+                  "id": "PO 6",
+                  
+                  "text": "Assess societal, health, safety, legal, and cultural issues relevant to professional engineering practice."
+                },
+                {
+                  "id": "PO 7",
+                  
+                  "text": "Understand the impact of engineering solutions in societal and environmental contexts, demonstrating commitment to sustainable development."
+                },
+                {
+                  "id": "PO 8",
+                  
+                  "text": "Apply ethical principles and commit to professional ethics, responsibilities, and norms of engineering practice."
+                },
+                {
+                  "id": "PO 9",
+                  
+                  "text": "Function effectively as an individual and as a member or leader in diverse and multidisciplinary teams."
+                },
+                {
+                  "id": "PO 10",
+                  
+                  "text": "Communicate effectively with the engineering community and society at large on complex engineering activities."
+                },
+                {
+                  "id": "PO 11",
+                  
+                  "text": "Demonstrate knowledge and understanding of engineering and management principles to manage projects in multidisciplinary environments. "
+                },
+                {
+                  "id": "PO 12",
+                  
+                  "text": "Recognise the need for and engage in independent and lifelong learning in the broadest context of technological change."
                 }
               ],
 
               "PSOs": [
                 {
                   "id": "PSO 1",
-                  "title": "Specialisation Skills",
-                  "text": "Develop domain-specific expertise."
+                  "title": "Problem Analysis",
+                  "text": "Identify, formulate, and critically analyse complex engineering problems related to software engineering principles, programming, and computing technologies using first principles of mathematics, natural sciences, and engineering. ."
+                },{
+                  "id": "PSO 2",
+                  "title": "Solution Development",
+                  "text": "Design solutions for complex problems related to software engineering, programming, and computing — including system components and processes that address specified needs while considering public health, safety, and environmental factors."
+                },{
+                  "id": "PSO 3",
+                  "title": "Modern Tool Application",
+                  "text": "Create, select, and apply appropriate techniques, resources, and modern engineering tools — including prediction and modelling — to complex engineering activities related to software engineering, programming, and computing with an understanding of their capabilities and limitations."
                 }
               ]
             }
@@ -288,16 +354,33 @@
 
           "highlights": [
             {
-              "title": "Industry-Aligned Curriculum",
-              "description": "Designed with top tech companies."
+              "title": "Comprehensive Core Curriculum",
+              "description": "Covers the full spectrum of computer science — programming, data structures, AI, ML, cyber security, cloud computing, IoT, and blockchain — with regular updates to reflect global industry trends. "
             },
             {
-              "title": "Hands-on Learning",
-              "description": "Real-world projects and internships."
+              "title": "Innovation-Driven Culture ",
+              "description": "A strong culture of hackathons, coding competitions, and project-based learning provides platforms to transform concepts into tangible solutions. "
             },
             {
-              "title": "Advanced Technologies",
-              "description": "AI, ML, Cloud, Cyber Security."
+              "title": "Industry Expert Faculty ",
+              "description": "Faculty members bring real-world experience from active industry consulting, offering mentorship and insights that extend well beyond academic theory."
+            },
+            {
+              "title": "Global Internship & Exchange",
+              "description": "International internship placements and study-abroad partnerships broaden professional networks and enhance career mobility across global markets."
+            },
+             {
+              "title": "Professional Certifications ",
+              "description": "Earn industry-recognised credentials alongside your degree, including AWS, Google Cloud, Microsoft Azure, and other globally valued certifications."
+            }, {
+              "title": "Bengaluru Tech Ecosystem ",
+              "description": "Study in India’s technology capital — home to thousands of multinational tech firms, start-ups, and R&D centres — with direct access to internship and employment pipelines."
+            }, {
+              "title": "Strong Placement Track Record ",
+              "description": "Graduates are recruited by leading organisations including major IT companies, product firms, start-ups, and consulting organisations through dedicated placement drives."
+            }, {
+              "title": "Research & Publication Pathways ",
+              "description": "Faculty-guided research projects with opportunities for peer-reviewed publications and patent filings in emerging technology areasy."
             }
           ],
 
@@ -317,17 +400,42 @@
                 "Machine Learning Engineer",
                 "Data Scientist"
               ]
+            },
+            {
+              "category": "Emerging Technology ",
+              "roles": [
+                "IoT Solutions Engineer",
+                "AI Hardware Engineer",
+                "Robotics Systems Developer",
+                "Edge Computing Specialist"
+              ]
             }
           ],
 
           "faq": [
-            {
+             {
               "q": "What is eligibility?",
               "a": "10+2 with PCM."
             },
             {
-              "q": "Are internships included?",
-              "a": "Yes, internships are part of the program."
+              "q": "How do international students apply for the B.Tech CSE programme?",
+              "a": "International applicants should visit the Presidency University International admissions portal or contact the Office of International Affairs directly. The process typically involves submitting academic transcripts, proof of English language proficiency, and relevant entrance examination scores. Admission considers JEE Main, KCET, COMEDK, or the university’s own evaluation test."
+            },
+            {
+              "q": "What entrance examinations are accepted?",
+              "a": "The university accepts JEE Main, JEE Advanced, Karnataka CET (KCET), COMEDK UGET, and the Presidency University Entrance Examination Test (PUEET). International applicants should check with the admissions team whether alternative qualifications are accepted."
+            },
+            {
+              "q": " What career prospects are available after graduation?",
+              "a": "Graduates find roles as software developers, data scientists, AI engineers, cybersecurity specialists, cloud architects, and more across multinational IT companies, product firms, start-ups, government research bodies, and consulting organisations. The university’s placement cell maintains strong industry connections with regular on-campus recruitment drives.  "
+            },
+            {
+              "q": "Is the B.Tech CSE programme in demand globally? ",
+              "a": "Yes, B.Tech in Computer Science & Engineering remains one of the most in-demand degrees worldwide due to the growing need for tech professionals across every industry. Graduates are hired for roles spanning software development, data science, AI, and cybersecurity, with strong salary prospects and global career mobility. "
+            },
+            {
+              "q": "Is on-campus accommodation available for international students? ",
+              "a": "Presidency University offers dedicated student housing on its Bengaluru campus. International students are encouraged to contact the Office of International Affairs for information on hostel availability, room types, and the booking process."
             }
           ],
 
@@ -340,7 +448,7 @@
         {
           "slug": "btech-big-data",
           "name": "B.Tech Computer Science & Technology (Big Data)",
-          "duration": "4 Years",
+          "duration": "4 Years.Full-Time",
           "type": "UG",
           "degree": "Bachelor of Technology",
           "overview": "Learn to process, analyse, and manage large-scale data using modern tools like Hadoop, Spark, and AI-driven analytics."
@@ -348,7 +456,7 @@
         {
           "slug": "btech-devops",
           "name": "B.Tech Computer Science & Technology (DevOps)",
-          "duration": "4 Years",
+          "duration": "4 Years.Full-Time",
           "type": "UG",
           "degree": "Bachelor of Technology",
           "overview": "Master CI/CD pipelines, cloud infrastructure, and automation tools used in modern software delivery systems."
@@ -356,7 +464,7 @@
         {
           "slug": "btech-ai-ml",
           "name": "B.Tech Computer Science & Engineering (AI & ML)",
-          "duration": "4 Years",
+          "duration": "4 Years.Full-Time",
           "type": "UG",
           "degree": "Bachelor of Technology",
           "overview": "Develop intelligent systems using machine learning, deep learning, and AI technologies across real-world applications."
@@ -364,7 +472,7 @@
         {
           "slug": "btech-blockchain",
           "name": "B.Tech Computer Science & Engineering (Blockchain)",
-          "duration": "4 Years",
+          "duration": "4 Years.Full-Time",
           "type": "UG",
           "degree": "Bachelor of Technology",
           "overview": "Explore blockchain architecture, smart contracts, and decentralized applications for future-ready systems."
@@ -372,7 +480,7 @@
         {
           "slug": "btech-cyber-security",
           "name": "B.Tech Computer Science & Engineering (Cyber Security)",
-          "duration": "4 Years",
+          "duration": "4 Years.Full-Time",
           "type": "UG",
           "degree": "Bachelor of Technology",
           "overview": "Learn network security, ethical hacking, cryptography, and cyber defense strategies to protect digital systems."
@@ -380,7 +488,7 @@
         {
           "slug": "btech-data-science",
           "name": "B.Tech Computer Science & Engineering (Data Science)",
-          "duration": "4 Years",
+          "duration": "4 Years.Full-Time",
           "type": "UG",
           "degree": "Bachelor of Technology",
           "overview": "Gain expertise in data analysis, machine learning, and statistical modelling to extract insights from complex data."
@@ -388,7 +496,7 @@
         {
           "slug": "btech-iot",
           "name": "B.Tech Computer Science & Engineering (Internet of Things)",
-          "duration": "4 Years",
+          "duration": "4 Years.Full-Time",
           "type": "UG",
           "degree": "Bachelor of Technology",
           "overview": "Build connected systems and smart devices using IoT technologies, sensors, and cloud platforms."
@@ -396,7 +504,7 @@
         {
           "slug": "btech-information-science",
           "name": "B.Tech Information Science & Engineering",
-          "duration": "4 Years",
+          "duration": "4 Years.Full-Time",
           "type": "UG",
           "degree": "Bachelor of Technology",
           "overview": "Focus on software development, information systems, and data management for modern IT solutions."
@@ -404,7 +512,7 @@
         {
           "slug": "btech-computer-engineering",
           "name": "B.Tech Computer Engineering",
-          "duration": "4 Years",
+          "duration": "4 Years.Full-Time",
           "type": "UG",
           "degree": "Bachelor of Technology",
           "overview": "Combine hardware and software knowledge to design and build efficient computing systems."
@@ -412,7 +520,7 @@
         {
           "slug": "btech-information-technology",
           "name": "B.Tech Information Science & Technology",
-          "duration": "4 Years",
+          "duration": "4 Years.Full-Time",
           "type": "UG",
           "degree": "Bachelor of Technology",
           "overview": "Learn IT infrastructure, networking, and software systems for enterprise and business applications."
@@ -420,7 +528,7 @@
         {
           "slug": "btech-robotics-ai",
           "name": "B.Tech Robotics & Artificial Intelligence",
-          "duration": "4 Years",
+          "duration": "4 Years.Full-Time",
           "type": "UG",
           "degree": "Bachelor of Technology",
           "overview": "Design intelligent robotic systems combining AI, automation, and embedded systems."
@@ -428,7 +536,7 @@
         {
           "slug": "btech-ai-data-science",
           "name": "B.Tech Artificial Intelligence & Data Science",
-          "duration": "4 Years",
+          "duration": "4 Years.Full-Time",
           "type": "UG",
           "degree": "Bachelor of Technology",
           "overview": "Integrate AI and data science techniques to build predictive and intelligent systems."
@@ -437,7 +545,7 @@
         {
           "slug": "mtech-ai",
           "name": "M.Tech Computer Science & Engineering (Artificial Intelligence)",
-          "duration": "2 Years",
+          "duration": "2 Years.Full-Time",
           "type": "PG",
           "degree": "Master of Technology",
           "overview": "Advanced study in AI, deep learning, and intelligent systems for research and industry applications."
@@ -445,7 +553,7 @@
         {
           "slug": "mtech-data-science",
           "name": "M.Tech Computer Science & Engineering (Data Science)",
-          "duration": "2 Years",
+          "duration": "2 Years.Full-Time",
           "type": "PG",
           "degree": "Master of Technology",
           "overview": "Specialise in big data, analytics, and machine learning for high-demand data-driven roles."
@@ -454,7 +562,7 @@
         {
           "slug": "phd-cse",
           "name": "Ph.D in Computer Science Engineering",
-          "duration": "Varies",
+          "duration": "Research Programme",
           "type": "PhD",
           "degree": "Doctor of Philosophy",
           "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies."
@@ -462,7 +570,7 @@
         {
           "slug": "pg-diploma-big-data",
           "name": "Post Graduate Diploma in Big Data",
-          "duration": "1 Year",
+          "duration": "Diploma Programme",
           "type": "Diploma",
           "degree": "Post Graduate Diploma",
           "overview": "Develop practical skills in big data technologies, analytics, and data-driven decision making."
@@ -714,7 +822,7 @@
         {
           "slug": "btech-mechanical",
           "name": "B.Tech Mechanical Engineering",
-          "duration": "4 Years",
+          "duration": "4 Years ",
           "type": "UG",
           "degree": "Bachelor of Technology",
           "overview": "Learn design, manufacturing, thermodynamics, and mechanical systems for modern industries."
