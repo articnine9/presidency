@@ -1,4 +1,5 @@
 "use client";
+import { ArrowRight } from "lucide-react";
 
 export default function BangaloreHighlights() {
   return (
@@ -12,7 +13,7 @@ export default function BangaloreHighlights() {
           </h2>
 
           {/* DESCRIPTION */}
-          <p className="text-[13px] text-gray-600 leading-relaxed mb-6">
+          <p className="text-base text-gray-600 leading-relaxed mb-6">
             Visit Presidency University connections with major tech firms, major
             tech firms, and can in contention to programme new help you
             connected a wagos-minu oonpanitarity.
@@ -29,24 +30,28 @@ export default function BangaloreHighlights() {
               ].map((item, i) => (
                 <div
                   key={i}
-                  className="bg-white rounded-xl shadow-sm h-[60px] flex items-center justify-center text-xs font-semibold text-gray-600 hover:shadow-md transition"
+                  className="bg-white rounded-xl shadow-sm h-[80px] flex items-center justify-center text-base font-semibold text-gray-600 hover:shadow-md transition"
                 >
                   {item}
                 </div>
               ))}
             </div>
             <div className="bg-white rounded-xl p-5 shadow-sm">
-              <h4 className="text-sm font-semibold text-gray-800 mb-2">
+              <h4 className="text-xl font-semibold text-gray-800 mb-2">
                 Placement Services
               </h4>
 
-              <p className="text-[13px] text-gray-600 mb-3">
+              <p className="text-base text-gray-600 mb-3">
                 Placement services owny plunvters for youwoxant and evuamative
                 students.
               </p>
 
-              <button className="text-[#c4a45b] font-semibold text-xs tracking-wide flex items-center gap-1">
-                LEARN MORE <span>›</span>
+              <button className="text-[#c4a45b] font-semibold text-xs tracking-wide flex items-center gap-1 group">
+                LEARN MORE
+                <ArrowRight
+                  size={14}
+                  className="transition group-hover:translate-x-1"
+                />
               </button>
             </div>
           </div>
@@ -61,7 +66,7 @@ export default function BangaloreHighlights() {
             VIBRANT CITY LIFE
           </h2>
 
-          <p className="text-[13px] text-gray-600 leading-relaxed mb-6 max-w-md">
+          <p className="text-base text-gray-600 leading-relaxed mb-6 max-w-md">
             Modern cafes, art galleries, and co-working spaces, ent-moders and
             adnsors coom city moders community.
           </p>
@@ -83,8 +88,8 @@ export default function BangaloreHighlights() {
                 key={i}
                 className="bg-white rounded-xl shadow-sm overflow-hidden hover:shadow-md transition"
               >
-                <img src={item.img} className="h-[110px] w-full object-cover" />
-                <div className="px-3 py-2 text-xs font-medium text-gray-700">
+                <img src={item.img} className="h-[100px] w-full object-cover" />
+                <div className="px-3 py-3 text-xl font-medium text-gray-700">
                   {item.title}
                 </div>
               </div>
@@ -94,8 +99,6 @@ export default function BangaloreHighlights() {
 
         {/* 🔥 CENTER DIVIDER */}
         <div className="hidden md:block absolute left-1/2 top-0 h-full w-[1px] bg-gray-300"></div>
-
-        {/* 🌐 ICON */}
       </div>
     </section>
   );

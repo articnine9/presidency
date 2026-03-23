@@ -11,7 +11,7 @@ export default function LivingFoodSection() {
           WORLD-CLASS LIVING AND FOOD
         </h2>
 
-        <p className="text-sm text-gray-600 mb-10 max-w-xl">
+        <p className="text-base text-gray-600 mb-10 max-w-xl">
           Cost of living is ens an interactive dashboard to elegants
           illustrative, interactive dashboard.
         </p>
@@ -30,7 +30,7 @@ export default function LivingFoodSection() {
 
             {/* TOP */}
             <div className="absolute top-4 left-4 right-4 flex justify-between items-center">
-              <h3 className="text-white text-sm font-semibold tracking-wide drop-shadow-md">
+              <h3 className="text-white text-xl tracking-wide drop-shadow-md">
                 HOUSING & APARTMENTS
               </h3>
 
@@ -41,15 +41,15 @@ export default function LivingFoodSection() {
 
             {/* 🔥 BOTTOM GLASS BOX */}
             <div className="absolute bottom-4 left-4 right-4 bg-black/50 backdrop-blur-md rounded-xl p-4 text-white">
-              <p className="text-xs opacity-80 mb-1 text-white">Price</p>
+              <p className="text-base opacity-80 mb-1 text-white">Price</p>
 
-              <p className="text-sm font-semibold mb-3 text-white">$2,000/mo</p>
+              <p className="text-base  mb-3 text-white">$2,000/mo</p>
 
               <div className="w-full h-1 bg-white/30 rounded-full relative">
                 <div className="absolute left-[60%] w-3 h-3 bg-white rounded-full -top-1 shadow"></div>
               </div>
 
-              <div className="flex justify-between text-[10px] mt-1 opacity-80">
+              <div className="flex justify-between text-base mt-1 opacity-80">
                 <span>Low</span>
                 <span>High</span>
               </div>
@@ -68,7 +68,7 @@ export default function LivingFoodSection() {
 
             {/* TOP */}
             <div className="absolute top-4 left-4 right-4 flex justify-between items-center">
-              <h3 className="text-white text-sm font-semibold tracking-wide drop-shadow-md">
+              <h3 className="text-white text-xl  tracking-wide drop-shadow-md">
                 TRANSPORTATION & CONNECTIVITY
               </h3>
 
@@ -79,15 +79,17 @@ export default function LivingFoodSection() {
 
             {/* 🔥 BOTTOM GLASS BOX */}
             <div className="absolute bottom-4 left-4 right-4 bg-black/50 backdrop-blur-md rounded-xl p-4 text-white">
-              <p className="text-xs opacity-80 mb-1 text-white">Price</p>
+              <p className="text-base opacity-80 mb-1 text-white">Price</p>
 
-              <p className="text-sm font-semibold mb-3 text-white">$2,000/mo</p>
+              <p className="text-base font-semibold mb-3 text-white">
+                $2,000/mo
+              </p>
 
               <div className="w-full h-1 bg-white/30 rounded-full relative">
                 <div className="absolute left-[40%] w-3 h-3 bg-white rounded-full -top-1 shadow"></div>
               </div>
 
-              <div className="flex justify-between text-[10px] mt-1 opacity-80">
+              <div className="flex justify-between text-base mt-1 opacity-80">
                 <span>Low</span>
                 <span>High</span>
               </div>

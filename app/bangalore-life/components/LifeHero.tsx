@@ -8,7 +8,7 @@ import "swiper/css";
 
 export default function BangaloreLife() {
   return (
-    <section className="w-full">
+    <section className="w-full bg-[#EEF1F5]">
       {/* 🔵 HERO SECTION */}
       <div className="relative h-[520px] w-full">
         <img
@@ -90,18 +90,18 @@ export default function BangaloreLife() {
                 />
 
                 {/* FULL DARK GRADIENT */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-black/20" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/70 to-black/70" />
 
                 {/* TOP TITLE */}
                 <div className="absolute top-4 left-4 right-4">
-                  <h3 className="text-white text-sm md:text-base font-semibold tracking-wide">
+                  <h3 className="text-white text-sm md:text-2xl  tracking-wide">
                     {item.title}
                   </h3>
                 </div>
 
                 {/* 🔥 BOTTOM OVERLAY BOX */}
                 <div className="absolute bottom-0 left-0 right-0 p-4 bg-black/40 backdrop-blur-md flex items-center justify-between">
-                  <p className="text-xs text-white/90">{item.desc}</p>
+                  <p className="text-xl text-white/90">{item.desc}</p>
 
                   <div className="w-9 h-9 rounded-full border border-white/40 flex items-center justify-center text-white group-hover:bg-white group-hover:text-black transition">
                     <ArrowRight

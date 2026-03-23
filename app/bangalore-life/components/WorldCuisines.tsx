@@ -9,7 +9,7 @@ import "swiper/css/navigation";
 
 export default function WorldCuisines() {
   return (
-    <section className="bg-[#f3f4f6] py-14 px-6">
+    <section className="py-14 px-6 bg-[#EEF1F5]">
       <div className="max-w-[1400px] mx-auto px-6">
         {/* 🔹 HEADER */}
         <div className="flex items-center justify-between mb-6">
@@ -78,9 +78,7 @@ export default function WorldCuisines() {
                   className="w-full h-[150px] object-cover group-hover:scale-105 transition duration-300"
                 />
 
-                <div className="p-3 text-sm font-medium text-gray-800">
-                  {item.title}
-                </div>
+                <div className="p-3 text-xl  text-gray-800">{item.title}</div>
               </div>
             </SwiperSlide>
           ))}
