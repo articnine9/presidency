@@ -20,7 +20,7 @@ const clubs = [
 
 export default function ClubSection() {
   return (
-    <section className="bg-white py-16 px-6">
+    <section className="bg-gray-100 py-16 px-6">
       <div className="max-w-[1400px] mx-auto px-6">
         {/* Heading */}
         <h2 className="text-center text-2xl md:text-4xl text-[#1B4E8C] mb-12">
