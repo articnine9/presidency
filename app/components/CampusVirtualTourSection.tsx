@@ -15,7 +15,7 @@ export function CampusVirtualTourSection() {
           alt="Campus"
           className="w-full h-full object-cover"
         /> */}
-        <video
+        {/* <video
               autoPlay
               loop
               muted
@@ -25,14 +25,16 @@ export function CampusVirtualTourSection() {
               // poster="https://images.unsplash.com/photo-1769905226788-1bf5ba8f50d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5JTIwY2FtcHVzJTIwc3R1ZGVudHMlMjB3YWxraW5nfGVufDF8fHx8MTc3MzM5ODc4N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
             >
               <source
-                src="/videos/hero-video.mp4"
+                src="https://www.immersivetourz.com/presidencyuniversity/index.html"
                 type="video/mp4"
               />
-              {/* <source
-                src="https://cdn.coverr.co/videos/coverr-university-students-studying-together-5237/1080p.mp4"
-                type="video/mp4"
-              /> */}
-            </video>
+             
+            </video> */}
+            <iframe
+  src="https://www.immersivetourz.com/presidencyuniversity/"
+  className="w-full h-full"
+  allowFullScreen
+></iframe>
 
         {/* OVERLAY */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-black/20"></div>
@@ -83,10 +85,17 @@ export function CampusVirtualTourSection() {
         </motion.p>
 
         {/* ✅ CTA BUTTON (MATCHED STYLE) */}
-        <button className="mt-10 bg-[#ff8c42] hover:bg-[#e67932] text-white px-8 py-3 rounded-full flex items-center gap-3 mx-auto transition shadow-md hover:shadow-lg">
-          Virtual Tour 360
-          <ArrowRight size={18} />
-        </button>
+        <a
+  href="https://www.immersivetourz.com/presidencyuniversity/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="cursor-pointer"
+>
+  <button className="mt-10 bg-[#ff8c42] hover:bg-[#e67932] text-white px-8 py-3 rounded-full flex items-center gap-3 mx-auto transition shadow-md hover:shadow-lg">
+    Virtual Tour 360
+    <ArrowRight size={18} />
+  </button>
+</a>
       </div>
     </section>
   );
