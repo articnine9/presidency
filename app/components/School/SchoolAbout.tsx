@@ -57,7 +57,7 @@ export default function SchoolAbout({ data }: SchoolAboutProps) {
                     background:
                       item.type === "text" ? "#0A8F96" : "transparent",
                     clipPath:
-                      "polygon(25% 6%, 75% 6%, 100% 50%, 75% 94%, 25% 94%, 0% 50%)",
+                      "polygon(25% %, 75% 6%, 100% 50%, 75% 94%, 25% 94%, 0% 50%)",
                     WebkitClipPath:
                       "polygon(25% 6%, 75% 6%, 100% 50%, 75% 94%, 25% 94%, 0% 50%)",
                   }}
@@ -98,7 +98,7 @@ export default function SchoolAbout({ data }: SchoolAboutProps) {
         {data.features && (
           <div className="mt-16">
             <h2 className="text-3xl md:text-4xl font-serif text-gray-900 mb-10">
-              Key Highlights
+             What You’ll Experience Here  
             </h2>
 
             <div className="grid md:grid-cols-3 gap-6">

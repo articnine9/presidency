@@ -1,0 +1,1311 @@
+{
+  "schools": [
+    {
+      "slug": "computer-science",
+      "name": "School of Computer Science & Engineering",
+
+      "hero": {
+        "title": {
+          "normal":"School of Computer Science ",
+          "italic":"& Engineering"
+        },
+        "description": "Discover cutting-edge computing programmes in India’s technology capital.",
+        "breadcrumb": ["Home", "Schools", "Computer Science & Engineering"],
+        "image": "/img/classes/1.jpg",
+        "stats": [
+          { "label": "UG Programmes", "value": "13+" },
+          { "label": "PG Programmes", "value": "2" },
+          { "label": "Doctoral Research", "value": "Ph.D" }
+        ]
+      },
+
+      "about": {
+        "title": "A Gateway to India’s Tech Ecosystem",
+        "content": [
+          "The Presidency School of Computer Science & Engineering is one of the university’s flagship academic divisions, offering a comprehensive portfolio of undergraduate, postgraduate, and doctoral programmes in computing, software development, and emerging technologies. Situated on the Presidency University campus in Bengaluru — widely regarded as India’s technology capital — the school provides international students with direct access to one of the world’s most dynamic tech ecosystems",
+          "Programmes within this school span foundational computer science, artificial intelligence, machine learning, data science, cyber security, blockchain technology, the Internet of Things, big data analytics, and DevOps engineering. The curriculum is designed with industry alignment at its core, ensuring that graduates are prepared for roles in multinational technology firms, research organisations, and innovative start-ups worldwide"
+        ],
+        "image": "/img/classes/1.jpg",
+
+        "hexagons": [
+          {
+            "type": "text",
+            "text": "Cloud Computing",
+            "icon": "/icons/cloud.svg",
+            "top": "0%",
+            "left": "35%"
+          },
+          {
+            "type": "text",
+            "text": "Newest Research",
+            "icon": "/icons/research.svg",
+            "top": "20%",
+            "left": "70%"
+          },
+          {
+            "type": "text",
+            "text": "Industry Mentorship",
+            "icon": "/icons/mentorship.svg",
+            "top": "55%",
+            "left": "70%"
+          },
+          {
+            "type": "text",
+            "text": "Research Ecosystem",
+            "icon": "/icons/system.svg",
+            "top": "75%",
+            "left": "37%"
+          },
+          {
+            "type": "image",
+            "image": "/img/classes/1.jpg",
+            "top": "55%",
+            "left": "0%"
+          },
+          {
+            "type": "image",
+            "image": "/img/classes/1.jpg",
+            "top": "20%",
+            "left": "0%"
+          }
+        ],
+        "features": [
+          {
+            "title": "Advanced AI & Computing Labs",
+            "description": "Access dedicated laboratories with high-performance GPU clusters and industry-standard AI/ML platforms including TensorFlow, PyTorch, and cloud-based AI services."
+          },
+          {
+            "title": "Global Faculty Mentorship",
+            "description": "Learn from researchers with international academic credentials and active industry consulting experience who bring real-world insights beyond the textbook."
+          },
+          {
+            "title": "Industry Partnerships",
+            "description": "Collaborations with leading technology companies facilitate internships, globally recognised certifications (AWS, Google Cloud, Microsoft Azure), and placement opportunities."
+          }
+        ]
+      },
+      "visionMission": {
+        "vision": {
+          "title": "Vision",
+          "description": "To be a value-based, practice-driven school catalyzing progress and nurturing global professionals.",
+          "points": [
+            "Practice-driven and preferred programs",
+            "Mission to AI & Cyber Security",
+            "Mission for life and career direction",
+            "Mission to innovators and transformation",
+            "Research-led Computer Science Engineering"
+          ]
+        },
+        "mission": {
+          "title": "Mission",
+          "description": "To empower students with cutting-edge knowledge and industry-ready skills.",
+          "points": [
+            "Deliver industry-aligned curriculum",
+            "Encourage innovation and research",
+            "Build ethical and responsible engineers",
+            "Promote global exposure",
+            "Enhance employability and leadership"
+          ]
+        }
+      },
+      "programPreview": {
+        "title": "About the School of Law",
+        "subtitle": "Building Future Legal Professionals",
+        "content": [
+          "The Presidency School of Law is approved by the Bar Council of India.",
+          "Offers integrated law programmes and global exposure."
+        ],
+        "programs": [
+          {
+            "name": "B.A. LL.B. (Hons.)",
+            "duration": "5 Years - Full-Time",
+            "image": "/img/classes/1.jpg"
+          },
+          {
+            "name": "B.B.A. LL.B. (Hons.)",
+            "duration": "5 Years - Full-Time",
+            "image": "/img/classes/1.jpg"
+          }
+        ]
+      },
+      "programTable": {
+        "image": "/img/classes/1.jpg",
+        "description": "Five-year full-time programme with focus on legal excellence, research, and practical exposure.",
+
+        "sections": [
+          {
+            "title": "Integrated Law – 5-Year Full-Time (Honours)",
+            "programs": [
+              {
+                "name": "B.A. LL.B. (Hons.)",
+                "duration": "5 Years - Full-Time"
+              },
+              {
+                "name": "B.B.A. LL.B. (Hons.)",
+                "duration": "5 Years - Full-Time"
+              }
+            ]
+          },
+          {
+            "title": "Doctoral Studies",
+            "programs": [
+              {
+                "name": "Ph.D. Law",
+                "duration": "Doctoral Research"
+              }
+            ]
+          }
+        ]
+      },
+      "faq": [
+        {
+          "q": "What is the difference between B.A. LL.B. and B.B.A. LL.B.?",
+          "a": "B.A. LL.B focuses on humanities while B.B.A. LL.B focuses on business subjects."
+        },
+        {
+          "q": "What are the eligibility requirements?",
+          "a": "Candidates must have completed 10+2 with minimum required marks."
+        },
+        {
+          "q": "Can I specialise during my studies?",
+          "a": "Yes, students can choose specialisation tracks."
+        },
+        {
+          "q": "Are internships included?",
+          "a": "Yes, internships and practical training are part of the programme."
+        }
+      ],
+      "highlights": [
+        {
+          "title": "Advanced AI & Computing Labs",
+          "description": "Access high-performance GPU clusters and AI/ML platforms like TensorFlow and PyTorch."
+        },
+        {
+          "title": "Global Faculty Mentorship",
+          "description": "Learn from internationally experienced faculty with strong industry exposure."
+        },
+        {
+          "title": "Industry Partnerships",
+          "description": "Collaborations with top tech companies for internships and certifications."
+        }
+      ],
+
+      "programs": [
+        {
+          "slug": "btech-cse",
+          "name": "B.Tech Computer Science & Engineering",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+
+          "hero": {
+            "title": {
+              "normal":"B.Tech Computer Science",
+              "italic":" & Engineering"
+            },
+            "description": "Build a strong foundation in computing, AI, and modern software technologies.",
+            "breadcrumb": ["Home", "Schools", "Computer Science & Engineering", "B.Tech CSE"],
+            "stats": [
+              { "label": "Duration", "value": "4 Yr" },
+              { "label": "Semesters", "value": "8" },
+              { "label": "Core Programme", "value": "CSE" }
+            ]
+          },
+
+          "details": {
+            "duration": "4 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "Computer Science & Engineering"
+          },
+
+          "overview": [
+            "The B.Tech in Electronics & Communication Engineering explores the design, development, and deployment of electronic devices, circuits, and communication systems that underpin modern life. From mobile networks and satellite communications to embedded controllers and IoT devices, the programme builds expertise across analogue and digital electronics, signal processing, wireless systems, VLSI technology, and microcontroller-based design. Students gain fluency in both hardware and software aspects of electronic engineering through an integrated curriculum of theory, laboratory practice, and project work.",
+            "Bengaluru’s position as a centre for semiconductor manufacturing, telecom R&D, and electronics innovation gives students proximity to major employers and research organisations. The programme incorporates industry-oriented certifications, collaborative projects, and internship placements that connect classroom learning to professional practice. Graduates emerge prepared for roles in telecommunications, semiconductor design, consumer electronics, aerospace, defence, and automation industries worldwide."
+            
+          ],
+
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "note": "Eligibility may vary for international students."
+          },
+
+          "tabs": {
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  { "name": "Mathematics I", "code": "MAT101" },
+                  { "name": "Programming in C", "code": "CSE101" },
+                  { "name": "Physics", "code": "PHY101" }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  { "name": "Data Structures", "code": "CSE201" },
+                  { "name": "Discrete Mathematics", "code": "MAT201" },
+                  { "name": "Digital Logic", "code": "CSE202" }
+                ]
+              }
+            ],
+
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Professional Excellence",
+                  "text": "Equip graduates to thrive as professionals across industries worldwide."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Responsible Citizenship",
+                  "text": "Develop graduates who contribute to society as ethical global citizens."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Analytical & Collaborative Skills",
+                  "text": "Foster strong analytical reasoning and teamwork."
+                },
+                {
+                  "id": "PEO 4",
+                  "title": "Lifelong Learning",
+                  "text": "Encourage continuous learning and professional growth."
+                }
+              ],
+
+              "POs": [
+                {
+                  "id": "PO 1",
+                  
+                  "text": "Apply knowledge of mathematics, science, and engineering fundamentals to solve complex engineering problems."
+                },{
+                  "id": "PO 2",
+                  
+                  "text": "Identify, formulate, and analyse complex engineering problems using first principles of mathematics, natural sciences, and engineering."
+                },{
+                  "id": "PO 3",
+                  
+                  "text": "Design solutions for complex problems, including system components and processes, considering public health, safety, and societal and environmental factors."
+                },{
+                  "id": "PO 4",
+                 
+                  "text": "Conduct investigations of complex problems using research-based methods, data analysis, and synthesis to provide valid conclusions."
+                },
+                {
+                  "id": "PO 5",
+                  
+                  "text": "Select and apply appropriate techniques, resources, and modern engineering tools — including prediction and modelling — to complex engineering activities."
+                },
+                {
+                  "id": "PO 6",
+                  
+                  "text": "Assess societal, health, safety, legal, and cultural issues relevant to professional engineering practice."
+                },
+                {
+                  "id": "PO 7",
+                  
+                  "text": "Understand the impact of engineering solutions in societal and environmental contexts, demonstrating commitment to sustainable development."
+                },
+                {
+                  "id": "PO 8",
+                  
+                  "text": "Apply ethical principles and commit to professional ethics, responsibilities, and norms of engineering practice."
+                },
+                {
+                  "id": "PO 9",
+                  
+                  "text": "Function effectively as an individual and as a member or leader in diverse and multidisciplinary teams."
+                },
+                {
+                  "id": "PO 10",
+                  
+                  "text": "Communicate effectively with the engineering community and society at large on complex engineering activities."
+                },
+                {
+                  "id": "PO 11",
+                  
+                  "text": "Demonstrate knowledge and understanding of engineering and management principles to manage projects in multidisciplinary environments. "
+                },
+                {
+                  "id": "PO 12",
+                  
+                  "text": "Recognise the need for and engage in independent and lifelong learning in the broadest context of technological change."
+                }
+              ],
+
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Problem Analysis",
+                  "text": "Identify, formulate, and critically analyse complex engineering problems related to software engineering principles, programming, and computing technologies using first principles of mathematics, natural sciences, and engineering. ."
+                },{
+                  "id": "PSO 2",
+                  "title": "Solution Development",
+                  "text": "Design solutions for complex problems related to software engineering, programming, and computing — including system components and processes that address specified needs while considering public health, safety, and environmental factors."
+                },{
+                  "id": "PSO 3",
+                  "title": "Modern Tool Application",
+                  "text": "Create, select, and apply appropriate techniques, resources, and modern engineering tools — including prediction and modelling — to complex engineering activities related to software engineering, programming, and computing with an understanding of their capabilities and limitations."
+                }
+              ]
+            }
+          },
+
+          "highlights": [
+            {
+              "title": "Comprehensive Core Curriculum",
+              "description": "Covers the full spectrum of computer science — programming, data structures, AI, ML, cyber security, cloud computing, IoT, and blockchain — with regular updates to reflect global industry trends. "
+            },
+            {
+              "title": "Innovation-Driven Culture ",
+              "description": "A strong culture of hackathons, coding competitions, and project-based learning provides platforms to transform concepts into tangible solutions. "
+            },
+            {
+              "title": "Industry Expert Faculty ",
+              "description": "Faculty members bring real-world experience from active industry consulting, offering mentorship and insights that extend well beyond academic theory."
+            },
+            {
+              "title": "Global Internship & Exchange",
+              "description": "International internship placements and study-abroad partnerships broaden professional networks and enhance career mobility across global markets."
+            },
+             {
+              "title": "Professional Certifications ",
+              "description": "Earn industry-recognised credentials alongside your degree, including AWS, Google Cloud, Microsoft Azure, and other globally valued certifications."
+            }, {
+              "title": "Bengaluru Tech Ecosystem ",
+              "description": "Study in India’s technology capital — home to thousands of multinational tech firms, start-ups, and R&D centres — with direct access to internship and employment pipelines."
+            }, {
+              "title": "Strong Placement Track Record ",
+              "description": "Graduates are recruited by leading organisations including major IT companies, product firms, start-ups, and consulting organisations through dedicated placement drives."
+            }, {
+              "title": "Research & Publication Pathways ",
+              "description": "Faculty-guided research projects with opportunities for peer-reviewed publications and patent filings in emerging technology areasy."
+            }
+          ],
+
+          "careers": [
+            {
+              "category": "Core Roles",
+              "roles": [
+                "Software Developer",
+                "Full Stack Developer",
+                "Backend Engineer"
+              ]
+            },
+            {
+              "category": "Emerging Roles",
+              "roles": [
+                "AI Engineer",
+                "Machine Learning Engineer",
+                "Data Scientist"
+              ]
+            },
+            {
+              "category": "Emerging Technology ",
+              "roles": [
+                "IoT Solutions Engineer",
+                "AI Hardware Engineer",
+                "Robotics Systems Developer",
+                "Edge Computing Specialist"
+              ]
+            }
+          ],
+
+          "faq": [
+             {
+              "q": "What is eligibility?",
+              "a": "10+2 with PCM."
+            },
+            {
+              "q": "How do international students apply for the B.Tech CSE programme?",
+              "a": "International applicants should visit the Presidency University International admissions portal or contact the Office of International Affairs directly. The process typically involves submitting academic transcripts, proof of English language proficiency, and relevant entrance examination scores. Admission considers JEE Main, KCET, COMEDK, or the university’s own evaluation test."
+            },
+            {
+              "q": "What entrance examinations are accepted?",
+              "a": "The university accepts JEE Main, JEE Advanced, Karnataka CET (KCET), COMEDK UGET, and the Presidency University Entrance Examination Test (PUEET). International applicants should check with the admissions team whether alternative qualifications are accepted."
+            },
+            {
+              "q": " What career prospects are available after graduation?",
+              "a": "Graduates find roles as software developers, data scientists, AI engineers, cybersecurity specialists, cloud architects, and more across multinational IT companies, product firms, start-ups, government research bodies, and consulting organisations. The university’s placement cell maintains strong industry connections with regular on-campus recruitment drives.  "
+            },
+            {
+              "q": "Is the B.Tech CSE programme in demand globally? ",
+              "a": "Yes, B.Tech in Computer Science & Engineering remains one of the most in-demand degrees worldwide due to the growing need for tech professionals across every industry. Graduates are hired for roles spanning software development, data science, AI, and cybersecurity, with strong salary prospects and global career mobility. "
+            },
+            {
+              "q": "Is on-campus accommodation available for international students? ",
+              "a": "Presidency University offers dedicated student housing on its Bengaluru campus. International students are encouraged to contact the Office of International Affairs for information on hostel availability, room types, and the booking process."
+            }
+          ],
+
+          "cta": {
+            "title": "Your Future Starts Here",
+            "subtitle": "Join Presidency University and build your career in technology.",
+            "button": "Apply Now"
+          }
+        },
+        {
+          "slug": "btech-big-data",
+          "name": "B.Tech Computer Science & Technology (Big Data)",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Learn to process, analyse, and manage large-scale data using modern tools like Hadoop, Spark, and AI-driven analytics."
+        },
+        {
+          "slug": "btech-devops",
+          "name": "B.Tech Computer Science & Technology (DevOps)",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Master CI/CD pipelines, cloud infrastructure, and automation tools used in modern software delivery systems."
+        },
+        {
+          "slug": "btech-ai-ml",
+          "name": "B.Tech Computer Science & Engineering (AI & ML)",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Develop intelligent systems using machine learning, deep learning, and AI technologies across real-world applications."
+        },
+        {
+          "slug": "btech-blockchain",
+          "name": "B.Tech Computer Science & Engineering (Blockchain)",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Explore blockchain architecture, smart contracts, and decentralized applications for future-ready systems."
+        },
+        {
+          "slug": "btech-cyber-security",
+          "name": "B.Tech Computer Science & Engineering (Cyber Security)",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Learn network security, ethical hacking, cryptography, and cyber defense strategies to protect digital systems."
+        },
+        {
+          "slug": "btech-data-science",
+          "name": "B.Tech Computer Science & Engineering (Data Science)",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Gain expertise in data analysis, machine learning, and statistical modelling to extract insights from complex data."
+        },
+        {
+          "slug": "btech-iot",
+          "name": "B.Tech Computer Science & Engineering (Internet of Things)",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Build connected systems and smart devices using IoT technologies, sensors, and cloud platforms."
+        },
+        {
+          "slug": "btech-information-science",
+          "name": "B.Tech Information Science & Engineering",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Focus on software development, information systems, and data management for modern IT solutions."
+        },
+        {
+          "slug": "btech-computer-engineering",
+          "name": "B.Tech Computer Engineering",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Combine hardware and software knowledge to design and build efficient computing systems."
+        },
+        {
+          "slug": "btech-information-technology",
+          "name": "B.Tech Information Science & Technology",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Learn IT infrastructure, networking, and software systems for enterprise and business applications."
+        },
+        {
+          "slug": "btech-robotics-ai",
+          "name": "B.Tech Robotics & Artificial Intelligence",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Design intelligent robotic systems combining AI, automation, and embedded systems."
+        },
+        {
+          "slug": "btech-ai-data-science",
+          "name": "B.Tech Artificial Intelligence & Data Science",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Integrate AI and data science techniques to build predictive and intelligent systems."
+        },
+
+        {
+          "slug": "mtech-ai",
+          "name": "M.Tech Computer Science & Engineering (Artificial Intelligence)",
+          "duration": "2 Years.Full-Time",
+          "type": "PG",
+          "degree": "Master of Technology",
+          "overview": "Advanced study in AI, deep learning, and intelligent systems for research and industry applications."
+        },
+        {
+          "slug": "mtech-data-science",
+          "name": "M.Tech Computer Science & Engineering (Data Science)",
+          "duration": "2 Years.Full-Time",
+          "type": "PG",
+          "degree": "Master of Technology",
+          "overview": "Specialise in big data, analytics, and machine learning for high-demand data-driven roles."
+        },
+
+        {
+          "slug": "phd-cse",
+          "name": "Ph.D in Computer Science Engineering",
+          "duration": "Research Programme",
+          "type": "PhD",
+          "degree": "Doctor of Philosophy",
+          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies."
+        },
+        {
+          "slug": "pg-diploma-big-data",
+          "name": "Post Graduate Diploma in Big Data",
+          "duration": "Diploma Programme",
+          "type": "Diploma",
+          "degree": "Post Graduate Diploma",
+          "overview": "Develop practical skills in big data technologies, analytics, and data-driven decision making."
+        }
+      ]
+    },
+    {
+      "slug": "management",
+      "name": "School of Management",
+
+      "hero": {
+        "title": "School of Management",
+        "description": "Develop leadership, business, and entrepreneurial skills for global careers.",
+        "breadcrumb": ["Home", "Schools", "Management"],
+        "stats": [
+          { "label": "UG Programmes", "value": "5+" },
+          { "label": "PG Programmes", "value": "5+" }
+        ]
+      },
+
+      "about": {
+        "title": "Shaping Future Business Leaders",
+        "content": [
+          "The School of Management offers dynamic programmes in business, marketing, finance, and analytics.",
+          "Students gain real-world exposure through internships, case studies, and industry projects.",
+          "Specialisations include aviation, digital marketing, and business analytics."
+        ]
+      },
+
+      "programs": [
+        {
+          "slug": "bba",
+          "name": "BBA (Bachelor of Business Administration)",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Business Administration",
+          "overview": "Build a strong foundation in business management, leadership, marketing, finance, and entrepreneurship."
+        },
+        {
+          "slug": "bba-aviation",
+          "name": "BBA Aviation Management",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Business Administration",
+          "overview": "Learn airline operations, airport management, and aviation industry practices."
+        },
+        {
+          "slug": "bba-business-analytics",
+          "name": "BBA Business Analytics",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Business Administration",
+          "overview": "Gain skills in data analysis, business intelligence, and decision-making using analytics tools."
+        },
+        {
+          "slug": "bba-digital-marketing",
+          "name": "BBA Digital Marketing",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Business Administration",
+          "overview": "Master SEO, social media marketing, content strategy, and online branding."
+        },
+        {
+          "slug": "bba-digital-business",
+          "name": "BBA Digital Business",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Business Administration",
+          "overview": "Learn e-commerce, digital transformation, and online business models."
+        },
+        {
+          "slug": "bba-hospitality",
+          "name": "BBA Hospitality Management",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Business Administration",
+          "overview": "Focus on hotel management, tourism, and customer experience in hospitality industries."
+        },
+
+        {
+          "slug": "mba-finance",
+          "name": "MBA Finance",
+          "duration": "2 Years",
+          "type": "PG",
+          "degree": "Master of Business Administration",
+          "overview": "Develop expertise in financial management, investment analysis, and corporate finance."
+        },
+        {
+          "slug": "mba-marketing",
+          "name": "MBA Marketing",
+          "duration": "2 Years",
+          "type": "PG",
+          "degree": "Master of Business Administration",
+          "overview": "Learn branding, consumer behavior, digital marketing, and strategic marketing."
+        },
+        {
+          "slug": "mba-banking-finance",
+          "name": "MBA Banking & Finance Management",
+          "duration": "2 Years",
+          "type": "PG",
+          "degree": "Master of Business Administration",
+          "overview": "Specialise in banking operations, financial services, and risk management."
+        },
+        {
+          "slug": "mba-digital-marketing",
+          "name": "MBA Digital Marketing",
+          "duration": "2 Years",
+          "type": "PG",
+          "degree": "Master of Business Administration",
+          "overview": "Advanced strategies in SEO, performance marketing, and digital business growth."
+        },
+        {
+          "slug": "mba-business-analytics",
+          "name": "MBA Business Analytics",
+          "duration": "2 Years",
+          "type": "PG",
+          "degree": "Master of Business Administration",
+          "overview": "Combine business strategy with data analytics to drive decision-making."
+        },
+
+        {
+          "slug": "phd-management",
+          "name": "Ph.D in Management",
+          "duration": "Varies",
+          "type": "PhD",
+          "degree": "Doctor of Philosophy",
+          "overview": "Conduct advanced research in business, management, finance, and marketing."
+        }
+      ]
+    },
+
+    {
+      "slug": "commerce",
+      "name": "School of Commerce",
+
+      "hero": {
+        "title": "School of Commerce",
+        "description": "Build expertise in finance, accounting, and global business.",
+        "breadcrumb": ["Home", "Schools", "Commerce"],
+        "stats": [
+          { "label": "UG Programmes", "value": "7+" },
+          { "label": "PhD Programmes", "value": "1" }
+        ]
+      },
+
+      "about": {
+        "title": "Excellence in Commerce & Finance",
+        "content": [
+          "The School of Commerce offers globally recognised programmes in accounting and finance.",
+          "Students can pursue integrated courses like ACCA, CMA, and CA Foundation.",
+          "Strong focus on financial literacy and global business practices."
+        ]
+      },
+
+      "programs": [
+        {
+          "slug": "bcom",
+          "name": "B.Com (Bachelor of Commerce)",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Commerce",
+          "overview": "Build a strong foundation in accounting, finance, taxation, and business management."
+        },
+        {
+          "slug": "bcom-banking-finance",
+          "name": "B.Com Banking & Finance",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Commerce",
+          "overview": "Focus on banking systems, financial services, and investment management."
+        },
+        {
+          "slug": "bcom-acca",
+          "name": "B.Com with ACCA",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Commerce",
+          "overview": "Integrated ACCA programme with global accounting certification and commerce degree."
+        },
+        {
+          "slug": "bcom-cma",
+          "name": "B.Com with CMA (US)",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Commerce",
+          "overview": "Combine commerce education with CMA (US) certification for global finance careers."
+        },
+        {
+          "slug": "bcom-ca-foundation",
+          "name": "B.Com with CA Foundation",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Commerce",
+          "overview": "Prepare for Chartered Accountant (CA) Foundation alongside your commerce degree."
+        },
+        {
+          "slug": "bcom-corporate-tax",
+          "name": "B.Com Corporate Accounting & Taxation",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Commerce",
+          "overview": "Learn corporate accounting, tax planning, auditing, and financial compliance."
+        },
+        {
+          "slug": "bcom-business-analytics",
+          "name": "B.Com Business Analytics",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Commerce",
+          "overview": "Combine commerce with data analytics, business intelligence, and decision-making tools."
+        },
+
+        {
+          "slug": "phd-commerce",
+          "name": "Ph.D in Commerce",
+          "duration": "Varies",
+          "type": "PhD",
+          "degree": "Doctor of Philosophy",
+          "overview": "Conduct advanced research in accounting, finance, taxation, and commerce-related fields."
+        }
+      ]
+    },
+    {
+      "slug": "engineering",
+      "name": "School of Engineering",
+
+      "hero": {
+        "title": "School of Engineering",
+        "subtitle": "6+ Undergraduate Programmes • 3+ Postgraduate • Ph.D Research",
+        "description": "Explore core engineering disciplines with hands-on learning, modern laboratories, and industry-focused curriculum.",
+        "breadcrumb": ["Home", "Schools", "Engineering"],
+        "stats": [
+          { "label": "UG Programmes", "value": "6+" },
+          { "label": "PG Programmes", "value": "3+" },
+          { "label": "Doctoral Research", "value": "Ph.D" }
+        ]
+      },
+
+      "about": {
+        "title": "Building Future Engineers",
+        "content": [
+          "The School of Engineering offers strong academic foundations across core engineering disciplines including Mechanical, Civil, Electrical, and Electronics.",
+          "Students gain practical experience through advanced laboratories, real-world projects, and industry collaborations.",
+          "The curriculum is designed to develop problem-solving skills and prepare graduates for global engineering careers."
+        ]
+      },
+
+      "programs": [
+        {
+          "slug": "btech-mechanical",
+          "name": "B.Tech Mechanical Engineering",
+          "duration": "4 Years ",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Learn design, manufacturing, thermodynamics, and mechanical systems for modern industries."
+        },
+        {
+          "slug": "btech-civil",
+          "name": "B.Tech Civil Engineering",
+          "duration": "4 Years",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Develop infrastructure solutions including buildings, roads, bridges, and smart cities."
+        },
+        {
+          "slug": "btech-electrical",
+          "name": "B.Tech Electrical & Electronics Engineering",
+          "duration": "4 Years",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Focus on electrical systems, power generation, electronics, and automation."
+        },
+        {
+          "slug": "btech-electronics",
+          "name": "B.Tech Electronics & Communication Engineering",
+          "duration": "4 Years",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Study communication systems, embedded systems, and signal processing."
+        },
+        {
+          "slug": "btech-petroleum",
+          "name": "B.Tech Petroleum Engineering",
+          "duration": "4 Years",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Learn oil and gas exploration, drilling, and energy resource management."
+        },
+        {
+          "slug": "btech-drone",
+          "name": "Diploma in Drone Technology",
+          "duration": "1 Year",
+          "type": "Diploma",
+          "degree": "Diploma",
+          "overview": "Learn drone design, operation, and applications in industries like agriculture and surveillance."
+        },
+
+        {
+          "slug": "mtech-vlsi",
+          "name": "M.Tech Embedded Systems & VLSI",
+          "duration": "2 Years",
+          "type": "PG",
+          "degree": "Master of Technology",
+          "overview": "Specialise in chip design, embedded systems, and VLSI technologies."
+        },
+        {
+          "slug": "mtech-construction",
+          "name": "M.Tech Building & Construction Technology",
+          "duration": "2 Years",
+          "type": "PG",
+          "degree": "Master of Technology",
+          "overview": "Focus on advanced construction techniques, project management, and infrastructure development."
+        },
+
+        {
+          "slug": "phd-engineering",
+          "name": "Ph.D in Engineering",
+          "duration": "Varies",
+          "type": "PhD",
+          "degree": "Doctor of Philosophy",
+          "overview": "Conduct advanced research in engineering disciplines including mechanical, civil, electrical, and electronics."
+        }
+      ]
+    },
+    {
+      "slug": "design",
+      "name": "School of Design",
+
+      "hero": {
+        "title": "School of Design",
+        "subtitle": "6+ Undergraduate Programmes • Ph.D Research",
+        "description": "Explore creative disciplines from fashion and product design to game design and multimedia, combining creativity with technology.",
+        "breadcrumb": ["Home", "Schools", "Design"],
+        "stats": [
+          { "label": "UG Programmes", "value": "6+" },
+          { "label": "Doctoral Research", "value": "Ph.D" }
+        ]
+      },
+
+      "about": {
+        "title": "Designing the Future",
+        "content": [
+          "The School of Design offers a creative environment where innovation meets technology, enabling students to develop unique design solutions.",
+          "Programmes span communication design, fashion design, product design, space design, and game design, along with multimedia and animation.",
+          "Students gain hands-on experience through studio-based learning, real-world projects, and exposure to industry trends."
+        ]
+      },
+
+      "programs": [
+        {
+          "slug": "bdes-communication",
+          "name": "B.Des Communication Design",
+          "duration": "4 Years",
+          "type": "UG",
+          "degree": "Bachelor of Design",
+          "overview": "Learn visual communication, branding, typography, and digital media design."
+        },
+        {
+          "slug": "bdes-fashion",
+          "name": "B.Des Fashion Design",
+          "duration": "4 Years",
+          "type": "UG",
+          "degree": "Bachelor of Design",
+          "overview": "Explore fashion trends, garment design, textiles, and fashion business."
+        },
+        {
+          "slug": "bdes-product",
+          "name": "B.Des Product Design",
+          "duration": "4 Years",
+          "type": "UG",
+          "degree": "Bachelor of Design",
+          "overview": "Design innovative products with focus on usability, aesthetics, and functionality."
+        },
+        {
+          "slug": "bdes-space",
+          "name": "B.Des Space Design",
+          "duration": "4 Years",
+          "type": "UG",
+          "degree": "Bachelor of Design",
+          "overview": "Learn interior design, spatial planning, and environmental design concepts."
+        },
+        {
+          "slug": "bdes-game",
+          "name": "B.Des Game Design",
+          "duration": "4 Years",
+          "type": "UG",
+          "degree": "Bachelor of Design",
+          "overview": "Create interactive games using storytelling, animation, and game development tools."
+        },
+        {
+          "slug": "bsc-multimedia",
+          "name": "B.Sc Multimedia & Animation",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Science",
+          "overview": "Develop skills in animation, visual effects, and multimedia production."
+        },
+
+        {
+          "slug": "phd-design",
+          "name": "Ph.D in Design",
+          "duration": "Varies",
+          "type": "PhD",
+          "degree": "Doctor of Philosophy",
+          "overview": "Conduct advanced research in design, innovation, and creative technologies."
+        }
+      ]
+    },
+    {
+      "slug": "law",
+      "name": "School of Law",
+
+      "hero": {
+        "title": "School of Law",
+        "subtitle": "3+ Programmes • UG, PG & Ph.D",
+        "description": "Build a strong legal foundation with integrated law degrees and specialised postgraduate programmes.",
+        "breadcrumb": ["Home", "Schools", "Law"],
+        "stats": [
+          { "label": "UG Programmes", "value": "2" },
+          { "label": "PG Programmes", "value": "1" },
+          { "label": "Doctoral Research", "value": "Ph.D" }
+        ]
+      },
+
+      "about": {
+        "title": "Shaping Future Legal Professionals",
+        "content": [
+          "The School of Law offers integrated legal education combining law with business and humanities disciplines.",
+          "Students gain practical exposure through moot courts, legal clinics, internships, and case-based learning.",
+          "The curriculum is designed to develop analytical thinking, advocacy skills, and a strong understanding of legal systems."
+        ]
+      },
+
+      "programs": [
+        {
+          "slug": "ba-llb",
+          "name": "BA LLB (Hons.)",
+          "duration": "5 Years",
+          "type": "UG",
+          "degree": "Bachelor of Arts + Bachelor of Laws",
+          "overview": "An integrated programme combining law with humanities, preparing students for legal practice, judiciary, and civil services."
+        },
+        {
+          "slug": "bba-llb",
+          "name": "BBA LLB (Hons.)",
+          "duration": "5 Years",
+          "type": "UG",
+          "degree": "Bachelor of Business Administration + Bachelor of Laws",
+          "overview": "Blend business knowledge with legal expertise for careers in corporate law, compliance, and legal consultancy."
+        },
+
+        {
+          "slug": "llm",
+          "name": "LL.M (Master of Laws)",
+          "duration": "1 Year",
+          "type": "PG",
+          "degree": "Master of Laws",
+          "overview": "Advanced legal studies with specialisation in areas like corporate law, international law, and constitutional law."
+        },
+
+        {
+          "slug": "phd-law",
+          "name": "Ph.D in Law",
+          "duration": "Varies",
+          "type": "PhD",
+          "degree": "Doctor of Philosophy",
+          "overview": "Conduct advanced legal research in areas such as constitutional law, corporate law, and international law."
+        }
+      ]
+    },
+    {
+      "slug": "media-studies",
+      "name": "School of Media Studies",
+
+      "hero": {
+        "title": "School of Media Studies",
+        "subtitle": "5+ Undergraduate • PG & Ph.D Programmes",
+        "description": "Explore journalism, film production, digital media, and immersive technologies shaping the future of communication.",
+        "breadcrumb": ["Home", "Schools", "Media Studies"],
+        "stats": [
+          { "label": "UG Programmes", "value": "5+" },
+          { "label": "PG Programmes", "value": "1" },
+          { "label": "Doctoral Research", "value": "Ph.D" }
+        ]
+      },
+
+      "about": {
+        "title": "Creating the Future of Media",
+        "content": [
+          "The School of Media Studies prepares students for careers in journalism, film, advertising, and digital media industries.",
+          "Programmes combine theory with hands-on training in studios, editing labs, and real-world media projects.",
+          "Specialisations include digital marketing, film production, immersive media, and content creation."
+        ]
+      },
+
+      "programs": [
+        {
+          "slug": "ba-jmc-digital-marketing",
+          "name": "BA Journalism & Mass Communication (Digital Marketing & Advertising)",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Arts",
+          "overview": "Learn digital marketing strategies, branding, advertising, and social media management."
+        },
+        {
+          "slug": "ba-jmc-film",
+          "name": "BA Journalism & Mass Communication (Film & Television Production)",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Arts",
+          "overview": "Develop skills in filmmaking, video production, editing, and storytelling."
+        },
+        {
+          "slug": "ba-jmc-ar-vr",
+          "name": "BA Journalism & Mass Communication (AR/VR & Immersive Media)",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Arts",
+          "overview": "Explore augmented reality, virtual reality, and immersive storytelling technologies."
+        },
+        {
+          "slug": "ba-jmc-content",
+          "name": "BA Journalism & Mass Communication (Digital Storytelling & Content Creation)",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Arts",
+          "overview": "Create engaging content for digital platforms including blogs, video, and social media."
+        },
+        {
+          "slug": "ba-jmc-journalism",
+          "name": "BA Journalism & Mass Communication (Journalism)",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Arts",
+          "overview": "Learn news reporting, media ethics, investigative journalism, and broadcasting."
+        },
+
+        {
+          "slug": "ma-jmc",
+          "name": "MA Journalism & Mass Communication",
+          "duration": "2 Years",
+          "type": "PG",
+          "degree": "Master of Arts",
+          "overview": "Advanced media studies focusing on journalism, digital media, and communication strategies."
+        },
+
+        {
+          "slug": "pg-diploma-film",
+          "name": "PG Diploma in Film Making",
+          "duration": "1 Year",
+          "type": "Diploma",
+          "degree": "Post Graduate Diploma",
+          "overview": "Specialised training in filmmaking, cinematography, editing, and production."
+        },
+
+        {
+          "slug": "phd-media",
+          "name": "Ph.D in Media Studies",
+          "duration": "Varies",
+          "type": "PhD",
+          "degree": "Doctor of Philosophy",
+          "overview": "Conduct advanced research in journalism, media technologies, and communication studies."
+        }
+      ]
+    },
+    {
+      "slug": "liberal-arts",
+      "name": "School of Liberal Arts & Sciences",
+
+      "hero": {
+        "title": "School of Liberal Arts & Sciences",
+        "subtitle": "10+ UG • PG • Performing Arts • Ph.D Programmes",
+        "description": "Explore interdisciplinary education across humanities, social sciences, psychology, and performing arts.",
+        "breadcrumb": ["Home", "Schools", "Liberal Arts & Sciences"],
+        "stats": [
+          { "label": "UG Programmes", "value": "10+" },
+          { "label": "PG Programmes", "value": "2+" },
+          { "label": "Doctoral Research", "value": "Ph.D" }
+        ]
+      },
+
+      "about": {
+        "title": "Interdisciplinary Learning for a Global Future",
+        "content": [
+          "The School of Liberal Arts & Sciences offers a broad-based education combining humanities, social sciences, and performing arts.",
+          "Students develop critical thinking, communication, and analytical skills across disciplines like psychology, English, political science, and economics.",
+          "Unique performing arts programmes in music, dance, and theatre provide a blend of creativity and academic excellence."
+        ]
+      },
+
+      "programs": [
+        {
+          "slug": "ba-psychology",
+          "name": "BA Psychology",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Arts",
+          "overview": "Study human behaviour, cognitive processes, and mental health."
+        },
+        {
+          "slug": "ba-english",
+          "name": "BA English",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Arts",
+          "overview": "Explore literature, language, and communication across cultures."
+        },
+        {
+          "slug": "ba-political-science",
+          "name": "BA Political Science",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Arts",
+          "overview": "Understand political systems, governance, and international relations."
+        },
+        {
+          "slug": "ba-economics",
+          "name": "BA Economics",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Arts",
+          "overview": "Learn economic theory, policy-making, and global financial systems."
+        },
+        {
+          "slug": "ba-sociology",
+          "name": "BA Sociology",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Arts",
+          "overview": "Study society, culture, and social structures."
+        },
+
+        {
+          "slug": "bsc-psychology",
+          "name": "B.Sc Psychology",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Science",
+          "overview": "Scientific study of behaviour, neuroscience, and psychological research."
+        },
+
+        {
+          "slug": "ba-performing-arts-dance",
+          "name": "BA Performing Arts (Classical Dance)",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Arts",
+          "overview": "Train in classical dance forms with cultural and theoretical foundations."
+        },
+        {
+          "slug": "ba-performing-arts-music",
+          "name": "BA Performing Arts (Classical Music)",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Arts",
+          "overview": "Develop skills in classical music performance and theory."
+        },
+        {
+          "slug": "ba-performing-arts-western",
+          "name": "BA Performing Arts (Western Music)",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Arts",
+          "overview": "Learn western music theory, composition, and performance."
+        },
+        {
+          "slug": "ba-performing-arts-theatre",
+          "name": "BA Performing Arts (Theatre Studies)",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Arts",
+          "overview": "Explore acting, stagecraft, and theatre production."
+        },
+
+        {
+          "slug": "msc-psychology",
+          "name": "M.Sc Psychology",
+          "duration": "2 Years",
+          "type": "PG",
+          "degree": "Master of Science",
+          "overview": "Advanced psychology with specialisations in clinical, counselling, and industrial psychology."
+        },
+        {
+          "slug": "ma-english",
+          "name": "MA English",
+          "duration": "2 Years",
+          "type": "PG",
+          "degree": "Master of Arts",
+          "overview": "Advanced literary studies with specialisations in digital humanities and creative writing."
+        },
+
+        {
+          "slug": "phd-liberal-arts",
+          "name": "Ph.D in Liberal Arts & Sciences",
+          "duration": "Varies",
+          "type": "PhD",
+          "degree": "Doctor of Philosophy",
+          "overview": "Conduct interdisciplinary research across humanities, social sciences, and performing arts."
+        }
+      ]
+    },
+    {
+      "slug": "allied-health",
+      "name": "School of Allied Health Sciences",
+
+      "hero": {
+        "title": "School of Allied Health Sciences",
+        "subtitle": "Undergraduate Programme • Global Healthcare Career",
+        "description": "Build a rewarding healthcare career with globally relevant training in physiotherapy and allied health sciences.",
+        "breadcrumb": ["Home", "Schools", "Allied Health Sciences"],
+        "stats": [
+          { "label": "UG Programmes", "value": "1" },
+          { "label": "Global Career Pathways", "value": "Yes" }
+        ]
+      },
+
+      "about": {
+        "title": "Building Careers in Global Healthcare",
+        "content": [
+          "The School of Allied Health Sciences focuses on preparing students for careers in the healthcare sector with practical and clinical training.",
+          "The Bachelor of Physiotherapy (BPT) programme equips students with knowledge in anatomy, rehabilitation, and patient care.",
+          "Graduates can pursue careers in hospitals, rehabilitation centres, sports clinics, and international healthcare systems."
+        ]
+      },
+
+      "programs": [
+        {
+          "slug": "bpt",
+          "name": "Bachelor of Physiotherapy (BPT)",
+          "duration": "4.5 Years",
+          "type": "UG",
+          "degree": "Bachelor of Physiotherapy",
+          "overview": "Develop expertise in physical rehabilitation, injury recovery, and patient care through clinical training and practical exposure."
+        }
+      ]
+    }
+  ]
+}

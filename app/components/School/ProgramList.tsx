@@ -37,7 +37,7 @@ export default function ProgramList({ programs, slug }: ProgramListProps) {
             <h2 className="text-3xl md:text-4xl font-serif text-gray-900 mb-10">
               Undergraduate Programmes
             </h2>
-            <p className="text-sm text-gray-500 mb-4">
+            <p className="text-lg text-gray-500 mb-4">
               B.Tech — 4-Year Full-Time
             </p>
 
@@ -55,7 +55,7 @@ export default function ProgramList({ programs, slug }: ProgramListProps) {
             <h2 className="text-3xl md:text-4xl font-serif text-gray-900 mb-10">
               Postgraduate Programmes
             </h2>
-            <p className="text-sm text-gray-500 mb-4">
+            <p className="text-lg text-gray-500 mb-4">
               M.Tech — 2-Year Full-Time
             </p>
 
@@ -99,7 +99,7 @@ function ProgramRow({ program, slug }: any) {
   return (
     <Link
       href={`/schools/${slug}/${program.slug}`}
-      className="flex items-center justify-between bg-[#F1F3F5] hover:bg-[#E9ECEF] px-4 py-3 rounded-md transition"
+      className="flex items-center justify-between bg-[#e5f0f2] hover:bg-[#E9ECEF] px-4 py-3 rounded-md transition"
     >
       {/* LEFT */}
       <div className="flex items-center gap-3">
@@ -108,13 +108,13 @@ function ProgramRow({ program, slug }: any) {
           {getProgramIcon(program.name)}
         </div>
 
-        <span className="text-sm font-medium text-gray-800">
+        <span className="text-base font-medium text-gray-800">
           {program.name}
         </span>
       </div>
 
       {/* RIGHT BADGE */}
-      <span className="text-xs bg-white border border-gray-200 px-3 py-1 rounded-full text-gray-600">
+      <span className="text-base bg-white border border-gray-200 px-3 py-1 rounded-full text-gray-600">
         {program.duration}
       </span>
     </Link>

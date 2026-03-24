@@ -64,8 +64,8 @@ export default function CourseHero({ data, school }: any) {
       >
         <div className="rounded-xl overflow-hidden shadow-xl">
           {/* HEADER */}
-          <div className="bg-gradient-to-r from-[#1E3A5F] to-[#C9A24A] px-4 md:px-6 py-3 text-white text-sm md:text-base font-semibold">
-            Quick Info Bar
+          <div className="bg-gradient-to-r from-[#1E3A5F] to-[#C9A24A] px-4 md:px-6 py-3 text-white text-sm md:text-base font-semibold">Program Overview
+            {/* Quick Info Bar */}
           </div>
 
           {/* GRID */}

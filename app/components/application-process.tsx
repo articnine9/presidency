@@ -22,7 +22,7 @@ export function ApplicationProcess() {
       icon: <FileText size={32} />,
       title: "Submit Online Application",
       description:
-        "Complete the online application form with your academic and personal details.",
+        "Complete the online application form with your academic and personal .",
     },
     {
       number: "3",
