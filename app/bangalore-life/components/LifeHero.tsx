@@ -53,32 +53,32 @@ export default function BangaloreLife() {
             {
               title: "TECHNOLOGY HUBS",
               desc: "Specific innovation labs",
-              img: "/img/bang-life/innovation-2.png",
+              img: "img/banglo/hubs.png",
             },
             {
               title: "CULTURAL LANDMARKS",
               desc: "Modernised heritage-inspired sites",
-              img: "/img/bang-life/innovation-2.png",
+              img: "img/banglo/landmark.png",
             },
             {
               title: "CUBBON PARK",
               desc: "Photorealistic, lush view",
-              img: "/img/bang-life/innovation-2.png",
+              img: "/img/banglo/cubbon.png",
             },
             {
               title: "STARTUP ECOSYSTEM",
               desc: "India’s startup capital",
-              img: "/img/bang-life/innovation-2.png",
+              img: "/img/banglo/eco.png",
             },
             {
               title: "IT PARKS",
               desc: "Global tech companies hub",
-              img: "/img/bang-life/innovation-2.png",
+              img: "/img/banglo/it.png",
             },
             {
               title: "GREEN SPACES",
               desc: "Beautiful parks & nature",
-              img: "/img/bang-life/innovation-2.png",
+              img: "/img/banglo/green.png",
             },
           ].map((item, i) => (
             <SwiperSlide key={i}>
@@ -90,7 +90,8 @@ export default function BangaloreLife() {
                 />
 
                 {/* FULL DARK GRADIENT */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/70 to-black/70" />
+                {/* <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/70 to-black/70" /> */}
+                 <div className="absolute inset-0 bg-gradient-to-t   to-black/70" />
 
                 {/* TOP TITLE */}
                 <div className="absolute top-4 left-4 right-4">

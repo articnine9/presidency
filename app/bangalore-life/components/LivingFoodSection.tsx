@@ -19,9 +19,9 @@ export default function LivingFoodSection() {
         {/* 🔥 CARDS */}
         <div className="grid md:grid-cols-2 gap-6">
           {/* 🏠 CARD 1 */}
-          <div className="relative rounded-2xl overflow-hidden shadow-xl group hover:-translate-y-1 transition">
+          <div className="relative rounded-2xl overflow-hidden shadow-xl group hover:-translate-y-1 transition bs">
             <img
-              src="/img/bang-life/innovation-2.png"
+              src="/img/house.png"
               className="w-full h-[260px] object-cover group-hover:scale-105 transition duration-500"
             />
 
@@ -41,15 +41,15 @@ export default function LivingFoodSection() {
 
             {/* 🔥 BOTTOM GLASS BOX */}
             <div className="absolute bottom-4 left-4 right-4 bg-black/50 backdrop-blur-md rounded-xl p-4 text-white">
-              <p className="text-base opacity-80 mb-1 text-white">Price</p>
+              <p className="text-base opacity-80 text-white">Price</p>
 
-              <p className="text-base  mb-3 text-white">$2,000/mo</p>
+              <p className="text-base text-white">$2,000/mo</p>
 
               <div className="w-full h-1 bg-white/30 rounded-full relative">
                 <div className="absolute left-[60%] w-3 h-3 bg-white rounded-full -top-1 shadow"></div>
               </div>
 
-              <div className="flex justify-between text-base mt-1 opacity-80">
+              <div className="flex justify-between text-base  opacity-80">
                 <span>Low</span>
                 <span>High</span>
               </div>
@@ -59,7 +59,7 @@ export default function LivingFoodSection() {
           {/* 🚆 CARD 2 */}
           <div className="relative rounded-2xl overflow-hidden shadow-xl group hover:-translate-y-1 transition">
             <img
-              src="/img/bang-life/innovation-2.png"
+              src="/img/trans.png"
               className="w-full h-[260px] object-cover group-hover:scale-105 transition duration-500"
             />
 
@@ -79,9 +79,9 @@ export default function LivingFoodSection() {
 
             {/* 🔥 BOTTOM GLASS BOX */}
             <div className="absolute bottom-4 left-4 right-4 bg-black/50 backdrop-blur-md rounded-xl p-4 text-white">
-              <p className="text-base opacity-80 mb-1 text-white">Price</p>
+              <p className="text-base opacity-80 text-white">Price</p>
 
-              <p className="text-base font-semibold mb-3 text-white">
+              <p className="text-base font-semibold  text-white">
                 $2,000/mo
               </p>
 
@@ -89,7 +89,7 @@ export default function LivingFoodSection() {
                 <div className="absolute left-[40%] w-3 h-3 bg-white rounded-full -top-1 shadow"></div>
               </div>
 
-              <div className="flex justify-between text-base mt-1 opacity-80">
+              <div className="flex justify-between text-base  opacity-80">
                 <span>Low</span>
                 <span>High</span>
               </div>

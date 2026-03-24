@@ -51,23 +51,23 @@ export default function WorldCuisines() {
           {[
             {
               title: "Masala Dosa",
-              img: "/img/bang-life/innovation-2.png",
+              img: "/img/food/dosa.png",
             },
             {
               title: "Dum Biryani",
-              img: "/img/bang-life/innovation-2.png",
+              img: "/img/food/biryani.png",
             },
             {
               title: "Pan-Asian Fare",
-              img: "/img/bang-life/innovation-2.png",
+              img: "/img/food/west.png",
             },
             {
               title: "Street Food",
-              img: "/img/bang-life/innovation-2.png",
+              img: "/img/food/fast.png",
             },
             {
               title: "South Indian Meals",
-              img: "/img/bang-life/innovation-2.png",
+              img: "/img/food/south.png",
             },
           ].map((item, i) => (
             <SwiperSlide key={i}>

@@ -14,22 +14,6 @@ export function AboutPresidency() {
       <div className="max-w-[1300px] mx-auto px-6 md:px-10 grid lg:grid-cols-2 gap-12 items-center">
       
         {/* RIGHT SIDE */}
-         <div>
-          <div className="relative h-[500px] lg:h-[600px] rounded-2xl overflow-hidden shadow-xl group mt-5">
-            <img
-              src="img/bang-coll.png"
-              alt="Students"
-              className="w-full h-full object-cover transition duration-500"
-            />
-
-            {/* OVERLAY */}
-            {/* <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6 ">
-              <p className="text-white text-sm">
-                Explore campus life and academic excellence
-              </p>
-            </div> */}
-          </div>
-        </div>
         <div className="space-y-6">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -66,8 +50,8 @@ export function AboutPresidency() {
           >
             From undergraduate and postgraduate degrees to doctoral research, international exchange programmes, and professional short courses, Presidency University offers a pathway for every ambition — backed by national accreditations, industry-leading placements, and a dedicated Office of International Affairs to support you every step of the way.
           </motion.p>
-          <div className="flex justify-center items-center mt-6 md:mt-8">
-          <button className="bg-[#0A8F96]/90 border border-white/20 text-white px-8 py-4 rounded-lg hover:bg-[#0BB5B5] transition-all duration-300 hover:scale-105 hover:shadow-2xl flex items-center gap-2 text-lg backdrop-blur-md">
+          <div className="flex justify-center align-center">
+          <button className="bg-[#0A8F96] text-white px-8 py-4 rounded-lg hover:bg-[#0BB5B5] transition-all duration-300 hover:shadow-xl hover:scale-105 flex items-center gap-2 text-lg">
               Discover Presidency
             </button>
           </div>
@@ -75,7 +59,22 @@ export function AboutPresidency() {
           
         </div>
         {/* LEFT CONTENT */}
-       
+        <div>
+          <div className="relative h-[500px] lg:h-[600px] rounded-2xl overflow-hidden shadow-xl group mt-5">
+            <img
+              src="img/bang-coll.png"
+              alt="Students"
+              className="w-full h-full object-cover transition duration-500"
+            />
+
+            {/* OVERLAY */}
+            {/* <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6 ">
+              <p className="text-white text-sm">
+                Explore campus life and academic excellence
+              </p>
+            </div> */}
+          </div>
+        </div>
 
 
       </div>

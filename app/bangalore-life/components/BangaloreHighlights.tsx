@@ -20,22 +20,26 @@ export default function BangaloreHighlights() {
           </p>
           <div className="grid grid-cols-2 gap-4">
             <div className="grid grid-cols-3 gap-4">
-              {[
-                "SAMSUNG",
-                "Roche",
-                "Microsoft",
-                "Microsoft",
-                "Salesforce",
-                "IBM",
-              ].map((item, i) => (
-                <div
-                  key={i}
-                  className="bg-white rounded-xl shadow-sm h-[80px] flex items-center justify-center text-base font-semibold text-gray-600 hover:shadow-md transition"
-                >
-                  {item}
-                </div>
-              ))}
-            </div>
+  {[
+    { img: "img/logos/ibm.png", title: "IBM" },
+    { img: "img/logos/microsoft.png", title: "MICROSOFT" },
+    { img: "img/logos/google.png", title: "google" },
+    { img: "img/logos/amazon.png", title: "amazon" },
+    { img: "img/logos/infosys.png", title: "infosys" },
+    { img: "img/logos/wipro.png", title: "wipro" },
+  ].map((item, i) => (
+    <div
+      key={i}
+      className="bg-white rounded-xl shadow-sm h-[80px] flex items-center justify-center hover:shadow-md transition"
+    >
+      <img
+        src={item.img}
+        alt={item.title}
+        className="h-10 object-contain"
+      />
+    </div>
+  ))}
+</div>
             <div className="bg-white rounded-xl p-5 shadow-sm">
               <h4 className="text-xl font-semibold text-gray-800 mb-2">
                 Placement Services
@@ -74,13 +78,13 @@ export default function BangaloreHighlights() {
           {/* IMAGE CARDS */}
           <div className="grid grid-cols-3 gap-4">
             {[
-              { img: "/img/bang-life/innovation-2.png", title: "Modern Cafes" },
+              { img: "img/city-life/cafes.png", title: "Modern Cafes" },
               {
-                img: "/img/bang-life/innovation-2.png",
+                img: "img/city-life/Art.png",
                 title: "Art Galleries",
               },
               {
-                img: "/img/bang-life/innovation-2.png",
+                img: "img/city-life/Co-working.png",
                 title: "Co-working Spaces",
               },
             ].map((item, i) => (
