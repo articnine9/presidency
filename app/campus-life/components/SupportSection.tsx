@@ -28,7 +28,7 @@ const supportItems = [
 export default function SupportSection() {
   return (
     <section className="bg-white py-16 px-6">
-      <div className="max-w-6xl mx-auto text-center">
+      <div className="max-w-[1400px] mx-auto text-center px-6">
         {/* Heading */}
         <h2 className="text-2xl md:text-4xl text-[#1B4E8C]">
           PEACE OF MIND & GLOBAL SUPPORT
@@ -44,7 +44,7 @@ export default function SupportSection() {
             return (
               <div
                 key={i}
-                className="bg-white rounded-xl p-6 text-left shadow-sm hover:shadow-md transition"
+                className="bg-gray-100  rounded-xl p-6 text-left shadow-sm hover:shadow-md transition"
               >
                 {/* Icon */}
                 <div className="w-10 h-10 flex items-center justify-center rounded-md bg-teal-100 text-teal-600 mb-4">
