@@ -75,11 +75,11 @@ export default function ContactHero({ data }: ContactHeroProps) {
               transition={{ delay: 0.2 }}
               className="flex flex-wrap gap-4"
             >
-              <button className="bg-[#0A8F96] text-white px-6 py-3 rounded-lg flex items-center gap-2 hover:bg-[#0BB5B5] transition">
+              <button className="bg-[#0A8F96] text-white px-8 py-4 rounded-lg hover:bg-[#0BB5B5] transition-all duration-300 hover:shadow-xl hover:scale-105 flex items-center gap-2 text-lg">
                 <Mail size={18} /> Email Us
               </button>
 
-              <button className="bg-white text-[#0A8F96] px-6 py-3 rounded-lg flex items-center gap-2 hover:bg-gray-100 transition">
+              <button className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white/10 transition-all duration-300 hover:scale-105 flex items-center gap-2 text-lg backdrop-blur-sm">
                 <Phone size={18} /> Call Now
               </button>
             </motion.div>

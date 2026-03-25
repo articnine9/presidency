@@ -3,21 +3,18 @@ import { GraduationCap, CalendarDays, Building2, MapPin } from "lucide-react";
 import { ArrowRight, Play } from "lucide-react";
 import { motion } from "motion/react";
 
-
 export default function CourseHero({ data, school }: any) {
   const hero = data.hero;
-  
 
   return (
-
-     <section className="relative h-screen min-h-[700px] flex items-center justify-center z-30">
+    <section className="relative h-screen min-h-[700px] flex items-center justify-center z-30">
       {/* Video Background */}
       <div className="absolute inset-0 z-0">
-            <img
-            src="https://images.unsplash.com/photo-1769905226788-1bf5ba8f50d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5JTIwY2FtcHVzJTIwc3R1ZGVudHMlMjB3YWxraW5nfGVufDF8fHx8MTc3MzM5ODc4N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-            alt="University Campus"
-            className="w-full h-full object-cover"
-          />
+        <img
+          src="https://images.unsplash.com/photo-1769905226788-1bf5ba8f50d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5JTIwY2FtcHVzJTIwc3R1ZGVudHMlMjB3YWxraW5nfGVufDF8fHx8MTc3MzM5ODc4N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+          alt="University Campus"
+          className="w-full h-full object-cover"
+        />
         {/* Gradient Overlay */}
         <div className="absolute inset-0 bg-gradient-to-r from-[#0F1E3D]/50 via-[#0F1E3D]/50 to-[#0F1E3D]/50"></div>
 
@@ -38,12 +35,12 @@ export default function CourseHero({ data, school }: any) {
       <div className="relative z-10 max-w-[1400px] mx-auto px-5 md:px-10 w-full">
         <div className="max-w-4xl">
           <motion.p
-          initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-xs md:text-sm text-gray-300 mb-3">
-           {hero?.breadcrumb?.join(" › ")}
-       
+            className="text-xs md:text-sm text-gray-300 mb-3"
+          >
+            {hero?.breadcrumb?.join(" › ")}
           </motion.p>
 
           <motion.h1
@@ -53,7 +50,7 @@ export default function CourseHero({ data, school }: any) {
             className="text-white mb-6 text-5xl md:text-6xl lg:text-7xl"
           >
             {hero?.title.normal}
-         <i>{hero?.title.italic}</i>
+            <i>{hero?.title.italic}</i>
           </motion.h1>
 
           <motion.p
@@ -70,12 +67,14 @@ export default function CourseHero({ data, school }: any) {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="flex flex-wrap gap-4 mb-16 mt-32"
           >
-            <a href="/brochures/cse-brochure.pdf"
-  target="_blank"
-  rel="noopener noreferrer">
-            <button className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white/10 transition-all duration-300 hover:scale-105 flex items-center gap-2 text-lg backdrop-blur-sm">
-              Download Brouchure
-            </button>
+            <a
+              href="/brochures/cse-brochure.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white/10 transition-all duration-300 hover:scale-105 flex items-center gap-2 text-lg backdrop-blur-sm">
+                Download Brouchure
+              </button>
             </a>
             <button className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white/10 transition-all duration-300 hover:scale-105 flex items-center gap-2 text-lg backdrop-blur-sm">
               How to Apply
@@ -83,51 +82,50 @@ export default function CourseHero({ data, school }: any) {
             <button className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white/10 transition-all duration-300 hover:scale-105 flex items-center gap-2 text-lg backdrop-blur-sm">
               Contact
             </button>
-          </motion.div>  
+          </motion.div>
         </div>
       </div>
       <div
-      className="
+        className="
          relative md:absolute 
          md:left-1/2 md:-translate-x-1/2 
          md:bottom-[-60px] 
          w-full max-w-[1400px] px-4 md:px-6 mt-[-40px] md:mt-0
-         z-40
+         z-10
        "
-       >
+      >
         <div className="rounded-xl overflow-hidden shadow-xl">
           {/* HEADER */}
-           <div className="bg-gradient-to-r from-[#1E3A5F] to-[#C9A24A] px-4 md:px-6 py-3 text-white text-sm md:text-base font-semibold">Program Overview
-             {/* Quick Info Bar */}
-           </div>
-
-           {/* GRID */}
-           <div className="bg-white grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 px-4 md:px-6 py-5 md:py-6 text-gray-800">
-             <InfoItem
-               icon={<GraduationCap size={18} />}
-               label="Degree"
-               value={data?.degree}
-             />
-             <InfoItem
-               icon={<CalendarDays size={18} />}
-               label="Duration"
-               value={data?.details?.duration}
-             />
-             <InfoItem
-               icon={<Building2 size={18} />}
-               label="School"
-               value={data?.details?.school}
-             />
-             <InfoItem
-               icon={<MapPin size={18} />}
-               label="Campus"
-               value={data?.details?.campus}
-             />
+          <div className="bg-gradient-to-r from-[#1E3A5F] to-[#C9A24A] px-4 md:px-6 py-3 text-white text-sm md:text-xl font-semibold">
+            Program Overview
+            {/* Quick Info Bar */}
           </div>
-     </div>
 
-    </div>
-
+          {/* GRID */}
+          <div className="bg-white grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 px-4 md:px-6 py-5 md:py-6 text-gray-800">
+            <InfoItem
+              icon={<GraduationCap size={18} />}
+              label="Degree"
+              value={data?.degree}
+            />
+            <InfoItem
+              icon={<CalendarDays size={18} />}
+              label="Duration"
+              value={data?.details?.duration}
+            />
+            <InfoItem
+              icon={<Building2 size={18} />}
+              label="School"
+              value={data?.details?.school}
+            />
+            <InfoItem
+              icon={<MapPin size={18} />}
+              label="Campus"
+              value={data?.details?.campus}
+            />
+          </div>
+        </div>
+      </div>
     </section>
     // <section className="relative text-white">
     //   {/* BACKGROUND */}
@@ -137,7 +135,7 @@ export default function CourseHero({ data, school }: any) {
     //       className="w-full h-full object-cover"
     //     />
     //     <div
-    //       className="absolute inset-0 bg-gradient-to-r md:bg-gradient-to-r from-black/80 via-black/60 to-black/20 
+    //       className="absolute inset-0 bg-gradient-to-r md:bg-gradient-to-r from-black/80 via-black/60 to-black/20
     //                     bg-gradient-to-b from-black/80 via-black/60 to-black/90 md:to-black/20"
     //     />
     //   </div>
@@ -181,9 +179,9 @@ export default function CourseHero({ data, school }: any) {
     //   {/* 🔥 QUICK INFO BAR */}
     //   <div
     //     className="
-    //     relative md:absolute 
-    //     md:left-1/2 md:-translate-x-1/2 
-    //     md:bottom-[-60px] 
+    //     relative md:absolute
+    //     md:left-1/2 md:-translate-x-1/2
+    //     md:bottom-[-60px]
     //     w-full max-w-[1400px] px-4 md:px-6 mt-[-40px] md:mt-0
     //   "
     //   >
@@ -224,13 +222,13 @@ export default function CourseHero({ data, school }: any) {
 
 /* 🔹 Info Item */
 function InfoItem({ icon, label, value }: any) {
-  console.log("icon", icon)
+  console.log("icon", icon);
   return (
     <div className="flex items-start gap-2 md:gap-3">
       <div className="text-[#1E3A5F]">{icon}</div>
       <div>
-        <p className="text-[10px] md:text-xs text-gray-500">{label}:</p>
-        <p className="font-semibold text-xs md:text-sm">{value}</p>
+        <p className="text-[10px] md:text-lg text-gray-500">{label}:</p>
+        <p className="font-semibold text-xs md:text-base">{value}</p>
       </div>
     </div>
   );
