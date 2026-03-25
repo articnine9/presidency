@@ -6,8 +6,8 @@
 
       "hero": {
         "title": {
-          "normal":"School of Computer Science ",
-          "italic":"& Engineering"
+          "normal": "School of Computer Science ",
+          "italic": "& Engineering"
         },
         "description": "Discover cutting-edge computing programmes in India’s technology capital.",
         "breadcrumb": ["Home", "Schools", "Computer Science & Engineering"],
@@ -46,8 +46,8 @@
             "type": "text",
             "text": "Industry Mentorship",
             "icon": "/icons/mentorship.svg",
-            "top": "55%",
-            "left": "70%"
+            "top": "20%",
+            "left": "0%"
           },
           {
             "type": "text",
@@ -60,13 +60,13 @@
             "type": "image",
             "image": "/img/classes/1.jpg",
             "top": "55%",
-            "left": "0%"
+            "left": "10%"
           },
           {
             "type": "image",
             "image": "/img/classes/1.jpg",
-            "top": "20%",
-            "left": "0%"
+            "top": "55%",
+            "left": "88%"
           }
         ],
         "features": [
@@ -200,11 +200,16 @@
 
           "hero": {
             "title": {
-              "normal":"B.Tech Computer Science",
-              "italic":" & Engineering"
+              "normal": "B.Tech Computer Science",
+              "italic": " & Engineering"
             },
             "description": "Build a strong foundation in computing, AI, and modern software technologies.",
-            "breadcrumb": ["Home", "Schools", "Computer Science & Engineering", "B.Tech CSE"],
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Computer Science & Engineering",
+              "B.Tech CSE"
+            ],
             "stats": [
               { "label": "Duration", "value": "4 Yr" },
               { "label": "Semesters", "value": "8" },
@@ -221,7 +226,6 @@
           "overview": [
             "The B.Tech in Electronics & Communication Engineering explores the design, development, and deployment of electronic devices, circuits, and communication systems that underpin modern life. From mobile networks and satellite communications to embedded controllers and IoT devices, the programme builds expertise across analogue and digital electronics, signal processing, wireless systems, VLSI technology, and microcontroller-based design. Students gain fluency in both hardware and software aspects of electronic engineering through an integrated curriculum of theory, laboratory practice, and project work.",
             "Bengaluru’s position as a centre for semiconductor manufacturing, telecom R&D, and electronics innovation gives students proximity to major employers and research organisations. The programme incorporates industry-oriented certifications, collaborative projects, and internship placements that connect classroom learning to professional practice. Graduates emerge prepared for roles in telecommunications, semiconductor design, consumer electronics, aerospace, defence, and automation industries worldwide."
-            
           ],
 
           "eligibility": {
@@ -277,59 +281,62 @@
               "POs": [
                 {
                   "id": "PO 1",
-                  
+
                   "text": "Apply knowledge of mathematics, science, and engineering fundamentals to solve complex engineering problems."
-                },{
+                },
+                {
                   "id": "PO 2",
-                  
+
                   "text": "Identify, formulate, and analyse complex engineering problems using first principles of mathematics, natural sciences, and engineering."
-                },{
+                },
+                {
                   "id": "PO 3",
-                  
+
                   "text": "Design solutions for complex problems, including system components and processes, considering public health, safety, and societal and environmental factors."
-                },{
+                },
+                {
                   "id": "PO 4",
-                 
+
                   "text": "Conduct investigations of complex problems using research-based methods, data analysis, and synthesis to provide valid conclusions."
                 },
                 {
                   "id": "PO 5",
-                  
+
                   "text": "Select and apply appropriate techniques, resources, and modern engineering tools — including prediction and modelling — to complex engineering activities."
                 },
                 {
                   "id": "PO 6",
-                  
+
                   "text": "Assess societal, health, safety, legal, and cultural issues relevant to professional engineering practice."
                 },
                 {
                   "id": "PO 7",
-                  
+
                   "text": "Understand the impact of engineering solutions in societal and environmental contexts, demonstrating commitment to sustainable development."
                 },
                 {
                   "id": "PO 8",
-                  
+
                   "text": "Apply ethical principles and commit to professional ethics, responsibilities, and norms of engineering practice."
                 },
                 {
                   "id": "PO 9",
-                  
+
                   "text": "Function effectively as an individual and as a member or leader in diverse and multidisciplinary teams."
                 },
                 {
                   "id": "PO 10",
-                  
+
                   "text": "Communicate effectively with the engineering community and society at large on complex engineering activities."
                 },
                 {
                   "id": "PO 11",
-                  
+
                   "text": "Demonstrate knowledge and understanding of engineering and management principles to manage projects in multidisciplinary environments. "
                 },
                 {
                   "id": "PO 12",
-                  
+
                   "text": "Recognise the need for and engage in independent and lifelong learning in the broadest context of technological change."
                 }
               ],
@@ -339,11 +346,13 @@
                   "id": "PSO 1",
                   "title": "Problem Analysis",
                   "text": "Identify, formulate, and critically analyse complex engineering problems related to software engineering principles, programming, and computing technologies using first principles of mathematics, natural sciences, and engineering. ."
-                },{
+                },
+                {
                   "id": "PSO 2",
                   "title": "Solution Development",
                   "text": "Design solutions for complex problems related to software engineering, programming, and computing — including system components and processes that address specified needs while considering public health, safety, and environmental factors."
-                },{
+                },
+                {
                   "id": "PSO 3",
                   "title": "Modern Tool Application",
                   "text": "Create, select, and apply appropriate techniques, resources, and modern engineering tools — including prediction and modelling — to complex engineering activities related to software engineering, programming, and computing with an understanding of their capabilities and limitations."
@@ -369,16 +378,19 @@
               "title": "Global Internship & Exchange",
               "description": "International internship placements and study-abroad partnerships broaden professional networks and enhance career mobility across global markets."
             },
-             {
+            {
               "title": "Professional Certifications ",
               "description": "Earn industry-recognised credentials alongside your degree, including AWS, Google Cloud, Microsoft Azure, and other globally valued certifications."
-            }, {
+            },
+            {
               "title": "Bengaluru Tech Ecosystem ",
               "description": "Study in India’s technology capital — home to thousands of multinational tech firms, start-ups, and R&D centres — with direct access to internship and employment pipelines."
-            }, {
+            },
+            {
               "title": "Strong Placement Track Record ",
               "description": "Graduates are recruited by leading organisations including major IT companies, product firms, start-ups, and consulting organisations through dedicated placement drives."
-            }, {
+            },
+            {
               "title": "Research & Publication Pathways ",
               "description": "Faculty-guided research projects with opportunities for peer-reviewed publications and patent filings in emerging technology areasy."
             }
@@ -413,7 +425,7 @@
           ],
 
           "faq": [
-             {
+            {
               "q": "What is eligibility?",
               "a": "10+2 with PCM."
             },

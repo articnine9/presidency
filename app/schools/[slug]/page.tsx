@@ -9,7 +9,7 @@ import SchoolProgramsPreview from "@/app/components/School/SchoolProgramsPreview
 import SchoolProgramsTable from "@/app/components/School/SchoolProgramsTable";
 import ProgramList from "@/app/components/School/ProgramList";
 import SchoolFAQ from "@/app/components/School/SchoolFAQ";
-// import SchoolCTA from "@/app/components/School/SchoolCTA";
+import CourseCTA from "@/app/components/Course/CourseCTA";
 
 type Params = {
   slug: string;
@@ -57,7 +57,7 @@ export default async function SchoolPage({
 
       {/* ❓ FAQ (future) */}
       {school.faq && <SchoolFAQ data={school} />}
-
+      <CourseCTA />
       {/* 🚀 CTA (future) */}
       {/* {school.cta && <SchoolCTA data={school.cta} />} */}
     </main>

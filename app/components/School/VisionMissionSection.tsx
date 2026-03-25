@@ -25,7 +25,7 @@ export default function VisionMissionSection({ data }: Props) {
               {data.vision.title}
             </h2>
 
-            <p className="text-sm text-gray-600 mb-4">
+            <p className="text-lg text-gray-600 mb-4">
               {data.vision.description}
             </p>
 
@@ -33,7 +33,7 @@ export default function VisionMissionSection({ data }: Props) {
               {data.vision.points.map((point, i) => (
                 <li
                   key={i}
-                  className="flex items-start gap-3 text-sm text-gray-700"
+                  className="flex items-start gap-3 text-base text-gray-700"
                 >
                   <span className="text-[#0A8F96]">✔</span>
                   {point}
@@ -48,7 +48,7 @@ export default function VisionMissionSection({ data }: Props) {
               {data.mission.title}
             </h2>
 
-            <p className="text-sm text-gray-600 mb-4">
+            <p className="text-lg text-gray-600 mb-4">
               {data.mission.description}
             </p>
 
@@ -56,7 +56,7 @@ export default function VisionMissionSection({ data }: Props) {
               {data.mission.points.map((point, i) => (
                 <li
                   key={i}
-                  className="flex items-start gap-3 text-sm text-gray-700"
+                  className="flex items-start gap-3 text-base text-gray-700"
                 >
                   <span className="text-[#0A8F96]">✔</span>
                   {point}

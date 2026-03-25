@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "motion/react";
+import CommonHeader from "@/app/components/CommonHeader";
 
 export function ResearchHighlightsSection() {
   const sections = [
@@ -8,16 +9,14 @@ export function ResearchHighlightsSection() {
       title: "Advancing Knowledge Through Research and Innovation",
       description:
         "Presidency University is committed to building a globally connected research culture. The Research & Innovation Council oversees academic and sponsored research.",
-      image:
-        "img/innovation.png",
+      image: "img/innovation.png",
       bg: "bg-[#1565A8]",
     },
     {
       title: "Supporting Global Research Collaboration",
       description:
         "International scholars benefit from advanced labs, seed funding, and global partnerships to solve real-world challenges through cutting-edge research initiatives, fostering innovation and sustainable global impact",
-      image:
-        "img/global.png",
+      image: "img/global.png",
       bg: "bg-[#0B3551]",
     },
   ];
@@ -26,21 +25,13 @@ export function ResearchHighlightsSection() {
     <section className="py-24 bg-[#EEF1F5]">
       <div className="max-w-[1300px] mx-auto px-6 md:px-10">
         {/* HEADER */}
-        <div className="text-center mb-16">
-          <motion.span className="inline-block bg-[#0A8F96]/10 text-[#0A8F96] px-4 py-2 rounded-full text-sm mb-4">
-            Research & Innovation
-          </motion.span>
-
-          <motion.h2 className="text-3xl md:text-4xl text-[#1e3a5f]">
-            Driving Impact Through
-            <span className="block text-[#0A8F96]">Research Excellence</span>
-          </motion.h2>
-
-          <motion.p className="text-gray-600 mt-4 max-w-2xl mx-auto">
-            Explore how Presidency University fosters innovation, global
-            collaboration, and impactful discoveries.
-          </motion.p>
-        </div>
+        <CommonHeader
+          tag="Research & Innovation"
+          title="Driving Impact Through"
+          highlight="Research Excellence"
+          description="Explore how Presidency University fosters innovation, global collaboration, and impactful discoveries."
+          primaryColor="#0A8F96"
+        />
 
         {/* 🔥 GRID: 2 CARDS PER ROW */}
         <div className="grid md:grid-cols-2 gap-8">
@@ -68,10 +59,9 @@ export function ResearchHighlightsSection() {
 
                 <p className="text-white/90 text-sm mb-4">{item.description}</p>
                 <div className="flex justify-center align-center">
-
-                <button className="bg-white text-[#1e3a5f] px-5 py-2 rounded-full text-sm font-semibold w-fit hover:scale-105 transition">
-                  Explore
-                </button>
+                  <button className="bg-white text-[#1e3a5f] px-5 py-2 rounded-full text-sm font-semibold w-fit hover:scale-105 transition">
+                    Explore
+                  </button>
                 </div>
               </div>
             </div>

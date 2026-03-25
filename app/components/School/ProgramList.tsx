@@ -37,7 +37,7 @@ export default function ProgramList({ programs, slug }: ProgramListProps) {
             <h2 className="text-3xl md:text-4xl font-serif text-gray-900 mb-10">
               Undergraduate Programmes
             </h2>
-            <p className="text-lg text-gray-500 mb-4">
+            <p className="text-xl text-gray-500 mb-10">
               B.Tech — 4-Year Full-Time
             </p>
 
@@ -55,7 +55,7 @@ export default function ProgramList({ programs, slug }: ProgramListProps) {
             <h2 className="text-3xl md:text-4xl font-serif text-gray-900 mb-10">
               Postgraduate Programmes
             </h2>
-            <p className="text-lg text-gray-500 mb-4">
+            <p className="text-xl text-gray-500 mb-10">
               M.Tech — 2-Year Full-Time
             </p>
 
@@ -81,8 +81,10 @@ export default function ProgramList({ programs, slug }: ProgramListProps) {
                   href={`/schools/${slug}/${program.slug}`}
                   className="bg-white border border-gray-200 rounded-lg p-4 text-sm hover:shadow-sm"
                 >
-                  <p className="font-medium text-gray-800">{program.name}</p>
-                  <p className="text-gray-500 text-xs mt-1">
+                  <p className="text-lg font-medium text-gray-800">
+                    {program.name}
+                  </p>
+                  <p className="text-gray-500 text-base mt-1">
                     {program.duration}
                   </p>
                 </Link>
@@ -108,13 +110,13 @@ function ProgramRow({ program, slug }: any) {
           {getProgramIcon(program.name)}
         </div>
 
-        <span className="text-base font-medium text-gray-800">
+        <span className="text-lg font-medium text-gray-800">
           {program.name}
         </span>
       </div>
 
       {/* RIGHT BADGE */}
-      <span className="text-base bg-white border border-gray-200 px-3 py-1 rounded-full text-gray-600">
+      <span className="text-lg bg-white border border-gray-200 px-3 py-1 rounded-full text-gray-600">
         {program.duration}
       </span>
     </Link>

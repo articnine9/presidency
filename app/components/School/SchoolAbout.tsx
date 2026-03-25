@@ -1,3 +1,5 @@
+import CommonHeader from "@/app/components/CommonHeader";
+import { ArrowRight } from "lucide-react";
 type SchoolAboutProps = {
   data: {
     title: string;
@@ -29,52 +31,70 @@ export default function SchoolAbout({ data }: SchoolAboutProps) {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* LEFT CONTENT */}
           <div>
-            <p className="text-sm uppercase tracking-widest text-teal-600 font-semibold mb-2">
-              About Us
-            </p>
+            <CommonHeader
+              tag="About Us"
+              title={data.title}
+              primaryColor="#0A8F96"
+              align="left"
+            />
 
-            <h2 className="text-3xl md:text-4xl font-serif text-gray-900 mb-10">
-              {data.title}
-            </h2>
-
-            <div className="space-y-4 text-gray-600 text-sm leading-relaxed">
+            <div className="space-y-4">
               {data.content.map((para, i) => (
-                <p key={i}>{para}</p>
+                <p
+                  key={i}
+                  className=" text-gray-600 text-base leading-relaxed text-justify"
+                >
+                  {para}
+                </p>
               ))}
             </div>
           </div>
 
           {/* RIGHT HEXAGON DESIGN */}
-          <div className="relative flex justify-center items-center">
+          <div className="relative flex justify-end items-center">
             <div className="relative w-[360px] h-[320px]">
               {data.hexagons?.map((item, i) => (
-                <div
-                  key={i}
-                  className="absolute w-[100px] h-[100px] flex flex-col items-center justify-center text-center px-0 border-0 border-white shadow-md overflow-hidden"
-                  style={{
-                    top: item.top,
-                    left: item.left,
-                    background:
-                      item.type === "text" ? "#0A8F96" : "transparent",
-                    clipPath:
-                      "polygon(25% %, 75% 6%, 100% 50%, 75% 94%, 25% 94%, 0% 50%)",
-                    WebkitClipPath:
-                      "polygon(25% 6%, 75% 6%, 100% 50%, 75% 94%, 25% 94%, 0% 50%)",
-                  }}
-                >
+                <div key={i}>
                   {item.type === "image" ? (
-                    <img
-                      src={item.image}
-                      className="w-full h-full object-cover"
-                    />
+                    <div
+                      className="absolute left-1/2 w-[160px] h-[150px] -translate-x-1/2 hex border-4 border-white shadow-lg overflow-hidden"
+                      style={{
+                        top: item.top,
+                        left: item.left,
+
+                        clipPath:
+                          "polygon(25% %, 75% 6%, 100% 50%, 75% 94%, 25% 94%, 0% 50%)",
+                        WebkitClipPath:
+                          "polygon(25% 6%, 75% 6%, 100% 50%, 75% 94%, 25% 94%, 0% 50%)",
+                      }}
+                    >
+                      <img
+                        src={item.image}
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
                   ) : (
                     <>
-                      {item.icon && (
-                        <img src={item.icon} className="w-5 h-5 mb-1" />
-                      )}
-                      <span className="text-[11px] text-white px-4">
-                        {item.text}
-                      </span>
+                      <div
+                        className="absolute w-[100px] h-[100px] flex flex-col items-center justify-center text-center px-0 border-0 border-white shadow-md overflow-hidden"
+                        style={{
+                          top: item.top,
+                          left: item.left,
+                          background:
+                            item.type === "text" ? "#0A8F96" : "transparent",
+                          clipPath:
+                            "polygon(25% %, 75% 6%, 100% 50%, 75% 94%, 25% 94%, 0% 50%)",
+                          WebkitClipPath:
+                            "polygon(25% 6%, 75% 6%, 100% 50%, 75% 94%, 25% 94%, 0% 50%)",
+                        }}
+                      >
+                        {item.icon && (
+                          <img src={item.icon} className="w-5 h-5 mb-1" />
+                        )}
+                        <span className="text-[11px] text-white px-4">
+                          {item.text}
+                        </span>
+                      </div>
                     </>
                   )}
                 </div>
@@ -95,68 +115,42 @@ export default function SchoolAbout({ data }: SchoolAboutProps) {
         </div>
 
         {/* KEY HIGHLIGHTS */}
+        {/* KEY HIGHLIGHTS */}
         {data.features && (
           <div className="mt-16">
+            {/* ✅ COMMON HEADER (optional upgrade) */}
             <h2 className="text-3xl md:text-4xl font-serif text-gray-900 mb-10">
-             What You’ll Experience Here  
+              What You’ll Experience Here
             </h2>
 
-            <div className="grid md:grid-cols-3 gap-6">
+            {/* ✅ GRID (same as swiper cards style) */}
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {data.features.map((item, index) => (
                 <div
                   key={index}
-                  className="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition"
+                  className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition group"
                 >
-                  {/* TOP TEAL BORDER */}
-                  <div className="h-[6px] bg-[#0A8F96]" />
+                  {/* IMAGE */}
+                  <div className="overflow-hidden">
+                    <img
+                      src={`/img/classes/${index + 1}.jpg`}
+                      className="w-full h-[380px] object-cover group-hover:scale-110 transition duration-500"
+                      alt=""
+                    />
+                  </div>
 
                   {/* CONTENT */}
-                  <div className="p-6 text-center">
-                    {/* ICON */}
-                    <div className="mb-4 flex justify-center">
-                      {index === 0 && (
-                        <img
-                          src="/img/classes/1.jpg"
-                          className="h-16 object-contain"
-                        />
-                      )}
-                      {index === 1 && (
-                        <img
-                          src="/img/classes/2.jpg"
-                          className="h-16 object-contain"
-                        />
-                      )}
-                      {index === 2 && (
-                        <img
-                          src="/img/classes/3.jpg"
-                          className="h-16 object-contain"
-                        />
-                        // <div className="flex items-center gap-3">
-                        //   <img
-                        //     src="/img/classes/3.jpg"
-                        //     className="h-8 object-contain"
-                        //   />
-                        //   <img
-                        //     src="/icons/aws.png"
-                        //     className="h-6 object-contain"
-                        //   />
-                        //   <img
-                        //     src="/icons/azure.png"
-                        //     className="h-6 object-contain"
-                        //   />
-                        // </div>
-                      )}
-                    </div>
+                  <div className="p-5 flex flex-col">
+                    <h3 className="text-[#1e3a5f] mb-2">{item.title}</h3>
 
-                    {/* TITLE */}
-                    <h4 className="font-semibold text-[#1e3a5f] mb-2">
-                      {item.title}
-                    </h4>
-
-                    {/* DESCRIPTION */}
-                    <p className="text-sm text-gray-600 leading-relaxed">
+                    <p className="text-gray-600 text-base flex-grow">
                       {item.description}
                     </p>
+
+                    {/* BUTTON */}
+                    <button className="mt-4 text-[#ff8c42] flex items-center gap-1 hover:gap-2 transition">
+                      View More <ArrowRight size={16} />
+                    </button>
                   </div>
                 </div>
               ))}

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Plus, Minus } from "lucide-react";
+import CommonHeader from "@/app/components/CommonHeader";
 
 export default function SchoolFAQ({ data }: any) {
   const faqs = data?.faq || [];
@@ -17,9 +18,12 @@ export default function SchoolFAQ({ data }: any) {
     <section className="py-16 bg-[#ffffff]">
       <div className="max-w-[1400px] mx-auto px-6">
         {/* TITLE */}
-        <h2 className="text-3xl md:text-4xl font-serif text-gray-900 mb-10">
-          FAQs
-        </h2>
+        <CommonHeader
+          tag="FAQs"
+          title="Frequently Asked"
+          highlight="Questions"
+          primaryColor="#0A8F96"
+        />
 
         {/* GRID */}
         <div className="grid md:grid-cols-2 gap-6">
@@ -36,7 +40,7 @@ export default function SchoolFAQ({ data }: any) {
                   onClick={() => toggle(index)}
                   className="flex justify-between items-start w-full text-left"
                 >
-                  <p className="text-sm font-medium text-[#1e3a5f] pr-4">
+                  <p className="text-lg font-medium text-[#1e3a5f] pr-4">
                     {item.q}
                   </p>
 
@@ -51,7 +55,7 @@ export default function SchoolFAQ({ data }: any) {
                     isOpen ? "max-h-40 mt-3" : "max-h-0"
                   }`}
                 >
-                  <p className="text-sm text-gray-600 leading-relaxed">
+                  <p className="text-base text-gray-600 leading-relaxed">
                     {item.a}
                   </p>
                 </div>

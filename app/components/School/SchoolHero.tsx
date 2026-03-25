@@ -1,3 +1,6 @@
+"use client";
+import { motion } from "framer-motion";
+
 type SchoolHeroProps = {
   data: {
     title: {
@@ -21,7 +24,7 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
       {data.breadcrumb && (
         <div className="bg-[#f5f7fa] py-3">
           <div className="max-w-[1400px] mx-auto px-4 md:px-6 text-xs md:text-sm text-gray-600 flex flex-wrap">
-            {data.breadcrumb?.map((item, index, arr) => (
+            {data.breadcrumb.map((item, index, arr) => (
               <span key={index}>
                 {item}
                 {index !== arr.length - 1 && (
@@ -43,76 +46,80 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
 
         {/* OVERLAY */}
         <div
-          className="absolute inset-0 bg-gradient-to-r md:bg-gradient-to-r from-[#0b2a4a]/95 via-[#0b2a4a]/85 to-transparent 
-                        bg-gradient-to-b from-[#0b2a4a]/80 via-[#0b2a4a]/70 to-[#0b2a4a]/90 md:to-transparent"
+          className="absolute inset-0 
+          bg-gradient-to-r md:bg-gradient-to-r 
+          from-[#0b2a4a]/95 via-[#0b2a4a]/85 to-transparent 
+          bg-gradient-to-b from-[#0b2a4a]/80 via-[#0b2a4a]/70 to-[#0b2a4a]/90 md:to-transparent"
         ></div>
 
         {/* CONTENT */}
         <div className="relative max-w-[1400px] mx-auto px-5 md:px-6 h-full flex items-center">
-          <div className="max-w-xl text-white pt-10 md:pt-0 pb-28 md:pb-0">
+          <div className="max-w-4xl text-white pt-10 md:pt-0 pb-28 md:pb-0">
             {/* TITLE */}
-            <h1 className="text-2xl sm:text-3xl md:text-5xl font-serif leading-tight mb-4">
-             {typeof data.title === "string" ? (
-    data.title
-  ) : (
-    <>
-      {data.title.normal}
-      <i>{data.title.italic}</i>
-    </>
-  )}
-            </h1>
+            <motion.h1
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="text-white mb-6 text-5xl md:text-6xl lg:text-7xl"
+            >
+              {data.title.normal}
+              <i className="ml-2">{data.title.italic}</i>
+            </motion.h1>
 
             {/* DESCRIPTION */}
-            <p className="text-sm sm:text-base md:text-lg text-white/80 mb-6 leading-relaxed">
+            <motion.p
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.1 }}
+              className="text-xl md:text-2xl text-white/90 mb-4"
+            >
               {data.description}
-            </p>
+            </motion.p>
 
             {/* BUTTON */}
-            <button className="w-full sm:w-auto bg-[#0A8F96] hover:bg-[#0BB5B5] px-6 py-3 rounded-lg text-white font-medium transition shadow-md">
-              Request Information
-            </button>
-          </div>
-        </div>
-
-        {/* 📊 STATS */}
-        {data.stats && (
-          <div
-            className="
-            absolute 
-            bottom-4 md:bottom-10 
-            left-0 md:left-auto 
-            right-0 md:right-10 
-            px-4 md:px-0
-          "
-          >
-            <div
-              className="
-              bg-white rounded-xl shadow-xl p-3 
-              grid grid-cols-3 gap-3 
-              md:flex md:gap-4 md:p-0 md:bg-transparent md:shadow-none
-            "
+            <motion.button
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.2 }}
+              className="bg-[#0A8F96] text-white px-8 py-4 rounded-lg hover:bg-[#0BB5B5] transition-all duration-300 hover:shadow-xl hover:scale-105 flex items-center gap-2 text-lg"
             >
-              {data.stats.map((stat, index) => (
-                <div
-                  key={index}
-                  className="
-                    bg-gray-50 md:bg-white 
-                    rounded-lg md:rounded-xl 
-                    px-3 md:px-6 py-3 md:py-4 
-                    text-center shadow md:shadow-xl
-                  "
-                >
-                  <p className="text-sm md:text-xl font-bold text-[#1e3a5f]">
-                    {stat.value}
-                  </p>
-                  <p className="text-[10px] md:text-xs text-gray-500 mt-1">
-                    {stat.label}
-                  </p>
+              Request Information
+            </motion.button>
+            {data.stats && (
+              <div className="relative mt-5 ">
+                <div className="max-w-xl">
+                  <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                    {data.stats.map((stat, index) => (
+                      <motion.div
+                        key={index}
+                        initial={{ opacity: 0, y: 30 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: 0.3 + index * 0.1 }}
+                        className="
+              bg-white/10 backdrop-blur-md 
+              border border-white/20 
+              rounded-xl 
+              px-4 py-4 
+              text-center 
+              transition-all duration-300
+              hover:bg-white/20 hover:scale-105
+            "
+                      >
+                        <p className="text-lg md:text-xl font-bold text-[#D4A843]">
+                          {stat.value}
+                        </p>
+                        <p className="text-xs md:text-sm text-white/80 mt-1">
+                          {stat.label}
+                        </p>
+                      </motion.div>
+                    ))}
+                  </div>
                 </div>
-              ))}
-            </div>
+              </div>
+            )}
           </div>
-        )}
+
+          {/* 📊 NEW GLASS STATS DESIGN */}
+        </div>
       </section>
     </>
   );

@@ -15,34 +15,29 @@ export function BangaloreLifeSection() {
     {
       title: "Global Technology Hub",
       subtitle: "Home to Google, Microsoft & Amazon",
-      image:
-        "img/bang-life/hub1.webp",
+      image: "img/bang-life/hub1.webp",
       large: true,
     },
     {
       title: "Startup Capital of India",
       subtitle: "Thousands of innovation-driven startups",
-      image:
-        "img/bang-life/startup1.webp",
+      image: "img/bang-life/startup1.webp",
     },
     {
       title: "World-Class Career Opportunities",
       subtitle: "Multinational companies and global careers",
-      image:
-        "img/bang-life/world.png",
+      image: "img/bang-life/world.png",
     },
     {
       title: "Culture & Lifestyle",
       subtitle: "A vibrant international student city",
-      image:
-        "img/bang-life/life.png",
+      image: "img/bang-life/life.png",
       wide: true,
     },
     {
       title: "Innovation & Entrepreneurship",
       subtitle: "Dynamic ecosystem for startups and research",
-      image:
-        "img/bang-life/innovation.png",
+      image: "img/bang-life/innovation.png",
     },
   ];
 
