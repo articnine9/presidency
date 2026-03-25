@@ -52,7 +52,11 @@ export default async function SchoolPage({
 
       {/* 📚 ALL PROGRAMS */}
       {school.programs?.length > 0 && (
-        <ProgramList programs={school.programs} slug={school.slug} />
+        <ProgramList
+          programs={school.programs}
+          slug={school.slug}
+          sections={school.programSections || []}
+        />
       )}
 
       {/* ❓ FAQ (future) */}

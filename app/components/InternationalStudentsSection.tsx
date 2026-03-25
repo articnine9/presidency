@@ -16,7 +16,7 @@ export function InternationalStudentsSection() {
       <div className="absolute inset-0 bg-black/20 transition duration-500"></div>
 
       {/* CONTENT */}
-      <div className="relative max-w-[1200px] mx-auto px-6 h-full flex items-center">
+      <div className="relative max-w-[1400px] mx-auto px-6 h-full flex items-center">
         <div className="text-white max-w-xl">
           {/* HEADING */}
           <motion.h2
@@ -30,13 +30,13 @@ export function InternationalStudentsSection() {
 
           {/* ✅ FIXED HOVER CONTENT */}
           <div
-            // className="
-            //   opacity-0
-            //   translate-y-6
-            //   group-hover:opacity-100
-            //   group-hover:translate-y-0
-            //   transition-all duration-500
-            // "
+          // className="
+          //   opacity-0
+          //   translate-y-6
+          //   group-hover:opacity-100
+          //   group-hover:translate-y-0
+          //   transition-all duration-500
+          // "
           >
             <p className="text-lg text-gray-200 mb-6">
               Presidency University welcomes students from across the world into

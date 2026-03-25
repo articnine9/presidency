@@ -43,7 +43,7 @@ export function BangaloreLifeSection() {
 
   return (
     <section className="py-24 bg-white">
-      <div className="max-w-[1200px] mx-auto px-6">
+      <div className="max-w-[1400px] mx-auto px-6">
         {/* ✅ COMMON HEADER */}
         <div className="text-center mb-16">
           <motion.span

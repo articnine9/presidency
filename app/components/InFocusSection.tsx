@@ -21,8 +21,7 @@ const focusItems = [
     title: "Research and Innovation Initiatives",
     description:
       "The Research & Innovation Council supports faculty and scholars through global collaborations and advanced labs.",
-    image:
-      "/img/research-innovation.jpeg",
+    image: "/img/research-innovation.jpeg",
   },
   {
     title: "International Student Community",
@@ -43,7 +42,7 @@ const focusItems = [
 export function InFocusSection() {
   return (
     <section className="py-24 bg-[#F5F6F8]">
-      <div className="max-w-[1200px] mx-auto px-6">
+      <div className="max-w-[1400px] mx-auto px-6">
         {/* ✅ COMMON HEADER */}
         <div className="text-center mb-16">
           <motion.span

@@ -5,26 +5,29 @@ import { Calendar, ArrowRight } from "lucide-react";
 import { motion } from "motion/react";
 
 const eventsData = [
-
   {
     title: "ISAC 2026",
     date: "29 Oct 2026",
-    image: "https://presidencyuniversity.in/uploads/events/699d2739859831771906873.jpeg",
+    image:
+      "https://presidencyuniversity.in/uploads/events/699d2739859831771906873.jpeg",
   },
   {
     title: "TFuzzy Mathematics and its Applications",
     date: "10 July 2026",
-    image: "https://presidencyuniversity.in/uploads/events/698d9519725b91770886425.jpg",
+    image:
+      "https://presidencyuniversity.in/uploads/events/698d9519725b91770886425.jpg",
   },
   {
     title: "International Conference on Graph Theory and its Applications",
-    date:"27 JUN 2026",
-    image: "https://presidencyuniversity.in/uploads/events/6835b5564933b1748350294.png",
+    date: "27 JUN 2026",
+    image:
+      "https://presidencyuniversity.in/uploads/events/6835b5564933b1748350294.png",
   },
   {
     title: "SOL Announces National Blog Writing Competition 2026",
     date: "18 APRIL 2026",
-    image: "https://presidencyuniversity.in/uploads/events/69a68327ddb1e1772520231.jpeg",
+    image:
+      "https://presidencyuniversity.in/uploads/events/69a68327ddb1e1772520231.jpeg",
   },
 ];
 
@@ -33,7 +36,7 @@ export function EventsActivitiesSection() {
 
   return (
     <section className="py-24 bg-[#F5F6F8]">
-      <div className="max-w-[1200px]  mx-auto px-6">
+      <div className="max-w-[1400px]  mx-auto px-6">
         {/* ✅ COMMON HEADER */}
         <div className="text-center mb-16">
           <motion.span
@@ -70,10 +73,10 @@ export function EventsActivitiesSection() {
         {/* ✅ EVENT GRID */}
         <div className="grid lg:grid-cols-3 gap-8">
           {/* MAIN EVENT */}
-          <div className="lg:col-span-2  w-full h-[425px] relative rounded-3xl overflow-hidden group">
+          <div className="lg:col-span-2  w-full h-[625px] relative rounded-3xl overflow-hidden group">
             <img
               src={activeEvent.image}
-              className="w-full h-[420px] object-cover group-hover:scale-110 transition duration-700"
+              className="w-full h-full object-cover group-hover:scale-110 transition duration-700"
               alt=""
             />
 

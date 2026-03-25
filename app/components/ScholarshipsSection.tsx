@@ -52,7 +52,7 @@ export function ScholarshipsSection() {
       {/* ✅ FIXED OVERLAY */}
       <div className="absolute inset-0 bg-gradient-to-r from-[#0A2E4E]/80 via-[#0A2E4E]/60 to-[#0A2E4E]/80"></div>
 
-      <div className="relative max-w-[1200px] mx-auto px-6 text-center">
+      <div className="relative max-w-[1400px] mx-auto px-6 text-center">
         {/* ✅ HEADER (COMMON STYLE) */}
         <div className="mb-16">
           <span className="inline-block bg-[#ff7a2f]/20 px-4 py-2 rounded-full text-sm mb-4">

@@ -9,7 +9,7 @@
           "normal": "School of Computer Science ",
           "italic": "& Engineering"
         },
-        "description": "Discover cutting-edge computing programmes in India’s technology capital.",
+        "description": "Discover cutting-edge computing programmes in India’s technology capital. From artificial intelligence to blockchain, our school prepares international students for careers at the forefront of global innovation.",
         "breadcrumb": ["Home", "Schools", "Computer Science & Engineering"],
         "image": "/img/classes/1.jpg",
         "stats": [
@@ -22,7 +22,7 @@
       "about": {
         "title": "A Gateway to India’s Tech Ecosystem",
         "content": [
-          "The Presidency School of Computer Science & Engineering is one of the university’s flagship academic divisions, offering a comprehensive portfolio of undergraduate, postgraduate, and doctoral programmes in computing, software development, and emerging technologies. Situated on the Presidency University campus in Bengaluru — widely regarded as India’s technology capital — the school provides international students with direct access to one of the world’s most dynamic tech ecosystems",
+          "The Presidency School of Computer Science & Engineering is one of the university’s flagship academic divisions, offering a comprehensive portfolio of undergraduate, postgraduate, and doctoral programmes in computing, software development, and emerging technologies. Situated on the Presidency University campus in Bengaluru — widely regarded as India’s technology capital — the school provides international students with direct access to one of the world’s most dynamic tech ecosystems.",
           "Programmes within this school span foundational computer science, artificial intelligence, machine learning, data science, cyber security, blockchain technology, the Internet of Things, big data analytics, and DevOps engineering. The curriculum is designed with industry alignment at its core, ensuring that graduates are prepared for roles in multinational technology firms, research organisations, and innovative start-ups worldwide"
         ],
         "image": "/img/classes/1.jpg",
@@ -87,24 +87,18 @@
       "visionMission": {
         "vision": {
           "title": "Vision",
-          "description": "To be a value-based, practice-driven school catalyzing progress and nurturing global professionals.",
-          "points": [
-            "Practice-driven and preferred programs",
-            "Mission to AI & Cyber Security",
-            "Mission for life and career direction",
-            "Mission to innovators and transformation",
-            "Research-led Computer Science Engineering"
-          ]
+          "description": "To be a value-based, practice-driven school committed to developing globally competent engineers, dedicated to building cutting-edge technology that enhances the quality of life.",
+          "points": []
         },
         "mission": {
           "title": "Mission",
-          "description": "To empower students with cutting-edge knowledge and industry-ready skills.",
+          "description": "",
           "points": [
-            "Deliver industry-aligned curriculum",
-            "Encourage innovation and research",
-            "Build ethical and responsible engineers",
-            "Promote global exposure",
-            "Enhance employability and leadership"
+            "Cultivate a practice-driven environment integrating theory and hands-on computing ",
+            "Attract and nurture world-class faculty excelling in teaching and research ",
+            "Establish state-of-the-art computing facilities for effective learning ",
+            "Promote interdisciplinary studies to nurture talent for global impact ",
+            "Instil entrepreneurial and leadership skills to address social, environmental, and community needs"
           ]
         }
       },
@@ -189,7 +183,23 @@
           "description": "Collaborations with top tech companies for internships and certifications."
         }
       ],
-
+      "programSections": [
+        {
+          "type": "UG",
+          "title": "Undergraduate Programmes",
+          "subtitle": "B.Tech — 4-Year Full-Time"
+        },
+        {
+          "type": "PG",
+          "title": "Postgraduate Programmes",
+          "subtitle": "M.Tech — 2-Year Full-Time"
+        },
+        {
+          "type": "PhD",
+          "title": "Research & Diploma",
+          "subtitle": ""
+        }
+      ],
       "programs": [
         {
           "slug": "btech-cse",
@@ -590,6 +600,1053 @@
       ]
     },
     {
+      "slug": "engineering",
+      "name": "School of Engineering",
+
+      "hero": {
+        "title": {
+          "normal": "School of Engineering",
+          "italic": ""
+        },
+        "description": "Build the foundations of tomorrow across five core engineering disciplines. From electrical power systems and semiconductor design to civil infrastructure and energy exploration, our school equips international students with the technical expertise and practical skills demanded by industries worldwide..",
+        "breadcrumb": ["Home", "Schools", "Engineering"],
+        "image": "/img/classes/1.jpg",
+        "stats": [
+          { "label": "UG Programmes", "value": "6" },
+          { "label": "PG Programmes", "value": "2" },
+          { "label": "Doctoral Research", "value": "5" },
+          { "label": "PG Diploma", "value": "1" }
+        ]
+      },
+
+      "about": {
+        "title": "Core Engineering on a Global Campus",
+        "content": [
+          "The Presidency School of Engineering encompasses five established engineering departments — Electronics & Communication, Electrical & Electronics, Civil, Mechanical, and Petroleum Engineering — each delivering rigorous undergraduate and postgraduate education rooted in practical application. Located on the Presidency University campus in Bengaluru, the school provides international students with an engineering education that balances foundational theory, laboratory experience, and industry engagement within one of India’s foremost technology and manufacturing hubs.",
+          "The school’s programme portfolio spans traditional engineering disciplines alongside specialised offerings in VLSI design, embedded systems, building and construction technology, and drone technology. Faculty members bring credentials from leading Indian institutions including IITs and NITs, complemented by active research profiles and industry consulting experience. Students benefit from modern laboratory infrastructure, collaborative project work, study-abroad partnerships, and placement support connecting them to employers across sectors including semiconductor manufacturing, energy, construction, automotive, aerospace, and oil and gas."
+        ],
+        "image": "/img/classes/1.jpg",
+
+        "hexagons": [
+          {
+            "type": "text",
+            "text": "Cloud Computing",
+            "icon": "/icons/cloud.svg",
+            "top": "0%",
+            "left": "35%"
+          },
+          {
+            "type": "text",
+            "text": "Newest Research",
+            "icon": "/icons/research.svg",
+            "top": "20%",
+            "left": "70%"
+          },
+          {
+            "type": "text",
+            "text": "Industry Mentorship",
+            "icon": "/icons/mentorship.svg",
+            "top": "20%",
+            "left": "0%"
+          },
+          {
+            "type": "text",
+            "text": "Research Ecosystem",
+            "icon": "/icons/system.svg",
+            "top": "75%",
+            "left": "37%"
+          },
+          {
+            "type": "image",
+            "image": "/img/classes/1.jpg",
+            "top": "55%",
+            "left": "10%"
+          },
+          {
+            "type": "image",
+            "image": "/img/classes/1.jpg",
+            "top": "55%",
+            "left": "88%"
+          }
+        ],
+        "features": [
+          {
+            "title": "Industry-Standard Laboratory Infrastructure ",
+            "description": "Work with advanced equipment across dedicated labs for circuit design, CNC machining, 3D printing, fluid mechanics, drilling simulation, and VLSI prototyping — all maintained to professional standards."
+          },
+          {
+            "title": "Faculty with Premier Credentials ",
+            "description": "Learn from academics with doctoral qualifications from IITs and NITs, combined with active research output and consulting experience across electronics, power, civil, mechanical, and petroleum sectors."
+          },
+          {
+            "title": "International Exchange and Placement ",
+            "description": "Access study-abroad partnerships with universities across Europe, Taiwan, and beyond, alongside campus placement drives featuring national and international recruiters."
+          }
+        ]
+      },
+      "visionMission": {
+        "vision": {
+          "title": "Vision",
+          "description": "To be a value-based, practice-driven school of engineering and technology, committed to developing globally competent engineers dedicated to transforming society.",
+          "points": []
+        },
+        "mission": {
+          "title": "Mission",
+          "description": "",
+          "points": [
+            "Cultivate a practice-driven environment with contemporary learning pedagogy integrating theory and practice ",
+            "Attract and nurture world-class faculty to excel in teaching and research in core engineering ",
+            "Establish state-of-the-art facilities for effective teaching and learning experiences ",
+            "Promote interdisciplinary studies to nurture talent and impart relevant skill sets for global impact",
+            "Instil entrepreneurial and leadership skills to address social, environmental, and community needs"
+          ]
+        }
+      },
+      "programPreview": {
+        "title": "About the School of Law",
+        "subtitle": "Building Future Legal Professionals",
+        "content": [
+          "The Presidency School of Law is approved by the Bar Council of India.",
+          "Offers integrated law programmes and global exposure."
+        ],
+        "programs": [
+          {
+            "name": "B.A. LL.B. (Hons.)",
+            "duration": "5 Years - Full-Time",
+            "image": "/img/classes/1.jpg"
+          },
+          {
+            "name": "B.B.A. LL.B. (Hons.)",
+            "duration": "5 Years - Full-Time",
+            "image": "/img/classes/1.jpg"
+          }
+        ]
+      },
+      "programTable": {
+        "image": "/img/classes/1.jpg",
+        "description": "Five-year full-time programme with focus on legal excellence, research, and practical exposure.",
+
+        "sections": [
+          {
+            "title": "Integrated Law – 5-Year Full-Time (Honours)",
+            "programs": [
+              {
+                "name": "B.A. LL.B. (Hons.)",
+                "duration": "5 Years - Full-Time"
+              },
+              {
+                "name": "B.B.A. LL.B. (Hons.)",
+                "duration": "5 Years - Full-Time"
+              }
+            ]
+          },
+          {
+            "title": "Doctoral Studies",
+            "programs": [
+              {
+                "name": "Ph.D. Law",
+                "duration": "Doctoral Research"
+              }
+            ]
+          }
+        ]
+      },
+      "faq": [
+        {
+          "q": "What is the difference between B.A. LL.B. and B.B.A. LL.B.?",
+          "a": "B.A. LL.B focuses on humanities while B.B.A. LL.B focuses on business subjects."
+        },
+        {
+          "q": "What are the eligibility requirements?",
+          "a": "Candidates must have completed 10+2 with minimum required marks."
+        },
+        {
+          "q": "Can I specialise during my studies?",
+          "a": "Yes, students can choose specialisation tracks."
+        },
+        {
+          "q": "Are internships included?",
+          "a": "Yes, internships and practical training are part of the programme."
+        }
+      ],
+      "highlights": [
+        {
+          "title": "Advanced AI & Computing Labs",
+          "description": "Access high-performance GPU clusters and AI/ML platforms like TensorFlow and PyTorch."
+        },
+        {
+          "title": "Global Faculty Mentorship",
+          "description": "Learn from internationally experienced faculty with strong industry exposure."
+        },
+        {
+          "title": "Industry Partnerships",
+          "description": "Collaborations with top tech companies for internships and certifications."
+        }
+      ],
+
+      "programs": [
+        {
+          "slug": "btech-ece",
+          "name": "B.Tech Electronics & Communication Engineering",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+
+          "hero": {
+            "title": {
+              "normal": "B.Tech Electronics & Communication",
+              "italic": " Engineering"
+            },
+            "description": "Build a strong foundation in computing, AI, and modern software technologies.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Computer Science & Engineering",
+              "B.Tech CSE"
+            ],
+            "stats": [
+              { "label": "Duration", "value": "4 Yr" },
+              { "label": "Semesters", "value": "8" },
+              { "label": "Core Programme", "value": "CSE" }
+            ]
+          },
+
+          "details": {
+            "duration": "4 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "Computer Science & Engineering"
+          },
+
+          "overview": [
+            "The B.Tech in Electronics & Communication Engineering explores the design, development, and deployment of electronic devices, circuits, and communication systems that underpin modern life. From mobile networks and satellite communications to embedded controllers and IoT devices, the programme builds expertise across analogue and digital electronics, signal processing, wireless systems, VLSI technology, and microcontroller-based design. Students gain fluency in both hardware and software aspects of electronic engineering through an integrated curriculum of theory, laboratory practice, and project work.",
+            "Bengaluru’s position as a centre for semiconductor manufacturing, telecom R&D, and electronics innovation gives students proximity to major employers and research organisations. The programme incorporates industry-oriented certifications, collaborative projects, and internship placements that connect classroom learning to professional practice. Graduates emerge prepared for roles in telecommunications, semiconductor design, consumer electronics, aerospace, defence, and automation industries worldwide."
+          ],
+
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "note": "Eligibility may vary for international students."
+          },
+
+          "tabs": {
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  { "name": "Mathematics I", "code": "MAT101" },
+                  { "name": "Programming in C", "code": "CSE101" },
+                  { "name": "Physics", "code": "PHY101" }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  { "name": "Data Structures", "code": "CSE201" },
+                  { "name": "Discrete Mathematics", "code": "MAT201" },
+                  { "name": "Digital Logic", "code": "CSE202" }
+                ]
+              }
+            ],
+
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Professional Excellence",
+                  "text": "Equip graduates to thrive as professionals across industries worldwide."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Responsible Citizenship",
+                  "text": "Develop graduates who contribute to society as ethical global citizens."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Analytical & Collaborative Skills",
+                  "text": "Foster strong analytical reasoning and teamwork."
+                },
+                {
+                  "id": "PEO 4",
+                  "title": "Lifelong Learning",
+                  "text": "Encourage continuous learning and professional growth."
+                }
+              ],
+
+              "POs": [
+                {
+                  "id": "PO 1",
+
+                  "text": "Apply knowledge of mathematics, science, and engineering fundamentals to solve complex engineering problems."
+                },
+                {
+                  "id": "PO 2",
+
+                  "text": "Identify, formulate, and analyse complex engineering problems using first principles of mathematics, natural sciences, and engineering."
+                },
+                {
+                  "id": "PO 3",
+
+                  "text": "Design solutions for complex problems, including system components and processes, considering public health, safety, and societal and environmental factors."
+                },
+                {
+                  "id": "PO 4",
+
+                  "text": "Conduct investigations of complex problems using research-based methods, data analysis, and synthesis to provide valid conclusions."
+                },
+                {
+                  "id": "PO 5",
+
+                  "text": "Select and apply appropriate techniques, resources, and modern engineering tools — including prediction and modelling — to complex engineering activities."
+                },
+                {
+                  "id": "PO 6",
+
+                  "text": "Assess societal, health, safety, legal, and cultural issues relevant to professional engineering practice."
+                },
+                {
+                  "id": "PO 7",
+
+                  "text": "Understand the impact of engineering solutions in societal and environmental contexts, demonstrating commitment to sustainable development."
+                },
+                {
+                  "id": "PO 8",
+
+                  "text": "Apply ethical principles and commit to professional ethics, responsibilities, and norms of engineering practice."
+                },
+                {
+                  "id": "PO 9",
+
+                  "text": "Function effectively as an individual and as a member or leader in diverse and multidisciplinary teams."
+                },
+                {
+                  "id": "PO 10",
+
+                  "text": "Communicate effectively with the engineering community and society at large on complex engineering activities."
+                },
+                {
+                  "id": "PO 11",
+
+                  "text": "Demonstrate knowledge and understanding of engineering and management principles to manage projects in multidisciplinary environments. "
+                },
+                {
+                  "id": "PO 12",
+
+                  "text": "Recognise the need for and engage in independent and lifelong learning in the broadest context of technological change."
+                }
+              ],
+
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Problem Analysis",
+                  "text": "Identify, formulate, and critically analyse complex engineering problems related to software engineering principles, programming, and computing technologies using first principles of mathematics, natural sciences, and engineering. ."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Solution Development",
+                  "text": "Design solutions for complex problems related to software engineering, programming, and computing — including system components and processes that address specified needs while considering public health, safety, and environmental factors."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Modern Tool Application",
+                  "text": "Create, select, and apply appropriate techniques, resources, and modern engineering tools — including prediction and modelling — to complex engineering activities related to software engineering, programming, and computing with an understanding of their capabilities and limitations."
+                }
+              ]
+            }
+          },
+
+          "highlights": [
+            {
+              "title": "Comprehensive Core Curriculum",
+              "description": "Covers the full spectrum of computer science — programming, data structures, AI, ML, cyber security, cloud computing, IoT, and blockchain — with regular updates to reflect global industry trends. "
+            },
+            {
+              "title": "Innovation-Driven Culture ",
+              "description": "A strong culture of hackathons, coding competitions, and project-based learning provides platforms to transform concepts into tangible solutions. "
+            },
+            {
+              "title": "Industry Expert Faculty ",
+              "description": "Faculty members bring real-world experience from active industry consulting, offering mentorship and insights that extend well beyond academic theory."
+            },
+            {
+              "title": "Global Internship & Exchange",
+              "description": "International internship placements and study-abroad partnerships broaden professional networks and enhance career mobility across global markets."
+            },
+            {
+              "title": "Professional Certifications ",
+              "description": "Earn industry-recognised credentials alongside your degree, including AWS, Google Cloud, Microsoft Azure, and other globally valued certifications."
+            },
+            {
+              "title": "Bengaluru Tech Ecosystem ",
+              "description": "Study in India’s technology capital — home to thousands of multinational tech firms, start-ups, and R&D centres — with direct access to internship and employment pipelines."
+            },
+            {
+              "title": "Strong Placement Track Record ",
+              "description": "Graduates are recruited by leading organisations including major IT companies, product firms, start-ups, and consulting organisations through dedicated placement drives."
+            },
+            {
+              "title": "Research & Publication Pathways ",
+              "description": "Faculty-guided research projects with opportunities for peer-reviewed publications and patent filings in emerging technology areasy."
+            }
+          ],
+
+          "careers": [
+            {
+              "category": "Core Roles",
+              "roles": [
+                "Software Developer",
+                "Full Stack Developer",
+                "Backend Engineer"
+              ]
+            },
+            {
+              "category": "Emerging Roles",
+              "roles": [
+                "AI Engineer",
+                "Machine Learning Engineer",
+                "Data Scientist"
+              ]
+            },
+            {
+              "category": "Emerging Technology ",
+              "roles": [
+                "IoT Solutions Engineer",
+                "AI Hardware Engineer",
+                "Robotics Systems Developer",
+                "Edge Computing Specialist"
+              ]
+            }
+          ],
+
+          "faq": [
+            {
+              "q": "What is eligibility?",
+              "a": "10+2 with PCM."
+            },
+            {
+              "q": "How do international students apply for the B.Tech CSE programme?",
+              "a": "International applicants should visit the Presidency University International admissions portal or contact the Office of International Affairs directly. The process typically involves submitting academic transcripts, proof of English language proficiency, and relevant entrance examination scores. Admission considers JEE Main, KCET, COMEDK, or the university’s own evaluation test."
+            },
+            {
+              "q": "What entrance examinations are accepted?",
+              "a": "The university accepts JEE Main, JEE Advanced, Karnataka CET (KCET), COMEDK UGET, and the Presidency University Entrance Examination Test (PUEET). International applicants should check with the admissions team whether alternative qualifications are accepted."
+            },
+            {
+              "q": " What career prospects are available after graduation?",
+              "a": "Graduates find roles as software developers, data scientists, AI engineers, cybersecurity specialists, cloud architects, and more across multinational IT companies, product firms, start-ups, government research bodies, and consulting organisations. The university’s placement cell maintains strong industry connections with regular on-campus recruitment drives.  "
+            },
+            {
+              "q": "Is the B.Tech CSE programme in demand globally? ",
+              "a": "Yes, B.Tech in Computer Science & Engineering remains one of the most in-demand degrees worldwide due to the growing need for tech professionals across every industry. Graduates are hired for roles spanning software development, data science, AI, and cybersecurity, with strong salary prospects and global career mobility. "
+            },
+            {
+              "q": "Is on-campus accommodation available for international students? ",
+              "a": "Presidency University offers dedicated student housing on its Bengaluru campus. International students are encouraged to contact the Office of International Affairs for information on hostel availability, room types, and the booking process."
+            }
+          ],
+
+          "cta": {
+            "title": "Your Future Starts Here",
+            "subtitle": "Join Presidency University and build your career in technology.",
+            "button": "Apply Now"
+          }
+        },
+        {
+          "slug": "btech-eee",
+          "name": "B.Tech Electrical & Electronics Engineering",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Learn to process, analyse, and manage large-scale data using modern tools like Hadoop, Spark, and AI-driven analytics."
+        },
+        {
+          "slug": "btech-vlsi",
+          "name": "B.Tech VLSI",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Master CI/CD pipelines, cloud infrastructure, and automation tools used in modern software delivery systems."
+        },
+        {
+          "slug": "btech-civil-engineering",
+          "name": "B.Tech Civil Engineering",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Develop intelligent systems using machine learning, deep learning, and AI technologies across real-world applications."
+        },
+        {
+          "slug": "btech-mechanical-engineerin",
+          "name": "B.Tech Mechanical Engineering",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Explore blockchain architecture, smart contracts, and decentralized applications for future-ready systems."
+        },
+        {
+          "slug": "btech-petroleum-engineering",
+          "name": "B.Tech Petroleum Engineering",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Learn network security, ethical hacking, cryptography, and cyber defense strategies to protect digital systems."
+        },
+
+        {
+          "slug": "mtech-embeddedsystem-vlsi",
+          "name": "M.Tech Embedded System & VLSI",
+          "duration": "2 Years.Full-Time",
+          "type": "PG",
+          "degree": "Master of Technology",
+          "overview": "Build connected systems and smart devices using IoT technologies, sensors, and cloud platforms."
+        },
+        {
+          "slug": "btech-buliding-construction-technology",
+          "name": "M.Tech Building & Construction Technology",
+          "duration": "2 Years.Full-Time",
+          "type": "PG",
+          "degree": "Master of Technology",
+          "overview": "Focus on software development, information systems, and data management for modern IT solutions."
+        },
+
+        {
+          "slug": "phd-ece",
+          "name": "Ph.D. Electronics & Communications Engineering",
+          "duration": "Research Programme",
+          "type": "PhD",
+          "degree": "Doctor of Philosophy",
+          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies."
+        },
+        {
+          "slug": "phd-mechanical-engineering",
+          "name": "Ph.D. Mechanical Engineering",
+          "duration": "Research Programme",
+          "type": "PhD",
+          "degree": "Doctor of Philosophy",
+          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies."
+        },
+        {
+          "slug": "phd-civil-engineering",
+          "name": "Ph.D. Civil Engineering",
+          "duration": "Research Programme",
+          "type": "PhD",
+          "degree": "Doctor of Philosophy",
+          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies."
+        },
+        {
+          "slug": "phd-ece",
+          "name": "Ph.D. Electrical & Electronics Engineering",
+          "duration": "Research Programme",
+          "type": "PhD",
+          "degree": "Doctor of Philosophy",
+          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies."
+        },
+        {
+          "slug": "phd-petroleum-engineering",
+          "name": "Ph.D. Petroleum Engineering",
+          "duration": "Research Programme",
+          "type": "PhD",
+          "degree": "Doctor of Philosophy",
+          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies."
+        },
+        {
+          "slug": "pg-diploma-drone-technology",
+          "name": "Post Graduate Diploma in Drone Technology",
+          "duration": "Diploma Programme",
+          "type": "Diploma",
+          "degree": "Post Graduate Diploma",
+          "overview": "Develop practical skills in big data technologies, analytics, and data-driven decision making."
+        }
+      ]
+    },
+    {
+      "slug": "information-science",
+      "name": "School of Information Science",
+
+      "hero": {
+        "title": {
+          "normal": "School of ",
+          "italic": "Information Science"
+        },
+        "description": "Step into the digital future with application-focused computing programmes. From software development and data science to artificial intelligence and cybersecurity, our school prepares international students with the practical skills and industry-ready expertise that technology employers seek worldwide.",
+        "breadcrumb": ["Home", "Schools", "Engineering"],
+        "image": "/img/classes/1.jpg",
+        "stats": [
+          { "label": "UG Programmes", "value": "3" },
+          { "label": "PG Programmes", "value": "1" },
+          { "label": "Doctoral Research", "value": "1" }
+        ]
+      },
+
+      "about": {
+        "title": "Where Information Becomes Insight",
+        "content": [
+          "The Presidency School of Information Science offers application-centred computing education through three undergraduate programmes and a postgraduate programme, each designed to produce graduates with strong programming, analytical, and software development skills. The school focuses on fields that define the modern technology landscape — data science, artificial intelligence, machine learning, cybersecurity, cloud computing, and full-stack development. With a curriculum structured around the Choice Based Credit System (CBCS) and Outcome Based Education (OBE), students build both breadth and depth across information technology disciplines.",
+          "The school has established collaborations with IITs and prominent industry partners for laboratory training, summer programmes, and industry-based certification. A partnership with a Switzerland-based organisation through the Global AI Hub has provided AI and data science certification training to over 2,800 students. Faculty members have been trained at IIT Madras in XR/AR and VR technologies, and the school is developing a Centre of Excellence in Extended Reality (XR). Over 100 research scholars currently pursue doctoral programmes within the school, and a Digital Forensics initiative is being developed in collaboration with the Criminal Investigation Department of Karnataka State. The school’s BCA programme has been ranked 27th nationally among the Top 100 BCA Colleges and Universities."
+        ],
+        "image": "/img/classes/1.jpg",
+
+        "hexagons": [
+          {
+            "type": "text",
+            "text": "Cloud Computing",
+            "icon": "/icons/cloud.svg",
+            "top": "0%",
+            "left": "35%"
+          },
+          {
+            "type": "text",
+            "text": "Newest Research",
+            "icon": "/icons/research.svg",
+            "top": "20%",
+            "left": "70%"
+          },
+          {
+            "type": "text",
+            "text": "Industry Mentorship",
+            "icon": "/icons/mentorship.svg",
+            "top": "20%",
+            "left": "0%"
+          },
+          {
+            "type": "text",
+            "text": "Research Ecosystem",
+            "icon": "/icons/system.svg",
+            "top": "75%",
+            "left": "37%"
+          },
+          {
+            "type": "image",
+            "image": "/img/classes/1.jpg",
+            "top": "55%",
+            "left": "10%"
+          },
+          {
+            "type": "image",
+            "image": "/img/classes/1.jpg",
+            "top": "55%",
+            "left": "88%"
+          }
+        ],
+        "features": [
+          {
+            "title": "Global AI Hub Certification Partnership  ",
+            "description": "Strategic collaboration with a Switzerland-based organisation providing AI and data science certification training to students, with over 2,800 certifications delivered."
+          },
+          {
+            "title": "IIT Collaboration & XR Centre of Excellence ",
+            "description": "Faculty trained at IIT Madras in extended reality technologies, with an XR Centre of Excellence under development and ongoing partnerships with premier Indian institutions."
+          },
+          {
+            "title": "Industry-Ready Skills Programme  ",
+            "description": "The Super-60 advanced training programme identifies fast learners and provides specialised skill development including CODEATHON events and hands-on modern software tool training."
+          }
+        ]
+      },
+      "visionMission": {
+        "vision": {
+          "title": "Vision",
+          "description": "To be a value-based, practice-driven school of information science, committed to developing globally competent professionals dedicated to applying modern information science for social benefit.",
+          "points": []
+        },
+        "mission": {
+          "title": "Mission",
+          "description": "",
+          "points": [
+            "Cultivate a practice-driven environment with an information-technology-based pedagogy integrating theory and practice ",
+            "Attract and nurture world-class faculty to excel in teaching and research in the information science domain ",
+            "Establish state-of-the-art facilities for effective teaching and learning experiences ",
+            "Promote interdisciplinary studies to nurture talent for global impact",
+            "Instil entrepreneurial and leadership skills to address social, environmental, and community needs"
+          ]
+        }
+      },
+      "programPreview": {
+        "title": "About the School of Law",
+        "subtitle": "Building Future Legal Professionals",
+        "content": [
+          "The Presidency School of Law is approved by the Bar Council of India.",
+          "Offers integrated law programmes and global exposure."
+        ],
+        "programs": [
+          {
+            "name": "B.A. LL.B. (Hons.)",
+            "duration": "5 Years - Full-Time",
+            "image": "/img/classes/1.jpg"
+          },
+          {
+            "name": "B.B.A. LL.B. (Hons.)",
+            "duration": "5 Years - Full-Time",
+            "image": "/img/classes/1.jpg"
+          }
+        ]
+      },
+      "programTable": {
+        "image": "/img/classes/1.jpg",
+        "description": "Five-year full-time programme with focus on legal excellence, research, and practical exposure.",
+
+        "sections": [
+          {
+            "title": "Integrated Law – 5-Year Full-Time (Honours)",
+            "programs": [
+              {
+                "name": "B.A. LL.B. (Hons.)",
+                "duration": "5 Years - Full-Time"
+              },
+              {
+                "name": "B.B.A. LL.B. (Hons.)",
+                "duration": "5 Years - Full-Time"
+              }
+            ]
+          },
+          {
+            "title": "Doctoral Studies",
+            "programs": [
+              {
+                "name": "Ph.D. Law",
+                "duration": "Doctoral Research"
+              }
+            ]
+          }
+        ]
+      },
+      "faq": [
+        {
+          "q": "What is the difference between B.A. LL.B. and B.B.A. LL.B.?",
+          "a": "B.A. LL.B focuses on humanities while B.B.A. LL.B focuses on business subjects."
+        },
+        {
+          "q": "What are the eligibility requirements?",
+          "a": "Candidates must have completed 10+2 with minimum required marks."
+        },
+        {
+          "q": "Can I specialise during my studies?",
+          "a": "Yes, students can choose specialisation tracks."
+        },
+        {
+          "q": "Are internships included?",
+          "a": "Yes, internships and practical training are part of the programme."
+        }
+      ],
+      "highlights": [
+        {
+          "title": "Advanced AI & Computing Labs",
+          "description": "Access high-performance GPU clusters and AI/ML platforms like TensorFlow and PyTorch."
+        },
+        {
+          "title": "Global Faculty Mentorship",
+          "description": "Learn from internationally experienced faculty with strong industry exposure."
+        },
+        {
+          "title": "Industry Partnerships",
+          "description": "Collaborations with top tech companies for internships and certifications."
+        }
+      ],
+
+      "programs": [
+        {
+          "slug": "bca",
+          "name": "Bachelor of Computer Applications (BCA)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+
+          "hero": {
+            "title": {
+              "normal": "B.Tech Electronics & Communication",
+              "italic": " Engineering"
+            },
+            "description": "Build a strong foundation in computing, AI, and modern software technologies.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Computer Science & Engineering",
+              "B.Tech CSE"
+            ],
+            "stats": [
+              { "label": "Duration", "value": "4 Yr" },
+              { "label": "Semesters", "value": "8" },
+              { "label": "Core Programme", "value": "CSE" }
+            ]
+          },
+
+          "details": {
+            "duration": "4 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "Computer Science & Engineering"
+          },
+
+          "overview": [
+            "The B.Tech in Electronics & Communication Engineering explores the design, development, and deployment of electronic devices, circuits, and communication systems that underpin modern life. From mobile networks and satellite communications to embedded controllers and IoT devices, the programme builds expertise across analogue and digital electronics, signal processing, wireless systems, VLSI technology, and microcontroller-based design. Students gain fluency in both hardware and software aspects of electronic engineering through an integrated curriculum of theory, laboratory practice, and project work.",
+            "Bengaluru’s position as a centre for semiconductor manufacturing, telecom R&D, and electronics innovation gives students proximity to major employers and research organisations. The programme incorporates industry-oriented certifications, collaborative projects, and internship placements that connect classroom learning to professional practice. Graduates emerge prepared for roles in telecommunications, semiconductor design, consumer electronics, aerospace, defence, and automation industries worldwide."
+          ],
+
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "note": "Eligibility may vary for international students."
+          },
+
+          "tabs": {
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  { "name": "Mathematics I", "code": "MAT101" },
+                  { "name": "Programming in C", "code": "CSE101" },
+                  { "name": "Physics", "code": "PHY101" }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  { "name": "Data Structures", "code": "CSE201" },
+                  { "name": "Discrete Mathematics", "code": "MAT201" },
+                  { "name": "Digital Logic", "code": "CSE202" }
+                ]
+              }
+            ],
+
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Professional Excellence",
+                  "text": "Equip graduates to thrive as professionals across industries worldwide."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Responsible Citizenship",
+                  "text": "Develop graduates who contribute to society as ethical global citizens."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Analytical & Collaborative Skills",
+                  "text": "Foster strong analytical reasoning and teamwork."
+                },
+                {
+                  "id": "PEO 4",
+                  "title": "Lifelong Learning",
+                  "text": "Encourage continuous learning and professional growth."
+                }
+              ],
+
+              "POs": [
+                {
+                  "id": "PO 1",
+
+                  "text": "Apply knowledge of mathematics, science, and engineering fundamentals to solve complex engineering problems."
+                },
+                {
+                  "id": "PO 2",
+
+                  "text": "Identify, formulate, and analyse complex engineering problems using first principles of mathematics, natural sciences, and engineering."
+                },
+                {
+                  "id": "PO 3",
+
+                  "text": "Design solutions for complex problems, including system components and processes, considering public health, safety, and societal and environmental factors."
+                },
+                {
+                  "id": "PO 4",
+
+                  "text": "Conduct investigations of complex problems using research-based methods, data analysis, and synthesis to provide valid conclusions."
+                },
+                {
+                  "id": "PO 5",
+
+                  "text": "Select and apply appropriate techniques, resources, and modern engineering tools — including prediction and modelling — to complex engineering activities."
+                },
+                {
+                  "id": "PO 6",
+
+                  "text": "Assess societal, health, safety, legal, and cultural issues relevant to professional engineering practice."
+                },
+                {
+                  "id": "PO 7",
+
+                  "text": "Understand the impact of engineering solutions in societal and environmental contexts, demonstrating commitment to sustainable development."
+                },
+                {
+                  "id": "PO 8",
+
+                  "text": "Apply ethical principles and commit to professional ethics, responsibilities, and norms of engineering practice."
+                },
+                {
+                  "id": "PO 9",
+
+                  "text": "Function effectively as an individual and as a member or leader in diverse and multidisciplinary teams."
+                },
+                {
+                  "id": "PO 10",
+
+                  "text": "Communicate effectively with the engineering community and society at large on complex engineering activities."
+                },
+                {
+                  "id": "PO 11",
+
+                  "text": "Demonstrate knowledge and understanding of engineering and management principles to manage projects in multidisciplinary environments. "
+                },
+                {
+                  "id": "PO 12",
+
+                  "text": "Recognise the need for and engage in independent and lifelong learning in the broadest context of technological change."
+                }
+              ],
+
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Problem Analysis",
+                  "text": "Identify, formulate, and critically analyse complex engineering problems related to software engineering principles, programming, and computing technologies using first principles of mathematics, natural sciences, and engineering. ."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Solution Development",
+                  "text": "Design solutions for complex problems related to software engineering, programming, and computing — including system components and processes that address specified needs while considering public health, safety, and environmental factors."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Modern Tool Application",
+                  "text": "Create, select, and apply appropriate techniques, resources, and modern engineering tools — including prediction and modelling — to complex engineering activities related to software engineering, programming, and computing with an understanding of their capabilities and limitations."
+                }
+              ]
+            }
+          },
+
+          "highlights": [
+            {
+              "title": "Comprehensive Core Curriculum",
+              "description": "Covers the full spectrum of computer science — programming, data structures, AI, ML, cyber security, cloud computing, IoT, and blockchain — with regular updates to reflect global industry trends. "
+            },
+            {
+              "title": "Innovation-Driven Culture ",
+              "description": "A strong culture of hackathons, coding competitions, and project-based learning provides platforms to transform concepts into tangible solutions. "
+            },
+            {
+              "title": "Industry Expert Faculty ",
+              "description": "Faculty members bring real-world experience from active industry consulting, offering mentorship and insights that extend well beyond academic theory."
+            },
+            {
+              "title": "Global Internship & Exchange",
+              "description": "International internship placements and study-abroad partnerships broaden professional networks and enhance career mobility across global markets."
+            },
+            {
+              "title": "Professional Certifications ",
+              "description": "Earn industry-recognised credentials alongside your degree, including AWS, Google Cloud, Microsoft Azure, and other globally valued certifications."
+            },
+            {
+              "title": "Bengaluru Tech Ecosystem ",
+              "description": "Study in India’s technology capital — home to thousands of multinational tech firms, start-ups, and R&D centres — with direct access to internship and employment pipelines."
+            },
+            {
+              "title": "Strong Placement Track Record ",
+              "description": "Graduates are recruited by leading organisations including major IT companies, product firms, start-ups, and consulting organisations through dedicated placement drives."
+            },
+            {
+              "title": "Research & Publication Pathways ",
+              "description": "Faculty-guided research projects with opportunities for peer-reviewed publications and patent filings in emerging technology areasy."
+            }
+          ],
+
+          "careers": [
+            {
+              "category": "Core Roles",
+              "roles": [
+                "Software Developer",
+                "Full Stack Developer",
+                "Backend Engineer"
+              ]
+            },
+            {
+              "category": "Emerging Roles",
+              "roles": [
+                "AI Engineer",
+                "Machine Learning Engineer",
+                "Data Scientist"
+              ]
+            },
+            {
+              "category": "Emerging Technology ",
+              "roles": [
+                "IoT Solutions Engineer",
+                "AI Hardware Engineer",
+                "Robotics Systems Developer",
+                "Edge Computing Specialist"
+              ]
+            }
+          ],
+
+          "faq": [
+            {
+              "q": "What is eligibility?",
+              "a": "10+2 with PCM."
+            },
+            {
+              "q": "How do international students apply for the B.Tech CSE programme?",
+              "a": "International applicants should visit the Presidency University International admissions portal or contact the Office of International Affairs directly. The process typically involves submitting academic transcripts, proof of English language proficiency, and relevant entrance examination scores. Admission considers JEE Main, KCET, COMEDK, or the university’s own evaluation test."
+            },
+            {
+              "q": "What entrance examinations are accepted?",
+              "a": "The university accepts JEE Main, JEE Advanced, Karnataka CET (KCET), COMEDK UGET, and the Presidency University Entrance Examination Test (PUEET). International applicants should check with the admissions team whether alternative qualifications are accepted."
+            },
+            {
+              "q": " What career prospects are available after graduation?",
+              "a": "Graduates find roles as software developers, data scientists, AI engineers, cybersecurity specialists, cloud architects, and more across multinational IT companies, product firms, start-ups, government research bodies, and consulting organisations. The university’s placement cell maintains strong industry connections with regular on-campus recruitment drives.  "
+            },
+            {
+              "q": "Is the B.Tech CSE programme in demand globally? ",
+              "a": "Yes, B.Tech in Computer Science & Engineering remains one of the most in-demand degrees worldwide due to the growing need for tech professionals across every industry. Graduates are hired for roles spanning software development, data science, AI, and cybersecurity, with strong salary prospects and global career mobility. "
+            },
+            {
+              "q": "Is on-campus accommodation available for international students? ",
+              "a": "Presidency University offers dedicated student housing on its Bengaluru campus. International students are encouraged to contact the Office of International Affairs for information on hostel availability, room types, and the booking process."
+            }
+          ],
+
+          "cta": {
+            "title": "Your Future Starts Here",
+            "subtitle": "Join Presidency University and build your career in technology.",
+            "button": "Apply Now"
+          }
+        },
+        {
+          "slug": "bca-AL-ML",
+          "name": "B.C.A. Artificial Intelligence and Machine Learning",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Learn to process, analyse, and manage large-scale data using modern tools like Hadoop, Spark, and AI-driven analytics."
+        },
+        {
+          "slug": "bca-data-science",
+          "name": "B.C.A. Data Science",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Master CI/CD pipelines, cloud infrastructure, and automation tools used in modern software delivery systems."
+        },
+
+        {
+          "slug": "mca",
+          "name": "Master of Computer Applications (MCA)",
+          "duration": "2 Years.Full-Time",
+          "type": "PG",
+          "degree": "Master of Technology",
+          "overview": "Build connected systems and smart devices using IoT technologies, sensors, and cloud platforms."
+        },
+
+        {
+          "slug": "phd-information-science",
+          "name": "Ph.D. Information Science",
+          "duration": "Research Programme",
+          "type": "PhD",
+          "degree": "Doctor of Philosophy",
+          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies."
+        }
+      ]
+    },
+    {
       "slug": "management",
       "name": "School of Management",
 
@@ -805,108 +1862,7 @@
         }
       ]
     },
-    {
-      "slug": "engineering",
-      "name": "School of Engineering",
 
-      "hero": {
-        "title": "School of Engineering",
-        "subtitle": "6+ Undergraduate Programmes • 3+ Postgraduate • Ph.D Research",
-        "description": "Explore core engineering disciplines with hands-on learning, modern laboratories, and industry-focused curriculum.",
-        "breadcrumb": ["Home", "Schools", "Engineering"],
-        "stats": [
-          { "label": "UG Programmes", "value": "6+" },
-          { "label": "PG Programmes", "value": "3+" },
-          { "label": "Doctoral Research", "value": "Ph.D" }
-        ]
-      },
-
-      "about": {
-        "title": "Building Future Engineers",
-        "content": [
-          "The School of Engineering offers strong academic foundations across core engineering disciplines including Mechanical, Civil, Electrical, and Electronics.",
-          "Students gain practical experience through advanced laboratories, real-world projects, and industry collaborations.",
-          "The curriculum is designed to develop problem-solving skills and prepare graduates for global engineering careers."
-        ]
-      },
-
-      "programs": [
-        {
-          "slug": "btech-mechanical",
-          "name": "B.Tech Mechanical Engineering",
-          "duration": "4 Years ",
-          "type": "UG",
-          "degree": "Bachelor of Technology",
-          "overview": "Learn design, manufacturing, thermodynamics, and mechanical systems for modern industries."
-        },
-        {
-          "slug": "btech-civil",
-          "name": "B.Tech Civil Engineering",
-          "duration": "4 Years",
-          "type": "UG",
-          "degree": "Bachelor of Technology",
-          "overview": "Develop infrastructure solutions including buildings, roads, bridges, and smart cities."
-        },
-        {
-          "slug": "btech-electrical",
-          "name": "B.Tech Electrical & Electronics Engineering",
-          "duration": "4 Years",
-          "type": "UG",
-          "degree": "Bachelor of Technology",
-          "overview": "Focus on electrical systems, power generation, electronics, and automation."
-        },
-        {
-          "slug": "btech-electronics",
-          "name": "B.Tech Electronics & Communication Engineering",
-          "duration": "4 Years",
-          "type": "UG",
-          "degree": "Bachelor of Technology",
-          "overview": "Study communication systems, embedded systems, and signal processing."
-        },
-        {
-          "slug": "btech-petroleum",
-          "name": "B.Tech Petroleum Engineering",
-          "duration": "4 Years",
-          "type": "UG",
-          "degree": "Bachelor of Technology",
-          "overview": "Learn oil and gas exploration, drilling, and energy resource management."
-        },
-        {
-          "slug": "btech-drone",
-          "name": "Diploma in Drone Technology",
-          "duration": "1 Year",
-          "type": "Diploma",
-          "degree": "Diploma",
-          "overview": "Learn drone design, operation, and applications in industries like agriculture and surveillance."
-        },
-
-        {
-          "slug": "mtech-vlsi",
-          "name": "M.Tech Embedded Systems & VLSI",
-          "duration": "2 Years",
-          "type": "PG",
-          "degree": "Master of Technology",
-          "overview": "Specialise in chip design, embedded systems, and VLSI technologies."
-        },
-        {
-          "slug": "mtech-construction",
-          "name": "M.Tech Building & Construction Technology",
-          "duration": "2 Years",
-          "type": "PG",
-          "degree": "Master of Technology",
-          "overview": "Focus on advanced construction techniques, project management, and infrastructure development."
-        },
-
-        {
-          "slug": "phd-engineering",
-          "name": "Ph.D in Engineering",
-          "duration": "Varies",
-          "type": "PhD",
-          "degree": "Doctor of Philosophy",
-          "overview": "Conduct advanced research in engineering disciplines including mechanical, civil, electrical, and electronics."
-        }
-      ]
-    },
     {
       "slug": "design",
       "name": "School of Design",

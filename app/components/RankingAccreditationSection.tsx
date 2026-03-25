@@ -36,7 +36,7 @@ export function RankingAccreditationSection() {
       {/* soft background glow */}
       <div className="absolute right-0 top-0 w-[400px] h-[400px] bg-[#ff8c42]/10 blur-[120px] rounded-full"></div>
 
-      <div className="max-w-7xl mx-auto px-6 relative">
+      <div className="max-w-[1400px] mx-auto px-6 relative">
         {/* ✅ COMMON HEADER (UPDATED) */}
         <div className="text-center mb-16">
           {/* Tag */}

@@ -15,41 +15,35 @@ export function CampusLikeHome() {
     {
       title: "Sports & Student Life",
       subtitle: "Athletics, wellness & recreation facilities",
-      image:
-        "img/campus-like/sports.png",
+      image: "img/campus-like/sports.png",
       large: true,
     },
     {
       title: "Smart Digital Campus",
       subtitle: "High-speed Wi-Fi & fully networked environment",
-      image:
-        "img/campus-like/smart.jpeg",
+      image: "img/campus-like/smart.jpeg",
     },
     {
       title: " Design & Media Studios",
       subtitle: "SOD labs, media labs & broadcasting studios",
-      image:
-        "img/bang-life/world.png",
+      image: "img/bang-life/world.png",
     },
     {
       title: "Advanced Learning Labs",
       subtitle: "AI, ML, IoT, VLSI & Robotics facilities",
-      image:
-        "img/bang-life/life.png",
+      image: "img/bang-life/life.png",
       wide: true,
     },
     {
       title: "  Library & Knowledge Hub",
       subtitle: " Digital library, journals & Manupatra access",
-      image:
-        "img/bang-life/innovation.png",
+      image: "img/bang-life/innovation.png",
     },
-   
   ];
 
   return (
     <section className="py-24 bg-[#eef1f5]">
-      <div className="max-w-[1200px] mx-auto px-6">
+      <div className="max-w-[1400px] mx-auto px-6">
         {/* ✅ COMMON HEADER */}
         <div className="text-center mb-16">
           <motion.span
@@ -67,7 +61,7 @@ export function CampusLikeHome() {
             viewport={{ once: true }}
             className="text-3xl md:text-4xl text-[#1e3a5f]"
           >
-           World-Class 
+            World-Class
             <span className="block text-[#0A8F96]">Campus Facilities</span>
           </motion.h2>
 
@@ -78,7 +72,9 @@ export function CampusLikeHome() {
             viewport={{ once: true }}
             className="text-gray-600 mt-4 max-w-2xl mx-auto"
           >
-            Our campus is designed to deliver a world-class learning experience, combining advanced academic infrastructure with modern recreational and student support facilities.
+            Our campus is designed to deliver a world-class learning experience,
+            combining advanced academic infrastructure with modern recreational
+            and student support facilities.
           </motion.p>
         </div>
 

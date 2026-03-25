@@ -16,52 +16,17 @@ export function HeroSection() {
     <section className="relative h-screen min-h-[700px] flex items-center justify-center overflow-hidden">
       {/* Video Background */}
       <div className="absolute inset-0 z-0">
-        {/* {!videoError ? (
-          <>
-            <video
-              autoPlay
-              loop
-              muted
-              playsInline
-              className="w-full h-full object-cover scale-105"
-              onError={() => setVideoError(true)}
-              poster="https://images.unsplash.com/photo-1769905226788-1bf5ba8f50d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5JTIwY2FtcHVzJTIwc3R1ZGVudHMlMjB3YWxraW5nfGVufDF8fHx8MTc3MzM5ODc4N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-            >
-              <source
-                src="https://cdn.coverr.co/videos/coverr-students-walking-on-campus-8290/1080p.mp4"
-                type="video/mp4"
-              />
-              <source
-                src="https://cdn.coverr.co/videos/coverr-university-students-studying-together-5237/1080p.mp4"
-                type="video/mp4"
-              />
-            </video>
-          </>
-        ) : (
-          <img
-            src="https://images.unsplash.com/photo-1769905226788-1bf5ba8f50d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5JTIwY2FtcHVzJTIwc3R1ZGVudHMlMjB3YWxraW5nfGVufDF8fHx8MTc3MzM5ODc4N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-            alt="University Campus"
-            className="w-full h-full object-cover"
-          />
-        )} */}
         <video
-              autoPlay
-              loop
-              muted
-              playsInline
-              className="w-full h-full object-cover scale-105"
-              onError={() => setVideoError(true)}
-              poster="https://images.unsplash.com/photo-1769905226788-1bf5ba8f50d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5JTIwY2FtcHVzJTIwc3R1ZGVudHMlMjB3YWxraW5nfGVufDF8fHx8MTc3MzM5ODc4N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-            >
-              <source
-                src="/videos/hero-video.mp4"
-                type="video/mp4"
-              />
-              {/* <source
-                src="https://cdn.coverr.co/videos/coverr-university-students-studying-together-5237/1080p.mp4"
-                type="video/mp4"
-              /> */}
-            </video>
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover scale-105"
+          onError={() => setVideoError(true)}
+          poster="https://images.unsplash.com/photo-1769905226788-1bf5ba8f50d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5JTIwY2FtcHVzJTIwc3R1ZGVudHMlMjB3YWxraW5nfGVufDF8fHx8MTc3MzM5ODc4N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+        >
+          <source src="/videos/hero-video.mp4" type="video/mp4" />
+        </video>
         {/* Gradient Overlay */}
         <div className="absolute inset-0 bg-gradient-to-r from-[#0F1E3D]/50 via-[#0F1E3D]/50 to-[#0F1E3D]/50"></div>
 
@@ -81,17 +46,6 @@ export function HeroSection() {
       {/* Content */}
       <div className="relative z-10 max-w-[1400px] mx-auto px-5 md:px-10 w-full">
         <div className="max-w-4xl">
-          {/* <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="inline-block bg-[#0A8F96]/20 border border-[#0A8F96]/50 backdrop-blur-sm px-4 py-2 rounded-full mb-6"
-          >
-            <span className="text-[#D4A843] text-sm font-medium">
-              🌍 Ranked Among India's Top Private Universities
-            </span>
-          </motion.div> */}
-
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -107,32 +61,15 @@ export function HeroSection() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl md:text-2xl text-white/90 mb-4"
           >
-            Study at Presidency University, Bangalore — where 50 years of academic excellence meet India’s most exciting city.
+            Study at Presidency University, Bangalore — where 50 years of
+            academic excellence meet India’s most exciting city.
           </motion.p>
-
-          {/* <motion.p
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.3 }}
-            className="text-lg text-white/80 mb-10 max-w-3xl"
-          >
-            Presidency University, Bangalore, is one of India’s most ambitious private universities — a place where global thinking, cutting-edge research, and a vibrant campus community come together on a lush 100-acre campus in the heart of India’s Silicon Valley. Whether you are arriving from Africa, the Middle East, South-East Asia, Europe, or beyond, you will find a university that is genuinely built to welcome the world.
-          </motion.p> */}
-
-           {/* <motion.p
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.3 }}
-            className="text-lg text-white/80 mb-10 max-w-3xl"
-          >
-            From undergraduate and postgraduate degrees to doctoral research, international exchange programmes, and professional short courses, Presidency University offers a pathway for every ambition — backed by national accreditations, industry-leading placements, and a dedicated Office of International Affairs to support you every step of the way.
-          </motion.p> */}
 
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="flex flex-wrap gap-4 mb-16"
+            className="flex flex-wrap gap-4 mb-5"
           >
             <button className="bg-[#0A8F96] text-white px-8 py-4 rounded-lg hover:bg-[#0BB5B5] transition-all duration-300 hover:shadow-xl hover:scale-105 flex items-center gap-2 text-lg">
               Explore Programmes
@@ -176,22 +113,6 @@ export function HeroSection() {
           </motion.div>
         </div>
       </div>
-
-      {/* Scroll Indicator */}
-      {/* <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 1.2 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10"
-      >
-        <div className="w-6 h-10 border-2 border-white/50 rounded-full flex items-start justify-center p-2">
-          <motion.div
-            animate={{ y: [0, 12, 0] }}
-            transition={{ duration: 1.5, repeat: Infinity }}
-            className="w-1.5 h-1.5 bg-white rounded-full"
-          ></motion.div>
-        </div>
-      </motion.div> */}
     </section>
   );
 }

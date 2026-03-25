@@ -54,7 +54,7 @@ export default function CommonHeader({
         {title}
         {highlight && (
           <span
-            className={`inline-block ${isCenter ? "ml-1" : "mt-1"}`}
+            className={`inline-block ${isCenter ? "ml-1" : "ml-1"}`}
             style={{ color: primaryColor }}
           >
             {highlight}

@@ -47,7 +47,7 @@ export default async function CoursePage({
 
       {/* OVERVIEW */}
       <CourseOverview data={selectedCourse} />
-      {/* <CourseCurriculum data={selectedCourse} /> */}
+      <CourseCurriculum data={selectedCourse} />
       <CourseOutcomes data={selectedCourse} />
       {/* 🔥 TABS (NEW SECTION) */}
       {/* <CourseTabs data={selectedCourse} /> */}

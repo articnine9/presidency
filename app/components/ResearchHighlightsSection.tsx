@@ -23,7 +23,7 @@ export function ResearchHighlightsSection() {
 
   return (
     <section className="py-24 bg-[#EEF1F5]">
-      <div className="max-w-[1300px] mx-auto px-6 md:px-10">
+      <div className="max-w-[1400px] mx-auto px-6 md:px-10">
         {/* HEADER */}
         <CommonHeader
           tag="Research & Innovation"
@@ -45,7 +45,7 @@ export function ResearchHighlightsSection() {
                 <img
                   src={item.image}
                   alt={item.title}
-                  className="w-100px h-200px object-cover group-hover:scale-105 transition duration-500"
+                  className="w-250px h-200px object-cover group-hover:scale-105 transition duration-500"
                 />
               </div>
 

@@ -34,7 +34,7 @@ const news = [
 export function NewsSection() {
   return (
     <section className="bg-[#062f54] py-24 text-white">
-      <div className="max-w-[1200px] mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
+      <div className="max-w-[1400px] mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
         {/* WORLD MAP */}
         <div className="hidden lg:block">
           <img

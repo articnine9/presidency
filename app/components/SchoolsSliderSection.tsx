@@ -14,36 +14,31 @@ export function SchoolsSliderSection() {
       title: "School of Computer Science & Engineering",
       description:
         "Offers UG, PG and PhD programmes in Artificial Intelligence, Data Science, Cyber Security, Blockchain and Robotics.",
-      image:
-        "img/cse.png",
+      image: "img/cse.png",
     },
     {
       title: "School of Engineering",
       description:
         "Engineering programmes in Electronics, Electrical, Civil, Mechanical, Petroleum and VLSI technologies.",
-      image:
-        "img/school-eng.png",
+      image: "img/school-eng.png",
     },
     {
       title: "School of Management",
       description:
         "Business education including BBA, MBA and doctoral research across finance, marketing and analytics.",
-      image:
-        "img/mang.png",
+      image: "img/mang.png",
     },
     {
       title: "School of Design",
       description:
         "Creative design programmes including product design, fashion design, game design and multimedia.",
-      image:
-        "img/media.png",
+      image: "img/media.png",
     },
     {
       title: "School of Law",
       description:
         "Integrated BA LLB, BBA LLB and LLM programmes with moot court training and legal research.",
-      image:
-        "img/law.png",
+      image: "img/law.png",
     },
   ];
 
@@ -52,7 +47,7 @@ export function SchoolsSliderSection() {
       <Swiper
         modules={[Pagination, Autoplay]}
         autoplay={{ delay: 5000 }}
-        pagination={{clickable: true}}
+        pagination={{ clickable: true }}
         loop
         className={`w-full h-full ${styles.customSwiper}`}
       >
@@ -71,7 +66,7 @@ export function SchoolsSliderSection() {
 
               {/* CONTENT */}
               <div className="absolute bottom-20 left-20">
-                <div className="max-w-[1200px] mx-auto w-full">
+                <div className="max-w-[1400px] mx-auto">
                   <div className="bg-white/10  rounded-2xl border border-white/20 shadow-2xl rounded-2xl overflow-hidden max-w-xl hover:-translate-y-1 transition duration-300 mb-3">
                     {/* TITLE */}
                     <div className="bg-transperancy/0 text-white px-6 py-4 text-xl md:text-2xl font-semibold">

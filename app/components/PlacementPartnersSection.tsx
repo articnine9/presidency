@@ -78,7 +78,7 @@ const stats = [
 export function PlacementPartnersSection() {
   return (
     <section className="py-24 bg-[#F5F6F8]">
-      <div className="max-w-[1200px] mx-auto px-6 text-center">
+      <div className="max-w-[1400px] mx-auto px-6 text-center">
         {/* ✅ COMMON HEADER */}
         <div className="mb-16">
           <span className="inline-block bg-[#ff7a2f]/10 text-[#ff7a2f] px-4 py-2 rounded-full text-sm mb-4">
