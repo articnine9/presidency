@@ -14,7 +14,7 @@ export default function CourseOutcomes({ data }: any) {
       <div className="max-w-[1400px] mx-auto px-6">
         {/* TITLE */}
         <h2 className="text-3xl md:text-4xl font-serif text-gray-900 mt-2 mb-8">
-          Programme Outcomes - Tabbed
+          Programme Outcomes
         </h2>
 
         {/* 🔥 MAIN LAYOUT */}
@@ -39,11 +39,13 @@ export default function CourseOutcomes({ data }: any) {
           </div>
 
           {/* 📦 RIGHT CONTENT */}
+          
           <div className="flex-1 bg-white border border-gray-200 rounded-r-xl shadow-sm overflow-hidden">
             {tabs[active].map((item: any, index: number) => (
+              <div className="">
               <div
-                key={index}
-                className="flex items-start gap-4 p-4 border-b last:border-none"
+                // className="flex items-start gap-4 p-4 border-b last:border-none"
+                className="flex items-start gap-4 p-4"
               >
                 <div className="min-w-[60px] text-sm font-semibold text-gray-700">
                   {item.id} :
@@ -58,6 +60,7 @@ export default function CourseOutcomes({ data }: any) {
                     {item.text}
                   </p>
                 </div>
+              </div>
               </div>
             ))}
           </div>

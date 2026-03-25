@@ -25,16 +25,17 @@ export default function CourseCareers({ data }: any) {
         </div>
 
         {/* GRID */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           {careers.map((item: any, index: number) => (
             <div
               key={index}
-              className="bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-md transition"
+              className={`bg-white shadow-md rounded-xl p-8 text-center border-b-4 border-b-[#D4A843]  hover:shadow-xl transition`}
             >
               {/* ICON */}
-              <div className="w-10 h-10 rounded-full bg-[#F4E9D8] flex items-center justify-center mb-3">
+              <div className="text-[#1e3a5f]">
                 {getIcon(index)}
               </div>
+              <div className="text-left">
 
               {/* TITLE */}
               <h3 className="font-semibold text-gray-900 text-sm mb-2">
@@ -47,6 +48,7 @@ export default function CourseCareers({ data }: any) {
                   <p key={i}>{role}</p>
                 ))}
               </div>
+            </div>
             </div>
           ))}
         </div>

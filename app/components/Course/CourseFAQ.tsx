@@ -36,7 +36,7 @@ export default function CourseFAQ({ data }: any) {
                 {/* QUESTION */}
                 <button
                   onClick={() => toggleFAQ(index)}
-                  className="w-full flex justify-between items-center px-5 py-4 text-left"
+                  className="w-full flex justify-between items-center px-5 py-4 text-left bg-[#e5f0f2] "
                 >
                   <span className="font-medium text-gray-900 text-sm">
                     {item.q}

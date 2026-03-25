@@ -6,6 +6,15 @@ import {
   Briefcase,
   GraduationCap,
 } from "lucide-react";
+import {
+  TrendingUp,
+  Award,
+  Users,
+  DollarSign,
+  BarChart,
+} from "lucide-react";
+
+
 
 export default function CourseUSP({ data }: any) {
   if (!data?.highlights || data.highlights.length === 0) return null;
@@ -22,16 +31,18 @@ export default function CourseUSP({ data }: any) {
         </p>
 
         {/* GRID */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           {data.highlights.map((item: any, index: number) => (
             <div
               key={index}
-              className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md transition"
+              className={`bg-white shadow-md rounded-xl p-8 text-center border-b-4 border-b-[#0A8F96] hover:shadow-xl transition`}
             >
               {/* ICON */}
-              <div className="w-12 h-12 rounded-full bg-[#F4E9D8] flex items-center justify-center mb-4">
+              <div className="text-[#1e3a5f]">
                 {getIcon(index)}
               </div>
+
+              <div className="text-left">
 
               {/* TITLE */}
               <h3 className="font-semibold text-gray-900 text-base">
@@ -42,9 +53,11 @@ export default function CourseUSP({ data }: any) {
               <p className="text-sm text-gray-600 mt-2 leading-relaxed">
                 {item.description}
               </p>
+              </div>
             </div>
           ))}
         </div>
+
       </div>
     </section>
   );
