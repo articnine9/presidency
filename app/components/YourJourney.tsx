@@ -50,7 +50,7 @@ export function YourJourney() {
           >
             We welcome students from all academic backgrounds and nationalities. Whether you are a school leaver ready for your first degree, a graduate seeking a specialist qualification, or an experienced professional pursuing doctoral research, there is a place for you at Presidency.
           </motion.p>
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
@@ -72,7 +72,33 @@ export function YourJourney() {
             </button>
             </div>
             
+          </motion.div> */}
+
+         
+             <motion.div
+             initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+            className="flex justify-center items-center flex-wrap gap-4 mb-8">
+            <button className="border-2 border-black text-black px-8 py-4 rounded-lg hover:bg-gray-100 transition-all duration-300 hover:scale-105 flex items-center gap-2 text-lg backdrop-blur-md">
+              How to Apply
+            </button>
+            <button className="bg-white/30 border-2 border-black text-black px-8 py-4 rounded-lg hover:bg-gray-100 transition-all duration-300 hover:scale-105 flex items-center gap-2 text-lg backdrop-blur-md">
+             
+              Contact the OIA
+            </button>
           </motion.div>
+           <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+            className="flex flex-wrap gap-4 mb-16 justify-center items-center"
+          >
+            <button className="bg-[#0A8F96] text-white px-8 py-4 rounded-lg hover:bg-[#0BB5B5] transition-all duration-300 hover:shadow-xl hover:scale-105 flex items-center gap-2 text-lg">
+              Explore Programmes
+              <ArrowRight size={22} />
+            </button>
+             </motion.div>
           
         </div>
         {/* LEFT CONTENT */}

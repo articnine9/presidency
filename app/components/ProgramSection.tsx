@@ -7,24 +7,24 @@ import { motion } from "motion/react";
 const eventsData = [
 
   {
-    title: "Kaleidoscope – Presidency Cultural Festival",
-    date: "March 2026",
-    image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30",
+    title: "ISAC 2026",
+    date: "29 Oct 2026",
+    image: "https://presidencyuniversity.in/uploads/events/699d2739859831771906873.jpeg",
   },
   {
-    title: "TechBiz – Annual 24-Hour Innovation Challenge",
-    date: "February 2026",
-    image: "img/events/music.png",
+    title: "TFuzzy Mathematics and its Applications",
+    date: "10 July 2026",
+    image: "https://presidencyuniversity.in/uploads/events/698d9519725b91770886425.jpg",
   },
   {
-    title: "Eunoia – Creative Arts Festival",
-    date: "April 2026",
-    image: "img/events/girl.png",
+    title: "International Conference on Graph Theory and its Applications",
+    date:"27 JUN 2026",
+    image: "https://presidencyuniversity.in/uploads/events/6835b5564933b1748350294.png",
   },
   {
-    title: "Leadership & Entrepreneurship Summit",
-    date: "May 2026",
-    image: "img/events/football.png",
+    title: "SOL Announces National Blog Writing Competition 2026",
+    date: "18 APRIL 2026",
+    image: "https://presidencyuniversity.in/uploads/events/69a68327ddb1e1772520231.jpeg",
   },
 ];
 
