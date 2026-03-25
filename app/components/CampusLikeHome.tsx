@@ -13,37 +13,38 @@ export function CampusLikeHome() {
 
   const items: BangaloreItem[] = [
     {
-      title: "Global Technology Hub",
-      subtitle: "Home to Google, Microsoft & Amazon",
+      title: "Sports & Student Life",
+      subtitle: "Athletics, wellness & recreation facilities",
       image:
-        "img/bang-life/hub1.webp",
+        "img/campus-like/sports.png",
       large: true,
     },
     {
-      title: "Startup Capital of India",
-      subtitle: "Thousands of innovation-driven startups",
+      title: "Smart Digital Campus",
+      subtitle: "High-speed Wi-Fi & fully networked environment",
       image:
-        "img/bang-life/startup1.webp",
+        "img/campus-like/smart.jpeg",
     },
     {
-      title: "World-Class Career Opportunities",
-      subtitle: "Multinational companies and global careers",
+      title: " Design & Media Studios",
+      subtitle: "SOD labs, media labs & broadcasting studios",
       image:
         "img/bang-life/world.png",
     },
     {
-      title: "Culture & Lifestyle",
-      subtitle: "A vibrant international student city",
+      title: "Advanced Learning Labs",
+      subtitle: "AI, ML, IoT, VLSI & Robotics facilities",
       image:
         "img/bang-life/life.png",
       wide: true,
     },
     {
-      title: "Innovation & Entrepreneurship",
-      subtitle: "Dynamic ecosystem for startups and research",
+      title: "  Library & Knowledge Hub",
+      subtitle: " Digital library, journals & Manupatra access",
       image:
         "img/bang-life/innovation.png",
     },
+   
   ];
 
   return (
@@ -66,8 +67,8 @@ export function CampusLikeHome() {
             viewport={{ once: true }}
             className="text-3xl md:text-4xl text-[#1e3a5f]"
           >
-            A Campus That Feels
-            <span className="block text-[#0A8F96]">Like Home</span>
+           World-Class 
+            <span className="block text-[#0A8F96]">Campus Facilities</span>
           </motion.h2>
 
           <motion.p
@@ -77,9 +78,7 @@ export function CampusLikeHome() {
             viewport={{ once: true }}
             className="text-gray-600 mt-4 max-w-2xl mx-auto"
           >
-            Known as India’s Silicon Valley, Bangalore offers students
-            unparalleled opportunities for innovation, global careers,
-            entrepreneurship, and vibrant cultural experiences.
+            Our campus is designed to deliver a world-class learning experience, combining advanced academic infrastructure with modern recreational and student support facilities.
           </motion.p>
         </div>
 

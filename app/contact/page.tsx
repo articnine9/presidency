@@ -1,6 +1,9 @@
 import ContactHero from "./components/ContactHero";
 import ContactInfoSection from "./components/ContactInfoSection";
 import ContactFormSection from "./components/ContactFormSection";
+import MapSection from "./components/MapSection";
+import SocialMediaSection from "./components/SocialMediaSection";
+import CourseCTA from "./components/CourseCTA";
 const ContactPage = () => {
   return (
     <>
@@ -17,7 +20,11 @@ const ContactPage = () => {
         }}
       />
       <ContactInfoSection />
+
+      <MapSection />
       <ContactFormSection />
+      <SocialMediaSection />
+      <CourseCTA />
     </>
   );
 };

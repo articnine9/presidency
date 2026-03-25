@@ -47,7 +47,7 @@ export function WhyChooseUs() {
                     </motion.ul>
                     <div className="flex justify-center align-center">
                         <button className="bg-[#0A8F96] text-white px-8 py-4 rounded-lg hover:bg-[#0BB5B5] transition-all duration-300 hover:shadow-xl hover:scale-105 flex items-center gap-2 text-lg">
-                            Discover Presidency
+                        Know More
                         </button>
                     </div>
 

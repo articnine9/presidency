@@ -29,7 +29,7 @@ export default function CommonHeader({
     <div
       className={`
         ${isCenter ? "text-center mx-auto" : "text-left"}
-        mb-16
+        mb-10
         ${isCenter ? "max-w-2xl" : ""}
       `}
     >
@@ -54,7 +54,7 @@ export default function CommonHeader({
         {title}
         {highlight && (
           <span
-            className={`block ${isCenter ? "" : "mt-1"}`}
+            className={`inline-block ${isCenter ? "ml-1" : "mt-1"}`}
             style={{ color: primaryColor }}
           >
             {highlight}

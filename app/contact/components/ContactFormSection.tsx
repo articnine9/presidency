@@ -1,25 +1,20 @@
 "use client";
 
 import { motion } from "framer-motion";
+import CommonHeader from "@/app/components/CommonHeader";
 
 export default function ContactFormSection() {
   return (
-    <section className="py-20 bg-[#F5F6F8]">
-      <div className="max-w-[1200px] mx-auto px-6">
+    <section className="py-20 bg-[#fff]">
+      <div className="max-w-[1400px] mx-auto px-6">
         {/* 🔥 HEADER */}
-        <div className="mb-12 text-center">
-          <p className="text-sm uppercase tracking-widest text-[#0A8F96] font-semibold mb-2">
-            Contact Form
-          </p>
-
-          <h2 className="text-3xl md:text-4xl font-serif text-[#1e3a5f]">
-            Send Us a Message
-          </h2>
-
-          <p className="text-gray-600 mt-3 max-w-xl mx-auto">
-            Fill out the form below and our team will get back to you shortly.
-          </p>
-        </div>
+        <CommonHeader
+          tag="Contact Form"
+          title="Send Us a"
+          highlight="Message"
+          description="Fill out the form below and our team will get back to you shortly."
+          primaryColor="#ff8c42"
+        />
 
         {/* 🔥 FORM CARD */}
         <div className="bg-white rounded-2xl shadow-md p-8 md:p-10">
