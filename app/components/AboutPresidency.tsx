@@ -14,7 +14,25 @@ export function AboutPresidency() {
       <div className="max-w-[1300px] mx-auto px-6 md:px-10 grid lg:grid-cols-2 gap-12 items-center">
       
         {/* RIGHT SIDE */}
-        <div className="space-y-6">
+       
+        {/* LEFT CONTENT */}
+        <div>
+          <div className="relative h-[500px] lg:h-[600px] rounded-2xl overflow-hidden shadow-xl group mt-5">
+            <img
+              src="img/bang-coll.png"
+              alt="Students"
+              className="w-full h-full object-cover transition duration-500"
+            />
+
+            {/* OVERLAY */}
+            {/* <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6 ">
+              <p className="text-white text-sm">
+                Explore campus life and academic excellence
+              </p>
+            </div> */}
+          </div>
+        </div>
+         <div className="space-y-6">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -57,23 +75,6 @@ export function AboutPresidency() {
           </div>
 
           
-        </div>
-        {/* LEFT CONTENT */}
-        <div>
-          <div className="relative h-[500px] lg:h-[600px] rounded-2xl overflow-hidden shadow-xl group mt-5">
-            <img
-              src="img/bang-coll.png"
-              alt="Students"
-              className="w-full h-full object-cover transition duration-500"
-            />
-
-            {/* OVERLAY */}
-            {/* <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6 ">
-              <p className="text-white text-sm">
-                Explore campus life and academic excellence
-              </p>
-            </div> */}
-          </div>
         </div>
 
 
