@@ -62,7 +62,7 @@ export default function CourseOutcomes({ data }: any) {
                 <div
                   key={index}
                   className={`
-          grid grid-cols-[120px_1fr]
+          grid 
           border-b border-gray-300
           ${index % 2 === 0 ? "bg-white" : "bg-gray-50"}
         `}
