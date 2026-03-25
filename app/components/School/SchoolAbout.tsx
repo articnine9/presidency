@@ -51,7 +51,7 @@ export default function SchoolAbout({ data }: SchoolAboutProps) {
           </div>
 
           {/* RIGHT HEXAGON DESIGN */}
-          <div className="relative flex justify-end items-center">
+          <div className="relative flex justify-center items-center">
             <div className="relative w-[360px] h-[320px]">
               {data.hexagons?.map((item, i) => (
                 <div key={i}>
