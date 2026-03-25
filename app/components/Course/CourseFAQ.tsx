@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
+import CommonHeader from "@/app/components/CommonHeader";
 
 export default function CourseFAQ({ data }: any) {
   const faqs = data?.faq || [];
@@ -17,9 +18,12 @@ export default function CourseFAQ({ data }: any) {
     <section className="bg-[#fff] py-16">
       <div className="max-w-[1400px] mx-auto px-6">
         {/* HEADING */}
-        <h2 className="text-3xl md:text-4xl font-serif text-gray-900 mb-8">
-          Frequently Asked Questions
-        </h2>
+        <CommonHeader
+          tag="FAQs"
+          title="Frequently Asked"
+          highlight="Questions"
+          primaryColor="#ff7a2f"
+        />
 
         {/* FAQ LIST */}
         <div className="space-y-3">
@@ -38,7 +42,7 @@ export default function CourseFAQ({ data }: any) {
                   onClick={() => toggleFAQ(index)}
                   className="w-full flex justify-between items-center px-5 py-4 text-left bg-[#e5f0f2] "
                 >
-                  <span className="font-medium text-gray-900 text-sm">
+                  <span className="font-medium text-gray-900 text-xl">
                     {item.q}
                   </span>
 
@@ -56,7 +60,7 @@ export default function CourseFAQ({ data }: any) {
                     isOpen ? "max-h-40 border-t px-5 py-4" : "max-h-0"
                   }`}
                 >
-                  <p className="text-gray-600 text-sm leading-relaxed">
+                  <p className="text-gray-600 text-base leading-relaxed">
                     {item.a}
                   </p>
                 </div>

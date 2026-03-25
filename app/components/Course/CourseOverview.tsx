@@ -1,3 +1,4 @@
+import CommonHeader from "@/app/components/CommonHeader";
 export default function CourseOverview({ data }: any) {
   if (!data?.overview) return null;
 
@@ -5,14 +6,12 @@ export default function CourseOverview({ data }: any) {
     <section className="bg-white pb-16 pt-32 relative z-0">
       <div className="max-w-[1400px] mx-auto px-6">
         {/* LABEL */}
-        <p className="text-sm font-semibold text-gray-500 mb-2">
-          Programme Overview
-        </p>
-
-        {/* TITLE */}
-        <h2 className="text-3xl md:text-4xl font-serif text-gray-900 mt-2 mb-8">
-          Designing the Communication Systems of Tomorrow
-        </h2>
+        <CommonHeader
+          tag="Programme Overview"
+          title="Designing the Communication Systems"
+          highlight="of Tomorrow"
+          primaryColor="#0A8F96"
+        />
 
         {/* CONTENT */}
         <div className="space-y-5 text-gray-700 leading-relaxed ">

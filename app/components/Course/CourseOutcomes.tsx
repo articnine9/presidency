@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import CommonHeader from "@/app/components/CommonHeader";
 
 export default function CourseOutcomes({ data }: any) {
   const tabs = data?.tabs?.outcomes || {};
@@ -12,13 +13,16 @@ export default function CourseOutcomes({ data }: any) {
   return (
     <section className="bg-[#F6F7FB] py-16">
       <div className="max-w-[1400px] mx-auto px-6">
-        {/* TITLE */}
-        <h2 className="text-3xl md:text-4xl font-serif text-gray-900 mt-2 mb-8">
-          Programme Outcomes
-        </h2>
+        {/* ✅ COMMON HEADER */}
+        <CommonHeader
+          tag="Programme"
+          title="Programme"
+          highlight="Outcomes"
+          primaryColor="#0A8F96"
+        />
 
         {/* 🔥 MAIN LAYOUT */}
-        <div className="flex items-stretch">
+        <div className="flex items-stretch mt-10">
           {/* 🔹 LEFT TABS */}
           <div className="flex flex-col border-r border-gray-200">
             {keys.map((key) => (
@@ -31,38 +35,45 @@ export default function CourseOutcomes({ data }: any) {
                     : "bg-gray-100 text-gray-600"
                 }`}
               >
-                <span className="rotate-[-90deg] text-sm font-semibold tracking-wide">
+                <span className="rotate-[-90deg] text-base  tracking-wide">
                   {key}
                 </span>
               </button>
             ))}
           </div>
 
+          {/* 📦 RIGHT TABLE */}
           {/* 📦 RIGHT CONTENT */}
-          
-          <div className="flex-1 bg-white border border-gray-200 rounded-r-xl shadow-sm overflow-hidden">
-            {tabs[active].map((item: any, index: number) => (
-              <div className="">
-              <div
-                // className="flex items-start gap-4 p-4 border-b last:border-none"
-                className="flex items-start gap-4 p-4"
-              >
-                <div className="min-w-[60px] text-sm font-semibold text-gray-700">
-                  {item.id} :
-                </div>
+          <div className="flex-1 bg-white border border-gray-300 rounded-lg overflow-hidden">
+            {/* 🔥 HEADER STRIP */}
+            <div className="bg-gray-100 px-5 py-3 border-b">
+              <h3 className="text-lg text-gray-800">
+                {active}: {tabs[active][0]?.title}
+              </h3>
 
-                <div>
-                  <h3 className="font-semibold text-gray-900 text-sm">
-                    {item.title}
-                  </h3>
+              <p className="text-base text-gray-600 mt-1 leading-relaxed">
+                {tabs[active][0]?.text}
+              </p>
+            </div>
 
-                  <p className="text-gray-600 text-sm mt-1 leading-relaxed">
-                    {item.text}
-                  </p>
+            {/* 🔥 TABLE ROWS */}
+            <div className="p-6">
+              {tabs[active].map((item: any, index: number) => (
+                <div
+                  key={index}
+                  className={`
+          grid grid-cols-[120px_1fr]
+          border-b border-gray-300
+          ${index % 2 === 0 ? "bg-white" : "bg-gray-50"}
+        `}
+                >
+                  {/* LEFT CELL */}
+                  <div className="bg-gray-50 px-4 py-3 text-lg  text-gray-700 border-r border">
+                    {item.id} : {item.text || item.title}
+                  </div>
                 </div>
-              </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </div>
