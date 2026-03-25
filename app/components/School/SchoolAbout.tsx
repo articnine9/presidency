@@ -148,9 +148,9 @@ export default function SchoolAbout({ data }: SchoolAboutProps) {
                     </p>
 
                     {/* BUTTON */}
-                    <button className="mt-4 text-[#ff8c42] flex items-center gap-1 hover:gap-2 transition">
+                    {/* <button className="mt-4 text-[#ff8c42] flex items-center gap-1 hover:gap-2 transition">
                       View More <ArrowRight size={16} />
-                    </button>
+                    </button> */}
                   </div>
                 </div>
               ))}

@@ -76,14 +76,14 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
             </motion.p>
 
             {/* BUTTON */}
-            <motion.button
+            {/* <motion.button
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
               className="bg-[#0A8F96] text-white px-8 py-4 rounded-lg hover:bg-[#0BB5B5] transition-all duration-300 hover:shadow-xl hover:scale-105 flex items-center gap-2 text-lg"
             >
               Request Information
-            </motion.button>
+            </motion.button> */}
             {data.stats && (
               <div className="relative mt-5 ">
                 <div className="max-w-xl">
