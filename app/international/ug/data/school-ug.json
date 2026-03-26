@@ -1,0 +1,151 @@
+{
+  "hero": {
+    "title": {
+      "normal": "Undergraduate Programmes for International",
+      "italic": " Students"
+    },
+    "description": "Presidency University offers a broad portfolio of three- and four-year undergraduate programmes across ten Schools, approved by the University Grants Commission (UGC) and Government of India."
+  },
+  "about": {
+    "title": "About the Programme",
+    "content": "Presidency University offers a broad portfolio of three- and four-year undergraduate programmes across ten Schools, all approved by the University Grants Commission (UGC) and the relevant statutory bodies of the Government of India. Every programme combines academic rigour with industry exposure, live projects, and structured pathways into postgraduate study at Presidency or at partner universities abroad through the 3+1+1 dual-qualification route. All programmes are open to international students.",
+    "note": "Entry requirements, intakes, and fees vary by programme — contact the Office of International Affairs (OIA) for a personalised consultation."
+  },
+
+  "schools": [
+    {
+      "id": 1,
+      "name": "Presidency School of Computer Science and Engineering",
+      "programs": [
+        "B.Tech Computer Science and Engineering",
+        "B.Tech CSE (Artificial Intelligence and Machine Learning)",
+        "B.Tech CSE (Data Science)",
+        "B.Tech CSE (Cyber Security)",
+        "B.Tech CSE (Blockchain)",
+        "B.Tech CSE (Internet of Things)",
+        "B.Tech Computer Science and Technology (Big Data)",
+        "B.Tech Computer Science and Technology (DevOps)",
+        "B.Tech Information Science and Engineering",
+        "B.Tech Computer Engineering",
+        "B.Tech Information Science and Technology",
+        "B.Tech Robotics and Artificial Intelligence",
+        "B.Tech Artificial Intelligence and Data Science"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Presidency School of Engineering",
+      "programs": [
+        "B.Tech Electronics and Communication Engineering",
+        "B.Tech Electrical and Electronics Engineering",
+        "B.Tech VLSI Design and Technology",
+        "B.Tech Civil Engineering",
+        "B.Tech Mechanical Engineering",
+        "B.Tech Petroleum Engineering"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Presidency School of Information Science",
+      "programs": [
+        "Bachelor of Computer Applications (BCA)",
+        "BCA (Data Science)",
+        "BCA (Artificial Intelligence and Machine Learning)"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Presidency School of Management",
+      "programs": [
+        "Bachelor of Business Administration (BBA)",
+        "BBA (Aviation Management)",
+        "BBA (Business Analytics)",
+        "BBA (Digital Marketing)",
+        "BBA (Digital Business)",
+        "BBA (Hospitality Management)"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Presidency School of Commerce",
+      "programs": [
+        "B.Com (Banking and Finance)",
+        "B.Com (ACCA)",
+        "B.Com (Corporate Accounting and Taxation)",
+        "B.Com (Business Analytics)",
+        "B.Com (Corporate Accounting with CMA-US)",
+        "B.Com (CA Foundation)"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Presidency School of Law",
+      "programs": ["BA LLB (Hons.)", "BBA LLB (Hons.)"]
+    },
+    {
+      "id": 7,
+      "name": "Presidency School of Design",
+      "programs": [
+        "B.Des Communication Design",
+        "B.Des Fashion Design",
+        "B.Des Product Design",
+        "B.Des Space Design",
+        "B.Des Game Design",
+        "B.Sc Multimedia and Animation"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Presidency School of Media Studies",
+      "programs": [
+        "BA Journalism and Mass Communication",
+        "BA JMC (Digital Marketing and Advertising / PR and Corporate Communication)",
+        "BA JMC (Film, Television and Digital Production)",
+        "BA JMC (Immersive Media, AR/VR and Interactive Storytelling)",
+        "BA JMC (Digital Storytelling and Content Creation)"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Presidency School of Liberal Arts and Sciences",
+      "programs": [
+        "B.Sc Psychology",
+        "BA (Psychology, Economics)",
+        "BA (Psychology, English)",
+        "BA (Communication and Media, Psychology)",
+        "BA (History and Political Science)",
+        "BA (Political Science and Economics)",
+        "BA (Political Science and Sociology)",
+        "BA (English and History)",
+        "BA (English and Political Science)",
+        "BA (Performing Arts — Classical Music, Psychology)",
+        "BA (Performing Arts — Classical Dance, Psychology / English)",
+        "BA (Performing Arts — Western Music Instrumental, English / Psychology)",
+        "BA (Theatre Studies, Psychology / English)",
+        "BA (Communication and Media Studies, English)"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Presidency School of Allied Health Sciences",
+      "programs": ["Bachelor of Physiotherapy (BPT)"]
+    }
+  ],
+  "journey": [
+    {
+      "title": "Explore Programmes",
+      "description": "Find your ideal course from our diverse offerings.",
+      "icon": "globe"
+    },
+    {
+      "title": "Contact OIA",
+      "description": "Talk to our Office of International Affairs for details on intakes, fees, and requirements.",
+      "icon": "phone"
+    },
+    {
+      "title": "Apply Online",
+      "description": "Submit your application through our easy online portal.",
+      "icon": "file"
+    }
+  ]
+}
