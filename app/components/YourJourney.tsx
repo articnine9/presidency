@@ -52,7 +52,7 @@ export function YourJourney() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="flex justify-center items-center flex-nowrap gap-4 mb-8"
+            className="flex flex-col sm:flex-row justify-center items-center flex-nowrap gap-4 mb-8"
           >
             <button className="border-2 border-black text-black px-8 py-4 rounded-lg hover:bg-gray-100 transition-all duration-300 hover:scale-105 flex items-center gap-2 text-lg backdrop-blur-md whitespace-nowrap">
               How to Apply

@@ -86,10 +86,10 @@ export function InFocusSection() {
           navigation
           autoplay={{ delay: 4000 }}
           breakpoints={{
-            0: { slidesPerView: 1 },
-            768: { slidesPerView: 2 },
-            1024: { slidesPerView: 3 },
-            1200: { slidesPerView: 4 },
+            0: { slidesPerView: 1 ,navigation: false,},
+            768: { slidesPerView: 2,navigation: false, },
+            1024: { slidesPerView: 3,navigation: true, },
+            1200: { slidesPerView: 4,navigation: true, },
           }}
         >
           {focusItems.map((item, index) => (

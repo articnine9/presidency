@@ -38,20 +38,20 @@ export function ResearchHighlightsSection() {
           {sections.map((item, index) => (
             <div
               key={index}
-              className="flex bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 group"
+              className="flex flex-col md:flex-row bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 group"
             >
               {/* IMAGE */}
-              <div className="w-1/2 h-[290px] overflow-hidden">
+              <div className="w-full sm:w-1/2 h-[290px] overflow-hidden">
                 <img
                   src={item.image}
                   alt={item.title}
-                  className="w-250px h-200px object-cover group-hover:scale-105 transition duration-500"
+                  className="w-full h-200px object-cover group-hover:scale-105 transition duration-500"
                 />
               </div>
 
               {/* TEXT */}
               <div
-                className={`${item.bg} text-white w-1/2 p-6 flex flex-col justify-center`}
+                className={`${item.bg} text-white sm:w-1/2 w-full p-6 flex flex-col justify-center`}
               >
                 <h3 className="text-lg md:text-xl mb-2 leading-snug">
                   {item.title}
