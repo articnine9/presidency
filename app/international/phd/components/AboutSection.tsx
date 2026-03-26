@@ -14,7 +14,7 @@ export default function AboutSection({ data }: any) {
         <div>
           <CommonHeader
             tag="About"
-            title="Postgraduate Programmes"
+            title="Research and Doctoral Programmes"
             highlight=" at Presidency"
             description={about?.content}
             align="left"
