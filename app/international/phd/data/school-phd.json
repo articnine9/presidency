@@ -1,0 +1,102 @@
+{
+  "hero": {
+    "title": {
+      "normal": "Research and Doctoral Programmes for International",
+      "italic": " Students"
+    },
+    "description": "Presidency University offers PhD programmes across multiple disciplines with strong research support, global collaboration, and advanced laboratory infrastructure."
+  },
+
+  "about": {
+    "title": "Research at Presidency University",
+    "content": "Presidency University is committed to building a globally connected research culture. The Research and Innovation Council oversees research quality and strategy across all disciplines, supporting scholars through publications, international conferences, patent filing, and industry-sponsored projects. Dedicated Centres of Excellence provide advanced laboratory environments for cutting-edge research.",
+    "note": "International research scholars are supported with funding opportunities, PhD registration assistance, and global academic collaborations."
+  },
+
+  "schools": [
+    {
+      "id": 1,
+      "name": "Presidency School of Computer Science and Engineering",
+      "programs": ["PhD Computer Science and Engineering"]
+    },
+    {
+      "id": 2,
+      "name": "Presidency School of Engineering",
+      "programs": [
+        "PhD Electronics and Communications Engineering",
+        "PhD Mechanical Engineering",
+        "PhD Civil Engineering",
+        "PhD Electrical and Electronics Engineering",
+        "PhD Petroleum Engineering"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Presidency School of Information Science",
+      "programs": ["PhD Information Science"]
+    },
+    {
+      "id": 4,
+      "name": "Presidency School of Management",
+      "programs": [
+        "PhD General Management",
+        "PhD Marketing Management",
+        "PhD Financial Management",
+        "PhD Human Resource Management",
+        "PhD Business Analytics"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Presidency School of Commerce",
+      "programs": ["PhD Commerce", "PhD Economics"]
+    },
+    {
+      "id": 6,
+      "name": "Presidency School of Law",
+      "programs": ["PhD Law"]
+    },
+    {
+      "id": 7,
+      "name": "Presidency School of Design",
+      "programs": ["PhD Design"]
+    },
+    {
+      "id": 8,
+      "name": "Presidency School of Media Studies",
+      "programs": ["PhD Media Studies"]
+    },
+    {
+      "id": 9,
+      "name": "Presidency School of Liberal Arts and Sciences",
+      "programs": ["PhD English", "PhD Psychology"]
+    }
+  ],
+
+  "researchSupport": [
+    "Seed Grant Funding — financial support for early-stage research",
+    "Patent Filing Support — assistance with patent applications",
+    "Centres of Excellence — specialised research labs and facilities",
+    "Publications and Journals — support for academic publishing",
+    "International Collaboration — partnerships with global universities",
+    "FRRO Registration Guidance — support for international scholars"
+  ],
+
+  "journey": [
+    {
+      "title": "Explore Research Areas",
+      "description": "Identify your research interest and available PhD disciplines.",
+      "icon": "globe"
+    },
+    {
+      "title": "Contact OIA",
+      "description": "Discuss eligibility, research proposals, and admission requirements.",
+      "icon": "phone"
+    },
+    {
+      "title": "Apply for PhD",
+      "description": "Submit your application with a research proposal and academic documents.",
+      "icon": "file"
+    }
+  ]
+}

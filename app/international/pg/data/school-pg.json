@@ -1,0 +1,91 @@
+{
+  "hero": {
+    "title": {
+      "normal": "Postgraduate Programmes for International",
+      "italic": " Students"
+    },
+    "description": "Presidency University offers specialised postgraduate programmes designed to deepen knowledge, accelerate careers, and provide pathways into doctoral study."
+  },
+  "about": {
+    "title": "About the Programme",
+    "content": "Presidency University’s postgraduate portfolio is designed for graduates who want to deepen specialist knowledge, accelerate their careers, or pivot into a new field. Programmes are taught by experienced faculty alongside international visiting professors, and many include live industry projects, research components, and pathways into doctoral study. All programmes are open to international applicants.",
+    "note": "Entry requirements, intakes, and fees vary by programme — contact the Office of International Affairs (OIA) for a personalised consultation."
+  },
+
+  "schools": [
+    {
+      "id": 1,
+      "name": "Presidency School of Computer Science and Engineering",
+      "programs": [
+        "M.Tech Computer Science and Engineering (Artificial Intelligence)",
+        "M.Tech Computer Science and Engineering (Data Science)",
+        "Post Graduate Diploma in Big Data"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Presidency School of Engineering",
+      "programs": [
+        "M.Tech Embedded Systems and VLSI",
+        "M.Tech Building and Construction Technology",
+        "Post Graduate Diploma in Drone Technology"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Presidency School of Information Science",
+      "programs": ["Master of Computer Applications (MCA)"]
+    },
+    {
+      "id": 4,
+      "name": "Presidency School of Management",
+      "programs": [
+        "MBA (Finance)",
+        "MBA (Marketing)",
+        "MBA (Banking and Finance Management)",
+        "MBA (Digital Marketing)",
+        "MBA (Business Analytics)",
+        "Post Graduate Diploma in Public Administration"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Presidency School of Law",
+      "programs": ["LL.M. (Master of Laws)"]
+    },
+    {
+      "id": 6,
+      "name": "Presidency School of Media Studies",
+      "programs": [
+        "MA Journalism and Mass Communication",
+        "Post Graduate Diploma in Film Making"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Presidency School of Liberal Arts and Sciences",
+      "programs": [
+        "M.Sc Psychology (Child / Clinical / Counselling / Industrial Psychology)",
+        "MA English (Digital Humanities / Cultural Studies / Creative Writing / Educational Leadership and Management)"
+      ]
+    }
+  ],
+
+  "journey": [
+    {
+      "title": "Explore Programmes",
+      "description": "Discover postgraduate courses aligned with your career goals.",
+      "icon": "globe"
+    },
+    {
+      "title": "Contact OIA",
+      "description": "Consult our Office of International Affairs for admissions, fees, and guidance.",
+      "icon": "phone"
+    },
+    {
+      "title": "Apply Online",
+      "description": "Submit your application easily through our online portal.",
+      "icon": "file"
+    }
+  ]
+}

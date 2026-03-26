@@ -7,8 +7,8 @@ import ExplorePrograms from "./components/ExplorePrograms";
 import ProgramsTabs from "./components/ProgramsTabs";
 import CourseCTA from "./components/CourseCTA";
 import JourneySection from "./components/JourneySection";
-
-import data from "./data/school-ug.json";
+import ResearchSupport from "./components/ResearchSupport";
+import data from "./data/school-phd.json";
 
 const UGPage = () => {
   const [query, setQuery] = useState(""); // ✅ FIX
@@ -25,7 +25,7 @@ const UGPage = () => {
       <ProgramsTabs data={data} query={query} />
 
       {/* Other Sections */}
-
+      <ResearchSupport data={data} />
       <JourneySection />
       <CourseCTA />
     </>

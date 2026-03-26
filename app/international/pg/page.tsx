@@ -8,7 +8,7 @@ import ProgramsTabs from "./components/ProgramsTabs";
 import CourseCTA from "./components/CourseCTA";
 import JourneySection from "./components/JourneySection";
 
-import data from "./data/school-ug.json";
+import data from "./data/school-pg.json";
 
 const UGPage = () => {
   const [query, setQuery] = useState(""); // ✅ FIX
