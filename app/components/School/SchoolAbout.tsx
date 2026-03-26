@@ -133,7 +133,7 @@ export default function SchoolAbout({ data }: SchoolAboutProps) {
                   {/* IMAGE */}
                   <div className="overflow-hidden">
                     <img
-                      src={`/img/classes/${index + 1}.jpg`}
+                      src={`/img/classes/${index + 1}.png`}
                       className="w-full h-[380px] object-cover group-hover:scale-110 transition duration-500"
                       alt=""
                     />

@@ -53,7 +53,7 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
         ></div>
 
         {/* CONTENT */}
-        <div className="relative max-w-[1400px] mx-auto px-5 md:px-6 h-full flex items-center">
+        <div className="relative max-w-[1400px] mx-auto px-5 md:px-6 h-full flex items-center gap-60">
           <div className="max-w-4xl text-white pt-10 md:pt-0 pb-28 md:pb-0">
             {/* TITLE */}
             <motion.h1
@@ -84,10 +84,35 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
             >
               Request Information
             </motion.button> */}
-            {data.stats && (
+            
+             <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+            className="flex flex-wrap gap-4 mb-10 mt-16"
+          >
+            <a
+              href="/brochures/cse-brochure.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white/10 transition-all duration-300 hover:scale-105 flex items-center gap-2 text-lg backdrop-blur-sm">
+                Download Brouchure
+              </button>
+            </a>
+            <button className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white/10 transition-all duration-300 hover:scale-105 flex items-center gap-2 text-lg backdrop-blur-sm">
+              How to Apply
+            </button>
+            <button className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white/10 transition-all duration-300 hover:scale-105 flex items-center gap-2 text-lg backdrop-blur-sm">
+              Contact
+            </button>
+          </motion.div>
+          </div>
+          <div>
+              {data.stats && (
               <div className="relative mt-5 ">
                 <div className="max-w-xl">
-                  <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                  <div className="flex flex-col justify-center items-center gap-4 md:gap-6">
                     {data.stats.map((stat, index) => (
                       <motion.div
                         key={index}

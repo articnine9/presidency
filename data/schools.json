@@ -3,105 +3,8 @@
     {
       "slug": "computer-science",
       "name": "School of Computer Science & Engineering",
-
-      "hero": {
-        "title": {
-          "normal": "School of Computer Science ",
-          "italic": "& Engineering"
-        },
-        "description": "Discover cutting-edge computing programmes in India’s technology capital. From artificial intelligence to blockchain, our school prepares international students for careers at the forefront of global innovation.",
-        "breadcrumb": ["Home", "Schools", "Computer Science & Engineering"],
-        "image": "/img/classes/1.jpg",
-        "stats": [
-          { "label": "UG Programmes", "value": "13+" },
-          { "label": "PG Programmes", "value": "2" },
-          { "label": "Doctoral Research", "value": "Ph.D" }
-        ]
-      },
-
-      "about": {
-        "title": "A Gateway to India’s Tech Ecosystem",
-        "content": [
-          "The Presidency School of Computer Science & Engineering is one of the university’s flagship academic divisions, offering a comprehensive portfolio of undergraduate, postgraduate, and doctoral programmes in computing, software development, and emerging technologies. Situated on the Presidency University campus in Bengaluru — widely regarded as India’s technology capital — the school provides international students with direct access to one of the world’s most dynamic tech ecosystems.",
-          "Programmes within this school span foundational computer science, artificial intelligence, machine learning, data science, cyber security, blockchain technology, the Internet of Things, big data analytics, and DevOps engineering. The curriculum is designed with industry alignment at its core, ensuring that graduates are prepared for roles in multinational technology firms, research organisations, and innovative start-ups worldwide"
-        ],
-        "image": "/img/classes/1.jpg",
-
-        "hexagons": [
-          {
-            "type": "text",
-            "text": "Cloud Computing",
-            "icon": "/icons/cloud.svg",
-            "top": "0%",
-            "left": "35%"
-          },
-          {
-            "type": "text",
-            "text": "Newest Research",
-            "icon": "/icons/research.svg",
-            "top": "20%",
-            "left": "70%"
-          },
-          {
-            "type": "text",
-            "text": "Industry Mentorship",
-            "icon": "/icons/mentorship.svg",
-            "top": "20%",
-            "left": "0%"
-          },
-          {
-            "type": "text",
-            "text": "Research Ecosystem",
-            "icon": "/icons/system.svg",
-            "top": "75%",
-            "left": "37%"
-          },
-          {
-            "type": "image",
-            "image": "/img/classes/1.jpg",
-            "top": "55%",
-            "left": "10%"
-          },
-          {
-            "type": "image",
-            "image": "/img/classes/1.jpg",
-            "top": "55%",
-            "left": "88%"
-          }
-        ],
-        "features": [
-          {
-            "title": "Advanced AI & Computing Labs",
-            "description": "Access dedicated laboratories with high-performance GPU clusters and industry-standard AI/ML platforms including TensorFlow, PyTorch, and cloud-based AI services."
-          },
-          {
-            "title": "Global Faculty Mentorship",
-            "description": "Learn from researchers with international academic credentials and active industry consulting experience who bring real-world insights beyond the textbook."
-          },
-          {
-            "title": "Industry Partnerships",
-            "description": "Collaborations with leading technology companies facilitate internships, globally recognised certifications (AWS, Google Cloud, Microsoft Azure), and placement opportunities."
-          }
-        ]
-      },
-      "visionMission": {
-        "vision": {
-          "title": "Vision",
-          "description": "To be a value-based, practice-driven school committed to developing globally competent engineers, dedicated to building cutting-edge technology that enhances the quality of life.",
-          "points": []
-        },
-        "mission": {
-          "title": "Mission",
-          "description": "",
-          "points": [
-            "Cultivate a practice-driven environment integrating theory and hands-on computing ",
-            "Attract and nurture world-class faculty excelling in teaching and research ",
-            "Establish state-of-the-art computing facilities for effective learning ",
-            "Promote interdisciplinary studies to nurture talent for global impact ",
-            "Instil entrepreneurial and leadership skills to address social, environmental, and community needs"
-          ]
-        }
-      },
+      
+     
       "programPreview": {
         "title": "About the School of Law",
         "subtitle": "Building Future Legal Professionals",
@@ -183,23 +86,7 @@
           "description": "Collaborations with top tech companies for internships and certifications."
         }
       ],
-      "programSections": [
-        {
-          "type": "UG",
-          "title": "Undergraduate Programmes",
-          "subtitle": "B.Tech — 4-Year Full-Time"
-        },
-        {
-          "type": "PG",
-          "title": "Postgraduate Programmes",
-          "subtitle": "M.Tech — 2-Year Full-Time"
-        },
-        {
-          "type": "PhD",
-          "title": "Research & Diploma",
-          "subtitle": ""
-        }
-      ],
+     
       "programs": [
         {
           "slug": "btech-cse",
@@ -603,105 +490,7 @@
       "slug": "engineering",
       "name": "School of Engineering",
 
-      "hero": {
-        "title": {
-          "normal": "School of Engineering",
-          "italic": ""
-        },
-        "description": "Build the foundations of tomorrow across five core engineering disciplines. From electrical power systems and semiconductor design to civil infrastructure and energy exploration, our school equips international students with the technical expertise and practical skills demanded by industries worldwide..",
-        "breadcrumb": ["Home", "Schools", "Engineering"],
-        "image": "/img/classes/1.jpg",
-        "stats": [
-          { "label": "UG Programmes", "value": "6" },
-          { "label": "PG Programmes", "value": "2" },
-          { "label": "Doctoral Research", "value": "5" },
-          { "label": "PG Diploma", "value": "1" }
-        ]
-      },
-
-      "about": {
-        "title": "Core Engineering on a Global Campus",
-        "content": [
-          "The Presidency School of Engineering encompasses five established engineering departments — Electronics & Communication, Electrical & Electronics, Civil, Mechanical, and Petroleum Engineering — each delivering rigorous undergraduate and postgraduate education rooted in practical application. Located on the Presidency University campus in Bengaluru, the school provides international students with an engineering education that balances foundational theory, laboratory experience, and industry engagement within one of India’s foremost technology and manufacturing hubs.",
-          "The school’s programme portfolio spans traditional engineering disciplines alongside specialised offerings in VLSI design, embedded systems, building and construction technology, and drone technology. Faculty members bring credentials from leading Indian institutions including IITs and NITs, complemented by active research profiles and industry consulting experience. Students benefit from modern laboratory infrastructure, collaborative project work, study-abroad partnerships, and placement support connecting them to employers across sectors including semiconductor manufacturing, energy, construction, automotive, aerospace, and oil and gas."
-        ],
-        "image": "/img/classes/1.jpg",
-
-        "hexagons": [
-          {
-            "type": "text",
-            "text": "Cloud Computing",
-            "icon": "/icons/cloud.svg",
-            "top": "0%",
-            "left": "35%"
-          },
-          {
-            "type": "text",
-            "text": "Newest Research",
-            "icon": "/icons/research.svg",
-            "top": "20%",
-            "left": "70%"
-          },
-          {
-            "type": "text",
-            "text": "Industry Mentorship",
-            "icon": "/icons/mentorship.svg",
-            "top": "20%",
-            "left": "0%"
-          },
-          {
-            "type": "text",
-            "text": "Research Ecosystem",
-            "icon": "/icons/system.svg",
-            "top": "75%",
-            "left": "37%"
-          },
-          {
-            "type": "image",
-            "image": "/img/classes/1.jpg",
-            "top": "55%",
-            "left": "10%"
-          },
-          {
-            "type": "image",
-            "image": "/img/classes/1.jpg",
-            "top": "55%",
-            "left": "88%"
-          }
-        ],
-        "features": [
-          {
-            "title": "Industry-Standard Laboratory Infrastructure ",
-            "description": "Work with advanced equipment across dedicated labs for circuit design, CNC machining, 3D printing, fluid mechanics, drilling simulation, and VLSI prototyping — all maintained to professional standards."
-          },
-          {
-            "title": "Faculty with Premier Credentials ",
-            "description": "Learn from academics with doctoral qualifications from IITs and NITs, combined with active research output and consulting experience across electronics, power, civil, mechanical, and petroleum sectors."
-          },
-          {
-            "title": "International Exchange and Placement ",
-            "description": "Access study-abroad partnerships with universities across Europe, Taiwan, and beyond, alongside campus placement drives featuring national and international recruiters."
-          }
-        ]
-      },
-      "visionMission": {
-        "vision": {
-          "title": "Vision",
-          "description": "To be a value-based, practice-driven school of engineering and technology, committed to developing globally competent engineers dedicated to transforming society.",
-          "points": []
-        },
-        "mission": {
-          "title": "Mission",
-          "description": "",
-          "points": [
-            "Cultivate a practice-driven environment with contemporary learning pedagogy integrating theory and practice ",
-            "Attract and nurture world-class faculty to excel in teaching and research in core engineering ",
-            "Establish state-of-the-art facilities for effective teaching and learning experiences ",
-            "Promote interdisciplinary studies to nurture talent and impart relevant skill sets for global impact",
-            "Instil entrepreneurial and leadership skills to address social, environmental, and community needs"
-          ]
-        }
-      },
+  
       "programPreview": {
         "title": "About the School of Law",
         "subtitle": "Building Future Legal Professionals",
@@ -1342,6 +1131,23 @@
           "description": "Collaborations with top tech companies for internships and certifications."
         }
       ],
+      "programSections": [
+        {
+          "type": "UG",
+          "title": "Undergraduate Programmes",
+          "subtitle": "BCA — 3-Year Full-Time"
+        },
+        {
+          "type": "PG",
+          "title": "Postgraduate Programmes",
+          "subtitle": "MCA — 2-Year Full-Time"
+        },
+        {
+          "type": "PhD",
+          "title": "Research & Diploma",
+          "subtitle": ""
+        }
+      ],
 
       "programs": [
         {
@@ -1650,24 +1456,6 @@
       "slug": "management",
       "name": "School of Management",
 
-      "hero": {
-        "title": "School of Management",
-        "description": "Develop leadership, business, and entrepreneurial skills for global careers.",
-        "breadcrumb": ["Home", "Schools", "Management"],
-        "stats": [
-          { "label": "UG Programmes", "value": "5+" },
-          { "label": "PG Programmes", "value": "5+" }
-        ]
-      },
-
-      "about": {
-        "title": "Shaping Future Business Leaders",
-        "content": [
-          "The School of Management offers dynamic programmes in business, marketing, finance, and analytics.",
-          "Students gain real-world exposure through internships, case studies, and industry projects.",
-          "Specialisations include aviation, digital marketing, and business analytics."
-        ]
-      },
 
       "programs": [
         {
@@ -1775,24 +1563,7 @@
       "slug": "commerce",
       "name": "School of Commerce",
 
-      "hero": {
-        "title": "School of Commerce",
-        "description": "Build expertise in finance, accounting, and global business.",
-        "breadcrumb": ["Home", "Schools", "Commerce"],
-        "stats": [
-          { "label": "UG Programmes", "value": "7+" },
-          { "label": "PhD Programmes", "value": "1" }
-        ]
-      },
-
-      "about": {
-        "title": "Excellence in Commerce & Finance",
-        "content": [
-          "The School of Commerce offers globally recognised programmes in accounting and finance.",
-          "Students can pursue integrated courses like ACCA, CMA, and CA Foundation.",
-          "Strong focus on financial literacy and global business practices."
-        ]
-      },
+     
 
       "programs": [
         {
@@ -1867,25 +1638,8 @@
       "slug": "design",
       "name": "School of Design",
 
-      "hero": {
-        "title": "School of Design",
-        "subtitle": "6+ Undergraduate Programmes • Ph.D Research",
-        "description": "Explore creative disciplines from fashion and product design to game design and multimedia, combining creativity with technology.",
-        "breadcrumb": ["Home", "Schools", "Design"],
-        "stats": [
-          { "label": "UG Programmes", "value": "6+" },
-          { "label": "Doctoral Research", "value": "Ph.D" }
-        ]
-      },
+      
 
-      "about": {
-        "title": "Designing the Future",
-        "content": [
-          "The School of Design offers a creative environment where innovation meets technology, enabling students to develop unique design solutions.",
-          "Programmes span communication design, fashion design, product design, space design, and game design, along with multimedia and animation.",
-          "Students gain hands-on experience through studio-based learning, real-world projects, and exposure to industry trends."
-        ]
-      },
 
       "programs": [
         {
@@ -1951,26 +1705,9 @@
       "slug": "law",
       "name": "School of Law",
 
-      "hero": {
-        "title": "School of Law",
-        "subtitle": "3+ Programmes • UG, PG & Ph.D",
-        "description": "Build a strong legal foundation with integrated law degrees and specialised postgraduate programmes.",
-        "breadcrumb": ["Home", "Schools", "Law"],
-        "stats": [
-          { "label": "UG Programmes", "value": "2" },
-          { "label": "PG Programmes", "value": "1" },
-          { "label": "Doctoral Research", "value": "Ph.D" }
-        ]
-      },
+      
 
-      "about": {
-        "title": "Shaping Future Legal Professionals",
-        "content": [
-          "The School of Law offers integrated legal education combining law with business and humanities disciplines.",
-          "Students gain practical exposure through moot courts, legal clinics, internships, and case-based learning.",
-          "The curriculum is designed to develop analytical thinking, advocacy skills, and a strong understanding of legal systems."
-        ]
-      },
+    
 
       "programs": [
         {
@@ -2013,26 +1750,7 @@
       "slug": "media-studies",
       "name": "School of Media Studies",
 
-      "hero": {
-        "title": "School of Media Studies",
-        "subtitle": "5+ Undergraduate • PG & Ph.D Programmes",
-        "description": "Explore journalism, film production, digital media, and immersive technologies shaping the future of communication.",
-        "breadcrumb": ["Home", "Schools", "Media Studies"],
-        "stats": [
-          { "label": "UG Programmes", "value": "5+" },
-          { "label": "PG Programmes", "value": "1" },
-          { "label": "Doctoral Research", "value": "Ph.D" }
-        ]
-      },
-
-      "about": {
-        "title": "Creating the Future of Media",
-        "content": [
-          "The School of Media Studies prepares students for careers in journalism, film, advertising, and digital media industries.",
-          "Programmes combine theory with hands-on training in studios, editing labs, and real-world media projects.",
-          "Specialisations include digital marketing, film production, immersive media, and content creation."
-        ]
-      },
+    
 
       "programs": [
         {
@@ -2108,26 +1826,7 @@
       "slug": "liberal-arts",
       "name": "School of Liberal Arts & Sciences",
 
-      "hero": {
-        "title": "School of Liberal Arts & Sciences",
-        "subtitle": "10+ UG • PG • Performing Arts • Ph.D Programmes",
-        "description": "Explore interdisciplinary education across humanities, social sciences, psychology, and performing arts.",
-        "breadcrumb": ["Home", "Schools", "Liberal Arts & Sciences"],
-        "stats": [
-          { "label": "UG Programmes", "value": "10+" },
-          { "label": "PG Programmes", "value": "2+" },
-          { "label": "Doctoral Research", "value": "Ph.D" }
-        ]
-      },
-
-      "about": {
-        "title": "Interdisciplinary Learning for a Global Future",
-        "content": [
-          "The School of Liberal Arts & Sciences offers a broad-based education combining humanities, social sciences, and performing arts.",
-          "Students develop critical thinking, communication, and analytical skills across disciplines like psychology, English, political science, and economics.",
-          "Unique performing arts programmes in music, dance, and theatre provide a blend of creativity and academic excellence."
-        ]
-      },
+     
 
       "programs": [
         {
@@ -2244,25 +1943,7 @@
       "slug": "allied-health",
       "name": "School of Allied Health Sciences",
 
-      "hero": {
-        "title": "School of Allied Health Sciences",
-        "subtitle": "Undergraduate Programme • Global Healthcare Career",
-        "description": "Build a rewarding healthcare career with globally relevant training in physiotherapy and allied health sciences.",
-        "breadcrumb": ["Home", "Schools", "Allied Health Sciences"],
-        "stats": [
-          { "label": "UG Programmes", "value": "1" },
-          { "label": "Global Career Pathways", "value": "Yes" }
-        ]
-      },
-
-      "about": {
-        "title": "Building Careers in Global Healthcare",
-        "content": [
-          "The School of Allied Health Sciences focuses on preparing students for careers in the healthcare sector with practical and clinical training.",
-          "The Bachelor of Physiotherapy (BPT) programme equips students with knowledge in anatomy, rehabilitation, and patient care.",
-          "Graduates can pursue careers in hospitals, rehabilitation centres, sports clinics, and international healthcare systems."
-        ]
-      },
+      
 
       "programs": [
         {

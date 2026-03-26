@@ -1,4 +1,4 @@
-import data from "@/data/schools.json";
+import data from "@/data/schools-eng.json";
 import { notFound } from "next/navigation";
 
 // Components
@@ -59,8 +59,7 @@ export default async function SchoolPage({
         />
       )}
 
-      {/* ❓ FAQ (future) */}
-      {school.faq && <SchoolFAQ data={school} />}
+     
       <CourseCTA />
       {/* 🚀 CTA (future) */}
       {/* {school.cta && <SchoolCTA data={school.cta} />} */}
