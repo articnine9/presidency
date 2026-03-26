@@ -360,7 +360,205 @@
           "duration": "4 Years.Full-Time",
           "type": "UG",
           "degree": "Bachelor of Technology",
-          "overview": "Learn to process, analyse, and manage large-scale data using modern tools like Hadoop, Spark, and AI-driven analytics."
+          
+
+            "hero": {
+            "title": {
+              "normal": "B.Tech Computer Science",
+              "italic": " & Engineering"
+            },
+            "description": "Harness the power of large-scale data to drive decisions that shape industries. This four-year specialisation equips you with the tools and techniques to collect, process, analyse, and visualise complex datasets — preparing you for one of the fastest-growing career fields in global technology.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Computer Science & Engineering",
+              "B.Tech Big Data"
+            ],
+            "stats": [
+              { "label": "Duration", "value": "4 Yr" },
+              { "label": "Semesters", "value": "8" },
+              { "label": "Core Programme", "value": "CSE" }
+            ]
+          },
+
+          "details": {
+            "duration": "4 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "Computer Science & Engineering"
+          },
+
+          "overview": [
+            " Data is expanding at an unprecedented pace, and the ability to extract actionable insights from complex datasets is now a core requirement across virtually every industry. The B.Tech in Computer Science & Technology with a specialisation in Big Data is an interdisciplinary programme that fuses principles from statistics, computer science, and domain-specific applications to prepare graduates for roles as qualified data engineers and analysts.",
+            " The programme combines foundational computer science with deep expertise in mathematics, statistical analysis, computer programming, and software design — all oriented towards the effective management and interpretation of digital data at scale. Students work with industry-standard tools and platforms including Python, R, Hadoop, Apache Spark, TensorFlow, and advanced analytics frameworks, building competencies that align directly with global employer demand."
+          ],
+
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "note": "Eligibility may vary for international students."
+          },
+
+          "tabs": {
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  { "name": "Mathematics I", "code": "MAT101" },
+                  { "name": "Programming in C", "code": "CSE101" },
+                  { "name": "Physics", "code": "PHY101" }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  { "name": "Data Structures", "code": "CSE201" },
+                  { "name": "Discrete Mathematics", "code": "MAT201" },
+                  { "name": "Digital Logic", "code": "CSE202" }
+                ]
+              }
+            ],
+
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Problem Solving ",
+                  "text": "Graduates will apply their knowledge of science and engineering to function as effective problem solvers and researchers in the field of big data and analytics."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Cutting-Edge Technology ",
+                  "text": "Graduates will demonstrate proficiency in contemporary data technologies to address societal needs across multidisciplinary areas."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Lifelong Learning ",
+                  "text": "Graduates will cultivate a commitment to continuous learning and ethical practice, emerging as socially responsible entrepreneurs in the data-driven economy."
+                }
+                
+              ],
+
+
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Problem Analysis",
+                  "text": "Identify, formulate, and critically analyse complex engineering problems related to software engineering principles, programming, and computing technologies using first principles of mathematics, natural sciences, and engineering. ."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Solution Development",
+                  "text": "Design solutions for complex problems related to software engineering, programming, and computing — including system components and processes that address specified needs while considering public health, safety, and environmental factors."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Modern Tool Application",
+                  "text": "Create, select, and apply appropriate techniques, resources, and modern engineering tools — including prediction and modelling — to complex engineering activities related to software engineering, programming, and computing with an understanding of their capabilities and limitations."
+                }
+              ]
+            }
+          },
+
+          "highlights": [
+            {
+              "title": "Industry-Centric Curriculum",
+              "description": "Covers big data analytics, machine learning, AI, deep learning, cloud computing, feature engineering, data preprocessing, and data visualisation. "
+            },
+            {
+              "title": "State-of-the-Art Data Labs ",
+              "description": "Equipped with Python, R, TensorFlow, Hadoop, Apache Spark, and advanced analytics platforms for hands-on learning. "
+            },
+            {
+              "title": "Expert Faculty & Industry Mentorship ",
+              "description": "Academics and industry professionals provide hands-on training with real-world data applications and projects."
+            },
+            {
+              "title": "Project-Based Learning",
+              "description": "Live projects, AI-driven analytics challenges, hackathons, and industry case studies form an integral part of the curriculum."
+            },
+            {
+              "title": "Global Internship Opportunities ",
+              "description": "International placements and study-abroad partnerships provide cross-border professional experience and career advancement."
+            },
+            {
+              "title": "Industry Certifications ",
+              "description": "Earn globally recognised credentials including AWS Data Analytics, Google Data Engineer, Data Visualisation, and TensorFlow certifications."
+            },
+            {
+              "title": "Strong Industry Partnerships",
+              "description": "Collaborations with leading technology firms provide internships, certifications, and research project opportunities."
+            },
+            {
+              "title": "Excellent Placement Record ",
+              "description": "Graduates recruited by top organisations in data engineering, analytics, AI, and technology-driven industries."
+            }
+          ],
+
+          "careers": [
+            {
+              "category": "Core Data Roles",
+              "roles": [
+                "Big Data Engineer ",
+                "Data Scientist ",
+                "Data Analyst ",
+                "Business Intelligence Developer",
+                "Database Administrator"
+              ]
+            },
+            {
+              "category": "Specialist & Emerging Roles",
+              "roles": [
+                "Machine Learning Engineer  ",
+                "Cloud Data Engineer ",
+                "Data Visualisation Specialist  ",
+                "Feature Engineering Specialist  ",
+                "Data Pipeline Architect"
+              ]
+            },
+            {
+              "category": "Cross-Industry & Research",
+              "roles": [
+                "Analytics Consultant   ",
+                "AI/ML Research Scientist  ",
+                "Data Strategy Consultant   ",
+                " Academic Researcher   ",
+                "Lecturer"
+              ]
+            }
+          ],
+
+          "faq": [
+            {
+              "q": " How does the Big Data specialisation differ from the core CSE programme? ",
+              "a": "While the core CSE programme offers broad coverage across all computing disciplines, the Big Data specialisation provides deep expertise in large-scale data processing, analytics, machine learning, and data visualisation. Students gain hands-on experience with platforms like Hadoop, Spark, and TensorFlow alongside core computing fundamentals. "
+            },
+            {
+              "q": "What tools and technologies will I learn?",
+              "a": ": The programme covers Python, R, SQL, Hadoop, Apache Spark, TensorFlow, cloud analytics platforms (AWS, Google Cloud, Azure), Power BI, Tableau, and various machine learning and deep learning frameworks."
+            },
+            {
+              "q": "What are the eligibility requirements for international applicants? ",
+              "a": "Applicants must have completed 10+2 or equivalent with Physics and Mathematics as compulsory subjects, along with Chemistry or Computer Science or related subjects, with at least 45% marks combined. Entrance through JEE, KCET, COMEDK, or PUEET."
+            },
+            {
+              "q": " Are there industry certification opportunities during the programme? ",
+              "a": "Yes. Students can earn globally recognised certifications including AWS Data Analytics, Google Data Engineer, and TensorFlow Developer credentials alongside their degree.  "
+            },
+            {
+              "q": "What is the typical career trajectory for graduates?",
+              "a": "Graduates typically begin as data engineers or analysts, progressing to senior data scientist, lead data architect, or analytics manager roles. The specialisation also provides a strong foundation for postgraduate research in data science and AI. "
+            },
+            {
+              "q": "Is on-campus accommodation available for international students? ",
+              "a": "Presidency University offers dedicated student housing on its Bengaluru campus. International students are encouraged to contact the Office of International Affairs for information on hostel availability, room types, and the booking process."
+            }
+          ],
+
+          "cta": {
+            "title": "Your Future Starts Here",
+            "subtitle": "Join Presidency University and build your career in technology.",
+            "button": "Apply Now"
+          }
         },
         {
           "slug": "btech-devops",
@@ -368,7 +566,210 @@
           "duration": "4 Years.Full-Time",
           "type": "UG",
           "degree": "Bachelor of Technology",
-          "overview": "Master CI/CD pipelines, cloud infrastructure, and automation tools used in modern software delivery systems."
+          
+
+          "hero": {
+            "title": {
+              "normal": "B.Tech Computer Science",
+              "italic": " & Engineering (DevOps)"
+            },
+            "description": " Master the principles and tools that power modern software delivery. This four-year specialisation in DevOps engineering prepares you to design CI/CD pipelines, automate infrastructure, and manage cloud-native environments — skills that are critical to the way global technology organisations build and deploy software today.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Computer Science & Engineering",
+              "B.Tech DevOps"
+            ],
+            "stats": [
+              { "label": "Duration", "value": "4 Yr" },
+              { "label": "Semesters", "value": "8" },
+              { "label": "Core Programme", "value": "CSE" }
+            ]
+          },
+
+          "details": {
+            "duration": "4 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "Computer Science & Engineering"
+          },
+
+          "overview": [
+            " DevOps has become a foundational practice in how organisations build, test, deploy, and maintain software systems at scale. This specialisation integrates the principles of software development and IT operations, equipping graduates with the skills to create automated, reliable, and scalable delivery pipelines that accelerate the entire software development lifecycle",
+            " The curriculum covers CI/CD pipeline design, containerisation with Docker and Kubernetes, infrastructure automation using Terraform and Ansible, cloud computing on AWS and other platforms, monitoring and observability tools, and version control systems. Students develop proficiency in software development and project management methodologies, learning to streamline workflows and optimise collaboration between development and operations teams."
+          ],
+
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "note": "Eligibility may vary for international students."
+          },
+
+          "tabs": {
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  { "name": "Mathematics I", "code": "MAT101" },
+                  { "name": "Programming in C", "code": "CSE101" },
+                  { "name": "Physics", "code": "PHY101" }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  { "name": "Data Structures", "code": "CSE201" },
+                  { "name": "Discrete Mathematics", "code": "MAT201" },
+                  { "name": "Digital Logic", "code": "CSE202" }
+                ]
+              }
+            ],
+
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Problem Solving & Research",
+                  "text": "Graduates will apply their knowledge of science and engineering to function as effective problem solvers and researchers in the field of big data and analytics."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Cutting-Edge Technology ",
+                  "text": "Graduates will demonstrate proficiency in contemporary data technologies to address societal needs across multidisciplinary areas."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Lifelong Learning ",
+                  "text": "Graduates will cultivate a commitment to continuous learning and ethical practice, emerging as socially responsible entrepreneurs in the data-driven economy."
+                },
+                {
+                  "id": "PEO 4",
+                  "title": "Industry Consultancy ",
+                  "text": "Graduates will develop as freelancing consultants in the DevOps and cloud infrastructure industry."
+                }
+                
+              ],
+
+
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Problem Analysis",
+                  "text": "Identify, formulate, and critically analyse complex engineering problems related to software engineering principles, programming, and computing technologies using first principles of mathematics, natural sciences, and engineering. ."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Solution Development",
+                  "text": "Design solutions for complex problems related to software engineering, programming, and computing — including system components and processes that address specified needs while considering public health, safety, and environmental factors."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Modern Tool Application",
+                  "text": "Create, select, and apply appropriate techniques, resources, and modern engineering tools — including prediction and modelling — to complex engineering activities related to software engineering, programming, and computing with an understanding of their capabilities and limitations."
+                }
+              ]
+            }
+          },
+
+          "highlights": [
+            {
+              "title": "Industry-Centric Curriculum",
+              "description": "Covers big data analytics, machine learning, AI, deep learning, cloud computing, feature engineering, data preprocessing, and data visualisation. "
+            },
+            {
+              "title": "State-of-the-Art Data Labs ",
+              "description": "Equipped with Python, R, TensorFlow, Hadoop, Apache Spark, and advanced analytics platforms for hands-on learning. "
+            },
+            {
+              "title": "Expert Faculty & Industry Mentorship ",
+              "description": "Academics and industry professionals provide hands-on training with real-world data applications and projects."
+            },
+            {
+              "title": "Project-Based Learning",
+              "description": "Live projects, AI-driven analytics challenges, hackathons, and industry case studies form an integral part of the curriculum."
+            },
+            {
+              "title": "Global Internship Opportunities ",
+              "description": "International placements and study-abroad partnerships provide cross-border professional experience and career advancement."
+            },
+            {
+              "title": "DevOps Certifications ",
+              "description": "Earn industry-recognised credentials including AWS Solutions Architect, Docker Certified Associate, and Kubernetes certifications.  "
+            },
+            {
+              "title": "Strong Industry Partnerships",
+              "description": "Collaborations with leading technology firms provide internships, certifications, and research project opportunities."
+            },
+            {
+              "title": "Excellent Placement Record ",
+              "description": "Graduates recruited by top organisations in data engineering, analytics, AI, and technology-driven industries."
+            }
+          ],
+
+          "careers": [
+            {
+              "category": "Core Data Roles",
+              "roles": [
+                "DevOps Engineer  ",
+                "Site Reliability Engineer ",
+                "Cloud Engineer ",
+                "Build and Release Engineer ",
+                "Platform Engineer"
+              ]
+            },
+            {
+              "category": "Specialist Roles",
+              "roles": [
+                "Infrastructure Automation Specialist   ",
+                "Cloud DevOps Specialist ",
+                "DevOps Consultant   ",
+                "Configuration Management Engineer  "
+                
+              ]
+            },
+            {
+              "category": "Cross-Industry & Senior Roles",
+              "roles": [
+                "Cloud Architect   ",
+                "Engineering Manager   ",
+                "Technical Consultant  "
+                
+              ]
+            }
+          ],
+
+          "faq": [
+            {
+              "q": "  How does DevOps differ from traditional software engineering? ",
+              "a": "DevOps integrates software development with IT operations to accelerate delivery, improve reliability, and enable continuous improvement. While traditional software engineering focuses on coding and design, DevOps encompasses the entire pipeline from development through deployment and monitoring. "
+            },
+            {
+              "q": "What tools will I learn in this programme? ",
+              "a": ": The curriculum covers Jenkins, Docker, Kubernetes, Ansible, Terraform, AWS, Git/GitHub, monitoring tools (Prometheus, Grafana), and CI/CD platforms — the same tools used by leading technology organisations globally."
+            },
+            {
+              "q": "What are the eligibility requirements for international applicants? ",
+              "a": "Applicants must have completed 10+2 or equivalent with Physics and Mathematics as compulsory subjects, along with Chemistry or Computer Science or related subjects, with at least 45% marks combined."
+            },
+            {
+              "q": " : What is the demand for DevOps professionals?  ",
+              "a": "DevOps is one of the fastest-growing engineering disciplines globally. As organisations accelerate cloud migration and software delivery, demand for skilled DevOps engineers continues to outpace supply across all major technology markets. "
+            },
+            {
+              "q": "Can I pursue further studies after this programme? ",
+              "a": "Yes. Graduates are well-positioned for M.Tech or MS programmes in cloud computing, software engineering, or distributed systems at universities worldwide. The programme also provides a foundation for industry certifications that enhance career progression. "
+            },
+            {
+              "q": "Is on-campus accommodation available for international students? ",
+              "a": "Presidency University offers dedicated student housing on its Bengaluru campus. International students are encouraged to contact the Office of International Affairs for information on hostel availability, room types, and the booking process."
+            }
+          ],
+
+          "cta": {
+            "title": "Your Future Starts Here",
+            "subtitle": "Join Presidency University and build your career in technology.",
+            "button": "Apply Now"
+          }
+        
         },
         {
           "slug": "btech-ai-ml",
@@ -376,7 +777,218 @@
           "duration": "4 Years.Full-Time",
           "type": "UG",
           "degree": "Bachelor of Technology",
-          "overview": "Develop intelligent systems using machine learning, deep learning, and AI technologies across real-world applications."
+          
+
+           "hero": {
+            "title": {
+              "normal": "B.Tech Computer Science",
+              "italic": " & Engineering (Artificial Intelligence & Machine Learning)"
+            },
+            "description": " Step into the field that is reshaping every industry on theplanet. This four-year specialisation combines mathematics, programming, statistics, and software design to develop your ability to build intelligent systems that learn, reason, and adapt preparing you for high-impact careers in AI research, data science, and automation",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Computer Science & Engineering",
+              "B.Tech AI & ML"
+            ],
+            "stats": [
+              { "label": "Duration", "value": "4 Yr" },
+              { "label": "Semesters", "value": "8" },
+              { "label": "Core Programme", "value": "CSE" }
+            ]
+          },
+
+          "details": {
+            "duration": "4 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "Computer Science & Engineering"
+          },
+
+          "overview": [
+            " Artificial Intelligence is a branch of computer science focused on enabling machines to perform tasks that typically require human intelligence including rational thinking, perception, and decision-making. Machine Learning extends this by enabling systems to teach themselves from data, improving their performance without explicit programming. This programme fuses these disciplines into a comprehensive engineering education. ",
+            " The curriculum combines core domains of mathematics, computer programming, machine learning algorithms, statistical modelling, and software design to develop the capacity to replicate and extend human cognitive processes omputationally. Students work with industry-standard platforms including TensorFlow, PyTorch, and cloud-based AI services, building competencies in deep learning, neural networks, NLP, computer vision, and reinforcement learning. Graduates are recruited by multinational IT companies, large Indian technology organisations, AI-focused product firms, and research institutions."
+          ],
+
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "note": "Eligibility may vary for international students."
+          },
+
+          "tabs": {
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  { "name": "Mathematics I", "code": "MAT101" },
+                  { "name": "Programming in C", "code": "CSE101" },
+                  { "name": "Physics", "code": "PHY101" }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  { "name": "Data Structures", "code": "CSE201" },
+                  { "name": "Discrete Mathematics", "code": "MAT201" },
+                  { "name": "Digital Logic", "code": "CSE202" }
+                ]
+              }
+            ],
+
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Professional Excellence ",
+                  "text": "Graduates will demonstrate as accomplished computer."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Lifelong Learning  ",
+                  "text": "Graduates will engage in lifelong learning through research."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Leadership  ",
+                  "text": "Graduates will serve as leaders in the profession through"
+                }
+                
+                
+              ],
+
+
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Problem Analysis",
+                  "text": "Identify, formulate, and critically analyse complex engineering problems related to software engineering principles, programming, and computing technologies using first principles of mathematics, natural sciences, and engineering. ."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Solution Development",
+                  "text": "Design solutions for complex problems related to software engineering, programming, and computing — including system components and processes that address specified needs while considering public health, safety, and environmental factors."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Modern Tool Application",
+                  "text": "Create, select, and apply appropriate techniques, resources, and modern engineering tools — including prediction and modelling — to complex engineering activities related to software engineering, programming, and computing with an understanding of their capabilities and limitations."
+                }
+              ]
+            }
+          },
+
+          "highlights": [
+            {
+              "title": "Industry-Driven",
+              "description": "Covers deep learning, neural networks, NLP, computer vision. "
+            },
+            {
+              "title": "State-of-the-Art AI ",
+              "description": "Equipped with high-performance GPUs, TensorFlow, PyTorch. "
+            },
+            {
+              "title": "Expert Faculty & Industry Mentorship ",
+              "description": "Academics and industry professionals provide hands-on training with real-world data applications and projects."
+            },
+            {
+              "title": "Hands-On Project",
+              "description": "Live AI projects, model deployment exercises, AI hackathons."
+            },
+            {
+              "title": "Global Internship Opportunities ",
+              "description": "International placements and study-abroad partnerships provide cross-border professional experience and career advancement."
+            },
+            {
+              "title": "AI & ML Certifications  ",
+              "description": "Earn industry-recognised credentials including TensorFlow.  "
+            },
+            {
+              "title": "Strong Industry Partnerships",
+              "description": "Partnerships with top technology companies for research."
+            },
+            {
+              "title": "Excellent Placement Record ",
+              "description": "Graduates recruited by top organisations in data engineering, analytics, AI, and technology-driven industries."
+            }
+          ],
+
+          "careers": [
+            {
+              "category": "Core Data Roles",
+              "roles": [
+                "Machine Learning Engineer ",
+                "Data Scientist ",
+                "AI Research Scientist  ",
+                "Computer Vision Engineer  ",
+                "NLP Specialist"
+              ]
+            },
+            {
+              "category": " Industry-Specific",
+              "roles": [
+                "Robotics Engineer  ",
+                "AI Product Manager  ",
+                "Autonomous Systems Engineert   ",
+                "Healthcare AI Specialist  "
+                
+              ]
+            },
+            {
+              "category": " Emerging & Specialist Roles",
+              "roles": [
+                "AI Ethics Consultant    ",
+                "AI Strategy Consultant   ",
+                "Edge AI Developer ",
+                "AI-Blockchain Developer "
+                
+              ]
+            },
+            {
+              "category": " Academic & Research",
+              "roles": [
+                "University Lecturer / Professor    ",
+                "Research Scientist (ISRO, DRDO, CSIR )",
+                " AI Start-Up Founder "
+                
+                
+              ]
+            }
+            
+
+          ],
+
+          "faq": [
+            {
+              "q": "  How does the AI & ML specialisation differ from the core CSE programme?  ",
+              "a": "While the core CSE programme offers broad coverage across all computing disciplines, the AI & ML specialisation provides deep expertise in artificial intelligence, machine learning,deep learning, neural networks, NLP, and computer vision. Students gain focused training in building intelligent systems that learn from data "
+            },
+            {
+              "q": "Do I need prior programming experience?  ",
+              "a": " A foundational understanding of programming is helpful but not mandatory. The programme builds competenciesprogressively, beginning with core computer science fundamentals before advancing to specialised AI and ML modules. "
+            },
+            {
+              "q": " What is the eligibility for international applicants? ",
+              "a": " Applicants must have completed 10+2 or equivalent with Physics and Mathematics as compulsory subjects, along with Chemistry or Computer Science or related subjects, with at least 45% marks combined"
+            },
+            {
+              "q": "  Which organisations recruit graduates from this programme?  ",
+              "a": "Graduates are sought by major IT companies, AI-focused product firms, data science consultancies, deep tech start-ups, and government research bodies. Both multinational corporations and international firms recruit through Presidency’s placement drives "
+            },
+            {
+              "q": "Can I pursue further studies after this programme? ",
+              "a": "Yes. The B.Tech in AI & ML provides a strong foundation for M.Tech, MS, or PhD programmes in artificial intelligence, machine learning, or data science at universities worldwide. The programme is recognised internationally. "
+            },
+            {
+              "q": "Is on-campus accommodation available for international students? ",
+              "a": "Presidency University offers dedicated student housing on its Bengaluru campus. Contact the Office of International Affairs for details."
+            }
+          ],
+
+          "cta": {
+            "title": "Your Future Starts Here",
+            "subtitle": "Join Presidency University and build your career in technology.",
+            "button": "Apply Now"
+          }
         },
         {
           "slug": "btech-blockchain",
@@ -384,7 +996,207 @@
           "duration": "4 Years.Full-Time",
           "type": "UG",
           "degree": "Bachelor of Technology",
-          "overview": "Explore blockchain architecture, smart contracts, and decentralized applications for future-ready systems."
+
+            "hero": {
+            "title": {
+              "normal": "B.Tech Computer Science",
+              "italic": " & Engineering (Blockchain)"
+            },
+            "description": " Enter the world of decentralised technology that is transforming finance, supply chains, governance, and digital identity. This four-year specialisation combines computer science fundamentals with deep expertise in cryptography, distributed ledger technology, and smart contract development — preparing you for careers at the intersection of security, innovation, and digital transformation.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Computer Science & Engineering",
+              "B.Tech Blockchain"
+            ],
+            "stats": [
+              { "label": "Duration", "value": "4 Yr" },
+              { "label": "Semesters", "value": "8" },
+              { "label": "Core Programme", "value": " Blockchain" }
+            ]
+          },
+
+          "details": {
+            "duration": "4 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "Computer Science & Engineering"
+          },
+
+          "overview": [
+            " Blockchain technology is a decentralised, distributed ledger system that securely records the provenance and transfer of digital assets. It has moved well beyond cryptocurrency to become a foundational technology across financial services, supply chain management, healthcare records, government services, and digital identity verification.",
+            " This specialisation combines core domains of mathematics,computer programming, software design, and information security to prepare graduates for roles as blockchain developers and solution architects. The curriculum covers smart contracts, decentralised applications (DApps), cryptographic protocols, consensus mechanisms, peer-to-peer networking, and leading blockchain platforms including Ethereum, Hyperledger, and Corda. Graduates are positioned for careers in Web3, FinTech, cyber security, and enterprise blockchain solutions with multinational IT companies and emerging technology firms."
+          ],
+
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "note": "Eligibility may vary for international students."
+          },
+
+          "tabs": {
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  { "name": "Mathematics I", "code": "MAT101" },
+                  { "name": "Programming in C", "code": "CSE101" },
+                  { "name": "Physics", "code": "PHY101" }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  { "name": "Data Structures", "code": "CSE201" },
+                  { "name": "Discrete Mathematics", "code": "MAT201" },
+                  { "name": "Digital Logic", "code": "CSE202" }
+                ]
+              }
+            ],
+
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Professional Solving ",
+                  "text": "Graduates will apply their knowledge of science and"
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Lifelong Learning  ",
+                  "text": "Graduates will engage in lifelong learning through research."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Cutting-Edge Technology  ",
+                  "text": "Graduates will demonstrate proficiency in contemporary"
+                }
+                
+                
+              ],
+
+
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Problem Analysis",
+                  "text": "Identify, formulate, and critically analyse complex engineering problems related to software engineering principles, programming, and computing technologies using first principles of mathematics, natural sciences, and engineering. ."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Solution Development",
+                  "text": "Design solutions for complex problems related to software engineering, programming, and computing — including system components and processes that address specified needs while considering public health, safety, and environmental factors."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Modern Tool Application",
+                  "text": "Create, select, and apply appropriate techniques, resources, and modern engineering tools — including prediction and modelling — to complex engineering activities related to software engineering, programming, and computing with an understanding of their capabilities and limitations."
+                }
+              ]
+            }
+          },
+
+          "highlights": [
+            {
+              "title": "Future-Ready ",
+              "description": "Covers smart contracts, DApps, cryptography, distributed "
+            },
+            {
+              "title": "State-of-the-Art  ",
+              "description": "Equipped with Ethereum, Hyperledger, Corda, Solidity. "
+            },
+            {
+              "title": "Expert Faculty & Industry Mentorship ",
+              "description": "Academics and industry professionals provide hands-on training with real-world data applications and projects."
+            },
+            {
+              "title": "Hands-On Project",
+              "description": "Live AI projects, model deployment exercises, AI hackathons."
+            },
+            {
+              "title": "Global Internship Opportunities ",
+              "description": "International placements and study-abroad partnerships provide cross-border professional experience and career advancement."
+            },
+            {
+              "title": "Industry Certifications  ",
+              "description": "Earn globally recognised blockchain and cloud credentials.  "
+            },
+            {
+              "title": "Strong Industry Partnerships",
+              "description": "Partnerships with top technology companies for research."
+            },
+            {
+              "title": "Excellent Placement Record ",
+              "description": "Graduates recruited by top organisations in data engineering, analytics, AI, and technology-driven industries."
+            }
+          ],
+
+          "careers": [
+            {
+              "category": "Core Blockchain Roles",
+              "roles": [
+                "Blockchain Developer ",
+                "Smart Contract Developer ",
+                "Blockchain Solution Architect  ",
+                "Cryptography Engineer ",
+                "DApp Developer "
+              ]
+            },
+            {
+              "category": " Industry-Specific Roles",
+              "roles": [
+                "FinTech Developer  ",
+                "Web3 Engineer  ",
+                "Blockchain Security Auditor  ",
+                "Digital Identity Specialist  "
+                
+              ]
+            },
+            {
+              "category": "  Cross-Industry & Senior Roles",
+              "roles": [
+                "Full-Stack Developer   ",
+                "Mobile Application Developer   ",
+                "UX/UI Designe ",
+                " Blockchain Consultant / Startup Founder"
+                
+              ]
+            }
+            
+          ],
+
+          "faq": [
+            {
+              "q": "  What makes blockchain a promising career field?   ",
+              "a": "Blockchain technology is being adopted across finance, supply chain, healthcare, government, and digital identity sectors worldwide. Demand for blockchain developers and architects continues to grow as organisations implement decentralised solutions for security, transparency, and efficiency. "
+            },
+            {
+              "q": "How does this specialisation differ from B.Tech CSE (Cyber Security)?  ",
+              "a": " While Cyber Security focuses on protecting systems and data from threats, Blockchain specialises in building decentralised, distributed systems using cryptographic protocols. Both share elements of cryptography and security, but Blockchain is oriented towards building new systems rather than defending existing ones "
+            },
+            {
+              "q": "  What are the eligibility requirements for international applicants? ",
+              "a": " Applicants must have completed 10+2 or equivalent with Physics and Mathematics as compulsory subjects, along with Chemistry or Computer Science or related subjects, with at least 45% marks combined."
+            },
+            {
+              "q": "  What programming languages will I learn?  ",
+              "a": " The programme covers Solidity (for smart contracts), JavaScript, Python, Go, and other languages commonly used in blockchain development, alongside core programming fundamentals.  "
+            },
+            {
+              "q": " Are there industry certification opportunities?  ",
+              "a": "Yes. Students can earn certifications in blockchain development, cloud computing, and related technologies from globally recognised providers alongside their degree. "
+            },
+            {
+              "q": "Is on-campus accommodation available for international students? ",
+              "a": "Presidency University offers dedicated student housing on its Bengaluru campus. Contact the Office of International Affairs for details."
+            }
+          ],
+
+          "cta": {
+            "title": "Your Future Starts Here",
+            "subtitle": "Join Presidency University and build your career in technology.",
+            "button": "Apply Now"
+          }
+          
         },
         {
           "slug": "btech-cyber-security",
@@ -392,7 +1204,209 @@
           "duration": "4 Years.Full-Time",
           "type": "UG",
           "degree": "Bachelor of Technology",
-          "overview": "Learn network security, ethical hacking, cryptography, and cyber defense strategies to protect digital systems."
+         
+
+          "hero": {
+            "title": {
+              "normal": "B.Tech Computer Science",
+              "italic": " & Engineering (Cyber Security) "
+            },
+            "description": " Defend the digital frontier. As cyber threats grow in scale and sophistication, organisations worldwide require skilled professionals who can protect systems, networks, and data. This four-year specialisation prepares you with the tools, techniques, and strategic thinking to safeguard critical digital infrastructure across industries.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Computer Science & Engineering",
+              "B.Tech Cyber Security"
+            ],
+            "stats": [
+              { "label": "Duration", "value": "4 Yr" },
+              { "label": "Semesters", "value": "8" },
+              { "label": "Core Programme", "value": "Cyber Security" }
+            ]
+          },
+
+          "details": {
+            "duration": "4 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "Computer Science & Engineering"
+          },
+
+          "overview": [
+            "  Cyber security is no longer optional — it is essential for every organisation, government, and institution operating in the digital age. This specialisation provides a comprehensive grounding in ethical hacking, digital forensics, penetration testing, cryptography, network security, and threat intelligence, equipping graduates with the skills to identify vulnerabilities, defend against attacks, and secure critical systems.",
+            " The curriculum integrates core computer science with specialised security modules, providing hands-on experience with industry-standard tools including Kali Linux, Metasploit, Wireshark, and SIEM solutions. Students also develop proficiency in Python, C/C++, and SQL as applied to security contexts. With cybersecurity professionals in high demand across government agencies, financial institutions, technology companies, and defence organisations worldwide, this programme offers strong career prospects and global mobility."
+          ],
+
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "note": "Eligibility may vary for international students."
+          },
+
+          "tabs": {
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  { "name": "Mathematics I", "code": "MAT101" },
+                  { "name": "Programming in C", "code": "CSE101" },
+                  { "name": "Physics", "code": "PHY101" }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  { "name": "Data Structures", "code": "CSE201" },
+                  { "name": "Discrete Mathematics", "code": "MAT201" },
+                  { "name": "Digital Logic", "code": "CSE202" }
+                ]
+              }
+            ],
+
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Professional Excellence",
+                  "text": "Graduates will demonstrate as accomplished computer engineering professionals with expertise in cyber security across industry, government, and research."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Lifelong Learning & Research ",
+                  "text": "Graduates will engage in lifelong learning through research and continuous professional development in cyber security."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Leadership & Entrepreneurship ",
+                  "text": "Graduates will serve as leaders through consultancy, extension activities, and entrepreneurial ventures in security technology."
+                }
+                
+                
+              ],
+
+
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Problem Analysis",
+                  "text": "Identify, formulate, and critically analyse complex engineering problems related to software engineering principles, programming, and computing technologies using first principles of mathematics, natural sciences, and engineering. ."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Solution Development",
+                  "text": "Design solutions for complex problems related to software engineering, programming, and computing — including system components and processes that address specified needs while considering public health, safety, and environmental factors."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Modern Tool Application",
+                  "text": "Create, select, and apply appropriate techniques, resources, and modern engineering tools — including prediction and modelling — to complex engineering activities related to software engineering, programming, and computing with an understanding of their capabilities and limitations."
+                }
+              ]
+            }
+          },
+
+          "highlights": [
+            {
+              "title": "Industry-Focused  ",
+              "description": "Covers ethical hacking, digital forensics, penetration testing, cryptography, network security, and threat intelligence."
+            },
+            {
+              "title": "State-of-the-Art ",
+              "description": "Equipped with Kali Linux, Metasploit, Wireshark, SIEM solutions, and advanced security testing platforms. "
+            },
+            {
+              "title": "Expert Faculty & Industry Mentorship ",
+              "description": "Hands-on training from professionals with active experience in enterprise cyber security and digital forensics."
+            },
+            {
+              "title": "Hands-On Learning",
+              "description": "Live penetration testing projects, cybersecurity competitions, and ethical hacking challenges throughout the programme."
+            },
+            {
+              "title": "Global Internship Opportunities ",
+              "description": "International placements and study-abroad partnerships provide cross-border professional experience and career advancement."
+            },
+            {
+              "title": "Cybersecurity Certifications  ",
+              "description": "Opportunities to earn CEH (Certified Ethical Hacker), CompTIA Security+, and related credentials alongside your degree.  "
+            },
+            {
+              "title": "Strong Industry Partnerships",
+              "description": "Partnerships with top technology companies for research."
+            },
+            {
+              "title": "High-Demand Career  ",
+              "description": "Cybersecurity professionals are in significant demand across government, financial institutions, and technology companies globally."
+            }
+          ],
+
+          "careers": [
+            {
+              "category": "Core Security Roles",
+              "roles": [
+                "Cyber Security Analyst  ",
+                "Ethical Hacker / Penetration Tester ",
+                "Security Operations Centre (SOC) Analyst   ",
+                "Network Security Engineer  ",
+                "Information Security Officer"
+              ]
+            },
+            {
+              "category": " Specialist Roles",
+              "roles": [
+                "Digital Forensics Analyst  ",
+                "Threat Intelligence Analyst   ",
+                "Blockchain Security Auditor  ",
+                "Security Architect   ",
+                "Malware Analyst   ",
+                "Incident Response Specialist "
+                
+              ]
+            },
+            {
+              "category": "  Cross-Industry & Senior Roles",
+              "roles": [
+                "Chief Information Security Officer (CISO)  ",
+                "Security Consultant - Compliance & Governance Specialist  ",
+                "Academic Researcher in Cyber Security"
+                
+                
+              ]
+            }
+            
+          ],
+
+          "faq": [
+            {
+              "q": "  Is ethical hacking covered in the curriculum?    ",
+              "a": "Yes, ethical hacking is a core component of the programme. Students gain hands-on experience with penetration testing tools and methodologies in a controlled, legal environment. "
+            },
+            {
+              "q": "Is there demand for cybersecurity professionals in government?   ",
+              "a": " Yes, there is significant and expanding demand across government agencies worldwide. Governments are making substantial investments in cyber defence to protect public data, critical infrastructure, and national security. "
+            },
+            {
+              "q": "  What programming languages are essential for cyber security?  ",
+              "a": " The programme emphasises Python, C/C++, and SQL, along with specialised tools like Wireshark, Metasploit, and Kali Linux for detecting, preventing, and responding to security threats."
+            },
+            {
+              "q": "  What are the eligibility requirements for international applicants?   ",
+              "a": " Applicants must have completed 10+2 or equivalent with Physics and Mathematics as compulsory subjects, with at least 45% marks combined.  "
+            },
+            {
+              "q": " What is the typical starting salary range?  ",
+              "a": "Starting compensation varies by role, employer, and location. Cyber security roles generally command competitive salaries due to high global demand and a shortage of qualified professionals. "
+            },
+            {
+              "q": ": Is on-campus accommodation available for international students?  ",
+              "a": "Presidency University offers dedicated student housing on its Bengaluru campus. Contact the Office of International Affairs for details."
+            }
+          ],
+
+          "cta": {
+            "title": "Your Future Starts Here",
+            "subtitle": "Join Presidency University and build your career in technology.",
+            "button": "Apply Now"
+          }
         },
         {
           "slug": "btech-data-science",
@@ -400,7 +1414,209 @@
           "duration": "4 Years.Full-Time",
           "type": "UG",
           "degree": "Bachelor of Technology",
-          "overview": "Gain expertise in data analysis, machine learning, and statistical modelling to extract insights from complex data."
+          
+
+           "hero": {
+            "title": {
+              "normal": "B.Tech Computer Science",
+              "italic": " & Engineering (Data Science) "
+            },
+            "description": " Turn raw data into strategic advantage. This four-year specialisation equips you to extract knowledge, enable discovery, and drive decisions from complex datasets — combining statistics, computer science, and domain expertise to prepare you for one of the most sought-after roles in the global economy.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Computer Science & Engineering",
+              "B.Tech Data Science"
+            ],
+            "stats": [
+              { "label": "Duration", "value": "4 Yr" },
+              { "label": "Semesters", "value": "8" },
+              { "label": "Core Programme", "value": "Data Science" }
+            ]
+          },
+
+          "details": {
+            "duration": "4 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "Computer Science & Engineering"
+          },
+
+          "overview": [
+            " Data science is an interdisciplinary field focused on extracting knowledge and enabling discovery from complex data. It represents a fusion of principles from statistics and computer science, applied in domain-specific contexts across healthcare, finance, retail, manufacturing, and beyond. This specialisation combines mathematics, computer programming, and software design to equip graduates with the skills to manage and interpret digital data at scale.",
+            " The curriculum covers the full data pipeline — from collection and preprocessing to analysis, modelling, and visualisation — using industry-standard tools including Python, R, TensorFlow, Hadoop, Apache Spark, and advanced analytics frameworks. Students build competencies in machine learning, AI, deep learning, cloud computing, feature engineering, and data visualisation that align directly with what global employers demand."
+          ],
+
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "note": "Eligibility may vary for international students."
+          },
+
+          "tabs": {
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  { "name": "Mathematics I", "code": "MAT101" },
+                  { "name": "Programming in C", "code": "CSE101" },
+                  { "name": "Physics", "code": "PHY101" }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  { "name": "Data Structures", "code": "CSE201" },
+                  { "name": "Discrete Mathematics", "code": "MAT201" },
+                  { "name": "Digital Logic", "code": "CSE202" }
+                ]
+              }
+            ],
+
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Problem Solving & Research",
+                  "text": "Graduates will apply their knowledge of science and engineering to function as effective problem solvers and researchers in data science."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Cutting-Edge Technology Skills ",
+                  "text": "Graduates will demonstrate proficiency in contemporary data science technologies across multidisciplinary areas."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Lifelong Learning & Entrepreneurship ",
+                  "text": "Graduates will cultivate a commitment to continuous learning and ethical practice, emerging as socially responsible entrepreneurs."
+                }
+                
+                
+              ],
+
+
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Problem Analysis",
+                  "text": "Identify, formulate, and critically analyse complex engineering problems related to software engineering principles, programming, and computing technologies using first principles of mathematics, natural sciences, and engineering. ."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Solution Development",
+                  "text": "Design solutions for complex problems related to software engineering, programming, and computing — including system components and processes that address specified needs while considering public health, safety, and environmental factors."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Modern Tool Application",
+                  "text": "Create, select, and apply appropriate techniques, resources, and modern engineering tools — including prediction and modelling — to complex engineering activities related to software engineering, programming, and computing with an understanding of their capabilities and limitations."
+                }
+              ]
+            }
+          },
+
+          "highlights": [
+            {
+              "title": "Industry-Centric  ",
+              "description": "Covers big data analytics, machine learning, AI, deep learning, cloud computing, feature engineering, data preprocessing, and data visualisation."
+            },
+            {
+              "title": "State-of-the-Art Data ",
+              "description": "Equipped with Python, R, TensorFlow, Hadoop, Apache Spark, and advanced analytics tools for hands-on learning. "
+            },
+            {
+              "title": "Expert Faculty & Industry Mentorship ",
+              "description": "Personalised training with real-world data applications and industry projects."
+            },
+            {
+              "title": "Project-Based Learning",
+              "description": "Live projects, AI-driven analytics, hackathons, and case studies are integrated throughout the programme."
+            },
+            {
+              "title": "Global Internship Opportunities",
+              "description": "International placements and study-abroad partnerships provide cross-border professional experience and career advancement."
+            },
+            {
+              "title": "Data Science Certifications  ",
+              "description": "Earn AWS Data Analytics, Google Data Engineer, TensorFlow, and data visualisation certifications alongside your degree.  "
+            },
+            {
+              "title": "Strong Industry Partnerships",
+              "description": "Partnerships with top technology companies for research."
+            },
+            {
+              "title": "Excellent Placement Record  ",
+              "description": "Graduates recruited by top organisations in data engineering, analytics, and AI-driven industries."
+            }
+          ],
+
+          "careers": [
+            {
+              "category": "Core Data Roles",
+              "roles": [
+                "Data Scientist   ",
+                "Data Engineer ",
+                "Data Analyst   ",
+                "Business Intelligence Developer  ",
+                "Machine Learning Engineer"
+              ]
+            },
+            {
+              "category": " Specialist Roles",
+              "roles": [
+                "Cloud Data Engineer   ",
+                "Feature Engineering Specialist    ",
+                "Data Visualisation Specialist   ",
+                "Predictive Analytics Consultant "
+                
+                
+              ]
+            },
+            {
+              "category": " Cross-Industry & Research",
+              "roles": [
+                "Analytics Consultant   ",
+                "AI/ML Research Scientist   ",
+                "Data Strategy Consultant ",
+                "Academic Researcher / Lecturer"
+                
+                
+              ]
+            }
+            
+          ],
+
+          "faq": [
+            {
+              "q": " How does Data Science differ from Big Data?    ",
+              "a": "Data Science focuses on extracting insights and building predictive models from data, while Big Data emphasises the infrastructure and tools needed to process and manage extremely large datasets. Both specialisations share common tools but differ in emphasis."
+            },
+            {
+              "q": "What tools and technologies will I learn?  ",
+              "a": " Python, R, SQL, TensorFlow, Hadoop, Apache Spark, cloud analytics platforms (AWS, Google Cloud, Azure), Power BI, Tableau, and various machine learning frameworks . "
+            },
+            {
+              "q": "  What are the eligibility requirements for international applicants?  ",
+              "a": " Applicants must have completed 10+2 or equivalent with Physics and Mathematics as compulsory subjects, with at least 45% marks combined."
+            },
+            {
+              "q": "  What industries hire data science graduates? ?   ",
+              "a": " Data scientists are hired across technology, finance, healthcare, e-commerce, manufacturing, consulting, government, and virtually every sector that generates and uses data.  "
+            },
+            {
+              "q": " Is there a strong demand for data science professionals? ",
+              "a": "Yes. Data science remains one of the most in-demand career fields globally, with demand consistently outpacing supply across all major economies and industries. "
+            },
+            {
+              "q": ": Is on-campus accommodation available for international students?  ",
+              "a": "Presidency University offers dedicated student housing on its Bengaluru campus. Contact the Office of International Affairs for details."
+            }
+          ],
+
+          "cta": {
+            "title": "Your Future Starts Here",
+            "subtitle": "Join Presidency University and build your career in technology.",
+            "button": "Apply Now"
+          }
         },
         {
           "slug": "btech-iot",
