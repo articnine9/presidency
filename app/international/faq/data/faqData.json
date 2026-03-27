@@ -1,0 +1,128 @@
+{
+  "hero": {
+    "title": {
+      "normal": "Frequently Asked",
+      "italic": "Questions"
+    },
+    "description": "Find answers to common questions about studying at Presidency University, including admissions, campus life, visas, and career opportunities for international students.",
+    "breadcrumb": ["Home", "International", "FAQ"],
+    "image": "/img/faq.jpg",
+    "buttons": [
+      {
+        "label": "Contact Us",
+        "link": "/contact",
+        "type": "primary"
+      },
+      {
+        "label": "Apply Now",
+        "link": "https://apply.presidency.international",
+        "type": "secondary"
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "id": 1,
+      "category": "About Presidency University",
+      "items": [
+        {
+          "question": "Is Presidency University recognised by the Indian government?",
+          "answer": "Yes. Presidency University is established under the Karnataka Act 41 of 2013, recognised by the University Grants Commission (UGC) of India, and accredited by NAAC. Its degrees are officially recognised in India and widely recognised internationally."
+        },
+        {
+          "question": "What is Presidency University's ranking?",
+          "answer": "Presidency University appears in Times Higher Education (THE), QS Rankings & Ratings, and NIRF rankings. Please check the official website for the latest ranking details."
+        },
+        {
+          "question": "How many international students study at Presidency University?",
+          "answer": "Presidency University welcomes international students from Asia, Europe, the Middle East, and Africa through full degree programmes, exchange semesters, and internships."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Admissions and Entry Requirements",
+      "items": [
+        {
+          "question": "Can international students apply to any programme?",
+          "answer": "Yes. International students can apply to undergraduate, postgraduate, doctoral, and diploma programmes, subject to eligibility criteria."
+        },
+        {
+          "question": "What English language score is required?",
+          "answer": "Typically, IELTS 6.0 (no band below 5.5) or TOEFL iBT 80 is required. Requirements may vary by programme."
+        },
+        {
+          "question": "Does Presidency University offer scholarships?",
+          "answer": "Yes. Merit-based scholarships are available, including the Chancellor's Bon Voyage Scholarship for international academic experiences."
+        },
+        {
+          "question": "What is the tuition fee for international students?",
+          "answer": "Tuition fees vary by programme. Contact admission@presidency.international for detailed fee structures."
+        },
+        {
+          "question": "Does the university offer online programmes?",
+          "answer": "Presidency University primarily offers on-campus education. Contact the admissions team for any flexible learning options."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Campus Life and Accommodation",
+      "items": [
+        {
+          "question": "Is on-campus accommodation available?",
+          "answer": "Yes. Hostel accommodation is available for both male and female students on a first-come, first-served basis."
+        },
+        {
+          "question": "Is the campus safe for international students?",
+          "answer": "Yes. The campus has 24/7 security, CCTV surveillance, anti-ragging policies, and student welfare committees."
+        },
+        {
+          "question": "What food options are available?",
+          "answer": "The campus offers Indian and continental cuisine with vegetarian options available."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "Visa and Immigration",
+      "items": [
+        {
+          "question": "What visa is required to study in India?",
+          "answer": "International students require an Indian Student Visa (S Visa), which can be obtained through the Indian Embassy."
+        },
+        {
+          "question": "Do I need to register with FRRO?",
+          "answer": "Yes. Students must register with FRRO within 14 days of arrival. The university will assist with this process."
+        },
+        {
+          "question": "Can I work while studying in India?",
+          "answer": "No. Student visas in India generally do not permit employment during studies."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "Career and Post-Study",
+      "items": [
+        {
+          "question": "What career support is available?",
+          "answer": "The Placement Cell provides training, mock interviews, resume workshops, and placements with top companies like Amazon, TCS, Infosys, Deloitte, and more."
+        },
+        {
+          "question": "Can I stay in India after graduation?",
+          "answer": "You must apply for an Employment Visa from your home country after receiving a job offer."
+        },
+        {
+          "question": "Are the degrees internationally recognised?",
+          "answer": "Yes. Degrees are UGC-recognised and accepted globally. Graduates pursue higher education in countries like the UK, USA, Germany, and more."
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "email": "admission@presidency.international",
+    "phone": "+91 9022092222",
+    "applyUrl": "https://apply.presidency.international"
+  }
+}
