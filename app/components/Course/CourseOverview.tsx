@@ -3,7 +3,7 @@ export default function CourseOverview({ data }: any) {
   if (!data?.overview) return null;
 
   return (
-    <section className="bg-white pb-16 pt-32 relative z-0">
+    <section className="bg-[#F6F7FB] pb-16 pt-32 relative z-0">
       <div className="max-w-[1400px] mx-auto px-6">
         {/* LABEL */}
         <CommonHeader
