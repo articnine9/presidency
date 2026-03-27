@@ -5,7 +5,7 @@ import CommonHeader from "@/app/components/CommonHeader";
 
 export default function SocialMediaSection() {
   return (
-    <section className="py-20 bg-[#F5F6F8]">
+    <section className="py-20 bg-[#fff]">
       <div className="max-w-[1400px] mx-auto px-6 text-center">
         {/* ✅ COMMON HEADER */}
         <CommonHeader
@@ -29,7 +29,7 @@ export default function SocialMediaSection() {
               href="#"
               className="
                 group flex flex-col items-center gap-2
-                bg-white px-6 py-5 rounded-2xl 
+                bg-[#F5F6F8] px-6 py-5 rounded-2xl 
                 shadow-sm hover:shadow-xl 
                 transition duration-300
                 hover:bg-[#0A8F96] hover:text-[#0A8F96]
