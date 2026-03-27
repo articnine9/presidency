@@ -1501,6 +1501,700 @@
         }
        
       ]
-    }         
+    },
+     {
+      "slug": "media-studies",
+      "name": "School of Media Studies",
+
+      "hero": {
+        "title": {
+          "normal": "School of",
+          "italic": "Media Studies"
+        },
+        "description": "Tell the stories that shape public understanding. From traditional journalism and broadcast media to digital content creation, immersive storytelling, and film production — our school prepares international students for impactful careers across the evolving global media landscape.",
+        "breadcrumb": ["Home", "Schools", "Media Studies"],
+        "image": "/img/classes/1.jpg",
+        "stats": [
+          { "label": "UG Programmes", "value": "5" },
+          { "label": "PG Programmes", "value": "1" },
+          { "label": "Doctoral Research", "value": "Ph.D" },
+          { "label": "PG Diploma", "value": "1" }
+        ]
+      },
+
+     "about": {
+        "title": "Educating the Next Generation of Media Professionals",
+        "content": [
+          "The Presidency School of Media Studies (PSOMS) was established to educate and train individuals in the field of media. The school offers a comprehensive BA in Journalism and Mass Communication with five specialisation tracks — covering traditional journalism, digital marketing and advertising, public relations, film and television production, immersive media (AR/VR), and digital storytelling. A postgraduate MA in Journalism and Mass Communication, a PG Diploma in Film Making, and a doctoral programme in Media Studies complete the school’s portfolio. The curriculum combines core principles of traditional journalism with the latest advancements in media technology.",
+          "Students engage in hands-on training across print, electronic, and digital media — mastering reporting, broadcasting, and real-time storytelling. The programme integrates filmmaking, data journalism, mobile journalism, and new media skills, equipping students to craft compelling visual narratives, analyse data effectively, and produce fact-based stories with impact. State-of-the-art TV, radio, and digital editing studios provide professional-grade training facilities. The school maintains a focus on media ethics, critical thinking, and audience engagement alongside technical production skills."
+        ],
+        "image": "/img/classes/1.jpeg",
+
+        "hexagons": [
+          {
+            "type": "text",
+            "text": "Cloud Computing",
+            "icon": "/img/aboutus/3.png",
+            "top": "-5%",
+            "left": "35%"
+           
+          },
+          {
+            "type": "text",
+            "text": "Newest Research",
+           "icon": "/img/aboutus/4.png",
+            "top": "20%",
+            "left": "72%"
+          },
+          {
+            "type": "text",
+            "text": "Industry Mentorship",
+           "icon": "/img/aboutus/2.png",
+            "top": "20%",
+            "left": "0%"
+          },
+          {
+            "type": "text",
+            "text": "Research Ecosystem",
+            "icon": "/img/aboutus/1.png",
+            "top": "80%",
+            "left": "36%"
+          },
+          {
+            "type": "image",
+            "image": "/img/classes/hex1.jpeg",
+            "top": "55%",
+            "left": "10%"
+          },
+          {
+            "type": "image",
+            "image": "/img/classes/hex2.jpeg",
+            "top": "55%",
+            "left": "90%"
+          }
+        ],
+        "features": [
+          {
+            "title": "Five Specialisation Tracks ",
+            "description": "Choose from Digital Marketing & Advertising, PR & Corporate Communication, Film/TV & Digital Production, Immersive Media (AR/VR), or Digital Storytelling & Content Creation."
+          },
+          {
+            "title": "Professional Media Studios",
+            "description": "State-of-the-art TV, radio, and digital editing studios with advanced equipment for multimedia production, broadcast journalism, and content creation."
+          },
+          {
+            "title": "Convergence Journalism Training ",
+            "description": "Hands-on experience across print, electronic, digital, and mobile media — mastering reporting, broadcasting, data journalism, and real-time storytelling."
+          }
+        ]
+      },
+      "visionMission": {
+        "vision": {
+          "title": "Vision",
+          "description": "To become a value-based, communication-effective school of media and journalism, committed to creating an ethical and positive approach to reporting for the benefit of society at large.",
+          "points": []
+        },
+        "mission": {
+          "title": "Mission",
+          "description": "",
+          "points": [
+            "Encourage students to become sensitive, responsive, and responsible social citizens in the realm of media and journalism ",
+            "Empower students with the knowledge and skills to address social, political, and economic challenges through media ",
+            "Sensitise students to embrace lifelong learning in a technology-enabled environment ",
+            "Foster strategic alliances between the media industry and academia for research and practical application ",
+            "Instil entrepreneurial and leadership skills to address social, environmental, and community needs"
+          ]
+        }
+      },
+     
+     
+      "programSections": [
+        {
+          "type": "UG",
+          "title": "Undergraduate Programmes",
+          "subtitle": "BA Journalism & Mass Communication — 3-Year Full-Timee"
+        },
+        {
+          "type": "PG",
+          "title": "Postgraduate & Diploma Programmes",
+          "subtitle": ""
+        },
+        {
+          "type": "PhD",
+          "title": "Research Programme",
+          "subtitle": ""
+        }
+      ],
+      "programs": [
+        {
+          "slug": "ba-journalism-communication-general",
+          "name": "BA (Journalism & Mass Communication) — General",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology"
+        },
+        {
+          "slug": "ba-jmc-digital-marketing-advertising",
+          "name": "BA JMC (Digital Marketing & Advertising / PR & Corporate)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Learn to process, analyse, and manage large-scale data using modern tools like Hadoop, Spark, and AI-driven analytics."
+        },
+        {
+          "slug": "ba-jmc-film-television-digital-production",
+          "name": "BA JMC (Film, Television & Digital Production)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Master CI/CD pipelines, cloud infrastructure, and automation tools used in modern software delivery systems."
+        },
+        {
+          "slug": "ba-jmc-immersivemedia-ar-vr-interactive-storytelling",
+          "name": "BA JMC (Immersive Media, AR/VR & Interactive Storytelling)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Develop intelligent systems using machine learning, deep learning, and AI technologies across real-world applications."
+        },
+        {
+          "slug": "ba-jmc-digital-storytelling-content-creation",
+          "name": "BA JMC (Digital Storytelling & Content Creation)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Explore blockchain architecture, smart contracts, and decentralized applications for future-ready systems."
+        },
+       
+        {
+          "slug": "ma-journalism-mass-communication",
+          "name": "MA Journalism & Mass Communication",
+          "duration": "2 Years.Full-Time",
+          "type": "PG",
+          "degree": "Master of Technology",
+          "overview": "Advanced study in AI, deep learning, and intelligent systems for research and industry applications."
+        },
+        {
+          "slug": "post-graduate-diploma-film-making",
+          "name": "Post Graduate Diploma in Film Making",
+          "duration": "1 Years.Full-Time",
+          "type": "PG",
+          "degree": "Master of Technology",
+          "overview": "Specialise in big data, analytics, and machine learning for high-demand data-driven roles."
+        },
+
+        {
+          "slug": "phd-media-studies",
+          "name": "Ph.D. Media Studies",
+          "duration": "Research Programme",
+          "type": "PhD",
+          "degree": "Doctor of Philosophy",
+          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies."
+        }
+       
+      ]
+    },
+     {
+      "slug": "allied-health-sciences",
+      "name": "School of Allied Health Sciences",
+
+      "hero": {
+        "title": {
+          "normal": "School of",
+          "italic": "Allied Health Sciences"
+        },
+        "description": "Join the healthcare professionals who support diagnosis, treatment, and patient care across the modern medical system. From physiotherapy and medical laboratory technology to cardiac care, respiratory therapy, and medical imaging — our school prepares international students for essential clinical roles in hospitals, diagnostic centres, and healthcare organisations worldwide.",
+        "breadcrumb": ["Home", "Schools", "Allied Health Sciences"],
+        "image": "/img/classes/1.jpg",
+        "stats": [
+          { "label": "UG Programmes - Healthcare - Clinical Training", "value": "6" }
+          
+        ]
+      },
+
+     "about": {
+        "title": "Training the Clinical Professionals Healthcare Depends On",
+        "content": [
+          "The Presidency School of Allied Health Sciences offers six undergraduate programmes across the allied health professions — healthcare disciplines that support and complement the work of physicians and surgeons. These include physiotherapy, medical laboratory technology, cardiac care technology, respiratory care technology, medical imaging technology, and anaesthesia and operation theatre technology. Each programme combines scientific foundations with extensive clinical training, producing graduates who are technically proficient, ethically grounded, and immediately productive in clinical healthcare settings.",
+          ": Allied health professionals are essential to the functioning of modern healthcare systems — from the laboratory technologists who process diagnostic tests to the physiotherapists who restore patient mobility, the cardiac technologists who monitor heart function, and the imaging technologists who operate diagnostic equipment. India’s expanding healthcare sector — driven by hospital construction, diagnostic centre growth, and increasing health awareness — creates sustained demand for qualified allied health professionals. International students gain clinical training in a healthcare context that is both technologically advancing and serving one of the world’s largest patient populations."
+        ],
+        "image": "/img/classes/1.jpeg",
+
+        "hexagons": [
+          {
+            "type": "text",
+            "text": "Cloud Computing",
+            "icon": "/img/aboutus/3.png",
+            "top": "-5%",
+            "left": "35%"
+           
+          },
+          {
+            "type": "text",
+            "text": "Newest Research",
+           "icon": "/img/aboutus/4.png",
+            "top": "20%",
+            "left": "72%"
+          },
+          {
+            "type": "text",
+            "text": "Industry Mentorship",
+           "icon": "/img/aboutus/2.png",
+            "top": "20%",
+            "left": "0%"
+          },
+          {
+            "type": "text",
+            "text": "Research Ecosystem",
+            "icon": "/img/aboutus/1.png",
+            "top": "80%",
+            "left": "36%"
+          },
+          {
+            "type": "image",
+            "image": "/img/classes/hex1.jpeg",
+            "top": "55%",
+            "left": "10%"
+          },
+          {
+            "type": "image",
+            "image": "/img/classes/hex2.jpeg",
+            "top": "55%",
+            "left": "90%"
+          }
+        ],
+        "features": [
+          {
+            "title": "Clinical Training Integration ",
+            "description": "All programmes incorporate extensive clinical rotations in hospitals and diagnostic centres, ensuring graduates develop hands-on professional competence alongside theoretical knowledge."
+          },
+          {
+            "title": "Essential Healthcare Roles",
+            "description": "Allied health professionals perform critical functions in diagnosis, treatment, rehabilitation, and patient monitoring — roles that are indispensable to modern healthcare delivery."
+          },
+          {
+            "title": "Growing Healthcare Demand",
+            "description": "India’s rapidly expanding healthcare sector — new hospitals, diagnostic chains, and medical tourism — creates strong and sustained demand for qualified allied health professionals."
+          }
+        ]
+      },
+      "visionMission": {
+        "vision": {
+          "title": "Vision",
+          "description": "To develop skilled, compassionate, and ethically responsible allied health professionals who contribute to the delivery of quality healthcare and the improvement of patient outcomes across communities.",
+          "points": []
+        },
+        "mission": {
+          "title": "Mission",
+          "description": "",
+          "points": [
+            "Equip students with the scientific knowledge and clinical skills required for competent allied health practice ",
+            "Provide extensive clinical training in hospital and diagnostic settings to develop practical professional competence",
+            "Foster ethical responsibility, patient-centred care, and commitment to healthcare quality improvement ",
+            "Prepare graduates for professional certification, licensure, and career advancement in allied health fields",
+            "Instil a commitment to lifelong learning in response to evolving healthcare technologies and practices"
+          ]
+        }
+      },
+     
+     
+      "programSections": [
+        {
+          "type": "UG",
+          "title": "Undergraduate Programmes",
+          "subtitle": "Allied Health Sciences Degrees"
+        }
+        
+      ],
+      "programs": [
+        {
+          "slug": "bpt",
+          "name": "Bachelor of Physiotherapy (BPT)",
+          "duration": "4 Years + 6 Months ",
+          "type": "UG",
+          "degree": "Bachelor of Technology"  
+        },
+        {
+          "slug": "bsc-anesthesia-operation-theatre",
+          "name": "B.Sc. Anaesthesia and Operation Theatre ",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Learn to process, analyse, and manage large-scale data using modern tools like Hadoop, Spark, and AI-driven analytics."
+        },
+        {
+          "slug": "bsc-medical-laboratory-technology",
+          "name": "B.Sc. Medical Laboratory Technology ",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Master CI/CD pipelines, cloud infrastructure, and automation tools used in modern software delivery systems."
+        },
+        {
+          "slug":"bsc-cct",
+          "name": "B.Sc. Cardiac Care Technology (CCT)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Develop intelligent systems using machine learning, deep learning, and AI technologies across real-world applications."
+        },
+        {
+          "slug": "bsc-rct",
+          "name": "B.Sc. Respiratory Care Technology (RCT)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Explore blockchain architecture, smart contracts, and decentralized applications for future-ready systems."
+        },
+        {
+          "slug": "bsc-medical-radiology-imaging",
+          "name": "B.Sc. Medical Radiology and Imaging ",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Learn network security, ethical hacking, cryptography, and cyber defense strategies to protect digital systems."
+        }        
+       
+      ]
+    },
+     {
+      "slug": "liberal-arts-science",
+      "name": "School of Liberal Arts & Sciences",
+
+      "hero": {
+        "title": {
+          "normal": "School of Liberal Arts",
+          "italic": "& Sciences"
+        },
+        "description": "Explore the intersections of human thought, expression, and experience. From psychology and political science to English literature, performing arts, and theatre — our school offers interdisciplinary programmes that develop critical thinkers, creative practitioners, and culturally aware professionals ready to engage with the complexities of the modern world.",
+        "breadcrumb": ["Home", "Schools", "Liberal Arts & Sciences"],
+        "image": "/img/classes/1.jpg",
+        "stats": [
+          { "label": "UG Programmes", "value": "7" },
+          { "label": "PG Programmes", "value": "2" },
+          { "label": "Doctoral Research", "value": "Ph.D" },
+          { "label": "Diploma Programmes", "value": "4" }
+
+        ]
+      },
+
+     "about": {
+        "title": "Cultivating Intellectual Curiosity Across Disciplines",
+        "content": [
+          "The Presidency School of Liberal Arts & Sciences (SOLAS) offers a distinctive portfolio of interdisciplinary undergraduate programmes that combine two academic disciplines into a single integrated degree. Students choose from combinations spanning psychology, English, economics, political science, sociology, history, communication and media studies, performing arts, and theatre studies. This dual-discipline structure reflects the school’s belief that the most profound understanding comes from exploring connections between fields — developing graduates with the intellectual breadth, analytical depth, and creative capacity to navigate complex contemporary challenges.",
+          "The school also offers standalone B.Sc. Psychology and postgraduate programmes including M.Sc. Psychology (with specialisations in child, clinical, counselling, and industrial psychology) and M.A. English (with specialisations in digital humanities, cultural studies, creative writing, and educational leadership). A doctoral programme in English and four diploma programmes in classical and traditional performing arts complete the portfolio. The school fosters critical interpretation, analytical rigour, and creative exploration — empowering students through transformative educational experiences that develop their intellectual, creative, and analytical potential across liberal arts disciplines."
+        ],
+        "image": "/img/classes/1.jpeg",
+
+        "hexagons": [
+          {
+            "type": "text",
+            "text": "Cloud Computing",
+            "icon": "/img/aboutus/3.png",
+            "top": "-5%",
+            "left": "35%"
+           
+          },
+          {
+            "type": "text",
+            "text": "Newest Research",
+           "icon": "/img/aboutus/4.png",
+            "top": "20%",
+            "left": "72%"
+          },
+          {
+            "type": "text",
+            "text": "Industry Mentorship",
+           "icon": "/img/aboutus/2.png",
+            "top": "20%",
+            "left": "0%"
+          },
+          {
+            "type": "text",
+            "text": "Research Ecosystem",
+            "icon": "/img/aboutus/1.png",
+            "top": "80%",
+            "left": "36%"
+          },
+          {
+            "type": "image",
+            "image": "/img/classes/hex1.jpeg",
+            "top": "55%",
+            "left": "10%"
+          },
+          {
+            "type": "image",
+            "image": "/img/classes/hex2.jpeg",
+            "top": "55%",
+            "left": "90%"
+          }
+        ],
+        "features": [
+          {
+            "title": "Dual-Discipline Degree Structure ",
+            "description": "Most programmes combine two academic disciplines — psychology with economics, English with political science, performing arts with psychology — producing uniquely versatile graduates."
+          },
+          {
+            "title": "Performing Arts & Theatre",
+            "description": "India’s classical dance traditions (Bharatanatyam, Kathak, Kuchipudi), Western music, and theatre studies integrated into liberal arts degree programmes and standalone diploma courses."
+          },
+          {
+            "title": "Psychology Specialisation Depth",
+            "description": "From B.Sc. Psychology through M.Sc. with four specialisation tracks (child, clinical, counselling, industrial), providing a complete psychology education pathway."
+          }
+        ]
+      },
+      "visionMission": {
+        "vision": {
+          "title": "Vision",
+          "description": "To become a value-based centre of academic excellence that cultivates a dynamic learning environment where liberal arts inquiry, psychological understanding, and creative exploration empower students to excel in scholarly discourse and human development.",
+          "points": []
+        },
+        "mission": {
+          "title": "Mission",
+          "description": "",
+          "points": [
+            "Foster the ability to critically interpret, analyse, and articulate complex texts, human behaviour, and theoretical ideas within broader cultural, social, and historical frameworks  ",
+            "Strengthen analytical abilities for understanding various forms of human expression, communication, and psychological processes  ",
+            "Prepare students for advancement in higher education, professional careers in humanities and behavioural sciences, and scholarly research ",
+            "Empower individuals through transformative educational experiences developing intellectual, creative, and analytical potential"
+            
+          ]
+        }
+      },
+     
+     
+      "programSections": [
+        {
+          "type": "UG",
+          "title": "Undergraduate Programmes",
+          "subtitle": "BA & B.Sc. — 3-Year Full-Time",
+          "labels":["Humanities & Social Sciences Combinations","Performing Arts & Theatre Combinations"]
+        },
+         {
+          "type": "PG",
+          "title": "Postgraduate & Diploma Programmes",
+          "subtitle": ""
+        },
+        {
+          "type": "PhD",
+          "title": "Research Programme",
+          "subtitle": ""
+        }
+
+      
+      ],
+      "programs": [
+        {
+          "slug": "bsc-psychology",
+          "name": "B.Sc. Psychology",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "label":"Humanities & Social Sciences Combinations"
+        },
+        {
+          "slug": "ba-psychology-economics",
+          "name": "B.A. (Psychology, Economics)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+           "label":"Humanities & Social Sciences Combinations",
+          "overview": "Learn to process, analyse, and manage large-scale data using modern tools like Hadoop, Spark, and AI-driven analytics."
+        },
+        {
+          "slug": "ba-communication-media",
+          "name": "B.A. (Communication and Media, Psychology)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+           "label":"Humanities & Social Sciences Combinations",
+          "overview": "Master CI/CD pipelines, cloud infrastructure, and automation tools used in modern software delivery systems."
+        },
+        {
+          "slug": "ba-psychology-english",
+          "name": "B.A. (Psychology, English)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+           "label":"Humanities & Social Sciences Combinations",
+          "overview": "Develop intelligent systems using machine learning, deep learning, and AI technologies across real-world applications."
+        },
+        {
+          "slug": "ba-history-political-science",
+          "name": "B.A. (History & Political Science)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+           "label":"Humanities & Social Sciences Combinations",
+          "overview": "Explore blockchain architecture, smart contracts, and decentralized applications for future-ready systems."
+        },
+        {
+          "slug": "ba-political-science-economics",
+          "name": "B.A. (Political Science & Economics)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+           "label":"Humanities & Social Sciences Combinations",
+          "overview": "Learn network security, ethical hacking, cryptography, and cyber defense strategies to protect digital systems."
+        },
+        {
+          "slug": "ba-english-history",
+          "name": "B.A. (English & History)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "label":"Humanities & Social Sciences Combinations:",
+          "overview": "Gain expertise in data analysis, machine learning, and statistical modelling to extract insights from complex data."
+        },
+        {
+          "slug": "ba-english-political-science",
+          "name": "B.A. (English & Political Science)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+           "label":"Humanities & Social Sciences Combinations:",
+          "overview": "Build connected systems and smart devices using IoT technologies, sensors, and cloud platforms."
+        },
+        {
+          "slug": "ba-communication-media-studies",
+          "name": "B.A. (Communication and Media Studies, English)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+           "label":"Humanities & Social Sciences Combinations",
+          "overview": "Focus on software development, information systems, and data management for modern IT solutions."
+        },
+        {
+          "slug": "ba-arts-classicalmusic-psychology",
+          "name": "B.A. (Performing Arts – Classical Music, Psychology)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+           "label":"Performing Arts & Theatre Combinations",
+          "overview": "Combine hardware and software knowledge to design and build efficient computing systems."
+        },
+        {
+          "slug": "ba-arts-classicaldance-psychology)",
+          "name": "B.A. (Performing Arts – Classical Dance, Psychology)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+           "label":"Performing Arts & Theatre Combinations",
+          "overview": "Learn IT infrastructure, networking, and software systems for enterprise and business applications."
+        },
+        {
+          "slug": "ba-arts-classicaldance-english)",
+          "name": "B.A. (Performing Arts – Classical Dance, English)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+           "label":"Performing Arts & Theatre Combinations",
+          "overview": "Design intelligent robotic systems combining AI, automation, and embedded systems."
+        },
+        {
+          "slug": "ba-performing-arts-western-music-instrumental-english)",
+          "name": "B.A. (Performing Arts – Western Music – Instrumental, English)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+           "label":"Performing Arts & Theatre Combinations",
+          "overview": "Integrate AI and data science techniques to build predictive and intelligent systems."
+        },
+
+        {
+          "slug": "ba-performing-arts–western-music-instrumental-psychology",
+          "name": "B.A. (Performing Arts – Western Music – Instrumental, Psychology)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+           "label":"Performing Arts & Theatre Combinations",
+          "overview": "Advanced study in AI, deep learning, and intelligent systems for research and industry applications."
+        },
+        {
+          "slug": "ba-theatre-studies-psychology",
+          "name": "B.A. (Theatre Studies, Psychology)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+           "label":"Performing Arts & Theatre Combinations",
+          "overview": "Specialise in big data, analytics, and machine learning for high-demand data-driven roles."
+        },
+         {
+          "slug": "ba-theatre-studies-english",
+          "name": "B.A. (Theatre Studies, English)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "label":"Performing Arts & Theatre Combinations",
+          "overview": "Specialise in big data, analytics, and machine learning for high-demand data-driven roles."
+        },
+
+       
+         {
+          "slug": "msc-psychology-child-clinical-counselling-industrial-psychology",
+          "name": "M.Sc. Psychology (Child / Clinical / Counselling / Industrial Psychology)",
+          "duration": "2 Years.Full-Time",
+          "type": "PG",
+          "degree": "Master of Technology",
+          "label":"",
+          "overview": "Advanced study in AI, deep learning, and intelligent systems for research and industry applications."
+        },
+         {
+          "slug": "ma-english-digital-humanities-cultural-Studies-creative-writing-educational-leadership",
+          "name": "M.A. English (Digital Humanities / Cultural Studies / Creative Writing / Educational Leadership)",
+          "duration": "2 Years.Full-Time",
+          "type": "PG",
+          "degree": "Master of Technology",
+          "label":"",
+          "overview": "Advanced study in AI, deep learning, and intelligent systems for research and industry applications."
+        },
+         {
+          "slug": "phd-english",
+          "name": "Ph.D. English",
+          "duration": "Research Programme",
+          "type": "PhD",
+          "degree": "Doctoral Research",
+          "label":"",
+          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies."
+        },
+        {
+          "slug": "diploma-bharatanatyam",
+          "name": "Diploma in Bharatanatyam",
+          "duration": "Diploma Programme",
+          "type": "Diploma",
+          "degree": "Post Graduate Diploma",
+           "label":"",
+          "overview": "Develop practical skills in big data technologies, analytics, and data-driven decision making."
+        },
+        {
+          "slug": "diploma-kathak",
+          "name": "Diploma in Kathak",
+          "duration": "Diploma Programme",
+          "type": "Diploma",
+          "degree": "Post Graduate Diploma",
+           "label":"",
+          "overview": "Develop practical skills in big data technologies, analytics, and data-driven decision making."
+        },
+        {
+          "slug": "diploma-kuchipudi",
+          "name": "Diploma in Kuchipudi",
+          "duration": "Diploma Programme",
+          "type": "Diploma",
+          "degree": "Post Graduate Diploma",
+           "label":"",
+          "overview": "Develop practical skills in big data technologies, analytics, and data-driven decision making."
+        },
+         {
+          "slug": "diploma-mohiniyattam",
+          "name": "Diploma in Mohiniyattam",
+          "duration": "Diploma Programme",
+          "type": "Diploma",
+          "degree": "Post Graduate Diploma",
+           "label":"",
+          "overview": "Develop practical skills in big data technologies, analytics, and data-driven decision making."
+        }
+      ]
+    }    
 ]
 }
