@@ -18,12 +18,14 @@ type Program = {
   name: string;
   duration: string;
   type: string;
+  label?: string;
 };
 
 type Section = {
   type: string;
   title: string;
   subtitle?: string;
+  labels?: string[];
 };
 
 type ProgramListProps = {
@@ -68,7 +70,7 @@ export default function ProgramList({
               )}
 
               {/* CONTENT */}
-              {section.type === "PhD" ? (
+              {/* {section.type === "PhD" ? (
                 <div className="grid md:grid-cols-2 gap-4">
                   {items.map((program) => (
                     <Link
@@ -95,6 +97,87 @@ export default function ProgramList({
                     />
                   ))}
                 </div>
+              )} */}
+              {/* CONTENT */}
+              {section.labels && section.labels.length > 0 ? (
+                <div className="space-y-8">
+                  {section.labels.map((label) => {
+                    const labelPrograms = items.filter((p) => p.label === label);
+
+                    if (!labelPrograms.length) return null;
+
+                    return (
+                      <div key={label}>
+                        {/* LABEL TITLE */}
+                        <p className="text-lg font-medium text-gray-800 mb-5">
+                          {label}
+                        </p>
+
+                        {/* PROGRAM LIST */}
+                        {section.type === "PhD" ? (
+                          <div className="grid md:grid-cols-2 gap-4">
+                            {labelPrograms.map((program) => (
+                              <Link
+                                key={program.slug}
+                                href={`/schools/${slug}/${program.slug}`}
+                                className="bg-[#e5f0f2] hover:bg-[#E9ECEF] border border-gray-200 rounded-lg p-4 text-sm hover:shadow-sm transition"
+                              >
+                                <p className="text-lg font-medium text-gray-800">
+                                  {program.name}
+                                </p>
+                                <p className="text-gray-500 text-base mt-1">
+                                  {program.duration}
+                                </p>
+                              </Link>
+                            ))}
+                          </div>
+                        ) : (
+                          <div className="space-y-2 mb-12">
+                            {labelPrograms.map((program) => (
+                              <ProgramRow
+                                key={program.slug}
+                                program={program}
+                                slug={slug}
+                              />
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
+              ) : (
+                // ✅ OLD UI (NO LABELS)
+                <>
+                  {section.type === "PhD" ? (
+                    <div className="grid md:grid-cols-2 gap-4">
+                      {items.map((program) => (
+                        <Link
+                          key={program.slug}
+                          href={`/schools/${slug}/${program.slug}`}
+                          className="bg-[#e5f0f2] hover:bg-[#E9ECEF] border border-gray-200 rounded-lg p-4 text-sm hover:shadow-sm transition"
+                        >
+                          <p className="text-lg font-medium text-gray-800">
+                            {program.name}
+                          </p>
+                          <p className="text-gray-500 text-base mt-1">
+                            {program.duration}
+                          </p>
+                        </Link>
+                      ))}
+                    </div>
+                  ) : (
+                    <div className="space-y-2">
+                      {items.map((program) => (
+                        <ProgramRow
+                          key={program.slug}
+                          program={program}
+                          slug={slug}
+                        />
+                      ))}
+                    </div>
+                  )}
+                </>
               )}
             </div>
           );
