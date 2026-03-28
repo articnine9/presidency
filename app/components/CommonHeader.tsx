@@ -8,8 +8,10 @@ type CommonHeaderProps = {
   highlight?: string;
   description?: string;
   primaryColor?: string;
+  secondaryColor?: string;
+  descriptionColor?: string; // ✅ NEW
   bgColor?: string;
-  align?: "center" | "left"; // ✅ NEW
+  align?: "center" | "left";
 };
 
 export default function CommonHeader({
@@ -18,11 +20,12 @@ export default function CommonHeader({
   highlight,
   description,
   primaryColor = "#ff8c42",
+  secondaryColor,
+  descriptionColor,
   bgColor,
   align = "center",
 }: CommonHeaderProps) {
   const background = bgColor || `${primaryColor}1A`;
-
   const isCenter = align === "center";
 
   return (
@@ -49,13 +52,14 @@ export default function CommonHeader({
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        className="text-3xl md:text-4xl text-[#1e3a5f] leading-tight"
+        style={{ color: secondaryColor || "#1e3a5f" }} // ✅ full heading color
+        className="text-3xl md:text-4xl leading-tight"
       >
         {title}
         {highlight && (
           <span
-            className={`inline-block ${isCenter ? "ml-1" : "ml-1"}`}
-            style={{ color: primaryColor }}
+            className="inline-block ml-2"
+            style={{ color: primaryColor }} // ✅ highlight color
           >
             {highlight}
           </span>
@@ -69,10 +73,11 @@ export default function CommonHeader({
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1 }}
           viewport={{ once: true }}
+          style={{ color: descriptionColor || "#6b7280" }} // ✅ HERE
           className={`
-            text-gray-600 mt-4
-            ${isCenter ? "max-w-2xl mx-auto" : "max-w-xl"}
-          `}
+    mt-4
+    ${isCenter ? "max-w-2xl mx-auto" : "max-w-xl"}
+  `}
         >
           {description}
         </motion.p>

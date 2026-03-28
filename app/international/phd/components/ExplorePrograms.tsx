@@ -6,15 +6,18 @@ import CommonHeader from "@/app/components/CommonHeader";
 
 export default function ExplorePrograms({ query, setQuery }: any) {
   return (
-    <section className="pt-16 md:py-20 bg-[#f4f6f8]">
+    <section className="pt-16 md:py-20 bg-[#1e4c8f]">
       <div className="max-w-[1200px] mx-auto px-5 md:px-10">
         {/* Header */}
         <CommonHeader
           tag="Explore"
           title="Our Schools and"
           highlight=" Programmes"
-          description="Search and discover undergraduate programmes across multiple schools."
+          description="Search and discover Research and Doctoral Programmes across multiple schools."
           align="center"
+          primaryColor="#ffffff" // tag + highlight
+          secondaryColor="#ffffff" // full heading
+          descriptionColor="#ffffff" // description
         />
 
         {/* 🔥 Premium Search Bar */}

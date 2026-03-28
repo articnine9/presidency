@@ -19,7 +19,7 @@ export default function ProgramsAccordion({ data, query }: any) {
     })
     .filter((school: any) => school.programs.length > 0);
   return (
-    <section className="pb-16 bg-[#f4f6f8]">
+    <section className="pb-16 bg-[#1e4c8f]">
       <div className="max-w-[1400px] mx-auto px-5 md:px-10 space-y-4">
         {(query ? filteredSchools : schools).map(
           (school: any, index: number) => {
@@ -51,9 +51,7 @@ export default function ProgramsAccordion({ data, query }: any) {
                     </div>
 
                     {/* Title */}
-                    <h3 className="text-sm md:text-base font-semibold">
-                      {school.name}
-                    </h3>
+                    <h3 className="text-base md:text-lg">{school.name}</h3>
                   </div>
 
                   {/* Icon */}
@@ -62,7 +60,7 @@ export default function ProgramsAccordion({ data, query }: any) {
 
                 {/* CONTENT */}
                 {isActive && (
-                  <div className="p-6 bg-gray-50">
+                  <div className="p-6 bg-gray-800">
                     {/* Programs Grid */}
                     <div className="grid sm:grid-cols-2 gap-4">
                       {school.programs.map((program: string, i: number) => (

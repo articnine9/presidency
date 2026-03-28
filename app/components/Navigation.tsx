@@ -161,6 +161,51 @@ export function Navigation() {
           </div>
         </div>
       </nav>
+      {/* MOBILE MENU PANEL */}
+      {isMobileMenuOpen && (
+        <div className="lg:hidden fixed top-[70px] left-0 w-full bg-white shadow-lg z-50">
+          <div className="flex flex-col p-5 gap-2">
+            {navItems.map((item, i) => (
+              <div key={i}>
+                <Link
+                  href={item.href || "#"}
+                  className="block text-[#1e3a5f] text-[16px] font-medium py-2"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  {item.label}
+                </Link>
+
+                {/* OPTIONAL: Dropdown for mobile */}
+                {item.hasDropdown && (
+                  <div className="pl-4">
+                    {item.dropdown?.map((subItem: any, idx: number) => (
+                      <Link
+                        key={idx}
+                        href={subItem.href}
+                        className="block text-gray-600 text-sm py-1"
+                        onClick={() => setIsMobileMenuOpen(false)}
+                      >
+                        {subItem.label}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ))}
+
+            {/* CTA */}
+            <button
+              onClick={() => {
+                setIsApplyOpen(true);
+                setIsMobileMenuOpen(false);
+              }}
+              className="mt-4 bg-[#0A8F96] text-white py-3 rounded-full text-sm font-semibold"
+            >
+              APPLY NOW
+            </button>
+          </div>
+        </div>
+      )}
     </>
   );
 }
