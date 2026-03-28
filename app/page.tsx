@@ -43,18 +43,19 @@ import { WhyChooseUs } from "./components/WhyChooseUs";
 
 export default function App() {
   return (
-     <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white">
       {/* Navigation */}
       {/* <Navigation /> */}
 
       {/* Hero Banner */}
       <HeroSection />
       {/* <about> */}
-      <YourJourney />
       <AboutPresidency />
+      {/* <YourJourney /> */}
+      {/* <AboutPresidency /> */}
       {/* Program Finder */}
       {/* <ProgramSearch /> */}
-      
+
       <RankingAccreditationSection />
       {/* <WhyPresidency /> */}
       {/* Rankings + Stats */}
@@ -65,7 +66,7 @@ export default function App() {
       <ProgrammesSection />
 
       <SchoolsSliderSection />
-        <WhyChooseUs />
+      <WhyChooseUs />
       <CampusLikeHome />
       <BangaloreLifeSection />
 

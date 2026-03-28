@@ -65,16 +65,19 @@ export function SchoolsSliderSection() {
               <div className="absolute inset-0 bg-black/20"></div>
 
               {/* CONTENT */}
-              <div className="absolute bottom-20 left-20">
-                <div className="max-w-[1400px] mx-auto">
-                  <div className="bg-white/10  rounded-2xl border border-white/20 shadow-2xl rounded-2xl overflow-hidden max-w-xl hover:-translate-y-1 transition duration-300 mb-3">
+              <div className="absolute inset-0 flex items-center">
+                <div className="max-w-[1400px] mx-auto px-6 md:px-10 grid lg:grid-cols-2 gap-12 items-center w-full">
+                  {/* LEFT SIDE (optional content or empty for spacing) */}
+
+                  {/* RIGHT SIDE CARD */}
+                  <div className="bg-black/60 backdrop-blur-xl rounded-2xl border border-white/10 shadow-2xl overflow-hidden max-w-xl hover:-translate-y-1 transition duration-300">
                     {/* TITLE */}
-                    <div className="bg-transperancy/0 text-white px-6 py-4 text-xl md:text-2xl font-semibold">
+                    <div className="text-white px-6 py-4 text-xl md:text-2xl font-semibold">
                       {school.title}
                     </div>
 
                     {/* BODY */}
-                    <div className="p-6 md:p-8">
+                    <div className="p-6 md:p-8 md:pt-0 pt-0">
                       <p className="text-white mb-6">{school.description}</p>
 
                       {/* BUTTON */}
