@@ -24,7 +24,7 @@ export function BangaloreCTASection() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="inline-block bg-white/20 text-white px-4 py-2 rounded-full text-sm mb-4"
+            className="inline-block bg-white/20 text-white px-4 py-2 rounded-lg text-sm mb-4"
           >
             Life in Bangalore
           </motion.span>

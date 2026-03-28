@@ -3,14 +3,13 @@
   margin-bottom: 30px;
 }
 .customSwiper :global(.swiper-pagination-bullet) {
-  background: #0BB5B5;
+  background: #fff;
   width: 10px;
   height: 10px;
   border-radius: 0;
 }
 
 .customSwiper :global(.swiper-pagination-bullet-active) {
-  background: #0BB5B5;
+  background: #fff;
   transform: scale(1.2);
- 
 }

@@ -43,7 +43,7 @@ export function EventsActivitiesSection() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="inline-block bg-[#ff8c42]/10 text-[#ff8c42] px-4 py-2 rounded-full text-sm mb-4"
+            className="inline-block bg-[#ff8c42]/10 text-[#ff8c42] px-4 py-2 rounded-lg text-sm mb-4"
           >
             Campus Life
           </motion.span>
@@ -133,7 +133,7 @@ export function EventsActivitiesSection() {
 
         {/* CTA */}
         <div className="mt-14 text-center">
-          <button className="inline-flex items-center gap-2 bg-[#ff8c42] text-white px-7 py-3 rounded-full hover:bg-[#e67932] transition shadow-md hover:shadow-lg">
+          <button className="inline-flex items-center gap-2 bg-[#ff8c42] text-white px-7 py-3 rounded-lg hover:bg-[#e67932] transition shadow-md hover:shadow-lg">
             View All Events
             <ArrowRight size={18} />
           </button>

@@ -49,8 +49,8 @@ export function LifeAtPresidency() {
   return (
     <section className="relative py-24 bg-gradient-to-br from-[#1e3a5f] to-[#2a4a6f] overflow-hidden">
       {/* Glow Background */}
-      <div className="absolute top-20 left-10 w-64 h-64 bg-[#ff8c42] rounded-full blur-3xl opacity-20"></div>
-      <div className="absolute bottom-20 right-10 w-96 h-96 bg-[#ff8c42] rounded-full blur-3xl opacity-20"></div>
+      <div className="absolute top-20 left-10 w-64 h-64 bg-[#ff8c42] rounded-lg blur-3xl opacity-20"></div>
+      <div className="absolute bottom-20 right-10 w-96 h-96 bg-[#ff8c42] rounded-lg blur-3xl opacity-20"></div>
 
       <div className="relative max-w-7xl mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -77,7 +77,7 @@ export function LifeAtPresidency() {
 
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
 
-                    <div className="absolute top-6 left-6 bg-white/10 backdrop-blur-md border border-white/20 px-4 py-2 rounded-full text-white text-sm">
+                    <div className="absolute top-6 left-6 bg-white/10 backdrop-blur-md border border-white/20 px-4 py-2 rounded-lg text-white text-sm">
                       Campus Life
                     </div>
 
@@ -126,7 +126,7 @@ export function LifeAtPresidency() {
               ))}
             </div>
 
-            <button className="bg-[#ff8c42] text-white px-8 py-4 rounded-full hover:bg-[#e67a32] transition shadow-lg">
+            <button className="bg-[#ff8c42] text-white px-8 py-4 rounded-lg hover:bg-[#e67a32] transition shadow-lg">
               {sectionContent.button}
             </button>
           </div>

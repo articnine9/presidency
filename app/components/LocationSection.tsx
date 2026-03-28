@@ -17,7 +17,7 @@ export function PlacementSection() {
       </div>
 
       {/* Glow */}
-      {/* <div className="absolute -top-20 right-0 w-96 h-96 bg-[#ff8c42]/20 blur-3xl rounded-full"></div> */}
+      {/* <div className="absolute -top-20 right-0 w-96 h-96 bg-[#ff8c42]/20 blur-3xl rounded-lg"></div> */}
 
       <div className="relative max-w-7xl mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -108,7 +108,7 @@ export function PlacementSection() {
             </div>
 
             {/* CTA */}
-            <button className="bg-[#ff8c42] text-white px-8 py-4 rounded-full hover:bg-[#e67a32] transition shadow-lg flex items-center gap-2">
+            <button className="bg-[#ff8c42] text-white px-8 py-4 rounded-lg hover:bg-[#e67a32] transition shadow-lg flex items-center gap-2">
               View Placement Report
               <TrendingUp size={18} />
             </button>

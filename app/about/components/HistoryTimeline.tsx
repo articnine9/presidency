@@ -86,7 +86,7 @@ export default function HistoryTimeline() {
 
                 {/* 🔴 DOT */}
                 <div className="absolute left-1/2 -translate-x-1/2">
-                  <div className="w-4 h-4 bg-[#0A8F96] rounded-full border-4 border-white shadow"></div>
+                  <div className="w-4 h-4 bg-[#0A8F96] rounded-lg border-4 border-white shadow"></div>
                 </div>
 
                 {/* 🟢 RIGHT SIDE */}

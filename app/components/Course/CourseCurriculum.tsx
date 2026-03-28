@@ -26,7 +26,7 @@ export default function CourseCurriculum({ data }: any) {
           <button
             key={index}
             onClick={() => setActive(index)}
-            className={`px-5 py-2 rounded-full text-sm border transition ${
+            className={`px-5 py-2 rounded-lg text-sm border transition ${
               active === index
                 ? "bg-white shadow border-gray-300 font-medium"
                 : "bg-gray-100 text-gray-600"

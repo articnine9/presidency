@@ -28,7 +28,7 @@ export function CommunitySection() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section header with decorative elements */}
         <div className="text-center mb-16">
-          <div className="inline-flex items-center gap-2 bg-[#ff8c42]/10 text-[#ff8c42] px-6 py-3 rounded-full mb-6">
+          <div className="inline-flex items-center gap-2 bg-[#ff8c42]/10 text-[#ff8c42] px-6 py-3 rounded-lg mb-6">
             <Heart size={20} />
             <span className="uppercase tracking-wider">Student Life</span>
           </div>

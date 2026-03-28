@@ -52,7 +52,7 @@ export default function JourneySection() {
                 className="relative z-10 flex flex-col items-center text-center"
               >
                 {/* Icon Circle */}
-                <div className="w-16 h-16 flex items-center justify-center rounded-full border-2 border-[#C9A24A] bg-white shadow-md mb-4">
+                <div className="w-16 h-16 flex items-center justify-center rounded-lg border-2 border-[#C9A24A] bg-white shadow-md mb-4">
                   <Icon className="text-[#1E3A5F]" size={24} />
                 </div>
 

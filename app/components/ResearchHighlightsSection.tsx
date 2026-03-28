@@ -59,7 +59,7 @@ export function ResearchHighlightsSection() {
 
                 <p className="text-white/90 text-sm mb-4">{item.description}</p>
                 <div className="flex justify-center align-center">
-                  <button className="bg-white text-[#1e3a5f] px-5 py-2 rounded-full text-sm font-semibold w-fit hover:scale-105 transition">
+                  <button className="bg-white text-[#1e3a5f] px-5 py-2 rounded-lg text-sm font-semibold w-fit hover:scale-105 transition">
                     Explore
                   </button>
                 </div>

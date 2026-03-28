@@ -16,30 +16,27 @@ export function CampusVirtualTourSection() {
           className="w-full h-full object-cover"
         /> */}
         <video
-              autoPlay
-              loop
-              muted
-              playsInline
-              className="w-full h-full object-cover scale-105"
-              onError={() => setVideoError(true)}
-              // poster="https://images.unsplash.com/photo-1769905226788-1bf5ba8f50d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5JTIwY2FtcHVzJTIwc3R1ZGVudHMlMjB3YWxraW5nfGVufDF8fHx8MTc3MzM5ODc4N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-            >
-              <source
-                src="/videos/hero-video.mp4"
-                type="video/mp4"
-              />
-              {/* <source
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover scale-105"
+          onError={() => setVideoError(true)}
+          // poster="https://images.unsplash.com/photo-1769905226788-1bf5ba8f50d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5JTIwY2FtcHVzJTIwc3R1ZGVudHMlMjB3YWxraW5nfGVufDF8fHx8MTc3MzM5ODc4N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+        >
+          <source src="/videos/hero-video.mp4" type="video/mp4" />
+          {/* <source
                 src="https://cdn.coverr.co/videos/coverr-university-students-studying-together-5237/1080p.mp4"
                 type="video/mp4"
               /> */}
-            </video>
+        </video>
 
         {/* OVERLAY */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-black/20"></div>
 
         {/* 360 BADGE */}
         <div className="absolute inset-0 flex items-center justify-center">
-          <div className="text-white text-5xl font-semibold border-4 border-white rounded-full w-28 h-28 flex items-center justify-center backdrop-blur-sm bg-white/10 shadow-lg">
+          <div className="text-white text-5xl font-semibold border-4 p-3 border-white rounded-full w-28 h-28 flex items-center justify-center backdrop-blur-sm bg-white/10 shadow-lg">
             360°
           </div>
         </div>
@@ -53,7 +50,7 @@ export function CampusVirtualTourSection() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="inline-block bg-[#0A8F96]/10 text-[#0A8F96] px-4 py-2 rounded-full text-sm mb-4"
+            className="inline-block bg-[#0A8F96]/10 text-[#0A8F96] px-4 py-2 rounded-lg text-sm mb-4"
           >
             Virtual Experience
           </motion.span>
@@ -83,7 +80,7 @@ export function CampusVirtualTourSection() {
         </motion.p>
 
         {/* ✅ CTA BUTTON (MATCHED STYLE) */}
-        <button className="mt-10 bg-[#ff8c42] hover:bg-[#e67932] text-white px-8 py-3 rounded-full flex items-center gap-3 mx-auto transition shadow-md hover:shadow-lg">
+        <button className="mt-10 bg-[#ff8c42] hover:bg-[#e67932] text-white px-8 py-3 rounded-lg flex items-center gap-3 mx-auto transition shadow-md hover:shadow-lg">
           Virtual Tour 360
           <ArrowRight size={18} />
         </button>

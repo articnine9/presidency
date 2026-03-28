@@ -44,7 +44,7 @@ export function PlacementsSection() {
       <div className="relative max-w-7xl mx-auto px-4 z-20">
         {/* HEADER */}
         <div className="text-center mb-16">
-          <span className="inline-block bg-white/10 text-orange-400 px-4 py-2 rounded-full mb-4 backdrop-blur">
+          <span className="inline-block bg-white/10 text-orange-400 px-4 py-2 rounded-lg mb-4 backdrop-blur">
             Placements & Careers
           </span>
 
@@ -107,7 +107,7 @@ export function PlacementsSection() {
 
         {/* CTA */}
         <div className="text-center mt-16">
-          <button className="bg-[#ff8c42] text-white px-8 py-4 rounded-full hover:bg-[#e67a32] transition">
+          <button className="bg-[#ff8c42] text-white px-8 py-4 rounded-lg hover:bg-[#e67a32] transition">
             View Placement Report
           </button>
         </div>

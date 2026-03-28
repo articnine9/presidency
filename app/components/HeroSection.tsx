@@ -14,8 +14,8 @@ export function HeroSection() {
 
   return (
     // <section className="relative h-screen min-h-[700px] flex items-center justify-center overflow-hidden">
-    <section className="relative w-full min-h-screen flex items-center justify-center overflow-hidden px-4 sm:px-6 lg:px-8"> 
-    {/* Video Background */}
+    <section className="relative w-full min-h-screen flex items-center justify-center overflow-hidden px-4 sm:px-6 lg:px-8">
+      {/* Video Background */}
       <div className="absolute inset-0 z-0">
         <video
           autoPlay

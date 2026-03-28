@@ -34,7 +34,7 @@ export function RankingAccreditationSection() {
   return (
     <section className="py-24 bg-white relative overflow-hidden">
       {/* soft background glow */}
-      <div className="absolute right-0 top-0 w-[400px] h-[400px] bg-[#ff8c42]/10 blur-[120px] rounded-full"></div>
+      <div className="absolute right-0 top-0 w-[400px] h-[400px] bg-[#ff8c42]/10 blur-[120px] rounded-lg"></div>
 
       <div className="max-w-[1400px] mx-auto px-6 relative">
         {/* ✅ COMMON HEADER (UPDATED) */}
@@ -44,7 +44,7 @@ export function RankingAccreditationSection() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="inline-block bg-[#ff8c42]/10 text-[#ff8c42] px-4 py-2 rounded-full text-sm mb-4"
+            className="inline-block bg-[#ff8c42]/10 text-[#ff8c42] px-4 py-2 rounded-lg text-sm mb-4"
           >
             Accreditation & Rankings
           </motion.span>

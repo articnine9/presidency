@@ -63,13 +63,13 @@ export function AdmissionSection() {
       <div className="absolute inset-0 bg-[#1e3a5f]/85"></div>
 
       {/* GLOW */}
-      <div className="absolute left-0 top-0 w-[300px] h-[300px] bg-[#ff8c42]/20 blur-[120px] rounded-full"></div>
+      <div className="absolute left-0 top-0 w-[300px] h-[300px] bg-[#ff8c42]/20 blur-[120px] rounded-lg"></div>
 
       <div className="relative max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-12 items-center z-20">
         {/* LEFT CONTENT */}
 
         <div>
-          <span className="inline-block bg-white/10 text-orange-400 px-4 py-2 rounded-full mb-4 backdrop-blur">
+          <span className="inline-block bg-white/10 text-orange-400 px-4 py-2 rounded-lg mb-4 backdrop-blur">
             {admissionContent.tag}
           </span>
 

@@ -34,7 +34,7 @@ export default function LivingFoodSection() {
                 HOUSING & APARTMENTS
               </h3>
 
-              <div className="bg-white/20 backdrop-blur-md p-2 rounded-full text-white">
+              <div className="bg-white/20 backdrop-blur-md p-2 rounded-lg text-white">
                 <Home size={16} />
               </div>
             </div>
@@ -45,8 +45,8 @@ export default function LivingFoodSection() {
 
               <p className="text-base text-white">$2,000/mo</p>
 
-              <div className="w-full h-1 bg-white/30 rounded-full relative">
-                <div className="absolute left-[60%] w-3 h-3 bg-white rounded-full -top-1 shadow"></div>
+              <div className="w-full h-1 bg-white/30 rounded-lg relative">
+                <div className="absolute left-[60%] w-3 h-3 bg-white rounded-lg -top-1 shadow"></div>
               </div>
 
               <div className="flex justify-between text-base  opacity-80">
@@ -72,7 +72,7 @@ export default function LivingFoodSection() {
                 TRANSPORTATION & CONNECTIVITY
               </h3>
 
-              <div className="bg-white/20 backdrop-blur-md p-2 rounded-full text-white">
+              <div className="bg-white/20 backdrop-blur-md p-2 rounded-lg text-white">
                 <Train size={16} />
               </div>
             </div>
@@ -81,12 +81,10 @@ export default function LivingFoodSection() {
             <div className="absolute bottom-4 left-4 right-4 bg-black/50 backdrop-blur-md rounded-xl p-4 text-white">
               <p className="text-base opacity-80 text-white">Price</p>
 
-              <p className="text-base font-semibold  text-white">
-                $2,000/mo
-              </p>
+              <p className="text-base font-semibold  text-white">$2,000/mo</p>
 
-              <div className="w-full h-1 bg-white/30 rounded-full relative">
-                <div className="absolute left-[40%] w-3 h-3 bg-white rounded-full -top-1 shadow"></div>
+              <div className="w-full h-1 bg-white/30 rounded-lg relative">
+                <div className="absolute left-[40%] w-3 h-3 bg-white rounded-lg -top-1 shadow"></div>
               </div>
 
               <div className="flex justify-between text-base  opacity-80">

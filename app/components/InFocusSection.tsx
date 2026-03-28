@@ -49,7 +49,7 @@ export function InFocusSection() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="inline-block bg-[#0A8F96]/10 text-[#0A8F96] px-4 py-2 rounded-full text-sm mb-4"
+            className="inline-block bg-[#0A8F96]/10 text-[#0A8F96] px-4 py-2 rounded-lg text-sm mb-4"
           >
             In Focus
           </motion.span>
@@ -86,10 +86,10 @@ export function InFocusSection() {
           navigation
           autoplay={{ delay: 4000 }}
           breakpoints={{
-            0: { slidesPerView: 1 ,navigation: false,},
-            768: { slidesPerView: 2,navigation: false, },
-            1024: { slidesPerView: 3,navigation: true, },
-            1200: { slidesPerView: 4,navigation: true, },
+            0: { slidesPerView: 1, navigation: false },
+            768: { slidesPerView: 2, navigation: false },
+            1024: { slidesPerView: 3, navigation: true },
+            1200: { slidesPerView: 4, navigation: true },
           }}
         >
           {focusItems.map((item, index) => (
@@ -126,7 +126,7 @@ export function InFocusSection() {
 
         {/* ✅ CTA BUTTON (MATCHED STYLE) */}
         <div className="mt-12 text-center">
-          <button className="inline-flex items-center gap-2 bg-[#ff8c42] text-white px-7 py-3 rounded-full hover:bg-[#e67932] transition shadow-md hover:shadow-lg">
+          <button className="inline-flex items-center gap-2 bg-[#ff8c42] text-white px-7 py-3 rounded-lg hover:bg-[#e67932] transition shadow-md hover:shadow-lg">
             View All Highlights
             <ArrowRight size={18} />
           </button>

@@ -70,8 +70,8 @@ export function AccreditationSection() {
     >
       {/* Background Decoration */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-[#0A8F96] rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#D4A843] rounded-full blur-3xl"></div>
+        <div className="absolute top-0 right-0 w-96 h-96 bg-[#0A8F96] rounded-lg blur-3xl"></div>
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#D4A843] rounded-lg blur-3xl"></div>
       </div>
 
       <div className="max-w-[1180px] mx-auto px-5 md:px-10 relative z-10">

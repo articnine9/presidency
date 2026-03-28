@@ -25,7 +25,7 @@ export default function BangaloreLife() {
             DISCOVER BANGALORE
           </h1>
 
-          <button className="mt-6 bg-gradient-to-r from-[#0A8F96] to-[#0BB5B5] text-white px-6 py-3 rounded-full font-semibold transition">
+          <button className="mt-6 bg-gradient-to-r from-[#0A8F96] to-[#0BB5B5] text-white px-6 py-3 rounded-lg font-semibold transition">
             START EXPLORING
           </button>
         </div>
@@ -91,7 +91,7 @@ export default function BangaloreLife() {
 
                 {/* FULL DARK GRADIENT */}
                 {/* <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/70 to-black/70" /> */}
-                 <div className="absolute inset-0 bg-gradient-to-t   to-black/70" />
+                <div className="absolute inset-0 bg-gradient-to-t   to-black/70" />
 
                 {/* TOP TITLE */}
                 <div className="absolute top-4 left-4 right-4">
@@ -104,7 +104,7 @@ export default function BangaloreLife() {
                 <div className="absolute bottom-0 left-0 right-0 p-4 bg-black/40 backdrop-blur-md flex items-center justify-between">
                   <p className="text-xl text-white/90">{item.desc}</p>
 
-                  <div className="w-9 h-9 rounded-full border border-white/40 flex items-center justify-center text-white group-hover:bg-white group-hover:text-black transition">
+                  <div className="w-9 h-9 rounded-lg border border-white/40 flex items-center justify-center text-white group-hover:bg-white group-hover:text-black transition">
                     <ArrowRight
                       size={16}
                       className="group-hover:translate-x-1 transition"

@@ -147,7 +147,7 @@ export function BangaloreSection() {
             {/* Custom Navigation Buttons */}
             <button
               onClick={() => sliderRef.current?.slickPrev()}
-              className="absolute left-4 top-1/2 -translate-y-1/2 z-20 bg-white/95 hover:bg-white shadow-2xl rounded-full p-3 transition-all duration-300 hover:scale-110"
+              className="absolute left-4 top-1/2 -translate-y-1/2 z-20 bg-white/95 hover:bg-white shadow-2xl rounded-lg p-3 transition-all duration-300 hover:scale-110"
               aria-label="Previous slide"
             >
               <ChevronLeft className="text-[#0F1E3D]" size={28} />
@@ -155,7 +155,7 @@ export function BangaloreSection() {
 
             <button
               onClick={() => sliderRef.current?.slickNext()}
-              className="absolute right-4 top-1/2 -translate-y-1/2 z-20 bg-white/95 hover:bg-white shadow-2xl rounded-full p-3 transition-all duration-300 hover:scale-110"
+              className="absolute right-4 top-1/2 -translate-y-1/2 z-20 bg-white/95 hover:bg-white shadow-2xl rounded-lg p-3 transition-all duration-300 hover:scale-110"
               aria-label="Next slide"
             >
               <ChevronRight className="text-[#0F1E3D]" size={28} />

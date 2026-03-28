@@ -20,11 +20,11 @@ export function CTASection() {
   return (
     <section className="relative py-28 bg-white overflow-hidden text-center">
       {/* SOFT GLOW */}
-      <div className="absolute -top-20 left-1/2 -translate-x-1/2 w-[400px] h-[400px] bg-[#ff8c42]/10 blur-[120px] rounded-full"></div>
+      <div className="absolute -top-20 left-1/2 -translate-x-1/2 w-[400px] h-[400px] bg-[#ff8c42]/10 blur-[120px] rounded-lg"></div>
 
       <div className="relative max-w-4xl mx-auto px-4">
         {/* TAG */}
-        <span className="inline-block bg-[#ff8c42]/10 text-[#ff8c42] px-4 py-2 rounded-full mb-6">
+        <span className="inline-block bg-[#ff8c42]/10 text-[#ff8c42] px-4 py-2 rounded-lg mb-6">
           {ctaContent.tag}
         </span>
 
@@ -41,12 +41,12 @@ export function CTASection() {
 
         {/* BUTTONS */}
         <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <button className="bg-[#ff8c42] hover:bg-[#e67a32] text-white px-8 py-4 rounded-full flex items-center justify-center gap-2 transition shadow-lg">
+          <button className="bg-[#ff8c42] hover:bg-[#e67a32] text-white px-8 py-4 rounded-lg flex items-center justify-center gap-2 transition shadow-lg">
             {ctaContent.primaryBtn}
             <ArrowRight size={18} />
           </button>
 
-          <button className="border border-gray-300 hover:bg-gray-100 px-8 py-4 rounded-full flex items-center justify-center gap-2 transition text-[#1e3a5f]">
+          <button className="border border-gray-300 hover:bg-gray-100 px-8 py-4 rounded-lg flex items-center justify-center gap-2 transition text-[#1e3a5f]">
             {ctaContent.secondaryBtn}
             <Download size={18} />
           </button>

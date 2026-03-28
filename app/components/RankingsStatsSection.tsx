@@ -47,7 +47,7 @@ export function RankingsStatsSection() {
 
       <div className="relative max-w-7xl mx-auto px-6 text-center">
         {/* TAG */}
-        <div className="inline-block bg-[#ff8c42]/10 text-[#ff8c42] px-5 py-2 rounded-full text-sm font-medium mb-4">
+        <div className="inline-block bg-[#ff8c42]/10 text-[#ff8c42] px-5 py-2 rounded-lg text-sm font-medium mb-4">
           Achievements & Excellence
         </div>
 
@@ -75,7 +75,7 @@ export function RankingsStatsSection() {
               >
                 {/* ICON */}
                 <div className="flex justify-center mb-6">
-                  <div className="bg-[#ff8c42]/10 p-4 rounded-full group-hover:bg-[#ff8c42] transition">
+                  <div className="bg-[#ff8c42]/10 p-4 rounded-lg group-hover:bg-[#ff8c42] transition">
                     <Icon
                       size={26}
                       className="text-[#ff8c42] group-hover:text-white"

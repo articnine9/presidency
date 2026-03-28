@@ -86,7 +86,7 @@ export function ApplicationProcess() {
               >
                 {/* Number Circle */}
                 <div
-                  className="w-20 h-20 rounded-full bg-[#0A8F96] text-white flex items-center justify-center mx-auto mb-4 text-2xl font-semibold relative z-20"
+                  className="w-20 h-20 rounded-lg bg-[#0A8F96] text-white flex items-center justify-center mx-auto mb-4 text-2xl font-semibold relative z-20"
                   style={{ fontFamily: "var(--font-heading)" }}
                 >
                   {step.number}

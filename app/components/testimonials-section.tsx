@@ -79,7 +79,7 @@ export function TestimonialsSection() {
                 <img
                   src={testimonial.photo}
                   alt={testimonial.name}
-                  className="w-16 h-16 rounded-full object-cover"
+                  className="w-16 h-16 rounded-lg object-cover"
                 />
                 <div>
                   <div className="flex items-center gap-2 mb-1">

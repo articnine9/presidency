@@ -42,7 +42,7 @@ export default function CommonHeader({
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         style={{ backgroundColor: background, color: primaryColor }}
-        className="inline-block px-4 py-2 rounded-full text-sm mb-4"
+        className="inline-block px-4 py-2 rounded-lg text-sm mb-4"
       >
         {tag}
       </motion.span>

@@ -112,11 +112,11 @@ export function UpcomingEvents() {
 
           {/* 🔥 CUSTOM NAVIGATION */}
           <div className="flex justify-end gap-3 mt-6">
-            <button className="prev-btn w-10 h-10 rounded-full border flex items-center justify-center hover:bg-[#ff8c42] hover:text-white transition">
+            <button className="prev-btn w-10 h-10 rounded-lg border flex items-center justify-center hover:bg-[#ff8c42] hover:text-white transition">
               <ChevronLeft size={18} />
             </button>
 
-            <button className="next-btn w-10 h-10 rounded-full border flex items-center justify-center hover:bg-[#ff8c42] hover:text-white transition">
+            <button className="next-btn w-10 h-10 rounded-lg border flex items-center justify-center hover:bg-[#ff8c42] hover:text-white transition">
               <ChevronRight size={18} />
             </button>
           </div>

@@ -51,7 +51,7 @@ export function AlumniTestimonials() {
 
       {/* CONTENT */}
       <div className="relative max-w-6xl mx-auto px-4 text-center z-10">
-        <span className="inline-block bg-white/10 text-orange-400 px-4 py-2 rounded-full mb-4 backdrop-blur">
+        <span className="inline-block bg-white/10 text-orange-400 px-4 py-2 rounded-lg mb-4 backdrop-blur">
           Global Alumni Network
         </span>
 
@@ -75,7 +75,7 @@ export function AlumniTestimonials() {
                   <img
                     src={item.image}
                     alt={item.name}
-                    className="w-20 h-20 rounded-full border-4 border-orange-400 object-cover"
+                    className="w-20 h-20 rounded-lg border-4 border-orange-400 object-cover"
                   />
                 </div>
 

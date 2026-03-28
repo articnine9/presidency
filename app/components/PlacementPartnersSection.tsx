@@ -81,7 +81,7 @@ export function PlacementPartnersSection() {
       <div className="max-w-[1400px] mx-auto px-6 text-center">
         {/* ✅ COMMON HEADER */}
         <div className="mb-16">
-          <span className="inline-block bg-[#ff7a2f]/10 text-[#ff7a2f] px-4 py-2 rounded-full text-sm mb-4">
+          <span className="inline-block bg-[#ff7a2f]/10 text-[#ff7a2f] px-4 py-2 rounded-lg text-sm mb-4">
             Placements & Careers
           </span>
 
@@ -145,7 +145,7 @@ export function PlacementPartnersSection() {
 
         {/* CTA */}
         <div className="mt-10">
-          <button className="inline-flex items-center gap-2 bg-[#ff8c42] text-white px-7 py-3 rounded-full hover:bg-[#e67932] transition shadow-md hover:shadow-lg">
+          <button className="inline-flex items-center gap-2 bg-[#ff8c42] text-white px-7 py-3 rounded-lg hover:bg-[#e67932] transition shadow-md hover:shadow-lg">
             View All Placement
             <ArrowRight size={18} />
           </button>

@@ -102,7 +102,9 @@ export default function ProgramList({
               {section.labels && section.labels.length > 0 ? (
                 <div className="space-y-8">
                   {section.labels.map((label) => {
-                    const labelPrograms = items.filter((p) => p.label === label);
+                    const labelPrograms = items.filter(
+                      (p) => p.label === label,
+                    );
 
                     if (!labelPrograms.length) return null;
 
@@ -208,7 +210,7 @@ function ProgramRow({ program, slug }: { program: Program; slug: string }) {
       </div>
 
       {/* RIGHT BADGE */}
-      <span className="text-lg bg-white border border-gray-200 px-3 py-1 rounded-full text-gray-600">
+      <span className="text-lg bg-white border border-gray-200 px-3 py-1 rounded-lg text-gray-600">
         {program.duration}
       </span>
     </Link>

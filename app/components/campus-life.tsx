@@ -96,7 +96,7 @@ export default function CampusLife() {
           {/* Left Arrow */}
           <button
             onClick={() => sliderRef.current?.slickPrev()}
-            className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white shadow-lg rounded-full p-3 hover:scale-110 transition"
+            className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white shadow-lg rounded-lg p-3 hover:scale-110 transition"
           >
             <ChevronLeft className="text-[#0F1E3D]" />
           </button>
@@ -104,7 +104,7 @@ export default function CampusLife() {
           {/* Right Arrow */}
           <button
             onClick={() => sliderRef.current?.slickNext()}
-            className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white shadow-lg rounded-full p-3 hover:scale-110 transition"
+            className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white shadow-lg rounded-lg p-3 hover:scale-110 transition"
           >
             <ChevronRight className="text-[#0F1E3D]" />
           </button>

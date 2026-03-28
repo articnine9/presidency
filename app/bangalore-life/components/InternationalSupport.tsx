@@ -32,7 +32,7 @@ export default function InternationalSupport() {
         {/* 🟢 RIGHT IMAGE */}
         <div className="relative flex justify-center">
           {/* GOLD SHAPE */}
-          <div className="absolute w-[280px] h-[280px] bg-[#c9a55c] rounded-full right-10 top-10 opacity-80"></div>
+          <div className="absolute w-[280px] h-[280px] bg-[#c9a55c] rounded-lg right-10 top-10 opacity-80"></div>
 
           {/* IMAGE */}
           <div className="relative w-[320px] h-[320px] rounded-[40px] overflow-hidden shadow-xl">

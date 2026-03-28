@@ -81,7 +81,7 @@ export function SchoolsSliderSection() {
                       <p className="text-white mb-6">{school.description}</p>
 
                       {/* BUTTON */}
-                      <button className="bg-gradient-to-r from-[#0A8F96] to-[#0BB5B5] text-white px-7 py-3 flex items-center gap-3 rounded-full text-sm font-semibold shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300">
+                      <button className="bg-gradient-to-r from-[#0A8F96] to-[#0BB5B5] text-white px-7 py-3 flex items-center gap-3 rounded-lg text-sm font-semibold shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300">
                         Explore
                         <ArrowRight size={18} />
                       </button>

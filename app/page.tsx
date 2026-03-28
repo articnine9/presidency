@@ -20,7 +20,7 @@ import { UpcomingEvents } from "./components/FeaturesSection";
 import { CommunitySection } from "./components/CommunitySection";
 import { WhyPresidency } from "./components/why-presidency";
 import { AlumniTestimonials } from "./components/AlumniTestimonials";
-import { ThoughtLeadersSection } from "./components/ThoughtLeadersSection";
+import ThoughtLeadersSection from "./components/ThoughtLeadersSection";
 import { TestimonialsSection } from "./components/testimonials-section";
 import { AdmissionSection } from "./components/AdmissionSection";
 import { CTASection } from "./components/CTASection";
@@ -68,6 +68,7 @@ export default function App() {
       <SchoolsSliderSection />
       <WhyChooseUs />
       <CampusLikeHome />
+      <ThoughtLeadersSection />
       <BangaloreLifeSection />
 
       <ResearchHighlightsSection />
@@ -107,7 +108,6 @@ export default function App() {
       {/* <AlumniTestimonials /> */}
 
       {/* Faculty & Thought Leaders */}
-      {/* <ThoughtLeadersSection /> */}
 
       {/* Admissions */}
       {/* <AdmissionSection /> */}

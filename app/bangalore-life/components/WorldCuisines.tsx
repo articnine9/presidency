@@ -24,10 +24,10 @@ export default function WorldCuisines() {
 
           {/* CUSTOM ARROWS */}
           <div className="flex gap-3">
-            <button className="prev-btn w-9 h-9 rounded-full border flex items-center justify-center">
+            <button className="prev-btn w-9 h-9 rounded-lg border flex items-center justify-center">
               <ArrowLeft size={16} />
             </button>
-            <button className="next-btn w-9 h-9 rounded-full border flex items-center justify-center">
+            <button className="next-btn w-9 h-9 rounded-lg border flex items-center justify-center">
               <ArrowRight size={16} />
             </button>
           </div>

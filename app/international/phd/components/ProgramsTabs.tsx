@@ -40,7 +40,7 @@ export default function ProgramsAccordion({ data, query }: any) {
                   <div className="flex items-center gap-4">
                     {/* Number */}
                     <div
-                      className={`w-8 h-8 flex items-center justify-center rounded-full font-bold
+                      className={`w-8 h-8 flex items-center justify-center rounded-lg font-bold
                       ${
                         isActive
                           ? "bg-white text-[#1E3A5F]"
@@ -68,7 +68,7 @@ export default function ProgramsAccordion({ data, query }: any) {
                           key={i}
                           className="flex items-start gap-3 bg-white p-3 rounded-lg border border-gray-200"
                         >
-                          <div className="w-2 h-2 mt-2 rounded-full bg-[#1E3A5F]" />
+                          <div className="w-2 h-2 mt-2 rounded-lg bg-[#1E3A5F]" />
                           <p className="text-base text-gray-700">{program}</p>
                         </div>
                       ))}

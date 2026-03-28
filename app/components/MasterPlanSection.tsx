@@ -47,7 +47,7 @@ export function MasterPlanSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* LEFT CONTENT */}
           <div>
-            <div className="inline-block bg-[#ff8c42]/10 text-[#ff8c42] px-6 py-3 rounded-full mb-6">
+            <div className="inline-block bg-[#ff8c42]/10 text-[#ff8c42] px-6 py-3 rounded-lg mb-6">
               <span className="uppercase tracking-wider">Campus Overview</span>
             </div>
 
@@ -70,8 +70,8 @@ export function MasterPlanSection() {
             <div className="space-y-4 mb-8">
               {campusFeatures.map((feature, index) => (
                 <div key={index} className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-6 h-6 bg-[#ff8c42] rounded-full flex items-center justify-center mt-0.5">
-                    <div className="w-2 h-2 bg-white rounded-full"></div>
+                  <div className="flex-shrink-0 w-6 h-6 bg-[#ff8c42] rounded-lg flex items-center justify-center mt-0.5">
+                    <div className="w-2 h-2 bg-white rounded-lg"></div>
                   </div>
                   <span className="text-gray-700">{feature}</span>
                 </div>
@@ -80,12 +80,12 @@ export function MasterPlanSection() {
 
             {/* BUTTONS */}
             <div className="flex flex-wrap gap-4">
-              <button className="bg-[#ff8c42] text-white px-8 py-4 rounded-full hover:bg-[#e67a32] transition-all transform hover:scale-105 shadow-lg flex items-center gap-2">
+              <button className="bg-[#ff8c42] text-white px-8 py-4 rounded-lg hover:bg-[#e67a32] transition-all transform hover:scale-105 shadow-lg flex items-center gap-2">
                 <Download size={20} />
                 Download Prospectus
               </button>
 
-              <button className="bg-white text-[#1e3a5f] px-8 py-4 rounded-full hover:bg-gray-50 transition-all border-2 border-[#1e3a5f] flex items-center gap-2">
+              <button className="bg-white text-[#1e3a5f] px-8 py-4 rounded-lg hover:bg-gray-50 transition-all border-2 border-[#1e3a5f] flex items-center gap-2">
                 <Eye size={20} />
                 Virtual Tour
               </button>
@@ -114,8 +114,8 @@ export function MasterPlanSection() {
             </div>
 
             {/* DECORATIVE BLOBS */}
-            <div className="absolute -top-6 -left-6 w-32 h-32 bg-[#ff8c42] rounded-full blur-3xl opacity-20"></div>
-            <div className="absolute -bottom-6 -right-6 w-40 h-40 bg-[#1e3a5f] rounded-full blur-3xl opacity-20"></div>
+            <div className="absolute -top-6 -left-6 w-32 h-32 bg-[#ff8c42] rounded-lg blur-3xl opacity-20"></div>
+            <div className="absolute -bottom-6 -right-6 w-40 h-40 bg-[#1e3a5f] rounded-lg blur-3xl opacity-20"></div>
           </div>
         </div>
 
@@ -141,7 +141,7 @@ export function MasterPlanSection() {
               <p className="text-white/80 text-lg">{ctaContent.description}</p>
             </div>
 
-            <button className="flex-shrink-0 bg-[#ff8c42] text-white px-8 py-4 rounded-full hover:bg-[#e67a32] transition-all transform hover:scale-105 shadow-lg flex items-center gap-2">
+            <button className="flex-shrink-0 bg-[#ff8c42] text-white px-8 py-4 rounded-lg hover:bg-[#e67a32] transition-all transform hover:scale-105 shadow-lg flex items-center gap-2">
               {ctaContent.button}
               <ArrowRight size={20} />
             </button>

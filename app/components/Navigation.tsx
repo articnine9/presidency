@@ -144,7 +144,7 @@ export function Navigation() {
               {/* CTA */}
               <button
                 onClick={() => setIsApplyOpen(true)}
-                className="ml-3 bg-gradient-to-r from-[#0A8F96] to-[#0BB5B5] text-white px-7 py-2.5 rounded-full flex items-center gap-3 text-sm font-semibold shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300"
+                className="ml-3 bg-gradient-to-r from-[#0A8F96] to-[#0BB5B5] text-white px-7 py-2.5 rounded-lg flex items-center gap-3 text-sm font-semibold shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300"
               >
                 APPLY NOW
                 <ArrowRight size={18} />
@@ -199,7 +199,7 @@ export function Navigation() {
                 setIsApplyOpen(true);
                 setIsMobileMenuOpen(false);
               }}
-              className="mt-4 bg-[#0A8F96] text-white py-3 rounded-full text-sm font-semibold"
+              className="mt-4 bg-[#0A8F96] text-white py-3 rounded-lg text-sm font-semibold"
             >
               APPLY NOW
             </button>
