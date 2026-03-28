@@ -60,7 +60,7 @@ export default function ProgramsAccordion({ data, query }: any) {
 
                 {/* CONTENT */}
                 {isActive && (
-                  <div className="p-6 bg-gray-800">
+                  <div className="p-6 bg-gray-50">
                     {/* Programs Grid */}
                     <div className="grid sm:grid-cols-2 gap-4">
                       {school.programs.map((program: string, i: number) => (

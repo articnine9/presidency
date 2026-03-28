@@ -61,28 +61,6 @@ export default function CourseHero({ data, school }: any) {
           >
             {hero?.description}
           </motion.p>
-          {/* <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-            className="flex flex-wrap gap-4 mb-16 mt-32"
-          >
-            <a
-              href="/brochures/cse-brochure.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white/10 transition-all duration-300 hover:scale-105 flex items-center gap-2 text-lg backdrop-blur-sm">
-                Download Brouchure
-              </button>
-            </a>
-            <button className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white/10 transition-all duration-300 hover:scale-105 flex items-center gap-2 text-lg backdrop-blur-sm">
-              How to Apply
-            </button>
-            <button className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white/10 transition-all duration-300 hover:scale-105 flex items-center gap-2 text-lg backdrop-blur-sm">
-              Contact
-            </button>
-          </motion.div> */}
         </div>
       </div>
     </section>

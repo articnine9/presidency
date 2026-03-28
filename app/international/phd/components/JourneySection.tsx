@@ -57,8 +57,8 @@ export default function JourneySection() {
                 </div>
 
                 {/* Step Title */}
-                <h3 className="font-semibold text-gray-800 mb-2">
-                  Step {index + 1}: {step.title}
+                <h3 className=" text-gray-800 mb-2">
+                  <span className="italic">Step {index + 1}:</span> {step.title}
                 </h3>
 
                 {/* Description */}
