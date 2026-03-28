@@ -69,7 +69,7 @@ export default function ProgramsAccordion({ data, query }: any) {
                           className="flex items-start gap-3 bg-white p-3 rounded-lg border border-gray-200"
                         >
                           <div className="w-2 h-2 mt-2 rounded-full bg-[#1E3A5F]" />
-                          <p className="text-sm text-gray-700">{program}</p>
+                          <p className="text-base text-gray-700">{program}</p>
                         </div>
                       ))}
                     </div>

@@ -6,7 +6,7 @@ import CommonHeader from "@/app/components/CommonHeader";
 
 export default function ExplorePrograms({ query, setQuery }: any) {
   return (
-    <section className="pt-16 md:py-20 bg-[#1e4c8f]">
+    <section className="pt-16 md:pt-20 pb-10 bg-[#1e4c8f]">
       <div className="max-w-[1200px] mx-auto px-5 md:px-10">
         {/* Header */}
         <CommonHeader

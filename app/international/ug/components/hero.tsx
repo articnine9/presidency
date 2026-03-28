@@ -7,7 +7,7 @@ export default function CourseHero({ data, school }: any) {
   const hero = data.hero;
 
   return (
-    <section className="relative h-screen min-h-[500px] flex items-center justify-center z-30">
+    <section className="relative  min-h-[520px] md:h-[520px] flex items-center justify-center z-30">
       {/* Video Background */}
       <div className="absolute inset-0 z-0">
         <img
