@@ -1,83 +1,83 @@
 "use client";
 
-import { Search } from "lucide-react";
-import { motion } from "motion/react";
-import { ArrowRight, Play } from "lucide-react";
+import { motion } from "framer-motion";
+import { ArrowRight } from "lucide-react";
 import CommonHeader from "@/app/components/CommonHeader";
 
-export function YourJourney() {
+export default function JourneySection() {
   return (
-    <section
-      className="min-h-screen flex items-center bg-[white] py-12 md:py-16 lg:py-20"
-      id="programmes"
-    >
-      <div className="max-w-[1400px] mx-auto px-6 md:px-10 grid lg:grid-cols-2 gap-12 items-center mt-3">
-        {/* RIGHT SIDE */}
-        <div className="space-y-6">
+    <section className="py-20 bg-[#fff]">
+      <div className="max-w-[1400px] mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+        {/* 🔥 LEFT CONTENT */}
+
+        <motion.div
+          initial={{ opacity: 0, x: -40 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6 }}
+        >
           <CommonHeader
             tag="Admissions"
             title="Your Journey"
             highlight="Starts Here"
-            description="Applying to Presidency University as an international student is straightforward."
-            primaryColor="#0A8F96"
             align="left"
           />
+          <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6">
+            Applying to Presidency University as an international student is
+            straightforward. Our Office of International Affairs (OIA) guides
+            you through every stage — from choosing your programme and preparing
+            your documents, to securing your Indian Student Visa and settling in
+            on campus.
+          </p>
 
-          <motion.p
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.3 }}
-            className="text-lg text-black/80 mb-10 max-w-3xl  "
-          >
-            Our Office of International Affairs (OIA) guides you through every
-            stage — from choosing your programme and preparing your documents,
-            to securing your Indian Student Visa and settling in on campus. We
-            accept applications for both our July and January intakes.
-          </motion.p>
-
-          <motion.p
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.3 }}
-            className="text-lg text-black/80 mb-10 max-w-3xl  "
-          >
+          <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-8">
             We welcome students from all academic backgrounds and nationalities.
-            Whether you are a school leaver ready for your first degree, a
-            graduate seeking a specialist qualification, or an experienced
-            professional pursuing doctoral research, there is a place for you at
-            Presidency.
-          </motion.p>
+            Whether you are a school leaver, a graduate, or a professional
+            pursuing research, there is a place for you at Presidency.
+          </p>
 
+          {/* 🔥 CTA BUTTONS */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="flex flex-col sm:flex-row justify-center items-center flex-nowrap gap-4 mb-8"
+            className="flex flex-wrap gap-2 "
           >
-            <button className="border-2 border-black text-black px-8 py-4 rounded-lg hover:bg-gray-100 transition-all duration-300 hover:scale-105 flex items-center gap-2 text-lg backdrop-blur-md whitespace-nowrap">
-              How to Apply
+            <button className="bg-[#0A8F96] text-white px-8 py-4 rounded-lg hover:bg-[#0BB5B5] transition-all duration-300 hover:shadow-xl hover:scale-105 flex items-center gap-2 text-lg">
+              Explore Programmes
             </button>
 
-            <button className="bg-white/30 border-2 border-black text-black px-8 py-4 rounded-lg hover:bg-gray-100 transition-all duration-300 hover:scale-105 flex items-center gap-2 text-lg backdrop-blur-md whitespace-nowrap">
+            <button className="bg-[#062f54]  text-white px-8 py-4 rounded-lg hover:bg-[#073966] transition-all duration-300  hover:shadow-xl hover:scale-105 flex items-center gap-2 text-lg backdrop-blur-sm">
               Contact the OIA
             </button>
-
-            <button className="bg-[#0A8F96] text-white px-8 py-4 rounded-lg hover:bg-[#0BB5B5] transition-all duration-300 hover:shadow-xl hover:scale-105 flex items-center gap-2 text-lg whitespace-nowrap">
-              Explore Programmes
-              <ArrowRight size={22} />
+            <button className="bg-white text-[#062f54] px-8 py-4 rounded-lg hover:bg-gray-100 transition-all duration-300 hover:shadow-xl hover:scale-105 text-lg border border-[#062f54]">
+              How to Apply
             </button>
           </motion.div>
-        </div>
-        {/* LEFT CONTENT */}
-        <div>
-          <div className="relative h-[500px] lg:h-[600px] rounded-2xl overflow-hidden shadow-xl group mt-5">
+        </motion.div>
+
+        {/* 🔥 RIGHT IMAGES */}
+        <motion.div
+          initial={{ opacity: 0, x: 40 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.6 }}
+          className="grid grid-cols-2 gap-6"
+        >
+          {/* IMAGE 1 */}
+          <div className="rounded-xl overflow-hidden shadow-md">
             <img
-              src="img/degree-program.jpeg"
-              alt="Students"
-              className="w-full h-full object-cover transition duration-500"
+              src="/img/campus-1.jpg"
+              className="w-full h-[420px] object-cover"
             />
           </div>
-        </div>
+
+          {/* IMAGE 2 */}
+          <div className="rounded-xl overflow-hidden shadow-md">
+            <img
+              src="/img/campus-2.jpg"
+              className="w-full h-[420px] object-cover"
+            />
+          </div>
+        </motion.div>
       </div>
     </section>
   );
