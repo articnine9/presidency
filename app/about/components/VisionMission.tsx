@@ -13,24 +13,36 @@ export default function VisionMission() {
 
         {/* 🔥 CARDS */}
         <div className="grid md:grid-cols-3 gap-6">
-          {/* 🔵 VISION CARD */}
-          <div className="relative rounded-xl overflow-hidden shadow-md">
+      
+          {/* <div className="relative rounded-xl overflow-hidden shadow-md">
             <img
               src="/img/about/vision.jpg"
               className="w-full h-[180px] object-cover"
             />
 
-            {/* OVERLAY */}
+        
             <div className="absolute inset-0 bg-black/50 flex items-end p-4">
               <h3 className="text-white font-semibold text-sm">VISION</h3>
             </div>
+          </div> */}
+
+          {/* 🟡 VISION CARD */}
+
+           <div className="bg-white rounded-xl shadow-md p-5">
+            <h3 className="font-semibold text-gray-800 mb-4">VISION</h3>
+
+           <p className="space-y-3 text-base text-gray-600 max-w-md">
+            To be an internationally networked research university, dedicated to research-oriented teaching and the holistic development of students as global citizens.
+          </p>
           </div>
+
+
 
           {/* 🟡 MISSION CARD */}
           <div className="bg-white rounded-xl shadow-md p-5">
             <h3 className="font-semibold text-gray-800 mb-4">MISSION</h3>
 
-            <ul className="space-y-3 text-sm text-gray-600">
+            {/* <ul className="space-y-3 text-sm text-gray-600">
               <li className="flex items-start gap-2">
                 <CheckCircle size={16} className="text-[#c4a45b] mt-1" />
                 <span>
@@ -57,38 +69,59 @@ export default function VisionMission() {
                   Innovation standards
                 </span>
               </li>
-            </ul>
+            </ul> */}
+            <p className="space-y-3 text-base text-gray-600 max-w-md">
+            To provide an academically excellent and globally connected environment that empowers students to think critically, innovate boldly, and lead with integrity.
+          </p>
           </div>
 
           {/* 🟢 VALUES CARD */}
           <div className="bg-white rounded-xl shadow-md p-5">
             <h3 className="font-semibold text-gray-800 mb-4">VALUES</h3>
 
-            <ul className="space-y-3 text-sm text-gray-600">
+            <ul className="space-y-3 text-base text-gray-600">
               <li className="flex items-start gap-2">
                 <CheckCircle size={16} className="text-[#c4a45b] mt-1" />
                 <span>
-                  <strong>Innovation</strong>
-                  <br />
-                  Inspiring keywords
+                  
+                 Academic Excellence 
                 </span>
               </li>
 
               <li className="flex items-start gap-2">
                 <CheckCircle size={16} className="text-[#c4a45b] mt-1" />
                 <span>
-                  <strong>Integrity</strong>
-                  <br />
-                  Integrated keywords
+                 
+                  Global Outlook
                 </span>
               </li>
 
               <li className="flex items-start gap-2">
                 <CheckCircle size={16} className="text-[#c4a45b] mt-1" />
                 <span>
-                  <strong>Excellence</strong>
-                  <br />
-                  Short most excellence
+                  
+                  Inclusivity & Diversity
+                </span>
+              </li>
+               <li className="flex items-start gap-2">
+                <CheckCircle size={16} className="text-[#c4a45b] mt-1" />
+                <span>
+                  
+                 Innovation & Entrepreneurship
+                </span>
+              </li>
+               <li className="flex items-start gap-2">
+                <CheckCircle size={16} className="text-[#c4a45b] mt-1" />
+                <span>
+                  
+                 Integrity & Ethics
+                </span>
+              </li>
+               <li className="flex items-start gap-2">
+                <CheckCircle size={16} className="text-[#c4a45b] mt-1" />
+                <span>
+                  
+                 Social Responsibility
                 </span>
               </li>
             </ul>
