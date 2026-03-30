@@ -7,7 +7,7 @@ import { useState } from "react";
 export function CampusVirtualTourSection() {
   const [videoError, setVideoError] = useState(false);
   return (
-    <section className="relative pt-24 pb-32 bg-[#F5F6F8]">
+    <section className="relative pb-32 bg-[#F5F6F8]">
       {/* IMAGE */}
       <div className="relative h-[420px] w-full overflow-hidden">
         {/* <img

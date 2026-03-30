@@ -70,8 +70,8 @@ export default function App() {
       <WhyChooseUs />
       <CampusLikeHome />
       <ThoughtLeadersSection />
-      <BangaloreLifeSection />
-
+      {/* <BangaloreLifeSection /> */}
+      <CommunitySection />
       <ResearchHighlightsSection />
       {/* <CampusLife /> */}
       {/* <BangaloreSection /> */}
@@ -106,7 +106,6 @@ export default function App() {
       {/* <UpcomingEvents /> */}
 
       {/* Community & Clubs */}
-      {/* <CommunitySection /> */}
 
       {/* Alumni Stories */}
       {/* <AlumniTestimonials /> */}
