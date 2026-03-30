@@ -113,7 +113,8 @@ export function Navigation() {
     {
       label: "Programmes",
       hasMegaMenu: true,
-      image: "/img/programmes.jpg",
+      image:
+        "https://images.unsplash.com/photo-1769905226788-1bf5ba8f50d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5JTIwY2FtcHVzJTIwc3R1ZGVudHMlMjB3YWxraW5nfGVufDF8fHx8MTc3MzM5ODc4N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       megaMenu: [
         {
           title: "Undergraduate",
@@ -284,7 +285,7 @@ export function Navigation() {
                         {/* 🔥 COLUMNS */}
                         {item.megaMenu.map((section: any, idx: number) => (
                           <div key={idx}>
-                            <h4 className="text-lg text-[#0A8F96] mb-4">
+                            <h4 className="text-lg text-[#1e3a5f] mb-4">
                               {section.title}
                             </h4>
 
@@ -300,13 +301,13 @@ export function Navigation() {
                                   >
                                     <div
                                       className="w-9 h-9 flex items-center justify-center rounded-lg 
-                      bg-[#0A8F96]/10 text-[#0A8F96] 
-                      group-hover:bg-[#0A8F96] group-hover:text-white transition"
+                      bg-[#0A8F96]/10 text-[#1e3a5f] 
+                      group-hover:bg-[#1e3a5f] group-hover:text-white transition"
                                     >
                                       {Icon && <Icon size={16} />}
                                     </div>
 
-                                    <span className="text-base text-gray-700 group-hover:text-[#0A8F96]">
+                                    <span className="text-base text-gray-700 group-hover:text-[#1e3a5f]">
                                       {sub.label}
                                     </span>
                                   </Link>
