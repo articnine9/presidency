@@ -55,7 +55,7 @@ export function WhyChooseUs() {
       <div className="max-w-[1400px] mx-auto px-6 md:px-10 w-full">
         {/* HEADER */}
         <CommonHeader
-          tag="Why Choose"
+          tag="Why We Stand Out"
           title="Why Choose"
           highlight="Presidency"
           description="When you choose Presidency University, you are choosing more than a degree. You are choosing a community, a city, and a career advantage that few universities in Asia can match."
@@ -101,9 +101,9 @@ export function WhyChooseUs() {
           ))}
         </div>
         <div className="flex justify-center mt-10">
-          <button className="bg-[#0A8F96] text-white px-8 py-3 rounded-lg text-sm md:text-base font-semibold shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300">
+          <a href="/about"><button className="bg-[#0A8F96] text-white px-8 py-3 rounded-lg text-sm md:text-base font-semibold shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300">
             Know More
-          </button>
+          </button></a>
         </div>
       </div>
     </section>

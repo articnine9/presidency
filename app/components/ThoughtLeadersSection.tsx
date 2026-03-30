@@ -24,16 +24,16 @@ export default function ThoughtLeadersSection() {
     { name: "Rajiv Talreja", role: "Business Coach", img: "/img/leaders/m3.jpeg" },
     { name: "Sanjay Sahay", role: "Tech Founder", img: "img/leaders/m4.jpeg" },
     { name: "Prerana Gopal", role: "Filmmaker", img: "/img/leaders/m5.jpeg" },
-    { name: "Jonita Gandhi", role: "Singer", img:  "/img/leaders/m5.jpeg" },
-    { name: "Aditi Rao Hydari", role: "Actress", img:  "/img/leaders/m5.jpeg" },
-    { name: "Dhvani Bhanushali", role: "Singer", img:  "/img/leaders/m6.jpeg" },
-    { name: "Divya & Raghavendra", role: "Entrepreneurs", img:  "/img/leaders/m7.jpeg" },
-    { name: "Rajiv Talreja", role: "Business Coach", img:  "/img/leaders/m8.jpeg" },
-    { name: "Sanjay Sahay", role: "Tech Founder", img:  "/img/leaders/m9.jpeg"},
-    { name: "Prerana Gopal", role: "Filmmaker", img:  "/img/leaders/m10.jpeg" },
-    { name: "Jonita Gandhi", role: "Singer", img:  "/img/leaders/m11.jpeg" },
+    { name: "Jonita Gandhi", role: "Singer", img: "/img/leaders/m5.jpeg" },
+    { name: "Aditi Rao Hydari", role: "Actress", img: "/img/leaders/m5.jpeg" },
+    { name: "Dhvani Bhanushali", role: "Singer", img: "/img/leaders/m6.jpeg" },
+    { name: "Divya & Raghavendra", role: "Entrepreneurs", img: "/img/leaders/m7.jpeg" },
+    { name: "Rajiv Talreja", role: "Business Coach", img: "/img/leaders/m8.jpeg" },
+    { name: "Sanjay Sahay", role: "Tech Founder", img: "/img/leaders/m9.jpeg" },
+    { name: "Prerana Gopal", role: "Filmmaker", img: "/img/leaders/m10.jpeg" },
+    { name: "Jonita Gandhi", role: "Singer", img: "/img/leaders/m11.jpeg" },
     { name: "Aditi Rao Hydari", role: "Actress", img: "/img/leaders/m12.jpeg" },
-    { name: "Dhvani Bhanushali", role: "Singer", img:  "/img/leaders/m13.jpeg" },
+    { name: "Dhvani Bhanushali", role: "Singer", img: "/img/leaders/m13.jpeg" },
   ];
 
   const row1 = leaders.slice(0, 4);
@@ -70,7 +70,7 @@ export default function ThoughtLeadersSection() {
       <div className="max-w-[1400px] mx-auto px-6">
         {/* ✅ HEADER */}
         <CommonHeader
-          tag="Thought Leaders"
+          tag="Campus Experts"
           title="Thought Leaders"
           highlight="on Campus"
           description={`Presidency University hosts visionary leaders from academia, industry, research, governance, and the arts. Their presence enriches students with real-world insights and innovation.
