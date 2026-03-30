@@ -46,7 +46,10 @@ export default function CourseOverview({ data }: any) {
         >
           <div className="rounded-2xl overflow-hidden shadow-lg">
             <img
-              src={data.image || "/img/course-overview.jpg"}
+              src={
+                data.image ||
+                "https://images.unsplash.com/photo-1769905226788-1bf5ba8f50d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5JTIwY2FtcHVzJTIwc3R1ZGVudHMlMjB3YWxraW5nfGVufDF8fHx8MTc3MzM5ODc4N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+              }
               alt="Course Overview"
               className="w-full h-[350px] md:h-[450px] object-cover hover:scale-105 transition duration-500"
             />

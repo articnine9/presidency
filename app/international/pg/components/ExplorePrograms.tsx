@@ -13,7 +13,7 @@ export default function ExplorePrograms({ query, setQuery }: any) {
           tag="Explore"
           title="Our Schools and"
           highlight="Programmes"
-          primaryColor="#fff"
+          primaryColor="#ffffff"
           secondaryColor="#ffffff"
           description="Search and discover Postgraduate Programmes."
           descriptionColor="#fff"
