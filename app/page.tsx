@@ -37,9 +37,10 @@ import { BangaloreCTASection } from "./components/BangaloreCTASection";
 import { FooterSection } from "./components/Footer";
 import { BangaloreLifeSection } from "./components/BangaloreLifeSection";
 import { AboutPresidency } from "./components/AboutPresidency";
-import { YourJourney } from "./components/YourJourney";
+import JourneySection from "./components/YourJourney";
 import { CampusLikeHome } from "./components/CampusLikeHome";
 import { WhyChooseUs } from "./components/WhyChooseUs";
+import VideoSectionFull from "./components/VideoSectionFull";
 
 export default function App() {
   return (
@@ -69,8 +70,8 @@ export default function App() {
       <WhyChooseUs />
       <CampusLikeHome />
       <ThoughtLeadersSection />
-      <BangaloreLifeSection />
-
+      {/* <BangaloreLifeSection /> */}
+      <CommunitySection />
       <ResearchHighlightsSection />
       {/* <CampusLife /> */}
       {/* <BangaloreSection /> */}
@@ -80,7 +81,10 @@ export default function App() {
       <InternationalStudentsSection />
       {/* <BangaloreCTASection /> */}
       <PlacementPartnersSection />
+
       <ScholarshipsSection />
+      <VideoSectionFull />
+      <JourneySection />
       <NewsSection />
       <InFocusSection />
       <CampusVirtualTourSection />
@@ -102,7 +106,6 @@ export default function App() {
       {/* <UpcomingEvents /> */}
 
       {/* Community & Clubs */}
-      {/* <CommunitySection /> */}
 
       {/* Alumni Stories */}
       {/* <AlumniTestimonials /> */}

@@ -12,17 +12,27 @@ export function AboutPresidency() {
     >
       <div className="max-w-[1400px] mx-auto px-6 md:px-10 items-center py-24">
         {/* RIGHT SIDE */}
-        <CommonHeader
-          tag="About"
-          title="A Global University Experience"
-          highlight="in the Heart of India"
-          description="Presidency University offers rigorous academic programmes, global exposure, and industry-driven learning."
-          primaryColor="#0A8F96"
-          align="center"
-        />
+
         {/* LEFT CONTENT */}
         <div className=" grid lg:grid-cols-2 gap-12  items-center">
           <div className="space-y-6">
+            <CommonHeader
+              tag="About"
+              title="A Global University Experience"
+              highlight="in the Heart of India"
+              description=""
+              primaryColor="#0A8F96"
+              align="left"
+            />
+            <motion.p
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.3 }}
+              className="text-lg text-black/80 mb-10 max-w-3xl  "
+            >
+              Presidency University offers rigorous academic programmes, global
+              exposure, and industry-driven learning.
+            </motion.p>
             <motion.p
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
