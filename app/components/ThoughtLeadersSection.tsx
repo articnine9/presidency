@@ -18,15 +18,22 @@ export default function ThoughtLeadersSection() {
     {
       name: "S. Sadagopan",
       role: "Director – IIIT Bangalore",
-      img: "/img/l1.jpg",
+      img: "/img/leaders/m1.jpeg",
     },
-    { name: "Divya & Raghavendra", role: "Entrepreneurs", img: "/img/l2.jpg" },
-    { name: "Rajiv Talreja", role: "Business Coach", img: "/img/l3.jpg" },
-    { name: "Sanjay Sahay", role: "Tech Founder", img: "/img/l4.jpg" },
-    { name: "Prerana Gopal", role: "Filmmaker", img: "/img/l5.jpg" },
-    { name: "Jonita Gandhi", role: "Singer", img: "/img/l6.jpg" },
-    { name: "Aditi Rao Hydari", role: "Actress", img: "/img/l7.jpg" },
-    { name: "Dhvani Bhanushali", role: "Singer", img: "/img/l8.jpg" },
+    { name: "Divya & Raghavendra", role: "Entrepreneurs", img: "/img/leaders/m2.jpeg" },
+    { name: "Rajiv Talreja", role: "Business Coach", img: "/img/leaders/m3.jpeg" },
+    { name: "Sanjay Sahay", role: "Tech Founder", img: "img/leaders/m4.jpeg" },
+    { name: "Prerana Gopal", role: "Filmmaker", img: "/img/leaders/m5.jpeg" },
+    { name: "Jonita Gandhi", role: "Singer", img:  "/img/leaders/m5.jpeg" },
+    { name: "Aditi Rao Hydari", role: "Actress", img:  "/img/leaders/m5.jpeg" },
+    { name: "Dhvani Bhanushali", role: "Singer", img:  "/img/leaders/m6.jpeg" },
+    { name: "Divya & Raghavendra", role: "Entrepreneurs", img:  "/img/leaders/m7.jpeg" },
+    { name: "Rajiv Talreja", role: "Business Coach", img:  "/img/leaders/m8.jpeg" },
+    { name: "Sanjay Sahay", role: "Tech Founder", img:  "/img/leaders/m9.jpeg"},
+    { name: "Prerana Gopal", role: "Filmmaker", img:  "/img/leaders/m10.jpeg" },
+    { name: "Jonita Gandhi", role: "Singer", img:  "/img/leaders/m11.jpeg" },
+    { name: "Aditi Rao Hydari", role: "Actress", img: "/img/leaders/m12.jpeg" },
+    { name: "Dhvani Bhanushali", role: "Singer", img:  "/img/leaders/m13.jpeg" },
   ];
 
   const row1 = leaders.slice(0, 4);
@@ -45,7 +52,7 @@ export default function ThoughtLeadersSection() {
         <img
           src={item.img}
           alt={item.name}
-          className="w-full h-[260px] object-cover group-hover:scale-110 transition duration-500"
+          className="w-full h-[450px] object-cover group-hover:scale-110 transition duration-500"
         />
       </div>
 

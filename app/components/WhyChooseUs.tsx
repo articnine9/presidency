@@ -8,42 +8,42 @@ export function WhyChooseUs() {
     {
       title: "100+ Global Programmes",
       desc: "UG, PG & Doctoral across 10 Schools",
-      img: "/img/why1.png",
+      img: "/img/why-choose/1.png",
     },
     {
       title: "Verified Accreditations",
       desc: "NAAC A+ • UGC, BCI, AICTE",
-      img: "/img/why2.png",
+      img: "/img/why-choose/2.jpeg",
     },
     {
       title: "International Pathways",
       desc: "3+1+1 Dual Degree • Global MoUs",
-      img: "/img/why3.png",
+      img: "/img/why-choose/3.png",
     },
     {
       title: "Vibrant Campus",
       desc: "Clubs, Activities & Hostels",
-      img: "/img/why4.png",
+      img: "/img/why-choose/4.png",
     },
     {
       title: "Top Placements",
       desc: "300+ Industry Recruiters",
-      img: "/img/why5.png",
+      img: "/img/why-choose/5.png",
     },
     {
       title: "World-Class Facilities",
       desc: "Labs, Digital Campus",
-      img: "/img/why6.png",
+      img: "/img/why-choose/6.png",
     },
     {
       title: "Bangalore Advantage",
       desc: "India’s Silicon Valley",
-      img: "/img/why7.png",
+      img: "/img/why-choose/7.jpeg",
     },
     {
       title: "Faculty Support",
       desc: "Mentorship & OBE Learning",
-      img: "/img/why8.png",
+      img: "/img/why-choose/8.png",
     },
   ];
 
@@ -76,10 +76,10 @@ export function WhyChooseUs() {
               className="group relative bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
             >
               {/* GOLD ACCENT */}
-              <div className="absolute top-0 left-0 w-10 h-1 bg-[#C9A24A]"></div>
+              {/* <div className="absolute top-0 left-0 w-10 h-1 bg-[#C9A24A]"></div> */}
 
               {/* IMAGE */}
-              <div className="h-28 overflow-hidden">
+              <div className="h-48 overflow-hidden">
                 <img
                   src={item.img}
                   alt={item.title}

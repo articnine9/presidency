@@ -3,20 +3,20 @@
 export default function ResearchInnovation() {
   const cards = [
     {
-      title: "Research Centres",
-      img: "/img/research/1.jpg",
+      title: "Academic Research",
+      img: "https://presidencyuniversity.in/assets/frontend/images/acadmic.webp",
     },
     {
-      title: "Publications",
-      img: "/img/research/2.jpg",
+      title: "Sposored Research",
+      img: "https://presidencyuniversity.in/assets/frontend/images/mini-sponsers.webp",
     },
     {
-      title: "Industry Projects",
-      img: "/img/research/3.jpg",
+      title: "Research Centers",
+      img: "https://presidencyuniversity.in/assets/frontend/images/rnd.webp",
     },
     {
-      title: "Innovation Labs",
-      img: "/img/research/4.jpg",
+      title: "Research Centers",
+      img: "https://presidencyuniversity.in/assets/images/r-overview.webp",
     },
   ];
 
@@ -27,10 +27,9 @@ export default function ResearchInnovation() {
         <div>
           <h2 className="text-3xl md:text-4xl   mb-4">RESEARCH & INNOVATION</h2>
 
-          <p className="text-sm text-white/80 leading-relaxed max-w-md">
-            Heading + short paragraph with coeductor or discontent team
-            innovation, some area proficiences and creative industry projects
-            innovation and reaction.
+          <p className="text-base text-white/80 leading-relaxed max-w-md">
+            Research is at the heart of Presidency University's identity. The university's Research & Innovation Council oversees a growing portfolio of academic and sponsored research, with dedicated Centres of Excellence, seed grant funding, patent filing support, and a peer-reviewed institutional journal. Faculty and doctoral students collaborate with industry partners and international institutions on projects addressing global challenges in technology, sustainability, health, and society.
+The Presidency Launchpad — the university's incubation and entrepreneurship centre — supports student and faculty startups from ideation to market, reflecting the university's commitment to turning research into real-world impact.
           </p>
         </div>
 
@@ -44,11 +43,11 @@ export default function ResearchInnovation() {
               {/* IMAGE */}
               <img
                 src={item.img}
-                className="w-full h-[120px] object-cover group-hover:scale-110 transition duration-500"
+                className="w-full h-[180px] object-cover group-hover:scale-110 transition duration-500"
               />
 
               {/* OVERLAY */}
-              <div className="absolute inset-0 bg-black/50 group-hover:bg-black/60 transition"></div>
+              <div className="absolute inset-0 bg-black/30 group-hover:bg-black/30 transition"></div>
 
               {/* TEXT */}
               <div className="absolute bottom-3 left-3 text-sm font-medium">

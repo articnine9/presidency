@@ -65,7 +65,7 @@ export default function JourneySection() {
           {/* IMAGE 1 */}
           <div className="rounded-xl overflow-hidden shadow-md">
             <img
-              src="/img/campus-1.jpg"
+              src="/img/hero/yourjourney-one.jpeg"
               className="w-full h-[420px] object-cover"
             />
           </div>
@@ -73,7 +73,7 @@ export default function JourneySection() {
           {/* IMAGE 2 */}
           <div className="rounded-xl overflow-hidden shadow-md">
             <img
-              src="/img/campus-2.jpg"
+              src="/img/hero/yourjourney-two.jpeg"
               className="w-full h-[420px] object-cover"
             />
           </div>
