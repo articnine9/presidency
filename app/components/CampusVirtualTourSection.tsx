@@ -15,22 +15,28 @@ export function CampusVirtualTourSection() {
           alt="Campus"
           className="w-full h-full object-cover"
         /> */}
-        <video
+        {/* <video
           autoPlay
           loop
           muted
           playsInline
           className="w-full h-full object-cover scale-105"
           onError={() => setVideoError(true)}
-          // poster="https://images.unsplash.com/photo-1769905226788-1bf5ba8f50d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5JTIwY2FtcHVzJTIwc3R1ZGVudHMlMjB3YWxraW5nfGVufDF8fHx8MTc3MzM5ODc4N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+          poster="https://images.unsplash.com/photo-1769905226788-1bf5ba8f50d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5JTIwY2FtcHVzJTIwc3R1ZGVudHMlMjB3YWxraW5nfGVufDF8fHx8MTc3MzM5ODc4N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
         >
-          <source src="/videos/hero-video.mp4" type="video/mp4" />
-          {/* <source
+          <source src="https://www.immersivetourz.com/presidencyuniversity/index.html" type="video/mp4" />
+          <source
                 src="https://cdn.coverr.co/videos/coverr-university-students-studying-together-5237/1080p.mp4"
                 type="video/mp4"
-              /> */}
-        </video>
-
+              />
+              
+        </video> */}
+        <iframe
+          src="https://www.immersivetourz.com/presidencyuniversity/index.html"
+          className="w-full h-full pointer-events-auto"
+          allow="fullscreen; autoplay"
+          loading="eager"
+        />
         {/* OVERLAY */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-black/20"></div>
 
