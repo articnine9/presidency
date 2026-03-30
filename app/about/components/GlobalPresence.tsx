@@ -15,7 +15,7 @@ export default function GlobalPresence() {
         <div className="relative w-full">
           {/* MAP IMAGE */}
           <img
-            src="/img/aboutus/world-map-dark.jpeg"
+            src="/img/aboutus/global-presence.jpeg"
             className="w-full max-w-[1000px] mx-auto"
           />
 
