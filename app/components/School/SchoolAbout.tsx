@@ -57,15 +57,15 @@ export default function SchoolAbout({ data }: SchoolAboutProps) {
                 <div key={i}>
                   {item.type === "image" ? (
                     <div
-                      className="absolute left-1/2 w-[160px] h-[150px] -translate-x-1/2 hex border-4 border-white shadow-lg overflow-hidden"
+                      className="absolute left-1/2 w-[160px] h-[160px] -translate-x-1/2 hex border-4 border-white shadow-lg overflow-hidden"
                       style={{
                         top: item.top,
                         left: item.left,
 
                         clipPath:
-                          "polygon(25% %, 75% 6%, 100% 50%, 75% 94%, 25% 94%, 0% 50%)",
+                          "polygon(25% %, 75% 6%, 97% 50%, 75% 94%, 25% 94%, 3% 50%)",
                         WebkitClipPath:
-                          "polygon(25% 6%, 75% 6%, 100% 50%, 75% 94%, 25% 94%, 0% 50%)",
+                          "polygon(25% 6%, 75% 6%, 97% 50%, 75% 94%, 25% 94%, 3% 50%)",
                       }}
                     >
                       <img
@@ -76,20 +76,22 @@ export default function SchoolAbout({ data }: SchoolAboutProps) {
                   ) : (
                     <>
                       <div
-                        className="absolute w-[100px] h-[100px] flex flex-col items-center justify-center text-center px-0 border-0 border-white shadow-md overflow-hidden"
+                        className="absolute w-[130px] h-[130px] flex flex-col items-center justify-center text-center px-0 border-0 border-white shadow-md overflow-hidden"
                         style={{
                           top: item.top,
                           left: item.left,
                           background:
-                            item.type === "text" ? "#0A8F96" : "transparent",
+                            item.type === "text"
+                              ? "linear-gradient(135deg, #0A8F96, #13C2C9)"
+                              : "transparent",
                           clipPath:
-                            "polygon(25% %, 75% 6%, 100% 50%, 75% 94%, 25% 94%, 0% 50%)",
+                            "polygon(25% %, 75% 6%, 97% 50%, 75% 94%, 25% 94%, 3% 50%)",
                           WebkitClipPath:
-                            "polygon(25% 6%, 75% 6%, 100% 50%, 75% 94%, 25% 94%, 0% 50%)",
+                            "polygon(25% 6%, 75% 6%, 97% 50%, 75% 94%, 25% 94%, 3% 50%)",
                         }}
                       >
                         {item.icon && (
-                          <img src={item.icon} className="w-5 h-5 mb-1" />
+                          <img src={item.icon} className="w-8 h-8 mb-1" />
                         )}
                         <span className="text-[11px] text-white px-4">
                           {item.text}

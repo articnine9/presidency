@@ -1,0 +1,266 @@
+{
+  "hero": {
+    "title": {
+      "normal": "Campus Life at",
+      "italic": "Presidency University"
+    },
+    "description": "Experience a vibrant 100-acre campus in Bangalore where academic excellence meets a dynamic student community. From world-class facilities to diverse student activities, this is more than a campus — it's your home.",
+    "breadcrumb": ["Home", "Campus Life"],
+    "image": "https://images.unsplash.com/photo-1769905226788-1bf5ba8f50d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5JTIwY2FtcHVzJTIwc3R1ZGVudHMlMjB3YWxraW5nfGVufDF8fHx8MTc3MzM5ODc4N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    "stats": [
+      { "value": "100+ Acres", "label": "Green Campus" },
+      { "value": "50+ Clubs", "label": "Student Activities" },
+      { "value": "24/7", "label": "Campus Facilities" }
+    ]
+  },
+
+  "facilitiesSection": {
+    "header": {
+      "tag": "Infrastructure",
+      "title": "Campus",
+      "highlight": "Facilities",
+      "description": "Explore world-class infrastructure designed to support academic excellence and student life."
+    },
+    "intro": "Presidency University offers a modern campus equipped with advanced academic, recreational, and support facilities to enhance student learning and overall experience.",
+    "items": [
+      {
+        "title": "High-Speed Wi-Fi",
+        "desc": "Fully networked campus across academic and residential buildings"
+      },
+      {
+        "title": "Computer Labs",
+        "desc": "Advanced labs with latest hardware and licensed software"
+      },
+      {
+        "title": "AI & Robotics Labs",
+        "desc": "Dedicated labs for AI, ML, IoT, VLSI, and Robotics"
+      },
+      {
+        "title": "Design Labs",
+        "desc": "Specialised SOD labs for communication, fashion, product, and space design"
+      },
+      {
+        "title": "Media Labs",
+        "desc": "Studios supporting journalism and mass communication students"
+      },
+      {
+        "title": "Experience Centres",
+        "desc": "Hands-on exposure to emerging technologies"
+      },
+      {
+        "title": "Moot Court",
+        "desc": "Practical legal training facility for law students"
+      },
+      {
+        "title": "Central Library",
+        "desc": "Digital resources, journals, and online searchable access"
+      },
+      {
+        "title": "Sports Complex",
+        "desc": "Indoor and outdoor sports & athletics facilities"
+      },
+      {
+        "title": "Auditoriums",
+        "desc": "Multiple seminar halls and large event spaces"
+      },
+      {
+        "title": "Wellness Centre",
+        "desc": "Student health and wellbeing support services"
+      },
+      {
+        "title": "Accessible Campus",
+        "desc": "Facilities for students with disabilities (Divyangjan)"
+      },
+      {
+        "title": "Virtual Tour",
+        "desc": "360-degree interactive campus experience online"
+      }
+    ]
+  },
+
+  "housingSection": {
+    "header": {
+      "tag": "Campus Life",
+      "title": "Student",
+      "highlight": "Housing",
+      "description": "Comfortable, secure, and modern accommodation designed for student life."
+    },
+
+    "content": [
+      "Presidency University provides safe, modern on-campus residential facilities designed to offer a comfortable and secure living experience for students.",
+      "Spread across dedicated hostel blocks for male and female students, the campus accommodation eliminates the stress of commuting while fostering a vibrant community environment.",
+      "Rooms are available in twin and triple-sharing formats, fully furnished with beds, study tables, storage, and Wi-Fi access.",
+      "For students preferring off-campus options, assistance is available to find reliable accommodation near Yelahanka and Bangalore."
+    ],
+
+    "features": [
+      {
+        "title": "Modern Rooms",
+        "desc": "Twin & triple-sharing rooms with furniture and Wi-Fi",
+        "icon": "bed"
+      },
+      {
+        "title": "Dining Facilities",
+        "desc": "Four meals daily with veg & non-veg options",
+        "icon": "food"
+      },
+      {
+        "title": "24/7 Security",
+        "desc": "CCTV, wardens, and emergency medical support",
+        "icon": "security"
+      },
+      {
+        "title": "Transport Access",
+        "desc": "Weekend transport for shopping and city access",
+        "icon": "transport"
+      }
+    ],
+
+    "cta": {
+      "label": "Apply for Accommodation",
+      "link": "/apply"
+    },
+
+    "image": "/img/hostel.jpg"
+  },
+
+  "clubsSection": {
+    "header": {
+      "tag": "Student Life",
+      "title": "Student Clubs &",
+      "highlight": "Activities",
+      "description": "Explore student clubs in Bangalore university life with diverse extracurricular activities that shape leadership, creativity, and innovation."
+    },
+
+    "intro": "Life at Presidency extends far beyond the lecture hall. The Department of Student Affairs (DSA) coordinates over 50 active clubs across cultural, technical, social, and management domains. Every Friday, structured activities and events keep student life engaging throughout the year, along with festivals, national celebrations, talk series, and leadership sessions.",
+
+    "categories": [
+      {
+        "title": "Tech & Innovation",
+        "icon": "tech",
+        "clubs": [
+          "AI Club",
+          "Aero Drone Club",
+          "Blockchain (Genesis Club)",
+          "Cyber Security (Hackeye)",
+          "Coding (Omega Club)",
+          "DevOps (GoOps)",
+          "IoT (IOTVA)",
+          "Data Science (Innosphere)",
+          "Gen AI Club",
+          "Quantum Frontier Club",
+          "Metaverse Society",
+          "Graphics & Animation Club",
+          "Build Club",
+          "STEM Club",
+          "ZettaByte (Big Data)",
+          "Enkindle (Android App)",
+          "Next Gen Cipher Club",
+          "Logicverse Analytics Club",
+          "Electro Nirman Club"
+        ]
+      },
+      {
+        "title": "Arts & Culture",
+        "icon": "arts",
+        "clubs": [
+          "Dance Club",
+          "Music Club",
+          "Theatrical Society",
+          "Art & Sketch Club",
+          "Photography Club",
+          "Film Club",
+          "Anime Club",
+          "Kannada Club",
+          "Glamora Club"
+        ]
+      },
+      {
+        "title": "Business & Management",
+        "icon": "business",
+        "clubs": [
+          "Entrepreneurship Cell (Pragya)",
+          "Finance Club (Artha)",
+          "Business Analytics Club",
+          "HR Clubs (Anthrops & Voicebridge)",
+          "Commerce & Finance (Aarohan)",
+          "El Fortuna",
+          "Digitopedia"
+        ]
+      },
+      {
+        "title": "Speaking & Leadership",
+        "icon": "leadership",
+        "clubs": [
+          "Debate Society",
+          "Toastmasters Club",
+          "Speakers & Anchors Club",
+          "MUN Society",
+          "TEDx",
+          "Under-25 Club",
+          "Quiz Club"
+        ]
+      },
+      {
+        "title": "Social & Community",
+        "icon": "social",
+        "clubs": [
+          "Rotaract Club",
+          "National Service Scheme (NSS)",
+          "National Cadet Corps (NCC)",
+          "UN-SDG Club",
+          "WE Impact Club",
+          "Women Empowerment Club",
+          "Tails & Trails Crew",
+          "Disaster Risk Reduction Club",
+          "Harvest Club",
+          "HumanScape"
+        ]
+      },
+      {
+        "title": "Wellness & Lifestyle",
+        "icon": "wellness",
+        "clubs": [
+          "Mind Blossom Club",
+          "Culinary & Nutrition Club",
+          "The Groomed & Gracious Society",
+          "Magic Shop Club",
+          "Nova Club",
+          "Creovators"
+        ]
+      },
+      {
+        "title": "Language & Communication",
+        "icon": "leadership",
+        "clubs": ["IELTS Club", "Digital Content Creation Club"]
+      },
+      {
+        "title": "Sports & Athletics",
+        "icon": "sports",
+        "clubs": [
+          "Cricket",
+          "Football",
+          "Basketball",
+          "Badminton",
+          "Inter-Collegiate Teams",
+          "Motor Sports Club"
+        ]
+      }
+    ],
+
+    "events": [
+      {
+        "title": "Kaleidoscope",
+        "desc": "The flagship campus cultural festival attracting students from universities across India."
+      },
+      {
+        "title": "TechBiz",
+        "desc": "An annual 24-hour tech and business challenge fostering innovation and collaboration."
+      },
+      {
+        "title": "Eunoia",
+        "desc": "A vibrant arts festival celebrating creativity, expression, and talent."
+      }
+    ]
+  }
+}

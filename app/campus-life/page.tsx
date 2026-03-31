@@ -1,17 +1,29 @@
 import HeroSection from "./components/HeroSection";
 import FacilitiesSection from "./components/FacilitiesSection";
-import ClubSection from "./components/ClubSection";
+import ClubSection from "./components/ClubsSection";
+import FeaturesSection from "./components/FeaturesSection";
 import DiningSection from "./components/DiningSection";
 import SupportSection from "./components/SupportSection";
+import StudentServices from "./components/StudentServices";
+import WellbeingSection from "./components/WellbeingSection";
+import CourseCTA from "./components/CourseCTA";
+
+// ✅ Import JSON
+import data from "./data/CampusLife.json";
 
 const CampusLife = () => {
   return (
     <>
-      <HeroSection />
-      <FacilitiesSection />
+      {/* ✅ Pass hero data */}
+      <HeroSection data={data.hero} />
+
+      <FacilitiesSection data={data.facilitiesSection} />
+      <FeaturesSection />
       <ClubSection />
+      <StudentServices />
       <DiningSection />
-      <SupportSection />
+      <WellbeingSection />
+      <CourseCTA />
     </>
   );
 };

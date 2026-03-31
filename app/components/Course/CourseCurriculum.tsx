@@ -28,7 +28,7 @@ export default function CourseCurriculum({ data }: any) {
             onClick={() => setActive(index)}
             className={`px-5 py-2 rounded-lg text-sm border transition ${
               active === index
-                ? "bg-white shadow border-gray-300 font-medium"
+                ? "bg-[#1E3A5F] text-white shadow border-gray-300 font-medium"
                 : "bg-gray-100 text-gray-600"
             }`}
           >
@@ -45,7 +45,7 @@ export default function CourseCurriculum({ data }: any) {
       {/* Table */}
       <div className="rounded-xl overflow-hidden border border-gray-200">
         {/* Table Header */}
-        <div className="grid grid-cols-12 bg-[#0F1E3D] text-white text-sm font-semibold px-4 py-3">
+        <div className="grid grid-cols-12 bg-[#1E3A5F] text-white text-sm font-semibold px-4 py-3">
           <div className="col-span-1">#</div>
           <div className="col-span-8">Module</div>
           <div className="col-span-3 text-right">Code</div>

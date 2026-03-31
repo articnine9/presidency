@@ -1,114 +1,89 @@
-"use client";
+import CommonHeader from "@/app/components/CommonHeader";
+import {
+  Wifi,
+  Cpu,
+  BookOpen,
+  Trophy,
+  HeartPulse,
+  Building2,
+} from "lucide-react";
 
-import Image from "next/image";
+type FacilityItem = {
+  title: string;
+  desc: string;
+};
 
-const facilities = [
-  {
-    title: "MODERN GLASS BUILDING LEARNING",
-    desc: "Discover a vibrant multicultural learning experience.",
-    image: "/f1.jpg",
-  },
-  {
-    title: "STATE-OF-THE-ART AUDITORIUM",
-    desc: "Discover a vibrant, multicultural global student experience.",
-    image: "/f2.jpg",
-  },
-  {
-    title: "GLOBAL PARTNERSHIP HUB",
-    desc: "Promote partnership excellence.",
-    image: "/f3.jpg",
-  },
-  {
-    title: "GLOBAL PARTNERSHIP HUB",
-    desc: "Discover a vibrant, multicultural community.",
-    image: "/f4.jpg",
-  },
-  {
-    title: "GLOBAL LIVING SUITES (Student Housing)",
-    desc: "Comfortable, secure residences with modern amenities.",
-    image: "/f5.jpg",
-    highlight: true,
-  },
-];
+type FacilitiesData = {
+  header: {
+    tag: string;
+    title: string;
+    highlight: string;
+    description: string;
+  };
+  items: FacilityItem[];
+};
 
-export default function FacilitiesSection() {
+type FacilitiesSectionProps = {
+  data: FacilitiesData;
+};
+
+// 🔹 Simple icon mapper
+const getIcon = (title: string) => {
+  if (title.includes("Wi-Fi")) return <Wifi className="w-6 h-6" />;
+  if (title.includes("Labs")) return <Cpu className="w-6 h-6" />;
+  if (title.includes("Library")) return <BookOpen className="w-6 h-6" />;
+  if (title.includes("Sports")) return <Trophy className="w-6 h-6" />;
+  if (title.includes("Wellness")) return <HeartPulse className="w-6 h-6" />;
+  return <Building2 className="w-6 h-6" />;
+};
+
+const FacilitiesSection = ({ data }: FacilitiesSectionProps) => {
   return (
-    <section className="bg-white py-16 px-6">
+    <section className="py-20 bg-gray-50">
       <div className="max-w-[1400px] mx-auto px-6">
-        {/* Heading */}
-        <h2 className="text-center text-2xl md:text-4xl text-[#1B4E8C] mb-12 tracking-wide">
-          WORLD-CLASS CAMPUS FACILITIES
-        </h2>
+        <CommonHeader
+          tag={data.header.tag}
+          title={data.header.title}
+          highlight={data.header.highlight}
+          description={data.header.description}
+        />
 
-        {/* Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-          {/* Big Left Card */}
-          <div className="relative h-[300px] md:col-span-1 rounded-xl overflow-hidden">
-            <Image
-              src={facilities[0].image}
-              alt=""
-              fill
-              className="object-cover"
-            />
-            <OverlayCard data={facilities[0]} />
-          </div>
-
-          {/* Middle Large Card */}
-          <div className="relative h-[300px] md:col-span-1 rounded-xl overflow-hidden">
-            <Image
-              src={facilities[1].image}
-              alt=""
-              fill
-              className="object-cover"
-            />
-            <OverlayCard data={facilities[1]} />
-          </div>
-
-          {/* Two Stacked Cards */}
-          <div className="flex flex-col gap-6">
-            {[facilities[2], facilities[3]].map((item, i) => (
-              <div
-                key={i}
-                className="relative h-[140px] rounded-xl overflow-hidden"
-              >
-                <Image src={item.image} alt="" fill className="object-cover" />
-                <OverlayCard data={item} small />
+        <div className="grid md:grid-cols-3 gap-6 mt-12">
+          {data.items.map((item, i) => (
+            <div
+              key={i}
+              className="
+                relative
+                bg-white
+                p-6
+                rounded-2xl
+                shadow-sm
+                hover:shadow-xl
+                transition-all duration-300
+                border-b-4 border-b-[#0A8F96]
+                group
+              "
+            >
+              {/* 🔹 ICON */}
+              <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-[#0A8F96]/10 text-[#0A8F96] mb-4">
+                {getIcon(item.title)}
               </div>
-            ))}
-          </div>
 
-          {/* Highlight Card */}
-          <div className="relative h-[300px] rounded-xl overflow-hidden">
-            <Image
-              src={facilities[4].image}
-              alt=""
-              fill
-              className="object-cover"
-            />
-            <div className="absolute inset-0 bg-teal-600/80" />
-            <div className="absolute bottom-0 p-4 text-white">
-              <h3 className="text-xl">{facilities[4].title}</h3>
-              <p className="text-base mt-1">{facilities[4].desc}</p>
-              <span className="text-sm mt-2 inline-block font-medium">
-                Learn More →
-              </span>
+              {/* 🔹 TITLE */}
+              <h4 className=" text-[#0F1E3D] text-lg">{item.title}</h4>
+
+              {/* 🔹 DESC */}
+              <p className="text-gray-500 text-base mt-2 leading-relaxed">
+                {item.desc}
+              </p>
+
+              {/* 🔹 BOTTOM ACCENT LINE */}
             </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>
   );
-}
+};
 
-/* Overlay Component */
-function OverlayCard({ data, small = false }: any) {
-  return (
-    <div className="absolute inset-0 bg-black/50 flex flex-col justify-end p-4 text-white">
-      <h3 className={` ${small ? "text-base" : "text-xl"}`}>{data.title}</h3>
-      <p className="text-base mt-1">{data.desc}</p>
-      <span className="text-sm mt-2 inline-block font-medium">
-        Learn More →
-      </span>
-    </div>
-  );
-}
+export default FacilitiesSection;

@@ -48,31 +48,52 @@ export function Navigation() {
       ug: [
         {
           label: "B.Tech Computer Science & Engineering",
-          href: "/programmes/ug/btech-cse",
+          href: "/schools/computer-science/btech-cse",
         },
-        { label: "B.Tech AI & Machine Learning", href: "/programmes/ug/ai-ml" },
-        { label: "B.Tech Data Science", href: "/programmes/ug/data-science" },
+        {
+          label: "B.Tech AI & Machine Learning",
+          href: "/schools/computer-science/btech-ai-ml",
+        },
+        {
+          label: "B.Tech Data Science",
+          href: "/schools/computer-science/btech-data-science",
+        },
         {
           label: "B.Tech Cyber Security",
-          href: "/programmes/ug/cyber-security",
+          href: "/schools/computer-science/cyber-security",
         },
-        { label: "B.Tech Blockchain", href: "/programmes/ug/blockchain" },
-        { label: "B.Tech Internet of Things", href: "/programmes/ug/iot" },
-        { label: "B.Tech DevOps", href: "/programmes/ug/devops" },
-        { label: "B.Tech Big Data", href: "/programmes/ug/big-data" },
-        { label: "B.Tech Robotics & AI", href: "/programmes/ug/robotics-ai" },
+        {
+          label: "B.Tech Blockchain",
+          href: "/schools/computer-science/btech-blockchain",
+        },
+        {
+          label: "B.Tech Internet of Things",
+          href: "/schools/computer-science/btech-iot",
+        },
+        {
+          label: "B.Tech DevOps",
+          href: "/schools/computer-science/btech-devops",
+        },
+        {
+          label: "B.Tech Big Data",
+          href: "/schools/computer-science/btech-big-data",
+        },
+        {
+          label: "B.Tech Robotics & AI",
+          href: "/schools/computer-science/btech-robotics-ai",
+        },
       ],
       pg: [
-        { label: "M.Tech AI", href: "/programmes/pg/mtech-ai" },
+        { label: "M.Tech AI", href: "/schools/pg/mtech-ai" },
         {
           label: "M.Tech Data Science",
-          href: "/programmes/pg/mtech-data-science",
+          href: "/schools/pg/mtech-data-science",
         },
       ],
       phd: [
         {
           label: "PhD in Computer Science & Engineering",
-          href: "/programmes/phd/cse",
+          href: "/schools/phd/cse",
         },
       ],
     },
@@ -81,114 +102,114 @@ export function Navigation() {
       ug: [
         {
           label: "B.Tech Electronics & Communication Engineering",
-          href: "/programmes/ug/ece",
+          href: "/schools/ug/ece",
         },
         {
           label: "B.Tech Electrical & Electronics Engineering",
-          href: "/programmes/ug/eee",
+          href: "/schools/ug/eee",
         },
-        { label: "B.Tech VLSI", href: "/programmes/ug/vlsi" },
-        { label: "B.Tech Civil Engineering", href: "/programmes/ug/civil" },
+        { label: "B.Tech VLSI", href: "/schools/ug/vlsi" },
+        { label: "B.Tech Civil Engineering", href: "/schools/ug/civil" },
         {
           label: "B.Tech Mechanical Engineering",
-          href: "/programmes/ug/mechanical",
+          href: "/schools/ug/mechanical",
         },
         {
           label: "B.Tech Petroleum Engineering",
-          href: "/programmes/ug/petroleum",
+          href: "/schools/ug/petroleum",
         },
       ],
       pg: [
         {
           label: "M.Tech Embedded Systems & VLSI",
-          href: "/programmes/pg/vlsi",
+          href: "/schools/pg/vlsi",
         },
         {
           label: "M.Tech Construction Technology",
-          href: "/programmes/pg/construction",
+          href: "/schools/pg/construction",
         },
       ],
       phd: [
         {
           label: "PhD Electronics & Communication",
-          href: "/programmes/phd/ece",
+          href: "/schools/phd/ece",
         },
         {
           label: "PhD Mechanical Engineering",
-          href: "/programmes/phd/mechanical",
+          href: "/schools/phd/mechanical",
         },
-        { label: "PhD Civil Engineering", href: "/programmes/phd/civil" },
+        { label: "PhD Civil Engineering", href: "/schools/phd/civil" },
         {
           label: "PhD Electrical Engineering",
-          href: "/programmes/phd/electrical",
+          href: "/schools/phd/electrical",
         },
         {
           label: "PhD Petroleum Engineering",
-          href: "/programmes/phd/petroleum",
+          href: "/schools/phd/petroleum",
         },
       ],
     },
 
     "Information Science": {
       ug: [
-        { label: "BCA", href: "/programmes/ug/bca" },
-        { label: "BCA Data Science", href: "/programmes/ug/bca-data-science" },
+        { label: "BCA", href: "/schools/ug/bca" },
+        { label: "BCA Data Science", href: "/schools/ug/bca-data-science" },
         {
           label: "BCA AI & Machine Learning",
-          href: "/programmes/ug/bca-ai-ml",
+          href: "/schools/ug/bca-ai-ml",
         },
       ],
-      pg: [{ label: "MCA", href: "/programmes/pg/mca" }],
+      pg: [{ label: "MCA", href: "/schools/pg/mca" }],
       phd: [
         {
           label: "PhD in Information Science",
-          href: "/programmes/phd/information-science",
+          href: "/schools/phd/information-science",
         },
       ],
     },
 
     Management: {
       ug: [
-        { label: "BBA", href: "/programmes/ug/bba" },
+        { label: "BBA", href: "/schools/ug/bba" },
         {
           label: "BBA Aviation Management",
-          href: "/programmes/ug/bba-aviation",
+          href: "/schools/ug/bba-aviation",
         },
         {
           label: "BBA Business Analytics",
-          href: "/programmes/ug/bba-analytics",
+          href: "/schools/ug/bba-analytics",
         },
         {
           label: "BBA Digital Marketing",
-          href: "/programmes/ug/bba-digital-marketing",
+          href: "/schools/ug/bba-digital-marketing",
         },
         {
           label: "BBA Digital Business",
-          href: "/programmes/ug/bba-digital-business",
+          href: "/schools/ug/bba-digital-business",
         },
         {
           label: "BBA Hospitality Management",
-          href: "/programmes/ug/bba-hospitality",
+          href: "/schools/ug/bba-hospitality",
         },
       ],
       pg: [
-        { label: "MBA Finance", href: "/programmes/pg/mba-finance" },
-        { label: "MBA Marketing", href: "/programmes/pg/mba-marketing" },
-        { label: "MBA Banking & Finance", href: "/programmes/pg/mba-banking" },
-        { label: "MBA Digital Marketing", href: "/programmes/pg/mba-digital" },
+        { label: "MBA Finance", href: "/schools/pg/mba-finance" },
+        { label: "MBA Marketing", href: "/schools/pg/mba-marketing" },
+        { label: "MBA Banking & Finance", href: "/schools/pg/mba-banking" },
+        { label: "MBA Digital Marketing", href: "/schools/pg/mba-digital" },
         {
           label: "MBA Business Analytics",
-          href: "/programmes/pg/mba-analytics",
+          href: "/schools/pg/mba-analytics",
         },
       ],
       phd: [
-        { label: "PhD in Management", href: "/programmes/phd/management" },
-        { label: "PhD in Marketing", href: "/programmes/phd/marketing" },
-        { label: "PhD in Finance", href: "/programmes/phd/finance" },
-        { label: "PhD in HR", href: "/programmes/phd/hr" },
+        { label: "PhD in Management", href: "/schools/phd/management" },
+        { label: "PhD in Marketing", href: "/schools/phd/marketing" },
+        { label: "PhD in Finance", href: "/schools/phd/finance" },
+        { label: "PhD in HR", href: "/schools/phd/hr" },
         {
           label: "PhD in Business Analytics",
-          href: "/programmes/phd/analytics",
+          href: "/schools/phd/analytics",
         },
       ],
     },
@@ -197,116 +218,116 @@ export function Navigation() {
       ug: [
         {
           label: "B.Com Banking & Finance",
-          href: "/programmes/ug/bcom-banking",
+          href: "/schools/ug/bcom-banking",
         },
-        { label: "B.Com ACCA", href: "/programmes/ug/bcom-acca" },
+        { label: "B.Com ACCA", href: "/schools/ug/bcom-acca" },
         {
           label: "B.Com Corporate Accounting",
-          href: "/programmes/ug/bcom-accounting",
+          href: "/schools/ug/bcom-accounting",
         },
         {
           label: "B.Com Business Analytics",
-          href: "/programmes/ug/bcom-analytics",
+          href: "/schools/ug/bcom-analytics",
         },
-        { label: "B.Com CMA-US", href: "/programmes/ug/bcom-cma" },
-        { label: "B.Com CA Foundation", href: "/programmes/ug/bcom-ca" },
+        { label: "B.Com CMA-US", href: "/schools/ug/bcom-cma" },
+        { label: "B.Com CA Foundation", href: "/schools/ug/bcom-ca" },
       ],
       pg: [],
-      phd: [{ label: "PhD in Commerce", href: "/programmes/phd/commerce" }],
+      phd: [{ label: "PhD in Commerce", href: "/schools/phd/commerce" }],
     },
 
     Law: {
       ug: [
-        { label: "BA LLB (Hons.)", href: "/programmes/ug/ba-llb" },
-        { label: "BBA LLB (Hons.)", href: "/programmes/ug/bba-llb" },
+        { label: "BA LLB (Hons.)", href: "/schools/ug/ba-llb" },
+        { label: "BBA LLB (Hons.)", href: "/schools/ug/bba-llb" },
       ],
-      pg: [{ label: "LL.M", href: "/programmes/pg/llm" }],
-      phd: [{ label: "PhD in Law", href: "/programmes/phd/law" }],
+      pg: [{ label: "LL.M", href: "/schools/pg/llm" }],
+      phd: [{ label: "PhD in Law", href: "/schools/phd/law" }],
     },
 
     Design: {
       ug: [
         {
           label: "B.Des Communication Design",
-          href: "/programmes/ug/design-communication",
+          href: "/schools/ug/design-communication",
         },
         {
           label: "B.Des Fashion Design",
-          href: "/programmes/ug/design-fashion",
+          href: "/schools/ug/design-fashion",
         },
         {
           label: "B.Des Product Design",
-          href: "/programmes/ug/design-product",
+          href: "/schools/ug/design-product",
         },
-        { label: "B.Des Space Design", href: "/programmes/ug/design-space" },
-        { label: "B.Des Game Design", href: "/programmes/ug/design-game" },
+        { label: "B.Des Space Design", href: "/schools/ug/design-space" },
+        { label: "B.Des Game Design", href: "/schools/ug/design-game" },
         {
           label: "B.Sc Multimedia & Animation",
-          href: "/programmes/ug/multimedia",
+          href: "/schools/ug/multimedia",
         },
       ],
       pg: [],
-      phd: [{ label: "PhD in Design", href: "/programmes/phd/design" }],
+      phd: [{ label: "PhD in Design", href: "/schools/phd/design" }],
     },
 
     "Media Studies": {
       ug: [
         {
           label: "BA Journalism & Mass Communication",
-          href: "/programmes/ug/journalism",
+          href: "/schools/ug/journalism",
         },
         {
           label: "BA Digital Marketing & Advertising",
-          href: "/programmes/ug/media-marketing",
+          href: "/schools/ug/media-marketing",
         },
         {
           label: "BA Film & Television Production",
-          href: "/programmes/ug/film",
+          href: "/schools/ug/film",
         },
-        { label: "BA AR/VR & Immersive Media", href: "/programmes/ug/ar-vr" },
+        { label: "BA AR/VR & Immersive Media", href: "/schools/ug/ar-vr" },
         {
           label: "BA Digital Storytelling",
-          href: "/programmes/ug/storytelling",
+          href: "/schools/ug/storytelling",
         },
       ],
       pg: [
         {
           label: "MA Journalism & Mass Communication",
-          href: "/programmes/pg/journalism",
+          href: "/schools/pg/journalism",
         },
       ],
-      phd: [{ label: "PhD in Media Studies", href: "/programmes/phd/media" }],
+      phd: [{ label: "PhD in Media Studies", href: "/schools/phd/media" }],
     },
 
     "Liberal Arts and Sciences": {
       ug: [
-        { label: "BA Psychology", href: "/programmes/ug/psychology" },
-        { label: "BA English", href: "/programmes/ug/english" },
-        { label: "BA History", href: "/programmes/ug/history" },
+        { label: "BA Psychology", href: "/schools/ug/psychology" },
+        { label: "BA English", href: "/schools/ug/english" },
+        { label: "BA History", href: "/schools/ug/history" },
         {
           label: "BA Political Science",
-          href: "/programmes/ug/political-science",
+          href: "/schools/ug/political-science",
         },
-        { label: "BA Sociology", href: "/programmes/ug/sociology" },
-        { label: "BA Economics", href: "/programmes/ug/economics" },
-        { label: "BA Performing Arts", href: "/programmes/ug/performing-arts" },
-        { label: "B.Sc Psychology", href: "/programmes/ug/psychology-bsc" },
+        { label: "BA Sociology", href: "/schools/ug/sociology" },
+        { label: "BA Economics", href: "/schools/ug/economics" },
+        { label: "BA Performing Arts", href: "/schools/ug/performing-arts" },
+        { label: "B.Sc Psychology", href: "/schools/ug/psychology-bsc" },
       ],
       pg: [
         {
           label: "M.Sc Psychology (Clinical)",
-          href: "/programmes/pg/psychology-clinical",
+          href: "/schools/pg/psychology-clinical",
         },
         {
           label: "M.Sc Psychology (Counselling)",
-          href: "/programmes/pg/psychology-counselling",
+          href: "/schools/pg/psychology-counselling",
         },
-        { label: "MA English", href: "/programmes/pg/english" },
+        { label: "MA English", href: "/schools/pg/english" },
       ],
       phd: [
-        { label: "PhD in Psychology", href: "/programmes/phd/psychology" },
-        { label: "PhD in English", href: "/programmes/phd/english" },
-        { label: "PhD in Economics", href: "/programmes/phd/economics" },
+        { label: "PhD in Psychology", href: "/schools/phd/psychology" },
+        { label: "PhD in English", href: "/schools/phd/english" },
+        { label: "PhD in Economics", href: "/schools/phd/economics" },
       ],
     },
 
@@ -314,7 +335,7 @@ export function Navigation() {
       ug: [
         {
           label: "Bachelor of Physiotherapy (BPT)",
-          href: "/programmes/ug/bpt",
+          href: "/schools/ug/bpt",
         },
       ],
       pg: [],
@@ -413,19 +434,19 @@ export function Navigation() {
       quickLinks: [
         {
           label: "All Undergraduate Programmes",
-          href: "/programmes/ug",
+          href: "/schools/ug",
         },
         {
           label: "All Postgraduate Programmes",
-          href: "/programmes/pg",
+          href: "/schools/pg",
         },
         {
           label: "PhD & Research",
-          href: "/programmes/phd",
+          href: "/schools/phd",
         },
         {
           label: "International Programmes",
-          href: "/programmes/international",
+          href: "/schools/international",
         },
       ],
     },

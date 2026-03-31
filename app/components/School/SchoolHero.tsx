@@ -53,7 +53,7 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
         ></div>
 
         {/* CONTENT */}
-        <div className="relative max-w-[1400px] mx-auto px-5 md:px-6 h-full flex items-center gap-60">
+        <div className="relative max-w-[1400px] mx-auto px-5 md:px-6 h-full flex items-center gap-60 justify-between">
           <div className="max-w-4xl text-white pt-10 md:pt-0 pb-28 md:pb-0">
             {/* TITLE */}
             <motion.h1
@@ -84,55 +84,50 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
             >
               Request Information
             </motion.button> */}
-            
-             <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-            className="flex flex-wrap gap-4 mb-10 mt-16"
-          >
-            <a
-              href="/brochures/cse-brochure.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
+
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.4 }}
+              className="flex flex-wrap gap-4 mb-5 mt-10"
             >
-              <button className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white/10 transition-all duration-300 hover:scale-105 flex items-center gap-2 text-lg backdrop-blur-sm">
+              <button className="bg-[#0A8F96] text-white px-8 py-4 rounded-lg hover:bg-[#0BB5B5] transition-all duration-300 hover:shadow-xl hover:scale-105 flex items-center gap-2 text-lg">
                 Download Brouchure
               </button>
-            </a>
-            <button className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white/10 transition-all duration-300 hover:scale-105 flex items-center gap-2 text-lg backdrop-blur-sm">
-              How to Apply
-            </button>
-            <button className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white/10 transition-all duration-300 hover:scale-105 flex items-center gap-2 text-lg backdrop-blur-sm">
-              Contact
-            </button>
-          </motion.div>
+              <button className="bg-white text-[#0F1E3D] px-8 py-4 rounded-lg hover:bg-gray-100 transition-all duration-300 hover:shadow-xl hover:scale-105 text-lg">
+                How to Apply
+              </button>
+              <button className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white/10 transition-all duration-300 hover:scale-105 flex items-center gap-2 text-lg backdrop-blur-sm">
+                Contact the OIA
+              </button>
+            </motion.div>
           </div>
           <div>
-              {data.stats && (
-              <div className="relative mt-5 ">
-                <div className="max-w-xl">
-                  <div className="flex flex-col justify-center items-center gap-4 md:gap-6">
+            {data.stats && (
+              <div className="mt-6">
+                <div className="max-w-sm mx-auto">
+                  <div className="flex flex-col items-center gap-4">
                     {data.stats.map((stat, index) => (
                       <motion.div
                         key={index}
-                        initial={{ opacity: 0, y: 30 }}
+                        initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
-                        transition={{ delay: 0.3 + index * 0.1 }}
+                        transition={{ delay: 0.2 + index * 0.1 }}
                         className="
-              bg-white/10 backdrop-blur-md 
-              border border-white/20 
-              rounded-xl 
-              px-4 py-4 
-              text-center 
-              transition-all duration-300
-              hover:bg-white/20 hover:scale-105
+              w-full
+              bg-white
+              rounded-2xl
+              px-6 py-5
+              text-center
+              shadow-md
+              hover:shadow-lg
+              transition duration-300
             "
                       >
-                        <p className="text-lg md:text-xl font-bold text-[#D4A843]">
+                        <p className="text-2xl font-semibold text-[#D4A843]">
                           {stat.value}
                         </p>
-                        <p className="text-xs md:text-sm text-white/80 mt-1">
+                        <p className="text-sm text-gray-600 mt-1">
                           {stat.label}
                         </p>
                       </motion.div>
