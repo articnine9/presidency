@@ -55,7 +55,7 @@ export default function ThoughtLeadersSection() {
         <img
           src={item.img}
           alt={item.name}
-          className="w-full h-[275px] object-cover group-hover:scale-110 transition duration-500"
+          className="w-full h-[250px] object-cover group-hover:scale-110 transition duration-500"
         />
       </div>
 
