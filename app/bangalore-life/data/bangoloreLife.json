@@ -1,0 +1,197 @@
+{
+  "hero": {
+    "title": {
+      "normal": "Living and Studying in",
+      "italic": "Bangalore, India"
+    },
+    "description": "India’s Silicon Valley offers a unique blend of technology, culture, and opportunity — shaping your university experience far beyond the classroom.",
+    "breadcrumb": ["Home", "International", "Life in Bangalore"],
+    "image": "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?q=80&w=1600&auto=format&fit=crop",
+    "stats": [
+      {
+        "value": "#1",
+        "label": "Tech Hub of India"
+      },
+      {
+        "value": "10,000+",
+        "label": "Startups & Tech Companies"
+      },
+      {
+        "value": "₹15K–35K",
+        "label": "Monthly Student Cost"
+      },
+      {
+        "value": "Global",
+        "label": "Career Opportunities"
+      }
+    ]
+  },
+  "BangaloreTechSection": {
+    "header": {
+      "tag": "City Advantage",
+      "title": "Bangalore —",
+      "highlight": "India’s Tech Capital",
+      "description": "The heart of innovation, startups, and global technology in Asia."
+    },
+    "content": {
+      "paragraphs": [
+        "Bengaluru is the third-largest city in India and the nation’s undisputed technology capital. Home to the Indian headquarters of Google, Microsoft, Amazon, IBM, Infosys, Wipro, and hundreds of innovative startups, it is a city that runs on ideas and ambition.",
+        "The same innovation culture that built the global tech industry here permeates university campuses, co-working spaces, and coffee shops across the city.",
+        "For students studying computing, engineering, business, design, or media, there is arguably no better city in Asia. Industry proximity enables guest lectures, live projects, and internships integrated into academic programmes.",
+        "Beyond technology, Bengaluru offers gardens, restaurants, architecture, music venues, and a thriving arts and culture scene — making it an exciting place to live and work."
+      ]
+    },
+    "companies": [
+      {
+        "name": "Google",
+        "logo": "img/logos/google.png"
+      },
+      {
+        "name": "Microsoft",
+        "logo": "img/logos/microsoft.png"
+      },
+      {
+        "name": "Amazon",
+        "logo": "img/logos/amazon.png"
+      },
+      {
+        "name": "IBM",
+        "logo": "img/logos/ibm.png"
+      },
+      {
+        "name": "Infosys",
+        "logo": "img/logos/infosys.png"
+      },
+      {
+        "name": "Wipro",
+        "logo": "img/logos/wipro.png"
+      }
+    ],
+    "highlights": [
+      {
+        "title": "Industry Exposure",
+        "desc": "Regular guest lectures and real-world collaboration with industry leaders."
+      },
+      {
+        "title": "Internship Access",
+        "desc": "Opportunities embedded into academic programmes."
+      },
+      {
+        "title": "Startup Ecosystem",
+        "desc": "One of Asia’s most dynamic startup environments."
+      },
+      {
+        "title": "Cultural Lifestyle",
+        "desc": "A vibrant mix of food, music, arts, and global experiences."
+      }
+    ]
+  },
+  "CareerSection": {
+    "header": {
+      "tag": "Career Outcomes",
+      "title": "Career Opportunities in",
+      "highlight": "Bangalore",
+      "description": "From campus to global careers — powered by industry, international pathways, and real-world exposure."
+    },
+    "intro": [
+      "Studying at Presidency University is not just an investment in education — it is a launchpad for a global career. The university’s international academic architecture, combined with Bengaluru’s position as Asia’s leading technology hub, equips graduates to compete globally.",
+      "Industry proximity ensures direct exposure to employers, real-world projects, and career-ready skills built into the academic journey."
+    ],
+    "recruiters": [
+      "Amazon",
+      "Capgemini",
+      "Deloitte",
+      "KPMG",
+      "Rakuten",
+      "BNP Paribas",
+      "OpenText",
+      "Clarivate",
+      "Infosys",
+      "Wipro",
+      "TCS",
+      "Quest Global"
+    ],
+    "pathways": [
+      {
+        "title": "3+1+1 Global Pathway",
+        "desc": "Complete your final year and a full Master’s degree abroad with dual international qualifications."
+      },
+      {
+        "title": "International Internships",
+        "desc": "Gain global work experience through exchange semesters and the IIPP programme."
+      },
+      {
+        "title": "Global Alumni Network",
+        "desc": "Join a network of graduates working and studying across four continents."
+      }
+    ],
+    "outcomes": [
+      "Campus recruitment by multinational companies",
+      "Opportunities across Europe, USA, and Asia",
+      "Industry-integrated learning experience",
+      "Strong global employability"
+    ]
+  },
+  "CostSection": {
+    "header": {
+      "tag": "Student Life",
+      "title": "Cost of Living in",
+      "highlight": "Bangalore",
+      "description": "High quality of life at a fraction of global costs — ideal for international students."
+    },
+    "intro": [
+      "Bangalore offers an exceptional quality of life at a cost far lower than cities in Europe, North America, or other major Asian hubs. For international students, this means your budget stretches further without compromising on lifestyle or experience."
+    ],
+    "averageCost": {
+      "range": "₹15,000 – ₹35,000",
+      "usd": "$180 – $420",
+      "gbp": "£140 – £330",
+      "note": "Estimated monthly living cost (excluding tuition)"
+    },
+    "highlights": [
+      {
+        "title": "Pleasant Climate",
+        "desc": "Moderate temperatures between 17°C and 35°C year-round.",
+        "icon": "climate"
+      },
+      {
+        "title": "Easy Transport",
+        "desc": "Metro, buses, and ride apps like Uber, Ola, and Rapido.",
+        "icon": "transport"
+      },
+      {
+        "title": "Healthcare Access",
+        "desc": "World-class hospitals and healthcare infrastructure.",
+        "icon": "health"
+      },
+      {
+        "title": "Shopping & Entertainment",
+        "desc": "Malls, markets, cinemas, and vibrant nightlife.",
+        "icon": "shopping"
+      },
+      {
+        "title": "Safe Environment",
+        "desc": "One of India’s safer cities with secure campus facilities.",
+        "icon": "safety"
+      }
+    ],
+    "breakdown": [
+      {
+        "item": "Accommodation",
+        "value": "₹6,000 – ₹15,000"
+      },
+      {
+        "item": "Food",
+        "value": "₹4,000 – ₹8,000"
+      },
+      {
+        "item": "Transport",
+        "value": "₹1,000 – ₹3,000"
+      },
+      {
+        "item": "Personal & Leisure",
+        "value": "₹2,000 – ₹6,000"
+      }
+    ]
+  }
+}
