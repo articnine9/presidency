@@ -44,9 +44,9 @@ export function InternationalStudentsSection() {
               thrives, and global careers begin.
             </p>
 
-            <button className="bg-[#D4A843] text-white px-6 py-3 rounded-md hover:bg-[#b8932e] transition">
+            {/* <button className="bg-[#D4A843] text-white px-6 py-3 rounded-md hover:bg-[#b8932e] transition">
               Know More
-            </button>
+            </button> */}
           </div>
         </div>
       </div>

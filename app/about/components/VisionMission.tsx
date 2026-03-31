@@ -1,18 +1,31 @@
 "use client";
+import { motion } from "motion/react";
 
 import { CheckCircle } from "lucide-react";
+import CommonHeader from "@/app/components/CommonHeader";
 
 export default function VisionMission() {
   return (
-    <section className="py-16 px-6 bg-[#fff]">
+   <section className="py-24 bg-white relative overflow-hidden">
       <div className="max-w-[1400px] mx-auto px-6">
+
+         <CommonHeader
+                  tag="Vision, Mission & Values"
+                  title="The Core of "
+                  highlight="Presidency"
+                  description={`At the heart of the University lies a commitment to vision, mission, and values that inspire innovation, guide growth, and create lasting impact.`}
+                  primaryColor="#ff8c42"
+                  secondaryColor="#1e3a5f"
+                  align="center"
+                />
         {/* 🔹 TITLE */}
-        <h2 className="text-3xl md:text-4xl font-bold text-[#1e3a5f] mb-4">
-          VISION, MISSION & VALUES
-        </h2>
+       
 
         {/* 🔥 CARDS */}
-        <div className="grid md:grid-cols-3 gap-6">
+        < div 
+        
+        
+        className="grid md:grid-cols-3 gap-6">
       
           {/* <div className="relative rounded-xl overflow-hidden shadow-md">
             <img
@@ -28,19 +41,34 @@ export default function VisionMission() {
 
           {/* 🟡 VISION CARD */}
 
-           <div className="bg-white rounded-xl shadow-md p-5">
-            <h3 className="font-semibold text-gray-800 mb-4">VISION</h3>
+           <motion.div 
+           initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            whileHover={{ y: -15}}
+                className={`bg-white shadow-md rounded-xl p-8 border-b-4  border-b-[#0A8F96] hover:shadow-xl transition`}>
+            
+            <h3 className="text-lg font-semibold text-[#1e3a5f]">
+                  Vision
+                </h3>
 
            <p className="space-y-3 text-base text-gray-600 max-w-md">
             To be an internationally networked research university, dedicated to research-oriented teaching and the holistic development of students as global citizens.
           </p>
-          </div>
+          </motion.div>
 
 
 
           {/* 🟡 MISSION CARD */}
-          <div className="bg-white rounded-xl shadow-md p-5">
-            <h3 className="font-semibold text-gray-800 mb-4">MISSION</h3>
+          <motion.div 
+           initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            whileHover={{ y: -15}}
+                className={`bg-white shadow-md rounded-xl p-8 border-b-4  border-b-[#0A8F96] hover:shadow-xl transition`}>
+             <h3 className="text-lg font-semibold text-[#1e3a5f]">
+                  Mission
+                </h3>
 
             {/* <ul className="space-y-3 text-sm text-gray-600">
               <li className="flex items-start gap-2">
@@ -73,15 +101,22 @@ export default function VisionMission() {
             <p className="space-y-3 text-base text-gray-600 max-w-md">
             To provide an academically excellent and globally connected environment that empowers students to think critically, innovate boldly, and lead with integrity.
           </p>
-          </div>
+          </motion.div>
 
           {/* 🟢 VALUES CARD */}
-          <div className="bg-white rounded-xl shadow-md p-5">
-            <h3 className="font-semibold text-gray-800 mb-4">VALUES</h3>
+          <motion.div 
+           initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+           whileHover={{ y: -15}}
+                className={`bg-white shadow-md rounded-xl p-8 border-b-4  border-b-[#0A8F96] hover:shadow-xl transition`}>
+             <h3 className="text-lg font-semibold text-[#1e3a5f]">
+                  Values
+                </h3>
 
             <ul className="space-y-3 text-base text-gray-600">
               <li className="flex items-start gap-2">
-                <CheckCircle size={16} className="text-[#c4a45b] mt-1" />
+                <CheckCircle size={16} className="text-[#ff8c42] mt-1" />
                 <span>
                   
                  Academic Excellence 
@@ -89,7 +124,7 @@ export default function VisionMission() {
               </li>
 
               <li className="flex items-start gap-2">
-                <CheckCircle size={16} className="text-[#c4a45b] mt-1" />
+                <CheckCircle size={16} className="text-[#ff8c42] mt-1" />
                 <span>
                  
                   Global Outlook
@@ -97,35 +132,35 @@ export default function VisionMission() {
               </li>
 
               <li className="flex items-start gap-2">
-                <CheckCircle size={16} className="text-[#c4a45b] mt-1" />
+                <CheckCircle size={16} className="text-[#ff8c42] mt-1" />
                 <span>
                   
                   Inclusivity & Diversity
                 </span>
               </li>
                <li className="flex items-start gap-2">
-                <CheckCircle size={16} className="text-[#c4a45b] mt-1" />
+                <CheckCircle size={16} className="text-[#ff8c42] mt-1" />
                 <span>
                   
                  Innovation & Entrepreneurship
                 </span>
               </li>
                <li className="flex items-start gap-2">
-                <CheckCircle size={16} className="text-[#c4a45b] mt-1" />
+                <CheckCircle size={16} className="text-[#ff8c42] mt-1" />
                 <span>
                   
                  Integrity & Ethics
                 </span>
               </li>
                <li className="flex items-start gap-2">
-                <CheckCircle size={16} className="text-[#c4a45b] mt-1" />
+                <CheckCircle size={16} className="text-[#ff8c42] mt-1" />
                 <span>
                   
                  Social Responsibility
                 </span>
               </li>
             </ul>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

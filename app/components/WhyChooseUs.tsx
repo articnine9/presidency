@@ -8,42 +8,42 @@ export function WhyChooseUs() {
     {
       title: "100+ Global Programmes",
       desc: "UG, PG & Doctoral across 10 Schools",
-      img: "/img/why-choose/1.png",
+      img: "/img/why-choose/004.png",
     },
     {
       title: "Verified Accreditations",
       desc: "NAAC A+ • UGC, BCI, AICTE",
-      img: "/img/why-choose/2.jpeg",
+      img: "/img/why-choose/009.png",
     },
     {
       title: "International Pathways",
       desc: "3+1+1 Dual Degree • Global MoUs",
-      img: "/img/why-choose/3.png",
+      img: "/img/why-choose/003.png",
     },
     {
       title: "Vibrant Campus",
       desc: "Clubs, Activities & Hostels",
-      img: "/img/why-choose/4.png",
+      img: "/img/why-choose/005.png",
     },
     {
       title: "Top Placements",
       desc: "300+ Industry Recruiters",
-      img: "/img/why-choose/5.png",
+      img: "/img/why-choose/002.png",
     },
     {
       title: "World-Class Facilities",
       desc: "Labs, Digital Campus",
-      img: "/img/why-choose/6.png",
+      img: "/img/why-choose/006.png",
     },
     {
       title: "Bangalore Advantage",
       desc: "India’s Silicon Valley",
-      img: "/img/why-choose/7.jpeg",
+      img: "/img/why-choose/007.png",
     },
     {
       title: "Faculty Support",
       desc: "Mentorship & OBE Learning",
-      img: "/img/why-choose/8.png",
+      img: "/img/why-choose/008.png",
     },
   ];
 
@@ -73,13 +73,16 @@ export function WhyChooseUs() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: i * 0.1 }}
               viewport={{ once: true }}
-              className="group relative bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+              className="group relative h-[400px] flex flex-col bg-white rounded-2xl shadow-md border-b-4 overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+               style={{
+    borderBottomColor: i < items.length / 2 ? "#0A8F96" : "#d4a843"
+  }}
             >
               {/* GOLD ACCENT */}
               {/* <div className="absolute top-0 left-0 w-10 h-1 bg-[#C9A24A]"></div> */}
 
               {/* IMAGE */}
-              <div className="h-48 overflow-hidden">
+              <div className="flex-1">
                 <img
                   src={item.img}
                   alt={item.title}

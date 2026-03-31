@@ -34,9 +34,9 @@ export function CommunitySection() {
           </div>
 
           <h2 className="text-2xl md:text-4xl text-[#1e3a5f] mb-6">
-            A VIBRANT AND
+            A Vibrant and Engaging
             <br />
-            <span className="text-[#ff8c42]">ENGAGING CAMPUS</span>
+            <span className="text-[#ff8c42]"> Campus</span>
           </h2>
 
           <p className="text-gray-700 text-lg max-w-3xl mx-auto">
@@ -76,7 +76,7 @@ export function CommunitySection() {
         {/* Bottom decorative quote */}
         <div className="mt-16 text-center">
           <div className="inline-block bg-gradient-to-r from-[#1e3a5f] to-[#2a4a6f] rounded-3xl p-8 lg:p-12 shadow-xl max-w-4xl">
-            <p className="text-white text-2xl md:text-3xl italic leading-relaxed">
+            <p className="text-white text-base md:text-xl italic leading-relaxed">
               "More than just education, it's a transformative journey where you
               discover your passion, build lifelong friendships, and prepare for
               global success."

@@ -34,9 +34,7 @@ export default function AboutHero() {
           </div>
         </div>
       )}
-      <section className="relative w-full  min-h-[70vh]
- 
-    flex items-center justify-center px-4 sm:px-6 lg:px-8">
+      <section className="relative w-full  h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8">
         {/* Video Background */}
         <div className="absolute inset-0 z-0">
           <img
@@ -63,6 +61,14 @@ export default function AboutHero() {
         {/* Content */}
         <div className="relative z-10 max-w-[1400px] mx-auto px-5 md:px-10 w-full">
           <div className="max-w-4xl">
+            <motion.h1
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.1 }}
+            className="text-white mb-6 text-5xl md:text-6xl lg:text-7xl"
+          >
+            Where Ambition Meets Opportunity
+          </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
@@ -88,7 +94,7 @@ export default function AboutHero() {
             >
               Presidency University, Bangalore, is a University established under the Karnataka Act 41 of 2013 by the Presidency Group of Institutions — an educational legacy spanning five decades. The university is approved by the University Grants Commission (UGC) of India and is accredited by NAAC (National Assessment and Accreditation Council). It features in the Times Higher Education (THE) World University Rankings, the QS Rankings & Ratings, and the National Institutional Ranking Framework (NIRF).
             </motion.p> */}
-             
+
 
           </div>
           <motion.div

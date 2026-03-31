@@ -1,6 +1,8 @@
 "use client";
+import { motion } from "motion/react";
 import { useEffect, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import CommonHeader from "@/app/components/CommonHeader";
 
 
 const data1 = [
@@ -38,45 +40,26 @@ export default function LeadershipSection() {
   ];
 
   return (
-    <section className="py-16 px-6 bg-[#f3f4f6]">
+    <section className="py-24 bg-white relative overflow-hidden">
 
       <div className="max-w-[1400px] mx-auto text-center px-6">
         {/* 🔹 TITLE */}
-        <h2 className="text-3xl md:text-4xl font-bold text-[#1e3a5f] mb-4">
-          LEADERSHIP & GOVERNANCE
-        </h2>
+         <CommonHeader
+                          tag="Leadership & Governance"
+                          title="Guided by Strong "
+                          highlight="Leadership"
+                          description={``}
+                          primaryColor="#ff8c42"
+                          secondaryColor="#1e3a5f"
+                          align="center"
+                        />
+       
 
         <div className="space-y-12 py-10">
           <Carousel direction="right" data={data1} />
           <Carousel direction="left" data={data2} />
         </div>
 
-        {/* 🔥 CARDS */}
-        {/* <div className="grid md:grid-cols-2 gap-6">
-          {leaders.map((item, i) => (
-            <div
-              key={i}
-              className="bg-white rounded-xl shadow-md p-5 flex items-center gap-4 text-left hover:shadow-lg transition"
-            >
-              
-              <img
-                src={item.img}
-                className="w-[80px] h-[100px] object-cover rounded-lg"
-              />
-
-              
-              <div>
-                <h3 className=" text-gray-800 text-2xl">{item.name}</h3>
-
-                <p className="text-xl text-gray-500 mb-1">{item.subtitle}</p>
-
-                <p className="text-base text-gray-600 leading-relaxed">
-                  {item.desc}
-                </p>
-              </div>
-            </div>
-          ))}
-        </div> */}
       </div>
     </section>
   );
@@ -93,6 +76,7 @@ function Carousel({
   const [isAnimating, setIsAnimating] = useState(false);
   const [translate, setTranslate] = useState(0);
   const containerRef = useRef<HTMLDivElement>(null);
+  const cardRef = useRef<HTMLDivElement>(null);
 
   const cardWidth = 280; // match Tailwind min width
   const visibleCards = 4; // desktop
@@ -107,7 +91,7 @@ function Carousel({
       slide();
     }, 3000);
     return () => clearInterval(interval);
-  }, []);
+  }, [items]);
 
   const slide = () => {
     if (isAnimating || !containerRef.current) return;

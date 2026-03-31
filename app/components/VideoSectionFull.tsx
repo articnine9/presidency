@@ -8,9 +8,10 @@ export default function VideoSectionFull() {
   const [videoError, setVideoError] = useState(false);
 
   return (
-    <section className="relative w-full h-[500px] md:h-[600px] overflow-hidden">
+    <section className="relative w-full h-screen overflow-hidden">
       {/* 🔥 VIDEO BACKGROUND */}
-      <div className="absolute inset-0 z-0">
+      
+      <div className="absolute inset-0 z-0 flex justify-center items-center">
         {!videoError ? (
           <video
             autoPlay
@@ -18,7 +19,7 @@ export default function VideoSectionFull() {
             muted
             playsInline
             preload="auto"
-            className="w-full h-full object-cover scale-105"
+            className="h-full object-cover scale-105 "
             onError={() => setVideoError(true)}
           >
             <source src="/videos/hero-video.mp4" type="video/mp4" />
@@ -26,7 +27,7 @@ export default function VideoSectionFull() {
         ) : (
           <img
             src="https://images.unsplash.com/photo-1769905226788-1bf5ba8f50d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5JTIwY2FtcHVzJTIwc3R1ZGVudHMlMjB3YWxraW5nfGVufDF8fHx8MTc3MzM5ODc4N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-            className="w-full h-full object-cover"
+            className="w-3/4 h-full object-cover"
           />
         )}
 

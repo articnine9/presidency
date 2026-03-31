@@ -28,16 +28,19 @@ export default function ThoughtLeadersSection() {
     { name: "Aditi Rao Hydari", role: "Actress", img: "/img/leaders/m5.jpeg" },
     { name: "Dhvani Bhanushali", role: "Singer", img: "/img/leaders/m6.jpeg" },
     { name: "Divya & Raghavendra", role: "Entrepreneurs", img: "/img/leaders/m7.jpeg" },
-    { name: "Rajiv Talreja", role: "Business Coach", img: "/img/leaders/m8.jpeg" },
     { name: "Sanjay Sahay", role: "Tech Founder", img: "/img/leaders/m9.jpeg" },
     { name: "Prerana Gopal", role: "Filmmaker", img: "/img/leaders/m10.jpeg" },
     { name: "Jonita Gandhi", role: "Singer", img: "/img/leaders/m11.jpeg" },
-    { name: "Aditi Rao Hydari", role: "Actress", img: "/img/leaders/m12.jpeg" },
-    { name: "Dhvani Bhanushali", role: "Singer", img: "/img/leaders/m13.jpeg" },
+    
+    { name: "Sanjay Sahay", role: "Tech Founder", img: "/img/leaders/m9.jpeg" },
+    { name: "Prerana Gopal", role: "Filmmaker", img: "/img/leaders/m10.jpeg" },
+    { name: "Jonita Gandhi", role: "Singer", img: "/img/leaders/m11.jpeg" },
+
+
   ];
 
-  const row1 = leaders.slice(0, 4);
-  const row2 = leaders.slice(4, 8);
+  const row1 = leaders.slice(0, 7);
+  const row2 = leaders.slice(7, 15);
 
   const Card = (item: Leader, i: number) => (
     <motion.div
@@ -46,13 +49,13 @@ export default function ThoughtLeadersSection() {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ delay: i * 0.1 }}
       viewport={{ once: true }}
-      className="group bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-2xl transition-all duration-300"
+      className="group bg-white rounded-2xl  shadow-md border-b-4 border-b-[#0A8F96] overflow-hidden hover:shadow-2xl transition-all duration-300"
     >
       <div className="overflow-hidden">
         <img
           src={item.img}
           alt={item.name}
-          className="w-full h-[450px] object-cover group-hover:scale-110 transition duration-500"
+          className="w-full h-[275px] object-cover group-hover:scale-110 transition duration-500"
         />
       </div>
 
@@ -66,7 +69,7 @@ export default function ThoughtLeadersSection() {
   );
 
   return (
-    <section className="py-16 bg-[#fff]">
+    <section className="py-24 bg-[#fff]">
       <div className="max-w-[1400px] mx-auto px-6">
         {/* ✅ HEADER */}
         <CommonHeader
@@ -81,12 +84,12 @@ Through keynote sessions, workshops, and discussions, students gain exposure to 
           align="center"
         />
 
-        <div className="mt-12">
+        <div className="mt-14">
           {/* ✅ ROW 1 */}
           <Swiper
             modules={[Autoplay]}
             spaceBetween={20}
-            slidesPerView={2}
+            slidesPerView={6}
             loop={true}
             autoplay={{
               delay: 2500,
@@ -94,8 +97,10 @@ Through keynote sessions, workshops, and discussions, students gain exposure to 
               pauseOnMouseEnter: true, // ✅ nice UX
             }}
             breakpoints={{
-              768: { slidesPerView: 2 },
-              1024: { slidesPerView: 3 },
+              0: { slidesPerView: 1 },
+              640: { slidesPerView: 2 },
+              768: { slidesPerView: 3 },
+              1024: { slidesPerView: 6 }, // ✅ important
             }}
           >
             {row1.map((item: Leader, i: number) => (
@@ -108,7 +113,7 @@ Through keynote sessions, workshops, and discussions, students gain exposure to 
             <Swiper
               modules={[Autoplay]}
               spaceBetween={20}
-              slidesPerView={2}
+              slidesPerView={6}
               loop={true}
               autoplay={{
                 delay: 3000,
@@ -117,8 +122,10 @@ Through keynote sessions, workshops, and discussions, students gain exposure to 
               }}
               dir="rtl" // 🔥 opposite direction
               breakpoints={{
-                768: { slidesPerView: 2 },
-                1024: { slidesPerView: 3 },
+                0: { slidesPerView: 1 },
+                640: { slidesPerView: 2 },
+                768: { slidesPerView: 3 },
+                1024: { slidesPerView: 6}, // ✅ important
               }}
             >
               {row2.map((item: Leader, i: number) => (

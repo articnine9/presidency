@@ -21,7 +21,7 @@ export function ProgrammesSection() {
         <div>
           <div className="relative h-[500px] lg:h-[600px] rounded-2xl overflow-hidden shadow-xl group mt-5">
             <img
-              src="img/prefect.png"
+              src="img/perfect.jpeg"
               alt="Students"
               className="w-full h-full object-cover transition duration-500"
             />
@@ -49,7 +49,7 @@ export function ProgrammesSection() {
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            className="text-[#4A5568] max-w-md"
+            className="text-[#4A5568] max-w-md text-lg"
           >
             Presidency University offers rigorous academic programmes, global
             exposure, and industry-driven learning.

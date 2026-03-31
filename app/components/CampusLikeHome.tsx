@@ -26,17 +26,17 @@ export function CampusLikeHome() {
     {
       title: " Design & Media Studios",
       subtitle: "SOD labs, media labs & broadcasting studios",
-      image: "img/bang-life/world.png",
+      image: "img/campus-like/design-media.jpeg",
     },
     {
-      title: "Advanced Learning Labs",
+      title: "Library & Knowledge Hub",
       subtitle: "AI, ML, IoT, VLSI & Robotics facilities",
-      image: "img/bang-life/life.png",
+      image: "img/campus-like/library.png",
       wide: true,
     },
     {
-      title: "  Library & Knowledge Hub",
-      subtitle: " Digital library, journals & Manupatra access",
+      title: "Advanced Learning Labs",
+      subtitle: "Digital library, journals & Manupatra access",
       image: "img/bang-life/innovation.png",
     },
   ];
@@ -70,7 +70,7 @@ export function CampusLikeHome() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
             viewport={{ once: true }}
-            className="text-gray-600 mt-4 max-w-2xl mx-auto"
+            className="text-gray-600 mt-4 max-w-2xl mx-auto text-lg"
           >
             Our campus is designed to deliver a world-class learning experience,
             combining advanced academic infrastructure with modern recreational
