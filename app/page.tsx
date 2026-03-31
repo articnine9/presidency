@@ -79,7 +79,7 @@ export default function App() {
       {/* <AmenitiesSection /> */}
       <EventsActivitiesSection />
       <InternationalStudentsSection />
-      {/* <BangaloreCTASection /> */}
+      <BangaloreCTASection />
       <PlacementPartnersSection />
 
       <ScholarshipsSection />

@@ -18,7 +18,7 @@ export function BangaloreCTASection() {
 
       <div className="relative max-w-[1000px] mx-auto px-6 text-center">
         {/* GLASS CARD */}
-        <div className="bg-white/10  rounded-2xl px-10 py-14 border border-white/20 shadow-2xl">
+        <div className="bg-black/50  rounded-2xl px-10 py-14 border border-white/20 shadow-2xl">
           {/* ✅ TAG */}
           <motion.span
             initial={{ opacity: 0, y: 20 }}
@@ -54,7 +54,7 @@ export function BangaloreCTASection() {
           </motion.p>
 
           {/* COMPANY LOGOS */}
-          <div className="flex flex-wrap justify-center gap-8 items-center mb-10 opacity-90">
+          <div className="flex flex-wrap justify-center gap-8 items-center mb-10 opacity-90 bg-white rounded-2xl p-8">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
               className="h-8 hover:scale-110 transition"
@@ -89,7 +89,6 @@ export function BangaloreCTASection() {
           {/* CTA */}
           <button className="bg-[#ff8c42] hover:bg-[#e6762f] px-8 py-4 rounded-md flex items-center gap-3 mx-auto transition shadow-lg hover:shadow-xl">
             Explore Bangalore Life
-            <ArrowRight size={18} />
           </button>
         </div>
       </div>
