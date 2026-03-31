@@ -83,8 +83,8 @@ export default function App() {
       <PlacementPartnersSection />
 
       <ScholarshipsSection />
-      <VideoSectionFull />
       <JourneySection />
+      <VideoSectionFull />
       <NewsSection />
       <InFocusSection />
       <CampusVirtualTourSection />

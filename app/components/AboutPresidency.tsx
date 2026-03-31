@@ -17,7 +17,7 @@ export function AboutPresidency() {
         <div className=" grid lg:grid-cols-2 gap-12  items-center">
           <div className="space-y-6">
             <CommonHeader
-              tag="About"
+              tag="About Presidency"
               title="A Global University Experience"
               highlight="in the Heart of India"
               description=""
@@ -31,7 +31,13 @@ export function AboutPresidency() {
               className="text-lg text-black/80 mb-10 max-w-3xl  "
             >
               Presidency University offers rigorous academic programmes, global
-              exposure, and industry-driven learning.
+              exposure, and industry-driven learning. Presidency University, Bangalore, is one of India’s most ambitious
+              private universities — a place where global thinking, cutting-edge
+              research, and a vibrant campus community come together on a lush
+              100-acre campus in the heart of India’s Silicon Valley. Whether
+              you are arriving from Africa, the Middle East, South-East Asia,
+              Europe, or beyond, you will find a university that is genuinely
+              built to welcome the world.
             </motion.p>
             <motion.p
               initial={{ opacity: 0, y: 30 }}
@@ -39,13 +45,7 @@ export function AboutPresidency() {
               transition={{ duration: 0.8, delay: 0.3 }}
               className="text-lg text-black/80 mb-10 max-w-3xl  "
             >
-              Presidency University, Bangalore, is one of India’s most ambitious
-              private universities — a place where global thinking, cutting-edge
-              research, and a vibrant campus community come together on a lush
-              100-acre campus in the heart of India’s Silicon Valley. Whether
-              you are arriving from Africa, the Middle East, South-East Asia,
-              Europe, or beyond, you will find a university that is genuinely
-              built to welcome the world.
+              
             </motion.p>
 
             <motion.p
@@ -62,9 +62,9 @@ export function AboutPresidency() {
               step of the way.
             </motion.p>
             <div className="flex ">
-              <button className="bg-[#0A8F96] text-white px-8 py-4 rounded-lg hover:bg-[#0BB5B5] transition-all duration-300 hover:shadow-xl hover:scale-105 flex items-center gap-2 text-lg">
+              <a href="/about"><button className="bg-[#0A8F96] text-white px-8 py-4 rounded-lg hover:bg-[#0BB5B5] transition-all duration-300 hover:shadow-xl hover:scale-105 flex items-center gap-2 text-lg">
                 Discover Presidency
-              </button>
+              </button></a>
             </div>
           </div>
           <div>

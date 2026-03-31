@@ -21,7 +21,7 @@ export default function JourneySection() {
             highlight="Starts Here"
             align="left"
           />
-          <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-6">
+          <p className="text-gray-600 text-sm md:text-lg leading-relaxed mb-6">
             Applying to Presidency University as an international student is
             straightforward. Our Office of International Affairs (OIA) guides
             you through every stage — from choosing your programme and preparing
@@ -29,7 +29,7 @@ export default function JourneySection() {
             on campus.
           </p>
 
-          <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-8">
+          <p className="text-gray-600 text-sm md:text-lg leading-relaxed mb-8">
             We welcome students from all academic backgrounds and nationalities.
             Whether you are a school leaver, a graduate, or a professional
             pursuing research, there is a place for you at Presidency.
@@ -65,7 +65,7 @@ export default function JourneySection() {
           {/* IMAGE 1 */}
           <div className="rounded-xl overflow-hidden shadow-md">
             <img
-              src="/img/hero/yourjourney-one.jpeg"
+              src="/img/hero/yourjourney-one.png"
               className="w-full h-[420px] object-cover"
             />
           </div>
@@ -73,7 +73,7 @@ export default function JourneySection() {
           {/* IMAGE 2 */}
           <div className="rounded-xl overflow-hidden shadow-md">
             <img
-              src="/img/hero/yourjourney-two.jpeg"
+              src="/img/hero/yourjourney-two.png"
               className="w-full h-[420px] object-cover"
             />
           </div>

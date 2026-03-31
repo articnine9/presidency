@@ -33,7 +33,7 @@ const news = [
 
 export function NewsSection() {
   return (
-    <section className="bg-[#062f54]  text-white relative">
+    <section className="bg-[#062f54]  text-white relative mt-20">
       <img
         src="/img/world.svg"
         alt="World Map"
@@ -71,7 +71,7 @@ export function NewsSection() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1 }}
               viewport={{ once: true }}
-              className="text-white/80 mt-3 sm:mt-4 text-sm sm:text-base"
+              className="text-white/80 mt-3 sm:mt-4 text-lg sm:text-lg"
             >
               Stay updated with the latest developments at Presidency
               University, including global collaborations, research
