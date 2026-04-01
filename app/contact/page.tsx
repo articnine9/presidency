@@ -16,7 +16,7 @@ const ContactPage = () => {
           description:
             "Reach out to our team for admissions support, partnerships, and international student enquiries.",
           breadcrumb: ["Home", "Contact"],
-          image: "/img/contact-hero.jpg",
+          image: "/img/contact/hero-bg.webp",
         }}
       />
       <ContactInfoSection />

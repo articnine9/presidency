@@ -6,7 +6,7 @@
     },
     "description": "Experience world-class education in Bangalore at Presidency University, offering over 100 programmes across engineering, management, law, design, and more. Join a globally connected campus with exceptional academic value and career opportunities.",
     "breadcrumb": ["Home", "Study in India", "Presidency University"],
-    "image": "https://images.unsplash.com/photo-1769905226788-1bf5ba8f50d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5JTIwY2FtcHVzJTIwc3R1ZGVudHMlMjB3YWxraW5nfGVufDF8fHx8MTc3MzM5ODc4N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+    "image": "/img/study-in-india/hero-bg.webp",
     "buttons": [
       {
         "label": "Explore Programs",
@@ -32,7 +32,7 @@
     "highlight": " Bangalore",
     "content": "Presidency University, Bangalore, is one of India's most dynamic private universities — a place where 50 years of academic heritage meets forward-thinking education. Situated on a lush 100-acre green campus in Yelahanka, Bengaluru, the university offers a portfolio of more than 100 programmes spanning engineering, management, law, design, media, liberal arts, commerce, and health sciences.",
     "note": "Whether you are arriving to pursue an undergraduate degree, a specialised postgraduate qualification, a doctoral research programme, or a short professional course, Presidency University offers a world-class learning environment at exceptional value. Our internationally networked campus hosts students from across the globe, supported by the Office of International Affairs (OIA) — your single point of contact from application through graduation.",
-    "image": "https://images.unsplash.com/photo-1769905226788-1bf5ba8f50d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5JTIwY2FtcHVzJTIwc3R1ZGVudHMlMjB3YWxraW5nfGVufDF8fHx8MTc3MzM5ODc4N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+    "image": "/img/study-in-india/study-in-india.webp"
   },
 
   "ug": {
@@ -45,62 +45,113 @@
       {
         "title": "Engineering & Technology",
         "courses": [
-          "B.Tech Computer Science & Engineering",
-          "AI & Machine Learning",
-          "Data Science",
-          "Cyber Security",
-          "Blockchain, IoT, DevOps",
-          "Robotics & AI",
-          "Civil, Mechanical, Petroleum Engineering"
+          {
+            "name": "B.Tech Computer Science & Engineering",
+            "link": "/programs/btech-cse"
+          },
+          { "name": "AI & Machine Learning", "link": "/programs/btech-ai-ml" },
+          { "name": "Data Science", "link": "/programs/btech-data-science" },
+          {
+            "name": "Cyber Security",
+            "link": "/programs/btech-cyber-security"
+          },
+          {
+            "name": "Blockchain, IoT, DevOps",
+            "link": "/programs/btech-blockchain-iot-devops"
+          },
+          { "name": "Robotics & AI", "link": "/programs/btech-robotics-ai" },
+          {
+            "name": "Civil, Mechanical, Petroleum Engineering",
+            "link": "/programs/btech-civil-mechanical-petroleum"
+          }
         ]
       },
       {
         "title": "Computing & Information Science",
-        "courses": ["BCA", "BCA (Data Science)", "BCA (AI & ML)"]
+        "courses": [
+          { "name": "BCA", "link": "/programs/bca" },
+          {
+            "name": "BCA (Data Science)",
+            "link": "/programs/bca-data-science"
+          },
+          { "name": "BCA (AI & ML)", "link": "/programs/bca-ai-ml" }
+        ]
       },
       {
         "title": "Management & Commerce",
         "courses": [
-          "BBA",
-          "BBA Aviation Management",
-          "BBA Business Analytics",
-          "B.Com (Finance, ACCA, CMA-US)"
+          { "name": "BBA", "link": "/programs/bba" },
+          {
+            "name": "BBA Aviation Management",
+            "link": "/programs/bba-aviation"
+          },
+          {
+            "name": "BBA Business Analytics",
+            "link": "/programs/bba-business-analytics"
+          },
+          { "name": "B.Com (Finance, ACCA, CMA-US)", "link": "/programs/bcom" }
         ]
       },
       {
         "title": "Law",
-        "courses": ["BA LLB (Hons.)", "BBA LLB (Hons.)"]
+        "courses": [
+          { "name": "BA LLB (Hons.)", "link": "/programs/ba-llb" },
+          { "name": "BBA LLB (Hons.)", "link": "/programs/bba-llb" }
+        ]
       },
       {
         "title": "Design & Creative Arts",
         "courses": [
-          "B.Des Communication Design",
-          "Fashion Design",
-          "Product Design",
-          "Game Design",
-          "Multimedia & Animation"
+          {
+            "name": "B.Des Communication Design",
+            "link": "/programs/bdes-communication-design"
+          },
+          { "name": "Fashion Design", "link": "/programs/bdes-fashion-design" },
+          { "name": "Product Design", "link": "/programs/bdes-product-design" },
+          { "name": "Game Design", "link": "/programs/bdes-game-design" },
+          {
+            "name": "Multimedia & Animation",
+            "link": "/programs/bdes-multimedia-animation"
+          }
         ]
       },
       {
         "title": "Media Studies",
         "courses": [
-          "BA Journalism & Mass Communication",
-          "Film & TV Production",
-          "Digital Marketing & Advertising"
+          {
+            "name": "BA Journalism & Mass Communication",
+            "link": "/programs/ba-journalism"
+          },
+          {
+            "name": "Film & TV Production",
+            "link": "/programs/ba-film-tv-production"
+          },
+          {
+            "name": "Digital Marketing & Advertising",
+            "link": "/programs/ba-digital-marketing"
+          }
         ]
       },
       {
         "title": "Liberal Arts & Sciences",
         "courses": [
-          "BA Psychology, English, Economics",
-          "Political Science, Sociology",
-          "Performing Arts",
-          "B.Sc Psychology"
+          {
+            "name": "BA Psychology, English, Economics",
+            "link": "/programs/ba-psychology-english-economics"
+          },
+          {
+            "name": "Political Science, Sociology",
+            "link": "/programs/ba-political-science-sociology"
+          },
+          { "name": "Performing Arts", "link": "/programs/ba-performing-arts" },
+          { "name": "B.Sc Psychology", "link": "/programs/bsc-psychology" }
         ]
       },
       {
         "title": "Allied Health Sciences",
-        "courses": ["Bachelor of Physiotherapy (BPT)"]
+        "courses": [
+          { "name": "Bachelor of Physiotherapy (BPT)", "link": "/programs/bpt" }
+        ]
       }
     ],
 

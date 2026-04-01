@@ -54,7 +54,7 @@ export function BangaloreCTASection() {
           </motion.p>
 
           {/* COMPANY LOGOS */}
-          <div className="flex flex-wrap justify-center gap-8 items-center mb-10 opacity-90 bg-white rounded-2xl p-8">
+          <div className="flex flex-wrap justify-between gap-8 items-center mb-10 opacity-90 bg-white rounded-2xl p-8">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
               className="h-8 hover:scale-110 transition"

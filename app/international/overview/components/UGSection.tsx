@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import CommonHeader from "@/app/components/CommonHeader";
+import Link from "next/link";
 
 export default function UGSection({ data }: any) {
   const ug = data?.ug;
@@ -26,7 +27,7 @@ export default function UGSection({ data }: any) {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.06 }}
               viewport={{ once: true }}
-              className="group relative rounded-2xl overflow-hidden bg-white border border-gray-100 shadow-md hover:shadow-2xl transition-all duration-500"
+              className="group relative rounded-2xl overflow-hidden bg-white border-b border-gray-100 shadow-md hover:shadow-2xl transition-all duration-500"
             >
               {/* 🔥 TOP GRADIENT BAR */}
               <div className="h-1 w-full bg-gradient-to-r from-[#0A8F96] to-[#0BB5B5]" />
@@ -37,15 +38,26 @@ export default function UGSection({ data }: any) {
                   {item.title}
                 </h3>
 
-                {/* COURSES */}
+                {/* COURSES WITH LINKS */}
                 <ul className="space-y-2 text-sm text-gray-600">
-                  {item.courses.map((course: string, i: number) => (
+                  {item.courses.map((course: any, i: number) => (
                     <li
                       key={i}
                       className="flex items-start gap-2 group-hover:translate-x-1 transition duration-300"
                     >
                       <span className="text-[#0A8F96] mt-[2px]">●</span>
-                      <span>{course}</span>
+                      {course.link ? (
+                        <Link
+                          href={course.link}
+                          className="hover:text-[#0A8F96]  transition-colors cursor-pointer"
+                        >
+                          {course.name}
+                        </Link>
+                      ) : (
+                        <span>
+                          {typeof course === "string" ? course : course.name}
+                        </span>
+                      )}
                     </li>
                   ))}
                 </ul>

@@ -61,7 +61,7 @@ export default function StudyInIndiaHero({ data }: FaqHeroProps) {
               animate={{ opacity: 1, y: 0 }}
               className="text-4xl md:text-6xl font-serif mb-4 leading-tight"
             >
-              {data.title.normal}{" "}
+              {data.title.normal} <br />
               <span className="italic text-[#D4A843]">{data.title.italic}</span>
             </motion.h1>
 

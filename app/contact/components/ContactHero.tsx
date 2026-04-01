@@ -38,7 +38,7 @@ export default function ContactHero({ data }: ContactHeroProps) {
       <section className="relative w-full min-h-[500px] md:h-[520px] overflow-hidden">
         {/* IMAGE */}
         <img
-          src={data.image || "/img/contact.jpg"}
+          src={data.image || "/img/contact/hero-bg.webp"}
           className="absolute inset-0 w-full h-full object-cover"
         />
 
