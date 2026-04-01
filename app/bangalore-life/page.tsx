@@ -18,8 +18,8 @@ const BangalorePage = () => {
       {/* <BangaloreLife /> */}
       {/* <BangaloreHighlights /> */}
       {/* <LivingFoodSection /> */}
-      <WorldCuisines />
-      <InternationalSupport />
+      <WorldCuisines data = {data.WorldCuisines}/>
+      <InternationalSupport data = {data.InternationalSupport}/>
     </>
   );
 };

@@ -193,5 +193,21 @@
         "value": "₹2,000 – ₹6,000"
       }
     ]
+  },
+  "WorldCuisines": {
+    "header": {
+      "tag": "World Cuisines",
+      "title": "Around the World ",
+      "highlight": "on a Plate",
+      "description": "Curated authentic local gallery and fine our street dishes."
+    }
+  },
+  "InternationalSupport": {
+    "header": {
+      "tag": "International Support",
+      "title": "Global Student  ",
+      "highlight": "Assistance",
+      "description": "Our International Support team is dedicated to helping students from around the world feel at home. From application to graduation, we assist with visas, housing, academics, and adapting to campus life."
+    }
   }
 }

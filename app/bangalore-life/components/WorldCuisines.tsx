@@ -3,24 +3,25 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import { ArrowLeft, ArrowRight } from "lucide-react";
+import CommonHeader from "@/app/components/CommonHeader";
 
 import "swiper/css";
 import "swiper/css/navigation";
 
-export default function WorldCuisines() {
+export default function WorldCuisines({ data }: any) {
   return (
     <section className="py-14 px-6 bg-[#EEF1F5]">
       <div className="max-w-[1400px] mx-auto px-6">
+        <CommonHeader
+                  tag={data.header.tag}
+                  title={data.header.title}
+                  highlight={data.header.highlight}
+                  description={data.header.description}
+                />
+        
         {/* 🔹 HEADER */}
-        <div className="flex items-center justify-between mb-6">
-          <div>
-            <h2 className="text-3xl md:text-4xl text-[#1e3a5f]">
-              WORLD CUISINES
-            </h2>
-            <p className="text-sm text-gray-600">
-              Curated authentic local gallery and fine our street dishes.
-            </p>
-          </div>
+        <div className="flex items-center justify-end mb-6">
+          
 
           {/* CUSTOM ARROWS */}
           <div className="flex gap-3">

@@ -24,6 +24,7 @@ type ProgrammeCategory = {
   ug: ProgrammeItem[];
   pg: ProgrammeItem[];
   phd: ProgrammeItem[];
+  diploma: ProgrammeItem[];
 };
 export function Navigation() {
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
@@ -33,6 +34,8 @@ export function Navigation() {
   const [activeSchool, setActiveSchool] = useState(
     "Computer Science and Engineering",
   );
+
+
 
   // 🔥 ICON MAP
   const iconMap: any = {
@@ -51,295 +54,398 @@ export function Navigation() {
           href: "/schools/computer-science/btech-cse",
         },
         {
-          label: "B.Tech AI & Machine Learning",
-          href: "/schools/computer-science/btech-ai-ml",
-        },
-        {
-          label: "B.Tech Data Science",
-          href: "/schools/computer-science/btech-data-science",
-        },
-        {
-          label: "B.Tech Cyber Security",
-          href: "/schools/computer-science/cyber-security",
-        },
-        {
-          label: "B.Tech Blockchain",
-          href: "/schools/computer-science/btech-blockchain",
-        },
-        {
-          label: "B.Tech Internet of Things",
-          href: "/schools/computer-science/btech-iot",
-        },
-        {
-          label: "B.Tech DevOps",
-          href: "/schools/computer-science/btech-devops",
-        },
-        {
-          label: "B.Tech Big Data",
+          label: "B.Tech Computer Science & Technology (Big Data)",
           href: "/schools/computer-science/btech-big-data",
         },
         {
-          label: "B.Tech Robotics & AI",
+          label: "B.Tech Computer Science & Technology (DevOps)",
+          href: "/schools/computer-science/btech-devops",
+        },
+        {
+          label: "B.Tech Computer Science & Engineering (AI & ML)",
+          href: "/schools/computer-science/btech-ai-ml",
+        },
+        {
+          label: "B.Tech Computer Science & Engineering (Blockchain)",
+          href: "/schools/computer-science/btech-blockchain",
+        },
+        {
+          label: "B.Tech Computer Science & Engineering (Cyber Security)",
+          href: "/schools/computer-science/btech-cyber-security",
+        },
+        {
+          label: "B.Tech Computer Science & Engineering (Data Science)",
+          href: "/schools/computer-science/btech-data-science",
+        },
+        {
+          label: "B.Tech Computer Science & Engineering (Internet of Things)",
+          href: "/schools/computer-science/btech-iot",
+        },
+        {
+          label: "B.Tech Information Science & Engineering",
+          href: "/schools/computer-science/btech-information-science",
+        },
+        {
+          label: "B.Tech Computer Engineering",
+          href: "/schools/computer-science/btech-computer-engineering",
+        },
+        {
+          label: "B.Tech Information Science & Technology",
+          href: "/schools/computer-science/btech-information-technology",
+        },
+        {
+          label: "B.Tech Robotics & Artificial Intelligence",
           href: "/schools/computer-science/btech-robotics-ai",
+        },
+        {
+          label: "B.Tech Artificial Intelligence & Data Science",
+          href: "/schools/computer-science/btech-ai-data-science",
         },
       ],
       pg: [
-        { label: "M.Tech AI", href: "/schools/pg/mtech-ai" },
+        { label: "M.Tech Computer Science & Engineering (Artificial Intelligence)", href: "/schools/pg/mtech-ai" },
         {
-          label: "M.Tech Data Science",
-          href: "/schools/pg/mtech-data-science",
+          label: "M.Tech Computer Science & Engineering (Data Science)",
+          href: "/schools/computer-science/mtech-data-science",
         },
       ],
       phd: [
         {
           label: "PhD in Computer Science & Engineering",
-          href: "/schools/phd/cse",
+          href: "/schools/computer-science/phd-cse",
         },
       ],
+      diploma: [
+        {
+          label: "Post Graduate Diploma in Big Data",
+          href: "/schools/computer-science/pg-diploma-big-data",
+        },
+      ]
     },
 
-    Engineering: {
+    " Engineering": {
       ug: [
         {
           label: "B.Tech Electronics & Communication Engineering",
-          href: "/schools/ug/ece",
+          href: "/schools/engineering/btech-ece",
         },
         {
           label: "B.Tech Electrical & Electronics Engineering",
-          href: "/schools/ug/eee",
+          href: "/schools/engineering/btech-eee",
         },
-        { label: "B.Tech VLSI", href: "/schools/ug/vlsi" },
-        { label: "B.Tech Civil Engineering", href: "/schools/ug/civil" },
+        { label: "B.Tech VLSI", href: "/schools/engineering/btech-vlsi" },
+        { label: "B.Tech Civil Engineering", href: "/schools/engineering/btech-civil-engineering" },
         {
           label: "B.Tech Mechanical Engineering",
-          href: "/schools/ug/mechanical",
+          href: "/schools/engineering/btech-mechanical-engineering",
         },
         {
           label: "B.Tech Petroleum Engineering",
-          href: "/schools/ug/petroleum",
+          href: "/schools/engineering/btech-petroleum-engineering",
         },
       ],
       pg: [
         {
-          label: "M.Tech Embedded Systems & VLSI",
-          href: "/schools/pg/vlsi",
+          label: "M.Tech Embedded System & VLSI",
+          href: "/schools/engineering/mtech-embeddedsystem-vlsi",
         },
         {
-          label: "M.Tech Construction Technology",
-          href: "/schools/pg/construction",
+          label: "M.Tech Building & Construction Technology",
+          href: "/schools/engineering/mtech-buliding-construction-technology",
         },
       ],
       phd: [
         {
-          label: "PhD Electronics & Communication",
-          href: "/schools/phd/ece",
+          label: "Ph.D. Electronics & Communications Engineering",
+          href: "/schools/engineering/phd-ece",
         },
         {
           label: "PhD Mechanical Engineering",
-          href: "/schools/phd/mechanical",
+          href: "/schools/engineering/phd-mechanical-engineering",
         },
-        { label: "PhD Civil Engineering", href: "/schools/phd/civil" },
+        { label: "PhD Civil Engineering", href: "/schools/engineering/phd-civil-engineering" },
         {
-          label: "PhD Electrical Engineering",
-          href: "/schools/phd/electrical",
+          label: "Ph.D. Electrical & Electronics Engineering",
+          href: "/schools/engineering/phd-eee",
         },
         {
-          label: "PhD Petroleum Engineering",
-          href: "/schools/phd/petroleum",
+          label: "Ph.D. Petroleum Engineering",
+          href: "/schools/engineering/phd-petroleum-engineering",
         },
       ],
+      diploma: [
+        {
+          label: "Post Graduate Diploma in Drone Technology",
+          href: "/schools/engineering/pg-diploma-drone-technology",
+        },
+      ]
     },
 
     "Information Science": {
       ug: [
-        { label: "BCA", href: "/schools/ug/bca" },
-        { label: "BCA Data Science", href: "/schools/ug/bca-data-science" },
+        { label: "Bachelor of Computer Applications (BCA)", href: "/schools/information-science/bca" },
+        { label: "B.C.A. Artificial Intelligence and Machine Learning", href: "/schools/information-science/bca-AL-ML" },
         {
-          label: "BCA AI & Machine Learning",
-          href: "/schools/ug/bca-ai-ml",
+          label: "B.C.A. Data Science",
+          href: "/schools/information-science/bca-data-science",
         },
       ],
-      pg: [{ label: "MCA", href: "/schools/pg/mca" }],
+      pg: [{ label: "Master of Computer Applications (MCA)", href: "/schools/information-science/mca" }],
       phd: [
         {
-          label: "PhD in Information Science",
-          href: "/schools/phd/information-science",
+          label: "Ph.D. Information Science",
+          href: "/schools/information-science/phd-information-science",
         },
       ],
+      diploma: []
     },
 
-    Management: {
+    "Management": {
       ug: [
-        { label: "BBA", href: "/schools/ug/bba" },
+        { label: "Bachelor of Business Administration (BBA)", href: "/schools/management/bba" },
         {
-          label: "BBA Aviation Management",
-          href: "/schools/ug/bba-aviation",
+          label: "BBA (Aviation Management)",
+          href: "/schools/management/bba-aviation-management",
         },
         {
-          label: "BBA Business Analytics",
-          href: "/schools/ug/bba-analytics",
+          label: "BBA (Business Analytics)",
+          href: "/schools/management/bba-business-analytics",
         },
         {
-          label: "BBA Digital Marketing",
-          href: "/schools/ug/bba-digital-marketing",
+          label: "BBA (Digital Marketing)",
+          href: "/schools/management/bba-digital-marketing",
         },
         {
-          label: "BBA Digital Business",
-          href: "/schools/ug/bba-digital-business",
+          label: "BBA (Digital Business)",
+          href: "/schools/management/bba-digital-business",
         },
         {
           label: "BBA Hospitality Management",
-          href: "/schools/ug/bba-hospitality",
+          href: "/schools/management/bba-hospitality-management",
         },
       ],
       pg: [
-        { label: "MBA Finance", href: "/schools/pg/mba-finance" },
-        { label: "MBA Marketing", href: "/schools/pg/mba-marketing" },
-        { label: "MBA Banking & Finance", href: "/schools/pg/mba-banking" },
-        { label: "MBA Digital Marketing", href: "/schools/pg/mba-digital" },
+        { label: "MBA (All Business Domains and New Age Specialisations)", href: "/schools/management/mba" },
+        { label: "MBA (Marketing and Finance)", href: "/schools/management/mba-marketing-finance" },
+        { label: "MBA (Banking and Finance Management)", href: "/schools/management/mba-banking-finance-management" },
+        { label: "MBA (Digital Marketing)", href: "/schools/management/mba-digital-marketing" },
         {
-          label: "MBA Business Analytics",
-          href: "/schools/pg/mba-analytics",
+          label: "MBA (Business Analytics)",
+          href: "/schools/management/mba-business-analytics",
         },
       ],
       phd: [
-        { label: "PhD in Management", href: "/schools/phd/management" },
-        { label: "PhD in Marketing", href: "/schools/phd/marketing" },
-        { label: "PhD in Finance", href: "/schools/phd/finance" },
-        { label: "PhD in HR", href: "/schools/phd/hr" },
+        { label: "Ph.D. General Management", href: "/schools/management/phd-general-management" },
+        { label: "Ph.D. Marketing Management", href: "/schools/management/phd-marketing-management" },
+        { label: "Ph.D. Financial Management", href: "/schools/management/phd-financial-management" },
+        { label: "Ph.D. Human Resource Management", href: "/schools/management/phd-human-resource-management" },
         {
-          label: "PhD in Business Analytics",
-          href: "/schools/phd/analytics",
+          label: "Ph.D. Business Analytics",
+          href: "/schools/management/phd-business-analytics",
         },
       ],
+      diploma: [
+        {
+          label: "Post Graduate Diploma in Public Administration",
+          href: "/schools/management/pg-diploma-public-administration",
+        },
+      ]
     },
 
-    Commerce: {
+    "Commerce": {
       ug: [
         {
-          label: "B.Com Banking & Finance",
-          href: "/schools/ug/bcom-banking",
+          label: "B.Com. (Specialisation in Banking and Finance)",
+          href: "/schools/commerce/bcom-banking-and-finance",
         },
-        { label: "B.Com ACCA", href: "/schools/ug/bcom-acca" },
+        { label: "B.Com. (ACCA)", href: "/schools/commerce/bcom-acca" },
         {
-          label: "B.Com Corporate Accounting",
-          href: "/schools/ug/bcom-accounting",
+          label: "B.Com. (Specialisation in Corporate Accounting and Taxation)",
+          href: "/schools/commerce/bcom-corporate-accounting-and-taxation",
         },
         {
-          label: "B.Com Business Analytics",
-          href: "/schools/ug/bcom-analytics",
+          label: "B.Com. (Business Analytics)",
+          href: "/schools/commerce/bcom-business-analytics",
         },
-        { label: "B.Com CMA-US", href: "/schools/ug/bcom-cma" },
-        { label: "B.Com CA Foundation", href: "/schools/ug/bcom-ca" },
+        { label: "B.Com. (Corporate Accounting Integrated with CMA-US)", href: "/schools/commerce/bcom-corporate-accounting-integrated-cma-us" },
+        { label: "B.Com. CA Foundation", href: "/schools/commerce/bcom-ca-foundation" },
       ],
       pg: [],
-      phd: [{ label: "PhD in Commerce", href: "/schools/phd/commerce" }],
+      phd: [{ label: "Ph.D. Commerce", href: "/schools/commerce/phd-commerce" },
+      { label: "Ph.D. Economics", href: "/schools/commerce/phd-economics" }
+      ],
+      diploma: [
+        {
+          label: "PhD in Computer Science & Engineering",
+          href: "/schools/computer-science/phd-cse",
+        },
+      ]
     },
 
     Law: {
       ug: [
-        { label: "BA LLB (Hons.)", href: "/schools/ug/ba-llb" },
-        { label: "BBA LLB (Hons.)", href: "/schools/ug/bba-llb" },
+        { label: "B.A. LL.B. (Hons.)", href: "/schools/law/ba-llb" },
+        { label: "B.B.A. LL.B. (Hons.)", href: "/schools/law/bba-llb" },
       ],
-      pg: [{ label: "LL.M", href: "/schools/pg/llm" }],
-      phd: [{ label: "PhD in Law", href: "/schools/phd/law" }],
+      pg: [{ label: "LL.M. (Master of Laws)", href: "/schools/law/llm" }],
+      phd: [{ label: "Ph.D. Law", href: "/schools/law/phd-law" }],
+      diploma: []
     },
 
-    Design: {
+    "Design": {
       ug: [
         {
           label: "B.Des Communication Design",
-          href: "/schools/ug/design-communication",
+          href: "/schools/design/bdes-communication-design",
         },
         {
           label: "B.Des Fashion Design",
-          href: "/schools/ug/design-fashion",
+          href: "/schools/design/bdes-fashion-design",
         },
         {
           label: "B.Des Product Design",
-          href: "/schools/ug/design-product",
+          href: "/schools/design/bdes-product-design",
         },
-        { label: "B.Des Space Design", href: "/schools/ug/design-space" },
-        { label: "B.Des Game Design", href: "/schools/ug/design-game" },
+        { label: "B.Des Space Design", href: "/schools/design/bdes-space-design" },
+        { label: "B.Sc. Multimedia and Animation", href: "/schools/design/bsc-multimedia-and-animation" },
         {
-          label: "B.Sc Multimedia & Animation",
-          href: "/schools/ug/multimedia",
+          label: "B.Des Game Design",
+          href: "/schools/design/bdes-game-design",
+        },
+        {
+          label: "Bachelor of Fine Arts (BFA)",
+          href: "/schools/design/bfa",
         },
       ],
       pg: [],
-      phd: [{ label: "PhD in Design", href: "/schools/phd/design" }],
+      phd: [{ label: "Ph.D. Design", href: "/schools/design/phd-design" }],
+      diploma: []
     },
 
     "Media Studies": {
       ug: [
         {
-          label: "BA Journalism & Mass Communication",
-          href: "/schools/ug/journalism",
+          label: "BA (Journalism & Mass Communication) — General",
+          href: "/schools/media-studies/ba-journalism-communication-general",
         },
         {
-          label: "BA Digital Marketing & Advertising",
-          href: "/schools/ug/media-marketing",
+          label: "BA JMC (Digital Marketing & Advertising / PR & Corporate)",
+          href: "/schools/media-studies/ba-jmc-digital-marketing-advertising",
         },
         {
-          label: "BA Film & Television Production",
-          href: "/schools/ug/film",
+          label: "BA JMC (Film, Television & Digital Production)",
+          href: "/schools/media-studies/ba-jmc-film-television-digital-production",
         },
-        { label: "BA AR/VR & Immersive Media", href: "/schools/ug/ar-vr" },
+        { label: "BA JMC (Immersive Media, AR/VR & Interactive Storytelling)", href: "/schools/media-studies/ba-jmc-immersivemedia-ar-vr-interactive-storytelling" },
         {
-          label: "BA Digital Storytelling",
-          href: "/schools/ug/storytelling",
+          label: "BA JMC (Digital Storytelling & Content Creation)",
+          href: "/schools/media-studies/ba-jmc-digital-storytelling-content-creation",
         },
       ],
       pg: [
         {
           label: "MA Journalism & Mass Communication",
-          href: "/schools/pg/journalism",
+          href: "/schools/media-studies/ma-journalism-mass-communication",
         },
+        
       ],
-      phd: [{ label: "PhD in Media Studies", href: "/schools/phd/media" }],
+      phd: [{ label: "Ph.D. Media Studies", href: "/schools/media-studies/phd-media-studies" }],
+      diploma: [
+        {
+          label: "Post Graduate Diploma in Film Making",
+          href: "/schools/media-studies/post-graduate-diploma-film-making",
+        },
+      ]
     },
 
     "Liberal Arts and Sciences": {
       ug: [
-        { label: "BA Psychology", href: "/schools/ug/psychology" },
-        { label: "BA English", href: "/schools/ug/english" },
-        { label: "BA History", href: "/schools/ug/history" },
+        { label: "B.Sc. Psychology", href: "/schools/liberal-arts-science/bsc-psychology" },
+        { label: "B.A. (Psychology, Economics)", href: "/schools/liberal-arts-science/ba-psychology-economics" },
+        { label: "B.A. (Communication and Media, Psychology)", href: "/schools/liberal-arts-science/ba-communication-media" },
         {
-          label: "BA Political Science",
-          href: "/schools/ug/political-science",
+          label: "B.A. (Psychology, English)",
+          href: "/schools/liberal-arts-science/ba-psychology-english",
         },
-        { label: "BA Sociology", href: "/schools/ug/sociology" },
-        { label: "BA Economics", href: "/schools/ug/economics" },
-        { label: "BA Performing Arts", href: "/schools/ug/performing-arts" },
-        { label: "B.Sc Psychology", href: "/schools/ug/psychology-bsc" },
-      ],
+        { label: "B.A. (History & Political Science)", href: "/schools/liberal-arts-science/ba-history-political-science" },
+        { label: "B.A. (Political Science & Economics)", href: "/schools/liberal-arts-science/ba-political-science-economics" },
+        { label: "B.A. (English & History)", href: "/schools/liberal-arts-science/ba-english-history" },
+        { label: "B.A. (English & Political Science)", href: "/schools/liberal-arts-science/ba-english-political-science" },
+         { label: "B.A. (Performing Arts – Classical Music, Psychology)", href: "/schools/liberal-arts-science/ba-arts-classicalmusic-psychology" },
+          { label: "B.A. (Performing Arts – Classical Dance, Psychology)", href: "/schools/liberal-arts-science/ba-arts-classicaldance-psychology" },
+          { label: "B.A. (Performing Arts – Classical Dance, English)", href: "/schools/liberal-arts-science/ba-arts-classicaldance-english" },
+          { label: "B.A. (Performing Arts – Western Music – Instrumental, English)", href: "/schools/liberal-arts-science/ba-performing-arts-western-music-instrumental-english" },
+          { label: "B.A. (Performing Arts – Western Music – Instrumental, Psychology)", href: "/schools/liberal-arts-science/ba-performing-arts–western-music-instrumental-psychology" },
+          { label: "B.A. (Theatre Studies, Psychology)", href: "/schools/liberal-arts-science/ba-theatre-studies-psychology" },
+          { label: "B.A. (Theatre Studies, English)", href: "/schools/liberal-arts-science/ba-theatre-studies-english" },
+          
+        ],
       pg: [
         {
-          label: "M.Sc Psychology (Clinical)",
-          href: "/schools/pg/psychology-clinical",
+          label: "M.Sc. Psychology (Child / Clinical / Counselling / Industrial Psychology)",
+          href: "/schools/liberal-arts-science/msc-psychology-child-clinical-counselling-industrial-psychology",
         },
         {
-          label: "M.Sc Psychology (Counselling)",
-          href: "/schools/pg/psychology-counselling",
+          label: "M.A. English (Digital Humanities / Cultural Studies / Creative Writing / Educational Leadership)",
+          href: "/schools/liberal-arts-science/ma-english-digital-humanities-cultural-Studies-creative-writing-educational-leadership",
         },
-        { label: "MA English", href: "/schools/pg/english" },
+        
       ],
       phd: [
-        { label: "PhD in Psychology", href: "/schools/phd/psychology" },
-        { label: "PhD in English", href: "/schools/phd/english" },
-        { label: "PhD in Economics", href: "/schools/phd/economics" },
+        { label: "Ph.D. English", href: "/schools/liberal-arts-science/phd-english" },
+        
       ],
+      diploma: [
+        {
+          label: "Diploma in Bharatanatyam",
+          href: "/schools/liberal-arts-science/diploma-bharatanatyam",
+        },
+        {
+          label: "Diploma in Kathak",
+          href: "/schools/liberal-arts-science/diploma-kathak",
+        },
+        {
+          label: "Diploma in Kuchipudi",
+          href: "/schools/liberal-arts-science/diploma-kuchipudi",
+        },
+        {
+          label: "Diploma in Mohiniyattam",
+          href: "/schools/liberal-arts-science/diploma-mohiniyattam",
+        },
+      ]
     },
 
     "Allied Health Sciences": {
       ug: [
         {
           label: "Bachelor of Physiotherapy (BPT)",
-          href: "/schools/ug/bpt",
+          href: "/schools/allied-health-sciences/bpt",
+        },
+        {
+          label: "B.Sc. Anaesthesia and Operation Theatre",
+          href: "/schools/allied-health-sciences/bsc-anesthesia-operation-theatre",
+        },
+         {
+          label: "B.Sc. Medical Laboratory Technology",
+          href: "/schools/allied-health-sciences/bsc-medical-laboratory-technology",
+        },
+         {
+          label: "B.Sc. Cardiac Care Technology (CCT)",
+          href: "/schools/allied-health-sciences/bsc-cct",
+        },
+         {
+          label: "B.Sc. Respiratory Care Technology (RCT)",
+          href: "/schools/allied-health-sciences/bsc-rct",
+        },
+         {
+          label: "B.Sc. Medical Radiology and Imaging",
+          href: "/schools/allied-health-sciences/bsc-medical-radiology-imaging",
         },
       ],
       pg: [],
       phd: [],
+      diploma: [
+      ]
     },
   };
   // 🔥 NAV ITEMS
@@ -471,6 +577,7 @@ export function Navigation() {
     { label: "Contact", href: "/contact" },
   ];
 
+
   // 🔥 HOVER HANDLERS
   const handleMouseEnter = (label: string) => {
     if (closeTimeout.current) clearTimeout(closeTimeout.current);
@@ -520,27 +627,25 @@ export function Navigation() {
                     <div
                       onMouseEnter={() => handleMouseEnter(item.label)}
                       onMouseLeave={handleMouseLeave}
-                      className={`absolute left-0 top-full w-full z-50 ${
-                        item.customMega
+                      className={`absolute left-0 top-full w-full z-50 ${item.customMega
                           ? "bg-[#ffff] text-white"
                           : "bg-white border-t shadow-2xl"
-                      }`}
+                        }`}
                     >
                       {/* 🔥 CUSTOM PROGRAMMES MENU */}
                       {item.customMega ? (
                         <div className="max-w-[1400px] mx-auto px-6 py-10 pb-0 bg-white">
-                          <div className="grid grid-cols-4 gap-10">
+                          <div className={`grid grid-cols-5 gap-10`}>
                             {/* 🔹 LEFT SIDEBAR */}
                             <div className="space-y-4 text-sm max-h-[420px] overflow-y-auto">
                               {Object.keys(programmesData).map((school, i) => (
                                 <p
                                   key={i}
                                   onMouseEnter={() => setActiveSchool(school)}
-                                  className={`cursor-pointer transition ${
-                                    activeSchool === school
+                                  className={`cursor-pointer transition ${activeSchool === school
                                       ? "text-[#1e3a5f] font-semibold"
                                       : "text-gray-600 hover:text-[#0A8F96]"
-                                  }`}
+                                    }`}
                                 >
                                   Presidency School of {school}
                                 </p>
@@ -548,6 +653,7 @@ export function Navigation() {
                             </div>
 
                             {/* 🔹 UG */}
+                             {programmesData[activeSchool]?.ug.length > 0 && (
                             <div className="border-l pl-6 max-h-[420px] overflow-y-auto">
                               <h3 className="text-lg text-[#1e3a5f] mb-4">
                                 UG Programmes
@@ -562,14 +668,14 @@ export function Navigation() {
                                       className="flex items-center gap-3 group"
                                     >
                                       <div
-                                        className="w-9 h-9 flex items-center justify-center rounded-lg 
+                                        className="w-9 h-9 shrink-0 flex items-center justify-center rounded-lg 
                 bg-[#0A8F96]/10 text-[#1e3a5f] 
                 group-hover:bg-[#1e3a5f] group-hover:text-white transition"
                                       >
                                         <GraduationCap size={16} />
                                       </div>
 
-                                      <span className="text-gray-700 group-hover:text-[#1e3a5f]">
+                                      <span className="text-[#1e3a5f]  group-hover:text-[#1e3a5f]">
                                         {prog.label}
                                       </span>
                                     </Link>
@@ -577,8 +683,11 @@ export function Navigation() {
                                 )}
                               </div>
                             </div>
+                             )
+                            }
 
                             {/* 🔹 PG */}
+                            {programmesData[activeSchool]?.pg.length > 0 && (
                             <div className="border-l pl-6 max-h-[420px] overflow-y-auto">
                               <h3 className="text-lg text-[#1e3a5f] mb-4">
                                 PG Programmes
@@ -593,7 +702,7 @@ export function Navigation() {
                                       className="flex items-center gap-3 group"
                                     >
                                       <div
-                                        className="w-9 h-9 flex items-center justify-center rounded-lg 
+                                        className="w-9 h-9 shrink-0 flex items-center justify-center rounded-lg 
                 bg-[#0A8F96]/10 text-[#1e3a5f] 
                 group-hover:bg-[#1e3a5f] group-hover:text-white transition"
                                       >
@@ -608,8 +717,10 @@ export function Navigation() {
                                 )}
                               </div>
                             </div>
+                            )
+                          }
 
-                            {/* 🔹 PHD */}
+                             {programmesData[activeSchool]?.phd.length > 0 && (
                             <div className="border-l pl-6 max-h-[420px] overflow-y-auto">
                               <h3 className="text-lg text-[#1e3a5f] mb-4">
                                 PhD Programmes
@@ -624,7 +735,7 @@ export function Navigation() {
                                       className="flex items-center gap-3 group"
                                     >
                                       <div
-                                        className="w-9 h-9 flex items-center justify-center rounded-lg 
+                                        className="w-9 h-9 shrink-0 flex items-center justify-center rounded-lg 
                 bg-[#0A8F96]/10 text-[#1e3a5f] 
                 group-hover:bg-[#1e3a5f] group-hover:text-white transition"
                                       >
@@ -639,6 +750,36 @@ export function Navigation() {
                                 )}
                               </div>
                             </div>
+                             )
+                            }
+                            {programmesData[activeSchool]?.diploma.length > 0 && (
+                              <div className="border-l pl-6 max-h-[420px] overflow-y-auto">
+                                <h3 className="text-lg text-[#1e3a5f] mb-4">
+                                  Diploma Programmes
+                                </h3>
+
+                                <div className="space-y-3">
+                                  {programmesData[activeSchool]?.diploma?.map((prog, i) => (
+                                    <Link
+                                      key={i}
+                                      href={prog.href}
+                                      className="flex items-center gap-3 group"
+                                    >
+                                      <div className="w-9 h-9 shrink-0 flex items-center justify-center rounded-lg 
+            bg-[#0A8F96]/10 text-[#1e3a5f] 
+            group-hover:bg-[#1e3a5f] group-hover:text-white transition"
+                                      >
+                                        <GraduationCap size={16} />
+                                      </div>
+
+                                      <span className="text-gray-700 group-hover:text-[#1e3a5f]">
+                                        {prog.label}
+                                      </span>
+                                    </Link>
+                                  ))}
+                                </div>
+                              </div>
+                            )}
                           </div>
                         </div>
                       ) : (
