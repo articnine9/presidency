@@ -1,14 +1,19 @@
 "use client";
+import CommonHeader from "@/app/components/CommonHeader";
 
-export default function InternationalSupport() {
+
+export default function InternationalSupport({ data }: any) {
   return (
     <section className="relative bg-[#f3f4f6] py-16 px-6 overflow-hidden">
+      <CommonHeader
+                tag={data.header.tag}
+                title={data.header.title}
+                highlight={data.header.highlight}
+                description={data.header.description}
+              />
       <div className="max-w-[1400px] mx-auto grid md:grid-cols-2 items-center gap-10 px-6 ">
         {/* 🔵 LEFT CONTENT */}
         <div className="relative z-10">
-          <h2 className="text-3xl md:text-4xl text-[#1e3a5f] mb-4">
-            INTERNATIONAL <br /> STUDENT SUPPORT
-          </h2>
 
           {/* MAP */}
           <div className="relative">
@@ -32,7 +37,7 @@ export default function InternationalSupport() {
         {/* 🟢 RIGHT IMAGE */}
         <div className="relative flex justify-center">
           {/* GOLD SHAPE */}
-          <div className="absolute w-[280px] h-[280px] bg-[#c9a55c] rounded-lg right-10 top-10 opacity-80"></div>
+          
 
           {/* IMAGE */}
           <div className="relative w-[320px] h-[320px] rounded-[40px] overflow-hidden shadow-xl">
@@ -45,7 +50,7 @@ export default function InternationalSupport() {
       </div>
 
       {/* 🔥 LEFT DECOR SHAPE */}
-      <div className="absolute left-0 top-0 w-[200px] h-[200px] bg-[#c9a55c] rounded-br-[100px] opacity-60"></div>
+      {/* <div className="absolute left-0 top-0 w-[200px] h-[200px] bg-[#c9a55c] rounded-br-[100px] opacity-60"></div> */}
     </section>
   );
 }
