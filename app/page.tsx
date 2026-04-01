@@ -68,6 +68,7 @@ export default function App() {
 
       <SchoolsSliderSection />
       <WhyChooseUs />
+      <BangaloreCTASection />
       <CampusLikeHome />
       <ThoughtLeadersSection />
       {/* <BangaloreLifeSection /> */}
@@ -77,16 +78,17 @@ export default function App() {
       {/* <BangaloreSection /> */}
       {/* Campus Facilities */}
       {/* <AmenitiesSection /> */}
-      <EventsActivitiesSection />
+
+      {/* <EventsActivitiesSection /> */}
       <InternationalStudentsSection />
-      <BangaloreCTASection />
+
       <PlacementPartnersSection />
 
-      <ScholarshipsSection />
+      {/* <ScholarshipsSection /> */}
       <JourneySection />
       <VideoSectionFull />
-      <NewsSection />
-      <InFocusSection />
+      {/* <NewsSection /> */}
+      {/* <InFocusSection /> */}
       <CampusVirtualTourSection />
       {/* <TestimonialsSection /> */}
       {/* <AccreditationSection />

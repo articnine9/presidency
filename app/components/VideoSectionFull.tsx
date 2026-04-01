@@ -10,7 +10,7 @@ export default function VideoSectionFull() {
   return (
     <section className="relative w-full h-screen overflow-hidden">
       {/* 🔥 VIDEO BACKGROUND */}
-      
+
       <div className="absolute inset-0 z-0 flex justify-center items-center">
         {!videoError ? (
           <video
