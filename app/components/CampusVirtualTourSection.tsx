@@ -87,14 +87,14 @@ export function CampusVirtualTourSection() {
 
         {/* ✅ CTA BUTTON (MATCHED STYLE) */}
         <a
-  href="https://www.immersivetourz.com/presidencyuniversity/index.html"
-  target="_blank"
-  rel="noopener noreferrer"
->
-        <button className="mt-10 bg-[#ff8c42] hover:bg-[#e67932] text-white px-8 py-3 rounded-lg flex items-center gap-3 mx-auto transition shadow-md hover:shadow-lg">
-          Virtual Tour 360
-          <ArrowRight size={18} />
-        </button>
+          href="https://www.immersivetourz.com/presidencyuniversity/index.html"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="mt-10 bg-[#ff8c42] hover:bg-[#e67932] text-white px-8 py-3 rounded-lg flex items-center gap-3 mx-auto transition shadow-md hover:shadow-lg">
+            Virtual Tour 360
+            <ArrowRight size={18} />
+          </button>
         </a>
       </div>
     </section>
