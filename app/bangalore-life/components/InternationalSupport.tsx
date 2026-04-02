@@ -3,8 +3,20 @@ import CommonHeader from "@/app/components/CommonHeader";
 
 
 export default function InternationalSupport({ data }: any) {
+   const cards = [
+    {
+      title: "Global Student Community",
+      img: "/img/bang-life/studentcommunity.jpg",
+    },
+    {
+      title: "End-to-End Student Support",
+      img: "/img/bang-life/internationalsupport.jpg",
+    },
+   
+  ];
+
   return (
-    <section className="relative bg-[#f3f4f6] py-16 px-6 overflow-hidden">
+    <section className="relative bg-[white] py-16 px-6 overflow-hidden">
       <CommonHeader
                 tag={data.header.tag}
                 title={data.header.title}
@@ -35,17 +47,40 @@ export default function InternationalSupport({ data }: any) {
         </div>
 
         {/* 🟢 RIGHT IMAGE */}
-        <div className="relative flex justify-center">
+        <div className="relative">
           {/* GOLD SHAPE */}
+           <div className="grid grid-cols-2 gap-6">
+          {cards.map((item, i) => (
+            <div
+              key={i}
+              className="relative rounded-xl overflow-hidden group shadow-md h-full"
+            >
+              {/* IMAGE */}
+              <img
+                src={item.img}
+                className="w-full  object-cover group-hover:scale-110 transition duration-500 h-full"
+              />
+
+              {/* OVERLAY */}
+              {/* <div className="absolute inset-0 bg-black/10 group-hover:bg-black/10 transition"></div> */}
+              <div className="absolute inset-0 bg-gradient-to-t from-[#1e3a5f]/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+
+              {/* TEXT */}
+              <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-full group-hover:translate-y-0 transition-transform">
+                <h3 className="text-white text-xl">{item.title}</h3>
+              </div>
+            </div>
+          ))}
+        </div>
           
 
           {/* IMAGE */}
-          <div className="relative w-[320px] h-[320px] rounded-[40px] overflow-hidden shadow-xl">
+          {/* <div className="relative w-[320px] h-[320px] rounded-[40px] overflow-hidden shadow-xl">
             <img
               src="/img/bang-life/innovation-2.png"
               className="w-full h-full object-cover"
             />
-          </div>
+          </div> */}
         </div>
       </div>
 
