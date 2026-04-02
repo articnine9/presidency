@@ -72,7 +72,7 @@ export default function App() {
       <CampusLikeHome />
       <ThoughtLeadersSection />
       {/* <BangaloreLifeSection /> */}
-      <CommunitySection />
+      {/* <CommunitySection /> */}
       <ResearchHighlightsSection />
       {/* <CampusLife /> */}
       {/* <BangaloreSection /> */}

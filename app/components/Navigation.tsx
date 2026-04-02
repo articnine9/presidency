@@ -35,8 +35,6 @@ export function Navigation() {
     "Computer Science and Engineering",
   );
 
-
-
   // 🔥 ICON MAP
   const iconMap: any = {
     cpu: Cpu,
@@ -103,7 +101,11 @@ export function Navigation() {
         },
       ],
       pg: [
-        { label: "M.Tech Computer Science & Engineering (Artificial Intelligence)", href: "/schools/pg/mtech-ai" },
+        {
+          label:
+            "M.Tech Computer Science & Engineering (Artificial Intelligence)",
+          href: "/schools/pg/mtech-ai",
+        },
         {
           label: "M.Tech Computer Science & Engineering (Data Science)",
           href: "/schools/computer-science/mtech-data-science",
@@ -120,7 +122,7 @@ export function Navigation() {
           label: "Post Graduate Diploma in Big Data",
           href: "/schools/computer-science/pg-diploma-big-data",
         },
-      ]
+      ],
     },
 
     " Engineering": {
@@ -134,7 +136,10 @@ export function Navigation() {
           href: "/schools/engineering/btech-eee",
         },
         { label: "B.Tech VLSI", href: "/schools/engineering/btech-vlsi" },
-        { label: "B.Tech Civil Engineering", href: "/schools/engineering/btech-civil-engineering" },
+        {
+          label: "B.Tech Civil Engineering",
+          href: "/schools/engineering/btech-civil-engineering",
+        },
         {
           label: "B.Tech Mechanical Engineering",
           href: "/schools/engineering/btech-mechanical-engineering",
@@ -163,7 +168,10 @@ export function Navigation() {
           label: "PhD Mechanical Engineering",
           href: "/schools/engineering/phd-mechanical-engineering",
         },
-        { label: "PhD Civil Engineering", href: "/schools/engineering/phd-civil-engineering" },
+        {
+          label: "PhD Civil Engineering",
+          href: "/schools/engineering/phd-civil-engineering",
+        },
         {
           label: "Ph.D. Electrical & Electronics Engineering",
           href: "/schools/engineering/phd-eee",
@@ -178,31 +186,45 @@ export function Navigation() {
           label: "Post Graduate Diploma in Drone Technology",
           href: "/schools/engineering/pg-diploma-drone-technology",
         },
-      ]
+      ],
     },
 
     "Information Science": {
       ug: [
-        { label: "Bachelor of Computer Applications (BCA)", href: "/schools/information-science/bca" },
-        { label: "B.C.A. Artificial Intelligence and Machine Learning", href: "/schools/information-science/bca-AL-ML" },
+        {
+          label: "Bachelor of Computer Applications (BCA)",
+          href: "/schools/information-science/bca",
+        },
+        {
+          label: "B.C.A. Artificial Intelligence and Machine Learning",
+          href: "/schools/information-science/bca-AL-ML",
+        },
         {
           label: "B.C.A. Data Science",
           href: "/schools/information-science/bca-data-science",
         },
       ],
-      pg: [{ label: "Master of Computer Applications (MCA)", href: "/schools/information-science/mca" }],
+      pg: [
+        {
+          label: "Master of Computer Applications (MCA)",
+          href: "/schools/information-science/mca",
+        },
+      ],
       phd: [
         {
           label: "Ph.D. Information Science",
           href: "/schools/information-science/phd-information-science",
         },
       ],
-      diploma: []
+      diploma: [],
     },
 
-    "Management": {
+    Management: {
       ug: [
-        { label: "Bachelor of Business Administration (BBA)", href: "/schools/management/bba" },
+        {
+          label: "Bachelor of Business Administration (BBA)",
+          href: "/schools/management/bba",
+        },
         {
           label: "BBA (Aviation Management)",
           href: "/schools/management/bba-aviation-management",
@@ -225,20 +247,44 @@ export function Navigation() {
         },
       ],
       pg: [
-        { label: "MBA (All Business Domains and New Age Specialisations)", href: "/schools/management/mba" },
-        { label: "MBA (Marketing and Finance)", href: "/schools/management/mba-marketing-finance" },
-        { label: "MBA (Banking and Finance Management)", href: "/schools/management/mba-banking-finance-management" },
-        { label: "MBA (Digital Marketing)", href: "/schools/management/mba-digital-marketing" },
+        {
+          label: "MBA (All Business Domains and New Age Specialisations)",
+          href: "/schools/management/mba",
+        },
+        {
+          label: "MBA (Marketing and Finance)",
+          href: "/schools/management/mba-marketing-finance",
+        },
+        {
+          label: "MBA (Banking and Finance Management)",
+          href: "/schools/management/mba-banking-finance-management",
+        },
+        {
+          label: "MBA (Digital Marketing)",
+          href: "/schools/management/mba-digital-marketing",
+        },
         {
           label: "MBA (Business Analytics)",
           href: "/schools/management/mba-business-analytics",
         },
       ],
       phd: [
-        { label: "Ph.D. General Management", href: "/schools/management/phd-general-management" },
-        { label: "Ph.D. Marketing Management", href: "/schools/management/phd-marketing-management" },
-        { label: "Ph.D. Financial Management", href: "/schools/management/phd-financial-management" },
-        { label: "Ph.D. Human Resource Management", href: "/schools/management/phd-human-resource-management" },
+        {
+          label: "Ph.D. General Management",
+          href: "/schools/management/phd-general-management",
+        },
+        {
+          label: "Ph.D. Marketing Management",
+          href: "/schools/management/phd-marketing-management",
+        },
+        {
+          label: "Ph.D. Financial Management",
+          href: "/schools/management/phd-financial-management",
+        },
+        {
+          label: "Ph.D. Human Resource Management",
+          href: "/schools/management/phd-human-resource-management",
+        },
         {
           label: "Ph.D. Business Analytics",
           href: "/schools/management/phd-business-analytics",
@@ -249,10 +295,10 @@ export function Navigation() {
           label: "Post Graduate Diploma in Public Administration",
           href: "/schools/management/pg-diploma-public-administration",
         },
-      ]
+      ],
     },
 
-    "Commerce": {
+    Commerce: {
       ug: [
         {
           label: "B.Com. (Specialisation in Banking and Finance)",
@@ -267,19 +313,26 @@ export function Navigation() {
           label: "B.Com. (Business Analytics)",
           href: "/schools/commerce/bcom-business-analytics",
         },
-        { label: "B.Com. (Corporate Accounting Integrated with CMA-US)", href: "/schools/commerce/bcom-corporate-accounting-integrated-cma-us" },
-        { label: "B.Com. CA Foundation", href: "/schools/commerce/bcom-ca-foundation" },
+        {
+          label: "B.Com. (Corporate Accounting Integrated with CMA-US)",
+          href: "/schools/commerce/bcom-corporate-accounting-integrated-cma-us",
+        },
+        {
+          label: "B.Com. CA Foundation",
+          href: "/schools/commerce/bcom-ca-foundation",
+        },
       ],
       pg: [],
-      phd: [{ label: "Ph.D. Commerce", href: "/schools/commerce/phd-commerce" },
-      { label: "Ph.D. Economics", href: "/schools/commerce/phd-economics" }
+      phd: [
+        { label: "Ph.D. Commerce", href: "/schools/commerce/phd-commerce" },
+        { label: "Ph.D. Economics", href: "/schools/commerce/phd-economics" },
       ],
       diploma: [
         {
           label: "PhD in Computer Science & Engineering",
           href: "/schools/computer-science/phd-cse",
         },
-      ]
+      ],
     },
 
     Law: {
@@ -289,10 +342,10 @@ export function Navigation() {
       ],
       pg: [{ label: "LL.M. (Master of Laws)", href: "/schools/law/llm" }],
       phd: [{ label: "Ph.D. Law", href: "/schools/law/phd-law" }],
-      diploma: []
+      diploma: [],
     },
 
-    "Design": {
+    Design: {
       ug: [
         {
           label: "B.Des Communication Design",
@@ -306,8 +359,14 @@ export function Navigation() {
           label: "B.Des Product Design",
           href: "/schools/design/bdes-product-design",
         },
-        { label: "B.Des Space Design", href: "/schools/design/bdes-space-design" },
-        { label: "B.Sc. Multimedia and Animation", href: "/schools/design/bsc-multimedia-and-animation" },
+        {
+          label: "B.Des Space Design",
+          href: "/schools/design/bdes-space-design",
+        },
+        {
+          label: "B.Sc. Multimedia and Animation",
+          href: "/schools/design/bsc-multimedia-and-animation",
+        },
         {
           label: "B.Des Game Design",
           href: "/schools/design/bdes-game-design",
@@ -319,7 +378,7 @@ export function Navigation() {
       ],
       pg: [],
       phd: [{ label: "Ph.D. Design", href: "/schools/design/phd-design" }],
-      diploma: []
+      diploma: [],
     },
 
     "Media Studies": {
@@ -336,7 +395,10 @@ export function Navigation() {
           label: "BA JMC (Film, Television & Digital Production)",
           href: "/schools/media-studies/ba-jmc-film-television-digital-production",
         },
-        { label: "BA JMC (Immersive Media, AR/VR & Interactive Storytelling)", href: "/schools/media-studies/ba-jmc-immersivemedia-ar-vr-interactive-storytelling" },
+        {
+          label: "BA JMC (Immersive Media, AR/VR & Interactive Storytelling)",
+          href: "/schools/media-studies/ba-jmc-immersivemedia-ar-vr-interactive-storytelling",
+        },
         {
           label: "BA JMC (Digital Storytelling & Content Creation)",
           href: "/schools/media-studies/ba-jmc-digital-storytelling-content-creation",
@@ -347,53 +409,103 @@ export function Navigation() {
           label: "MA Journalism & Mass Communication",
           href: "/schools/media-studies/ma-journalism-mass-communication",
         },
-        
       ],
-      phd: [{ label: "Ph.D. Media Studies", href: "/schools/media-studies/phd-media-studies" }],
+      phd: [
+        {
+          label: "Ph.D. Media Studies",
+          href: "/schools/media-studies/phd-media-studies",
+        },
+      ],
       diploma: [
         {
           label: "Post Graduate Diploma in Film Making",
           href: "/schools/media-studies/post-graduate-diploma-film-making",
         },
-      ]
+      ],
     },
 
     "Liberal Arts and Sciences": {
       ug: [
-        { label: "B.Sc. Psychology", href: "/schools/liberal-arts-science/bsc-psychology" },
-        { label: "B.A. (Psychology, Economics)", href: "/schools/liberal-arts-science/ba-psychology-economics" },
-        { label: "B.A. (Communication and Media, Psychology)", href: "/schools/liberal-arts-science/ba-communication-media" },
+        {
+          label: "B.Sc. Psychology",
+          href: "/schools/liberal-arts-science/bsc-psychology",
+        },
+        {
+          label: "B.A. (Psychology, Economics)",
+          href: "/schools/liberal-arts-science/ba-psychology-economics",
+        },
+        {
+          label: "B.A. (Communication and Media, Psychology)",
+          href: "/schools/liberal-arts-science/ba-communication-media",
+        },
         {
           label: "B.A. (Psychology, English)",
           href: "/schools/liberal-arts-science/ba-psychology-english",
         },
-        { label: "B.A. (History & Political Science)", href: "/schools/liberal-arts-science/ba-history-political-science" },
-        { label: "B.A. (Political Science & Economics)", href: "/schools/liberal-arts-science/ba-political-science-economics" },
-        { label: "B.A. (English & History)", href: "/schools/liberal-arts-science/ba-english-history" },
-        { label: "B.A. (English & Political Science)", href: "/schools/liberal-arts-science/ba-english-political-science" },
-         { label: "B.A. (Performing Arts – Classical Music, Psychology)", href: "/schools/liberal-arts-science/ba-arts-classicalmusic-psychology" },
-          { label: "B.A. (Performing Arts – Classical Dance, Psychology)", href: "/schools/liberal-arts-science/ba-arts-classicaldance-psychology" },
-          { label: "B.A. (Performing Arts – Classical Dance, English)", href: "/schools/liberal-arts-science/ba-arts-classicaldance-english" },
-          { label: "B.A. (Performing Arts – Western Music – Instrumental, English)", href: "/schools/liberal-arts-science/ba-performing-arts-western-music-instrumental-english" },
-          { label: "B.A. (Performing Arts – Western Music – Instrumental, Psychology)", href: "/schools/liberal-arts-science/ba-performing-arts–western-music-instrumental-psychology" },
-          { label: "B.A. (Theatre Studies, Psychology)", href: "/schools/liberal-arts-science/ba-theatre-studies-psychology" },
-          { label: "B.A. (Theatre Studies, English)", href: "/schools/liberal-arts-science/ba-theatre-studies-english" },
-          
-        ],
+        {
+          label: "B.A. (History & Political Science)",
+          href: "/schools/liberal-arts-science/ba-history-political-science",
+        },
+        {
+          label: "B.A. (Political Science & Economics)",
+          href: "/schools/liberal-arts-science/ba-political-science-economics",
+        },
+        {
+          label: "B.A. (English & History)",
+          href: "/schools/liberal-arts-science/ba-english-history",
+        },
+        {
+          label: "B.A. (English & Political Science)",
+          href: "/schools/liberal-arts-science/ba-english-political-science",
+        },
+        {
+          label: "B.A. (Performing Arts – Classical Music, Psychology)",
+          href: "/schools/liberal-arts-science/ba-arts-classicalmusic-psychology",
+        },
+        {
+          label: "B.A. (Performing Arts – Classical Dance, Psychology)",
+          href: "/schools/liberal-arts-science/ba-arts-classicaldance-psychology",
+        },
+        {
+          label: "B.A. (Performing Arts – Classical Dance, English)",
+          href: "/schools/liberal-arts-science/ba-arts-classicaldance-english",
+        },
+        {
+          label:
+            "B.A. (Performing Arts – Western Music – Instrumental, English)",
+          href: "/schools/liberal-arts-science/ba-performing-arts-western-music-instrumental-english",
+        },
+        {
+          label:
+            "B.A. (Performing Arts – Western Music – Instrumental, Psychology)",
+          href: "/schools/liberal-arts-science/ba-performing-arts–western-music-instrumental-psychology",
+        },
+        {
+          label: "B.A. (Theatre Studies, Psychology)",
+          href: "/schools/liberal-arts-science/ba-theatre-studies-psychology",
+        },
+        {
+          label: "B.A. (Theatre Studies, English)",
+          href: "/schools/liberal-arts-science/ba-theatre-studies-english",
+        },
+      ],
       pg: [
         {
-          label: "M.Sc. Psychology (Child / Clinical / Counselling / Industrial Psychology)",
+          label:
+            "M.Sc. Psychology (Child / Clinical / Counselling / Industrial Psychology)",
           href: "/schools/liberal-arts-science/msc-psychology-child-clinical-counselling-industrial-psychology",
         },
         {
-          label: "M.A. English (Digital Humanities / Cultural Studies / Creative Writing / Educational Leadership)",
+          label:
+            "M.A. English (Digital Humanities / Cultural Studies / Creative Writing / Educational Leadership)",
           href: "/schools/liberal-arts-science/ma-english-digital-humanities-cultural-Studies-creative-writing-educational-leadership",
         },
-        
       ],
       phd: [
-        { label: "Ph.D. English", href: "/schools/liberal-arts-science/phd-english" },
-        
+        {
+          label: "Ph.D. English",
+          href: "/schools/liberal-arts-science/phd-english",
+        },
       ],
       diploma: [
         {
@@ -412,7 +524,7 @@ export function Navigation() {
           label: "Diploma in Mohiniyattam",
           href: "/schools/liberal-arts-science/diploma-mohiniyattam",
         },
-      ]
+      ],
     },
 
     "Allied Health Sciences": {
@@ -425,33 +537,46 @@ export function Navigation() {
           label: "B.Sc. Anaesthesia and Operation Theatre",
           href: "/schools/allied-health-sciences/bsc-anesthesia-operation-theatre",
         },
-         {
+        {
           label: "B.Sc. Medical Laboratory Technology",
           href: "/schools/allied-health-sciences/bsc-medical-laboratory-technology",
         },
-         {
+        {
           label: "B.Sc. Cardiac Care Technology (CCT)",
           href: "/schools/allied-health-sciences/bsc-cct",
         },
-         {
+        {
           label: "B.Sc. Respiratory Care Technology (RCT)",
           href: "/schools/allied-health-sciences/bsc-rct",
         },
-         {
+        {
           label: "B.Sc. Medical Radiology and Imaging",
           href: "/schools/allied-health-sciences/bsc-medical-radiology-imaging",
         },
       ],
       pg: [],
       phd: [],
-      diploma: [
-      ]
+      diploma: [],
     },
   };
   // 🔥 NAV ITEMS
   const navItems = [
     { label: "Home", href: "/" },
-    { label: "About", href: "/about" },
+    {
+      label: "About",
+      hasDropdown: true,
+      dropdown: [
+        { label: "About US", href: "/about" },
+        {
+          label: "Memberships & affiliations update",
+          href: "/memberships-affiliations",
+        },
+        {
+          label: "Media rankings",
+          href: "/media-rankings",
+        },
+      ],
+    },
 
     {
       label: "Schools",
@@ -577,7 +702,6 @@ export function Navigation() {
     { label: "Contact", href: "/contact" },
   ];
 
-
   // 🔥 HOVER HANDLERS
   const handleMouseEnter = (label: string) => {
     if (closeTimeout.current) clearTimeout(closeTimeout.current);
@@ -627,10 +751,11 @@ export function Navigation() {
                     <div
                       onMouseEnter={() => handleMouseEnter(item.label)}
                       onMouseLeave={handleMouseLeave}
-                      className={`absolute left-0 top-full w-full z-50 ${item.customMega
+                      className={`absolute left-0 top-full w-full z-50 ${
+                        item.customMega
                           ? "bg-[#ffff] text-white"
                           : "bg-white border-t shadow-2xl"
-                        }`}
+                      }`}
                     >
                       {/* 🔥 CUSTOM PROGRAMMES MENU */}
                       {item.customMega ? (
@@ -642,10 +767,11 @@ export function Navigation() {
                                 <p
                                   key={i}
                                   onMouseEnter={() => setActiveSchool(school)}
-                                  className={`cursor-pointer transition ${activeSchool === school
+                                  className={`cursor-pointer transition ${
+                                    activeSchool === school
                                       ? "text-[#1e3a5f] font-semibold"
                                       : "text-gray-600 hover:text-[#0A8F96]"
-                                    }`}
+                                  }`}
                                 >
                                   Presidency School of {school}
                                 </p>
@@ -653,130 +779,131 @@ export function Navigation() {
                             </div>
 
                             {/* 🔹 UG */}
-                             {programmesData[activeSchool]?.ug.length > 0 && (
-                            <div className="border-l pl-6 max-h-[420px] overflow-y-auto">
-                              <h3 className="text-lg text-[#1e3a5f] mb-4">
-                                UG Programmes
-                              </h3>
+                            {programmesData[activeSchool]?.ug.length > 0 && (
+                              <div className="border-l pl-6 max-h-[420px] overflow-y-auto">
+                                <h3 className="text-lg text-[#1e3a5f] mb-4">
+                                  UG Programmes
+                                </h3>
 
-                              <div className="space-y-3">
-                                {programmesData[activeSchool]?.ug?.map(
-                                  (prog, i) => (
-                                    <Link
-                                      key={i}
-                                      href={prog.href}
-                                      className="flex items-center gap-3 group"
-                                    >
-                                      <div
-                                        className="w-9 h-9 shrink-0 flex items-center justify-center rounded-lg 
+                                <div className="space-y-3">
+                                  {programmesData[activeSchool]?.ug?.map(
+                                    (prog, i) => (
+                                      <Link
+                                        key={i}
+                                        href={prog.href}
+                                        className="flex items-center gap-3 group"
+                                      >
+                                        <div
+                                          className="w-9 h-9 shrink-0 flex items-center justify-center rounded-lg 
                 bg-[#0A8F96]/10 text-[#1e3a5f] 
                 group-hover:bg-[#1e3a5f] group-hover:text-white transition"
-                                      >
-                                        <GraduationCap size={16} />
-                                      </div>
+                                        >
+                                          <GraduationCap size={16} />
+                                        </div>
 
-                                      <span className="text-[#1e3a5f]  group-hover:text-[#1e3a5f]">
-                                        {prog.label}
-                                      </span>
-                                    </Link>
-                                  ),
-                                )}
+                                        <span className="text-[#1e3a5f]  group-hover:text-[#1e3a5f]">
+                                          {prog.label}
+                                        </span>
+                                      </Link>
+                                    ),
+                                  )}
+                                </div>
                               </div>
-                            </div>
-                             )
-                            }
+                            )}
 
                             {/* 🔹 PG */}
                             {programmesData[activeSchool]?.pg.length > 0 && (
-                            <div className="border-l pl-6 max-h-[420px] overflow-y-auto">
-                              <h3 className="text-lg text-[#1e3a5f] mb-4">
-                                PG Programmes
-                              </h3>
+                              <div className="border-l pl-6 max-h-[420px] overflow-y-auto">
+                                <h3 className="text-lg text-[#1e3a5f] mb-4">
+                                  PG Programmes
+                                </h3>
 
-                              <div className="space-y-3">
-                                {programmesData[activeSchool]?.pg?.map(
-                                  (prog, i) => (
-                                    <Link
-                                      key={i}
-                                      href={prog.href}
-                                      className="flex items-center gap-3 group"
-                                    >
-                                      <div
-                                        className="w-9 h-9 shrink-0 flex items-center justify-center rounded-lg 
+                                <div className="space-y-3">
+                                  {programmesData[activeSchool]?.pg?.map(
+                                    (prog, i) => (
+                                      <Link
+                                        key={i}
+                                        href={prog.href}
+                                        className="flex items-center gap-3 group"
+                                      >
+                                        <div
+                                          className="w-9 h-9 shrink-0 flex items-center justify-center rounded-lg 
                 bg-[#0A8F96]/10 text-[#1e3a5f] 
                 group-hover:bg-[#1e3a5f] group-hover:text-white transition"
-                                      >
-                                        <GraduationCap size={16} />
-                                      </div>
+                                        >
+                                          <GraduationCap size={16} />
+                                        </div>
 
-                                      <span className="text-gray-700 group-hover:text-[#1e3a5f]">
-                                        {prog.label}
-                                      </span>
-                                    </Link>
-                                  ),
-                                )}
+                                        <span className="text-gray-700 group-hover:text-[#1e3a5f]">
+                                          {prog.label}
+                                        </span>
+                                      </Link>
+                                    ),
+                                  )}
+                                </div>
                               </div>
-                            </div>
-                            )
-                          }
+                            )}
 
-                             {programmesData[activeSchool]?.phd.length > 0 && (
-                            <div className="border-l pl-6 max-h-[420px] overflow-y-auto">
-                              <h3 className="text-lg text-[#1e3a5f] mb-4">
-                                PhD Programmes
-                              </h3>
+                            {programmesData[activeSchool]?.phd.length > 0 && (
+                              <div className="border-l pl-6 max-h-[420px] overflow-y-auto">
+                                <h3 className="text-lg text-[#1e3a5f] mb-4">
+                                  PhD Programmes
+                                </h3>
 
-                              <div className="space-y-3">
-                                {programmesData[activeSchool]?.phd?.map(
-                                  (prog, i) => (
-                                    <Link
-                                      key={i}
-                                      href={prog.href}
-                                      className="flex items-center gap-3 group"
-                                    >
-                                      <div
-                                        className="w-9 h-9 shrink-0 flex items-center justify-center rounded-lg 
+                                <div className="space-y-3">
+                                  {programmesData[activeSchool]?.phd?.map(
+                                    (prog, i) => (
+                                      <Link
+                                        key={i}
+                                        href={prog.href}
+                                        className="flex items-center gap-3 group"
+                                      >
+                                        <div
+                                          className="w-9 h-9 shrink-0 flex items-center justify-center rounded-lg 
                 bg-[#0A8F96]/10 text-[#1e3a5f] 
                 group-hover:bg-[#1e3a5f] group-hover:text-white transition"
-                                      >
-                                        <GraduationCap size={16} />
-                                      </div>
+                                        >
+                                          <GraduationCap size={16} />
+                                        </div>
 
-                                      <span className="text-gray-700 group-hover:text-[#1e3a5f]">
-                                        {prog.label}
-                                      </span>
-                                    </Link>
-                                  ),
-                                )}
+                                        <span className="text-gray-700 group-hover:text-[#1e3a5f]">
+                                          {prog.label}
+                                        </span>
+                                      </Link>
+                                    ),
+                                  )}
+                                </div>
                               </div>
-                            </div>
-                             )
-                            }
-                            {programmesData[activeSchool]?.diploma.length > 0 && (
+                            )}
+                            {programmesData[activeSchool]?.diploma.length >
+                              0 && (
                               <div className="border-l pl-6 max-h-[420px] overflow-y-auto">
                                 <h3 className="text-lg text-[#1e3a5f] mb-4">
                                   Diploma Programmes
                                 </h3>
 
                                 <div className="space-y-3">
-                                  {programmesData[activeSchool]?.diploma?.map((prog, i) => (
-                                    <Link
-                                      key={i}
-                                      href={prog.href}
-                                      className="flex items-center gap-3 group"
-                                    >
-                                      <div className="w-9 h-9 shrink-0 flex items-center justify-center rounded-lg 
+                                  {programmesData[activeSchool]?.diploma?.map(
+                                    (prog, i) => (
+                                      <Link
+                                        key={i}
+                                        href={prog.href}
+                                        className="flex items-center gap-3 group"
+                                      >
+                                        <div
+                                          className="w-9 h-9 shrink-0 flex items-center justify-center rounded-lg 
             bg-[#0A8F96]/10 text-[#1e3a5f] 
             group-hover:bg-[#1e3a5f] group-hover:text-white transition"
-                                      >
-                                        <GraduationCap size={16} />
-                                      </div>
+                                        >
+                                          <GraduationCap size={16} />
+                                        </div>
 
-                                      <span className="text-gray-700 group-hover:text-[#1e3a5f]">
-                                        {prog.label}
-                                      </span>
-                                    </Link>
-                                  ))}
+                                        <span className="text-gray-700 group-hover:text-[#1e3a5f]">
+                                          {prog.label}
+                                        </span>
+                                      </Link>
+                                    ),
+                                  )}
                                 </div>
                               </div>
                             )}
@@ -826,9 +953,10 @@ export function Navigation() {
                     <div
                       onMouseEnter={() => handleMouseEnter(item.label)}
                       onMouseLeave={handleMouseLeave}
-                      className="absolute left-1/2 -translate-x-1/2 top-full mt-5 
-                    w-[260px] bg-white rounded-2xl 
-                    shadow-[0_10px_40px_rgba(0,0,0,0.1)] py-4 z-50"
+                      className={`absolute left-1/2 -translate-x-1/2 top-full mt-5 
+    bg-white rounded-2xl 
+    shadow-[0_10px_40px_rgba(0,0,0,0.1)] py-4 z-50
+    ${item.label === "About" ? "w-[300px]" : "w-[260px]"}`}
                     >
                       {/* ARROW */}
                       <div

@@ -10,7 +10,7 @@ import {
 
 const StudentHousingSection = () => {
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-gray-100">
       <div className="max-w-[1400px] mx-auto px-6">
         {/* 🔹 HEADER */}
         <CommonHeader

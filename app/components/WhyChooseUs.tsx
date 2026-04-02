@@ -6,9 +6,9 @@ import CommonHeader from "@/app/components/CommonHeader";
 export function WhyChooseUs() {
   const items = [
     {
-      title: "100+ Global Programmes",
-      desc: "UG, PG & Doctoral across 10 Schools",
-      img: "/img/why-choose/004.png",
+      title: "International Pathways",
+      desc: "3+1+1 Dual Degree • Global MoUs",
+      img: "/img/why-choose/003.png",
     },
     {
       title: "Verified Accreditations",
@@ -16,19 +16,14 @@ export function WhyChooseUs() {
       img: "/img/why-choose/009.png",
     },
     {
-      title: "International Pathways",
-      desc: "3+1+1 Dual Degree • Global MoUs",
-      img: "/img/why-choose/003.png",
-    },
-    {
-      title: "Vibrant Campus",
-      desc: "Clubs, Activities & Hostels",
-      img: "/img/why-choose/005.png",
-    },
-    {
       title: "Top Placements",
       desc: "300+ Industry Recruiters",
       img: "/img/why-choose/002.png",
+    },
+    {
+      title: "Bangalore Advantage",
+      desc: "India’s Silicon Valley",
+      img: "/img/why-choose/007.png",
     },
     {
       title: "World-Class Facilities",
@@ -36,10 +31,17 @@ export function WhyChooseUs() {
       img: "/img/why-choose/006.png",
     },
     {
-      title: "Bangalore Advantage",
-      desc: "India’s Silicon Valley",
-      img: "/img/why-choose/007.png",
+      title: "100+ Global Programmes",
+      desc: "UG, PG & Doctoral across 10 Schools",
+      img: "/img/why-choose/004.png",
     },
+
+    {
+      title: "Vibrant Campus",
+      desc: "Clubs, Activities & Hostels",
+      img: "/img/why-choose/005.png",
+    },
+
     {
       title: "Faculty Support",
       desc: "Mentorship & OBE Learning",
@@ -74,9 +76,9 @@ export function WhyChooseUs() {
               transition={{ delay: i * 0.1 }}
               viewport={{ once: true }}
               className="group relative h-[400px] flex flex-col bg-white rounded-2xl shadow-md border-b-4 overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
-               style={{
-    borderBottomColor: i < items.length / 2 ? "#0A8F96" : "#d4a843"
-  }}
+              style={{
+                borderBottomColor: i < items.length / 2 ? "#0A8F96" : "#d4a843",
+              }}
             >
               {/* GOLD ACCENT */}
               {/* <div className="absolute top-0 left-0 w-10 h-1 bg-[#C9A24A]"></div> */}
@@ -104,9 +106,11 @@ export function WhyChooseUs() {
           ))}
         </div>
         <div className="flex justify-center mt-10">
-          <a href="/about"><button className="bg-[#0A8F96] text-white px-8 py-3 rounded-lg text-sm md:text-base font-semibold shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300">
-            Know More
-          </button></a>
+          <a href="/about">
+            <button className="bg-[#0A8F96] text-white px-8 py-3 rounded-lg text-sm md:text-base font-semibold shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300">
+              Know More
+            </button>
+          </a>
         </div>
       </div>
     </section>
