@@ -7,8 +7,9 @@ export function WhyChooseUs() {
   const items = [
     {
       title: "International Pathways",
-      desc: "3+1+1 Dual Degree • Global MoUs",
-      img: "/img/why-choose/003.png",
+
+      desc: "UG, PG & Doctoral across 10 Schools",
+      img: "/img/why-choose/004.png",
     },
     {
       title: "Verified Accreditations",
@@ -17,31 +18,32 @@ export function WhyChooseUs() {
     },
     {
       title: "Top Placements",
+      desc: "3+1+1 Dual Degree • Global MoUs",
+      img: "/img/why-choose/003.png",
+    },
+    {
+      title: "Bangalore Advantage",
+
+      desc: "Clubs, Activities & Hostels",
+      img: "/img/why-choose/005.png",
+    },
+    {
+      title: "World-Class Facilities",
+
       desc: "300+ Industry Recruiters",
       img: "/img/why-choose/002.png",
     },
     {
-      title: "Bangalore Advantage",
-      desc: "India’s Silicon Valley",
-      img: "/img/why-choose/007.png",
-    },
-    {
-      title: "World-Class Facilities",
+      title: "100+ Global Programmes",
+
       desc: "Labs, Digital Campus",
       img: "/img/why-choose/006.png",
     },
     {
-      title: "100+ Global Programmes",
-      desc: "UG, PG & Doctoral across 10 Schools",
-      img: "/img/why-choose/004.png",
-    },
-
-    {
       title: "Vibrant Campus",
-      desc: "Clubs, Activities & Hostels",
-      img: "/img/why-choose/005.png",
+      desc: "India’s Silicon Valley",
+      img: "/img/why-choose/007.png",
     },
-
     {
       title: "Faculty Support",
       desc: "Mentorship & OBE Learning",

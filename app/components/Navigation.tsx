@@ -566,7 +566,7 @@ export function Navigation() {
       label: "About",
       hasDropdown: true,
       dropdown: [
-        { label: "About US", href: "/about" },
+        { label: "About Us", href: "/about" },
         {
           label: "Memberships & affiliations update",
           href: "/memberships-affiliations",
