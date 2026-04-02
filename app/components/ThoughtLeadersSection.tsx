@@ -123,7 +123,7 @@ export default function ThoughtLeadersSection() {
               0: { slidesPerView: 1 },
               640: { slidesPerView: 2 },
               768: { slidesPerView: 3 },
-              1024: { slidesPerView: 6 }, // ✅ important
+              1024: { slidesPerView: 5 }, // ✅ important
             }}
           >
             {row1.map((item: Leader, i: number) => (
@@ -150,7 +150,7 @@ export default function ThoughtLeadersSection() {
                 0: { slidesPerView: 1 },
                 640: { slidesPerView: 2 },
                 768: { slidesPerView: 3 },
-                1024: { slidesPerView: 6}, // ✅ important
+                1024: { slidesPerView: 5}, // ✅ important
               }}
             >
               {row2.map((item: Leader, i: number) => (
