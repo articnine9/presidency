@@ -49,17 +49,17 @@ export default function ThoughtLeadersSection() {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ delay: i * 0.1 }}
       viewport={{ once: true }}
-      className="group bg-white rounded-2xl  shadow-md border-b-4 border-b-[#0A8F96] overflow-hidden hover:shadow-2xl transition-all duration-300"
+      className="group bg-white rounded-xl md:rounded-2xl shadow-md border-b-4 border-b-[#0A8F96] overflow-hidden hover:shadow-2xl transition-all duration-300"
     >
       <div className="overflow-hidden">
         <img
           src={item.img}
           alt={item.name}
-          className="w-full h-[250px] object-cover group-hover:scale-110 transition duration-500"
+          className="w-full h-[180px] sm:h-[210px] md:h-[250px] object-cover group-hover:scale-110 transition duration-500"
         />
       </div>
 
-      <div className="p-4 text-center">
+      <div className="p-3 md:p-4 text-center">
         <h4 className="text-sm md:text-base font-semibold text-[#ff6a00]">
           {item.name}
         </h4>
@@ -69,8 +69,8 @@ export default function ThoughtLeadersSection() {
   );
 
   return (
-    <section className="py-24 bg-[#fff]">
-      <div className="max-w-[1400px] mx-auto px-6">
+    <section className="py-10 md:py-16 lg:py-24 bg-[#fff]">
+      <div className="max-w-[1400px] mx-auto px-4 sm:px-6">
         {/* ✅ HEADER */}
         <CommonHeader
           tag="Campus Experts"
@@ -109,7 +109,7 @@ Through keynote sessions, workshops, and discussions, students gain exposure to 
           </Swiper>
 
           {/* ✅ ROW 2 (reverse effect 🔥) */}
-          <div className="mt-8">
+          <div className="mt-4 md:mt-8">
             <Swiper
               modules={[Autoplay]}
               spaceBetween={20}

@@ -1,13 +1,18 @@
 "use client";
 
-import { motion } from "framer-motion";
 import CommonHeader from "@/app/components/CommonHeader";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import styles from "@/styles/swiper.module.css";
+
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 export function WhyChooseUs() {
   const items = [
     {
       title: "International Pathways",
-
       desc: "UG, PG & Doctoral across 10 Schools",
       img: "/img/why-choose/004.png",
     },
@@ -23,19 +28,16 @@ export function WhyChooseUs() {
     },
     {
       title: "Bangalore Advantage",
-
       desc: "Clubs, Activities & Hostels",
       img: "/img/why-choose/005.png",
     },
     {
       title: "World-Class Facilities",
-
       desc: "300+ Industry Recruiters",
       img: "/img/why-choose/002.png",
     },
     {
       title: "100+ Global Programmes",
-
       desc: "Labs, Digital Campus",
       img: "/img/why-choose/006.png",
     },
@@ -53,11 +55,10 @@ export function WhyChooseUs() {
 
   return (
     <section
-      className="min-h-screen flex items-center bg-gradient-to-b from-[#F5F6F8] to-white py-12 md:py-16 lg:py-20"
+      className="bg-gradient-to-b from-[#F5F6F8] to-white py-8 md:py-12 lg:py-16"
       id="programmes"
     >
-      <div className="max-w-[1400px] mx-auto px-6 md:px-10 w-full">
-        {/* HEADER */}
+      <div className="max-w-[1400px] mx-auto px-4 sm:px-6 md:px-10 w-full">
         <CommonHeader
           tag="Why We Stand Out"
           title="Why Choose"
@@ -68,46 +69,58 @@ export function WhyChooseUs() {
           align="center"
         />
 
-        {/* GRID */}
-        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-10">
-          {items.map((item, i) => (
-            <motion.div
-              key={i}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: i * 0.1 }}
-              viewport={{ once: true }}
-              className="group relative h-[400px] flex flex-col bg-white rounded-2xl shadow-md border-b-4 overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
-              style={{
-                borderBottomColor: i < items.length / 2 ? "#0A8F96" : "#d4a843",
-              }}
-            >
-              {/* GOLD ACCENT */}
-              {/* <div className="absolute top-0 left-0 w-10 h-1 bg-[#C9A24A]"></div> */}
-
-              {/* IMAGE */}
-              <div className="flex-1">
-                <img
-                  src={item.img}
-                  alt={item.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
-                />
-              </div>
-
-              {/* CONTENT */}
-              <div className="p-4">
-                <h4 className="text-sm md:text-base font-semibold text-gray-800 mb-2 leading-snug">
-                  {item.title}
-                </h4>
-
-                <p className="text-xs md:text-sm text-gray-600 leading-relaxed">
-                  {item.desc}
-                </p>
-              </div>
-            </motion.div>
-          ))}
+        <div className="mt-6 md:mt-10 relative px-0 sm:px-10 md:px-12 w-full min-w-0 overflow-hidden">
+          <Swiper
+            modules={[Pagination, Navigation, Autoplay]}
+            pagination={{ clickable: true }}
+            navigation
+            loop={items.length > 4}
+            autoplay={{
+              delay: 4500,
+              disableOnInteraction: false,
+              pauseOnMouseEnter: true,
+            }}
+            spaceBetween={16}
+            slidesPerView={1.15}
+            breakpoints={{
+              480: { slidesPerView: 1.25, spaceBetween: 16 },
+              640: { slidesPerView: 2, spaceBetween: 16 },
+              1024: { slidesPerView: 3, spaceBetween: 20 },
+              1280: { slidesPerView: 4, spaceBetween: 24 },
+            }}
+            className={`${styles.whyChooseSwiper} pb-2`}
+          >
+            {items.map((item, i) => (
+              <SwiperSlide key={i} className="!h-auto">
+                <div
+                  className="group relative h-[280px] sm:h-[320px] md:h-[380px] flex flex-col bg-white rounded-xl md:rounded-2xl shadow-md border-b-4 overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+                  style={{
+                    borderBottomColor:
+                      i < items.length / 2 ? "#0A8F96" : "#d4a843",
+                  }}
+                >
+                  <div className="flex-1 min-h-0">
+                    <img
+                      src={item.img}
+                      alt={item.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+                    />
+                  </div>
+                  <div className="p-3 md:p-4 shrink-0">
+                    <h4 className="text-xs sm:text-sm md:text-base font-semibold text-gray-800 mb-1 md:mb-2 leading-snug">
+                      {item.title}
+                    </h4>
+                    <p className="text-xs md:text-sm text-gray-600 leading-relaxed">
+                      {item.desc}
+                    </p>
+                  </div>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
-        <div className="flex justify-center mt-10">
+
+        <div className="flex justify-center mt-6 md:mt-10">
           <a href="/about">
             <button className="bg-[#0A8F96] text-white px-8 py-3 rounded-lg text-sm md:text-base font-semibold shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300">
               Know More

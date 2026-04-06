@@ -42,10 +42,10 @@ export function CampusLikeHome() {
   ];
 
   return (
-    <section className="py-24 bg-[#eef1f5]">
-      <div className="max-w-[1400px] mx-auto px-6">
+    <section className="py-10 md:py-16 lg:py-24 bg-[#eef1f5] w-full min-w-0 overflow-x-hidden">
+      <div className="max-w-[1400px] mx-auto px-4 sm:px-6 w-full min-w-0">
         {/* ✅ COMMON HEADER */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-8 md:mb-12 lg:mb-16">
           <motion.span
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -59,7 +59,7 @@ export function CampusLikeHome() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-3xl md:text-4xl text-[#1e3a5f]"
+            className="text-2xl sm:text-3xl md:text-4xl text-[#1e3a5f] px-1"
           >
             World-Class
             <span className="block text-[#0A8F96]">Campus Facilities</span>
@@ -70,7 +70,7 @@ export function CampusLikeHome() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
             viewport={{ once: true }}
-            className="text-gray-600 mt-4 max-w-2xl mx-auto text-lg"
+            className="text-gray-600 mt-3 md:mt-4 max-w-2xl mx-auto text-sm md:text-base lg:text-lg"
           >
             Our campus is designed to deliver a world-class learning experience,
             combining advanced academic infrastructure with modern recreational
@@ -78,32 +78,34 @@ export function CampusLikeHome() {
           </motion.p>
         </div>
 
-        {/* ✅ GRID */}
-        <div className="grid md:grid-cols-3 gap-6 auto-rows-[260px]">
+        {/* ✅ GRID — same bento layout as desktop (3 columns) on all breakpoints */}
+        <div className="grid grid-cols-3 gap-2 sm:gap-3 md:gap-6 auto-rows-[minmax(76px,19vw)] sm:auto-rows-[minmax(100px,14vw)] md:auto-rows-[260px] w-full min-w-0">
           {items.map((item, index) => (
             <div
               key={index}
-              className={`relative overflow-hidden rounded-xl group cursor-pointer
-                ${item.large ? "md:col-span-2 row-span-2" : ""}
-                ${item.wide ? "md:col-span-2" : ""}
+              className={`relative overflow-hidden rounded-lg sm:rounded-xl group cursor-pointer min-h-0
+                ${item.large ? "col-span-2 row-span-2" : ""}
+                ${item.wide ? "col-span-2" : ""}
               `}
             >
               {/* IMAGE */}
               <img
                 src={item.image}
-                className="w-full h-full object-cover group-hover:scale-110 transition duration-500"
-                alt=""
+                className="w-full h-full min-h-[100%] object-cover group-hover:scale-110 transition duration-500"
+                alt={item.title}
               />
 
               {/* OVERLAY */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent group-hover:from-black/80 transition"></div>
 
               {/* TEXT */}
-              <div className="absolute bottom-6 left-6 text-white">
-                <h3 className="text-lg md:text-xl font-semibold">
+              <div className="absolute bottom-2 left-2 right-2 sm:bottom-4 sm:left-4 sm:right-auto md:bottom-6 md:left-6 text-white">
+                <h3 className="text-[0.7rem] leading-tight sm:text-sm md:text-lg lg:text-xl font-semibold">
                   {item.title}
                 </h3>
-                <p className="text-sm text-white/80">{item.subtitle}</p>
+                <p className="mt-0.5 text-[0.6rem] leading-snug sm:text-xs md:text-sm text-white/85 line-clamp-2 sm:line-clamp-none">
+                  {item.subtitle}
+                </p>
               </div>
             </div>
           ))}

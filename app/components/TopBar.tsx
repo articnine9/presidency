@@ -17,7 +17,7 @@ export function TopBar() {
   };
 
   return (
-    <div className="bg-[#1e3a5f] text-white text-sm">
+    <div className="hidden md:block bg-[#1e3a5f] text-white text-sm">
       <div className="max-w-[1400px] mx-auto px-6 py-2 flex justify-between items-center">
         {/* LEFT */}
         <div className="flex items-center gap-6">

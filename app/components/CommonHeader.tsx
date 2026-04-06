@@ -32,7 +32,7 @@ export default function CommonHeader({
     <div
       className={`
         ${isCenter ? "text-center mx-auto" : "text-left"}
-        mb-10
+        mb-6 md:mb-10
         ${isCenter ? "max-w-2xl" : ""}
       `}
     >
@@ -53,7 +53,7 @@ export default function CommonHeader({
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         style={{ color: secondaryColor || "#1e3a5f" }} // ✅ full heading color
-        className="text-3xl md:text-4xl leading-tight"
+        className="text-2xl sm:text-3xl md:text-4xl leading-tight"
       >
         {title}
         {highlight && (

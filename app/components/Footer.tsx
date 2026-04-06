@@ -5,7 +5,7 @@ import { Phone, Mail, Video, Radio } from "lucide-react";
 export function FooterSection() {
   return (
     <footer className="bg-gray-100 text-[#1e2b38] pt-20">
-      <div className="max-w-[1400px] mx-auto px-6 grid lg:grid-cols-5 gap-12 pb-16">
+      <div className="max-w-[1400px] mx-auto px-4 sm:px-6 grid lg:grid-cols-5 gap-12 pb-16">
         {/* COLUMN 1 */}
         <div>
           <h3 className="font-semibold mb-4">University</h3>
@@ -65,7 +65,7 @@ export function FooterSection() {
 
       {/* CONTACT BAR */}
       <div className="border-t border-gray-300 py-10">
-        <div className="max-w-[1400px] mx-auto px-6 flex flex-col lg:flex-row items-center justify-between gap-10">
+        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 flex flex-col lg:flex-row items-center justify-between gap-10">
           {/* LOGO */}
           <div className="text-3xl font-bold text-[#1e3a5f]">
             Presidency University

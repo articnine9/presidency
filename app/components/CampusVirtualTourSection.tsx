@@ -7,9 +7,9 @@ import { useState } from "react";
 export function CampusVirtualTourSection() {
   const [videoError, setVideoError] = useState(false);
   return (
-    <section className="relative pb-32 bg-[#F5F6F8]">
+    <section className="relative pb-12 md:pb-20 lg:pb-32 bg-[#F5F6F8]">
       {/* IMAGE */}
-      <div className="relative h-[420px] w-full overflow-hidden">
+      <div className="relative h-[240px] sm:h-[320px] md:h-[420px] w-full overflow-hidden">
         {/* <img
           src="https://www.360cities.net/"
           alt="Campus"
@@ -42,14 +42,14 @@ export function CampusVirtualTourSection() {
 
         {/* 360 BADGE */}
         <div className="absolute inset-0 flex items-center justify-center">
-          <div className="text-white text-5xl font-semibold border-4 p-3 border-white rounded-full w-28 h-28 flex items-center justify-center backdrop-blur-sm bg-white/10 shadow-lg">
+          <div className="text-white text-3xl sm:text-4xl md:text-5xl font-semibold border-2 md:border-4 p-2 md:p-3 border-white rounded-full w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 flex items-center justify-center backdrop-blur-sm bg-white/10 shadow-lg">
             360°
           </div>
         </div>
       </div>
 
       {/* CONTENT BOX */}
-      <div className="relative max-w-[1000px] mx-auto bg-white shadow-xl rounded-xl px-10 py-14 -mt-24 text-center">
+      <div className="relative max-w-[1000px] mx-4 sm:mx-auto bg-white shadow-xl rounded-xl px-5 py-8 sm:px-8 sm:py-10 md:px-10 md:py-14 -mt-12 sm:-mt-16 md:-mt-24 text-center">
         {/* ✅ COMMON HEADER */}
         <div className="mb-6">
           <motion.span
@@ -78,7 +78,7 @@ export function CampusVirtualTourSection() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1 }}
           viewport={{ once: true }}
-          className="text-gray-600 text-lg max-w-2xl mx-auto"
+          className="text-gray-600 text-sm md:text-base lg:text-lg max-w-2xl mx-auto"
         >
           Experience the vibrant campus of Presidency University located in
           Bangalore — a thriving academic environment where innovation, global
@@ -91,7 +91,8 @@ export function CampusVirtualTourSection() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <button className="mt-10 bg-[#ff8c42] hover:bg-[#e67932] text-white px-8 py-3 rounded-lg flex items-center gap-3 mx-auto transition shadow-md hover:shadow-lg">
+          <button className="mt-6 md:mt-10 bg-[#ff8c42] hover:bg-[#e67932] text-white px-6 py-2.5 md:px-8 md:py-3 rounded-lg flex items-center gap-3 mx-auto transition shadow-md hover:shadow-lg text-sm md:text-base"
+          >
             Virtual Tour 360
             <ArrowRight size={18} />
           </button>

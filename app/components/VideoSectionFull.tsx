@@ -8,7 +8,7 @@ export default function VideoSectionFull() {
   const [videoError, setVideoError] = useState(false);
 
   return (
-    <section className="relative w-full h-screen overflow-hidden mb-32">
+    <section className="relative w-full min-h-[50vh] h-[50vh] sm:min-h-[60vh] sm:h-[60vh] md:min-h-[75vh] md:h-[75vh] lg:h-screen lg:min-h-0 overflow-hidden mb-12 md:mb-20 lg:mb-32">
       {/* 🔥 VIDEO BACKGROUND */}
 
       <div className="absolute inset-0 z-0 flex justify-center items-center">

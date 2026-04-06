@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 
 type FaqHeroProps = {
+  selectedProgram?: string | null;
   data: {
     title: {
       normal: string;
@@ -19,7 +20,10 @@ type FaqHeroProps = {
   };
 };
 
-export default function HowToApplyHero({ data }: FaqHeroProps) {
+export default function HowToApplyHero({
+  data,
+  selectedProgram,
+}: FaqHeroProps) {
   return (
     <>
       {/* 🔹 BREADCRUMB */}
@@ -71,6 +75,20 @@ export default function HowToApplyHero({ data }: FaqHeroProps) {
             >
               {data.description}
             </motion.p>
+
+            {selectedProgram ? (
+              <motion.p
+                initial={{ opacity: 0, y: 12 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.15 }}
+                className="mb-6 inline-flex flex-wrap items-center gap-2 rounded-lg bg-white/15 px-4 py-2 text-sm md:text-base text-white ring-1 ring-white/25"
+              >
+                <span className="text-white/80">Selected programme:</span>
+                <span className="font-semibold text-[#D4A843]">
+                  {selectedProgram}
+                </span>
+              </motion.p>
+            ) : null}
 
             {/* 🔥 CTA BUTTONS */}
             {data.buttons && (

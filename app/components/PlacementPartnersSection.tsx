@@ -77,20 +77,20 @@ const stats = [
 
 export function PlacementPartnersSection() {
   return (
-    <section className="py-24 bg-[#F5F6F8]">
-      <div className="max-w-[1400px] mx-auto px-6 text-center">
+    <section className="py-10 md:py-16 lg:py-24 bg-[#F5F6F8]">
+      <div className="max-w-[1400px] mx-auto px-4 sm:px-6 text-center">
         {/* ✅ COMMON HEADER */}
-        <div className="mb-16">
+        <div className="mb-8 md:mb-12 lg:mb-16">
           <span className="inline-block bg-[#ff7a2f]/10 text-[#ff7a2f] px-4 py-2 rounded-lg text-sm mb-4">
             Placements & Careers
           </span>
 
-          <h2 className="text-3xl md:text-4xl text-[#1e3a5f]">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl text-[#1e3a5f] leading-tight px-1">
             Career Outcomes &
             <span className="block text-[#ff7a2f]">Industry Partners</span>
           </h2>
 
-          <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
+          <p className="text-gray-600 mt-4 max-w-2xl mx-auto text-sm sm:text-base px-2">
             Presidency University connects students with top global recruiters,
             ensuring strong career outcomes and industry-ready skills.
           </p>
@@ -101,14 +101,15 @@ export function PlacementPartnersSection() {
           modules={[Autoplay]}
           autoplay={{ delay: 2000, disableOnInteraction: false }}
           loop
-          spaceBetween={40}
+          spaceBetween={16}
           slidesPerView={2}
           breakpoints={{
-            640: { slidesPerView: 3 },
+            480: { spaceBetween: 24 },
+            640: { slidesPerView: 3, spaceBetween: 32 },
             768: { slidesPerView: 4 },
-            1024: { slidesPerView: 5 },
+            1024: { slidesPerView: 5, spaceBetween: 40 },
           }}
-          className="mb-16"
+          className="mb-8 md:mb-16 w-full min-w-0"
         >
           {companies.map((company, index) => (
             <SwiperSlide key={index}>
@@ -124,20 +125,24 @@ export function PlacementPartnersSection() {
         </Swiper>
 
         {/* ✅ STATS GRID */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 md:gap-6 mb-8 md:mb-12">
           {stats.map((item, index) => (
             <div
               key={index}
-              className="bg-white rounded-xl p-6 flex items-start gap-4 shadow-sm hover:shadow-lg transition"
+              className="bg-white rounded-xl p-4 md:p-6 flex items-start gap-3 md:gap-4 shadow-sm hover:shadow-lg transition"
             >
-              <div className="text-[#1e3a5f]">{item.icon}</div>
+              <div className="text-[#1e3a5f] shrink-0 [&_svg]:w-6 [&_svg]:h-6 md:[&_svg]:w-7 md:[&_svg]:h-7">
+                {item.icon}
+              </div>
 
-              <div className="text-left">
-                <h3 className="text-lg font-semibold text-[#1e3a5f]">
+              <div className="text-left min-w-0">
+                <h3 className="text-base sm:text-lg font-semibold text-[#1e3a5f] break-words">
                   {item.value}
                 </h3>
 
-                <p className="text-gray-600 text-sm">{item.label}</p>
+                <p className="text-gray-600 text-xs sm:text-sm break-words">
+                  {item.label}
+                </p>
               </div>
             </div>
           ))}

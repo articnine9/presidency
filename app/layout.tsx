@@ -33,6 +33,12 @@ export const metadata: Metadata = {
     "Study at Presidency University Bangalore – a globally connected campus offering undergraduate, postgraduate and doctoral programmes.",
 };
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#fafaf7",
+};
+
 /* ---------------- ROOT LAYOUT ---------------- */
 
 export default function RootLayout({
@@ -55,7 +61,7 @@ export default function RootLayout({
         <Navigation />
 
         {/* PAGE CONTENT */}
-        <main>{children}</main>
+        <main className="min-w-0 w-full overflow-x-hidden">{children}</main>
 
         {/* 🔥 GLOBAL FOOTER */}
         <FooterSection />

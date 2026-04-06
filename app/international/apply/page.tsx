@@ -7,10 +7,20 @@ import CourseCTA from "./components/CourseCTA";
 
 import data from "./data/HowToApply.json";
 
-const HowToApply = () => {
+const HowToApply = async ({
+  searchParams,
+}: {
+  searchParams: Promise<{ program?: string }>;
+}) => {
+  const sp = await searchParams;
+  const raw = sp.program;
+  const selectedProgram = raw
+    ? decodeURIComponent(raw).replace(/\+/g, " ")
+    : null;
+
   return (
     <>
-      <HowToApplyHero data={data.hero} />
+      <HowToApplyHero data={data.hero} selectedProgram={selectedProgram} />
       <ApplicationSteps data={data.stepsSection} />
       <DocumentsSection data={data.documentsSection} />
       <IntakeSection data={data.intakeSection} />

@@ -32,13 +32,13 @@ const accreditations = [
 
 export function RankingAccreditationSection() {
   return (
-    <section className="py-24 bg-white relative overflow-hidden">
+    <section className="py-10 md:py-16 lg:py-24 bg-white relative overflow-hidden">
       {/* soft background glow */}
       <div className="absolute right-0 top-0 w-[400px] h-[400px] bg-[#ff8c42]/10 blur-[120px] rounded-lg"></div>
 
-      <div className="max-w-[1400px] mx-auto px-6 relative">
+      <div className="max-w-[1400px] mx-auto px-4 sm:px-6 relative">
         {/* ✅ COMMON HEADER (UPDATED) */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-8 md:mb-12 lg:mb-16">
           {/* Tag */}
           <motion.span
             initial={{ opacity: 0, y: 20 }}
@@ -54,7 +54,7 @@ export function RankingAccreditationSection() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-3xl md:text-4xl text-[#1e3a5f] leading-tight"
+            className="text-2xl sm:text-3xl md:text-4xl text-[#1e3a5f] leading-tight px-1"
           >
             Recognised for
             <span className="block text-[#ff8c42]">Academic Excellence</span>
@@ -75,19 +75,19 @@ export function RankingAccreditationSection() {
         </div>
 
         {/* Accreditation Cards */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4 md:gap-6">
           {accreditations.map((item, i) => (
             <div
               key={i}
-              className="group bg-[#f8fafc] border border-gray-100 rounded-3xl p-6 text-center hover:shadow-xl hover:-translate-y-1 transition duration-300"
+              className="group bg-[#f8fafc] border border-gray-100 rounded-2xl md:rounded-3xl p-3 sm:p-4 md:p-6 text-center hover:shadow-xl hover:-translate-y-1 transition duration-300"
             >
               {/* Logo */}
-              <div className="flex justify-center mb-4">
-                <div className="bg-white p-3 rounded-xl shadow-sm group-hover:shadow-md transition">
+              <div className="flex justify-center mb-2 md:mb-4">
+                <div className="bg-white p-2 md:p-3 rounded-lg md:rounded-xl shadow-sm group-hover:shadow-md transition">
                   <img
                     src={item.image}
                     alt={item.title}
-                    className="h-24 object-contain"
+                    className="h-14 sm:h-16 md:h-24 object-contain"
                   />
                 </div>
               </div>

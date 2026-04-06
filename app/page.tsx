@@ -44,19 +44,17 @@ import VideoSectionFull from "./components/VideoSectionFull";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen w-full min-w-0 overflow-x-hidden bg-white">
       {/* Navigation */}
       {/* <Navigation /> */}
 
       {/* Hero Banner */}
       <HeroSection />
+      <ProgramSearch />
       {/* <about> */}
       <AboutPresidency />
       {/* <YourJourney /> */}
       {/* <AboutPresidency /> */}
-      {/* Program Finder */}
-      {/* <ProgramSearch /> */}
-
       <RankingAccreditationSection />
       {/* <WhyPresidency /> */}
       {/* Rankings + Stats */}
@@ -66,14 +64,14 @@ export default function App() {
       {/* Programs Overview */}
       <ProgrammesSection />
 
-      <SchoolsSliderSection />
+      {/* <SchoolsSliderSection /> */}
       <WhyChooseUs />
-      <BangaloreCTASection />
+      {/* <BangaloreCTASection /> */}
       <CampusLikeHome />
-      <ThoughtLeadersSection />
+      {/* <ThoughtLeadersSection /> */}
       {/* <BangaloreLifeSection /> */}
       {/* <CommunitySection /> */}
-      <ResearchHighlightsSection />
+      {/* <ResearchHighlightsSection /> */}
       {/* <CampusLife /> */}
       {/* <BangaloreSection /> */}
       {/* Campus Facilities */}
@@ -85,11 +83,11 @@ export default function App() {
       <PlacementPartnersSection />
 
       {/* <ScholarshipsSection /> */}
-      <JourneySection />
-      <VideoSectionFull />
+      {/* <JourneySection /> */}
+      {/* <VideoSectionFull /> */}
       {/* <NewsSection /> */}
       {/* <InFocusSection /> */}
-      <CampusVirtualTourSection />
+      {/* <CampusVirtualTourSection /> */}
       {/* <TestimonialsSection /> */}
       {/* <AccreditationSection />
       <TestimonialsSection />

@@ -26,6 +26,42 @@ type ProgrammeCategory = {
   phd: ProgrammeItem[];
   diploma: ProgrammeItem[];
 };
+
+function ProgrammeMegaColumn({
+  title,
+  accent,
+  programmes,
+}: {
+  title: string;
+  accent: string;
+  programmes: ProgrammeItem[];
+}) {
+  return (
+    <div className="flex max-h-[min(420px,55vh)] min-h-0 flex-col overflow-hidden rounded-xl border border-gray-100 bg-white shadow-sm">
+      <div className={`${accent} shrink-0 rounded-t-xl px-3 py-2.5`}>
+        <h4 className="text-[11px] font-bold uppercase tracking-wide text-white">
+          {title}
+        </h4>
+      </div>
+      <div className="min-h-0 flex-1 space-y-0.5 overflow-y-auto p-2">
+        {programmes.map((prog, i) => (
+          <Link
+            key={i}
+            href={prog.href}
+            className="flex items-start gap-2 rounded-lg px-2 py-2 text-left text-xs leading-snug text-gray-700 transition hover:bg-[#0A8F96]/10 hover:text-[#1e3a5f] sm:text-[13px]"
+          >
+            <GraduationCap
+              size={14}
+              className="mt-0.5 shrink-0 text-[#0A8F96]"
+            />
+            <span className="line-clamp-4">{prog.label}</span>
+          </Link>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 export function Navigation() {
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -728,7 +764,7 @@ export function Navigation() {
               {navItems.map((item, i) => (
                 <div
                   key={i}
-                  className={!item.hasMegaMenu ? "relative" : ""}
+                  className={item.hasMegaMenu || item.hasDropdown ? "relative" : ""}
                   onMouseEnter={() =>
                     (item.hasDropdown || item.hasMegaMenu) &&
                     handleMouseEnter(item.label)
@@ -751,197 +787,146 @@ export function Navigation() {
                     <div
                       onMouseEnter={() => handleMouseEnter(item.label)}
                       onMouseLeave={handleMouseLeave}
-                      className={`absolute left-0 top-full w-full z-50 ${
-                        item.customMega
-                          ? "bg-[#ffff] text-white"
-                          : "bg-white border-t shadow-2xl"
-                      }`}
+                      className="absolute left-1/2 top-full z-50 mt-2 w-[min(calc(100vw-2rem),1400px)] max-w-[calc(100vw-2rem)] -translate-x-1/2"
                     >
                       {/* 🔥 CUSTOM PROGRAMMES MENU */}
                       {item.customMega ? (
-                        <div className="max-w-[1400px] mx-auto px-6 py-10 pb-0 bg-white">
-                          <div className={`grid grid-cols-5 gap-10`}>
-                            {/* 🔹 LEFT SIDEBAR */}
-                            <div className="space-y-4 text-sm max-h-[420px] overflow-y-auto">
-                              {Object.keys(programmesData).map((school, i) => (
-                                <p
-                                  key={i}
-                                  onMouseEnter={() => setActiveSchool(school)}
-                                  className={`cursor-pointer transition ${
-                                    activeSchool === school
-                                      ? "text-[#1e3a5f] font-semibold"
-                                      : "text-gray-600 hover:text-[#0A8F96]"
-                                  }`}
-                                >
-                                  Presidency School of {school}
+                        <div className="overflow-hidden rounded-2xl border border-gray-200/80 bg-white shadow-[0_24px_64px_rgba(15,30,61,0.14)]">
+                          {/* Quick links */}
+                          {Array.isArray((item as { quickLinks?: { label: string; href: string }[] }).quickLinks) &&
+                            (item as { quickLinks: { label: string; href: string }[] }).quickLinks.length > 0 && (
+                              <div className="flex flex-wrap gap-2 border-b border-white/10 bg-gradient-to-r from-[#0f1e3d] via-[#1a3050] to-[#0d4f55] px-5 py-4">
+                                {(item as { quickLinks: { label: string; href: string }[] }).quickLinks.map((ql, qi) => (
+                                  <Link
+                                    key={qi}
+                                    href={ql.href}
+                                    className="inline-flex items-center gap-1.5 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-xs font-medium text-white backdrop-blur-sm transition hover:bg-white/20"
+                                  >
+                                    {ql.label}
+                                    <ArrowRight size={12} className="opacity-80" />
+                                  </Link>
+                                ))}
+                              </div>
+                            )}
+
+                          <div className="max-w-[1400px] mx-auto px-4 py-6 sm:px-6 sm:py-8">
+                            <div className="mb-5 flex flex-col gap-1 border-b border-gray-100 pb-4 sm:flex-row sm:items-end sm:justify-between">
+                              <div>
+                                <p className="text-xs font-semibold uppercase tracking-wider text-[#0A8F96]">
+                                  Programmes
                                 </p>
-                              ))}
+                                <h3 className="text-lg font-semibold text-[#1e3a5f] sm:text-xl">
+                                  Browse by school & level
+                                </h3>
+                              </div>
+                              <p className="max-w-md text-xs text-gray-500 sm:text-sm">
+                                Select a school, then explore undergraduate, postgraduate, doctoral, and diploma offerings.
+                              </p>
                             </div>
 
-                            {/* 🔹 UG */}
-                            {programmesData[activeSchool]?.ug.length > 0 && (
-                              <div className="border-l pl-6 max-h-[420px] overflow-y-auto">
-                                <h3 className="text-lg text-[#1e3a5f] mb-4">
-                                  UG Programmes
-                                </h3>
-
-                                <div className="space-y-3">
-                                  {programmesData[activeSchool]?.ug?.map(
-                                    (prog, i) => (
-                                      <Link
-                                        key={i}
-                                        href={prog.href}
-                                        className="flex items-center gap-3 group"
-                                      >
-                                        <div
-                                          className="w-9 h-9 shrink-0 flex items-center justify-center rounded-lg 
-                bg-[#0A8F96]/10 text-[#1e3a5f] 
-                group-hover:bg-[#1e3a5f] group-hover:text-white transition"
-                                        >
-                                          <GraduationCap size={16} />
-                                        </div>
-
-                                        <span className="text-[#1e3a5f]  group-hover:text-[#1e3a5f]">
-                                          {prog.label}
-                                        </span>
-                                      </Link>
-                                    ),
-                                  )}
+                            <div className="grid grid-cols-1 gap-6 lg:grid-cols-[minmax(200px,260px)_1fr] lg:gap-8 xl:grid-cols-[minmax(220px,280px)_1fr]">
+                              {/* Schools sidebar */}
+                              <aside className="rounded-xl border border-gray-100 bg-gradient-to-b from-[#f8fafc] to-[#f1f5f9] p-3 shadow-sm">
+                                <p className="px-2 pb-2 text-[10px] font-bold uppercase tracking-widest text-gray-400">
+                                  Schools
+                                </p>
+                                <div className="max-h-[min(420px,55vh)] space-y-0.5 overflow-y-auto pr-1">
+                                  {Object.keys(programmesData).map((school, si) => (
+                                    <button
+                                      key={si}
+                                      type="button"
+                                      onMouseEnter={() => setActiveSchool(school)}
+                                      className={`w-full rounded-lg px-3 py-2.5 text-left text-sm transition ${
+                                        activeSchool === school
+                                          ? "bg-white font-semibold text-[#1e3a5f] shadow-sm ring-1 ring-[#0A8F96]/25"
+                                          : "text-gray-600 hover:bg-white/80 hover:text-[#0A8F96]"
+                                      }`}
+                                    >
+                                      <span className="line-clamp-2 leading-snug">
+                                        Presidency School of {school}
+                                      </span>
+                                    </button>
+                                  ))}
                                 </div>
+                              </aside>
+
+                              {/* Level columns */}
+                              <div className="grid min-h-0 grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-4 xl:gap-5">
+                                {programmesData[activeSchool]?.ug.length > 0 && (
+                                  <ProgrammeMegaColumn
+                                    title="Undergraduate"
+                                    accent="bg-[#0A8F96]"
+                                    programmes={programmesData[activeSchool]?.ug}
+                                  />
+                                )}
+                                {programmesData[activeSchool]?.pg.length > 0 && (
+                                  <ProgrammeMegaColumn
+                                    title="Postgraduate"
+                                    accent="bg-[#D4A843]"
+                                    programmes={programmesData[activeSchool]?.pg}
+                                  />
+                                )}
+                                {programmesData[activeSchool]?.phd.length > 0 && (
+                                  <ProgrammeMegaColumn
+                                    title="Doctoral"
+                                    accent="bg-[#6b4f9a]"
+                                    programmes={programmesData[activeSchool]?.phd}
+                                  />
+                                )}
+                                {programmesData[activeSchool]?.diploma.length > 0 && (
+                                  <ProgrammeMegaColumn
+                                    title="Diploma"
+                                    accent="bg-[#c45c2d]"
+                                    programmes={programmesData[activeSchool]?.diploma}
+                                  />
+                                )}
                               </div>
-                            )}
-
-                            {/* 🔹 PG */}
-                            {programmesData[activeSchool]?.pg.length > 0 && (
-                              <div className="border-l pl-6 max-h-[420px] overflow-y-auto">
-                                <h3 className="text-lg text-[#1e3a5f] mb-4">
-                                  PG Programmes
-                                </h3>
-
-                                <div className="space-y-3">
-                                  {programmesData[activeSchool]?.pg?.map(
-                                    (prog, i) => (
-                                      <Link
-                                        key={i}
-                                        href={prog.href}
-                                        className="flex items-center gap-3 group"
-                                      >
-                                        <div
-                                          className="w-9 h-9 shrink-0 flex items-center justify-center rounded-lg 
-                bg-[#0A8F96]/10 text-[#1e3a5f] 
-                group-hover:bg-[#1e3a5f] group-hover:text-white transition"
-                                        >
-                                          <GraduationCap size={16} />
-                                        </div>
-
-                                        <span className="text-gray-700 group-hover:text-[#1e3a5f]">
-                                          {prog.label}
-                                        </span>
-                                      </Link>
-                                    ),
-                                  )}
-                                </div>
-                              </div>
-                            )}
-
-                            {programmesData[activeSchool]?.phd.length > 0 && (
-                              <div className="border-l pl-6 max-h-[420px] overflow-y-auto">
-                                <h3 className="text-lg text-[#1e3a5f] mb-4">
-                                  PhD Programmes
-                                </h3>
-
-                                <div className="space-y-3">
-                                  {programmesData[activeSchool]?.phd?.map(
-                                    (prog, i) => (
-                                      <Link
-                                        key={i}
-                                        href={prog.href}
-                                        className="flex items-center gap-3 group"
-                                      >
-                                        <div
-                                          className="w-9 h-9 shrink-0 flex items-center justify-center rounded-lg 
-                bg-[#0A8F96]/10 text-[#1e3a5f] 
-                group-hover:bg-[#1e3a5f] group-hover:text-white transition"
-                                        >
-                                          <GraduationCap size={16} />
-                                        </div>
-
-                                        <span className="text-gray-700 group-hover:text-[#1e3a5f]">
-                                          {prog.label}
-                                        </span>
-                                      </Link>
-                                    ),
-                                  )}
-                                </div>
-                              </div>
-                            )}
-                            {programmesData[activeSchool]?.diploma.length >
-                              0 && (
-                              <div className="border-l pl-6 max-h-[420px] overflow-y-auto">
-                                <h3 className="text-lg text-[#1e3a5f] mb-4">
-                                  Diploma Programmes
-                                </h3>
-
-                                <div className="space-y-3">
-                                  {programmesData[activeSchool]?.diploma?.map(
-                                    (prog, i) => (
-                                      <Link
-                                        key={i}
-                                        href={prog.href}
-                                        className="flex items-center gap-3 group"
-                                      >
-                                        <div
-                                          className="w-9 h-9 shrink-0 flex items-center justify-center rounded-lg 
-            bg-[#0A8F96]/10 text-[#1e3a5f] 
-            group-hover:bg-[#1e3a5f] group-hover:text-white transition"
-                                        >
-                                          <GraduationCap size={16} />
-                                        </div>
-
-                                        <span className="text-gray-700 group-hover:text-[#1e3a5f]">
-                                          {prog.label}
-                                        </span>
-                                      </Link>
-                                    ),
-                                  )}
-                                </div>
-                              </div>
-                            )}
+                            </div>
                           </div>
                         </div>
                       ) : (
-                        /* 🔥 DEFAULT MEGA MENU */
-                        <div className="max-w-[1400px] mx-auto px-8 py-10">
-                          <div className="grid grid-cols-5 gap-10">
-                            {item.megaMenu?.map((section: any, idx: number) => (
-                              <div key={idx}>
-                                <h4 className="text-lg text-[#1e3a5f] mb-4">
-                                  {section.title}
-                                </h4>
-
-                                <div className="space-y-3">
-                                  {section.items.map((sub: any, i: number) => {
-                                    const Icon = iconMap[sub.icon];
-
-                                    return (
-                                      <Link
-                                        key={i}
-                                        href={sub.href}
-                                        className="flex items-center gap-3 group"
-                                      >
-                                        <div className="w-9 h-9 flex items-center justify-center rounded-lg bg-[#0A8F96]/10 text-[#1e3a5f] group-hover:bg-[#1e3a5f] group-hover:text-white transition">
-                                          {Icon && <Icon size={16} />}
-                                        </div>
-
-                                        <span className="text-base text-gray-700 group-hover:text-[#1e3a5f]">
-                                          {sub.label}
-                                        </span>
-                                      </Link>
-                                    );
-                                  })}
+                        /* Schools mega — full-width panel, opaque, responsive columns */
+                        <div className="overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-[0_24px_64px_rgba(15,30,61,0.14)]">
+                          <div className="border-b border-gray-100 bg-gradient-to-r from-[#f8fafc] via-white to-[#f0fdfa] px-5 py-4 sm:px-6">
+                            <p className="text-xs font-semibold uppercase tracking-wider text-[#0A8F96]">
+                              Schools
+                            </p>
+                            <h3 className="text-lg font-semibold text-[#1e3a5f] sm:text-xl">
+                              Explore our faculties
+                            </h3>
+                          </div>
+                          <div className="px-4 py-6 sm:px-6 sm:py-8">
+                            <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 lg:gap-4">
+                              {item.megaMenu?.map((section: any, idx: number) => (
+                                <div
+                                  key={idx}
+                                  className="flex min-h-0 min-w-0 flex-col rounded-xl border border-gray-100 bg-[#fafbfc] p-4 shadow-sm"
+                                >
+                                  <h4 className="mb-3 border-b border-gray-200 pb-2 text-sm font-bold leading-tight text-[#1e3a5f]">
+                                    {section.title}
+                                  </h4>
+                                  <div className="flex flex-col gap-2">
+                                    {section.items.map((sub: any, i: number) => {
+                                      const Icon = iconMap[sub.icon];
+                                      return (
+                                        <Link
+                                          key={i}
+                                          href={sub.href}
+                                          className="group flex items-start gap-2.5 rounded-lg p-1.5 transition hover:bg-white hover:shadow-sm"
+                                        >
+                                          <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-[#0A8F96]/10 text-[#1e3a5f] transition group-hover:bg-[#1e3a5f] group-hover:text-white">
+                                            {Icon && <Icon size={16} />}
+                                          </div>
+                                          <span className="min-w-0 text-sm leading-snug text-gray-700 group-hover:text-[#1e3a5f]">
+                                            {sub.label}
+                                          </span>
+                                        </Link>
+                                      );
+                                    })}
+                                  </div>
                                 </div>
-                              </div>
-                            ))}
+                              ))}
+                            </div>
                           </div>
                         </div>
                       )}

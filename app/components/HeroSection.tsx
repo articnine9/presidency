@@ -14,7 +14,7 @@ export function HeroSection() {
 
   return (
     // <section className="relative h-screen min-h-[700px] flex items-center justify-center overflow-hidden">
-    <section className="relative w-full min-h-screen flex items-center justify-center overflow-hidden px-4 sm:px-6 lg:px-8">
+    <section className="relative w-full min-h-[72vh] sm:min-h-[85vh] md:min-h-screen flex items-center justify-center overflow-hidden px-4 sm:px-6 lg:px-8 pt-10 pb-0 md:py-0">
       {/* Video Background */}
       <div className="absolute inset-0 z-0">
         <video
@@ -51,7 +51,7 @@ export function HeroSection() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1 }}
-            className="text-white mb-6 text-5xl md:text-6xl lg:text-7xl"
+            className="text-white mb-4 md:mb-6 text-3xl sm:text-4xl md:text-6xl lg:text-7xl leading-tight"
           >
             Your World-Class Education Starts in Bangalore
           </motion.h1>
@@ -60,7 +60,7 @@ export function HeroSection() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-xl md:text-2xl text-white/90 mb-4"
+            className="text-base sm:text-lg md:text-2xl text-white/90 mb-3 md:mb-4 max-w-2xl"
           >
             Study at Presidency University, Bangalore — where 50 years of
             academic excellence meet India’s most exciting city.
@@ -70,16 +70,19 @@ export function HeroSection() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="flex flex-wrap gap-4 mb-5"
+            className="flex flex-wrap gap-2 sm:gap-3 md:gap-4 mb-4 md:mb-5"
           >
-            <button className="bg-[#0A8F96] text-white px-8 py-4 rounded-lg hover:bg-[#0BB5B5] transition-all duration-300 hover:shadow-xl hover:scale-105 flex items-center gap-2 text-lg">
+            <button className="bg-[#0A8F96] text-white px-4 py-2.5 sm:px-5 sm:py-3 md:px-8 md:py-4 rounded-lg hover:bg-[#0BB5B5] transition-all duration-300 hover:shadow-xl hover:scale-105 flex items-center gap-2 text-xs sm:text-sm md:text-lg"
+            >
               Explore Programmes
-              <ArrowRight size={22} />
+              <ArrowRight size={20} />
             </button>
-            <button className="bg-white text-[#0F1E3D] px-8 py-4 rounded-lg hover:bg-gray-100 transition-all duration-300 hover:shadow-xl hover:scale-105 text-lg">
+            <button className="bg-white text-[#0F1E3D] px-4 py-2.5 sm:px-5 sm:py-3 md:px-8 md:py-4 rounded-lg hover:bg-gray-100 transition-all duration-300 hover:shadow-xl hover:scale-105 text-xs sm:text-sm md:text-lg"
+            >
               How to Apply
             </button>
-            <button className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white/10 transition-all duration-300 hover:scale-105 flex items-center gap-2 text-lg backdrop-blur-sm">
+            <button className="border-2 border-white text-white px-4 py-2.5 sm:px-5 sm:py-3 md:px-8 md:py-4 rounded-lg hover:bg-white/10 transition-all duration-300 hover:scale-105 flex items-center gap-2 text-xs sm:text-sm md:text-lg backdrop-blur-sm"
+            >
               <Play size={20} />
               Contact the OIA
             </button>
@@ -90,7 +93,7 @@ export function HeroSection() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6"
+            className="grid grid-cols-2 md:grid-cols-4 gap-2 sm:gap-3 md:gap-6"
           >
             {stats.map((stat, index) => (
               <motion.div
@@ -98,15 +101,15 @@ export function HeroSection() {
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5, delay: 0.7 + index * 0.1 }}
-                className="bg-white/10 backdrop-blur-md border border-white/30 rounded-xl p-6 text-center hover:bg-white/15 hover:border-white/50 transition-all duration-300 hover:scale-105"
+                className="bg-white/10 backdrop-blur-md border border-white/30 rounded-lg md:rounded-xl p-3 sm:p-4 md:p-6 text-center hover:bg-white/15 hover:border-white/50 transition-all duration-300 hover:scale-105"
               >
                 <div
-                  className="text-xl md:text-2xl font-semibold text-[#D4A843] mb-2"
+                  className="text-base sm:text-lg md:text-2xl font-semibold text-[#D4A843] mb-1 md:mb-2"
                   style={{ fontFamily: "var(--font-heading)" }}
                 >
                   {stat.value}
                 </div>
-                <div className="text-sm md:text-base text-white/90 font-medium">
+                <div className="text-xs sm:text-sm md:text-base text-white/90 font-medium leading-snug">
                   {stat.label}
                 </div>
               </motion.div>

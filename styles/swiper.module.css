@@ -1,6 +1,12 @@
 .customSwiper :global(.swiper-pagination) {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+@media (min-width: 768px) {
+  .customSwiper :global(.swiper-pagination) {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
 }
 .customSwiper :global(.swiper-pagination-bullet) {
   background: #fff;
@@ -12,4 +18,36 @@
 .customSwiper :global(.swiper-pagination-bullet-active) {
   background: #fff;
   transform: scale(1.2);
+}
+
+/* Why Choose Us — light background */
+.whyChooseSwiper :global(.swiper-pagination) {
+  position: relative;
+  margin-top: 16px;
+}
+.whyChooseSwiper :global(.swiper-pagination-bullet) {
+  background: #0a8f96;
+  opacity: 0.35;
+  width: 8px;
+  height: 8px;
+}
+.whyChooseSwiper :global(.swiper-pagination-bullet-active) {
+  background: #ff8c42;
+  opacity: 1;
+  transform: scale(1.15);
+}
+.whyChooseSwiper :global(.swiper-button-next),
+.whyChooseSwiper :global(.swiper-button-prev) {
+  color: #0a8f96;
+}
+.whyChooseSwiper :global(.swiper-button-next::after),
+.whyChooseSwiper :global(.swiper-button-prev::after) {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+@media (max-width: 640px) {
+  .whyChooseSwiper :global(.swiper-button-next),
+  .whyChooseSwiper :global(.swiper-button-prev) {
+    display: none;
+  }
 }
