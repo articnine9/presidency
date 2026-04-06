@@ -74,6 +74,7 @@ export function WhyChooseUs() {
             modules={[Pagination, Navigation, Autoplay]}
             pagination={{ clickable: true }}
             navigation
+            autoHeight
             loop={items.length > 4}
             autoplay={{
               delay: 4500,
@@ -93,17 +94,17 @@ export function WhyChooseUs() {
             {items.map((item, i) => (
               <SwiperSlide key={i} className="!h-auto">
                 <div
-                  className="group relative h-[280px] sm:h-[320px] md:h-[380px] flex flex-col bg-white rounded-xl md:rounded-2xl shadow-md border-b-4 overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+                  className="group relative flex h-full flex-col bg-white rounded-xl md:rounded-2xl shadow-md border-b-4 overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
                   style={{
                     borderBottomColor:
                       i < items.length / 2 ? "#0A8F96" : "#d4a843",
                   }}
                 >
-                  <div className="flex-1 min-h-0">
+                  <div className="w-full shrink-0 bg-[#f4f6f8]">
                     <img
                       src={item.img}
                       alt={item.title}
-                      className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+                      className="h-auto w-full object-contain object-center group-hover:scale-[1.02] transition duration-500"
                     />
                   </div>
                   <div className="p-3 md:p-4 shrink-0">

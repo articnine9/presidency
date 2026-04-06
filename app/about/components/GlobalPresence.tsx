@@ -5,12 +5,10 @@ import { motion } from "framer-motion";
 
 export default function GlobalPresence() {
   return (
-     <section
-        className="min-h-screen flex items-center bg-[#F5F6F8] py-12 md:py-16 lg:py-20"
-      >
-      <div className="max-w-[1400px] mx-auto px-6 md:px-10 w-full">
+     <section className="bg-[#F5F6F8] py-12 md:py-16 lg:py-20">
+      <div className="mx-auto w-full max-w-[1400px] px-4 sm:px-6 md:px-10">
         {/* 🔹 TITLE */}
-        <div className="text-center mb-16">
+        <div className="mb-10 text-center md:mb-16">
             <motion.span
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}

@@ -59,11 +59,11 @@ export function ProgrammesSection() {
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 md:px-10 grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
         {/* Image: second on mobile, left column on lg */}
         <div className="order-2 lg:order-1">
-          <div className="relative h-[220px] sm:h-[340px] md:h-[460px] lg:h-[600px] rounded-2xl overflow-hidden shadow-xl group mt-0 lg:mt-5">
+          <div className="relative mt-0 overflow-hidden rounded-2xl shadow-xl group lg:mt-5">
             <img
               src="img/perfect.jpeg"
               alt="Students"
-              className="w-full h-full object-cover transition duration-500"
+              className="h-auto w-full max-w-full transition duration-500"
             />
           </div>
         </div>

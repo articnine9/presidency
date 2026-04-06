@@ -22,11 +22,18 @@ export default function HistoryTimeline() {
   const autoScrollInterval = useRef<NodeJS.Timeout | null>(null);
   const isUserInteracting = useRef(false);
 
+  const getScrollStep = () => {
+    if (!scrollRef.current) return 280;
+    const step = scrollRef.current.querySelector(
+      "[data-timeline-step]",
+    ) as HTMLElement | null;
+    return step?.getBoundingClientRect().width ?? Math.round(window.innerWidth * 0.45);
+  };
+
   const scroll = (direction: ScrollDirection) => {
     if (!scrollRef.current) return;
 
-    const isMobile = window.innerWidth < 640;
-    const scrollAmount = isMobile ? 280 : 360;
+    const scrollAmount = getScrollStep();
 
     scrollRef.current.scrollBy({
       left: direction === "left" ? -scrollAmount : scrollAmount,
@@ -51,9 +58,12 @@ export default function HistoryTimeline() {
           void scrollRef.current.offsetHeight;
           scrollRef.current.style.scrollBehavior = "smooth";
         } else {
-          // Smooth scroll right
-          const isMobile = window.innerWidth < 640;
-          const scrollAmount = isMobile ? 280 : 360;
+          const step = scrollRef.current.querySelector(
+            "[data-timeline-step]",
+          ) as HTMLElement | null;
+          const scrollAmount =
+            step?.getBoundingClientRect().width ??
+            Math.round(window.innerWidth * 0.45);
           scrollRef.current.scrollBy({
             left: scrollAmount,
             behavior: "smooth",
@@ -185,9 +195,9 @@ export default function HistoryTimeline() {
   const duplicatedTimeline = [...timeline, ...timeline];
 
   return (
-    <section className="min-h-screen flex items-center bg-[#F5F6F8] py-12 md:py-16 lg:py-20">
-      <div className="max-w-[1400px] mx-auto px-6 md:px-10 w-full">
-        <div className="text-center mb-16">
+    <section className="bg-[#F5F6F8] py-12 md:py-16 lg:py-20">
+      <div className="mx-auto w-full max-w-[1400px] px-4 sm:px-6 md:px-10">
+        <div className="mb-10 text-center md:mb-16">
           <motion.span
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -230,17 +240,24 @@ export default function HistoryTimeline() {
           onMouseLeave={handleMouseLeave}
           style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
         >
-          <div className="flex items-center min-w-max px-6 py-6">
+          <div className="flex min-w-max items-center px-3 py-6 sm:px-6">
             {duplicatedTimeline.map((item, index, arr) => (
-              <div key={index} className="flex items-center">
-                {/* Timeline Card */}
-                <div className="w-[220px] md:w-[260px] flex flex-col items-center text-center">
+              <div
+                key={index}
+                data-timeline-step
+                className="flex shrink-0 items-center"
+              >
+                {/* Timeline Card — max-sm: ~half viewport so two milestones show */}
+                <div
+                  data-timeline-card
+                  className="flex max-w-[210px] shrink-0 flex-col items-center text-center max-sm:w-[calc((100vw-5.5rem)/2)] sm:w-[220px] md:w-[260px]"
+                >
                   <motion.div
                     initial={{ opacity: 0, scale: 0.8 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.4 }}
                     viewport={{ once: true }}
-                    className="w-20 h-20 rounded-full flex items-center justify-center shadow-lg mb-8"
+                    className="mb-4 flex h-14 w-14 shrink-0 items-center justify-center rounded-full shadow-lg sm:mb-8 sm:h-20 sm:w-20 [&_svg]:max-sm:h-7 [&_svg]:max-sm:w-7"
                     style={{ backgroundColor: "#1B4E8C" }}
                   >
                     {getIcon(item.title, item.year)}
@@ -250,7 +267,7 @@ export default function HistoryTimeline() {
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    className="inline-block bg-[#ff8c42]/10 text-[#ff8c42] px-4 py-2 rounded-lg text-sm mb-4 font-semibold"
+                    className="mb-4 inline-block max-w-full break-words rounded-lg bg-[#ff8c42]/10 px-2 py-1.5 text-xs font-semibold text-[#ff8c42] sm:px-4 sm:py-2 sm:text-sm"
                   >
                     {item.year}
                   </motion.span>
@@ -259,7 +276,7 @@ export default function HistoryTimeline() {
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    className="text-[#1e3a5f] font-semibold mb-1 text-sm md:text-base"
+                    className="mb-1 max-w-full break-words text-xs font-semibold text-[#1e3a5f] sm:text-sm md:text-base"
                   >
                     {item.title}
                   </motion.h3>
@@ -268,7 +285,7 @@ export default function HistoryTimeline() {
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    className="text-sm text-gray-500"
+                    className="max-w-full break-words text-[11px] leading-snug text-gray-500 sm:text-sm"
                   >
                     {item.subtitle}
                   </motion.p>
@@ -276,7 +293,7 @@ export default function HistoryTimeline() {
 
                 {/* Connecting Line */}
                 {index !== arr.length - 1 && (
-                  <div className="w-16 md:w-24 h-[2px] bg-gradient-to-r from-gray-300 to-gray-400 mx-2 md:mx-4"></div>
+                  <div className="mx-1 h-[2px] w-6 shrink-0 bg-gradient-to-r from-gray-300 to-gray-400 sm:mx-2 sm:w-16 md:mx-4 md:w-24"></div>
                 )}
               </div>
             ))}

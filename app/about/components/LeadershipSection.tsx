@@ -54,7 +54,7 @@ export default function LeadershipSection() {
   return (
     <section className="py-24 bg-white relative overflow-hidden">
 
-      <div className="max-w-[1400px] mx-auto text-center px-6">
+      <div className="mx-auto max-w-[1400px] px-4 text-center sm:px-6">
         {/* 🔹 TITLE */}
          <CommonHeader
                           tag="Leadership & Governance"
@@ -88,10 +88,17 @@ function Carousel({
   const [isAnimating, setIsAnimating] = useState(false);
   const [translate, setTranslate] = useState(0);
   const containerRef = useRef<HTMLDivElement>(null);
-  const cardRef = useRef<HTMLDivElement>(null);
+  const trackRef = useRef<HTMLDivElement>(null);
 
-  const cardWidth = 280; // match Tailwind min width
-  const visibleCards = 4; // desktop
+  const getSlideStepPx = () => {
+    const track = trackRef.current;
+    if (!track?.firstElementChild) return containerRef.current?.offsetWidth ?? 320;
+    const card = track.firstElementChild as HTMLElement;
+    const gap =
+      parseFloat(getComputedStyle(track).columnGap || getComputedStyle(track).gap || "0") ||
+      16;
+    return card.getBoundingClientRect().width + gap;
+  };
 
   useEffect(() => {
     setItems([...data, ...data]);
@@ -108,7 +115,7 @@ function Carousel({
   const slide = () => {
     if (isAnimating || !containerRef.current) return;
 
-    const slideWidth = containerRef.current.offsetWidth / 4;
+    const slideWidth = getSlideStepPx();
 
     if (direction === "left") {
       // ✅ LEFT (already correct)
@@ -159,6 +166,7 @@ function Carousel({
         className="relative overflow-hidden flex-1"
       >
         <div
+          ref={trackRef}
           className={`flex gap-4 ${isAnimating ? "transition-transform duration-500" : ""
             }`}
           style={{
@@ -206,22 +214,29 @@ function Card({ item, i }: any) {
       transition={{ delay: i * 0.1 }}
       viewport={{ once: true }}
       className="
-        min-w-[100%] 
-        sm:min-w-[calc(50%-0.5rem)] 
-        lg:min-w-[calc(25%-0.75rem)] 
-        bg-white rounded-xl shadow-md overflow-hidden 
-        border-b-4 border-b-[#0A8F96]
-        h-[360px] sm:h-[380px] lg:h-[396px]
-    flex flex-col
+        flex w-full min-w-[100%] flex-col overflow-hidden rounded-xl border-b-4 border-b-[#0A8F96] bg-white shadow-md
+        sm:min-w-[calc(50%-0.5rem)]
+        lg:min-w-[calc(25%-0.75rem)]
+        h-auto lg:h-[396px] lg:min-h-0
       "
     >
-      <img src={item.image} className="w-full object-cover" />
-      <div className="p-4">
-        <h3 className="text-gray-800 font-bold text-base uppercase">
+      {/* Portrait photos: never use object-cover below lg — sm/md two-column + fixed height was cropping faces */}
+      <div className="flex w-full items-center justify-center bg-[#f0f2f5] lg:min-h-0 lg:flex-1 lg:overflow-hidden">
+        <img
+          src={item.image}
+          alt={item.name}
+          className="h-auto w-full max-w-full object-contain object-top [image-rendering:auto] lg:max-h-full"
+          decoding="async"
+        />
+      </div>
+      <div className="min-w-0 shrink-0 p-3 text-left sm:p-4">
+        <h3 className="break-words text-base font-bold uppercase leading-snug text-gray-800">
           {item.name}
         </h3>
 
-        <p className="text-base text-gray-500 mb-1">{item.role}</p>
+        <p className="mb-1 break-words text-sm leading-snug text-gray-600 sm:text-base">
+          {item.role}
+        </p>
         {/* <p className="text-base text-gray-600 leading-relaxed">
           {item.desc}
         </p> */}

@@ -29,8 +29,8 @@ const iconMap: any = {
 
 export default function VisaSection({ data }: any) {
   return (
-    <section className="py-20 bg-[#fffbf5]">
-      <div className="max-w-[1400px] mx-auto px-5">
+    <section className="bg-[#fffbf5] py-12 md:py-20">
+      <div className="mx-auto max-w-[1400px] px-4 sm:px-5 md:px-6">
         {/* 🔥 HEADER */}
         <CommonHeader
           tag="Visa Information"
@@ -41,26 +41,30 @@ export default function VisaSection({ data }: any) {
         />
 
         {/* 🔥 REQUIREMENTS GRID */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
+        <div className="mt-10 grid grid-cols-1 gap-4 sm:gap-6 md:mt-12 md:grid-cols-2 lg:grid-cols-3">
           {data.requirements.map((item: any, index: number) => {
             const Icon = iconMap[item.icon];
 
             return (
               <div
                 key={index}
-                className="bg-[#f9fafb] rounded-xl p-5 border hover:shadow-md transition border-b-4 border-b-[#0A8F96]"
+                className="rounded-xl border border-b-4 border-b-[#0A8F96] bg-[#f9fafb] p-4 transition hover:shadow-md sm:p-5"
               >
-                <div className="flex items-start gap-4">
+                <div className="flex items-start gap-3 sm:gap-4">
                   <div
-                    className="w-10 h-10 flex items-center justify-center rounded-lg 
+                    className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg 
                     bg-[#0A8F96]/10 text-[#0A8F96]"
                   >
                     {Icon && <Icon size={18} />}
                   </div>
 
-                  <div>
-                    <h4 className="text-xl  text-gray-800">{item.title}</h4>
-                    <p className="text-base text-gray-600 mt-1">{item.desc}</p>
+                  <div className="min-w-0 flex-1">
+                    <h4 className="text-base font-semibold leading-snug text-gray-800 sm:text-lg md:text-xl">
+                      {item.title}
+                    </h4>
+                    <p className="mt-1 text-sm leading-relaxed text-gray-600 sm:text-base">
+                      {item.desc}
+                    </p>
                   </div>
                 </div>
               </div>
@@ -69,9 +73,9 @@ export default function VisaSection({ data }: any) {
         </div>
 
         {/* 🔥 AFTER ARRIVAL */}
-        <div className="mt-14 bg-gradient-to-r from-[#0A8F96] to-[#0BB5B5] text-white rounded-xl p-8 text-center">
-          <h3 className="text-lg mb-2">{data.afterArrival.title}</h3>
-          <p className="text-base opacity-90 text-white">
+        <div className="mt-10 rounded-xl bg-gradient-to-r from-[#0A8F96] to-[#0BB5B5] p-5 text-center text-white sm:mt-14 sm:p-8">
+          <h3 className="mb-2 text-base sm:text-lg">{data.afterArrival.title}</h3>
+          <p className="text-sm text-white opacity-90 sm:text-base">
             {data.afterArrival.description}
           </p>
         </div>
@@ -81,9 +85,11 @@ export default function VisaSection({ data }: any) {
           {data.importantNotes.map((note: string, i: number) => (
             <div
               key={i}
-              className="bg-[#fff7ed] border-l-4 border-orange-400 p-4 rounded-md"
+              className="rounded-md border-l-4 border-orange-400 bg-[#fff7ed] p-3 sm:p-4"
             >
-              <p className="text-base text-gray-700">{note}</p>
+              <p className="text-sm leading-relaxed text-gray-700 sm:text-base">
+                {note}
+              </p>
             </div>
           ))}
         </div>

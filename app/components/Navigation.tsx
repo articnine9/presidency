@@ -753,11 +753,17 @@ export function Navigation() {
   return (
     <>
       <TopBar />
-      <nav className="bg-white shadow-md sticky top-0 z-50">
-        <div className="max-w-[1400px] mx-auto px-6">
-          <div className="flex items-center justify-between h-[70px]">
+      <nav className="sticky top-0 z-50 border-b border-gray-100/80 bg-white/95 pt-[env(safe-area-inset-top)] shadow-md backdrop-blur-sm">
+        <div className="mx-auto max-w-[1400px] px-4 sm:px-6">
+          <div className="flex h-[64px] items-center justify-between sm:h-[70px]">
             {/* LOGO */}
-            <img src="/img/logo.webp" className="h-12" />
+            <Link href="/" className="shrink-0">
+              <img
+                src="/img/logo.webp"
+                alt="Presidency University"
+                className="h-10 w-auto sm:h-12"
+              />
+            </Link>
 
             {/* DESKTOP MENU */}
             <div className="hidden lg:flex items-center gap-8">
@@ -973,16 +979,19 @@ export function Navigation() {
             {/* MOBILE */}
 
             <button
-              className="lg:hidden"
+              type="button"
+              aria-expanded={isMobileMenuOpen}
+              aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
+              className="flex min-h-[44px] min-w-[44px] items-center justify-center rounded-lg text-[#1e3a5f] lg:hidden"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             >
-              {isMobileMenuOpen ? <X /> : <Menu />}
+              {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
           </div>
         </div>
         {isMobileMenuOpen && (
-          <div className="lg:hidden bg-white border-t">
-            <div className="px-6 py-4 space-y-4">
+          <div className="lg:hidden border-t border-gray-100 bg-white">
+            <div className="max-h-[min(70dvh,calc(100dvh-4rem))] space-y-4 overflow-y-auto overscroll-contain px-4 py-4 pb-[max(1rem,env(safe-area-inset-bottom))] sm:px-6">
               {navItems.map((item, i) => (
                 <div key={i}>
                   <button

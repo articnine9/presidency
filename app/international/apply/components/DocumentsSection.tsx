@@ -33,8 +33,8 @@ const iconMap: any = {
 
 export default function DocumentsSection({ data }: any) {
   return (
-    <section className="py-20 bg-white">
-      <div className="max-w-[1400px] mx-auto px-6">
+    <section className="bg-white py-12 md:py-20">
+      <div className="mx-auto max-w-[1400px] px-4 sm:px-6">
         {/* 🔥 HEADER */}
         <CommonHeader
           tag="Admissions"
@@ -46,7 +46,7 @@ export default function DocumentsSection({ data }: any) {
 
         {/* 🔥 GRID */}
         <motion.div
-          className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12"
+          className="mt-10 grid gap-4 sm:gap-6 md:mt-12 md:grid-cols-2 lg:grid-cols-3"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
@@ -104,7 +104,7 @@ export default function DocumentsSection({ data }: any) {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
-            className="mt-14 bg-gradient-to-r from-[#0b2a4a] to-[#0A8F96] text-white rounded-xl p-8 shadow-lg"
+            className="mt-10 rounded-xl bg-gradient-to-r from-[#0b2a4a] to-[#0A8F96] p-5 text-white shadow-lg sm:mt-14 sm:p-8"
           >
             <h4 className="text-lg font-semibold mb-2">
               {data.importantNote.title}

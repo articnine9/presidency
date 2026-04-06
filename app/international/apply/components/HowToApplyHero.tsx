@@ -43,7 +43,7 @@ export default function HowToApplyHero({
       )}
 
       {/* 🔥 HERO */}
-      <section className="relative w-full min-h-[500px] md:h-[520px] overflow-hidden">
+      <section className="relative w-full min-h-[420px] overflow-hidden sm:min-h-[480px] md:h-[520px]">
         {/* IMAGE */}
         <img
           src={data.image || "/img/faq.jpg"}
@@ -54,13 +54,13 @@ export default function HowToApplyHero({
         <div className="absolute inset-0 bg-gradient-to-r from-[#0b2a4a]/95 via-[#0b2a4a]/85 to-transparent" />
 
         {/* CONTENT */}
-        <div className="relative max-w-[1400px] mx-auto px-5 md:px-6 h-full flex items-center">
+        <div className="relative mx-auto flex h-full min-h-[420px] max-w-[1400px] items-center px-4 py-10 sm:min-h-[480px] sm:px-6 md:min-h-0 md:py-0">
           <div className="max-w-3xl text-white">
             {/* TITLE */}
             <motion.h1
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
-              className="text-4xl md:text-6xl font-serif mb-4 leading-tight"
+              className="mb-4 font-serif text-3xl leading-tight sm:text-4xl md:text-5xl lg:text-6xl"
             >
               {data.title.normal}{" "}
               <span className="italic text-[#D4A843]">{data.title.italic}</span>
@@ -71,7 +71,7 @@ export default function HowToApplyHero({
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1 }}
-              className="text-lg md:text-xl text-white/90 mb-6"
+              className="mb-6 text-base text-white/90 md:text-lg lg:text-xl"
             >
               {data.description}
             </motion.p>
@@ -96,14 +96,14 @@ export default function HowToApplyHero({
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.2 }}
-                className="flex flex-wrap gap-4"
+                className="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-4"
               >
                 {data.buttons.map((btn, index) => (
                   <a
                     key={index}
                     href={btn.link}
                     target={btn.link.startsWith("http") ? "_blank" : "_self"}
-                    className={`px-6 py-3 rounded-lg text-sm md:text-base font-medium transition-all duration-300 ${
+                    className={`inline-flex w-full items-center justify-center rounded-lg px-6 py-3 text-center text-sm font-medium transition-all duration-300 sm:w-auto md:text-base ${
                       btn.type === "primary"
                         ? "bg-[#0A8F96] text-white hover:bg-[#0BB5B5] hover:shadow-lg"
                         : "border-2 border-white text-white hover:bg-white/10 backdrop-blur-sm"

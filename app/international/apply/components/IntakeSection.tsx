@@ -6,8 +6,8 @@ import CommonHeader from "@/app/components/CommonHeader";
 
 export default function IntakeSection({ data }: any) {
   return (
-    <section className="py-20 bg-[#f4f6f8]">
-      <div className="max-w-[1400px] mx-auto px-5">
+    <section className="bg-[#f4f6f8] py-12 md:py-20">
+      <div className="mx-auto max-w-[1400px] px-4 sm:px-5 md:px-6">
         {/* 🔥 HEADER */}
         <CommonHeader
           tag="Admissions"
@@ -18,7 +18,7 @@ export default function IntakeSection({ data }: any) {
         />
 
         {/* 🔥 INTAKE BLOCKS */}
-        <div className="mt-16 space-y-20">
+        <div className="mt-10 space-y-12 md:mt-16 md:space-y-20">
           {data.intakes.map((intake: any, index: number) => {
             const isReverse = index % 2 !== 0;
 
@@ -28,7 +28,7 @@ export default function IntakeSection({ data }: any) {
                 initial={{ opacity: 0, y: 80 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
-                className={`grid md:grid-cols-2 gap-12 items-center`}
+                className={`grid items-center gap-8 md:grid-cols-2 md:gap-12`}
               >
                 {/* 🔥 IMAGE CARD */}
                 <div
@@ -37,24 +37,26 @@ export default function IntakeSection({ data }: any) {
                   <img
                     src={intake.image || "/img/intake.jpg"}
                     alt={intake.name}
-                    className="w-full h-[320px] object-cover"
+                    className="aspect-[4/3] w-full object-cover sm:h-[280px] sm:aspect-auto md:h-[320px]"
                   />
 
                   {/* OVERLAY */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
 
                   {/* TEXT OVER IMAGE */}
-                  <div className="absolute bottom-6 left-6 text-white">
-                    <p className="text-xs uppercase opacity-80">
+                  <div className="absolute bottom-4 left-4 text-white sm:bottom-6 sm:left-6">
+                    <p className="text-[10px] uppercase opacity-80 sm:text-xs">
                       {intake.type}
                     </p>
-                    <h3 className="text-2xl font-semibold">{intake.name}</h3>
+                    <h3 className="text-lg font-semibold leading-tight sm:text-2xl">
+                      {intake.name}
+                    </h3>
                   </div>
                 </div>
 
                 {/* 🔥 CONTENT CARD */}
                 <div className={`${isReverse ? "md:order-1" : ""}`}>
-                  <div className="bg-white p-8 rounded-2xl shadow-lg border relative">
+                  <div className="relative rounded-2xl border bg-white p-5 shadow-lg sm:p-8">
                     {/* ACCENT LINE */}
                     <div className="absolute left-0 top-0 h-full w-1 bg-[#0A8F96] rounded-l-2xl" />
 
@@ -98,7 +100,7 @@ export default function IntakeSection({ data }: any) {
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
-          className="mt-20 bg-white border rounded-xl p-6 text-center shadow-sm"
+          className="mt-12 rounded-xl border bg-white p-4 text-center shadow-sm sm:mt-20 sm:p-6"
         >
           <p className="text-gray-700 text-sm md:text-base">{data.note}</p>
         </motion.div>

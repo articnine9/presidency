@@ -44,7 +44,7 @@ import VideoSectionFull from "./components/VideoSectionFull";
 
 export default function App() {
   return (
-    <div className="min-h-screen w-full min-w-0 overflow-x-hidden bg-white">
+    <div className="min-h-dvh w-full min-w-0 overflow-x-hidden bg-white">
       {/* Navigation */}
       {/* <Navigation /> */}
 

@@ -7,7 +7,7 @@ export default function CourseHero({ data, school }: any) {
   const hero = data.hero;
 
   return (
-    <section className="relative  min-h-[520px] md:h-[520px] flex items-center justify-center z-30">
+    <section className="relative z-30 flex min-h-[480px] items-center justify-center overflow-hidden sm:min-h-[520px] md:h-[520px]">
       {/* Video Background */}
       <div className="absolute inset-0 z-0">
         <img
@@ -32,7 +32,7 @@ export default function CourseHero({ data, school }: any) {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-[1400px] mx-auto px-5 md:px-10 w-full">
+      <div className="relative z-10 mx-auto w-full max-w-[1400px] px-4 py-10 sm:px-6 md:px-10 md:py-12">
         <div className="max-w-4xl">
           <motion.p
             initial={{ opacity: 0, y: 30 }}
@@ -47,7 +47,7 @@ export default function CourseHero({ data, school }: any) {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1 }}
-            className="text-white mb-6 text-5xl md:text-6xl lg:text-7xl"
+            className="mb-4 text-3xl text-white sm:mb-6 sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl"
           >
             {hero?.title.normal}
             <i>{hero?.title.italic}</i>
@@ -57,7 +57,7 @@ export default function CourseHero({ data, school }: any) {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-xl md:text-2xl text-white/90 mb-4"
+            className="mb-4 text-lg text-white/90 md:text-xl lg:text-2xl"
           >
             {hero?.description}
           </motion.p>

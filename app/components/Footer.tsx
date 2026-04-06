@@ -107,7 +107,7 @@ export function FooterSection() {
       </div>
 
       {/* COPYRIGHT */}
-      <div className="bg-[#1e4c8f] text-white text-center py-4 text-sm">
+      <div className="bg-[#1e4c8f] py-4 pb-[max(1rem,env(safe-area-inset-bottom))] text-center text-sm text-white">
         © 2026 Presidency University. All Rights Reserved.
       </div>
     </footer>

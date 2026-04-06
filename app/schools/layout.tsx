@@ -1,17 +1,9 @@
-import { Navigation } from "@/app/components/Navigation";
-import { FooterSection } from "@/app/components//Footer";
-
-export default function RootLayout({
+export default function SchoolsLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className="min-h-screen bg-white">
-        {/* PAGE CONTENT */}
-        <main className="bg-white">{children}</main>
-      </body>
-    </html>
+    <div className="min-h-dvh min-w-0 overflow-x-hidden bg-white">{children}</div>
   );
 }

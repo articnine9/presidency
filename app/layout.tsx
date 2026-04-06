@@ -36,6 +36,8 @@ export const metadata: Metadata = {
 export const viewport = {
   width: "device-width",
   initialScale: 1,
+  maximumScale: 5,
+  viewportFit: "cover",
   themeColor: "#fafaf7",
 };
 
@@ -56,12 +58,14 @@ export default function RootLayout({
         geist.variable,
       )}
     >
-      <body className="antialiased font-body bg-background text-foreground">
+      <body className="min-h-dvh overflow-x-clip antialiased font-body bg-background text-foreground">
         {/* 🔥 GLOBAL NAVBAR */}
         <Navigation />
 
         {/* PAGE CONTENT */}
-        <main className="min-w-0 w-full overflow-x-hidden">{children}</main>
+        <main className="min-w-0 w-full overflow-x-hidden pb-[env(safe-area-inset-bottom,0px)]">
+          {children}
+        </main>
 
         {/* 🔥 GLOBAL FOOTER */}
         <FooterSection />

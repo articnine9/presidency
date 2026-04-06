@@ -37,7 +37,7 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
       )}
 
       {/* 🔥 HERO */}
-      <section className="relative w-full min-h-[520px] md:h-[520px] overflow-hidden">
+      <section className="relative w-full min-h-[480px] overflow-hidden sm:min-h-[520px] md:h-[520px]">
         {/* IMAGE */}
         <img
           src={data.image || "/img/law.jpg"}
@@ -53,13 +53,13 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
         ></div>
 
         {/* CONTENT */}
-        <div className="relative max-w-[1400px] mx-auto px-5 md:px-6 h-full flex items-center gap-60 justify-between">
-          <div className="max-w-4xl text-white pt-10 md:pt-0 pb-28 md:pb-0">
+        <div className="relative mx-auto flex h-full min-h-[480px] w-full max-w-[1400px] flex-col gap-8 px-4 py-10 sm:px-6 md:min-h-[520px] md:flex-row md:items-center md:justify-between md:gap-12 md:py-0 xl:gap-24">
+          <div className="max-w-4xl pb-4 text-white md:pb-0">
             {/* TITLE */}
             <motion.h1
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
-              className="text-white mb-6 text-5xl md:text-6xl lg:text-7xl"
+              className="mb-4 text-3xl text-white sm:mb-6 sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl"
             >
               {data.title.normal}
               <i className="ml-2">{data.title.italic}</i>
@@ -70,7 +70,7 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1 }}
-              className="text-xl md:text-2xl text-white/90 mb-4"
+              className="mb-4 text-lg text-white/90 md:text-xl lg:text-2xl"
             >
               {data.description}
             </motion.p>
@@ -102,9 +102,9 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
               </button>
             </motion.div>
           </div>
-          <div>
+          <div className="w-full shrink-0 md:w-auto">
             {data.stats && (
-              <div className="mt-6">
+              <div className="mt-0 md:mt-6">
                 <div className="max-w-sm mx-auto">
                   <div className="flex flex-col items-center gap-4">
                     {data.stats.map((stat, index) => (

@@ -34,7 +34,7 @@ export default function AboutHero() {
           </div>
         </div>
       )}
-      <section className="relative w-full  h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8">
+      <section className="relative flex min-h-[72dvh] w-full items-center justify-center px-4 py-10 sm:min-h-[80dvh] sm:px-6 md:min-h-screen md:py-0 lg:px-8">
         {/* Video Background */}
         <div className="absolute inset-0 z-0">
           <img
@@ -59,13 +59,13 @@ export default function AboutHero() {
         </div>
 
         {/* Content */}
-        <div className="relative z-10 max-w-[1400px] mx-auto px-5 md:px-10 w-full">
+        <div className="relative z-10 mx-auto w-full max-w-[1400px] px-4 sm:px-6 md:px-10">
           <div className="max-w-4xl">
             <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1 }}
-            className="text-white mb-6 text-5xl md:text-6xl lg:text-7xl"
+            className="mb-4 text-3xl text-white sm:mb-6 sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl"
           >
             Where Ambition Meets Opportunity
           </motion.h1>
@@ -73,7 +73,7 @@ export default function AboutHero() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-xl text-white/90 mb-4"
+              className="mb-4 text-base text-white/90 sm:text-lg md:text-xl"
             >
               Presidency University, Bangalore, is a University established under the Karnataka Act 41 of 2013 by the Presidency Group of Institutions — an educational legacy spanning five decades. The university is approved by the University Grants Commission (UGC) of India and is accredited by NAAC (National Assessment and Accreditation Council). It features in the Times Higher Education (THE) World University Rankings, the QS Rankings & Ratings, and the National Institutional Ranking Framework (NIRF).
             </motion.p>
@@ -101,17 +101,19 @@ export default function AboutHero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="flex flex-wrap gap-4 mb-5"
+            className="mb-5 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-4"
           >
-            <button className="bg-[#0A8F96] text-white px-8 py-4 rounded-lg hover:bg-[#0BB5B5] transition-all duration-300 hover:shadow-xl hover:scale-105 flex items-center gap-2 text-lg">
+            <button
+              type="button"
+              className="flex w-full items-center justify-center gap-2 rounded-lg bg-[#0A8F96] px-6 py-3.5 text-base text-white transition-all duration-300 hover:scale-105 hover:bg-[#0BB5B5] hover:shadow-xl sm:w-auto sm:px-8 sm:py-4 sm:text-lg"
+            >
               Explore Programmes
               <ArrowRight size={22} />
             </button>
-            {/* <button className="bg-white text-[#0F1E3D] px-8 py-4 rounded-lg hover:bg-gray-100 transition-all duration-300 hover:shadow-xl hover:scale-105 text-lg">
-              How to Apply
-            </button> */}
-            <button className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white/10 transition-all duration-300 hover:scale-105 flex items-center gap-2 text-lg backdrop-blur-sm">
-
+            <button
+              type="button"
+              className="flex w-full items-center justify-center gap-2 rounded-lg border-2 border-white px-6 py-3.5 text-base text-white backdrop-blur-sm transition-all duration-300 hover:scale-105 hover:bg-white/10 sm:w-auto sm:px-8 sm:py-4 sm:text-lg"
+            >
               Request Information
             </button>
           </motion.div>

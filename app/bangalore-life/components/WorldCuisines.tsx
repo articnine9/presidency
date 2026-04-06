@@ -10,8 +10,8 @@ import "swiper/css/navigation";
 
 export default function WorldCuisines({ data }: any) {
   return (
-    <section className="min-h-screen flex items-center bg-[#F5F6F8] py-12 md:py-16 lg:py-20">
-      <div className="max-w-[1400px] mx-auto px-6">
+    <section className="bg-[#F5F6F8] py-12 md:py-16 lg:py-20">
+      <div className="mx-auto max-w-[1400px] px-4 sm:px-6">
         {/* 🔹 HEADER */}
         <CommonHeader
           tag={data.header.tag}
