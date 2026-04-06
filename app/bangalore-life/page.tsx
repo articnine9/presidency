@@ -7,6 +7,7 @@ import SchoolHero from "./components/HeroSection";
 import BangaloreTechSection from "./components/BangaloreTechSection";
 import CareerSection from "./components/CareerSection";
 import CostSection from "./components/CostSection";
+import CTASection from "./components/CTASection";
 import data from "./data/bangoloreLife.json";
 const BangalorePage = () => {
   return (
@@ -20,6 +21,7 @@ const BangalorePage = () => {
       {/* <LivingFoodSection /> */}
       <WorldCuisines data = {data.WorldCuisines}/>
       <InternationalSupport data = {data.InternationalSupport}/>
+      <CTASection />
     </>
   );
 };
