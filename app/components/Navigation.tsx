@@ -1,7 +1,8 @@
 "use client";
 
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { TopBar } from "./TopBar";
 import {
   Menu,
@@ -63,10 +64,21 @@ function ProgrammeMegaColumn({
 }
 
 export function Navigation() {
+  const pathname = usePathname();
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [mobileOpenItem, setMobileOpenItem] = useState<string | null>(null);
   const closeTimeout = useRef<NodeJS.Timeout | null>(null);
+
+  const closeMobileMenu = () => {
+    setIsMobileMenuOpen(false);
+    setMobileOpenItem(null);
+  };
+
+  useEffect(() => {
+    setIsMobileMenuOpen(false);
+    setMobileOpenItem(null);
+  }, [pathname]);
   const [activeSchool, setActiveSchool] = useState(
     "Computer Science and Engineering",
   );
@@ -757,7 +769,11 @@ export function Navigation() {
         <div className="mx-auto max-w-[1400px] px-4 sm:px-6">
           <div className="flex h-[64px] items-center justify-between sm:h-[70px]">
             {/* LOGO */}
-            <Link href="/" className="shrink-0">
+            <Link
+              href="/"
+              className="shrink-0"
+              onClick={closeMobileMenu}
+            >
               <img
                 src="/img/logo.webp"
                 alt="Presidency University"
@@ -1021,6 +1037,7 @@ export function Navigation() {
                           key={idx}
                           href={sub.href}
                           className="block text-sm"
+                          onClick={closeMobileMenu}
                         >
                           {sub.label}
                         </Link>
@@ -1041,6 +1058,7 @@ export function Navigation() {
                               key={i}
                               href={sub.href}
                               className="block text-sm"
+                              onClick={closeMobileMenu}
                             >
                               › {sub.label}
                             </Link>
@@ -1055,6 +1073,7 @@ export function Navigation() {
               <a
                 href="/apply"
                 className="block bg-[#0A8F96] text-white py-3 text-center rounded-lg"
+                onClick={closeMobileMenu}
               >
                 APPLY NOW
               </a>

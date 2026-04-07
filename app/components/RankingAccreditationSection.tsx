@@ -1,6 +1,8 @@
 "use client";
 
+import { useState } from "react";
 import { motion } from "motion/react";
+import CommonButton from "@/app/components/CommonButton";
 
 const accreditations = [
   {
@@ -30,7 +32,35 @@ const accreditations = [
   },
 ];
 
+function AccreditationCard({
+  item,
+}: {
+  item: (typeof accreditations)[number];
+}) {
+  return (
+    <div
+      className="group bg-[#f8fafc] border border-gray-100 rounded-2xl md:rounded-3xl p-3 sm:p-4 md:p-6 text-center hover:shadow-xl hover:-translate-y-1 transition duration-300"
+    >
+      <div className="flex justify-center mb-2 md:mb-4">
+        <div className="bg-white p-2 md:p-3 rounded-lg md:rounded-xl shadow-sm group-hover:shadow-md transition">
+          <img
+            src={item.image}
+            alt={item.title}
+            className="h-14 sm:h-16 md:h-24 object-contain"
+          />
+        </div>
+      </div>
+      <h3 className="text-[#1e3a5f] font-medium mb-1 text-sm md:text-base">
+        {item.title}
+      </h3>
+      <p className="text-sm text-gray-500">{item.desc}</p>
+    </div>
+  );
+}
+
 export function RankingAccreditationSection() {
+  const [mobileShowAll, setMobileShowAll] = useState(false);
+
   return (
     <section className="relative overflow-hidden bg-white py-12 md:py-16 lg:py-24">
       {/* soft background glow */}
@@ -74,32 +104,37 @@ export function RankingAccreditationSection() {
           </motion.p>
         </div>
 
-        {/* Accreditation Cards */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4 md:gap-6">
-          {accreditations.map((item, i) => (
-            <div
-              key={i}
-              className="group bg-[#f8fafc] border border-gray-100 rounded-2xl md:rounded-3xl p-3 sm:p-4 md:p-6 text-center hover:shadow-xl hover:-translate-y-1 transition duration-300"
+        {/* Accreditation Cards — mobile: 4 + View more; md+: all 5 */}
+        <div className="md:hidden">
+          <div className="grid grid-cols-2 gap-3 sm:gap-4">
+            {accreditations.slice(0, 4).map((item) => (
+              <AccreditationCard key={item.title} item={item} />
+            ))}
+          </div>
+          {!mobileShowAll ? (
+            <CommonButton
+              variant="teal"
+              fullWidth
+              className="mt-5"
+              onClick={() => setMobileShowAll(true)}
             >
-              {/* Logo */}
-              <div className="flex justify-center mb-2 md:mb-4">
-                <div className="bg-white p-2 md:p-3 rounded-lg md:rounded-xl shadow-sm group-hover:shadow-md transition">
-                  <img
-                    src={item.image}
-                    alt={item.title}
-                    className="h-14 sm:h-16 md:h-24 object-contain"
-                  />
-                </div>
+              View more
+            </CommonButton>
+          ) : (
+            <div className="mt-4 flex justify-center px-2">
+              <div className="w-full max-w-[220px] sm:max-w-[260px]">
+                <AccreditationCard
+                  key={accreditations[4].title}
+                  item={accreditations[4]}
+                />
               </div>
-
-              {/* Title */}
-              <h3 className="text-[#1e3a5f] font-medium mb-1 text-sm md:text-base">
-                {item.title}
-              </h3>
-
-              {/* Description */}
-              <p className="text-sm text-gray-500">{item.desc}</p>
             </div>
+          )}
+        </div>
+
+        <div className="hidden md:grid md:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4 md:gap-6">
+          {accreditations.map((item) => (
+            <AccreditationCard key={item.title} item={item} />
           ))}
         </div>
       </div>

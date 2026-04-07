@@ -4,6 +4,7 @@ import { Fragment } from "react";
 import { motion } from "motion/react";
 import Link from "next/link";
 import CommonHeader from "@/app/components/CommonHeader";
+import CommonButton from "@/app/components/CommonButton";
 import {
   Laptop,
   FilePenLine,
@@ -135,12 +136,9 @@ export function AdmissionProcessSection() {
             </div>
 
             <div className="flex justify-center pt-2">
-              <Link
-                href="/international/apply"
-                className="inline-flex min-h-[48px] items-center justify-center rounded-full bg-[#ff8c42] px-10 py-3.5 text-sm font-bold text-white shadow-lg transition hover:bg-[#e67e35] hover:shadow-xl md:px-12 md:text-base"
-              >
-                Check Eligibility
-              </Link>
+              <CommonButton variant="pill" asChild>
+                <Link href="/international/apply">Check Eligibility</Link>
+              </CommonButton>
             </div>
           </div>
         </motion.div>

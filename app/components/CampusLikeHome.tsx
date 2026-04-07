@@ -103,7 +103,7 @@ export function CampusLikeHome() {
                 <h3 className="text-[0.7rem] leading-tight sm:text-sm md:text-lg lg:text-xl font-semibold">
                   {item.title}
                 </h3>
-                <p className="mt-0.5 text-[0.6rem] leading-snug sm:text-xs md:text-sm text-white/85 line-clamp-2 sm:line-clamp-none">
+                <p className="mt-0.5 hidden text-[0.6rem] leading-snug text-white/85 line-clamp-2 sm:block sm:text-xs md:text-sm sm:line-clamp-none">
                   {item.subtitle}
                 </p>
               </div>
