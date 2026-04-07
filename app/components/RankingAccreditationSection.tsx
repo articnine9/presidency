@@ -32,7 +32,7 @@ const accreditations = [
 
 export function RankingAccreditationSection() {
   return (
-    <section className="py-10 md:py-16 lg:py-24 bg-white relative overflow-hidden">
+    <section className="relative overflow-hidden bg-white py-12 md:py-16 lg:py-24">
       {/* soft background glow */}
       <div className="absolute right-0 top-0 w-[400px] h-[400px] bg-[#ff8c42]/10 blur-[120px] rounded-lg"></div>
 

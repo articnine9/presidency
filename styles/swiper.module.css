@@ -20,6 +20,22 @@
   transform: scale(1.2);
 }
 
+/* Leadership & Governance — light section */
+.leadershipSwiper :global(.swiper-pagination) {
+  position: relative;
+  margin-top: 16px;
+}
+.leadershipSwiper :global(.swiper-pagination-bullet) {
+  background: #cbd5e1;
+  opacity: 1;
+  width: 8px;
+  height: 8px;
+}
+.leadershipSwiper :global(.swiper-pagination-bullet-active) {
+  background: #0a8f96;
+  transform: scale(1.2);
+}
+
 /* Why Choose Us — light background */
 .whyChooseSwiper :global(.swiper-pagination) {
   position: relative;

@@ -1,9 +1,16 @@
 "use client";
-import { motion } from "motion/react";
-import { useEffect, useRef, useState } from "react";
-import { ChevronLeft, ChevronRight } from "lucide-react";
-import CommonHeader from "@/app/components/CommonHeader";
 
+import { motion } from "motion/react";
+import { useRef } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination } from "swiper/modules";
+import type { Swiper as SwiperType } from "swiper";
+import CommonHeader from "@/app/components/CommonHeader";
+import styles from "@/styles/swiper.module.css";
+
+import "swiper/css";
+import "swiper/css/pagination";
 
 const data1 = [
   { id: 1, name: "Dr. Nissar Ahmed", role: "Chairman", image: "/img/aboutus/chairman.png", desc: "Chairman, Presidency Group of Institutions" },
@@ -17,11 +24,9 @@ const data1 = [
   { id: 9, name: "Dr. P Pal Pandian", role: "Director - IQAC", image: "/img/aboutus/m7.png", desc: "A highly qualified academic leader with extensive experience." },
   { id: 10, name: "Dr. N. Duraipandian", role: "Dean - School of Computer Science & Engineering & Information Science ", image: "/img/aboutus/person8.png", desc: "He holds a PhD from Anna University and an M.E. and a B.E. from NIT Trichy." },
   { id: 11, name: "Dr. Ramesh Sengottuvelu", role: "Dean, School of Engineering", image: "/img/aboutus/person12.png", desc: "An distinguished academician with over 34 years of extensive experience in teaching across reputed engineering institutions" },
-
 ];
 
 const data2 = [
-  
   { id: 1, name: "Dr. K. Krishna Kumar", role: "Dean In charge", image: "/img/aboutus/person11.png", desc: "A financial services industry professional turned academician, brings thirty years of industry and academic experience." },
   { id: 2, name: "Dr. Padmavathi", role: "Associate Dean, School of Commerce", image: "/img/aboutus/person10.png", desc: "a motivational speaker and has delivered programmes on national television and radio channels." },
   { id: 3, name: "Dr. Saroj Sharma", role: "Dean, School of Law", image: "/img/aboutus/person9.png", desc: "an accomplished education professional with a proven academic track record." },
@@ -31,47 +36,26 @@ const data2 = [
   { id: 7, name: "Dr. Anu Sukhdev", role: "Professor and Dean - Student Affairs", image: "/img/aboutus/person4.png", desc: "An academician with over two decades of experience in administration, teaching, and research " },
   { id: 8, name: "Brigadier Sumesh Sharma", role: "Director - Administration & Facilities", image: "/img/aboutus/person3.png", desc: "Holds a master's degree in management studies and a B. Tech. in Electronics and Communication Engineering" },
   { id: 9, name: "Col. P.L. Jayram", role: "Director - Student Discipline and Sports", image: "/img/aboutus/person2.png", desc: "He holds an MBA in Finance, postgraduate diplomas in Human Resource Management and Defense Studies, and a Commerce degree from Bangalore University." },
-
-
-]
+];
 
 export default function LeadershipSection() {
-  const leaders = [
-    {
-      name: "Chancellor",
-      subtitle: "Presidency University Chancellor",
-      desc: "A highly qualified academic leader with extensive experience.",
-      img: "/img/about/leader1.jpg",
-    },
-    {
-      name: "Vice Chancellor",
-      subtitle: "Vice Chancellor Bangalore",
-      desc: "A visionary leader driving institutional excellence and growth.",
-      img: "/img/about/leader2.jpg",
-    },
-  ];
-
   return (
-    <section className="py-24 bg-white relative overflow-hidden">
-
+    <section className="relative overflow-hidden bg-white py-12 md:py-16 lg:py-24">
       <div className="mx-auto max-w-[1400px] px-4 text-center sm:px-6">
-        {/* 🔹 TITLE */}
-         <CommonHeader
-                          tag="Leadership & Governance"
-                          title="Guided by Strong "
-                          highlight="Leadership"
-                          description={``}
-                          primaryColor="#ff8c42"
-                          secondaryColor="#1e3a5f"
-                          align="center"
-                        />
-       
+        <CommonHeader
+          tag="Leadership & Governance"
+          title="Guided by Strong "
+          highlight="Leadership"
+          description=""
+          primaryColor="#ff8c42"
+          secondaryColor="#1e3a5f"
+          align="center"
+        />
 
-        <div className="space-y-12 py-10">
+        <div className="space-y-10 py-6 md:space-y-12 md:py-8">
           <Carousel direction="right" data={data1} />
           <Carousel direction="left" data={data2} />
         </div>
-
       </div>
     </section>
   );
@@ -82,150 +66,79 @@ function Carousel({
   data,
 }: {
   direction: "left" | "right";
-  data: any[];
+  data: (typeof data1)[number][];
 }) {
-  const [items, setItems] = useState([...data, ...data]); // duplicate for loop
-  const [isAnimating, setIsAnimating] = useState(false);
-  const [translate, setTranslate] = useState(0);
-  const containerRef = useRef<HTMLDivElement>(null);
-  const trackRef = useRef<HTMLDivElement>(null);
-
-  const getSlideStepPx = () => {
-    const track = trackRef.current;
-    if (!track?.firstElementChild) return containerRef.current?.offsetWidth ?? 320;
-    const card = track.firstElementChild as HTMLElement;
-    const gap =
-      parseFloat(getComputedStyle(track).columnGap || getComputedStyle(track).gap || "0") ||
-      16;
-    return card.getBoundingClientRect().width + gap;
-  };
-
-  useEffect(() => {
-    setItems([...data, ...data]);
-  }, [data]);
-
-  // AUTO SLIDE
-  useEffect(() => {
-    const interval = setInterval(() => {
-      slide();
-    }, 3000);
-    return () => clearInterval(interval);
-  }, [items]);
-
-  const slide = () => {
-    if (isAnimating || !containerRef.current) return;
-
-    const slideWidth = getSlideStepPx();
-
-    if (direction === "left") {
-      // ✅ LEFT (already correct)
-      setIsAnimating(true);
-      setTranslate(-slideWidth);
-
-      setTimeout(() => {
-        setIsAnimating(false);
-        setTranslate(0);
-        setItems((prev) => [...prev.slice(1), prev[0]]);
-      }, 500);
-
-    } else {
-      // ✅ RIGHT FIX (NO JUMP)
-
-      // STEP 1: rearrange FIRST
-      setItems((prev) => [
-        prev[prev.length - 1],
-        ...prev.slice(0, -1),
-      ]);
-
-      // STEP 2: instantly shift left (no animation)
-      setIsAnimating(false);
-      setTranslate(-slideWidth);
-
-      // STEP 3: next frame → animate to 0
-      requestAnimationFrame(() => {
-        requestAnimationFrame(() => {
-          setIsAnimating(true);
-          setTranslate(0);
-        });
-      });
-
-      // STEP 4: cleanup
-      setTimeout(() => {
-        setIsAnimating(false);
-      }, 500);
-    }
-  };
-
+  const swiperRef = useRef<SwiperType | null>(null);
 
   return (
-    <div className="flex flex-col sm:flex-row items-center gap-4 w-full">
-
-      {/* 🎞️ CAROUSEL */}
-      <div
-        ref={containerRef}
-        className="relative overflow-hidden flex-1"
-      >
-        <div
-          ref={trackRef}
-          className={`flex gap-4 ${isAnimating ? "transition-transform duration-500" : ""
-            }`}
-          style={{
-            transform: `translateX(${translate}px)`,
+    <div className="flex w-full flex-col items-stretch gap-4 sm:flex-row sm:items-center sm:gap-3">
+      <div className="min-w-0 w-full flex-1 overflow-hidden">
+        <Swiper
+          modules={[Autoplay, Pagination]}
+          loop
+          speed={500}
+          spaceBetween={16}
+          slidesPerView={1}
+          watchOverflow
+          breakpoints={{
+            640: { slidesPerView: 2, spaceBetween: 16 },
+            1024: { slidesPerView: 4, spaceBetween: 16 },
           }}
+          autoplay={{
+            delay: 3500,
+            disableOnInteraction: false,
+            pauseOnMouseEnter: true,
+            reverseDirection: direction === "left",
+          }}
+          pagination={{ clickable: true, dynamicBullets: true }}
+          onSwiper={(instance) => {
+            swiperRef.current = instance;
+          }}
+          className={`w-full pb-2 ${styles.leadershipSwiper}`}
         >
-          {items.map((item, i) => (
-            <Card key={i} item={item} i={i}/>
+          {data.map((item, i) => (
+            <SwiperSlide key={`${item.id}-${item.name}-${i}`} className="h-auto">
+              <Card item={item} />
+            </SwiperSlide>
           ))}
-        </div>
+        </Swiper>
       </div>
 
-      {/* 🎮 BUTTONS (SEPARATE DIV) */}
-      <div className="flex flex-row sm:flex-col gap-2 justify-center items-center">
-
-        {/* ⬅ LEFT */}
+      <div className="flex shrink-0 flex-row justify-center gap-2 sm:flex-col sm:justify-center sm:pt-0">
         <button
-          onClick={slide}
-          className="bg-white shadow-md p-3 rounded-full hover:bg-gray-100 transition"
+          type="button"
+          aria-label="Previous slide"
+          className="rounded-full bg-white p-3 shadow-md transition hover:bg-gray-100"
+          onClick={() => swiperRef.current?.slidePrev()}
         >
           <ChevronLeft className="text-[#ff8c42]" />
         </button>
-
-        {/* ➡ RIGHT */}
         <button
-          onClick={slide}
-          className="bg-white shadow-md p-3 rounded-full hover:bg-gray-100 transition"
+          type="button"
+          aria-label="Next slide"
+          className="rounded-full bg-white p-3 shadow-md transition hover:bg-gray-100"
+          onClick={() => swiperRef.current?.slideNext()}
         >
           <ChevronRight className="text-[#ff8c42]" />
         </button>
-
       </div>
-
     </div>
   );
 }
 
-function Card({ item, i }: any) {
+function Card({ item }: { item: (typeof data1)[number] }) {
   return (
-    
-     <motion.div
-      key={i}
-      initial={{ opacity: 0, y: 40 }}
+    <motion.article
+      initial={{ opacity: 0, y: 24 }}
       whileInView={{ opacity: 1, y: 0 }}
-      transition={{ delay: i * 0.1 }}
       viewport={{ once: true }}
-      className="
-        flex w-full min-w-[100%] flex-col overflow-hidden rounded-xl border-b-4 border-b-[#0A8F96] bg-white shadow-md
-        sm:min-w-[calc(50%-0.5rem)]
-        lg:min-w-[calc(25%-0.75rem)]
-        h-auto lg:h-[396px] lg:min-h-0
-      "
+      className="flex h-full min-h-0 w-full flex-col overflow-hidden rounded-xl border-b-4 border-b-[#0A8F96] bg-white shadow-md lg:h-[396px]"
     >
-      {/* Portrait photos: never use object-cover below lg — sm/md two-column + fixed height was cropping faces */}
-      <div className="flex w-full items-center justify-center bg-[#f0f2f5] lg:min-h-0 lg:flex-1 lg:overflow-hidden">
+      <div className="flex min-h-0 w-full flex-1 items-center justify-center bg-[#f0f2f5] lg:overflow-hidden">
         <img
           src={item.image}
           alt={item.name}
-          className="h-auto w-full max-w-full object-contain object-top [image-rendering:auto] lg:max-h-full"
+          className="h-auto w-full max-w-full object-contain object-top [image-rendering:auto] lg:max-h-full lg:object-contain"
           decoding="async"
         />
       </div>
@@ -233,14 +146,10 @@ function Card({ item, i }: any) {
         <h3 className="break-words text-base font-bold uppercase leading-snug text-gray-800">
           {item.name}
         </h3>
-
         <p className="mb-1 break-words text-sm leading-snug text-gray-600 sm:text-base">
           {item.role}
         </p>
-        {/* <p className="text-base text-gray-600 leading-relaxed">
-          {item.desc}
-        </p> */}
       </div>
-    </motion.div>
+    </motion.article>
   );
 }

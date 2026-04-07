@@ -81,10 +81,10 @@ export default function HowToApplyHero({
                 initial={{ opacity: 0, y: 12 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.15 }}
-                className="mb-6 inline-flex flex-wrap items-center gap-2 rounded-lg bg-white/15 px-4 py-2 text-sm md:text-base text-white ring-1 ring-white/25"
+                className="mb-6 flex w-full max-w-full flex-wrap items-center gap-2 rounded-lg bg-white/15 px-3 py-2 text-left text-sm text-white ring-1 ring-white/25 sm:inline-flex sm:px-4 md:text-base"
               >
-                <span className="text-white/80">Selected programme:</span>
-                <span className="font-semibold text-[#D4A843]">
+                <span className="shrink-0 text-white/80">Selected programme:</span>
+                <span className="min-w-0 break-words font-semibold text-[#D4A843]">
                   {selectedProgram}
                 </span>
               </motion.p>

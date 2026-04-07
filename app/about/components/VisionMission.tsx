@@ -6,8 +6,8 @@ import CommonHeader from "@/app/components/CommonHeader";
 
 export default function VisionMission() {
   return (
-   <section className="py-24 bg-white relative overflow-hidden">
-      <div className="max-w-[1400px] mx-auto px-6">
+   <section className="relative overflow-hidden bg-white py-12 md:py-16 lg:py-24">
+      <div className="mx-auto max-w-[1400px] px-4 sm:px-6">
 
          <CommonHeader
                   tag="Vision, Mission & Values"

@@ -195,7 +195,7 @@ export default function HistoryTimeline() {
   const duplicatedTimeline = [...timeline, ...timeline];
 
   return (
-    <section className="bg-[#F5F6F8] py-12 md:py-16 lg:py-20">
+    <section className="bg-[#F5F6F8] py-12 md:py-16 lg:py-24">
       <div className="mx-auto w-full max-w-[1400px] px-4 sm:px-6 md:px-10">
         <div className="mb-10 text-center md:mb-16">
           <motion.span

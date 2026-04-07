@@ -29,8 +29,8 @@ export default function ResearchInnovation() {
 
   return (
     <>
-      <section className="bg-[#062f54] text-white relative overflow-hidden">
-        <div className="max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-12 lg:gap-16 items-center">
+      <section className="relative overflow-hidden bg-[#062f54] py-12 text-white md:py-16 lg:py-24">
+        <div className="mx-auto grid max-w-[1400px] grid-cols-1 items-center gap-10 px-4 sm:px-6 sm:gap-12 lg:grid-cols-2 lg:gap-16 lg:px-8">
           {/* Cards Grid */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -75,9 +75,9 @@ export default function ResearchInnovation() {
           </motion.div>
 
           {/* CONTENT */}
-          <div className="py-16 sm:py-20 lg:py-24">
+          <div className="py-6 sm:py-8 md:py-0 lg:py-4">
             {/* HEADER */}
-            <div className="mb-8 sm:mb-10 mt-8">
+            <div className="mb-8 mt-0 sm:mb-10">
               <motion.span
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}

@@ -15,6 +15,7 @@ import { LifeAtPresidency } from "./components/InfrastructureSection";
 import { AmenitiesSection } from "./components/AmenitiesSection";
 import { MasterPlanSection } from "./components/MasterPlanSection";
 import { InternationalStudentsSection } from "./components/InternationalStudentsSection";
+import { AdmissionProcessSection } from "./components/AdmissionProcessSection";
 import { EventsActivitiesSection } from "./components/ProgramSection";
 import { UpcomingEvents } from "./components/FeaturesSection";
 import { CommunitySection } from "./components/CommunitySection";
@@ -64,7 +65,7 @@ export default function App() {
       {/* Programs Overview */}
       <ProgrammesSection />
 
-      {/* <SchoolsSliderSection /> */}
+      <SchoolsSliderSection />
       <WhyChooseUs />
       {/* <BangaloreCTASection /> */}
       <CampusLikeHome />
@@ -79,6 +80,8 @@ export default function App() {
 
       {/* <EventsActivitiesSection /> */}
       <InternationalStudentsSection />
+
+      <AdmissionProcessSection />
 
       <PlacementPartnersSection />
 

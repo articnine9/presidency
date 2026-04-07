@@ -8,7 +8,7 @@ export default function CourseCTA() {
   const { title, description, email, phone, applyUrl } = data.ctaSection;
 
   return (
-    <section className="bg-[#fff] pb-16 pt-12 md:pb-20 md:pt-20">
+    <section className="bg-white pb-16 pt-12 md:pb-20 md:pt-20">
       <div className="mx-auto max-w-[1400px] px-4 sm:px-6">
         <motion.div
           initial={{ opacity: 0, y: 60 }}

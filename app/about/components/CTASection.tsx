@@ -4,8 +4,8 @@ export default function CTASection() {
   return (
     <>
 
-      <section className="bg-[#F6F7FB] pb-16 pt-20 md:pt-24">
-        <div className="max-w-[1400px] mx-auto px-6 ">
+      <section className="bg-white py-12 md:py-16 lg:py-24">
+        <div className="mx-auto max-w-[1400px] px-4 sm:px-6">
           <div className="bg-gradient-to-r from-[#0F1E3D] to-[#0D3B5C] rounded-2xl px-8 py-10 flex flex-col md:flex-row items-center justify-between gap-6">
             {/* Left Content */}
             <div>
