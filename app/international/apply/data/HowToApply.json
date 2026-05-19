@@ -1,0 +1,255 @@
+{
+  "hero": {
+    "title": {
+      "normal": "Apply to Presidency University",
+      "italic": "as an International Student"
+    },
+    "description": "Start your journey to study in India with a simple and guided application process. Our International Admissions Team supports you from enquiry to enrolment, ensuring a smooth and stress-free experience.",
+    "breadcrumb": ["Home", "Admissions", "How to Apply"],
+    "image": "/img/how-to-apply-hero.jpg",
+    "buttons": [
+      {
+        "label": "Apply Now",
+        "link": "https://apply.presidencyuniversity.in",
+        "type": "primary"
+      },
+      {
+        "label": "Download Application Guide",
+        "link": "/apply-guide",
+        "type": "secondary"
+      }
+    ]
+  },
+
+  "stepsSection": {
+    "title": "Step-by-Step Application Guide",
+    "description": "Applications to Presidency University are completed online through our admissions portal. Follow these simple steps to apply.",
+    "steps": [
+      {
+        "title": "Create Account",
+        "description": "Visit apply.presidencyuniversity.in and create your applicant account.",
+        "icon": "user"
+      },
+      {
+        "title": "Choose Programme",
+        "description": "Select your programme (UG, PG, Doctoral, or Diploma).",
+        "icon": "book"
+      },
+      {
+        "title": "Fill Application",
+        "description": "Complete the online form with your details.",
+        "icon": "fileText"
+      },
+      {
+        "title": "Upload Documents",
+        "description": "Upload all required supporting documents.",
+        "icon": "upload"
+      },
+      {
+        "title": "Pay Application Fee",
+        "description": "Pay the non-refundable application fee.",
+        "icon": "creditCard"
+      },
+      {
+        "title": "Submit Application",
+        "description": "Submit your application and await confirmation.",
+        "icon": "checkCircle"
+      },
+      {
+        "title": "Interview / Assessment",
+        "description": "Attend interview if shortlisted.",
+        "icon": "video"
+      },
+      {
+        "title": "Confirm Admission",
+        "description": "Accept your offer and secure your place.",
+        "icon": "award"
+      }
+    ]
+  },
+
+  "documentsSection": {
+    "title": "Documents Required for International Applicants",
+    "description": "Please prepare the following documents before beginning your application. All documents must be submitted in English or with a certified English translation.",
+    "documents": [
+      {
+        "title": "Completed Application Form",
+        "description": "Submit the fully completed online application form through the admissions portal.",
+        "icon": "fileText"
+      },
+      {
+        "title": "Academic Certificates & Transcripts",
+        "description": "Copies of 10th grade, 12th grade (high school leaving certificate), and degree transcripts for postgraduate applicants.",
+        "icon": "graduationCap"
+      },
+      {
+        "title": "Valid Passport",
+        "description": "A copy of your passport (all pages), valid for at least 18 months beyond your intended start date.",
+        "icon": "passport"
+      },
+      {
+        "title": "English Language Proficiency",
+        "description": "IELTS (6.0 or above), TOEFL (80 or above), or equivalent proof of English proficiency.",
+        "icon": "language"
+      },
+      {
+        "title": "Statement of Purpose (SOP)",
+        "description": "A 500–800 word essay outlining your academic background, reasons for choosing the programme, and career goals.",
+        "icon": "edit"
+      },
+      {
+        "title": "Reference Letters",
+        "description": "Two academic reference letters on official institutional letterhead.",
+        "icon": "users"
+      },
+      {
+        "title": "Curriculum Vitae / Resume",
+        "description": "Required for postgraduate and doctoral applicants, detailing your academic and professional background.",
+        "icon": "briefcase"
+      },
+      {
+        "title": "Research Proposal (Doctoral Applicants)",
+        "description": "A detailed research proposal of approximately 1,500–2,000 words outlining your intended research area.",
+        "icon": "fileSearch"
+      },
+      {
+        "title": "Portfolio (Design Programmes)",
+        "description": "A portfolio showcasing your previous work, required for applicants to design-related programmes.",
+        "icon": "image"
+      },
+      {
+        "title": "Work Experience / Certifications",
+        "description": "Copies of any relevant professional certifications or work experience documents.",
+        "icon": "badgeCheck"
+      },
+      {
+        "title": "Passport-sized Photographs",
+        "description": "Recent digital colour photographs with a white background.",
+        "icon": "camera"
+      },
+      {
+        "title": "Migration / Transfer Certificate",
+        "description": "Certificate from your previous institution confirming your academic transfer.",
+        "icon": "fileCheck"
+      }
+    ],
+    "importantNote": {
+      "title": "Important Note",
+      "description": "Original documents will be required for verification upon arrival. Do not send original documents by post prior to admission."
+    }
+  },
+
+  "intakeSection": {
+    "title": "Application Intakes and Deadlines",
+
+    "description": "Presidency University offers two main academic intakes each year. Choose the intake that best fits your academic plans and apply early to secure your place.",
+    "intakes": [
+      {
+        "name": "July / August Intake",
+        "image": "/img/july-intake.jpg",
+        "type": "Primary Intake",
+        "highlight": true,
+        "details": "The main academic intake begins in July/August. Applications typically open in January, with deadlines for international students between April and May.",
+        "timeline": [
+          { "label": "Applications Open", "value": "January" },
+          { "label": "Deadline", "value": "April – May" },
+          { "label": "Classes Begin", "value": "July / August" }
+        ]
+      },
+      {
+        "name": "January Intake",
+        "type": "Secondary Intake",
+        "highlight": false,
+        "details": "A limited number of programmes offer a January intake. Availability varies by course, so check programme-specific details before applying.",
+        "timeline": [
+          { "label": "Applications Open", "value": "September – October" },
+          { "label": "Deadline", "value": "November" },
+          { "label": "Classes Begin", "value": "January" }
+        ]
+      }
+    ],
+    "note": "International students are strongly advised to apply at least 3–4 months in advance to allow time for document verification, admission processing, and student visa approval.",
+    "cta": {
+      "text": "Applications for 2026–2027 are now open.",
+      "button": {
+        "label": "Apply Now",
+        "link": "https://apply.presidencyuniversity.in"
+      }
+    }
+  },
+
+  "visaSection": {
+    "title": "Indian Student Visa Information",
+    "description": "International students typically require a Student Visa (S Visa) issued by the Indian High Commission or Embassy in their home country. Requirements may vary by nationality, so always confirm with your local embassy.",
+
+    "requirements": [
+      {
+        "title": "Valid Passport",
+        "desc": "Must be valid for at least 18 months beyond your course end date",
+        "icon": "passport"
+      },
+      {
+        "title": "Offer Letter",
+        "desc": "Official admission letter from Presidency University",
+        "icon": "fileText"
+      },
+      {
+        "title": "Visa Application Form",
+        "desc": "Complete the form at indianvisaonline.gov.in",
+        "icon": "edit"
+      },
+      {
+        "title": "Photographs",
+        "desc": "Recent passport-sized photographs",
+        "icon": "camera"
+      },
+      {
+        "title": "Financial Proof",
+        "desc": "Proof of funds for tuition and living expenses",
+        "icon": "banknote"
+      },
+      {
+        "title": "Bank Statements",
+        "desc": "Or sponsor guarantee letter",
+        "icon": "creditCard"
+      },
+      {
+        "title": "Accommodation Proof",
+        "desc": "Hostel allocation or residence confirmation",
+        "icon": "home"
+      },
+      {
+        "title": "Medical Certificate",
+        "desc": "Includes required health checks (if applicable)",
+        "icon": "activity"
+      },
+      {
+        "title": "Health Insurance",
+        "desc": "Valid travel & health insurance in India",
+        "icon": "shield"
+      },
+      {
+        "title": "Visa Fee",
+        "desc": "Varies depending on nationality",
+        "icon": "wallet"
+      }
+    ],
+
+    "afterArrival": {
+      "title": "After Arrival in India",
+      "description": "Students must register with the Foreigners Regional Registration Office (FRRO) within 14 days of arrival. The Office of International Affairs (OIA) will assist you throughout this process."
+    },
+
+    "importantNotes": [
+      "Visa rules and requirements may change. Always verify with the Indian Ministry of Home Affairs and your local embassy.",
+      "Student visas cannot be converted into employment visas within India. You must apply from your home country if you receive a job offer."
+    ]
+  },
+  "ctaSection": {
+    "title": "Ready to Start Your Journey?",
+    "description": "Apply now and take the first step toward studying at Presidency University. Our admissions team is here to support you at every stage.",
+    "email": "admissions@presidency.international",
+    "phone": "+91 9022092222",
+    "applyUrl": "https://apply.presidencyuniversity.in"
+  }
+}

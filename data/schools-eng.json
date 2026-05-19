@@ -1,0 +1,2149 @@
+{
+  "schools": [
+    {
+      "slug": "computer-science",
+      "name": "School of Computer Science & Engineering",
+
+      "hero": {
+        "title": {
+          "normal": "School of Computer Science ",
+          "italic": "& Engineering"
+        },
+        "description": "Discover cutting-edge computing programmes in India’s technology capital. From artificial intelligence to blockchain, our school prepares international students for careers at the forefront of global innovation.",
+        "breadcrumb": ["Home", "Schools", "Computer Science & Engineering"],
+        "image": "/img/classes/1.jpg",
+        "stats": [
+          { "label": "UG Programmes", "value": "13+" },
+          { "label": "PG Programmes", "value": "2" },
+          { "label": "Doctoral Research", "value": "Ph.D" }
+        ]
+      },
+
+      "about": {
+        "title": "A Gateway to India’s Tech Ecosystem",
+        "content": [
+          "The Presidency School of Computer Science & Engineering is one of the university’s flagship academic divisions, offering a comprehensive portfolio of undergraduate, postgraduate, and doctoral programmes in computing, software development, and emerging technologies. Situated on the Presidency University campus in Bengaluru — widely regarded as India’s technology capital — the school provides international students with direct access to one of the world’s most dynamic tech ecosystems.",
+          "Programmes within this school span foundational computer science, artificial intelligence, machine learning, data science, cyber security, blockchain technology, the Internet of Things, big data analytics, and DevOps engineering. The curriculum is designed with industry alignment at its core, ensuring that graduates are prepared for roles in multinational technology firms, research organisations, and innovative start-ups worldwide"
+        ],
+        "image": "/img/classes/1.jpeg",
+
+        "hexagons": [
+          {
+            "type": "text",
+            "text": "Cloud Computing",
+            "icon": "/img/aboutus/3.png",
+            "top": "-12%",
+            "left": "32%"
+          },
+          {
+            "type": "text",
+            "text": "Newest Research",
+            "icon": "/img/aboutus/4.png",
+            "top": "12%",
+            "left": "67%"
+          },
+          {
+            "type": "text",
+            "text": "Industry Mentorship",
+            "icon": "/img/aboutus/2.png",
+            "top": "11%",
+            "left": "-2%"
+          },
+          {
+            "type": "text",
+            "text": "Research Ecosystem",
+            "icon": "/img/aboutus/1.png",
+            "top": "78%",
+            "left": "32%"
+          },
+          {
+            "type": "image",
+            "image": "/img/classes/hex1.jpeg",
+            "top": "55%",
+            "left": "13%"
+          },
+          {
+            "type": "image",
+            "image": "/img/classes/hex2.jpeg",
+            "top": "53%",
+            "left": "88%"
+          }
+        ],
+        "features": [
+          {
+            "title": "Advanced AI & Computing Labs",
+            "description": "Access dedicated laboratories with high-performance GPU clusters and industry-standard AI/ML platforms including TensorFlow, PyTorch, and cloud-based AI services."
+          },
+          {
+            "title": "Global Faculty Mentorship",
+            "description": "Learn from researchers with international academic credentials and active industry consulting experience who bring real-world insights beyond the textbook."
+          },
+          {
+            "title": "Industry Partnerships",
+            "description": "Collaborations with leading technology companies facilitate internships, globally recognised certifications (AWS, Google Cloud, Microsoft Azure), and placement opportunities."
+          }
+        ]
+      },
+      "visionMission": {
+        "vision": {
+          "title": "Vision",
+          "description": "To be a value-based, practice-driven school committed to developing globally competent engineers, dedicated to building cutting-edge technology that enhances the quality of life.",
+          "points": []
+        },
+        "mission": {
+          "title": "Mission",
+          "description": "",
+          "points": [
+            "Cultivate a practice-driven environment integrating theory and hands-on computing ",
+            "Attract and nurture world-class faculty excelling in teaching and research ",
+            "Establish state-of-the-art computing facilities for effective learning ",
+            "Promote interdisciplinary studies to nurture talent for global impact ",
+            "Instil entrepreneurial and leadership skills to address social, environmental, and community needs"
+          ]
+        }
+      },
+
+      "programSections": [
+        {
+          "type": "UG",
+          "title": "Undergraduate Programmes",
+          "subtitle": "B.Tech — 4-Year Full-Time"
+        },
+        {
+          "type": "PG",
+          "title": "Postgraduate Programmes",
+          "subtitle": "M.Tech — 2-Year Full-Time"
+        },
+        {
+          "type": "PhD",
+          "title": "Research & Diploma",
+          "subtitle": ""
+        }
+      ],
+      "programs": [
+        {
+          "slug": "btech-cse",
+          "name": "B.Tech Computer Science & Engineering",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+
+          "cta": {
+            "title": "Your Future Starts Here",
+            "subtitle": "Join Presidency University and build your career in technology.",
+            "button": "Apply Now"
+          }
+        },
+        {
+          "slug": "btech-big-data",
+          "name": "B.Tech Computer Science & Technology (Big Data)",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Learn to process, analyse, and manage large-scale data using modern tools like Hadoop, Spark, and AI-driven analytics."
+        },
+        {
+          "slug": "btech-devops",
+          "name": "B.Tech Computer Science & Technology (DevOps)",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Master CI/CD pipelines, cloud infrastructure, and automation tools used in modern software delivery systems."
+        },
+        {
+          "slug": "btech-ai-ml",
+          "name": "B.Tech Computer Science & Engineering (AI & ML)",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Develop intelligent systems using machine learning, deep learning, and AI technologies across real-world applications."
+        },
+        {
+          "slug": "btech-blockchain",
+          "name": "B.Tech Computer Science & Engineering (Blockchain)",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Explore blockchain architecture, smart contracts, and decentralized applications for future-ready systems."
+        },
+        {
+          "slug": "btech-cyber-security",
+          "name": "B.Tech Computer Science & Engineering (Cyber Security)",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Learn network security, ethical hacking, cryptography, and cyber defense strategies to protect digital systems."
+        },
+        {
+          "slug": "btech-data-science",
+          "name": "B.Tech Computer Science & Engineering (Data Science)",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Gain expertise in data analysis, machine learning, and statistical modelling to extract insights from complex data."
+        },
+        {
+          "slug": "btech-iot",
+          "name": "B.Tech Computer Science & Engineering (Internet of Things)",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Build connected systems and smart devices using IoT technologies, sensors, and cloud platforms."
+        },
+        {
+          "slug": "btech-information-science",
+          "name": "B.Tech Information Science & Engineering",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Focus on software development, information systems, and data management for modern IT solutions."
+        },
+        {
+          "slug": "btech-computer-engineering",
+          "name": "B.Tech Computer Engineering",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Combine hardware and software knowledge to design and build efficient computing systems."
+        },
+        {
+          "slug": "btech-information-technology",
+          "name": "B.Tech Information Science & Technology",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Learn IT infrastructure, networking, and software systems for enterprise and business applications."
+        },
+        {
+          "slug": "btech-robotics-ai",
+          "name": "B.Tech Robotics & Artificial Intelligence",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Design intelligent robotic systems combining AI, automation, and embedded systems."
+        },
+        {
+          "slug": "btech-ai-data-science",
+          "name": "B.Tech Artificial Intelligence & Data Science",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Integrate AI and data science techniques to build predictive and intelligent systems."
+        },
+
+        {
+          "slug": "mtech-ai",
+          "name": "M.Tech Computer Science & Engineering (Artificial Intelligence)",
+          "duration": "2 Years.Full-Time",
+          "type": "PG",
+          "degree": "Master of Technology",
+          "overview": "Advanced study in AI, deep learning, and intelligent systems for research and industry applications."
+        },
+        {
+          "slug": "mtech-data-science",
+          "name": "M.Tech Computer Science & Engineering (Data Science)",
+          "duration": "2 Years.Full-Time",
+          "type": "PG",
+          "degree": "Master of Technology",
+          "overview": "Specialise in big data, analytics, and machine learning for high-demand data-driven roles."
+        },
+
+        {
+          "slug": "phd-cse",
+          "name": "Ph.D in Computer Science Engineering",
+          "duration": "Research Programme",
+          "type": "PhD",
+          "degree": "Doctor of Philosophy",
+          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies."
+        },
+        {
+          "slug": "pg-diploma-big-data",
+          "name": "Post Graduate Diploma in Big Data",
+          "duration": "Diploma Programme",
+          "type": "Diploma",
+          "degree": "Post Graduate Diploma",
+          "overview": "Develop practical skills in big data technologies, analytics, and data-driven decision making."
+        }
+      ]
+    },
+    {
+      "slug": "engineering",
+      "name": "School of Engineering",
+
+      "hero": {
+        "title": {
+          "normal": "School of Engineering",
+          "italic": ""
+        },
+        "description": "Build the foundations of tomorrow across five core engineering disciplines. From electrical power systems and semiconductor design to civil infrastructure and energy exploration, our school equips international students with the technical expertise and practical skills demanded by industries worldwide..",
+        "breadcrumb": ["Home", "Schools", "Engineering"],
+        "image": "/img/classes/1.jpg",
+        "stats": [
+          { "label": "UG Programmes", "value": "6" },
+          { "label": "PG Programmes", "value": "2" },
+          { "label": "Doctoral Research", "value": "5" },
+          { "label": "PG Diploma", "value": "1" }
+        ]
+      },
+
+      "about": {
+        "title": "Core Engineering on a Global Campus",
+        "content": [
+          "The Presidency School of Engineering encompasses five established engineering departments — Electronics & Communication, Electrical & Electronics, Civil, Mechanical, and Petroleum Engineering — each delivering rigorous undergraduate and postgraduate education rooted in practical application. Located on the Presidency University campus in Bengaluru, the school provides international students with an engineering education that balances foundational theory, laboratory experience, and industry engagement within one of India’s foremost technology and manufacturing hubs.",
+          "The school’s programme portfolio spans traditional engineering disciplines alongside specialised offerings in VLSI design, embedded systems, building and construction technology, and drone technology. Faculty members bring credentials from leading Indian institutions including IITs and NITs, complemented by active research profiles and industry consulting experience. Students benefit from modern laboratory infrastructure, collaborative project work, study-abroad partnerships, and placement support connecting them to employers across sectors including semiconductor manufacturing, energy, construction, automotive, aerospace, and oil and gas."
+        ],
+        "image": "/img/classes/1.jpg",
+
+        "hexagons": [
+          {
+            "type": "text",
+            "text": "Cloud Computing",
+            "icon": "/icons/cloud.svg",
+            "top": "0%",
+            "left": "35%"
+          },
+          {
+            "type": "text",
+            "text": "Newest Research",
+            "icon": "/icons/research.svg",
+            "top": "20%",
+            "left": "70%"
+          },
+          {
+            "type": "text",
+            "text": "Industry Mentorship",
+            "icon": "/icons/mentorship.svg",
+            "top": "20%",
+            "left": "0%"
+          },
+          {
+            "type": "text",
+            "text": "Research Ecosystem",
+            "icon": "/icons/system.svg",
+            "top": "75%",
+            "left": "37%"
+          },
+          {
+            "type": "image",
+            "image": "/img/classes/1.jpg",
+            "top": "55%",
+            "left": "10%"
+          },
+          {
+            "type": "image",
+            "image": "/img/classes/1.jpg",
+            "top": "55%",
+            "left": "88%"
+          }
+        ],
+        "features": [
+          {
+            "title": "Industry-Standard Laboratory Infrastructure ",
+            "description": "Work with advanced equipment across dedicated labs for circuit design, CNC machining, 3D printing, fluid mechanics, drilling simulation, and VLSI prototyping — all maintained to professional standards."
+          },
+          {
+            "title": "Faculty with Premier Credentials ",
+            "description": "Learn from academics with doctoral qualifications from IITs and NITs, combined with active research output and consulting experience across electronics, power, civil, mechanical, and petroleum sectors."
+          },
+          {
+            "title": "International Exchange and Placement ",
+            "description": "Access study-abroad partnerships with universities across Europe, Taiwan, and beyond, alongside campus placement drives featuring national and international recruiters."
+          }
+        ]
+      },
+      "visionMission": {
+        "vision": {
+          "title": "Vision",
+          "description": "To be a value-based, practice-driven school of engineering and technology, committed to developing globally competent engineers dedicated to transforming society.",
+          "points": []
+        },
+        "mission": {
+          "title": "Mission",
+          "description": "",
+          "points": [
+            "Cultivate a practice-driven environment with contemporary learning pedagogy integrating theory and practice ",
+            "Attract and nurture world-class faculty to excel in teaching and research in core engineering ",
+            "Establish state-of-the-art facilities for effective teaching and learning experiences ",
+            "Promote interdisciplinary studies to nurture talent and impart relevant skill sets for global impact",
+            "Instil entrepreneurial and leadership skills to address social, environmental, and community needs"
+          ]
+        }
+      },
+
+      "programSections": [
+        {
+          "type": "UG",
+          "title": "Undergraduate Programmes",
+          "subtitle": "B.Tech — 4-Year Full-Time"
+        },
+        {
+          "type": "PG",
+          "title": "Postgraduate Programmes",
+          "subtitle": "M.Tech — 2-Year Full-Time"
+        },
+        {
+          "type": "PhD",
+          "title": "Research & Diploma",
+          "subtitle": ""
+        }
+      ],
+
+      "programs": [
+        {
+          "slug": "btech-ece",
+          "name": "B.Tech Electronics & Communication Engineering",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "cta": {
+            "title": "Your Future Starts Here",
+            "subtitle": "Join Presidency University and build your career in technology.",
+            "button": "Apply Now"
+          }
+        },
+        {
+          "slug": "btech-eee",
+          "name": "B.Tech Electrical & Electronics Engineering",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Learn to process, analyse, and manage large-scale data using modern tools like Hadoop, Spark, and AI-driven analytics."
+        },
+        {
+          "slug": "btech-vlsi",
+          "name": "B.Tech VLSI",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Master CI/CD pipelines, cloud infrastructure, and automation tools used in modern software delivery systems."
+        },
+        {
+          "slug": "btech-civil-engineering",
+          "name": "B.Tech Civil Engineering",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Develop intelligent systems using machine learning, deep learning, and AI technologies across real-world applications."
+        },
+        {
+          "slug": "btech-mechanical-engineerin",
+          "name": "B.Tech Mechanical Engineering",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Explore blockchain architecture, smart contracts, and decentralized applications for future-ready systems."
+        },
+        {
+          "slug": "btech-petroleum-engineering",
+          "name": "B.Tech Petroleum Engineering",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Learn network security, ethical hacking, cryptography, and cyber defense strategies to protect digital systems."
+        },
+
+        {
+          "slug": "mtech-embeddedsystem-vlsi",
+          "name": "M.Tech Embedded System & VLSI",
+          "duration": "2 Years.Full-Time",
+          "type": "PG",
+          "degree": "Master of Technology",
+          "overview": "Build connected systems and smart devices using IoT technologies, sensors, and cloud platforms."
+        },
+        {
+          "slug": "mtech-buliding-construction-technology",
+          "name": "M.Tech Building & Construction Technology",
+          "duration": "2 Years.Full-Time",
+          "type": "PG",
+          "degree": "Master of Technology",
+          "overview": "Focus on software development, information systems, and data management for modern IT solutions."
+        },
+
+        {
+          "slug": "phd-ece",
+          "name": "Ph.D. Electronics & Communications Engineering",
+          "duration": "Research Programme",
+          "type": "PhD",
+          "degree": "Doctor of Philosophy",
+          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies."
+        },
+        {
+          "slug": "phd-mechanical-engineering",
+          "name": "Ph.D. Mechanical Engineering",
+          "duration": "Research Programme",
+          "type": "PhD",
+          "degree": "Doctor of Philosophy",
+          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies."
+        },
+        {
+          "slug": "phd-civil-engineering",
+          "name": "Ph.D. Civil Engineering",
+          "duration": "Research Programme",
+          "type": "PhD",
+          "degree": "Doctor of Philosophy",
+          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies."
+        },
+        {
+          "slug": "phd-eee",
+          "name": "Ph.D. Electrical & Electronics Engineering",
+          "duration": "Research Programme",
+          "type": "PhD",
+          "degree": "Doctor of Philosophy",
+          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies."
+        },
+        {
+          "slug": "phd-petroleum-engineering",
+          "name": "Ph.D. Petroleum Engineering",
+          "duration": "Research Programme",
+          "type": "PhD",
+          "degree": "Doctor of Philosophy",
+          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies."
+        },
+        {
+          "slug": "pg-diploma-drone-technology",
+          "name": "Post Graduate Diploma in Drone Technology",
+          "duration": "Diploma Programme",
+          "type": "Diploma",
+          "degree": "Post Graduate Diploma",
+          "overview": "Develop practical skills in big data technologies, analytics, and data-driven decision making."
+        }
+      ]
+    },
+    {
+      "slug": "information-science",
+      "name": "School of Information Science",
+
+      "hero": {
+        "title": {
+          "normal": "School of ",
+          "italic": "Information Science"
+        },
+        "description": "Step into the digital future with application-focused computing programmes. From software development and data science to artificial intelligence and cybersecurity, our school prepares international students with the practical skills and industry-ready expertise that technology employers seek worldwide.",
+        "breadcrumb": ["Home", "Schools", "Information Science"],
+        "image": "/img/classes/1.jpg",
+        "stats": [
+          { "label": "UG Programmes", "value": "3" },
+          { "label": "PG Programmes", "value": "1" },
+          { "label": "Doctoral Research", "value": "1" }
+        ]
+      },
+
+      "about": {
+        "title": "Where Information Becomes Insight",
+        "content": [
+          "The Presidency School of Information Science offers application-centred computing education through three undergraduate programmes and a postgraduate programme, each designed to produce graduates with strong programming, analytical, and software development skills. The school focuses on fields that define the modern technology landscape — data science, artificial intelligence, machine learning, cybersecurity, cloud computing, and full-stack development. With a curriculum structured around the Choice Based Credit System (CBCS) and Outcome Based Education (OBE), students build both breadth and depth across information technology disciplines.",
+          "The school has established collaborations with IITs and prominent industry partners for laboratory training, summer programmes, and industry-based certification. A partnership with a Switzerland-based organisation through the Global AI Hub has provided AI and data science certification training to over 2,800 students. Faculty members have been trained at IIT Madras in XR/AR and VR technologies, and the school is developing a Centre of Excellence in Extended Reality (XR). Over 100 research scholars currently pursue doctoral programmes within the school, and a Digital Forensics initiative is being developed in collaboration with the Criminal Investigation Department of Karnataka State. The school’s BCA programme has been ranked 27th nationally among the Top 100 BCA Colleges and Universities."
+        ],
+        "image": "/img/classes/1.jpg",
+
+        "hexagons": [
+          {
+            "type": "text",
+            "text": "Cloud Computing",
+            "icon": "/icons/cloud.svg",
+            "top": "0%",
+            "left": "35%"
+          },
+          {
+            "type": "text",
+            "text": "Newest Research",
+            "icon": "/icons/research.svg",
+            "top": "20%",
+            "left": "70%"
+          },
+          {
+            "type": "text",
+            "text": "Industry Mentorship",
+            "icon": "/icons/mentorship.svg",
+            "top": "20%",
+            "left": "0%"
+          },
+          {
+            "type": "text",
+            "text": "Research Ecosystem",
+            "icon": "/icons/system.svg",
+            "top": "75%",
+            "left": "37%"
+          },
+          {
+            "type": "image",
+            "image": "/img/classes/1.jpg",
+            "top": "55%",
+            "left": "10%"
+          },
+          {
+            "type": "image",
+            "image": "/img/classes/1.jpg",
+            "top": "55%",
+            "left": "88%"
+          }
+        ],
+        "features": [
+          {
+            "title": "Global AI Hub Certification Partnership  ",
+            "description": "Strategic collaboration with a Switzerland-based organisation providing AI and data science certification training to students, with over 2,800 certifications delivered."
+          },
+          {
+            "title": "IIT Collaboration & XR Centre of Excellence ",
+            "description": "Faculty trained at IIT Madras in extended reality technologies, with an XR Centre of Excellence under development and ongoing partnerships with premier Indian institutions."
+          },
+          {
+            "title": "Industry-Ready Skills Programme  ",
+            "description": "The Super-60 advanced training programme identifies fast learners and provides specialised skill development including CODEATHON events and hands-on modern software tool training."
+          }
+        ]
+      },
+      "visionMission": {
+        "vision": {
+          "title": "Vision",
+          "description": "To be a value-based, practice-driven school of information science, committed to developing globally competent professionals dedicated to applying modern information science for social benefit.",
+          "points": []
+        },
+        "mission": {
+          "title": "Mission",
+          "description": "",
+          "points": [
+            "Cultivate a practice-driven environment with an information-technology-based pedagogy integrating theory and practice ",
+            "Attract and nurture world-class faculty to excel in teaching and research in the information science domain ",
+            "Establish state-of-the-art facilities for effective teaching and learning experiences ",
+            "Promote interdisciplinary studies to nurture talent for global impact",
+            "Instil entrepreneurial and leadership skills to address social, environmental, and community needs"
+          ]
+        }
+      },
+
+      "programSections": [
+        {
+          "type": "UG",
+          "title": "Undergraduate Programmes",
+          "subtitle": "BCA — 3-Year Full-Time"
+        },
+        {
+          "type": "PG",
+          "title": "Postgraduate Programmes",
+          "subtitle": "MCA — 2-Year Full-Time"
+        },
+        {
+          "type": "PhD",
+          "title": "Research & Diploma",
+          "subtitle": ""
+        }
+      ],
+
+      "programs": [
+        {
+          "slug": "bca",
+          "name": "Bachelor of Computer Applications (BCA)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "cta": {
+            "title": "Your Future Starts Here",
+            "subtitle": "Join Presidency University and build your career in technology.",
+            "button": "Apply Now"
+          }
+        },
+        {
+          "slug": "bca-AL-ML",
+          "name": "B.C.A. Artificial Intelligence and Machine Learning",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Learn to process, analyse, and manage large-scale data using modern tools like Hadoop, Spark, and AI-driven analytics."
+        },
+        {
+          "slug": "bca-data-science",
+          "name": "B.C.A. Data Science",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Master CI/CD pipelines, cloud infrastructure, and automation tools used in modern software delivery systems."
+        },
+
+        {
+          "slug": "mca",
+          "name": "Master of Computer Applications (MCA)",
+          "duration": "2 Years.Full-Time",
+          "type": "PG",
+          "degree": "Master of Technology",
+          "overview": "Build connected systems and smart devices using IoT technologies, sensors, and cloud platforms."
+        },
+
+        {
+          "slug": "phd-information-science",
+          "name": "Ph.D. Information Science",
+          "duration": "Research Programme",
+          "type": "PhD",
+          "degree": "Doctor of Philosophy",
+          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies."
+        }
+      ]
+    },
+    {
+      "slug": "management",
+      "name": "School of Management",
+
+      "hero": {
+        "title": {
+          "normal": "School of",
+          "italic": "Management"
+        },
+        "description": "Discover cutting-edge computing programmes in India’s technology capital. From artificial intelligence to blockchain, our school prepares international students for careers at the forefront of global innovation.",
+        "breadcrumb": ["Home", "Schools", "Management"],
+        "image": "/img/classes/1.jpg",
+        "stats": [
+          { "label": "UG Programmes", "value": "6" },
+          { "label": "PG Programmes", "value": "5" },
+          { "label": "Doctoral Research", "value": "5" },
+          { "label": "PG Diploma", "value": "1" }
+        ]
+      },
+
+      "about": {
+        "title": "Inspiring Responsible Business Leaders",
+        "content": [
+          "The Presidency School of Management offers a comprehensive portfolio of business education programmes spanning undergraduate BBA degrees, postgraduate MBA specialisations, doctoral research, and a postgraduate diploma in public  administration. The school teaches all aspects of management — from finance, marketing, and human resource management to business analytics, digital marketing, and operations. With an AICTE-approved MBA programme and curricula built on the Choice Based Credit System (CBCS) and Outcome Based Education (OBE), students receive an education designed to produce industry-ready professionals and entrepreneurial thinkers.",
+          "The school goes beyond placement preparation. Due emphasis is placed on soft skill development, relevant certification programmes, and experiential learning including simulation exercises, case studies, corporate internships, and social project-based learning. The curriculum embeds internship experience directly into the academic programme, while networking with companies, firms, NGOs, and professional organisations provides students with real-world exposure. Guest speaker programmes and mentored courses bridge theory and practice, ensuring that graduates enter the workforce with both academic knowledge and practical professional capability. The School of Management has been nationally ranked among India’s top private B-Schools. "
+        ],
+        "image": "/img/classes/1.jpeg",
+
+        "hexagons": [
+          {
+            "type": "text",
+            "text": "Cloud Computing",
+            "icon": "/img/aboutus/3.png",
+            "top": "-5%",
+            "left": "35%"
+          },
+          {
+            "type": "text",
+            "text": "Newest Research",
+            "icon": "/img/aboutus/4.png",
+            "top": "20%",
+            "left": "72%"
+          },
+          {
+            "type": "text",
+            "text": "Industry Mentorship",
+            "icon": "/img/aboutus/2.png",
+            "top": "20%",
+            "left": "0%"
+          },
+          {
+            "type": "text",
+            "text": "Research Ecosystem",
+            "icon": "/img/aboutus/1.png",
+            "top": "80%",
+            "left": "36%"
+          },
+          {
+            "type": "image",
+            "image": "/img/classes/hex1.jpeg",
+            "top": "55%",
+            "left": "10%"
+          },
+          {
+            "type": "image",
+            "image": "/img/classes/hex2.jpeg",
+            "top": "55%",
+            "left": "90%"
+          }
+        ],
+        "features": [
+          {
+            "title": "AICTE-Approved MBA Programme",
+            "description": "The postgraduate MBA programme is approved by AICTE, New Delhi, with multiple specialisation tracks in finance, marketing, banking, digital marketing, and business analytics."
+          },
+          {
+            "title": "Industry-Embedded Curriculum ",
+            "description": "Internships, corporate simulations, case studies, and social project-based learning are integrated directly into the academic structure across all programmes. "
+          },
+          {
+            "title": "Nationally Ranked B-School ",
+            "description": "A nationally ranked B-School known for academic excellence and industry alignment. Recognised for delivering quality management education with global relevance. Offers practical learning, expert faculty, and strong corporate connections. Empowering future leaders with skills to succeed in a competitive world."
+          }
+        ]
+      },
+      "visionMission": {
+        "vision": {
+          "title": "Vision",
+          "description": "To inspire and develop responsible leaders who generate meaningful and lasting impact on businesses, communities, and society.",
+          "points": []
+        },
+        "mission": {
+          "title": "Mission",
+          "description": "To provide students with the knowledge, skills, and ethical foundation needed to lead with integrity and drive sustainable change in business and society. ",
+          "points": []
+        }
+      },
+
+      "programSections": [
+        {
+          "type": "UG",
+          "title": "Undergraduate Programmes",
+          "subtitle": "BBA — 3-Year Full-Time"
+        },
+        {
+          "type": "PG",
+          "title": "Postgraduate Programmes",
+          "subtitle": "MBA — 2-Year Full-Time "
+        },
+        {
+          "type": "PhD",
+          "title": "Doctoral Studies & Postgraduate Diploma",
+          "subtitle": ""
+        }
+      ],
+      "programs": [
+        {
+          "slug": "bba",
+          "name": "Bachelor of Business Administration (BBA)",
+          "duration": "3 Years.Full-Time ",
+          "type": "UG",
+          "degree": "Bachelor of Technology"
+        },
+        {
+          "slug": "bba-aviation-management",
+          "name": "BBA (Aviation Management)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Learn to process, analyse, and manage large-scale data using modern tools like Hadoop, Spark, and AI-driven analytics."
+        },
+        {
+          "slug": "bba-business-analytics",
+          "name": "BBA (Business Analytics) ",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Master CI/CD pipelines, cloud infrastructure, and automation tools used in modern software delivery systems."
+        },
+        {
+          "slug": "bba-digital-marketing",
+          "name": "BBA (Digital Marketing) ",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Develop intelligent systems using machine learning, deep learning, and AI technologies across real-world applications."
+        },
+        {
+          "slug": "bba-digital-business",
+          "name": "BBA (Digital Business) ",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Explore blockchain architecture, smart contracts, and decentralized applications for future-ready systems."
+        },
+        {
+          "slug": "bba-hospitality-management",
+          "name": "BBA Hospitality Management ",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Learn network security, ethical hacking, cryptography, and cyber defense strategies to protect digital systems."
+        },
+
+        {
+          "slug": "mba",
+          "name": "MBA (All Business Domains and New Age Specialisations)",
+          "duration": "2 Years.Full-Time",
+          "type": "PG",
+          "degree": "Master of Technology",
+          "overview": "Advanced study in AI, deep learning, and intelligent systems for research and industry applications."
+        },
+        {
+          "slug": "mba-marketing-finance",
+          "name": "MBA (Marketing and Finance) ",
+          "duration": "2 Years.Full-Time",
+          "type": "PG",
+          "degree": "Master of Technology",
+          "overview": "Specialise in big data, analytics, and machine learning for high-demand data-driven roles."
+        },
+        {
+          "slug": "mba-banking-finance-management",
+          "name": "MBA (Banking and Finance Management) ",
+          "duration": "2 Years.Full-Time",
+          "type": "PG",
+          "degree": "Master of Technology",
+          "overview": "Specialise in big data, analytics, and machine learning for high-demand data-driven roles."
+        },
+        {
+          "slug": "mba-digital-marketing",
+          "name": "MBA (Digital Marketing)",
+          "duration": "2 Years.Full-Time",
+          "type": "PG",
+          "degree": "Master of Technology",
+          "overview": "Specialise in big data, analytics, and machine learning for high-demand data-driven roles."
+        },
+        {
+          "slug": "mba-business-analytics",
+          "name": "MBA (Business Analytics)",
+          "duration": "2 Years.Full-Time",
+          "type": "PG",
+          "degree": "Master of Technology",
+          "overview": "Specialise in big data, analytics, and machine learning for high-demand data-driven roles."
+        },
+
+        {
+          "slug": "phd-general-management",
+          "name": "Ph.D. General Management ",
+          "duration": "Research Programme",
+          "type": "PhD",
+          "degree": "Doctor of Philosophy",
+          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies."
+        },
+        {
+          "slug": "phd-marketing-management",
+          "name": "Ph.D. Marketing Management",
+          "duration": "Research Programme",
+          "type": "PhD",
+          "degree": "Doctor of Philosophy",
+          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies."
+        },
+        {
+          "slug": "phd-financial-management",
+          "name": "Ph.D. Financial Management ",
+          "duration": "Research Programme",
+          "type": "PhD",
+          "degree": "Doctor of Philosophy",
+          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies."
+        },
+        {
+          "slug": "phd-human-resource-management",
+          "name": "Ph.D. Human Resource Management",
+          "duration": "Research Programme",
+          "type": "PhD",
+          "degree": "Doctor of Philosophy",
+          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies."
+        },
+        {
+          "slug": "phd-business-analytics",
+          "name": "Ph.D. Business Analytics ",
+          "duration": "Research Programme",
+          "type": "PhD",
+          "degree": "Doctor of Philosophy",
+          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies."
+        },
+
+        {
+          "slug": "pg-diploma-public-administration",
+          "name": "Post Graduate Diploma in Public Administration",
+          "duration": "Diploma Programme",
+          "type": "Diploma",
+          "degree": "Post Graduate Diploma",
+          "overview": "Develop practical skills in big data technologies, analytics, and data-driven decision making."
+        }
+      ]
+    },
+    {
+      "slug": "commerce",
+      "name": "School of Commerce",
+
+      "hero": {
+        "title": {
+          "normal": "School of",
+          "italic": "Commerce"
+        },
+        "description": "Build expertise in accounting, finance, taxation, and business analytics through professionally integrated commerce programmes. From CA Foundation and ACCA pathways to CMA-US certification and data-driven business intelligence, our school prepares international students for careers in finance, accounting, and commerce across global markets. ",
+        "breadcrumb": ["Home", "Schools", "Commerce"],
+        "image": "/img/classes/1.jpg",
+        "stats": [
+          { "label": "UG Programmes", "value": "6" },
+
+          { "label": "Doctoral Research", "value": "2" }
+        ]
+      },
+
+      "about": {
+        "title": "Shaping Future Business and Finance Leaders ",
+        "content": [
+          "The Presidency School of Commerce is one of the university’s largest academic divisions, dedicated to providing holistic education for students aspiring to become global leaders in commerce, accounting, finance, and economics. The school offers six distinctive undergraduate programmes — each integrating core commerce education with a professional specialisation — alongside doctoral research programmes in Commerce and Economics. The curriculum is designed with a conscious effort to develop competencies across accounting, taxation, financial markets, business analytics, and regulatory compliance, helping students develop the inferential ability to understand economic ecosystems and function strategically within them. ",
+          "The school has established academic collaborations through MoUs with multiple institutions and industry bodies, and maintains an innovative teaching pedagogy aligned with global standards. Student forums including Arete, Digitopedia, Inferono, Pragya, Savatha, the Aviation Club, and Linchpin provide co-curricular engagement that complements academic learning. The annual research convention Anveshan, regular faculty development programmes, and industry guest lectures create an environment where academic rigour meets practical industry awareness. Several programmes integrate globally recognised professional certifications — ACCA, CMA-US, and CA Foundation — directly into the degree curriculum, giving graduates both academic qualifications and professional credentials upon completion."
+        ],
+        "image": "/img/classes/1.jpeg",
+
+        "hexagons": [
+          {
+            "type": "text",
+            "text": "Cloud Computing",
+            "icon": "/img/aboutus/3.png",
+            "top": "-5%",
+            "left": "35%"
+          },
+          {
+            "type": "text",
+            "text": "Newest Research",
+            "icon": "/img/aboutus/4.png",
+            "top": "20%",
+            "left": "72%"
+          },
+          {
+            "type": "text",
+            "text": "Industry Mentorship",
+            "icon": "/img/aboutus/2.png",
+            "top": "20%",
+            "left": "0%"
+          },
+          {
+            "type": "text",
+            "text": "Research Ecosystem",
+            "icon": "/img/aboutus/1.png",
+            "top": "80%",
+            "left": "36%"
+          },
+          {
+            "type": "image",
+            "image": "/img/classes/hex1.jpeg",
+            "top": "55%",
+            "left": "10%"
+          },
+          {
+            "type": "image",
+            "image": "/img/classes/hex2.jpeg",
+            "top": "55%",
+            "left": "90%"
+          }
+        ],
+        "features": [
+          {
+            "title": "Integrated Professional Certifications",
+            "description": "Programmes integrating ACCA (recognised in 180 countries), CMA-US, and CA Foundation directly into the degree curriculum — graduate with both a degree and professional credentials."
+          },
+          {
+            "title": "Industry-Standard Finance Labs ",
+            "description": "State-of-the-art finance laboratories equipped with accounting software, ERP systems, financial modelling tools, and market simulation platforms for hands-on professional training. "
+          },
+          {
+            "title": "Research-Oriented Learning Culture ",
+            "description": "The annual Anveshan research convention, faculty development programmes, and active student research forums foster an environment of inquiry-driven commerce education."
+          }
+        ]
+      },
+      "visionMission": {
+        "vision": {
+          "title": "Vision",
+          "description": "To become a value-based, business-oriented Commerce and Economics school dedicated to creating a positive impact on commerce, the economy, and society.",
+          "points": []
+        },
+        "mission": {
+          "title": "Mission",
+          "description": "",
+          "points": [
+            "Equip students with the knowledge, skills, and abilities to succeed in the world of commerce",
+            "Empower students to make proactive decisions in the face of economic and business-related challenges",
+            "Sensitise students to embrace lifelong learning in a technology-enabled environment",
+            "Foster strategic alliances with industry and academia for research and its practical application",
+            "Instil entrepreneurial and leadership skills to address social, environmental, and community needs"
+          ]
+        }
+      },
+
+      "programSections": [
+        {
+          "type": "UG",
+          "title": "Undergraduate Programmes",
+          "subtitle": "B.Com — 3-Year Full-Time "
+        },
+        {
+          "type": "PG",
+          "title": "Postgraduate Programmes",
+          "subtitle": "MBA — 2-Year Full-Time "
+        },
+        {
+          "type": "PhD",
+          "title": "Doctoral Studies",
+          "subtitle": ""
+        }
+      ],
+      "programs": [
+        {
+          "slug": "bcom-banking-and-finance",
+          "name": "B.Com. (Specialisation in Banking and Finance) ",
+          "duration": "3 Years.Full-Time ",
+          "type": "UG",
+          "degree": "Bachelor of Technology"
+        },
+        {
+          "slug": "bcom-acca",
+          "name": "B.Com. (ACCA) ",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Learn to process, analyse, and manage large-scale data using modern tools like Hadoop, Spark, and AI-driven analytics."
+        },
+        {
+          "slug": "bcom-corporate-accounting-and-taxation",
+          "name": "B.Com. (Specialisation in Corporate Accounting and Taxation)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Master CI/CD pipelines, cloud infrastructure, and automation tools used in modern software delivery systems."
+        },
+        {
+          "slug": "bcom-business-analytics",
+          "name": "B.Com. (Business Analytics) ",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Develop intelligent systems using machine learning, deep learning, and AI technologies across real-world applications."
+        },
+        {
+          "slug": "bcom-corporate-accounting-integrated-cma-us",
+          "name": "B.Com. (Corporate Accounting Integrated with CMA-US)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Explore blockchain architecture, smart contracts, and decentralized applications for future-ready systems."
+        },
+        {
+          "slug": "bcom-ca-foundation",
+          "name": "B.Com. CA Foundation  ",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Learn network security, ethical hacking, cryptography, and cyber defense strategies to protect digital systems."
+        },
+
+        {
+          "slug": "phd-commerce",
+          "name": "Ph.D. Commerce",
+          "duration": "Research Programme",
+          "type": "PhD",
+          "degree": "Doctor of Philosophy",
+          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies."
+        },
+        {
+          "slug": "phd-economics",
+          "name": "Ph.D. Economics",
+          "duration": "Research Programme",
+          "type": "PhD",
+          "degree": "Doctor of Philosophy",
+          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies."
+        }
+      ]
+    },
+    {
+      "slug": "design",
+      "name": "School of Design",
+
+      "hero": {
+        "title": {
+          "normal": "School of",
+          "italic": "Design"
+        },
+        "description": "Transform creative vision into professional practice. From communication design and fashion to product innovation, spatial environments, game design, and fine arts — our school offers studio-based programmes that develop technically proficient, artistically sensitive, and design-thinking graduates ready for careers across the global creative industries.",
+        "breadcrumb": ["Home", "Schools", "Design"],
+        "image": "/img/classes/1.jpg",
+        "stats": [
+          { "label": "UG Programmes", "value": "7" },
+
+          { "label": "Doctoral Research", "value": "Ph.D." }
+        ]
+      },
+
+      "about": {
+        "title": "Where Purpose and Passion Meet Design Practice ",
+        "content": [
+          "The Presidency School of Design offers seven undergraduate programmes spanning the full breadth of contemporary design disciplines — communication design, fashion design, product design, space design, game design, multimedia and animation, and fine arts — alongside a doctoral research programme. The school maintains creative workspaces including design studios, interactive smart classrooms, dedicated labs, and specialised areas for each design field. Industry-experienced faculty, handpicked from across the country, nurture the aesthetic talents of students through a collaborative setting that fosters technical proficiency, artistic sensibility, and design thinking.",
+          "All design students begin with a common first year that provides foundational exposure to various design disciplines and allows exploration of interests before specialising from the second year onwards. By the end of each programme, students have gained invaluable hands-on experience in their chosen field through studio projects, workshops, internships, industry collaborations, and portfolio development. The school emphasises the integration of creativity with social sustainability — graduates are prepared not just to design aesthetically, but to address real-world challenges through innovative, human-centred design solutions."
+        ],
+        "image": "/img/classes/1.jpeg",
+
+        "hexagons": [
+          {
+            "type": "text",
+            "text": "Cloud Computing",
+            "icon": "/img/aboutus/3.png",
+            "top": "-5%",
+            "left": "35%"
+          },
+          {
+            "type": "text",
+            "text": "Newest Research",
+            "icon": "/img/aboutus/4.png",
+            "top": "20%",
+            "left": "72%"
+          },
+          {
+            "type": "text",
+            "text": "Industry Mentorship",
+            "icon": "/img/aboutus/2.png",
+            "top": "20%",
+            "left": "0%"
+          },
+          {
+            "type": "text",
+            "text": "Research Ecosystem",
+            "icon": "/img/aboutus/1.png",
+            "top": "80%",
+            "left": "36%"
+          },
+          {
+            "type": "image",
+            "image": "/img/classes/hex1.jpeg",
+            "top": "55%",
+            "left": "10%"
+          },
+          {
+            "type": "image",
+            "image": "/img/classes/hex2.jpeg",
+            "top": "55%",
+            "left": "90%"
+          }
+        ],
+        "features": [
+          {
+            "title": "Common Foundation Year ",
+            "description": "All design students share a first year that introduces core design principles, creative thinking, and disciplinary exploration before specialising — ensuring well-rounded designers."
+          },
+          {
+            "title": "Studio-Based Learning Environment  ",
+            "description": "Dedicated design studios, labs, and creative workspaces equipped with industry-standard tools, software, and fabrication equipment for every design discipline."
+          },
+          {
+            "title": "Industry-Experienced Faculty",
+            "description": "Reputed designers and academicians from across India providing mentorship that bridges academic education with professional creative practice."
+          }
+        ]
+      },
+      "visionMission": {
+        "vision": {
+          "title": "Vision",
+          "description": "To become a value-based, innovation-driven school of design, transforming students into visionary designers who shape the world with creative and socially sustainable solutions.",
+          "points": []
+        },
+        "mission": {
+          "title": "Mission",
+          "description": "",
+          "points": [
+            "Inspire and train students to be creative thinkers and designers ",
+            "Empower students with design knowledge to address social, technical, and economic challenges with innovative solutions",
+            "Sensitise students to embrace lifelong learning in a technology-enabled environment",
+            "Foster strategic alliances between society and academia for research and practical application",
+            "Instil entrepreneurial and leadership skills to address social, environmental, and community needs"
+          ]
+        }
+      },
+
+      "programSections": [
+        {
+          "type": "UG",
+          "title": "Undergraduate Programmes",
+          "subtitle": "Design Degrees — 4-Year Full-Time "
+        },
+        {
+          "type": "PhD",
+          "title": "Doctoral Studies",
+          "subtitle": ""
+        }
+      ],
+      "programs": [
+        {
+          "slug": "bdes-communication-design",
+          "name": "B.Des Communication Design",
+          "duration": "4 Years.Full-Time ",
+          "type": "UG",
+          "degree": "Bachelor of Technology"
+        },
+        {
+          "slug": "bdes-fashion-design",
+          "name": "B.Des Fashion Design ",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Learn to process, analyse, and manage large-scale data using modern tools like Hadoop, Spark, and AI-driven analytics."
+        },
+        {
+          "slug": "bdes-product-design",
+          "name": "B.Des Product Design",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Master CI/CD pipelines, cloud infrastructure, and automation tools used in modern software delivery systems."
+        },
+        {
+          "slug": "bdes-space-design",
+          "name": "B.Des Space Design",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Develop intelligent systems using machine learning, deep learning, and AI technologies across real-world applications."
+        },
+        {
+          "slug": "bsc-multimedia-and-animation",
+          "name": "B.Sc. Multimedia and Animation",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Explore blockchain architecture, smart contracts, and decentralized applications for future-ready systems."
+        },
+        {
+          "slug": "bdes-game-design",
+          "name": "B.Des Game Design  ",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Learn network security, ethical hacking, cryptography, and cyber defense strategies to protect digital systems."
+        },
+        {
+          "slug": "bfa",
+          "name": "Bachelor of Fine Arts (BFA)  ",
+          "duration": "4 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Learn network security, ethical hacking, cryptography, and cyber defense strategies to protect digital systems."
+        },
+
+        {
+          "slug": "phd-design",
+          "name": "Ph.D. Design",
+          "duration": "Research Programme",
+          "type": "PhD",
+          "degree": "Doctor of Philosophy",
+          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies."
+        }
+      ]
+    },
+    {
+      "slug": "law",
+      "name": "School of Law",
+
+      "hero": {
+        "title": {
+          "normal": "School of Law",
+          "italic": ""
+        },
+        "description": "Pursue a career in justice, advocacy, and governance through a BCI-approved legal education. From five-year integrated honours degrees to a postgraduate LL.M. with specialisation in IPR, international law, criminal law, corporate law, and constitutional law — our school prepares international students for impactful careers across the legal profession worldwide.",
+        "breadcrumb": ["Home", "Schools", "Law"],
+        "image": "/img/classes/1.jpg",
+        "stats": [
+          { "label": "UG Programmes", "value": "2" },
+          { "label": "PG Programmes", "value": "1" },
+          { "label": "Doctoral Research", "value": "Ph.D. " }
+        ]
+      },
+
+      "about": {
+        "title": "Building Future Legal Professionals",
+        "content": [
+          "The Presidency School of Law, approved by the Bar Council of India and the Government of Karnataka, offers two five-year integrated bachelor’s honours programmes — B.A. LL.B. (Hons.) and B.B.A. LL.B. (Hons.) — alongside a one-year Master of Laws (LL.M.) degree with multiple specialisation tracks and a doctoral research programme in Law. The integrated honours law curriculum includes courses focused on personal and professional skill development: professional communication, researching and reasoning skills, advocacy skills, and drafting skills. These competencies are refined through moot courts, legal aid clinics, and internships conducted in accordance with BCI guidelines.",
+          ": The school emphasises holistic education — combining classroom learning with hands-on experiences, guidance from expert faculty and mentors, and support from class coordinators. Students can personalise their education through a range of electives and specialised courses in areas including corporate and commercial law, criminal law, constitutional and administrative law, technology and intellectual property law, and international trade law. The honours programme structure allows students to develop deep expertise in their chosen legal domain while maintaining the broad legal knowledge base essential for professional practice."
+        ],
+        "image": "/img/classes/1.jpeg",
+
+        "hexagons": [
+          {
+            "type": "text",
+            "text": "Cloud Computing",
+            "icon": "/img/aboutus/3.png",
+            "top": "-5%",
+            "left": "35%"
+          },
+          {
+            "type": "text",
+            "text": "Newest Research",
+            "icon": "/img/aboutus/4.png",
+            "top": "20%",
+            "left": "72%"
+          },
+          {
+            "type": "text",
+            "text": "Industry Mentorship",
+            "icon": "/img/aboutus/2.png",
+            "top": "20%",
+            "left": "0%"
+          },
+          {
+            "type": "text",
+            "text": "Research Ecosystem",
+            "icon": "/img/aboutus/1.png",
+            "top": "80%",
+            "left": "36%"
+          },
+          {
+            "type": "image",
+            "image": "/img/classes/hex1.jpeg",
+            "top": "55%",
+            "left": "10%"
+          },
+          {
+            "type": "image",
+            "image": "/img/classes/hex2.jpeg",
+            "top": "55%",
+            "left": "90%"
+          }
+        ],
+        "features": [
+          {
+            "title": "Bar Council of India Approved",
+            "description": "All undergraduate law programmes are approved by the Bar Council of India, ensuring graduates meet the professional standards required for legal practice in India."
+          },
+          {
+            "title": "Moot Courts, Legal Aid & Clinical Skills  ",
+            "description": "Experiential learning through moot court competitions, legal aid clinics, client counselling, trial advocacy, and internships that bridge legal theory with professional practice."
+          },
+          {
+            "title": "Five Honours Specialisation Tracks  ",
+            "description": "Students choose from Corporate & Commercial Law, Criminal Law, Constitutional & Administrative Law, Technology & IP Law, or International Trade Law to build focused expertise."
+          }
+        ]
+      },
+      "visionMission": {
+        "vision": {
+          "title": "Vision",
+          "description": "To become a value-based, advocacy-driven school of law, dedicated to building future legal professionals who uphold the rule of law and contribute positively to society.",
+          "points": []
+        },
+        "mission": {
+          "title": "Mission",
+          "description": "",
+          "points": [
+            "Equip students with the knowledge and skills to uphold the legal institutions of the nation ",
+            "Transform students into contemporary legal professionals addressing modern-day social, political, and technological issues",
+            "Sensitise students to embrace lifelong learning in a technology-enabled environment",
+            "Foster strategic alliances between the legal fraternity and academia for research and practice ",
+            "Instil leadership skills to address social, environmental, and community needs"
+          ]
+        }
+      },
+
+      "programSections": [
+        {
+          "type": "UG",
+          "title": "Undergraduate Programmes",
+          "subtitle": "Integrated Law — 5-Year Full-Time (Honours)"
+        },
+        {
+          "type": "PG",
+          "title": "Postgraduate Programmes",
+          "subtitle": "LL.M. — 1-Year Full-Time "
+        },
+        {
+          "type": "PhD",
+          "title": "Doctoral Studies & Postgraduate Diploma",
+          "subtitle": ""
+        }
+      ],
+      "programs": [
+        {
+          "slug": "ba-llb",
+          "name": "B.A. LL.B. (Hons.)",
+          "duration": "5 Years.Full-Time ",
+          "type": "UG",
+          "degree": "Bachelor of Technology"
+        },
+        {
+          "slug": "bba-llb",
+          "name": "B.B.A. LL.B. (Hons.)",
+          "duration": "5 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Learn to process, analyse, and manage large-scale data using modern tools like Hadoop, Spark, and AI-driven analytics."
+        },
+
+        {
+          "slug": "llm",
+          "name": "LL.M. (Master of Laws)",
+          "duration": "1 Years.Full-Time",
+          "type": "PG",
+          "degree": "Master of Technology",
+          "overview": "Advanced study in AI, deep learning, and intelligent systems for research and industry applications."
+        },
+
+        {
+          "slug": "phd-law",
+          "name": "Ph.D. Law ",
+          "duration": "Research Programme",
+          "type": "PhD",
+          "degree": "Doctor of Philosophy",
+          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies."
+        }
+      ]
+    },
+    {
+      "slug": "media-studies",
+      "name": "School of Media Studies",
+
+      "hero": {
+        "title": {
+          "normal": "School of",
+          "italic": "Media Studies"
+        },
+        "description": "Tell the stories that shape public understanding. From traditional journalism and broadcast media to digital content creation, immersive storytelling, and film production — our school prepares international students for impactful careers across the evolving global media landscape.",
+        "breadcrumb": ["Home", "Schools", "Media Studies"],
+        "image": "/img/classes/1.jpg",
+        "stats": [
+          { "label": "UG Programmes", "value": "5" },
+          { "label": "PG Programmes", "value": "1" },
+          { "label": "Doctoral Research", "value": "Ph.D" },
+          { "label": "PG Diploma", "value": "1" }
+        ]
+      },
+
+      "about": {
+        "title": "Educating the Next Generation of Media Professionals",
+        "content": [
+          "The Presidency School of Media Studies (PSOMS) was established to educate and train individuals in the field of media. The school offers a comprehensive BA in Journalism and Mass Communication with five specialisation tracks — covering traditional journalism, digital marketing and advertising, public relations, film and television production, immersive media (AR/VR), and digital storytelling. A postgraduate MA in Journalism and Mass Communication, a PG Diploma in Film Making, and a doctoral programme in Media Studies complete the school’s portfolio. The curriculum combines core principles of traditional journalism with the latest advancements in media technology.",
+          "Students engage in hands-on training across print, electronic, and digital media — mastering reporting, broadcasting, and real-time storytelling. The programme integrates filmmaking, data journalism, mobile journalism, and new media skills, equipping students to craft compelling visual narratives, analyse data effectively, and produce fact-based stories with impact. State-of-the-art TV, radio, and digital editing studios provide professional-grade training facilities. The school maintains a focus on media ethics, critical thinking, and audience engagement alongside technical production skills."
+        ],
+        "image": "/img/classes/1.jpeg",
+
+        "hexagons": [
+          {
+            "type": "text",
+            "text": "Cloud Computing",
+            "icon": "/img/aboutus/3.png",
+            "top": "-5%",
+            "left": "35%"
+          },
+          {
+            "type": "text",
+            "text": "Newest Research",
+            "icon": "/img/aboutus/4.png",
+            "top": "20%",
+            "left": "72%"
+          },
+          {
+            "type": "text",
+            "text": "Industry Mentorship",
+            "icon": "/img/aboutus/2.png",
+            "top": "20%",
+            "left": "0%"
+          },
+          {
+            "type": "text",
+            "text": "Research Ecosystem",
+            "icon": "/img/aboutus/1.png",
+            "top": "80%",
+            "left": "36%"
+          },
+          {
+            "type": "image",
+            "image": "/img/classes/hex1.jpeg",
+            "top": "55%",
+            "left": "10%"
+          },
+          {
+            "type": "image",
+            "image": "/img/classes/hex2.jpeg",
+            "top": "55%",
+            "left": "90%"
+          }
+        ],
+        "features": [
+          {
+            "title": "Five Specialisation Tracks ",
+            "description": "Choose from Digital Marketing & Advertising, PR & Corporate Communication, Film/TV & Digital Production, Immersive Media (AR/VR), or Digital Storytelling & Content Creation."
+          },
+          {
+            "title": "Professional Media Studios",
+            "description": "State-of-the-art TV, radio, and digital editing studios with advanced equipment for multimedia production, broadcast journalism, and content creation."
+          },
+          {
+            "title": "Convergence Journalism Training ",
+            "description": "Hands-on experience across print, electronic, digital, and mobile media — mastering reporting, broadcasting, data journalism, and real-time storytelling."
+          }
+        ]
+      },
+      "visionMission": {
+        "vision": {
+          "title": "Vision",
+          "description": "To become a value-based, communication-effective school of media and journalism, committed to creating an ethical and positive approach to reporting for the benefit of society at large.",
+          "points": []
+        },
+        "mission": {
+          "title": "Mission",
+          "description": "",
+          "points": [
+            "Encourage students to become sensitive, responsive, and responsible social citizens in the realm of media and journalism ",
+            "Empower students with the knowledge and skills to address social, political, and economic challenges through media ",
+            "Sensitise students to embrace lifelong learning in a technology-enabled environment ",
+            "Foster strategic alliances between the media industry and academia for research and practical application ",
+            "Instil entrepreneurial and leadership skills to address social, environmental, and community needs"
+          ]
+        }
+      },
+
+      "programSections": [
+        {
+          "type": "UG",
+          "title": "Undergraduate Programmes",
+          "subtitle": "BA Journalism & Mass Communication — 3-Year Full-Timee"
+        },
+        {
+          "type": "PG",
+          "title": "Postgraduate & Diploma Programmes",
+          "subtitle": ""
+        },
+        {
+          "type": "PhD",
+          "title": "Research Programme",
+          "subtitle": ""
+        }
+      ],
+      "programs": [
+        {
+          "slug": "ba-journalism-communication-general",
+          "name": "BA (Journalism & Mass Communication) — General",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology"
+        },
+        {
+          "slug": "ba-jmc-digital-marketing-advertising",
+          "name": "BA JMC (Digital Marketing & Advertising / PR & Corporate)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Learn to process, analyse, and manage large-scale data using modern tools like Hadoop, Spark, and AI-driven analytics."
+        },
+        {
+          "slug": "ba-jmc-film-television-digital-production",
+          "name": "BA JMC (Film, Television & Digital Production)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Master CI/CD pipelines, cloud infrastructure, and automation tools used in modern software delivery systems."
+        },
+        {
+          "slug": "ba-jmc-immersivemedia-ar-vr-interactive-storytelling",
+          "name": "BA JMC (Immersive Media, AR/VR & Interactive Storytelling)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Develop intelligent systems using machine learning, deep learning, and AI technologies across real-world applications."
+        },
+        {
+          "slug": "ba-jmc-digital-storytelling-content-creation",
+          "name": "BA JMC (Digital Storytelling & Content Creation)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Explore blockchain architecture, smart contracts, and decentralized applications for future-ready systems."
+        },
+
+        {
+          "slug": "ma-journalism-mass-communication",
+          "name": "MA Journalism & Mass Communication",
+          "duration": "2 Years.Full-Time",
+          "type": "PG",
+          "degree": "Master of Technology",
+          "overview": "Advanced study in AI, deep learning, and intelligent systems for research and industry applications."
+        },
+        {
+          "slug": "post-graduate-diploma-film-making",
+          "name": "Post Graduate Diploma in Film Making",
+          "duration": "1 Years.Full-Time",
+          "type": "PG",
+          "degree": "Master of Technology",
+          "overview": "Specialise in big data, analytics, and machine learning for high-demand data-driven roles."
+        },
+
+        {
+          "slug": "phd-media-studies",
+          "name": "Ph.D. Media Studies",
+          "duration": "Research Programme",
+          "type": "PhD",
+          "degree": "Doctor of Philosophy",
+          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies."
+        }
+      ]
+    },
+    {
+      "slug": "allied-health-sciences",
+      "name": "School of Allied Health Sciences",
+
+      "hero": {
+        "title": {
+          "normal": "School of",
+          "italic": "Allied Health Sciences"
+        },
+        "description": "Join the healthcare professionals who support diagnosis, treatment, and patient care across the modern medical system. From physiotherapy and medical laboratory technology to cardiac care, respiratory therapy, and medical imaging — our school prepares international students for essential clinical roles in hospitals, diagnostic centres, and healthcare organisations worldwide.",
+        "breadcrumb": ["Home", "Schools", "Allied Health Sciences"],
+        "image": "/img/classes/1.jpg",
+        "stats": [
+          {
+            "label": "UG Programmes - Healthcare - Clinical Training",
+            "value": "6"
+          }
+        ]
+      },
+
+      "about": {
+        "title": "Training the Clinical Professionals Healthcare Depends On",
+        "content": [
+          "The Presidency School of Allied Health Sciences offers six undergraduate programmes across the allied health professions — healthcare disciplines that support and complement the work of physicians and surgeons. These include physiotherapy, medical laboratory technology, cardiac care technology, respiratory care technology, medical imaging technology, and anaesthesia and operation theatre technology. Each programme combines scientific foundations with extensive clinical training, producing graduates who are technically proficient, ethically grounded, and immediately productive in clinical healthcare settings.",
+          ": Allied health professionals are essential to the functioning of modern healthcare systems — from the laboratory technologists who process diagnostic tests to the physiotherapists who restore patient mobility, the cardiac technologists who monitor heart function, and the imaging technologists who operate diagnostic equipment. India’s expanding healthcare sector — driven by hospital construction, diagnostic centre growth, and increasing health awareness — creates sustained demand for qualified allied health professionals. International students gain clinical training in a healthcare context that is both technologically advancing and serving one of the world’s largest patient populations."
+        ],
+        "image": "/img/classes/1.jpeg",
+
+        "hexagons": [
+          {
+            "type": "text",
+            "text": "Cloud Computing",
+            "icon": "/img/aboutus/3.png",
+            "top": "-5%",
+            "left": "35%"
+          },
+          {
+            "type": "text",
+            "text": "Newest Research",
+            "icon": "/img/aboutus/4.png",
+            "top": "20%",
+            "left": "72%"
+          },
+          {
+            "type": "text",
+            "text": "Industry Mentorship",
+            "icon": "/img/aboutus/2.png",
+            "top": "20%",
+            "left": "0%"
+          },
+          {
+            "type": "text",
+            "text": "Research Ecosystem",
+            "icon": "/img/aboutus/1.png",
+            "top": "80%",
+            "left": "36%"
+          },
+          {
+            "type": "image",
+            "image": "/img/classes/hex1.jpeg",
+            "top": "55%",
+            "left": "10%"
+          },
+          {
+            "type": "image",
+            "image": "/img/classes/hex2.jpeg",
+            "top": "55%",
+            "left": "90%"
+          }
+        ],
+        "features": [
+          {
+            "title": "Clinical Training Integration ",
+            "description": "All programmes incorporate extensive clinical rotations in hospitals and diagnostic centres, ensuring graduates develop hands-on professional competence alongside theoretical knowledge."
+          },
+          {
+            "title": "Essential Healthcare Roles",
+            "description": "Allied health professionals perform critical functions in diagnosis, treatment, rehabilitation, and patient monitoring — roles that are indispensable to modern healthcare delivery."
+          },
+          {
+            "title": "Growing Healthcare Demand",
+            "description": "India’s rapidly expanding healthcare sector — new hospitals, diagnostic chains, and medical tourism — creates strong and sustained demand for qualified allied health professionals."
+          }
+        ]
+      },
+      "visionMission": {
+        "vision": {
+          "title": "Vision",
+          "description": "To develop skilled, compassionate, and ethically responsible allied health professionals who contribute to the delivery of quality healthcare and the improvement of patient outcomes across communities.",
+          "points": []
+        },
+        "mission": {
+          "title": "Mission",
+          "description": "",
+          "points": [
+            "Equip students with the scientific knowledge and clinical skills required for competent allied health practice ",
+            "Provide extensive clinical training in hospital and diagnostic settings to develop practical professional competence",
+            "Foster ethical responsibility, patient-centred care, and commitment to healthcare quality improvement ",
+            "Prepare graduates for professional certification, licensure, and career advancement in allied health fields",
+            "Instil a commitment to lifelong learning in response to evolving healthcare technologies and practices"
+          ]
+        }
+      },
+
+      "programSections": [
+        {
+          "type": "UG",
+          "title": "Undergraduate Programmes",
+          "subtitle": "Allied Health Sciences Degrees"
+        }
+      ],
+      "programs": [
+        {
+          "slug": "bpt",
+          "name": "Bachelor of Physiotherapy (BPT)",
+          "duration": "4 Years + 6 Months ",
+          "type": "UG",
+          "degree": "Bachelor of Technology"
+        },
+        {
+          "slug": "bsc-anesthesia-operation-theatre",
+          "name": "B.Sc. Anaesthesia and Operation Theatre ",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Learn to process, analyse, and manage large-scale data using modern tools like Hadoop, Spark, and AI-driven analytics."
+        },
+        {
+          "slug": "bsc-medical-laboratory-technology",
+          "name": "B.Sc. Medical Laboratory Technology ",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Master CI/CD pipelines, cloud infrastructure, and automation tools used in modern software delivery systems."
+        },
+        {
+          "slug": "bsc-cct",
+          "name": "B.Sc. Cardiac Care Technology (CCT)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Develop intelligent systems using machine learning, deep learning, and AI technologies across real-world applications."
+        },
+        {
+          "slug": "bsc-rct",
+          "name": "B.Sc. Respiratory Care Technology (RCT)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Explore blockchain architecture, smart contracts, and decentralized applications for future-ready systems."
+        },
+        {
+          "slug": "bsc-medical-radiology-imaging",
+          "name": "B.Sc. Medical Radiology and Imaging ",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "overview": "Learn network security, ethical hacking, cryptography, and cyber defense strategies to protect digital systems."
+        }
+      ]
+    },
+    {
+      "slug": "liberal-arts-science",
+      "name": "School of Liberal Arts & Sciences",
+
+      "hero": {
+        "title": {
+          "normal": "School of Liberal Arts",
+          "italic": "& Sciences"
+        },
+        "description": "Explore the intersections of human thought, expression, and experience. From psychology and political science to English literature, performing arts, and theatre — our school offers interdisciplinary programmes that develop critical thinkers, creative practitioners, and culturally aware professionals ready to engage with the complexities of the modern world.",
+        "breadcrumb": ["Home", "Schools", "Liberal Arts & Sciences"],
+        "image": "/img/classes/1.jpg",
+        "stats": [
+          { "label": "UG Programmes", "value": "7" },
+          { "label": "PG Programmes", "value": "2" },
+          { "label": "Doctoral Research", "value": "Ph.D" },
+          { "label": "Diploma Programmes", "value": "4" }
+        ]
+      },
+
+      "about": {
+        "title": "Cultivating Intellectual Curiosity Across Disciplines",
+        "content": [
+          "The Presidency School of Liberal Arts & Sciences (SOLAS) offers a distinctive portfolio of interdisciplinary undergraduate programmes that combine two academic disciplines into a single integrated degree. Students choose from combinations spanning psychology, English, economics, political science, sociology, history, communication and media studies, performing arts, and theatre studies. This dual-discipline structure reflects the school’s belief that the most profound understanding comes from exploring connections between fields — developing graduates with the intellectual breadth, analytical depth, and creative capacity to navigate complex contemporary challenges.",
+          "The school also offers standalone B.Sc. Psychology and postgraduate programmes including M.Sc. Psychology (with specialisations in child, clinical, counselling, and industrial psychology) and M.A. English (with specialisations in digital humanities, cultural studies, creative writing, and educational leadership). A doctoral programme in English and four diploma programmes in classical and traditional performing arts complete the portfolio. The school fosters critical interpretation, analytical rigour, and creative exploration — empowering students through transformative educational experiences that develop their intellectual, creative, and analytical potential across liberal arts disciplines."
+        ],
+        "image": "/img/classes/1.jpeg",
+
+        "hexagons": [
+          {
+            "type": "text",
+            "text": "Cloud Computing",
+            "icon": "/img/aboutus/3.png",
+            "top": "-5%",
+            "left": "35%"
+          },
+          {
+            "type": "text",
+            "text": "Newest Research",
+            "icon": "/img/aboutus/4.png",
+            "top": "20%",
+            "left": "72%"
+          },
+          {
+            "type": "text",
+            "text": "Industry Mentorship",
+            "icon": "/img/aboutus/2.png",
+            "top": "20%",
+            "left": "0%"
+          },
+          {
+            "type": "text",
+            "text": "Research Ecosystem",
+            "icon": "/img/aboutus/1.png",
+            "top": "80%",
+            "left": "36%"
+          },
+          {
+            "type": "image",
+            "image": "/img/classes/hex1.jpeg",
+            "top": "55%",
+            "left": "10%"
+          },
+          {
+            "type": "image",
+            "image": "/img/classes/hex2.jpeg",
+            "top": "55%",
+            "left": "90%"
+          }
+        ],
+        "features": [
+          {
+            "title": "Dual-Discipline Degree Structure ",
+            "description": "Most programmes combine two academic disciplines — psychology with economics, English with political science, performing arts with psychology — producing uniquely versatile graduates."
+          },
+          {
+            "title": "Performing Arts & Theatre",
+            "description": "India’s classical dance traditions (Bharatanatyam, Kathak, Kuchipudi), Western music, and theatre studies integrated into liberal arts degree programmes and standalone diploma courses."
+          },
+          {
+            "title": "Psychology Specialisation Depth",
+            "description": "From B.Sc. Psychology through M.Sc. with four specialisation tracks (child, clinical, counselling, industrial), providing a complete psychology education pathway."
+          }
+        ]
+      },
+      "visionMission": {
+        "vision": {
+          "title": "Vision",
+          "description": "To become a value-based centre of academic excellence that cultivates a dynamic learning environment where liberal arts inquiry, psychological understanding, and creative exploration empower students to excel in scholarly discourse and human development.",
+          "points": []
+        },
+        "mission": {
+          "title": "Mission",
+          "description": "",
+          "points": [
+            "Foster the ability to critically interpret, analyse, and articulate complex texts, human behaviour, and theoretical ideas within broader cultural, social, and historical frameworks  ",
+            "Strengthen analytical abilities for understanding various forms of human expression, communication, and psychological processes  ",
+            "Prepare students for advancement in higher education, professional careers in humanities and behavioural sciences, and scholarly research ",
+            "Empower individuals through transformative educational experiences developing intellectual, creative, and analytical potential"
+          ]
+        }
+      },
+
+      "programSections": [
+        {
+          "type": "UG",
+          "title": "Undergraduate Programmes",
+          "subtitle": "BA & B.Sc. — 3-Year Full-Time",
+          "labels": [
+            "Humanities & Social Sciences Combinations",
+            "Performing Arts & Theatre Combinations"
+          ]
+        },
+        {
+          "type": "PG",
+          "title": "Postgraduate & Diploma Programmes",
+          "subtitle": ""
+        },
+        {
+          "type": "PhD",
+          "title": "Research Programme",
+          "subtitle": ""
+        }
+      ],
+      "programs": [
+        {
+          "slug": "bsc-psychology",
+          "name": "B.Sc. Psychology",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "label": "Humanities & Social Sciences Combinations"
+        },
+        {
+          "slug": "ba-psychology-economics",
+          "name": "B.A. (Psychology, Economics)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "label": "Humanities & Social Sciences Combinations",
+          "overview": "Learn to process, analyse, and manage large-scale data using modern tools like Hadoop, Spark, and AI-driven analytics."
+        },
+        {
+          "slug": "ba-communication-media",
+          "name": "B.A. (Communication and Media, Psychology)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "label": "Humanities & Social Sciences Combinations",
+          "overview": "Master CI/CD pipelines, cloud infrastructure, and automation tools used in modern software delivery systems."
+        },
+        {
+          "slug": "ba-psychology-english",
+          "name": "B.A. (Psychology, English)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "label": "Humanities & Social Sciences Combinations",
+          "overview": "Develop intelligent systems using machine learning, deep learning, and AI technologies across real-world applications."
+        },
+        {
+          "slug": "ba-history-political-science",
+          "name": "B.A. (History & Political Science)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "label": "Humanities & Social Sciences Combinations",
+          "overview": "Explore blockchain architecture, smart contracts, and decentralized applications for future-ready systems."
+        },
+        {
+          "slug": "ba-political-science-economics",
+          "name": "B.A. (Political Science & Economics)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "label": "Humanities & Social Sciences Combinations",
+          "overview": "Learn network security, ethical hacking, cryptography, and cyber defense strategies to protect digital systems."
+        },
+        {
+          "slug": "ba-english-history",
+          "name": "B.A. (English & History)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "label": "Humanities & Social Sciences Combinations:",
+          "overview": "Gain expertise in data analysis, machine learning, and statistical modelling to extract insights from complex data."
+        },
+        {
+          "slug": "ba-english-political-science",
+          "name": "B.A. (English & Political Science)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "label": "Humanities & Social Sciences Combinations:",
+          "overview": "Build connected systems and smart devices using IoT technologies, sensors, and cloud platforms."
+        },
+        {
+          "slug": "ba-communication-media-studies",
+          "name": "B.A. (Communication and Media Studies, English)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "label": "Humanities & Social Sciences Combinations",
+          "overview": "Focus on software development, information systems, and data management for modern IT solutions."
+        },
+        {
+          "slug": "ba-arts-classicalmusic-psychology",
+          "name": "B.A. (Performing Arts – Classical Music, Psychology)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "label": "Performing Arts & Theatre Combinations",
+          "overview": "Combine hardware and software knowledge to design and build efficient computing systems."
+        },
+        {
+          "slug": "ba-arts-classicaldance-psychology",
+          "name": "B.A. (Performing Arts – Classical Dance, Psychology)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "label": "Performing Arts & Theatre Combinations",
+          "overview": "Learn IT infrastructure, networking, and software systems for enterprise and business applications."
+        },
+        {
+          "slug": "ba-arts-classicaldance-english",
+          "name": "B.A. (Performing Arts – Classical Dance, English)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "label": "Performing Arts & Theatre Combinations",
+          "overview": "Design intelligent robotic systems combining AI, automation, and embedded systems."
+        },
+        {
+          "slug": "ba-performing-arts-western-music-instrumental-english",
+          "name": "B.A. (Performing Arts – Western Music – Instrumental, English)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "label": "Performing Arts & Theatre Combinations",
+          "overview": "Integrate AI and data science techniques to build predictive and intelligent systems."
+        },
+
+        {
+          "slug": "ba-performing-arts–western-music-instrumental-psychology",
+          "name": "B.A. (Performing Arts – Western Music – Instrumental, Psychology)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "label": "Performing Arts & Theatre Combinations",
+          "overview": "Advanced study in AI, deep learning, and intelligent systems for research and industry applications."
+        },
+        {
+          "slug": "ba-theatre-studies-psychology",
+          "name": "B.A. (Theatre Studies, Psychology)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "label": "Performing Arts & Theatre Combinations",
+          "overview": "Specialise in big data, analytics, and machine learning for high-demand data-driven roles."
+        },
+        {
+          "slug": "ba-theatre-studies-english",
+          "name": "B.A. (Theatre Studies, English)",
+          "duration": "3 Years.Full-Time",
+          "type": "UG",
+          "degree": "Bachelor of Technology",
+          "label": "Performing Arts & Theatre Combinations",
+          "overview": "Specialise in big data, analytics, and machine learning for high-demand data-driven roles."
+        },
+
+        {
+          "slug": "msc-psychology-child-clinical-counselling-industrial-psychology",
+          "name": "M.Sc. Psychology (Child / Clinical / Counselling / Industrial Psychology)",
+          "duration": "2 Years.Full-Time",
+          "type": "PG",
+          "degree": "Master of Technology",
+          "label": "",
+          "overview": "Advanced study in AI, deep learning, and intelligent systems for research and industry applications."
+        },
+        {
+          "slug": "ma-english-digital-humanities-cultural-Studies-creative-writing-educational-leadership",
+          "name": "M.A. English (Digital Humanities / Cultural Studies / Creative Writing / Educational Leadership)",
+          "duration": "2 Years.Full-Time",
+          "type": "PG",
+          "degree": "Master of Technology",
+          "label": "",
+          "overview": "Advanced study in AI, deep learning, and intelligent systems for research and industry applications."
+        },
+        {
+          "slug": "phd-english",
+          "name": "Ph.D. English",
+          "duration": "Research Programme",
+          "type": "PhD",
+          "degree": "Doctoral Research",
+          "label": "",
+          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies."
+        },
+        {
+          "slug": "diploma-bharatanatyam",
+          "name": "Diploma in Bharatanatyam",
+          "duration": "Diploma Programme",
+          "type": "Diploma",
+          "degree": "Post Graduate Diploma",
+          "label": "",
+          "overview": "Develop practical skills in big data technologies, analytics, and data-driven decision making."
+        },
+        {
+          "slug": "diploma-kathak",
+          "name": "Diploma in Kathak",
+          "duration": "Diploma Programme",
+          "type": "Diploma",
+          "degree": "Post Graduate Diploma",
+          "label": "",
+          "overview": "Develop practical skills in big data technologies, analytics, and data-driven decision making."
+        },
+        {
+          "slug": "diploma-kuchipudi",
+          "name": "Diploma in Kuchipudi",
+          "duration": "Diploma Programme",
+          "type": "Diploma",
+          "degree": "Post Graduate Diploma",
+          "label": "",
+          "overview": "Develop practical skills in big data technologies, analytics, and data-driven decision making."
+        },
+        {
+          "slug": "diploma-mohiniyattam",
+          "name": "Diploma in Mohiniyattam",
+          "duration": "Diploma Programme",
+          "type": "Diploma",
+          "degree": "Post Graduate Diploma",
+          "label": "",
+          "overview": "Develop practical skills in big data technologies, analytics, and data-driven decision making."
+        }
+      ]
+    }
+  ]
+}
