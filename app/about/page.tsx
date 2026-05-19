@@ -16,7 +16,7 @@ const AboutPage = () => {
       <ResearchInnovation />
       <LeadershipSection />
       <GlobalPresence />
-      <CTASection />
+      {/* <CTASection /> */}
     </>
   );
 };
