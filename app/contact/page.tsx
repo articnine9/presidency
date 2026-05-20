@@ -24,7 +24,7 @@ const ContactPage = () => {
       <MapSection />
       {/* <ContactFormSection /> */}
       <SocialMediaSection />
-      <CourseCTA />
+      {/* <CourseCTA /> */}
     </>
   );
 };

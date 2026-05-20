@@ -205,9 +205,17 @@
   "InternationalSupport": {
     "header": {
       "tag": "International Support",
-      "title": "Global Student  ",
+      "title": "Global Student",
       "highlight": "Assistance",
       "description": "Our International Support team is dedicated to helping students from around the world feel at home. From application to graduation, we assist with visas, housing, academics, and adapting to campus life."
-    }
+    },
+
+    "points": [
+      "The Office of International Affairs (OIA) organizes orientation programs, cultural exchanges, and social events to help you settle in and make friends fast.",
+
+      "Student clubs and societies give you a strong support system and plenty of opportunities to get involved.",
+
+      "A global alumni network across Asia, Africa, and the Middle East helps you stay connected even after you graduate."
+    ]
   }
 }

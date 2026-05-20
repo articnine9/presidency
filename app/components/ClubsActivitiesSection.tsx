@@ -1,0 +1,222 @@
+"use client";
+
+import CommonHeader from "@/app/components/CommonHeader";
+import { motion } from "framer-motion";
+import {
+  Cpu,
+  Palette,
+  Briefcase,
+  Heart,
+  Mic,
+  Users,
+  ChevronRight,
+  Trophy,
+} from "lucide-react";
+
+const iconMap: any = {
+  tech: Cpu,
+  arts: Palette,
+  business: Briefcase,
+  wellness: Heart,
+  speaking: Mic,
+  social: Users,
+};
+
+type ClubsPageProps = {
+  data: any;
+};
+
+export default function ClubsActivitiesSection({ data }: ClubsPageProps) {
+  return (
+    <section className="bg-[#fff] py-20">
+      <div className="max-w-[1400px] mx-auto px-6">
+        {/* HEADER */}
+        <CommonHeader
+          tag={data.header.tag}
+          title={data.header.title}
+          highlight={data.header.highlight}
+          description={data.header.description}
+          align="center"
+          primaryColor="#0A8F96"
+        />
+
+        {/* CLUBS GRID */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-14">
+          {data.clubs.map((club: any, index: number) => {
+            const Icon = iconMap[club.icon];
+
+            return (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 25 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: index * 0.08 }}
+                viewport={{ once: true }}
+                className="
+                  bg-white
+                  rounded-2xl
+                  overflow-hidden
+                  border
+                  border-[#0A8F96]/20
+                  shadow-sm
+                  hover:shadow-xl
+                  transition-all
+                  duration-300
+                  group
+                "
+              >
+                {/* IMAGE */}
+                <div className="relative h-[180px] overflow-hidden">
+                  <img
+                    src={club.image}
+                    alt={club.title}
+                    className="
+                      w-full
+                      h-full
+                      object-cover
+                      group-hover:scale-105
+                      transition duration-500
+                    "
+                  />
+
+                  {/* OVERLAY */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+
+                  {/* TOP TITLE */}
+                  <div className="absolute top-5 left-5 flex items-center gap-3 text-white">
+                    <div
+                      className="
+                        w-10 h-10
+                        rounded-xl
+                        border border-white/40
+                        bg-white/10
+                        backdrop-blur-md
+                        flex items-center justify-center
+                      "
+                    >
+                      {Icon && <Icon size={18} />}
+                    </div>
+
+                    <h3 className="text-lg">{club.title}</h3>
+                  </div>
+                </div>
+
+                {/* CLUB LIST */}
+                <div className="p-5">
+                  <div className="space-y-3">
+                    {club.items.map((item: string, i: number) => (
+                      <div
+                        key={i}
+                        className="
+                          flex items-center justify-between
+                          border-b border-gray-100
+                          pb-2
+                        "
+                      >
+                        <span className="text-[#1E3557] text-sm">{item}</span>
+                      </div>
+                    ))}
+                  </div>
+
+                  {/* VIEW MORE */}
+                  <button
+                    className="
+                      mt-4
+                      flex items-center gap-1
+                      text-sm
+                      text-[#0A8F96]
+                      hover:gap-2
+                      transition-all
+                    "
+                  >
+                    View more
+                    <ChevronRight size={16} />
+                  </button>
+                </div>
+              </motion.div>
+            );
+          })}
+        </div>
+
+        {/* EVENTS */}
+        <div className="mt-20">
+          <h3 className="text-3xl text-[#1E3557] mb-8">Major Campus Events</h3>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            {data.events.map((event: any, i: number) => (
+              <motion.div
+                key={i}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: i * 0.08 }}
+                viewport={{ once: true }}
+                className="
+                  bg-white
+                  rounded-xl
+                  border
+                  border-[#0A8F96]/20
+                  p-6
+                  shadow-sm
+                  hover:shadow-lg
+                  transition-all
+                "
+              >
+                <h4 className="text-[#1E3557] text-xl mb-2">{event.title}</h4>
+
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  {event.desc}
+                </p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+
+        {/* SPORTS CARD */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="
+            mt-10
+            bg-white
+            rounded-2xl
+            border
+            border-[#0A8F96]/20
+            p-6
+            shadow-sm
+            relative
+            overflow-hidden
+          "
+        >
+          {/* LEFT ACCENT */}
+          <div className="absolute left-0 top-0 h-full w-[5px] bg-[#0A8F96]" />
+
+          <div className="flex items-start gap-4">
+            <div
+              className="
+                w-12 h-12
+                rounded-xl
+                bg-[#0A8F96]/10
+                text-[#0A8F96]
+                flex items-center justify-center
+                shrink-0
+              "
+            >
+              <Trophy size={22} />
+            </div>
+
+            <div>
+              <h4 className="text-[#1E3557] text-xl mb-2">
+                {data.sports.title}
+              </h4>
+
+              <p className="text-gray-600 leading-relaxed">
+                {data.sports.desc}
+              </p>
+            </div>
+          </div>
+        </motion.div>
+      </div>
+    </section>
+  );
+}

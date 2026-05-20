@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-
+import { ArrowRight, Download } from "lucide-react";
 type FaqHeroProps = {
   selectedProgram?: string | null;
   data: {
@@ -55,7 +55,7 @@ export default function HowToApplyHero({
 
         {/* CONTENT */}
         <div className="relative mx-auto flex h-full min-h-[420px] max-w-[1400px] items-center px-4 py-10 sm:min-h-[480px] sm:px-6 md:min-h-0 md:py-0">
-          <div className="max-w-3xl text-white">
+          <div className="max-w-4xl text-white">
             {/* TITLE */}
             <motion.h1
               initial={{ opacity: 0, y: 30 }}
@@ -83,7 +83,9 @@ export default function HowToApplyHero({
                 transition={{ delay: 0.15 }}
                 className="mb-6 flex w-full max-w-full flex-wrap items-center gap-2 rounded-lg bg-white/15 px-3 py-2 text-left text-sm text-white ring-1 ring-white/25 sm:inline-flex sm:px-4 md:text-base"
               >
-                <span className="shrink-0 text-white/80">Selected programme:</span>
+                <span className="shrink-0 text-white/80">
+                  Selected programme:
+                </span>
                 <span className="min-w-0 break-words font-semibold text-[#D4A843]">
                   {selectedProgram}
                 </span>
@@ -109,7 +111,12 @@ export default function HowToApplyHero({
                         : "border-2 border-white text-white hover:bg-white/10 backdrop-blur-sm"
                     }`}
                   >
-                    {btn.label}
+                    {btn.label}{" "}
+                    {btn.type === "primary" ? (
+                      <ArrowRight size={16} />
+                    ) : (
+                      <Download size={16} />
+                    )}
                   </a>
                 ))}
               </motion.div>

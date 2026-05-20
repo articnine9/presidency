@@ -6,116 +6,250 @@ import CommonHeader from "@/app/components/CommonHeader";
 
 export default function MapSection() {
   return (
-    <section className="py-20 bg-[#F5F6F8]">
+    <section className="bg-[#F7F7F5] py-24">
       <div className="max-w-[1400px] mx-auto px-6">
-        {/* 🔥 HEADER */}
-        <CommonHeader
-          tag="Find Us"
-          title="Visit Our"
-          highlight="Campus"
-          description="Presidency University is located in Bengaluru, offering a vibrant and accessible campus environment."
-          primaryColor="#0A8F96"
-        />
+        {/* HEADER */}
+        <div className="text-center">
+          {/* TAG */}
+          <span
+            className="
+          inline-block
+          rounded-md
+          bg-[#FFF1E8]
+          px-4 py-2
+          text-xs
+          font-medium
+          text-[#F58233]
+        "
+          >
+            Find Us
+          </span>
 
-        {/* 🔥 TWO COLUMN GRID */}
-        <div className="grid lg:grid-cols-2 gap-10">
-          {/* ================= MAP ================= */}
-          <div className="bg-white rounded-2xl shadow-md overflow-hidden">
+          {/* TITLE */}
+          <h2
+            className="
+          mt-5
+          text-4xl
+          md:text-5xl
+          font-semibold
+          text-[#183153]
+        "
+          >
+            Experience Life at{" "}
+            <span className="text-[#F58233]">Our Campus</span>
+          </h2>
+
+          {/* DESCRIPTION */}
+          <p
+            className="
+          mx-auto
+          mt-4
+          max-w-3xl
+          text-sm
+          leading-7
+          text-gray-600
+        "
+          >
+            Located in Bengaluru, Presidency University offers a vibrant,
+            well-connected campus experience.
+          </p>
+        </div>
+
+        {/* GRID */}
+        <div className="mt-14 grid gap-8 lg:grid-cols-2">
+          {/* MAP CARD */}
+          <div
+            className="
+          overflow-hidden
+          rounded-2xl
+          border border-[#D7E3E3]
+          bg-white
+          shadow-sm
+        "
+          >
+            {/* MAP */}
             <iframe
               src="https://www.google.com/maps?q=Presidency+University+Bangalore&output=embed"
-              className="w-full h-110 border-0"
+              className="h-[340px] w-full border-0"
               loading="lazy"
-            ></iframe>
+            />
 
-            <div className="p-6 flex flex-col gap-4">
-              <div className="flex items-start gap-3 text-gray-700 text-sm">
-                <MapPin size={18} className="mt-1 text-[#0A8F96]" />
-                <div>
+            {/* ADDRESS */}
+            <div className="px-6 py-5">
+              <div className="flex items-start gap-3 text-sm text-gray-600">
+                <MapPin size={16} className="mt-1 text-[#F58233]" />
+
+                <p>
                   Presidency University, Rajanukunte, Yelahanka, Bengaluru –
                   560119, India
-                </div>
+                </p>
               </div>
 
+              {/* BUTTON */}
               <a
                 href="https://www.google.com/maps/place/Presidency+University+Bangalore"
                 target="_blank"
-                className="w-fit bg-[#0A8F96] text-white px-5 py-2 rounded-lg text-sm hover:bg-[#0BB5B5] transition"
+                className="
+              mt-5
+              inline-flex
+              items-center
+              gap-2
+              rounded-md
+              bg-[#F4A261]
+              px-5
+              py-3
+              text-sm
+              font-medium
+              text-white
+              transition hover:bg-[#E98E43]
+            "
               >
-                Open in Google Maps
+                VIEW MAP
+                <MapPin size={14} />
               </a>
             </div>
           </div>
 
-          {/* ================= FORM ================= */}
-          <div className="bg-white rounded-2xl shadow-md p-8 md:p-10">
-            <h3 className="text-xl font-semibold text-[#1e3a5f] mb-6">
+          {/* FORM CARD */}
+          <div
+            className="
+          rounded-2xl
+          border border-[#D7E3E3]
+          bg-white
+          px-8
+          py-8
+          shadow-sm
+        "
+          >
+            {/* FORM TITLE */}
+            <h3
+              className="
+            text-center
+            text-2xl
+            font-semibold
+            text-[#F58233]
+          "
+            >
               Send Us a Message
             </h3>
 
-            <form className="grid md:grid-cols-2 gap-6">
-              <div>
-                <label className="text-sm text-gray-700 mb-1 block">
-                  Full Name
-                </label>
-                <input
-                  type="text"
-                  placeholder="Enter your name"
-                  className="w-full border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#0A8F96]"
-                />
+            {/* FORM */}
+            <form className="mt-8">
+              {/* ROW 1 */}
+              <div className="grid gap-5 md:grid-cols-2">
+                <div>
+                  <label className="mb-2 block text-sm text-[#183153]">
+                    Full Name
+                  </label>
+
+                  <input
+                    type="text"
+                    placeholder="Enter your name"
+                    className="
+                  w-full
+                  rounded-lg
+                  border border-gray-300
+                  px-4
+                  py-3
+                  text-sm
+                  outline-none
+                  transition
+                  focus:border-[#F58233]
+                "
+                  />
+                </div>
+
+                <div>
+                  <label className="mb-2 block text-sm text-[#183153]">
+                    Email Address
+                  </label>
+
+                  <input
+                    type="email"
+                    placeholder="Enter your email"
+                    className="
+                  w-full
+                  rounded-lg
+                  border border-gray-300
+                  px-4
+                  py-3
+                  text-sm
+                  outline-none
+                  transition
+                  focus:border-[#F58233]
+                "
+                  />
+                </div>
               </div>
 
-              <div>
-                <label className="text-sm text-gray-700 mb-1 block">
-                  Email Address
-                </label>
-                <input
-                  type="email"
-                  placeholder="Enter your email"
-                  className="w-full border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#0A8F96]"
-                />
+              {/* ROW 2 */}
+              <div className="mt-5 grid gap-5 md:grid-cols-2">
+                <div>
+                  <label className="mb-2 block text-sm text-[#183153]">
+                    Phone Number
+                  </label>
+
+                  <input
+                    type="tel"
+                    placeholder="Enter your phone number"
+                    className="
+                  w-full
+                  rounded-lg
+                  border border-gray-300
+                  px-4
+                  py-3
+                  text-sm
+                  outline-none
+                  transition
+                  focus:border-[#F58233]
+                "
+                  />
+                </div>
+
+                <div>
+                  <label className="mb-2 block text-sm text-[#183153]">
+                    Subject
+                  </label>
+
+                  <input
+                    type="text"
+                    placeholder="Enter subject"
+                    className="
+                  w-full
+                  rounded-lg
+                  border border-gray-300
+                  px-4
+                  py-3
+                  text-sm
+                  outline-none
+                  transition
+                  focus:border-[#F58233]
+                "
+                  />
+                </div>
               </div>
 
-              <div>
-                <label className="text-sm text-gray-700 mb-1 block">
-                  Phone Number
-                </label>
-                <input
-                  type="tel"
-                  placeholder="Enter your phone number"
-                  className="w-full border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#0A8F96]"
-                />
-              </div>
-
-              <div>
-                <label className="text-sm text-gray-700 mb-1 block">
-                  Subject
-                </label>
-                <input
-                  type="text"
-                  placeholder="Enter subject"
-                  className="w-full border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#0A8F96]"
-                />
-              </div>
-
-              <div className="md:col-span-2">
-                <label className="text-sm text-gray-700 mb-1 block">
+              {/* MESSAGE */}
+              <div className="mt-5">
+                <label className="mb-2 block text-sm text-[#183153]">
                   Message
                 </label>
+
                 <textarea
                   rows={5}
                   placeholder="Write your message..."
-                  className="w-full border border-gray-200 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#0A8F96]"
-                ></textarea>
-              </div>
-
-              <div className="md:col-span-2">
-                <motion.button
-                  whileHover={{ scale: 1.03 }}
-                  whileTap={{ scale: 0.97 }}
-                  className="bg-[#0A8F96] text-white px-8 py-3 rounded-lg font-medium hover:bg-[#0BB5B5] transition shadow-md"
-                >
-                  Submit Message
-                </motion.button>
+                  className="
+                w-full
+                rounded-lg
+                border border-gray-300
+                px-4
+                py-3
+                text-sm
+                outline-none
+                transition
+                focus:border-[#F58233]
+              "
+                />
               </div>
             </form>
           </div>

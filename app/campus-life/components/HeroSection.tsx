@@ -1,5 +1,7 @@
 "use client";
+
 import { motion } from "framer-motion";
+import { ArrowRight, Phone, Download } from "lucide-react";
 
 type SchoolHeroProps = {
   data: {
@@ -20,10 +22,10 @@ type SchoolHeroProps = {
 export default function SchoolHero({ data }: SchoolHeroProps) {
   return (
     <>
-      {/* 🔹 BREADCRUMB */}
+      {/* BREADCRUMB */}
       {data.breadcrumb && (
         <div className="bg-[#f5f7fa] py-3">
-          <div className="max-w-[1400px] mx-auto px-4 md:px-6 text-xs md:text-sm text-gray-600 flex flex-wrap">
+          <div className="mx-auto flex max-w-[1400px] flex-wrap px-4 text-xs text-gray-600 md:px-6 md:text-sm">
             {data.breadcrumb.map((item, index, arr) => (
               <span key={index}>
                 {item}
@@ -36,37 +38,81 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
         </div>
       )}
 
-      {/* 🔥 HERO */}
-      <section className="relative w-full min-h-[480px] overflow-hidden sm:min-h-[520px] md:h-[520px]">
+      {/* HERO */}
+      <section
+        className="
+          relative
+          overflow-hidden
+         
+        "
+      >
         {/* IMAGE */}
         <img
-          src={
-            data.image ||
-            "https://images.unsplash.com/photo-1769905226788-1bf5ba8f50d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5JTIwY2FtcHVzJTIwc3R1ZGVudHMlMjB3YWxraW5nfGVufDF8fHx8MTc3MzM5ODc4N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-          }
-          className="absolute inset-0 w-full h-full object-cover"
+          src={data.image || "/img/campus-life.jpg"}
+          alt="Campus Life"
+          className="
+            absolute
+            inset-0
+            h-full
+            w-full
+            object-cover
+          "
         />
 
         {/* OVERLAY */}
         <div
-          className="absolute inset-0 
-          bg-gradient-to-r md:bg-gradient-to-r 
-          from-[#0b2a4a]/95 via-[#0b2a4a]/85 to-transparent 
-          bg-gradient-to-b from-[#0b2a4a]/80 via-[#0b2a4a]/70 to-[#0b2a4a]/90 md:to-transparent"
-        ></div>
+          className="
+            absolute
+            inset-0
+            bg-gradient-to-r
+            from-black/80
+            via-black/45
+            to-black/20
+          "
+        />
 
         {/* CONTENT */}
-        <div className="relative mx-auto flex h-full min-h-[480px] w-full max-w-[1400px] flex-col gap-8 px-4 py-10 sm:px-6 md:min-h-[520px] md:flex-row md:items-center md:justify-between md:gap-12 md:py-0 xl:gap-24">
-          <div className="max-w-4xl pb-4 text-white md:pb-0">
+        <div
+          className="
+            relative
+            z-10
+            mx-auto
+            flex
+            min-h-[780px]
+            max-w-[1400px]
+            flex-col
+            justify-center
+            px-6
+            pb-36
+            pt-20
+            lg:min-h-[720px]
+          "
+        >
+          {/* TEXT BLOCK */}
+          <div className="max-w-2xl text-white">
             {/* TITLE */}
             <motion.h1
-              initial={{ opacity: 0, y: 30 }}
+              initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
-              className="mb-4 font-serif text-3xl leading-tight text-white sm:text-4xl md:text-5xl lg:text-6xl"
+              className="
+                font-serif
+                text-5xl
+                leading-none
+                md:text-6xl
+              "
             >
               {data.title.normal}
+
               <br />
-              <i className="ml-2 text-[#D4A843]">{data.title.italic}</i>
+
+              <span
+                className="
+                  italic
+                  text-[#D4A843]
+                "
+              >
+                {data.title.italic}
+              </span>
             </motion.h1>
 
             {/* DESCRIPTION */}
@@ -74,75 +120,158 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1 }}
-              className="mb-4 text-lg text-white/90 md:text-xl lg:text-2xl"
+              className="
+                mt-6
+                max-w-xl
+                text-base
+                leading-7
+                text-white/85
+              "
             >
               {data.description}
             </motion.p>
 
-            {/* BUTTON */}
-            {/* <motion.button
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.2 }}
-              className="bg-[#0A8F96] text-white px-8 py-4 rounded-lg hover:bg-[#0BB5B5] transition-all duration-300 hover:shadow-xl hover:scale-105 flex items-center gap-2 text-lg"
-            >
-              Request Information
-            </motion.button> */}
-
+            {/* BUTTONS */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.4 }}
-              className="flex flex-wrap gap-4 mb-5 mt-10"
+              transition={{ delay: 0.2 }}
+              className="
+                mt-8
+                flex
+                flex-wrap
+                gap-4
+              "
             >
-              <button className="bg-[#0A8F96] text-white px-8 py-4 rounded-lg hover:bg-[#0BB5B5] transition-all duration-300 hover:shadow-xl hover:scale-105 flex items-center gap-2 text-lg">
-                Download Brouchure
+              {/* PRIMARY */}
+              <button
+                className="
+                  flex
+                  items-center
+                  gap-2
+                  rounded-lg
+                  bg-[#0A8F96]
+                  px-6
+                  py-3
+                  text-sm
+                  font-medium
+                  text-white
+                  transition
+                  hover:bg-[#11B8C0]
+                "
+              >
+                EXPLORE PROGRAMMES
+                <ArrowRight size={16} />
               </button>
-              <button className="bg-white text-[#0F1E3D] px-8 py-4 rounded-lg hover:bg-gray-100 transition-all duration-300 hover:shadow-xl hover:scale-105 text-lg">
-                How to Apply
+
+              {/* OUTLINE */}
+              <button
+                className="
+                  flex
+                  items-center
+                  gap-2
+                  rounded-lg
+                  border
+                  border-white/60
+                  bg-white/5
+                  px-6
+                  py-3
+                  text-sm
+                  text-white
+                  backdrop-blur-sm
+                  transition
+                  hover:bg-white/10
+                "
+              >
+                CONTACT THE OIA
+                <Phone size={15} />
               </button>
-              <button className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white/10 transition-all duration-300 hover:scale-105 flex items-center gap-2 text-lg backdrop-blur-sm">
-                Contact the OIA
+
+              {/* LIGHT BUTTON */}
+              <button
+                className="
+                  flex
+                  items-center
+                  gap-2
+                  rounded-lg
+                  bg-white
+                  px-6
+                  py-3
+                  text-sm
+                  font-medium
+                  text-[#0F2D52]
+                  transition
+                  hover:bg-gray-100
+                "
+              >
+                HOW TO APPLY
+                <Download size={15} />
               </button>
             </motion.div>
           </div>
-          <div className="w-full shrink-0 md:w-auto">
-            {data.stats && (
-              <div className="mt-0 md:mt-6">
-                <div className="max-w-sm mx-auto">
-                  <div className="flex flex-col items-center gap-4">
-                    {data.stats.map((stat, index) => (
-                      <motion.div
-                        key={index}
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ delay: 0.2 + index * 0.1 }}
-                        className="
-              w-full
-              bg-white
-              rounded-2xl
-              px-6 py-5
-              text-center
-              shadow-md
-              hover:shadow-lg
-              transition duration-300
-            "
-                      >
-                        <p className="text-2xl font-semibold text-[#D4A843]">
-                          {stat.value}
-                        </p>
-                        <p className="text-sm text-gray-600 mt-1">
-                          {stat.label}
-                        </p>
-                      </motion.div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            )}
-          </div>
 
-          {/* 📊 NEW GLASS STATS DESIGN */}
+          {/* STATS */}
+          {data.stats && (
+            <div
+              className="
+                absolute
+                bottom-10
+                left-1/2
+                z-20
+                grid
+                w-full
+               
+                -translate-x-1/2
+                grid-cols-2
+                gap-5
+                px-6
+                lg:grid-cols-4
+              "
+            >
+              {data.stats.map((stat, index) => (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, y: 30 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{
+                    delay: 0.3 + index * 0.1,
+                  }}
+                  className="
+                    rounded-2xl
+                    border
+                    border-white/20
+                    bg-white/10
+                    px-8
+                    py-7
+                    text-center
+                    text-white
+                    shadow-xl
+                    backdrop-blur-md
+                  "
+                >
+                  <p
+                    className="
+                      text-4xl
+                      font-semibold
+                      text-[#D4A843]
+                    "
+                  >
+                    {stat.value}
+                  </p>
+
+                  <p
+                    className="
+                      mt-2
+                      text-sm
+                      text-white/85
+                    "
+                  >
+                    {stat.label}
+                  </p>
+                </motion.div>
+              ))}
+            </div>
+          )}
         </div>
       </section>
     </>

@@ -1,91 +1,154 @@
 "use client";
-import CommonHeader from "@/app/components/CommonHeader";
 
+import CommonHeader from "@/app/components/CommonHeader";
+import { CheckCircle2, ArrowRight } from "lucide-react";
 
 export default function InternationalSupport({ data }: any) {
-   const cards = [
-    {
-      title: "Global Student Community",
-      img: "/img/bang-life/studentcommunity.jpg",
-    },
-    {
-      title: "End-to-End Student Support",
-      img: "/img/bang-life/internationalsupport.jpg",
-    },
-   
-  ];
-
   return (
-    <section className="relative bg-[white] py-16 px-6 overflow-hidden">
-      <CommonHeader
-                tag={data.header.tag}
-                title={data.header.title}
-                highlight={data.header.highlight}
-                description={data.header.description}
-              />
-      <div className="max-w-[1400px] mx-auto grid md:grid-cols-2 items-center gap-10 px-6 ">
-        {/* 🔵 LEFT CONTENT */}
-        <div className="relative z-10">
-
-          {/* MAP */}
-          <div className="relative">
-            <img
-              src="/img/map-bang.jpeg"
-              className="w-full max-w-2xl  h-full object-cover rounded-lg "
+    <section className="bg-[#F7F8F6] py-24">
+      <div className="mx-auto max-w-[1400px] px-6">
+        {/* TOP SECTION */}
+        <div className="grid items-center gap-16 lg:grid-cols-2">
+          {/* LEFT CONTENT */}
+          <div>
+            <CommonHeader
+              tag={data.header.tag}
+              title={data.header.title}
+              highlight={data.header.highlight}
+              description={data.header.description}
+              align="left"
+              primaryColor="#ff7a2f"
             />
 
-            {/* 🔥 LINES (fake using borders)
-            <div className="absolute left-[45%] bottom-[20%] w-[120px] h-[120px] border-l-2 border-b-2 border-[#c9a55c] rounded-bl-full rotate-12"></div>
-            <div className="absolute left-[45%] bottom-[20%] w-[140px] h-[140px] border-l-2 border-b-2 border-[#c9a55c] rounded-bl-full -rotate-6"></div>
-            <div className="absolute left-[45%] bottom-[20%] w-[160px] h-[160px] border-l-2 border-b-2 border-[#c9a55c] rounded-bl-full rotate-45"></div> */}
+            {/* POINTS */}
+            <div className="mt-8 space-y-6">
+              {data.points.map((item: string, i: number) => (
+                <div key={i} className="flex items-start gap-4">
+                  {/* ICON */}
+                  <div
+                    className="
+                      mt-1
+                      flex
+                      h-6
+                      w-6
+                      items-center
+                      justify-center
+                      rounded-full
+                      text-[#ff7a2f]
+                    "
+                  >
+                    <CheckCircle2 size={20} />
+                  </div>
 
-            {/* LABEL */}
-            {/* <p className="absolute left-[48%] bottom-[15%] text-xs font-semibold text-black">
-              BANGALORE
-            </p> */}
+                  {/* TEXT */}
+                  <p
+                    className="
+                      text-base
+                      leading-8
+                      text-gray-700
+                    "
+                  >
+                    {item}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* RIGHT IMAGE */}
+          <div>
+            <div
+              className="
+                overflow-hidden
+                rounded-xl
+                border-2
+                border-[#35537A]
+                bg-white
+                shadow-lg
+              "
+            >
+              <img
+                src="/img/bang-life/3.png"
+                alt="Global Student Support"
+                className="
+                  h-full
+                  w-full
+                  object-cover
+                "
+              />
+            </div>
           </div>
         </div>
 
-        {/* 🟢 RIGHT IMAGE */}
-        <div className="relative">
-          {/* GOLD SHAPE */}
-           <div className="grid grid-cols-2 gap-6">
-          {cards.map((item, i) => (
-            <div
-              key={i}
-              className="relative rounded-xl overflow-hidden group shadow-md h-full"
-            >
-              {/* IMAGE */}
-              <img
-                src={item.img}
-                className="w-full  object-cover group-hover:scale-110 transition duration-500 h-full"
-              />
+        {/* CTA SECTION */}
+        <div
+          className="
+            mt-14
+            rounded-2xl
+            bg-[#0F2D52]
+            px-8
+            py-10
+            shadow-xl
+          "
+        >
+          <div
+            className="
+              flex
+              flex-col
+              items-start
+              justify-between
+              gap-6
+              md:flex-row
+              md:items-center
+            "
+          >
+            {/* LEFT */}
+            <div>
+              <h3
+                className="
+                  text-4xl
+                  font-semibold
+                  text-white
+                "
+              >
+                Your Next Move{" "}
+                <span className="italic text-[#0A8F96]">Awaits</span>
+              </h3>
 
-              {/* OVERLAY */}
-              {/* <div className="absolute inset-0 bg-black/10 group-hover:bg-black/10 transition"></div> */}
-              <div className="absolute inset-0 bg-gradient-to-t from-[#1e3a5f]/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-
-              {/* TEXT */}
-              <div className="absolute bottom-0 left-0 right-0 p-4 translate-y-full group-hover:translate-y-0 transition-transform">
-                <h3 className="text-white text-xl">{item.title}</h3>
-              </div>
+              <p
+                className="
+                  mt-3
+                  text-base
+                  text-white/80
+                "
+              >
+                Start your global academic journey with Presidency University
+              </p>
             </div>
-          ))}
-        </div>
-          
 
-          {/* IMAGE */}
-          {/* <div className="relative w-[320px] h-[320px] rounded-[40px] overflow-hidden shadow-xl">
-            <img
-              src="/img/bang-life/innovation-2.png"
-              className="w-full h-full object-cover"
-            />
-          </div> */}
+            {/* BUTTON */}
+            <button
+              className="
+                inline-flex
+                items-center
+                gap-2
+                rounded-lg
+                bg-[#0A8F96]
+                px-7
+                py-3
+                text-sm
+                font-medium
+                text-white
+                transition
+                hover:bg-[#11B8C0]
+              "
+            >
+              APPLY NOW
+              <ArrowRight size={16} />
+            </button>
+          </div>
         </div>
       </div>
-
-      {/* 🔥 LEFT DECOR SHAPE */}
-      {/* <div className="absolute left-0 top-0 w-[200px] h-[200px] bg-[#c9a55c] rounded-br-[100px] opacity-60"></div> */}
     </section>
   );
 }

@@ -35,52 +35,126 @@ export default function ContactHero({ data }: ContactHeroProps) {
       )}
 
       {/* 🔥 HERO */}
-      <section className="relative w-full min-h-[420px] overflow-hidden sm:min-h-[480px] md:h-[520px]">
-        {/* IMAGE */}
+      <section className="relative min-h-[420px] w-full overflow-hidden md:h-[420px]">
+        {/* BACKGROUND IMAGE */}
         <img
           src={data.image || "/img/contact/hero-bg.webp"}
-          className="absolute inset-0 w-full h-full object-cover"
+          alt=""
+          className="absolute inset-0 h-full w-full object-cover"
         />
 
-        {/* OVERLAY */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#0b2a4a]/95 via-[#0b2a4a]/85 to-transparent" />
+        {/* DARK OVERLAY */}
+        <div
+          className="
+      absolute inset-0
+      bg-gradient-to-r
+      from-[#081C33]/90
+      via-[#081C33]/70
+      to-[#081C33]/20
+    "
+        />
 
         {/* CONTENT */}
-        <div className="relative mx-auto flex h-full min-h-[420px] max-w-[1400px] items-center px-4 py-10 sm:min-h-[480px] sm:px-6 md:min-h-0 md:py-0">
-          <div className="max-w-3xl text-white">
+        <div
+          className="
+      relative z-10
+      mx-auto
+      flex
+      h-full
+      min-h-[420px]
+      max-w-[1400px]
+      items-center
+      px-6
+      md:px-12
+    "
+        >
+          <div className="max-w-[720px]">
             {/* TITLE */}
             <motion.h1
-              initial={{ opacity: 0, y: 30 }}
+              initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              className="mb-4 font-serif text-3xl leading-tight sm:text-4xl md:text-5xl lg:text-6xl"
+              transition={{ duration: 0.7 }}
+              className="
+          text-4xl
+          md:text-6xl
+          leading-tight
+          font-semibold
+          text-white
+        "
             >
               {data.title.normal}{" "}
-              <span className="italic text-[#D4A843]">{data.title.italic}</span>
+              <span className="italic text-[#00A8B5] font-light">
+                {data.title.italic}
+              </span>
             </motion.h1>
 
             {/* DESCRIPTION */}
             <motion.p
-              initial={{ opacity: 0, y: 30 }}
+              initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1 }}
-              className="mb-6 text-base text-white/90 md:text-lg lg:text-xl"
+              className="
+          mt-6
+          max-w-[620px]
+          text-sm
+          md:text-base
+          leading-7
+          text-white/80
+        "
             >
               {data.description}
             </motion.p>
 
-            {/* CTA BUTTONS */}
+            {/* BUTTONS */}
             <motion.div
-              initial={{ opacity: 0, y: 30 }}
+              initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
-              className="flex flex-wrap gap-4"
+              className="mt-8 flex flex-wrap gap-4"
             >
-              <button className="bg-[#0A8F96] text-white px-8 py-4 rounded-lg hover:bg-[#0BB5B5] transition-all duration-300 hover:shadow-xl hover:scale-105 flex items-center gap-2 text-lg">
-                <Mail size={18} /> Email Us
+              {/* EMAIL BUTTON */}
+              <button
+                className="
+            inline-flex
+            items-center
+            gap-2
+            rounded-md
+            bg-[#00A8B5]
+            px-6
+            py-3
+            text-sm
+            font-medium
+            text-white
+            transition-all duration-300
+            hover:bg-[#0095A1]
+          "
+              >
+                EMAIL US
+                <Mail size={16} />
               </button>
 
-              <button className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white/10 transition-all duration-300 hover:scale-105 flex items-center gap-2 text-lg backdrop-blur-sm">
-                <Phone size={18} /> Call Now
+              {/* CALL BUTTON */}
+              <button
+                className="
+            inline-flex
+            items-center
+            gap-2
+            rounded-md
+            border
+            border-white
+            bg-transparent
+            px-6
+            py-3
+            text-sm
+            font-medium
+            text-white
+            backdrop-blur-sm
+            transition-all duration-300
+            hover:bg-white/10
+          "
+              >
+                CALL NOW
+                <Phone size={16} />
               </button>
             </motion.div>
           </div>

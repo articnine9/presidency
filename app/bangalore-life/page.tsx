@@ -19,9 +19,9 @@ const BangalorePage = () => {
       {/* <BangaloreLife /> */}
       {/* <BangaloreHighlights /> */}
       {/* <LivingFoodSection /> */}
-      <WorldCuisines data = {data.WorldCuisines}/>
-      <InternationalSupport data = {data.InternationalSupport}/>
-      <CTASection />
+      {/* <WorldCuisines data = {data.WorldCuisines}/> */}
+      <InternationalSupport data={data.InternationalSupport} />
+      {/* <CTASection /> */}
     </>
   );
 };

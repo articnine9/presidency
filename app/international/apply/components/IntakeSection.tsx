@@ -6,89 +6,168 @@ import CommonHeader from "@/app/components/CommonHeader";
 
 export default function IntakeSection({ data }: any) {
   return (
-    <section className="bg-[#f4f6f8] py-12 md:py-20">
-      <div className="mx-auto max-w-[1400px] px-4 sm:px-5 md:px-6">
-        {/* 🔥 HEADER */}
-        <CommonHeader
-          tag="Admissions"
-          title="Application Intakes"
-          highlight="& Deadlines"
-          description={data.description}
-          align="center"
-        />
+    <section className="bg-[#fff] py-24">
+      <div className="mx-auto max-w-[1400px] px-6">
+        {/* HEADER */}
+        <div className="text-center">
+          {/* TAG */}
+          <span
+            className="
+          inline-block
+          rounded-md
+          bg-[#FFF1E8]
+          px-4 py-2
+          text-xs
+          font-medium
+          text-[#F58233]
+        "
+          >
+            Admissions
+          </span>
 
-        {/* 🔥 INTAKE BLOCKS */}
-        <div className="mt-10 space-y-12 md:mt-16 md:space-y-20">
+          {/* TITLE */}
+          <h2
+            className="
+          mt-5
+          text-4xl
+          md:text-5xl
+          font-semibold
+          text-[#183153]
+        "
+          >
+            Application Intakes{" "}
+            <span className="text-[#F58233]">& Deadlines</span>
+          </h2>
+
+          {/* DESCRIPTION */}
+          <p
+            className="
+          mx-auto
+          mt-5
+          max-w-4xl
+          text-sm
+          leading-7
+          text-gray-600
+        "
+          >
+            {data.description}
+          </p>
+        </div>
+
+        {/* INTAKE GRID */}
+        <div className="mt-16 space-y-8">
           {data.intakes.map((intake: any, index: number) => {
             const isReverse = index % 2 !== 0;
 
             return (
               <motion.div
                 key={index}
-                initial={{ opacity: 0, y: 80 }}
+                initial={{ opacity: 0, y: 40 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6 }}
-                className={`grid items-center gap-8 md:grid-cols-2 md:gap-12`}
+                transition={{ duration: 0.5 }}
+                className="grid gap-6 md:grid-cols-2"
               >
-                {/* 🔥 IMAGE CARD */}
+                {/* IMAGE CARD */}
                 <div
-                  className={`relative rounded-2xl overflow-hidden shadow-xl ${isReverse ? "md:order-2" : ""}`}
+                  className={`
+                relative overflow-hidden rounded-2xl
+                shadow-md
+                ${isReverse ? "md:order-2" : ""}
+              `}
                 >
                   <img
                     src={intake.image || "/img/intake.jpg"}
                     alt={intake.name}
-                    className="aspect-[4/3] w-full object-cover sm:h-[280px] sm:aspect-auto md:h-[320px]"
+                    className="
+                  h-[360px]
+                  w-full
+                  object-cover
+                "
                   />
 
                   {/* OVERLAY */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
 
-                  {/* TEXT OVER IMAGE */}
-                  <div className="absolute bottom-4 left-4 text-white sm:bottom-6 sm:left-6">
-                    <p className="text-[10px] uppercase opacity-80 sm:text-xs">
+                  {/* TEXT */}
+                  <div className="absolute bottom-6 left-6 text-white">
+                    <p className="text-xs uppercase tracking-wide text-white/80">
                       {intake.type}
                     </p>
-                    <h3 className="text-lg font-semibold leading-tight sm:text-2xl">
+
+                    <h3 className="mt-2 text-2xl font-semibold">
                       {intake.name}
                     </h3>
                   </div>
                 </div>
 
-                {/* 🔥 CONTENT CARD */}
-                <div className={`${isReverse ? "md:order-1" : ""}`}>
-                  <div className="relative rounded-2xl border bg-white p-5 shadow-lg sm:p-8">
-                    {/* ACCENT LINE */}
-                    <div className="absolute left-0 top-0 h-full w-1 bg-[#0A8F96] rounded-l-2xl" />
+                {/* CONTENT CARD */}
+                <div
+                  className={`
+                relative rounded-2xl
+                border border-gray-200
+                bg-white
+                px-8 py-8
+                shadow-sm
+                ${isReverse ? "md:order-1" : ""}
+              `}
+                >
+                  {/* LEFT ACCENT */}
+                  <div
+                    className="
+                  absolute left-0 top-0
+                  h-full w-[5px]
+                  rounded-l-2xl
+                  bg-[#00A8B5]
+                "
+                  />
 
-                    {/* DESCRIPTION */}
-                    <p className="text-gray-600 mb-6 leading-relaxed">
-                      {intake.details}
-                    </p>
+                  {/* DESCRIPTION */}
+                  <p
+                    className="
+                  text-sm
+                  leading-8
+                  text-gray-600
+                "
+                  >
+                    {intake.details}
+                  </p>
 
-                    {/* 🔥 TIMELINE */}
-                    <div className="space-y-5">
-                      {intake.timeline.map((item: any, i: number) => (
-                        <div key={i} className="flex items-start gap-4">
-                          {/* ICON */}
-                          <div
-                            className="w-10 h-10 flex items-center justify-center rounded-lg 
-                            bg-[#0A8F96]/10 text-[#0A8F96] shrink-0"
-                          >
-                            <Calendar size={18} />
-                          </div>
-
-                          {/* TEXT */}
-                          <div>
-                            <p className="text-xs text-gray-500">
-                              {item.label}
-                            </p>
-                            <p className="text-sm font-semibold text-gray-800">
-                              {item.value}
-                            </p>
-                          </div>
+                  {/* TIMELINE */}
+                  <div className="mt-10 space-y-7">
+                    {intake.timeline.map((item: any, i: number) => (
+                      <div key={i} className="flex items-start gap-4">
+                        {/* ICON */}
+                        <div
+                          className={`
+                        flex h-12 w-12 shrink-0 items-center justify-center
+                        rounded-xl
+                        ${
+                          i === 1
+                            ? "bg-[#FDECEC] text-[#D9534F]"
+                            : "bg-[#E7F7F8] text-[#00A8B5]"
+                        }
+                      `}
+                        >
+                          <Calendar size={18} />
                         </div>
-                      ))}
-                    </div>
+
+                        {/* TEXT */}
+                        <div>
+                          <p className="text-sm text-gray-500">{item.label}</p>
+
+                          <p
+                            className="
+                          mt-1
+                          text-base
+                          font-semibold
+                          text-[#183153]
+                        "
+                          >
+                            {item.value}
+                          </p>
+                        </div>
+                      </div>
+                    ))}
                   </div>
                 </div>
               </motion.div>
@@ -96,16 +175,48 @@ export default function IntakeSection({ data }: any) {
           })}
         </div>
 
-        {/* 🔥 NOTE */}
+        {/* NOTE */}
         <motion.div
-          initial={{ opacity: 0, y: 40 }}
+          initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
-          className="mt-12 rounded-xl border bg-white p-4 text-center shadow-sm sm:mt-20 sm:p-6"
+          transition={{ duration: 0.5 }}
+          className="
+        mt-8
+        rounded-2xl
+        border border-[#F4C7A1]
+        bg-[#FFF8F2]
+        px-6 py-5
+      "
         >
-          <p className="text-gray-700 text-sm md:text-base">{data.note}</p>
-        </motion.div>
+          <div className="flex items-start gap-3">
+            {/* ICON */}
+            <div className="mt-1 text-[#F58233]">ⓘ</div>
 
-        {/* 🔥 CTA */}
+            {/* TEXT */}
+            <div>
+              <h4
+                className="
+              text-base
+              font-semibold
+              text-[#F58233]
+            "
+              >
+                Apply Early, Stay Ahead
+              </h4>
+
+              <p
+                className="
+              mt-2
+              text-sm
+              leading-7
+              text-gray-600
+            "
+              >
+                {data.note}
+              </p>
+            </div>
+          </div>
+        </motion.div>
       </div>
     </section>
   );

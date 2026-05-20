@@ -11,7 +11,12 @@ import {
   Shield,
   Wallet,
   Banknote,
+  AlertCircle,
+  Mail,
+  Phone,
+  ExternalLink,
 } from "lucide-react";
+
 import CommonHeader from "@/app/components/CommonHeader";
 
 const iconMap: any = {
@@ -28,70 +33,249 @@ const iconMap: any = {
 };
 
 export default function VisaSection({ data }: any) {
+  const groupedRequirements = [
+    {
+      title: "Basic Requirements",
+      items: data.requirements.slice(0, 4),
+    },
+    {
+      title: "Financial & Accommodation",
+      items: data.requirements.slice(4, 7),
+    },
+    {
+      title: "Health & Insurance",
+      items: data.requirements.slice(7, 9),
+    },
+    {
+      title: "Additional Info",
+      items: data.requirements.slice(9),
+    },
+  ];
+
   return (
-    <section className="bg-[#fffbf5] py-12 md:py-20">
-      <div className="mx-auto max-w-[1400px] px-4 sm:px-5 md:px-6">
-        {/* 🔥 HEADER */}
+    <section className="bg-[#fff] py-24">
+      <div className="mx-auto max-w-[1400px] px-6">
+        {/* HEADER */}
         <CommonHeader
           tag="Visa Information"
           title="Student Visa"
           highlight="Requirements"
           description={data.description}
           align="center"
+          primaryColor="#00A8B5"
         />
 
-        {/* 🔥 REQUIREMENTS GRID */}
-        <div className="mt-10 grid grid-cols-1 gap-4 sm:gap-6 md:mt-12 md:grid-cols-2 lg:grid-cols-3">
-          {data.requirements.map((item: any, index: number) => {
-            const Icon = iconMap[item.icon];
-
-            return (
-              <div
-                key={index}
-                className="rounded-xl border border-b-4 border-b-[#0A8F96] bg-[#f9fafb] p-4 transition hover:shadow-md sm:p-5"
+        {/* REQUIREMENT GROUPS */}
+        <div className="mt-16 space-y-8">
+          {groupedRequirements.map((section, sectionIndex) => (
+            <div key={sectionIndex}>
+              {/* SECTION TITLE */}
+              <h3
+                className="
+                  mb-5
+                  text-2xl
+                  font-semibold
+                  text-[#183153]
+                "
               >
-                <div className="flex items-start gap-3 sm:gap-4">
-                  <div
-                    className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg 
-                    bg-[#0A8F96]/10 text-[#0A8F96]"
-                  >
-                    {Icon && <Icon size={18} />}
-                  </div>
+                {section.title}
+              </h3>
 
-                  <div className="min-w-0 flex-1">
-                    <h4 className="text-base font-semibold leading-snug text-gray-800 sm:text-lg md:text-xl">
-                      {item.title}
-                    </h4>
-                    <p className="mt-1 text-sm leading-relaxed text-gray-600 sm:text-base">
-                      {item.desc}
-                    </p>
-                  </div>
+              {/* BOX */}
+              <div
+                className="
+                  rounded-2xl
+                  border
+                  border-[#87D6DC]
+                  bg-white
+                  px-8
+                  py-8
+                "
+              >
+                <div className="space-y-7">
+                  {section.items.map((item: any, index: number) => {
+                    const Icon = iconMap[item.icon];
+
+                    return (
+                      <div key={index} className="flex items-start gap-5">
+                        {/* ICON */}
+                        <div
+                          className="
+                            flex
+                            h-10
+                            w-10
+                            shrink-0
+                            items-center
+                            justify-center
+                            rounded-lg
+                            bg-[#E7F7F8]
+                            text-[#00A8B5]
+                          "
+                        >
+                          {Icon && <Icon size={18} />}
+                        </div>
+
+                        {/* TEXT */}
+                        <div>
+                          <h4
+                            className="
+                              text-base
+                              font-semibold
+                              text-[#183153]
+                            "
+                          >
+                            {item.title}
+                          </h4>
+
+                          <p
+                            className="
+                              mt-2
+                              text-sm
+                              leading-7
+                              text-gray-600
+                            "
+                          >
+                            {item.desc}
+                          </p>
+                        </div>
+                      </div>
+                    );
+                  })}
                 </div>
               </div>
-            );
-          })}
+            </div>
+          ))}
         </div>
 
-        {/* 🔥 AFTER ARRIVAL */}
-        <div className="mt-10 rounded-xl bg-gradient-to-r from-[#0A8F96] to-[#0BB5B5] p-5 text-center text-white sm:mt-14 sm:p-8">
-          <h3 className="mb-2 text-base sm:text-lg">{data.afterArrival.title}</h3>
-          <p className="text-sm text-white opacity-90 sm:text-base">
-            {data.afterArrival.description}
-          </p>
+        {/* AFTER ARRIVAL */}
+        <div
+          className="
+            mt-10
+            rounded-2xl
+            bg-[#0F2D52]
+            px-8
+            py-6
+            text-white
+          "
+        >
+          <div className="flex items-start gap-4">
+            {/* ICON */}
+            <div className="mt-1 text-[#F58233]">
+              <AlertCircle size={18} />
+            </div>
+
+            {/* TEXT */}
+            <div>
+              <h3 className="text-lg font-semibold">
+                {data.afterArrival.title}
+              </h3>
+
+              <p
+                className="
+                  mt-3
+                  text-sm
+                  leading-7
+                  text-white/80
+                "
+              >
+                {data.afterArrival.description}
+              </p>
+            </div>
+          </div>
         </div>
 
-        {/* 🔥 IMPORTANT NOTES */}
-        <div className="mt-10 space-y-4">
+        {/* IMPORTANT NOTES */}
+        <div className="mt-6 space-y-4">
           {data.importantNotes.map((note: string, i: number) => (
             <div
               key={i}
-              className="rounded-md border-l-4 border-orange-400 bg-[#fff7ed] p-3 sm:p-4"
+              className="
+                rounded-xl
+                border
+                border-[#F4C7A1]
+                bg-[#FFF8F2]
+                px-5
+                py-4
+              "
             >
-              <p className="text-sm leading-relaxed text-gray-700 sm:text-base">
+              <p
+                className="
+                  text-sm
+                  leading-7
+                  text-gray-700
+                "
+              >
                 {note}
               </p>
             </div>
           ))}
+        </div>
+
+        {/* CONTACT CTA */}
+        <div
+          className="
+            mt-10
+            rounded-2xl
+            bg-[#0F2D52]
+            px-8
+            py-8
+            md:flex
+            md:items-center
+            md:justify-between
+          "
+        >
+          {/* LEFT */}
+          <div>
+            <h3
+              className="
+                text-3xl
+                font-semibold
+                text-white
+              "
+            >
+              Ready to Start Your{" "}
+              <span className="text-[#35C0C8] italic">Journey?</span>
+            </h3>
+
+            <div className="mt-5 space-y-3 text-sm text-white/80">
+              <div className="flex items-center gap-3">
+                <Mail size={16} />
+                admissions@presidency.international
+              </div>
+
+              <div className="flex items-center gap-3">
+                <Phone size={16} />
+                +91 9022092222
+              </div>
+
+              <div className="flex items-center gap-3">
+                <ExternalLink size={16} />
+                apply.presidencyuniversity.in
+              </div>
+            </div>
+          </div>
+
+          {/* BUTTON */}
+          <button
+            className="
+              mt-6
+              inline-flex
+              items-center
+              gap-2
+              rounded-md
+              border border-white
+              px-6
+              py-3
+              text-sm
+              font-medium
+              text-white
+              transition
+              hover:bg-white/10
+              md:mt-0
+            "
+          >
+            CONTACT NOW →
+          </button>
         </div>
       </div>
     </section>

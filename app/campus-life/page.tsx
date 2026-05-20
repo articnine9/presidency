@@ -4,7 +4,8 @@ import ClubSection from "./components/ClubsSection";
 import FeaturesSection from "./components/FeaturesSection";
 import DiningSection from "./components/DiningSection";
 import SupportSection from "./components/SupportSection";
-import { BangaloreLifeSection } from "../components/BangaloreLifeSection";
+import StudentHousingSection from "../components/BangaloreLifeSection";
+import ClubsActivitiesSection from "../components/ClubsActivitiesSection";
 import StudentServices from "./components/StudentServices";
 import WellbeingSection from "./components/WellbeingSection";
 import CourseCTA from "./components/CourseCTA";
@@ -19,13 +20,16 @@ const CampusLife = () => {
       <HeroSection data={data.hero} />
 
       <FacilitiesSection data={data.facilitiesSection} />
-      <BangaloreLifeSection />
-      <FeaturesSection />
-      <ClubSection />
+      <StudentHousingSection />
+
+      <ClubsActivitiesSection data={data.clubsSection} />
       <StudentServices />
-      <DiningSection />
+      <FeaturesSection />
+      {/* <ClubSection /> */}
+
+      {/* <DiningSection /> */}
       <WellbeingSection />
-      <CourseCTA />
+      {/* <CourseCTA /> */}
     </>
   );
 };

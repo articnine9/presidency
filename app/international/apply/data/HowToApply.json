@@ -71,68 +71,93 @@
   "documentsSection": {
     "title": "Documents Required for International Applicants",
     "description": "Please prepare the following documents before beginning your application. All documents must be submitted in English or with a certified English translation.",
-    "documents": [
+
+    "sections": [
       {
-        "title": "Completed Application Form",
-        "description": "Submit the fully completed online application form through the admissions portal.",
-        "icon": "fileText"
+        "title": "Basic Requirements",
+        "items": [
+          {
+            "title": "Valid Passport",
+            "description": "A copy of your passport (all pages), valid for at least 18 months beyond your intended start date.",
+            "icon": "passport"
+          },
+          {
+            "title": "Completed Application Form",
+            "description": "Submit the fully completed online application form through the admissions portal.",
+            "icon": "fileText"
+          },
+          {
+            "title": "Passport-sized Photographs",
+            "description": "Recent digital colour photographs with a white background.",
+            "icon": "camera"
+          }
+        ]
       },
+
       {
-        "title": "Academic Certificates & Transcripts",
-        "description": "Copies of 10th grade, 12th grade (high school leaving certificate), and degree transcripts for postgraduate applicants.",
-        "icon": "graduationCap"
+        "title": "Academic Documents",
+        "items": [
+          {
+            "title": "Academic Certificates & Transcripts",
+            "description": "Copies of 10th grade, 12th grade (high school leaving certificate), and degree transcripts for postgraduate applicants.",
+            "icon": "graduationCap"
+          },
+          {
+            "title": "Migration / Transfer Certificate",
+            "description": "Certificate from your previous institution confirming your academic transfer.",
+            "icon": "fileCheck"
+          }
+        ]
       },
+
       {
-        "title": "Valid Passport",
-        "description": "A copy of your passport (all pages), valid for at least 18 months beyond your intended start date.",
-        "icon": "passport"
+        "title": "Supporting Documents",
+        "items": [
+          {
+            "title": "Statement of Purpose (SOP)",
+            "description": "A 500–800 word essay outlining your academic background, reasons for choosing the programme, and career goals.",
+            "icon": "edit"
+          },
+          {
+            "title": "Reference Letters",
+            "description": "Two academic reference letters on official institutional letterhead.",
+            "icon": "users"
+          },
+          {
+            "title": "Curriculum Vitae / Resume",
+            "description": "Required for postgraduate and doctoral applicants, detailing your academic and professional background.",
+            "icon": "briefcase"
+          },
+          {
+            "title": "Work Experience / Certifications",
+            "description": "Copies of any relevant professional certifications or work experience documents.",
+            "icon": "badgeCheck"
+          }
+        ]
       },
+
       {
-        "title": "English Language Proficiency",
-        "description": "IELTS (6.0 or above), TOEFL (80 or above), or equivalent proof of English proficiency.",
-        "icon": "language"
-      },
-      {
-        "title": "Statement of Purpose (SOP)",
-        "description": "A 500–800 word essay outlining your academic background, reasons for choosing the programme, and career goals.",
-        "icon": "edit"
-      },
-      {
-        "title": "Reference Letters",
-        "description": "Two academic reference letters on official institutional letterhead.",
-        "icon": "users"
-      },
-      {
-        "title": "Curriculum Vitae / Resume",
-        "description": "Required for postgraduate and doctoral applicants, detailing your academic and professional background.",
-        "icon": "briefcase"
-      },
-      {
-        "title": "Research Proposal (Doctoral Applicants)",
-        "description": "A detailed research proposal of approximately 1,500–2,000 words outlining your intended research area.",
-        "icon": "fileSearch"
-      },
-      {
-        "title": "Portfolio (Design Programmes)",
-        "description": "A portfolio showcasing your previous work, required for applicants to design-related programmes.",
-        "icon": "image"
-      },
-      {
-        "title": "Work Experience / Certifications",
-        "description": "Copies of any relevant professional certifications or work experience documents.",
-        "icon": "badgeCheck"
-      },
-      {
-        "title": "Passport-sized Photographs",
-        "description": "Recent digital colour photographs with a white background.",
-        "icon": "camera"
-      },
-      {
-        "title": "Migration / Transfer Certificate",
-        "description": "Certificate from your previous institution confirming your academic transfer.",
-        "icon": "fileCheck"
+        "title": "Special Requirements",
+        "items": [
+          {
+            "title": "English Language Proficiency",
+            "description": "IELTS (6.0 or above), TOEFL (80 or above), or equivalent proof of English proficiency.",
+            "icon": "language"
+          },
+          {
+            "title": "Research Proposal (Doctoral Applicants)",
+            "description": "A detailed research proposal of approximately 1,500–2,000 words outlining your intended research area.",
+            "icon": "fileSearch"
+          },
+          {
+            "title": "Portfolio (Design Programmes)",
+            "description": "A portfolio showcasing your previous work, required for applicants to design-related programmes.",
+            "icon": "image"
+          }
+        ]
       }
     ],
+
     "importantNote": {
       "title": "Important Note",
       "description": "Original documents will be required for verification upon arrival. Do not send original documents by post prior to admission."

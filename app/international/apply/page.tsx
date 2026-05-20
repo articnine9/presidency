@@ -21,11 +21,12 @@ const HowToApply = async ({
   return (
     <>
       <HowToApplyHero data={data.hero} selectedProgram={selectedProgram} />
+      <IntakeSection data={data.intakeSection} />
       <ApplicationSteps data={data.stepsSection} />
       <DocumentsSection data={data.documentsSection} />
-      <IntakeSection data={data.intakeSection} />
+
       <VisaSection data={data.visaSection} />
-      <CourseCTA />
+      {/* <CourseCTA /> */}
     </>
   );
 };

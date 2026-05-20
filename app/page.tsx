@@ -36,14 +36,14 @@ import { PlacementPartnersSection } from "./components/PlacementPartnersSection"
 import { CampusVirtualTourSection } from "./components/CampusVirtualTourSection";
 import { BangaloreCTASection } from "./components/BangaloreCTASection";
 import { FooterSection } from "./components/Footer";
-import { BangaloreLifeSection } from "./components/BangaloreLifeSection";
-import StudyInBangalore from "./components/study-in-bangalore"
+import BangaloreLifeSection from "./components/BangaloreLifeSection";
+import StudyInBangalore from "./components/study-in-bangalore";
 import { AboutPresidency } from "./components/AboutPresidency";
 import JourneySection from "./components/YourJourney";
 import { CampusLikeHome } from "./components/CampusLikeHome";
 import { WhyChooseUs } from "./components/WhyChooseUs";
 import VideoSectionFull from "./components/VideoSectionFull";
-import AdmissionProcessPage from "./components/applyWay"
+import AdmissionProcessPage from "./components/applyWay";
 
 export default function App() {
   return (
@@ -55,7 +55,7 @@ export default function App() {
       <HeroSection />
       {/* <ProgramSearch /> */}
       {/* <about> */}
-      <StudyInBangalore/>
+      <StudyInBangalore />
       <AboutPresidency />
       {/* <YourJourney /> */}
       {/* <AboutPresidency /> */}
@@ -69,7 +69,7 @@ export default function App() {
       <ProgrammesSection />
 
       <SchoolsSliderSection />
-<PlacementPartnersSection />
+      <PlacementPartnersSection />
       {/* <WhyChooseUs /> */}
       {/* <BangaloreCTASection /> */}
       <CampusLikeHome />
@@ -84,12 +84,10 @@ export default function App() {
 
       {/* <EventsActivitiesSection /> */}
       <InternationalStudentsSection />
-  <RankingAccreditationSection />
-  <WhyChooseUs />
-  <AdmissionProcessPage/>
+      <RankingAccreditationSection />
+      <WhyChooseUs />
+      <AdmissionProcessPage />
       {/* <AdmissionProcessSection /> */}
-
-      
 
       {/* <ScholarshipsSection /> */}
       {/* <JourneySection /> */}

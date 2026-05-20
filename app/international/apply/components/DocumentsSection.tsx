@@ -13,7 +13,9 @@ import {
   BadgeCheck,
   Camera,
   FileCheck,
+  AlertCircle,
 } from "lucide-react";
+
 import CommonHeader from "@/app/components/CommonHeader";
 
 const iconMap: any = {
@@ -33,86 +35,167 @@ const iconMap: any = {
 
 export default function DocumentsSection({ data }: any) {
   return (
-    <section className="bg-white py-12 md:py-20">
-      <div className="mx-auto max-w-[1400px] px-4 sm:px-6">
-        {/* 🔥 HEADER */}
+    <section className="bg-[#F7F7F5] py-24">
+      <div className="mx-auto max-w-[1400px] px-6">
+        {/* HEADER */}
         <CommonHeader
           tag="Admissions"
           title="Required"
           highlight="Documents"
           description={data.description}
           align="center"
+          primaryColor="#F58233"
         />
 
-        {/* 🔥 GRID */}
-        <motion.div
-          className="mt-10 grid gap-4 sm:gap-6 md:mt-12 md:grid-cols-2 lg:grid-cols-3"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={{
-            hidden: {},
-            visible: {
-              transition: {
-                staggerChildren: 0.1,
-              },
-            },
-          }}
-        >
-          {data.documents.map((doc: any, index: number) => {
-            const Icon = iconMap[doc.icon] || FileText;
-
-            return (
-              <motion.div
-                key={index}
-                variants={{
-                  hidden: { opacity: 0, y: 40 },
-                  visible: { opacity: 1, y: 0 },
-                }}
-                transition={{ duration: 0.5, ease: "easeOut" }}
-                whileHover={{ y: -6 }}
-                className="group bg-[#f9fafb] rounded-xl p-6 border 
-                hover:shadow-xl transition-all duration-300 
-                border-b-4 border-b-[#0A8F96]"
+        {/* DOCUMENT GROUPS */}
+        <div className="mt-16 space-y-10">
+          {data.sections.map((section: any, sectionIndex: number) => (
+            <motion.div
+              key={sectionIndex}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              viewport={{ once: true }}
+            >
+              {/* SECTION TITLE */}
+              <h3
+                className="
+                  mb-5
+                  text-3xl
+                  font-semibold
+                  text-[#183153]
+                "
               >
-                {/* 🔥 ICON */}
-                <motion.div
-                  whileHover={{ scale: 1.15, rotate: 3 }}
-                  className="w-14 h-14 flex items-center justify-center rounded-xl 
-                  bg-gradient-to-br from-[#0A8F96]/10 to-[#0BB5B5]/20 
-                  text-[#0A8F96] mb-5"
-                >
-                  <Icon size={24} />
-                </motion.div>
+                {section.title}
+              </h3>
 
-                {/* 🔥 TITLE */}
-                <h3 className="text-lg  text-gray-900 mb-2">{doc.title}</h3>
+              {/* SECTION CARD */}
+              <div
+                className="
+                  rounded-2xl
+                  border
+                  border-[#F4B183]
+                  bg-white
+                  px-8
+                  py-8
+                "
+              >
+                <div className="space-y-8">
+                  {section.items.map((doc: any, index: number) => {
+                    const Icon = iconMap[doc.icon] || FileText;
 
-                {/* 🔥 DESCRIPTION */}
-                <p className="text-base text-gray-600 leading-relaxed">
-                  {doc.description}
-                </p>
-              </motion.div>
-            );
-          })}
-        </motion.div>
+                    return (
+                      <div key={index} className="flex items-start gap-5">
+                        {/* ICON */}
+                        <div
+                          className="
+                            flex
+                            h-11
+                            w-11
+                            shrink-0
+                            items-center
+                            justify-center
+                            rounded-lg
+                            bg-[#FFF3EA]
+                            text-[#F58233]
+                          "
+                        >
+                          <Icon size={18} />
+                        </div>
 
-        {/* 🔥 IMPORTANT NOTE */}
+                        {/* CONTENT */}
+                        <div>
+                          {/* TITLE */}
+                          <h4
+                            className="
+                              text-lg
+                              font-semibold
+                              text-[#183153]
+                            "
+                          >
+                            {doc.title}
+                          </h4>
+
+                          {/* DESCRIPTION */}
+                          <p
+                            className="
+                              mt-2
+                              text-sm
+                              leading-7
+                              text-gray-600
+                            "
+                          >
+                            {doc.description}
+                          </p>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+
+        {/* IMPORTANT NOTE */}
         {data.importantNote && (
           <motion.div
-            initial={{ opacity: 0, y: 40 }}
+            initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.5 }}
             viewport={{ once: true }}
-            className="mt-10 rounded-xl bg-gradient-to-r from-[#0b2a4a] to-[#0A8F96] p-5 text-white shadow-lg sm:mt-14 sm:p-8"
+            className="
+              mt-10
+              rounded-2xl
+              border
+              border-[#F4C7A1]
+              bg-[#FFF8F2]
+              px-6
+              py-5
+            "
           >
-            <h4 className="text-lg font-semibold mb-2">
-              {data.importantNote.title}
-            </h4>
+            <div className="flex items-start gap-4">
+              {/* ICON */}
+              <div
+                className="
+                  mt-1
+                  flex
+                  h-8
+                  w-8
+                  items-center
+                  justify-center
+                  rounded-full
+                  bg-[#FFF1E8]
+                  text-[#F58233]
+                "
+              >
+                <AlertCircle size={16} />
+              </div>
 
-            <p className="text-sm md:text-base opacity-90 leading-relaxed text-white">
-              {data.importantNote.description}
-            </p>
+              {/* CONTENT */}
+              <div>
+                <h4
+                  className="
+                    text-base
+                    font-semibold
+                    text-[#F58233]
+                  "
+                >
+                  {data.importantNote.title}
+                </h4>
+
+                <p
+                  className="
+                    mt-2
+                    text-sm
+                    leading-7
+                    text-gray-600
+                  "
+                >
+                  {data.importantNote.description}
+                </p>
+              </div>
+            </div>
           </motion.div>
         )}
       </div>

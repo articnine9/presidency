@@ -1,16 +1,9 @@
 import CommonHeader from "@/app/components/CommonHeader";
-import {
-  Wifi,
-  Cpu,
-  BookOpen,
-  Trophy,
-  HeartPulse,
-  Building2,
-} from "lucide-react";
 
 type FacilityItem = {
   title: string;
   desc: string;
+  image?: string;
 };
 
 type FacilitiesData = {
@@ -27,57 +20,71 @@ type FacilitiesSectionProps = {
   data: FacilitiesData;
 };
 
-// 🔹 Simple icon mapper
-const getIcon = (title: string) => {
-  if (title.includes("Wi-Fi")) return <Wifi className="w-6 h-6" />;
-  if (title.includes("Labs")) return <Cpu className="w-6 h-6" />;
-  if (title.includes("Library")) return <BookOpen className="w-6 h-6" />;
-  if (title.includes("Sports")) return <Trophy className="w-6 h-6" />;
-  if (title.includes("Wellness")) return <HeartPulse className="w-6 h-6" />;
-  return <Building2 className="w-6 h-6" />;
-};
-
 const FacilitiesSection = ({ data }: FacilitiesSectionProps) => {
   return (
-    <section className="py-20 bg-gray-50">
-      <div className="max-w-[1400px] mx-auto px-6">
+    <section className="bg-[#F7F8F6] py-24">
+      <div className="mx-auto max-w-[1400px] px-6">
+        {/* HEADER */}
         <CommonHeader
           tag={data.header.tag}
           title={data.header.title}
           highlight={data.header.highlight}
           description={data.header.description}
+          primaryColor="#0A8F96"
         />
 
+        {/* GRID */}
         <div className="grid md:grid-cols-3 gap-6 mt-12">
           {data.items.map((item, i) => (
             <div
               key={i}
-              className="
-                relative
-                bg-white
-                p-6
-                rounded-2xl
-                shadow-sm
-                hover:shadow-xl
-                transition-all duration-300
-                border-b-4 border-b-[#0A8F96]
-                group
-              "
+              className={`
+        ${
+          i === data.items.length - 1 ? "md:col-span-3 flex justify-center" : ""
+        }
+      `}
             >
-              {/* 🔹 ICON */}
-              <div className="w-12 h-12 flex items-center justify-center rounded-xl bg-[#0A8F96]/10 text-[#0A8F96] mb-4">
-                {getIcon(item.title)}
+              <div
+                className="
+          relative
+          bg-white
+          rounded-2xl
+          overflow-hidden
+          shadow-sm
+          hover:shadow-xl
+          transition-all duration-300
+          border-b-[3px]
+          border-b-[#0A8F96]
+          group
+          h-full
+          w-full
+          max-w-[430px]
+        "
+              >
+                {/* IMAGE */}
+                <div className="relative overflow-hidden">
+                  <img
+                    src={item.image}
+                    alt={item.title}
+                    className="
+              w-full
+              h-[180px]
+              object-cover
+              group-hover:scale-105
+              transition duration-500
+            "
+                  />
+                </div>
+
+                {/* CONTENT */}
+                <div className="p-5">
+                  <h4 className="text-[#0F1E3D] text-xl mb-2">{item.title}</h4>
+
+                  <p className="text-gray-500 text-base leading-relaxed">
+                    {item.desc}
+                  </p>
+                </div>
               </div>
-
-              {/* 🔹 TITLE */}
-              <h4 className=" text-[#0F1E3D] text-lg">{item.title}</h4>
-
-              {/* 🔹 DESC */}
-              <p className="text-gray-500 text-base mt-2 leading-relaxed">
-                {item.desc}
-              </p>
-
-              {/* 🔹 BOTTOM ACCENT LINE */}
             </div>
           ))}
         </div>

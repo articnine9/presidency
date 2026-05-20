@@ -1,112 +1,185 @@
-import CommonHeader from "@/app/components/CommonHeader";
-import {
-  BedDouble,
-  Utensils,
-  ShieldCheck,
-  HeartPulse,
-  Bus,
-  Home,
-} from "lucide-react";
+"use client";
 
-const StudentHousingSection = () => {
+import CommonHeader from "@/app/components/CommonHeader";
+import { Globe, Leaf, Utensils, Coffee, Soup, Info } from "lucide-react";
+
+const diningFeatures = [
+  {
+    icon: Globe,
+    title: "Global & Indian cuisine balance",
+  },
+  {
+    icon: Leaf,
+    title: "Vegetarian & vegan-friendly",
+  },
+  {
+    icon: Utensils,
+    title: "Mild & adaptable flavours",
+  },
+  {
+    icon: Soup,
+    title: "Comfort food options available",
+  },
+  {
+    icon: Coffee,
+    title: "Cafés & Snacks",
+  },
+];
+
+const DiningSection = () => {
   return (
-    <section className="py-20 bg-gray-100">
-      <div className="max-w-[1400px] mx-auto px-6">
-        {/* 🔹 HEADER */}
+    <section className="bg-[#fff] py-20">
+      <div className="mx-auto max-w-[1400px] px-6">
+        {/* 🔥 HEADER */}
         <CommonHeader
-          tag="Campus Life"
-          title="Student"
-          highlight="Housing"
+          tag="Dining on Campus"
+          title="Dining on Campus at"
+          highlight="Presidency University"
+          description="The cafeteria and food courts serve North Indian, South Indian, and continental cuisine, along with vegetarian and vegan-friendly meals."
+          align="center"
           primaryColor="#0A8F96"
-          description="Safe, modern, and comfortable on-campus accommodation for students."
-          descriptionColor="#475569"
         />
 
-        {/* 🔹 GRID */}
-        <div className="grid lg:grid-cols-2 gap-14 mt-12 items-center">
-          {/* 🔸 LEFT CONTENT */}
-          <div className="space-y-5 text-gray-600 text-lg leading-relaxed">
-            <p className="text-base">
-              Presidency University provides safe, modern on-campus residential
-              facilities for both male and female students. Designed with the
-              international student experience in mind, the hostels offer a
-              secure and comfortable living environment within the university
-              grounds.
-            </p>
-
-            <p className="text-base">
-              The university operates multiple hostel blocks with separate
-              facilities for male and female students. Rooms are available in
-              twin and triple-sharing formats, fully furnished with beds, study
-              tables, cupboards, and free Wi-Fi.
-            </p>
-
-            <p className="text-base">
-              Students benefit from dining services offering four meals a day,
-              along with amenities such as laundry rooms, common areas, indoor
-              and outdoor games, and purified drinking water.
-            </p>
-
-            <p className="text-base">
-              For safety and wellbeing, the hostels provide 24/7 security with
-              CCTV, resident wardens, medical support, and emergency services.
-            </p>
-
-            {/* 🔹 CTA */}
-            <button className="mt-4 px-7 py-3 bg-[#0A8F96] text-white rounded-lg hover:bg-[#0BB5B5] transition">
-              Apply for Accommodation
-            </button>
+        {/* 🔥 MAIN GRID */}
+        <div className="mt-14 grid items-stretch gap-6 lg:grid-cols-2">
+          {/* 🔹 LEFT IMAGE */}
+          <div className="overflow-hidden rounded-2xl shadow-sm">
+            <img
+              src="/img/dining-campus.jpg"
+              alt="Campus Dining"
+              className="h-full min-h-[420px] w-full object-cover"
+            />
           </div>
 
-          {/* 🔸 RIGHT CARDS */}
-          <div className="grid sm:grid-cols-2 gap-6">
-            <div className="bg-white p-6 rounded-2xl shadow-sm hover:shadow-xl transition border-b-4 border-b-[#0A8F96]">
-              <BedDouble className="text-[#0A8F96] mb-3" />
-              <h4 className="font-semibold text-[#0F1E3D]">Furnished Rooms</h4>
-              <p className="text-base text-gray-500 mt-2">
-                Twin & triple-sharing rooms with Wi-Fi and storage.
-              </p>
-            </div>
+          {/* 🔹 RIGHT CONTENT */}
+          <div
+            className="
+              relative
+              overflow-hidden
+              rounded-2xl
+              border
+              border-[#0A8F96]/15
+              bg-white
+              p-8
+              shadow-sm
+            "
+          >
+            {/* 🔥 LEFT ACCENT BORDER */}
+            <div
+              className="
+                absolute
+                left-0
+                top-0
+                h-full
+                w-[6px]
+                bg-[#0A8F96]
+                rounded-l-2xl
+              "
+            />
 
-            <div className="bg-white p-6 rounded-2xl shadow-sm hover:shadow-xl transition border-b-4 border-b-[#0A8F96]">
-              <Utensils className="text-[#0A8F96] mb-3" />
-              <h4 className="font-semibold text-[#0F1E3D]">Dining</h4>
-              <p className="text-base text-gray-500 mt-2">
-                Four meals daily with veg & non-veg options.
-              </p>
-            </div>
+            <div className="pl-2">
+              <h3 className="text-4xl text-[#1E3557]">
+                Designed for Global Students
+              </h3>
 
-            <div className="bg-white p-6 rounded-2xl shadow-sm hover:shadow-xl transition border-b-4 border-b-[#0A8F96]">
-              <ShieldCheck className="text-[#0A8F96] mb-3" />
-              <h4 className="font-semibold text-[#0F1E3D]">24/7 Security</h4>
-              <p className="text-base text-gray-500 mt-2">
-                CCTV monitoring, wardens, and safety support.
+              <p className="mt-4 text-base leading-relaxed text-gray-600">
+                For international students unfamiliar with Indian cuisine, the
+                campus food experience is approachable and balanced — blending
+                global flavours with authentic local options.
               </p>
-            </div>
 
-            <div className="bg-white p-6 rounded-2xl shadow-sm hover:shadow-xl transition border-b-4 border-b-[#0A8F96]">
-              <HeartPulse className="text-[#0A8F96] mb-3" />
-              <h4 className="font-semibold text-[#0F1E3D]">Health Support</h4>
-              <p className="text-base text-gray-500 mt-2">
-                Medical room, nurse, and emergency ambulance.
-              </p>
-            </div>
+              {/* FEATURES */}
+              <div className="mt-8 space-y-4">
+                {diningFeatures.map((item, index) => {
+                  const Icon = item.icon;
 
-            <div className="bg-white p-6 rounded-2xl shadow-sm hover:shadow-xl transition border-b-4 border-b-[#0A8F96]">
-              <Bus className="text-[#0A8F96] mb-3" />
-              <h4 className="font-semibold text-[#0F1E3D]">Transport</h4>
-              <p className="text-base text-gray-500 mt-2">
-                Weekend transport to Yelahanka and city access.
-              </p>
-            </div>
+                  return (
+                    <div
+                      key={index}
+                      className="
+                        relative
+                        overflow-hidden
+                        flex
+                        items-center
+                        gap-4
+                        rounded-xl
+                        border
+                        border-gray-200
+                        bg-[#f9fbfc]
+                        px-5
+                        py-4
+                        transition-all
+                        duration-300
+                        hover:border-[#0A8F96]/40
+                        hover:bg-white
+                      "
+                    >
+                      {/* 🔥 LEFT SMALL BORDER */}
+                      <div
+                        className="
+                          absolute
+                          left-0
+                          top-0
+                          h-full
+                          w-[4px]
+                          bg-[#0A8F96]
+                          rounded-l-xl
+                        "
+                      />
 
-            <div className="bg-white p-6 rounded-2xl shadow-sm hover:shadow-xl transition border-b-4 border-b-[#0A8F96]">
-              <Home className="text-[#0A8F96] mb-3" />
-              <h4 className="font-semibold text-[#0F1E3D]">Off-Campus Help</h4>
-              <p className="text-base text-gray-500 mt-2">
-                Assistance in finding nearby accommodation.
-              </p>
+                      <div className="flex items-center gap-4 pl-2">
+                        {/* ICON */}
+                        <div
+                          className="
+                            flex
+                            h-10
+                            w-10
+                            items-center
+                            justify-center
+                            rounded-lg
+                            bg-[#0A8F96]/10
+                            text-[#0A8F96]
+                            shrink-0
+                          "
+                        >
+                          <Icon className="h-5 w-5" />
+                        </div>
+
+                        {/* TITLE */}
+                        <p className="text-base text-[#1E3557]">{item.title}</p>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
             </div>
+          </div>
+        </div>
+
+        {/* 🔥 NOTE */}
+        <div
+          className="
+            mt-8
+            flex
+            items-start
+            gap-3
+            rounded-2xl
+            border
+            border-[#ff7a2f]/40
+            bg-white
+            px-5
+            py-4
+          "
+        >
+          <Info className="mt-0.5 h-5 w-5 shrink-0 text-[#ff7a2f]" />
+
+          <div>
+            <h4 className="text-sm text-[#ff7a2f]">Note</h4>
+
+            <p className="mt-1 text-sm text-gray-600">
+              Specific outlets, opening hours, and dietary labels (halal, Jain,
+              allergy-friendly) should be confirmed with the university.
+            </p>
           </div>
         </div>
       </div>
@@ -114,4 +187,4 @@ const StudentHousingSection = () => {
   );
 };
 
-export default StudentHousingSection;
+export default DiningSection;

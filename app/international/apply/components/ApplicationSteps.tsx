@@ -30,7 +30,9 @@ function StepCard({ step, index }: { step: any; index: number }) {
       <span className="text-sm font-medium text-[#0A8F96] sm:text-base">
         Step {index + 1}
       </span>
-      <h3 className="mt-1 mb-2 text-lg leading-tight sm:text-xl">{step.title}</h3>
+      <h3 className="mt-1 mb-2 text-lg leading-tight sm:text-xl">
+        {step.title}
+      </h3>
       <p className="text-sm leading-relaxed text-gray-600 sm:text-base">
         {step.description}
       </p>
@@ -49,6 +51,7 @@ export default function ApplicationSteps({ data }: any) {
           highlight="Application Guide"
           description={data.description}
           align="center"
+          primaryColor="#0a8f96"
         />
 
         {/* 🔥 MOBILE: stacked timeline (icon + card) */}
@@ -66,14 +69,10 @@ export default function ApplicationSteps({ data }: any) {
               >
                 <div className="flex shrink-0 flex-col items-center">
                   <div className="relative">
-                    <div
-                      className="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-[#0A8F96] to-[#0BB5B5] text-white shadow-lg sm:h-14 sm:w-14"
-                    >
+                    <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-[#0A8F96] to-[#0BB5B5] text-white shadow-lg sm:h-14 sm:w-14">
                       {Icon && <Icon size={22} />}
                     </div>
-                    <div
-                      className="absolute -right-1 -top-1 flex h-5 w-5 items-center justify-center rounded-full bg-white text-[10px] font-bold text-[#0A8F96] shadow sm:h-6 sm:w-6 sm:text-xs"
-                    >
+                    <div className="absolute -right-1 -top-1 flex h-5 w-5 items-center justify-center rounded-full bg-white text-[10px] font-bold text-[#0A8F96] shadow sm:h-6 sm:w-6 sm:text-xs">
                       {index + 1}
                     </div>
                   </div>
