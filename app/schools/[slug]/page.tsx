@@ -59,8 +59,7 @@ export default async function SchoolPage({
         />
       )}
 
-     
-      <CourseCTA />
+      {/* <CourseCTA /> */}
       {/* 🚀 CTA (future) */}
       {/* {school.cta && <SchoolCTA data={school.cta} />} */}
     </main>

@@ -13,34 +13,115 @@ export default function CourseCareers({ data }: any) {
   if (!careers.length) return null;
 
   return (
-    <section className="bg-[#F6F7FB] py-16">
-      <div className="max-w-[1400px] mx-auto px-6 ">
-        {/* HEADING */}
-        <CommonHeader
-          tag="After Graduation"
-          title="Career"
-          highlight="Opportunities"
-          primaryColor="#0A8F96"
-        />
+    <section className="bg-[#fff] py-24">
+      <div className="max-w-[1400px] mx-auto px-6">
+        {/* HEADER */}
+        <div className="text-center">
+          {/* TAG */}
+          <span
+            className="
+          inline-block
+          rounded-md
+          bg-[#FFF1E8]
+          px-4 py-2
+          text-xs
+          font-medium
+          text-[#F58233]
+        "
+          >
+            After Graduation
+          </span>
+
+          {/* TITLE */}
+          <h2
+            className="
+          mt-5
+          text-4xl
+          md:text-5xl
+          font-semibold
+          text-[#183153]
+        "
+          >
+            Career <span className="text-[#F58233]">Opportunities</span>
+          </h2>
+        </div>
 
         {/* GRID */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+        <div className="mt-14 grid gap-8 md:grid-cols-2">
           {careers.map((item: any, index: number) => (
             <div
               key={index}
-              className={`bg-white p-6 flex items-start gap-4 shadow-md rounded-xl p-8 text-center border-b-4 border-b-[#D4A843]  hover:shadow-xl transition`}
+              className="
+            relative
+            rounded-xl
+            bg-white
+            p-8
+            shadow-md
+            transition-all duration-300
+            hover:-translate-y-1
+            hover:shadow-xl
+          "
             >
-              {/* ICON */}
-              <div className="text-[#1e3a5f]">{getIcon(index)}</div>
-              <div className="text-left">
-                {/* TITLE */}
-                <h3 className=" text-gray-900 text-xl mb-2">{item.category}</h3>
+              {/* LEFT BORDER */}
+              <div
+                className="
+              absolute
+              left-0
+              top-0
+              h-full
+              w-[5px]
+              rounded-l-xl
+              bg-[#F58233]
+            "
+              />
 
-                {/* ROLES */}
-                <div className="space-y-1 text-base text-gray-600">
-                  {item.roles.slice(0, 2).map((role: string, i: number) => (
-                    <p key={i}>{role}</p>
-                  ))}
+              {/* CONTENT */}
+              <div className="flex items-start gap-4">
+                {/* ICON */}
+                <div className="mt-1 text-[#F58233]">{getIcon(index)}</div>
+
+                {/* TEXT */}
+                <div>
+                  {/* TITLE */}
+                  <h3
+                    className="
+                  text-lg
+                  font-semibold
+                  text-[#183153]
+                "
+                  >
+                    {item.category}
+                  </h3>
+
+                  {/* ROLES */}
+                  <div className="mt-5 space-y-4">
+                    {item.roles.map((role: string, i: number) => (
+                      <div key={i} className="flex items-start gap-3">
+                        {/* DOT */}
+                        <div
+                          className="
+                        mt-[7px]
+                        h-2.5
+                        w-2.5
+                        rounded-full
+                        bg-[#F58233]
+                        shrink-0
+                      "
+                        />
+
+                        {/* TEXT */}
+                        <p
+                          className="
+                        text-sm
+                        leading-6
+                        text-gray-600
+                      "
+                        >
+                          {role}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>
@@ -54,11 +135,11 @@ export default function CourseCareers({ data }: any) {
 /* 🔥 ICON MAPPER */
 function getIcon(index: number) {
   const icons = [
-    <Brain size={18} className="text-[#1E3A5F]" />,
-    <Briefcase size={18} className="text-[#1E3A5F]" />,
-    <GraduationCap size={18} className="text-[#1E3A5F]" />,
-    <Settings size={18} className="text-[#1E3A5F]" />,
-    <Sparkles size={18} className="text-[#1E3A5F]" />,
+    <Brain size={18} className="text-[#F58233]" />,
+    <Briefcase size={18} className="text-[#F58233]" />,
+    <GraduationCap size={18} className="text-[#F58233]" />,
+    <Settings size={18} className="text-[#F58233]" />,
+    <Sparkles size={18} className="text-[#F58233]" />,
   ];
 
   return icons[index % icons.length];

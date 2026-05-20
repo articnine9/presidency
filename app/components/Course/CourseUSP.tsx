@@ -13,34 +13,86 @@ export default function CourseUSP({ data }: any) {
   if (!data?.highlights || data.highlights.length === 0) return null;
 
   return (
-    <section className="bg-white py-16">
+    <section className="bg-[#EAF3F3] py-24">
       <div className="max-w-[1400px] mx-auto px-6">
-        {/* HEADING */}
-        <CommonHeader
-          tag="Key Highlights for International Students"
-          title="Why Choose This"
-          highlight="Programme"
-          primaryColor="#ff7a2f"
-        />
+        {/* HEADER */}
+        <div className="text-center">
+          {/* TAG */}
+          <span
+            className="
+          inline-block
+          rounded-md
+          bg-[#DDF4F4]
+          px-4 py-2
+          text-xs
+          font-medium
+          text-[#0097A7]
+        "
+          >
+            Key Highlights
+          </span>
+
+          {/* TITLE */}
+          <h2
+            className="
+          mt-5
+          text-4xl
+          md:text-5xl
+          font-semibold
+          text-[#183153]
+        "
+          >
+            Why Choose This <span className="text-[#0097A7]">Programme</span>
+          </h2>
+        </div>
 
         {/* GRID */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+        <div className="mt-14 grid gap-6 md:grid-cols-2">
           {data.highlights.map((item: any, index: number) => (
             <div
               key={index}
-              className={`bg-white p-6 flex items-start gap-4 shadow-md rounded-xl p-8 text-center border-b-4 border-b-[#0A8F96] hover:shadow-xl transition`}
+              className="
+            relative
+            rounded-xl
+            bg-white
+            p-7
+            shadow-md
+            transition-all duration-300
+            hover:-translate-y-1
+            hover:shadow-xl
+          "
             >
-              {/* ICON */}
-              <div className="text-[#1e3a5f]">{getIcon(index)}</div>
+              {/* LEFT BORDER */}
+              <div className="absolute left-0 top-0 h-full w-[4px] rounded-l-xl bg-[#0097A7]" />
 
-              <div className="text-left">
-                {/* TITLE */}
-                <h3 className=" text-gray-900 text-xl">{item.title}</h3>
+              {/* CONTENT */}
+              <div className="flex items-start gap-4">
+                {/* ICON */}
+                <div className="mt-1 text-[#0097A7]">{getIcon(index)}</div>
 
-                {/* DESCRIPTION */}
-                <p className="text-base text-gray-600 mt-2 leading-relaxed">
-                  {item.description}
-                </p>
+                {/* TEXT */}
+                <div>
+                  <h3
+                    className="
+                  text-lg
+                  font-semibold
+                  text-[#183153]
+                "
+                  >
+                    {item.title}
+                  </h3>
+
+                  <p
+                    className="
+                  mt-3
+                  text-sm
+                  leading-7
+                  text-gray-600
+                "
+                  >
+                    {item.description}
+                  </p>
+                </div>
               </div>
             </div>
           ))}
@@ -53,12 +105,12 @@ export default function CourseUSP({ data }: any) {
 /* 🔥 ICON MAPPER */
 function getIcon(index: number) {
   const icons = [
-    <BarChart3 size={20} className="text-[#1E3A5F]" />,
-    <Settings size={20} className="text-[#1E3A5F]" />,
-    <Target size={20} className="text-[#1E3A5F]" />,
-    <Brain size={20} className="text-[#1E3A5F]" />,
-    <Briefcase size={20} className="text-[#1E3A5F]" />,
-    <GraduationCap size={20} className="text-[#1E3A5F]" />,
+    <BarChart3 size={18} className="text-[#0097A7]" />,
+    <Settings size={18} className="text-[#0097A7]" />,
+    <Target size={18} className="text-[#0097A7]" />,
+    <Brain size={18} className="text-[#0097A7]" />,
+    <Briefcase size={18} className="text-[#0097A7]" />,
+    <GraduationCap size={18} className="text-[#0097A7]" />,
   ];
 
   return icons[index % icons.length];

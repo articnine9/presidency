@@ -60,7 +60,7 @@ export default async function CoursePage({
 
       {/* FAQ */}
       <CourseFAQ data={selectedCourse} />
-      <CourseCTA />
+      {/* <CourseCTA /> */}
     </main>
   );
 }

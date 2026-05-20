@@ -9,6 +9,7 @@ import {
   Brain,
   Network,
   Code,
+  ArrowRight,
 } from "lucide-react";
 
 /* ---------------- TYPES ---------------- */
@@ -184,6 +185,25 @@ export default function ProgramList({
             </div>
           );
         })}
+        <div className="bg-gradient-to-r from-[#0F1E3D] to-[#0D3B5C] rounded-2xl px-8 py-10 flex flex-col md:flex-row items-center justify-between gap-6">
+          {/* Left Content */}
+          <div>
+            <h2 className="text-2xl md:text-3xl font-serif text-white">
+              Your Next Move{" "}
+              <span className="text-teal-400 italic">Awaits</span>
+            </h2>
+
+            <p className="text-gray-300 mt-2 text-sm md:text-base">
+              Begin an extraordinary journey at Presidency University,
+              Bengaluru.
+            </p>
+          </div>
+
+          {/* Button */}
+          <button className="bg-teal-500 hover:bg-teal-600 text-white px-6 py-3 rounded-lg font-semibold transition">
+            APPLY NOW →
+          </button>
+        </div>
       </div>
     </section>
   );
@@ -195,24 +215,52 @@ function ProgramRow({ program, slug }: { program: Program; slug: string }) {
   return (
     <Link
       href={`/schools/${slug}/${program.slug}`}
-      className="flex items-center justify-between bg-[#e5f0f2] hover:bg-[#E9ECEF] px-4 py-3 rounded-md transition"
+      className="
+        group
+        flex items-center justify-between
+        rounded-2xl
+        bg-[#DDE6E7]
+        px-5 py-5
+        transition-all duration-300
+        hover:bg-[#d4dfe0]
+      "
     >
-      {/* LEFT */}
-      <div className="flex items-center gap-3">
-        {/* ICON */}
-        <div className="w-8 h-8 bg-white rounded-md flex items-center justify-center shadow-sm">
+      {/* LEFT SIDE */}
+      <div className="flex items-center gap-4">
+        {/* ICON BOX */}
+        <div
+          className="
+            flex h-10 w-10 items-center justify-center
+            rounded-xl
+            bg-white
+            shadow-sm
+          "
+        >
           {getProgramIcon(program.name)}
         </div>
 
-        <span className="text-lg font-medium text-gray-800">
-          {program.name}
-        </span>
+        {/* TEXT */}
+        <div>
+          <h3 className="text-[15px] font-semibold text-[#183153]">
+            {program.name}
+          </h3>
+
+          <p className="mt-1 text-sm text-gray-500">
+            {program.duration} . Full-Time
+          </p>
+        </div>
       </div>
 
-      {/* RIGHT BADGE */}
-      <span className="text-lg bg-white border border-gray-200 px-3 py-1 rounded-lg text-gray-600">
-        {program.duration}
-      </span>
+      {/* RIGHT ARROW */}
+      <div
+        className="
+    text-[#0097A7]
+    transition-transform duration-300
+    group-hover:translate-x-1
+  "
+      >
+        <ArrowRight size={20} strokeWidth={2.2} />
+      </div>
     </Link>
   );
 }
