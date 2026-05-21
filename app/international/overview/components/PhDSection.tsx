@@ -2,90 +2,122 @@
 
 import { motion } from "framer-motion";
 import CommonHeader from "@/app/components/CommonHeader";
-import { CheckCircle } from "lucide-react";
+import {
+  Cpu,
+  Briefcase,
+  Palette,
+  GraduationCap,
+  CheckCircle2,
+} from "lucide-react";
 
 export default function PhDSection({ data }: any) {
   const phd = data?.phd;
 
-  return (
-    <section className="relative py-20 md:py-28 overflow-hidden text-white bg-[#1e4c8f]">
-      {/* BACKGROUND */}
-      <div className="absolute inset-0 bg-gradient-to-br from-[#1e4c8f] via-[#1e4c8f] to-[#1e4c8f]" />
-      <div className="absolute top-0 left-0 w-[400px] h-[400px] bg-[#1e4c8f]/20 blur-[120px] rounded-full" />
-      <div className="absolute bottom-0 right-0 w-[400px] h-[400px] bg-[#1e4c8f]/10 blur-[120px] rounded-full" />
+  // 🔹 ICON MAP
+  const icons: any = {
+    engineering: Cpu,
+    management: Briefcase,
+    arts: Palette,
+    sciences: GraduationCap,
+  };
 
-      <div className="relative max-w-[1400px] mx-auto px-5 md:px-10">
-        {/* HEADER */}
+  return (
+    <section className="py-20 md:py-28 bg-[#f5f7fa]">
+      <div className="max-w-[1400px] mx-auto px-5 md:px-10">
+        {/* 🔹 HEADER */}
         <CommonHeader
           tag={phd?.tag}
           title={phd?.title}
           highlight={phd?.highlight}
-          primaryColor="#ffffff"
-          secondaryColor="#ffffff"
           description={phd?.description}
           align="center"
-          descriptionColor="#fff"
+          primaryColor="#ff7a2f"
         />
 
-        {/* FEATURES */}
-        <div className="grid md:grid-cols-3 gap-6 mt-14">
-          {phd?.features.map((item: string, index: number) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.05 }}
-              className="group  items-center  flex  gap-4 bg-white/5 backdrop-blur-xl border border-white/10 rounded-xl p-6 hover:bg-white/10 transition duration-300 shadow-lg"
-            >
-              {/* 🔥 ICON */}
-              <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-gradient-to-br from-[#0A8F96] to-[#0BB5B5] flex items-center justify-center shadow-md group-hover:scale-110 transition">
-                <CheckCircle className="text-white w-5 h-5" />
-              </div>
+        {/* 🔥 PROGRAMME GRID */}
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-16">
+          {phd?.categories.map((item: any, index: number) => {
+            const Icon =
+              icons[item.icon as keyof typeof icons] || GraduationCap;
 
-              {/* TEXT */}
-              <p className="text-sm md:text-base text-white/90 leading-relaxed">
-                {item}
-              </p>
-            </motion.div>
-          ))}
-        </div>
-
-        {/* RESEARCH AREAS */}
-        <div className="mt-20">
-          <h3 className="text-xl md:text-2xl mb-10 text-center">
-            Research Areas
-          </h3>
-
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 mx-auto">
-            {phd?.fields.map((field: string, index: number) => (
+            return (
               <motion.div
                 key={index}
-                initial={{ opacity: 0, y: 30, scale: 0.95 }}
-                whileInView={{ opacity: 1, y: 0, scale: 1 }}
-                transition={{ delay: index * 0.03 }}
+                initial={{ opacity: 0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{
+                  duration: 0.5,
+                  delay: index * 0.05,
+                }}
                 viewport={{ once: true }}
-                className="group relative flex items-center justify-center gap-2 px-4 py-3 rounded-full bg-white/5 border border-white/10 backdrop-blur-md hover:bg-white/10 transition duration-300"
+                className="group relative bg-white border border-[#dbe4ea] rounded-xl p-6 hover:shadow-lg transition-all duration-300 overflow-hidden"
               >
-                {/* ✨ Glow */}
-                <div className="absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 transition bg-gradient-to-r from-[#0A8F96]/20 to-[#0BB5B5]/10 blur-md" />
+                {/* 🔹 LEFT ORANGE BORDER */}
+                <div className="absolute left-0 top-0 h-full w-[4px] bg-[#ff7a2f]" />
 
-                {/* 🔵 DOT ICON */}
-                <span className="relative w-2 h-2 rounded-full bg-[#0BB5B5] group-hover:scale-125 transition" />
+                {/* 🔹 TITLE */}
+                <div className="flex items-center gap-3 mb-5">
+                  <Icon className="w-5 h-5 text-[#ff7a2f]" />
 
-                {/* TEXT */}
-                <span className="relative text-sm md:text-base text-white/90 group-hover:text-white transition">
-                  {field}
-                </span>
+                  <h3 className="text-lg font-semibold text-[#183153] leading-snug">
+                    {item.title}
+                  </h3>
+                </div>
+
+                {/* 🔹 COURSE LIST */}
+                <ul className="space-y-3">
+                  {item.courses.map((course: any, i: number) => (
+                    <li
+                      key={i}
+                      className="flex items-start gap-2 text-sm text-[#4b5563]"
+                    >
+                      <CheckCircle2 className="w-4 h-4 text-[#ff7a2f] mt-[2px] shrink-0" />
+
+                      <span>
+                        {typeof course === "string" ? course : course.name}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+
+                {/* 🔥 HOVER EFFECT */}
+                <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-500 pointer-events-none bg-gradient-to-br from-[#ff7a2f]/5 to-transparent" />
               </motion.div>
-            ))}
-          </div>
+            );
+          })}
         </div>
 
-        {/* NOTE */}
-        {phd?.note && (
-          <p className="text-center text-white/70 mt-16 max-w-3xl mx-auto text-sm md:text-base leading-relaxed">
-            {phd.note}
-          </p>
+        {/* 🔹 RESEARCH INFO BOX */}
+        {phd?.research && (
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+            className="mt-14 bg-[#183b6b] rounded-2xl p-8 md:p-10 text-white"
+          >
+            <h3 className="text-2xl font-semibold mb-4">
+              {phd?.research?.title}
+            </h3>
+
+            <p className="text-white/80 leading-relaxed max-w-4xl">
+              {phd?.research?.description}
+            </p>
+
+            {/* FEATURES */}
+            <div className="grid sm:grid-cols-2 gap-4 mt-8">
+              {phd?.research?.features?.map((item: string, index: number) => (
+                <div
+                  key={index}
+                  className="flex items-center gap-3 text-sm md:text-base text-white/90"
+                >
+                  <CheckCircle2 className="w-4 h-4 text-[#ff7a2f] shrink-0" />
+
+                  <span>{item}</span>
+                </div>
+              ))}
+            </div>
+          </motion.div>
         )}
       </div>
     </section>

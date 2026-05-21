@@ -7,6 +7,8 @@ import InternationalSection from "./components/InternationalSection";
 import LanguageSection from "./components/LanguageSection";
 import ShortCoursesSection from "./components/ShortCoursesSection";
 import CourseCTA from "./components/CourseCTA";
+import InternationalPrograms from "./components/InternationalPrograms";
+import LanguageElectives from "./components/LanguageElectives";
 
 import data from "./data/StudyInIndia.json";
 
@@ -23,16 +25,17 @@ const StudyInIndiaPage = () => {
       <UGSection data={data} />
       <PGSection data={data} />
       <PhDSection data={data} />
-
+      <InternationalPrograms data={data} />
+      <LanguageElectives data={data} />
       {/* 🌍 GLOBAL OPPORTUNITIES */}
-      <InternationalSection data={data} />
-      <LanguageSection data={data} />
+      {/* <InternationalSection data={data} />
+      <LanguageSection data={data} /> */}
 
       {/* 🚀 SKILL DEVELOPMENT */}
-      <ShortCoursesSection data={data} />
+      {/* <ShortCoursesSection data={data} /> */}
 
       {/* 📞 CTA */}
-      <CourseCTA />
+      <CourseCTA data={data} />
     </>
   );
 };

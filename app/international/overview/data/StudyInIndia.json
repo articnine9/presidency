@@ -9,19 +9,22 @@
     "image": "/img/study-in-india/hero-bg.webp",
     "buttons": [
       {
-        "label": "Explore Programs",
-        "link": "/programs",
-        "type": "primary"
+        "label": "Explore Programmes",
+        "link": "#",
+        "type": "primary",
+        "icon": true
       },
       {
-        "label": "Apply Now",
-        "link": "/apply",
-        "type": "primary"
+        "label": "Contact The OIA",
+        "link": "#",
+        "type": "dark",
+        "icon": true
       },
       {
-        "label": "Contact Us",
-        "link": "/contact",
-        "type": "secondary"
+        "label": "How To Apply",
+        "link": "#",
+        "type": "secondary",
+        "icon": true
       }
     ]
   },
@@ -31,219 +34,223 @@
     "title": "Presidency University",
     "highlight": " Bangalore",
     "content": "Presidency University, Bangalore, is one of India's most dynamic private universities — a place where 50 years of academic heritage meets forward-thinking education. Situated on a lush 100-acre green campus in Yelahanka, Bengaluru, the university offers a portfolio of more than 100 programmes spanning engineering, management, law, design, media, liberal arts, commerce, and health sciences.",
-    "note": "Whether you are arriving to pursue an undergraduate degree, a specialised postgraduate qualification, a doctoral research programme, or a short professional course, Presidency University offers a world-class learning environment at exceptional value. Our internationally networked campus hosts students from across the globe, supported by the Office of International Affairs (OIA) — your single point of contact from application through graduation.",
-    "image": "/img/study-in-india/study-in-india.webp"
+    "note": "Whether you are arriving to pursue an undergraduate degree, a specialised postgraduate qualification, a doctoral research programme, or a short professional course, Presidency University offers a world-class learning environment at exceptional value.",
+    "image": "/img/study-in-india/study-in-india.webp",
+    "buttonText": "Discover Presidency",
+    "buttonLink": "/apply"
   },
 
   "ug": {
     "tag": "Programmes",
     "title": "Undergraduate Degrees",
     "highlight": " (UG)",
-    "description": "Presidency University offers a wide range of three- and four-year undergraduate programmes across ten Schools. Every programme is designed to combine academic rigour with real-world industry exposure, ensuring graduates enter the workforce ready to lead.",
+    "description": "Presidency University offers a wide range of undergraduate programmes across multiple disciplines.",
 
     "categories": [
       {
         "title": "Engineering & Technology",
+        "icon": "engineering",
         "courses": [
           {
             "name": "B.Tech Computer Science & Engineering",
             "link": "/programs/btech-cse"
           },
-          { "name": "AI & Machine Learning", "link": "/programs/btech-ai-ml" },
-          { "name": "Data Science", "link": "/programs/btech-data-science" },
           {
-            "name": "Cyber Security",
-            "link": "/programs/btech-cyber-security"
+            "name": "AI & Machine Learning",
+            "link": "/programs/btech-ai-ml"
           },
           {
-            "name": "Blockchain, IoT, DevOps",
-            "link": "/programs/btech-blockchain-iot-devops"
-          },
-          { "name": "Robotics & AI", "link": "/programs/btech-robotics-ai" },
-          {
-            "name": "Civil, Mechanical, Petroleum Engineering",
-            "link": "/programs/btech-civil-mechanical-petroleum"
+            "name": "Data Science",
+            "link": "/programs/btech-data-science"
           }
         ]
       },
       {
         "title": "Computing & Information Science",
+        "icon": "computing",
         "courses": [
-          { "name": "BCA", "link": "/programs/bca" },
+          {
+            "name": "BCA",
+            "link": "/programs/bca"
+          },
           {
             "name": "BCA (Data Science)",
             "link": "/programs/bca-data-science"
-          },
-          { "name": "BCA (AI & ML)", "link": "/programs/bca-ai-ml" }
+          }
         ]
       },
       {
         "title": "Management & Commerce",
+        "icon": "management",
         "courses": [
-          { "name": "BBA", "link": "/programs/bba" },
+          {
+            "name": "BBA",
+            "link": "/programs/bba"
+          },
           {
             "name": "BBA Aviation Management",
             "link": "/programs/bba-aviation"
-          },
-          {
-            "name": "BBA Business Analytics",
-            "link": "/programs/bba-business-analytics"
-          },
-          { "name": "B.Com (Finance, ACCA, CMA-US)", "link": "/programs/bcom" }
+          }
         ]
       },
       {
         "title": "Law",
+        "icon": "law",
         "courses": [
-          { "name": "BA LLB (Hons.)", "link": "/programs/ba-llb" },
-          { "name": "BBA LLB (Hons.)", "link": "/programs/bba-llb" }
+          {
+            "name": "BA LLB (Hons.)",
+            "link": "/programs/ba-llb"
+          }
         ]
       },
       {
         "title": "Design & Creative Arts",
+        "icon": "design",
         "courses": [
           {
-            "name": "B.Des Communication Design",
-            "link": "/programs/bdes-communication-design"
-          },
-          { "name": "Fashion Design", "link": "/programs/bdes-fashion-design" },
-          { "name": "Product Design", "link": "/programs/bdes-product-design" },
-          { "name": "Game Design", "link": "/programs/bdes-game-design" },
-          {
-            "name": "Multimedia & Animation",
-            "link": "/programs/bdes-multimedia-animation"
+            "name": "Fashion Design",
+            "link": "/programs/fashion-design"
           }
         ]
       },
       {
         "title": "Media Studies",
+        "icon": "media",
         "courses": [
           {
             "name": "BA Journalism & Mass Communication",
-            "link": "/programs/ba-journalism"
-          },
-          {
-            "name": "Film & TV Production",
-            "link": "/programs/ba-film-tv-production"
-          },
-          {
-            "name": "Digital Marketing & Advertising",
-            "link": "/programs/ba-digital-marketing"
+            "link": "/programs/journalism"
           }
         ]
       },
       {
         "title": "Liberal Arts & Sciences",
+        "icon": "arts",
         "courses": [
           {
-            "name": "BA Psychology, English, Economics",
-            "link": "/programs/ba-psychology-english-economics"
-          },
-          {
-            "name": "Political Science, Sociology",
-            "link": "/programs/ba-political-science-sociology"
-          },
-          { "name": "Performing Arts", "link": "/programs/ba-performing-arts" },
-          { "name": "B.Sc Psychology", "link": "/programs/bsc-psychology" }
+            "name": "BA Psychology",
+            "link": "/programs/ba-psychology"
+          }
         ]
       },
       {
         "title": "Allied Health Sciences",
+        "icon": "health",
         "courses": [
-          { "name": "Bachelor of Physiotherapy (BPT)", "link": "/programs/bpt" }
+          {
+            "name": "Bachelor of Physiotherapy (BPT)",
+            "link": "/programs/bpt"
+          }
         ]
       }
     ],
 
-    "note": "All undergraduate programmes are approved by the University Grants Commission (UGC) and relevant statutory bodies of the Government of India."
+    "note": "All undergraduate programmes are approved by the University Grants Commission (UGC)."
   },
 
   "pg": {
     "tag": "Programmes",
     "title": "Postgraduate Degrees",
     "highlight": " (PG)",
-    "description": "Presidency University's postgraduate programmes are designed for ambitious professionals and graduates who want to deepen their expertise, change career direction, or fast-track into leadership roles. Teaching is delivered by experienced faculty with strong industry and research credentials, alongside international visiting professors.",
+    "description": "Presidency University's postgraduate programmes are designed for ambitious professionals and graduates.",
 
     "categories": [
       {
         "title": "Engineering & Technology",
+        "icon": "engineering",
         "courses": [
           "M.Tech Computer Science & Engineering (AI)",
-          "M.Tech Computer Science & Engineering (Data Science)",
-          "Embedded Systems & VLSI",
-          "Building & Construction Technology"
+          "Embedded Systems & VLSI"
         ]
-      },
-      {
-        "title": "Information Science",
-        "courses": ["Master of Computer Applications (MCA)"]
       },
       {
         "title": "Management",
-        "courses": [
-          "MBA Finance",
-          "MBA Marketing",
-          "Banking & Finance Management",
-          "Digital Marketing",
-          "Business Analytics"
-        ]
+        "icon": "management",
+        "courses": ["MBA Finance", "MBA Marketing"]
       },
       {
-        "title": "Law",
-        "courses": ["LL.M. (Master of Laws)"]
+        "title": "Social Sciences & Humanities",
+        "icon": "humanities",
+        "courses": ["Economics", "Law", "Media Studies"]
       },
       {
-        "title": "Media",
+        "title": "Media Studies",
+        "icon": "media",
         "courses": ["MA Journalism & Mass Communication"]
       },
       {
-        "title": "Liberal Arts & Sciences",
-        "courses": [
-          "M.Sc Psychology (Clinical, Counselling, Industrial)",
-          "MA English (Creative Writing, Cultural Studies, Digital Humanities)"
-        ]
+        "title": "Law",
+        "icon": "law",
+        "courses": ["LL.M. (Master of Laws)"]
+      },
+      {
+        "title": "Information Science",
+        "icon": "information",
+        "courses": ["Master of Computer Applications (MCA)"]
       }
     ]
   },
 
   "phd": {
-    "tag": "Research",
+    "tag": "Programmes",
     "title": "Doctoral Programmes",
     "highlight": " (PhD)",
-    "description": "Presidency University is committed to being an internationally networked research university. Our doctoral programmes welcome outstanding scholars from around the world to contribute to cutting-edge research across disciplines.",
+    "description": "Presidency University is committed to internationally networked research and innovation.",
 
-    "features": [
-      "State-of-the-art laboratories",
-      "Centres of Excellence",
-      "Seed grant funding",
-      "Patent filing support",
-      "International conference participation",
-      "Industry-sponsored research projects"
+    "categories": [
+      {
+        "title": "Engineering & Technology",
+        "icon": "engineering",
+        "courses": [
+          "M.Tech in Computer Science & Engineering (AI)",
+          "M.Tech Embedded Systems & VLSI",
+          "Building & Construction Technology"
+        ]
+      },
+      {
+        "title": "Management",
+        "icon": "management",
+        "courses": ["MBA Finance", "MBA Marketing", "Business Analytics"]
+      },
+      {
+        "title": "Liberal Arts & Sciences",
+        "icon": "sciences",
+        "courses": [
+          "M.Sc Child Psychology",
+          "M.A English",
+          "Clinical Psychology"
+        ]
+      },
+      {
+        "title": "Design & Creative Arts",
+        "icon": "arts",
+        "courses": ["Design"]
+      }
     ],
 
-    "fields": [
-      "Computer Science & Engineering",
-      "Electronics & Communication Engineering",
-      "Mechanical Engineering",
-      "Civil Engineering",
-      "Electrical & Electronics Engineering",
-      "Petroleum Engineering",
-      "Information Science",
-      "General Management",
-      "Marketing Management",
-      "Financial Management",
-      "Human Resource Management",
-      "Business Analytics",
-      "Commerce",
-      "Economics",
-      "Law",
-      "Design",
-      "Media Studies",
-      "English",
-      "Psychology"
-    ],
-
-    "note": "Presidency University's Research & Innovation Council oversees research quality and supports scholars through publications, global collaborations, and innovation-driven initiatives."
+    "research": {
+      "title": "Globally Connected Doctoral Research",
+      "description": "Join a research-driven university that welcomes scholars worldwide to work on cutting-edge interdisciplinary innovation.",
+      "features": [
+        "State-of-the-art laboratories",
+        "Dedicated Centres of Excellence",
+        "Seed grant funding",
+        "Patent filing support"
+      ]
+    }
+  },
+  "contact": {
+    "title": {
+      "normal": "Still Have",
+      "italic": "Questions?"
+    },
+    "description": "If you have not found the answer you are looking for, our admissions team is happy to help.",
+    "email": "admissions@presidencyuniversity.in",
+    "phone": "+91 12345 67890",
+    "applyUrl": "https://apply.presidencyuniversity.in",
+    "button": {
+      "label": "Apply Now"
+    }
   },
   "international": {
     "tag": "Global Opportunities",
@@ -254,23 +261,28 @@
     "programs": [
       {
         "title": "Student Exchange Programmes",
-        "desc": "Spend one or two semesters at partner universities across Europe, Asia, and the Americas with transferable academic credits."
+        "desc": "Spend one or two semesters at partner universities across Europe, Asia, and the Americas with transferable academic credits.",
+        "icon": "exchange"
       },
       {
         "title": "Progression to Masters (3+1+1)",
-        "desc": "Complete your final year and Master’s degree at prestigious partner institutions in Germany, France, Malaysia, Taiwan, and the USA."
+        "desc": "Complete your final year and Master's degree at prestigious partner institutions in Germany, France, Malaysia, Taiwan, and the USA.",
+        "icon": "masters"
       },
       {
         "title": "International Internship Programme (IIPP)",
-        "desc": "Gain global research experience through funded internships at leading universities and research institutions."
+        "desc": "Gain global research experience through funded internships at leading universities and research institutions.",
+        "icon": "internship"
       },
       {
         "title": "Dual / Double Degree Programmes",
-        "desc": "Earn two degrees simultaneously through international academic partnerships with global universities."
+        "desc": "Earn two degrees simultaneously through international academic partnerships with global universities.",
+        "icon": "dual"
       },
       {
-        "title": "Chancellor’s Bon Voyage Scholarship",
-        "desc": "Merit-based scholarships supporting international study, exchange, and global academic exposure."
+        "title": "Chancellor's Bon Voyage Scholarship",
+        "desc": "Merit-based scholarships supporting international study, exchange, and global academic exposure.",
+        "icon": "scholarship"
       }
     ],
 
@@ -285,51 +297,43 @@
       "Japan"
     ],
 
-    "note": "Presidency University maintains active collaborations with institutions across six continents, enabling truly global academic pathways."
+    "mapImage": "/img/study-in-india/world-map.webp"
   },
-
   "languages": {
     "tag": "Global Skills",
     "title": "Foreign Language",
     "highlight": " Electives",
     "description": "Presidency University's Department of Languages offers structured foreign language instruction designed to enhance global employability and prepare students for international opportunities. Courses range from beginner to advanced levels and include immersive cultural experiences.",
-
-    "list": ["German", "French", "Japanese", "Mandarin Chinese", "Spanish"],
-
-    "note": "The Taiwan Education Center on campus provides dedicated Mandarin instruction and cultural programmes in collaboration with Taiwanese institutions. Language proficiency equips students with the confidence to work globally."
+    "note": "The Taiwan Education Center on campus provides dedicated Mandarin instruction and cultural programmes in collaboration with Taiwanese institutions. Language proficiency equips students with the confidence to work globally.",
+    "list": ["German", "French", "Mandarin Chinese", "Spanish", "Japanese"]
   },
-
   "shortCourses": {
     "tag": "Professional Learning",
-    "title": "Short Courses &",
-    "highlight": " Development",
+    "title": "Foreign Language",
+    "highlight": " Electives",
     "description": "Presidency University offers focused postgraduate diploma programmes and short courses designed for professionals and lifelong learners seeking industry-relevant skills in a flexible and condensed format.",
 
     "courses": [
-      "Post Graduate Diploma in Big Data",
-      "Post Graduate Diploma in Drone Technology",
-      "Post Graduate Diploma in Public Administration",
-      "Post Graduate Diploma in Film Making"
+      {
+        "title": "Post Graduate Diploma in Big Data",
+        "icon": "bigdata"
+      },
+      {
+        "title": "Post Graduate Diploma in Drone Technology",
+        "icon": "drone"
+      },
+      {
+        "title": "Post Graduate Diploma in Public Administration",
+        "icon": "administration"
+      },
+      {
+        "title": "Post Graduate Diploma in Film Making",
+        "icon": "film"
+      }
     ],
 
     "arts": ["Bharatanatyam", "Kuchipudi", "Mohiniattam", "Kathak"],
 
     "note": "Short executive workshops, bootcamps, and certification programmes are regularly offered through the Presidency Launchpad incubation centre in collaboration with industry partners."
-  },
-
-  "contact": {
-    "title": {
-      "normal": "Still Have",
-      "italic": "Questions?"
-    },
-    "description": "If you have not found the answer you are looking for, our admissions team is happy to help.",
-
-    "email": "admissions@presidencyuniversity.in",
-    "phone": "+91 12345 67890",
-    "applyUrl": "https://apply.presidencyuniversity.in",
-
-    "button": {
-      "label": "Apply Now"
-    }
   }
 }

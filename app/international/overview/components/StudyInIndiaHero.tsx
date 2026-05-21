@@ -1,8 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { ArrowRight, Headphones } from "lucide-react";
 
-type FaqHeroProps = {
+type HeroProps = {
   data: {
     title: {
       normal: string;
@@ -15,11 +16,12 @@ type FaqHeroProps = {
       label: string;
       link: string;
       type?: string;
+      icon?: boolean;
     }[];
   };
 };
 
-export default function StudyInIndiaHero({ data }: FaqHeroProps) {
+export default function StudyInIndiaHero({ data }: HeroProps) {
   return (
     <>
       {/* 🔹 BREADCRUMB */}
@@ -38,63 +40,78 @@ export default function StudyInIndiaHero({ data }: FaqHeroProps) {
         </div>
       )}
 
-      {/* 🔥 HERO */}
-      <section className="relative w-full min-h-[420px] overflow-hidden sm:min-h-[480px] md:h-[520px]">
-        {/* IMAGE */}
+      {/* 🔥 HERO SECTION */}
+      <section className="relative w-full overflow-hidden h-screen">
+        {/* BACKGROUND IMAGE */}
         <img
           src={
             data.image ||
-            "https://images.unsplash.com/photo-1769905226788-1bf5ba8f50d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx1bml2ZXJzaXR5JTIwY2FtcHVzJTIwc3R1ZGVudHMlMjB3YWxraW5nfGVufDF8fHx8MTc3MzM5ODc4N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+            "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=1920&auto=format&fit=crop"
           }
+          alt="Hero"
           className="absolute inset-0 w-full h-full object-cover"
         />
 
-        {/* OVERLAY */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#0b2a4a]/95 via-[#0b2a4a]/85 to-transparent" />
+        {/* DARK OVERLAY */}
+        <div className="absolute inset-0 bg-black/55" />
 
         {/* CONTENT */}
-        <div className="relative mx-auto flex h-full min-h-[420px] max-w-[1400px] items-center px-4 py-10 sm:min-h-[480px] sm:px-6 md:min-h-0 md:py-0">
-          <div className="max-w-3xl text-white">
+        <div className="relative z-10 max-w-[1400px] mx-auto h-full flex items-center px-4 sm:px-6 lg:px-10 py-16">
+          <div className="max-w-2xl text-white">
             {/* TITLE */}
             <motion.h1
-              initial={{ opacity: 0, y: 30 }}
+              initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
-              className="mb-4 font-serif text-3xl leading-tight sm:text-4xl md:text-5xl lg:text-6xl"
+              transition={{ duration: 0.6 }}
+              className="font-serif text-4xl sm:text-5xl md:text-6xl leading-tight font-bold"
             >
-              {data.title.normal} <br />
-              <span className="italic text-[#D4A843]">{data.title.italic}</span>
+              {data.title.normal}
+              <br />
+
+              <span className="italic text-[#00B8C8] font-medium">
+                {data.title.italic}
+              </span>
             </motion.h1>
 
             {/* DESCRIPTION */}
             <motion.p
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.1 }}
-              className="mb-6 text-base text-white/90 md:text-lg lg:text-xl"
+              transition={{ delay: 0.2 }}
+              className="mt-5 text-sm sm:text-base md:text-lg text-white/90 leading-relaxed max-w-xl"
             >
               {data.description}
             </motion.p>
 
-            {/* 🔥 CTA BUTTONS */}
+            {/* BUTTONS */}
             {data.buttons && (
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.2 }}
-                className="flex flex-wrap gap-4"
+                transition={{ delay: 0.3 }}
+                className="mt-8 flex flex-wrap gap-4"
               >
                 {data.buttons.map((btn, index) => (
                   <a
                     key={index}
                     href={btn.link}
                     target={btn.link.startsWith("http") ? "_blank" : "_self"}
-                    className={`px-6 py-3 rounded-lg text-sm md:text-base font-medium transition-all duration-300 ${
+                    className={`group inline-flex items-center gap-2 rounded-md px-5 py-3 text-sm md:text-base font-medium transition-all duration-300 ${
                       btn.type === "primary"
-                        ? "bg-[#0A8F96] text-white hover:bg-[#0BB5B5] hover:shadow-lg"
-                        : "border-2 border-white text-white hover:bg-white/10 backdrop-blur-sm"
+                        ? "bg-[#00B8C8] text-white hover:bg-[#00d5e8]"
+                        : btn.type === "dark"
+                          ? "bg-black/40 border border-white/40 text-white hover:bg-white/10"
+                          : "bg-white text-[#0b2a4a] hover:bg-gray-100"
                     }`}
                   >
                     {btn.label}
+
+                    {btn.icon &&
+                      (btn.type === "dark" ? (
+                        <Headphones className="w-4 h-4" />
+                      ) : (
+                        <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+                      ))}
                   </a>
                 ))}
               </motion.div>

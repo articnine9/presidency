@@ -2,67 +2,76 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { ArrowRight } from "lucide-react";
 import CommonHeader from "@/app/components/CommonHeader";
 
 export default function StudyIndiaAbout({ data }: any) {
   const about = data?.about;
 
   return (
-    <section className="py-16 md:py-24 bg-gradient-to-b from-white to-[#f8fafc]">
-      <div className="max-w-[1400px] mx-auto px-5 md:px-10 grid md:grid-cols-2 gap-12 items-center align-middle">
-        {/* 🔹 LEFT CONTENT */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-        >
-          <CommonHeader
-            tag={about?.tag}
-            title={about?.title}
-            highlight={about?.highlight}
-            description=""
-            align="left"
-          />
+    <section className="bg-[#f7f7f7] py-16 md:py-24">
+      <div className="max-w-[1400px] mx-auto px-5 md:px-10">
+        <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-center">
+          {/* 🔹 LEFT IMAGE */}
+          <motion.div
+            initial={{ opacity: 0, x: -60 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+            className="relative w-full h-[320px] sm:h-[420px] md:h-[520px] rounded-2xl overflow-hidden"
+          >
+            <Image
+              src={
+                about?.image ||
+                "https://images.unsplash.com/photo-1523050854058-8df90110c9f1"
+              }
+              alt="Presidency University Campus"
+              fill
+              className="object-cover"
+            />
+          </motion.div>
 
-          {/* NOTE / EXTENDED TEXT */}
-          <p className="text-gray-600 mt-5 leading-relaxed text-base md:text-lg max-w-xl">
-            {about?.content}
-          </p>
-          <p className="text-gray-600 mt-5 leading-relaxed text-base md:text-lg max-w-xl">
-            {about?.note}
-          </p>
+          {/* 🔹 RIGHT CONTENT */}
+          <motion.div
+            initial={{ opacity: 0, x: 60 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+            className="max-w-2xl"
+          >
+            {/* HEADER */}
+            <CommonHeader
+              tag={about?.tag}
+              title={about?.title}
+              highlight={about?.highlight}
+              description=""
+              align="left"
+              primaryColor="#0A8F96"
+            />
 
-          {/* OPTIONAL CTA */}
-          <div className="mt-6">
-            <a
-              href="/apply"
-              className="inline-block px-6 py-3 bg-[#0A8F96] text-white rounded-lg shadow hover:bg-[#0BB5B5] transition"
-            >
-              Apply Now
-            </a>
-          </div>
-        </motion.div>
+            {/* CONTENT */}
+            <p className="text-gray-600 mt-5 leading-relaxed text-sm md:text-base">
+              {about?.content}
+            </p>
 
-        {/* 🔹 RIGHT IMAGE */}
-        <motion.div
-          initial={{ opacity: 0, x: 60 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.6 }}
-          className="relative w-full h-[420px] md:h-[600px] rounded-2xl overflow-hidden shadow-xl"
-        >
-          <Image
-            src={
-              about?.image ||
-              "https://images.unsplash.com/photo-1523050854058-8df90110c9f1"
-            }
-            alt="Presidency University Campus"
-            fill
-            className="object-cover"
-          />
+            {/* NOTE */}
+            <p className="text-gray-600 mt-5 leading-relaxed text-sm md:text-base">
+              {about?.note}
+            </p>
 
-          {/* 🔥 Overlay effect */}
-          <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
-        </motion.div>
+            {/* CTA BUTTON */}
+            <div className="mt-8">
+              <a
+                href={about?.buttonLink || "/apply"}
+                className="group inline-flex items-center gap-2 px-6 py-3 bg-[#0A8F96] text-white rounded-md hover:bg-[#08757a] transition-all duration-300"
+              >
+                {about?.buttonText || "Discover Presidency"}
+
+                <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
+              </a>
+            </div>
+          </motion.div>
+        </div>
       </div>
     </section>
   );
