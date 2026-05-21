@@ -1,4 +1,11 @@
-import { ArrowRight, Play } from "lucide-react";
+import {
+  ArrowRight,
+  Play,
+  GraduationCap,
+  Building2,
+  Users,
+  Landmark,
+} from "lucide-react";
 import { motion } from "motion/react";
 import { useState } from "react";
 
@@ -6,16 +13,31 @@ export function HeroSection() {
   const [videoError, setVideoError] = useState(false);
 
   const stats = [
-    { value: "100+", label: "Programmes" },
-    { value: "10", label: "Schools" },
-    { value: "50+", label: "Student Clubs" },
-    { value: "100-Acre", label: "Campus" },
+    {
+      value: "100+",
+      label: "Programmes",
+      icon: GraduationCap,
+    },
+    {
+      value: "10",
+      label: "Schools",
+      icon: Building2,
+    },
+    {
+      value: "50+",
+      label: "Student Clubs",
+      icon: Users,
+    },
+    {
+      value: "100-Acre",
+      label: "Campus",
+      icon: Landmark,
+    },
   ];
 
   return (
     <section className="relative w-full min-h-screen flex items-center overflow-hidden">
-      
-      {/* Background Image / Video */}
+      {/* 🔥 Background */}
       <div className="absolute inset-0 z-0">
         {!videoError ? (
           <video
@@ -36,17 +58,14 @@ export function HeroSection() {
           />
         )}
 
-        {/* Dark Overlay */}
+        {/* Overlay */}
         <div className="absolute inset-0 bg-black/55"></div>
       </div>
 
-      {/* Main Content */}
-      <div className="relative z-10 w-full max-w-7xl mx-auto ">
-        
-        {/* Left Content */}
-        <div className="max-w-7xl">
-          
-          {/* Heading */}
+      {/* 🔥 Main Content */}
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-5 sm:px-8 lg:px-10 py-20">
+        <div className="">
+          {/* 🔹 Heading */}
           <motion.h1
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
@@ -55,19 +74,22 @@ export function HeroSection() {
               text-white
               font-bold
               leading-tight
-              text-3xl
-              sm:text-4xl
+              font-serif
+              text-[42px]
+              sm:text-2xl
               md:text-5xl
               lg:text-6xl
               max-w-2xl
             "
           >
-            Your World-Class Education
+            Your World-Class
             <br />
-            Starts in Bangalore
+            Education Starts in
+            <br />
+            Bangalore
           </motion.h1>
 
-          {/* Description */}
+          {/* 🔹 Description */}
           <motion.p
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
@@ -82,21 +104,16 @@ export function HeroSection() {
               leading-relaxed
             "
           >
-            Study at Presidency University, Bangalore — where 50 years
-            of academic excellence meet India’s most exciting city.
+            Study at Presidency University, Bangalore — where 50 years of
+            academic excellence meet India’s most exciting city.
           </motion.p>
 
-          {/* Buttons */}
+          {/* 🔥 DESKTOP BUTTONS */}
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="
-              flex
-              flex-wrap
-              gap-3
-              mt-8
-            "
+            className="hidden md:flex flex-wrap gap-3 mt-8"
           >
             {/* Explore */}
             <button
@@ -168,15 +185,66 @@ export function HeroSection() {
             </button>
           </motion.div>
 
-          {/* Stats Cards */}
+          {/* 🔥 MOBILE BUTTONS */}
+          {/* <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.3 }}
+            className="flex md:hidden flex-wrap gap-3 mt-8"
+          >
+            <button
+              className="
+                bg-[#00A3AD]
+                hover:bg-[#00929B]
+                text-white
+                px-5
+                py-3
+                rounded-xl
+                text-sm
+                font-medium
+                flex
+                items-center
+                gap-2
+                transition-all
+              "
+            >
+              Explore
+              <ArrowRight size={16} />
+            </button>
+
+            <button
+              className="
+                border
+                border-white/40
+                bg-white/10
+                backdrop-blur-md
+                text-white
+                px-5
+                py-3
+                rounded-xl
+                text-sm
+                font-medium
+                flex
+                items-center
+                gap-2
+                hover:bg-white/10
+                transition-all
+              "
+            >
+              Contact
+              <Play size={14} />
+            </button>
+          </motion.div> */}
+
+          {/* 🔥 DESKTOP STATS */}
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9, delay: 0.5 }}
             className="
-              grid
+              hidden md:grid
               grid-cols-2
-              md:grid-cols-4
+              lg:grid-cols-4
               gap-4
               mt-12
             "
@@ -206,6 +274,71 @@ export function HeroSection() {
                 </p>
               </div>
             ))}
+          </motion.div>
+
+          {/* 🔥 MOBILE STATS DESIGN */}
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.9, delay: 0.5 }}
+            className="
+              grid md:hidden
+              grid-cols-2
+              gap-4
+              mt-10
+              max-w-sm
+            "
+          >
+            {stats.map((stat, index) => {
+              const Icon = stat.icon;
+
+              return (
+                <div
+                  key={index}
+                  className="
+                    bg-white/10
+                    backdrop-blur-lg
+                    border
+                    border-white/30
+                    rounded-2xl
+                    px-4
+                    py-5
+                    hover:bg-white/15
+                    transition-all
+                  "
+                >
+                  {/* TOP */}
+                  <div className="flex items-center gap-3">
+                    {/* ICON */}
+                    <div
+                      className="
+                        w-11
+                        h-11
+                        rounded-full
+                        border
+                        border-white/20
+                        bg-[#00A3AD]/20
+                        flex
+                        items-center
+                        justify-center
+                      "
+                    >
+                      <Icon className="w-5 h-5 text-[#00D9E5]" />
+                    </div>
+
+                    {/* VALUE */}
+                    <h3 className="text-[#D4A843] text-xl font-bold">
+                      {stat.value}
+                    </h3>
+                  </div>
+
+                  {/* LABEL */}
+                  <p className="text-white text-sm mt-3 leading-snug">
+                    {stat.label}
+                  </p>
+                </div>
+              );
+            })}
           </motion.div>
         </div>
       </div>

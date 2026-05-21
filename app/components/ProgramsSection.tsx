@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowRight, Search } from "lucide-react";
+import { Search } from "lucide-react";
 import { motion } from "motion/react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
@@ -47,7 +47,7 @@ export function ProgrammesSection() {
   const allCourses = useMemo(() => getAllCourses(), []);
   const results = useMemo(
     () => filterCourses(allCourses, query, "all", { maxSearch: 10 }),
-    [allCourses, query]
+    [allCourses, query],
   );
 
   const hasQuery = query.trim().length > 0;
@@ -64,8 +64,7 @@ export function ProgrammesSection() {
 
     document.addEventListener("mousedown", handlePointerDown);
 
-    return () =>
-      document.removeEventListener("mousedown", handlePointerDown);
+    return () => document.removeEventListener("mousedown", handlePointerDown);
   }, []);
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -86,16 +85,14 @@ export function ProgrammesSection() {
       id="degree-programmes"
     >
       <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12">
-
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
-
-          {/* LEFT IMAGE */}
+          {/* 🔥 LEFT IMAGE */}
           <motion.div
             initial={{ opacity: 0, x: -70 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="order-2 lg:order-1"
+            className="hidden lg:block order-2 lg:order-1"
           >
             <div className="relative overflow-hidden rounded-2xl shadow-2xl">
               <img
@@ -115,7 +112,7 @@ export function ProgrammesSection() {
             </div>
           </motion.div>
 
-          {/* RIGHT CONTENT */}
+          {/* 🔥 RIGHT CONTENT */}
           <motion.div
             initial={{ opacity: 0, x: 70 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -123,10 +120,8 @@ export function ProgrammesSection() {
             viewport={{ once: true }}
             className="order-1 lg:order-2"
           >
-
-            {/* Common Header */}
+            {/* HEADER */}
             <CommonHeader
-              // tag="Academic Programmes"
               title="Find Your Perfect"
               highlight="Degree Programme"
               description=""
@@ -134,22 +129,48 @@ export function ProgrammesSection() {
               align="left"
             />
 
-            {/* Description */}
+            {/* 🔥 MOBILE DESCRIPTION */}
             <motion.p
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.2 }}
               viewport={{ once: true }}
-              className="text-[#475569] text-base leading-8 mt-5 mb-8"
+              className="
+                text-[#475569]
+                text-[15px]
+                leading-7
+                mt-4
+                mb-7
+                md:hidden
+              "
             >
-              Explore future-ready programmes designed to help students
-              build successful global careers. Presidency University
-              offers undergraduate, postgraduate, doctoral, and
-              international pathway programmes with industry-focused
-              learning, modern facilities, and global opportunities.
+              Presidency University offers rigorous academic programmes, global
+              exposure, and industry-driven learning.
             </motion.p>
 
-            {/* Programme Cards */}
+            {/* 🔥 DESKTOP DESCRIPTION */}
+            <motion.p
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7, delay: 0.2 }}
+              viewport={{ once: true }}
+              className="
+                hidden md:block
+                text-[#475569]
+                text-base
+                leading-8
+                mt-5
+                mb-8
+              "
+            >
+              Explore future-ready programmes designed to help students build
+              successful global careers. Presidency University offers
+              undergraduate, postgraduate, doctoral, and international pathway
+              programmes with industry-focused learning, modern facilities, and
+              global opportunities.
+            </motion.p>
+
+            {/* 🔥 PROGRAMME CARDS */}
             <div className="grid grid-cols-2 gap-4 md:gap-5 mb-8">
               {programmes.map((item, index) => (
                 <motion.div
@@ -171,39 +192,19 @@ export function ProgrammesSection() {
                     hover:shadow-xl
                     transition-all
                     duration-300
-                    p-5
-                    md:p-7
+
+                    p-5 md:p-7
                     text-center
                   `}
                 >
                   <h3 className="text-[#1B4E8C] font-semibold text-sm md:text-base leading-snug">
                     {item.title}
                   </h3>
-
-                  {/* Added Button */}
-                  {/* <Link href={item.link}>
-                    <button
-                      className="
-                        mt-4
-                        inline-flex
-                        items-center
-                        gap-2
-                        text-[#F58A3C]
-                        font-medium
-                        text-sm
-                        hover:gap-3
-                        transition-all
-                      "
-                    >
-                      Explore
-                      <ArrowRight size={16} />
-                    </button>
-                  </Link> */}
                 </motion.div>
               ))}
             </div>
 
-            {/* SEARCH */}
+            {/* 🔥 SEARCH */}
             <div className="relative z-20" ref={searchWrapRef}>
               <form onSubmit={handleSubmit}>
                 <div className="relative">
@@ -222,7 +223,7 @@ export function ProgrammesSection() {
                       w-full
                       border
                       border-gray-300
-                      rounded-lg
+                      rounded-xl
                       py-4
                       pl-5
                       pr-14
@@ -254,12 +255,12 @@ export function ProgrammesSection() {
                     "
                     aria-label="Search programmes"
                   >
-                    <Search size={20} />
+                    <Search size={18} />
                   </button>
                 </div>
               </form>
 
-              {/* Search Result Dropdown */}
+              {/* 🔥 SEARCH RESULT */}
               {open && hasQuery ? (
                 <div
                   id="degree-search-results"
@@ -352,8 +353,32 @@ export function ProgrammesSection() {
                 </div>
               ) : null}
 
-              {/* Bottom CTA Button */}
-              <div className="mt-6">
+              {/* 🔥 MOBILE BUTTON */}
+              <div className="mt-5 md:hidden">
+                <button
+                  className="
+                    w-full
+                    bg-[#F58A3C]
+                    hover:bg-[#eb7a28]
+                    text-white
+                    py-4
+                    rounded-xl
+                    font-semibold
+                    text-sm
+                    flex
+                    items-center
+                    justify-center
+                    gap-2
+                    transition-all
+                  "
+                >
+                  SEARCH
+                  <Search size={16} />
+                </button>
+              </div>
+
+              {/* 🔥 DESKTOP BUTTON */}
+              <div className="hidden md:block mt-6">
                 <Link href="/programmes">
                   <button
                     className="
@@ -375,7 +400,6 @@ export function ProgrammesSection() {
                   </button>
                 </Link>
               </div>
-
             </div>
           </motion.div>
         </div>

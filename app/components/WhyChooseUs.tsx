@@ -3,6 +3,8 @@
 import CommonHeader from "@/app/components/CommonHeader";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
+
 import styles from "@/styles/swiper.module.css";
 
 import "swiper/css";
@@ -13,7 +15,7 @@ export function WhyChooseUs() {
   const items = [
     {
       title: "International Pathways",
-      desc: "UG, PG & Doctoral across 10 Schools",
+      desc: "UG, PG & Doctoral across 8 Schools",
       img: "/img/why-choose/004.png",
     },
     {
@@ -54,64 +56,84 @@ export function WhyChooseUs() {
   ];
 
   return (
-    <section
-      className="bg-[#F5F6F8]  py-8 md:py-12 lg:py-16"
-      id="programmes"
-    >
+    <section className="bg-[#F5F6F8] py-8 md:py-12 lg:py-16" id="programmes">
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 md:px-10 w-full">
-        <CommonHeader
-          tag="Why We Stand Out"
-          title="Why Choose"
-          highlight="Presidency"
-          description="When you choose Presidency University, you are choosing more than a degree. You are choosing a community, a city, and a career advantage that few universities in Asia can match."
-          primaryColor="#F58A3C"  
-          secondaryColor="#1B4E8C"
-          align="center"
-        />
+        {/* 🔥 MOBILE HEADER */}
+        <div className="md:hidden">
+          <CommonHeader
+            tag="Why We Stand Out"
+            title="Why Choose"
+            highlight="Presidency"
+            description="More than a degree, Presidency University offers you a community, a city of opportunity, and a career advantage that sets you apart in Asia."
+            primaryColor="#0A8F96"
+            secondaryColor="#1B4E8C"
+            align="center"
+          />
+        </div>
 
-        <div className="mt-6 md:mt-10 relative px-0 sm:px-10 md:px-12 w-full min-w-0 overflow-hidden">
+        {/* 🔥 DESKTOP HEADER */}
+        <div className="hidden md:block">
+          <CommonHeader
+            tag="Why We Stand Out"
+            title="Why Choose"
+            highlight="Presidency"
+            description="When you choose Presidency University, you are choosing more than a degree. You are choosing a community, a city, and a career advantage that few universities in Asia can match."
+            primaryColor="#F58A3C"
+            secondaryColor="#1B4E8C"
+            align="center"
+          />
+        </div>
+
+        {/* 🔥 MOBILE DESIGN */}
+        <div className="md:hidden mt-8">
           <Swiper
             modules={[Pagination, Navigation, Autoplay]}
-            pagination={{ clickable: true }}
-            navigation
-            autoHeight
-            loop={items.length > 4}
+            slidesPerView={1}
+            loop
             autoplay={{
-              delay: 4500,
+              delay: 4000,
               disableOnInteraction: false,
-              pauseOnMouseEnter: true,
             }}
-            spaceBetween={16}
-            slidesPerView={1.15}
-            breakpoints={{
-              480: { slidesPerView: 1.25, spaceBetween: 16 },
-              640: { slidesPerView: 2, spaceBetween: 16 },
-              1024: { slidesPerView: 3, spaceBetween: 20 },
-              1280: { slidesPerView: 4, spaceBetween: 24 },
+            navigation={{
+              nextEl: ".why-mobile-next",
+              prevEl: ".why-mobile-prev",
             }}
-            className={`${styles.whyChooseSwiper} pb-2`}
+            className="pb-2"
           >
             {items.map((item, i) => (
-              <SwiperSlide key={i} className="!h-auto">
+              <SwiperSlide key={i}>
                 <div
-                  className="group relative flex h-full flex-col bg-white rounded-xl md:rounded-2xl shadow-md border-b-4 overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+                  className="
+                    bg-white
+                    rounded-[24px]
+                    overflow-hidden
+                    shadow-md
+                    border-b-4
+                  "
                   style={{
-                    borderBottomColor:
-                      i < items.length / 2 ? "#0A8F96" : "#d4a843",
+                    borderBottomColor: i % 2 === 0 ? "#0A8F96" : "#d4a843",
                   }}
                 >
-                  <div className="w-full shrink-0 bg-[#f4f6f8]">
+                  {/* IMAGE */}
+                  <div className="overflow-hidden">
                     <img
                       src={item.img}
                       alt={item.title}
-                      className="h-auto w-full object-contain object-center group-hover:scale-[1.02] transition duration-500"
+                      className="
+                        w-full
+                        h-[260px]
+                        object-cover
+                      "
                     />
                   </div>
-                  <div className="p-3 md:p-4 shrink-0">
-                    <h4 className="text-xs sm:text-sm md:text-base font-semibold text-gray-800 mb-1 md:mb-2 leading-snug">
+
+                  {/* CONTENT */}
+                  <div className="p-5">
+                    <h4 className="text-[24px] font-semibold text-[#1B1F3B] leading-snug">
                       {item.title}
                     </h4>
-                    <p className="text-xs md:text-sm text-gray-600 leading-relaxed">
+
+                    <p className="text-[#475569] text-sm mt-2 leading-7">
                       {item.desc}
                     </p>
                   </div>
@@ -119,14 +141,138 @@ export function WhyChooseUs() {
               </SwiperSlide>
             ))}
           </Swiper>
+
+          {/* 🔥 CUSTOM NAVIGATION */}
+          <div className="flex items-center justify-center gap-3 mt-5">
+            <button
+              className="
+                why-mobile-prev
+                w-10
+                h-10
+                rounded-full
+                border
+                border-gray-200
+                bg-white
+                flex
+                items-center
+                justify-center
+                text-[#0A8F96]
+                shadow-sm
+              "
+            >
+              <ChevronLeft size={18} />
+            </button>
+
+            <button
+              className="
+                why-mobile-next
+                w-10
+                h-10
+                rounded-full
+                border
+                border-gray-200
+                bg-white
+                flex
+                items-center
+                justify-center
+                text-[#0A8F96]
+                shadow-sm
+              "
+            >
+              <ChevronRight size={18} />
+            </button>
+          </div>
+
+          {/* 🔥 MOBILE BUTTON */}
+          <div className="mt-6">
+            <a href="/about">
+              <button
+                className="
+                  w-full
+                  bg-[#F58A3C]
+                  hover:bg-[#eb7a28]
+                  text-white
+                  py-4
+                  rounded-xl
+                  font-semibold
+                  text-sm
+                  flex
+                  items-center
+                  justify-center
+                  gap-2
+                  transition-all
+                "
+              >
+                KNOW MORE
+                <ArrowRight size={18} />
+              </button>
+            </a>
+          </div>
         </div>
 
-        <div className="flex justify-center mt-6 md:mt-10">
-          <a href="/about">
-            <button className="bg-[#0A8F96] text-white px-8 py-3 rounded-lg text-sm md:text-base font-semibold shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300">
-              Know More
-            </button>
-          </a>
+        {/* 🔥 DESKTOP DESIGN (UNCHANGED) */}
+        <div className="hidden md:block">
+          <div className="mt-6 md:mt-10 relative px-0 sm:px-10 md:px-12 w-full min-w-0 overflow-hidden">
+            <Swiper
+              modules={[Pagination, Navigation, Autoplay]}
+              pagination={{ clickable: true }}
+              navigation
+              autoHeight
+              loop={items.length > 4}
+              autoplay={{
+                delay: 4500,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: true,
+              }}
+              spaceBetween={16}
+              slidesPerView={1.15}
+              breakpoints={{
+                480: { slidesPerView: 1.25, spaceBetween: 16 },
+                640: { slidesPerView: 2, spaceBetween: 16 },
+                1024: { slidesPerView: 3, spaceBetween: 20 },
+                1280: { slidesPerView: 4, spaceBetween: 24 },
+              }}
+              className={`${styles.whyChooseSwiper} pb-2`}
+            >
+              {items.map((item, i) => (
+                <SwiperSlide key={i} className="!h-auto">
+                  <div
+                    className="group relative flex h-full flex-col bg-white rounded-xl md:rounded-2xl shadow-md border-b-4 overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+                    style={{
+                      borderBottomColor:
+                        i < items.length / 2 ? "#0A8F96" : "#d4a843",
+                    }}
+                  >
+                    <div className="w-full shrink-0 bg-[#f4f6f8]">
+                      <img
+                        src={item.img}
+                        alt={item.title}
+                        className="h-auto w-full object-contain object-center group-hover:scale-[1.02] transition duration-500"
+                      />
+                    </div>
+
+                    <div className="p-3 md:p-4 shrink-0">
+                      <h4 className="text-xs sm:text-sm md:text-base font-semibold text-gray-800 mb-1 md:mb-2 leading-snug">
+                        {item.title}
+                      </h4>
+
+                      <p className="text-xs md:text-sm text-gray-600 leading-relaxed">
+                        {item.desc}
+                      </p>
+                    </div>
+                  </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
+
+          <div className="flex justify-center mt-6 md:mt-10">
+            <a href="/about">
+              <button className="bg-[#0A8F96] text-white px-8 py-3 rounded-lg text-sm md:text-base font-semibold shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300">
+                Know More
+              </button>
+            </a>
+          </div>
         </div>
       </div>
     </section>

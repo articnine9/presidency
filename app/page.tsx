@@ -68,7 +68,9 @@ export default function App() {
       {/* Programs Overview */}
       <ProgrammesSection />
 
-      <SchoolsSliderSection />
+      <div className="hidden md:block">
+        <SchoolsSliderSection />
+      </div>
       <PlacementPartnersSection />
       {/* <WhyChooseUs /> */}
       {/* <BangaloreCTASection /> */}
@@ -83,9 +85,15 @@ export default function App() {
       {/* <AmenitiesSection /> */}
 
       {/* <EventsActivitiesSection /> */}
-      <InternationalStudentsSection />
+      <div className="hidden md:block">
+        <InternationalStudentsSection />
+      </div>
+
       <RankingAccreditationSection />
       <WhyChooseUs />
+      <div className="block md:hidden">
+        <InternationalStudentsSection />
+      </div>
       <AdmissionProcessPage />
       {/* <AdmissionProcessSection /> */}
 
