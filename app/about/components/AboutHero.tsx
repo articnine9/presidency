@@ -1,16 +1,19 @@
 "use client";
 import { motion } from "motion/react";
 import { ArrowRight } from "lucide-react";
-import "../../../styles/about.css";
+// import "../../../styles/about.css";
 
 export default function AboutHero() {
-  const breadcrumbs = [{
-    name: "Home", link: "/"
-  },
-  {
-    name: "About", link: "/about"
-  }
-  ]
+  const breadcrumbs = [
+    {
+      name: "Home",
+      link: "/",
+    },
+    {
+      name: "About",
+      link: "/about",
+    },
+  ];
   return (
     <>
       {breadcrumbs && (
@@ -19,9 +22,7 @@ export default function AboutHero() {
             {breadcrumbs.map((item, index, arr) => (
               <span key={index}>
                 {index === 0 ? (
-                  <a href={item.link}>
-                    {item.name}
-                  </a>
+                  <a href={item.link}>{item.name}</a>
                 ) : (
                   <span>{item.name}</span>
                 )}
@@ -34,7 +35,7 @@ export default function AboutHero() {
           </div>
         </div>
       )}
-      <section className="relative flex min-h-[72dvh] w-full items-center justify-center px-4 py-10 sm:min-h-[80dvh] sm:px-6 md:min-h-screen md:py-0 lg:px-8">
+      <section className="relative flex min-h-[85vh] w-full items-end justify-center overflow-hidden px-4 pt-24 sm:min-h-[80dvh] md:min-h-screen lg:px-8">
         {/* Video Background */}
         <div className="absolute inset-0 z-0">
           <img
@@ -59,66 +60,128 @@ export default function AboutHero() {
         </div>
 
         {/* Content */}
-        <div className="relative z-10 mx-auto w-full max-w-[1400px] px-4 sm:px-6 md:px-10">
-          <div className="max-w-4xl">
+        <div className="relative z-10 mx-auto flex w-full max-w-[1400px] items-end px-4 pb-10 sm:px-6 md:px-10 md:pb-16 lg:pb-20">
+          <div className="max-w-3xl">
+            {/* Heading */}
             <motion.h1
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.1 }}
-            className="mb-4 text-3xl text-white sm:mb-6 sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl"
-          >
-            Where Ambition Meets Opportunity
-          </motion.h1>
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.1 }}
+              className="
+        mb-4
+        max-w-[320px]
+        text-[34px]
+        leading-[1.05]
+        tracking-tight
+        text-white
+
+        sm:max-w-xl
+        sm:text-5xl
+
+        md:max-w-3xl
+        md:text-6xl
+
+        lg:text-7xl
+      "
+            >
+              Where Ambition Meets Opportunity
+            </motion.h1>
+
+            {/* Description */}
             <motion.p
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="mb-4 text-base text-white/90 sm:text-lg md:text-xl"
+              className="
+        mb-6
+        max-w-[340px]
+        text-[13px]
+        leading-6
+        text-white/85
+
+        sm:max-w-2xl
+        sm:text-base
+
+        md:text-lg
+      "
             >
-              Presidency University, Bangalore, is a University established under the Karnataka Act 41 of 2013 by the Presidency Group of Institutions — an educational legacy spanning five decades. The university is approved by the University Grants Commission (UGC) of India and is accredited by NAAC (National Assessment and Accreditation Council). It features in the Times Higher Education (THE) World University Rankings, the QS Rankings & Ratings, and the National Institutional Ranking Framework (NIRF).
+              Presidency University, Bangalore, is established under the
+              Karnataka Act 41 of 2013 by the Presidency Group of Institutions,
+              with over 50 years of academic legacy. It is UGC-approved,
+              NAAC-accredited, and featured in leading rankings including QS,
+              NIRF, and THE.
             </motion.p>
-            {/* <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-3xl md:text-4xl text-[#1e3a5f] leading-tight mb-4"
-          >
-            
-            <span className="block text-[#ff8c42]">Our History</span>
-          </motion.h2>
-          <motion.p
+
+            {/* Buttons */}
+            <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-xl md:text-2xl text-white/90 mb-8"
+              transition={{ duration: 0.8, delay: 0.4 }}
+              className="
+        flex
+        flex-col
+        gap-3
+
+        sm:flex-row
+        sm:items-center
+      "
             >
-              Presidency University, Bangalore, is a University established under the Karnataka Act 41 of 2013 by the Presidency Group of Institutions — an educational legacy spanning five decades. The university is approved by the University Grants Commission (UGC) of India and is accredited by NAAC (National Assessment and Accreditation Council). It features in the Times Higher Education (THE) World University Rankings, the QS Rankings & Ratings, and the National Institutional Ranking Framework (NIRF).
-            </motion.p> */}
+              <button
+                type="button"
+                className="
+          flex
+          h-[52px]
+          w-full
+          items-center
+          justify-center
+          gap-2
+          rounded-xl
+          bg-[#0A8F96]
+          px-6
+          text-sm
+          font-medium
+          text-white
+          transition-all
+          duration-300
+          hover:bg-[#0BB5B5]
+          hover:shadow-2xl
 
+          sm:w-auto
+          sm:px-8
+          sm:text-base
+        "
+              >
+                Explore Career Outcomes
+                <ArrowRight size={18} />
+              </button>
 
+              <button
+                type="button"
+                className="
+    hidden
+    sm:flex
+    h-[52px]
+    items-center
+    justify-center
+    rounded-xl
+    border
+    border-white/30
+    bg-white/10
+    px-8
+    text-base
+    font-medium
+    text-white
+    backdrop-blur-md
+    transition-all
+    duration-300
+    hover:bg-white/20
+  "
+              >
+                Request Information
+              </button>
+            </motion.div>
           </div>
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-            className="mb-5 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-4"
-          >
-            <button
-              type="button"
-              className="flex w-full items-center justify-center gap-2 rounded-lg bg-[#0A8F96] px-6 py-3.5 text-base text-white transition-all duration-300 hover:scale-105 hover:bg-[#0BB5B5] hover:shadow-xl sm:w-auto sm:px-8 sm:py-4 sm:text-lg"
-            >
-              Explore Programmes
-              <ArrowRight size={22} />
-            </button>
-            <button
-              type="button"
-              className="flex w-full items-center justify-center gap-2 rounded-lg border-2 border-white px-6 py-3.5 text-base text-white backdrop-blur-sm transition-all duration-300 hover:scale-105 hover:bg-white/10 sm:w-auto sm:px-8 sm:py-4 sm:text-lg"
-            >
-              Request Information
-            </button>
-          </motion.div>
         </div>
-
       </section>
       {/* <section className="w-full py-10 px-6 bg-[#0F1E3D]">
       <div className="max-w-[1400px] mx-auto">

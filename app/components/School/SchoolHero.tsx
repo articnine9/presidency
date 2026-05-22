@@ -1,5 +1,7 @@
 "use client";
+
 import { motion } from "framer-motion";
+import { GraduationCap, BookOpen, Rocket, ArrowRight } from "lucide-react";
 
 type SchoolHeroProps = {
   data: {
@@ -18,15 +20,22 @@ type SchoolHeroProps = {
 };
 
 export default function SchoolHero({ data }: SchoolHeroProps) {
+  const icons = [
+    <BookOpen size={18} />,
+    <GraduationCap size={18} />,
+    <Rocket size={18} />,
+  ];
+
   return (
     <>
       {/* 🔹 BREADCRUMB */}
       {data.breadcrumb && (
         <div className="bg-[#f5f7fa] py-3">
-          <div className="max-w-[1400px] mx-auto px-4 md:px-6 text-xs md:text-sm text-gray-600 flex flex-wrap">
+          <div className="mx-auto flex max-w-[1400px] flex-wrap px-4 text-xs text-gray-600 md:px-6 md:text-sm">
             {data.breadcrumb.map((item, index, arr) => (
               <span key={index}>
                 {item}
+
                 {index !== arr.length - 1 && (
                   <span className="mx-2 text-gray-400">›</span>
                 )}
@@ -36,73 +45,238 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
         </div>
       )}
 
-      {/* 🔥 HERO */}
-      <section className="relative min-h-screen w-full overflow-hidden !content-center">
-        {/* Background Image */}
+      {/* ================= HERO ================= */}
+      <section
+        className="
+          relative
+          w-full
+          overflow-hidden
+
+          min-h-[860px]
+
+          md:min-h-screen
+        "
+      >
+        {/* BACKGROUND IMAGE */}
         <img
           src={data.image || "/img/law.jpg"}
           alt=""
           className="absolute inset-0 h-full w-full object-cover"
         />
 
-        {/* Dark Overlay */}
-        <div className="absolute inset-0 bg-black/55" />
+        {/* OVERLAY */}
+        <div className="absolute inset-0 bg-black/60" />
 
-        {/* Content */}
-        <div className="relative z-10 mx-auto flex h-full max-w-[1400px] flex-col justify-center px-6 md:px-14">
-          {/* Left Content */}
-          <div className="max-w-[520px]">
+        {/* MOBILE OVERLAY */}
+        <div
+          className="
+            absolute
+            inset-0
+            bg-gradient-to-t
+            from-[#081C33]/95
+            via-[#081C33]/55
+            to-black/20
+
+            md:hidden
+          "
+        />
+
+        {/* CONTENT */}
+        <div
+          className="
+            relative
+            z-10
+            mx-auto
+            flex
+            min-h-[860px]
+            max-w-[1400px]
+            flex-col
+            justify-end
+            px-4
+            pb-8
+            pt-28
+
+            md:h-full
+            md:min-h-screen
+            md:justify-center
+            md:px-14
+            md:pb-0
+          "
+        >
+          {/* LEFT CONTENT */}
+          <div className="max-w-[560px]">
+            {/* TITLE */}
             <motion.h1
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
-              className="text-white leading-tight text-4xl md:text-6xl font-semibold"
+              className="
+                text-[42px]
+                font-semibold
+                leading-[0.95]
+                tracking-tight
+                text-white
+
+                md:text-6xl
+              "
             >
               {data.title.normal}
+
               <br />
+
               <span className="italic font-light">{data.title.italic}</span>
             </motion.h1>
 
+            {/* DESCRIPTION */}
             <motion.p
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1 }}
-              className="mt-5 text-sm md:text-base leading-relaxed text-white/80"
+              className="
+                mt-5
+                max-w-[520px]
+                text-[13px]
+                leading-8
+                text-white/80
+
+                md:text-base
+                md:leading-relaxed
+              "
             >
               {data.description}
             </motion.p>
 
-            {/* CTA */}
+            {/* BUTTON */}
             <motion.button
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
-              className="mt-7 inline-flex items-center gap-2 rounded-md bg-[#0097A7] px-6 py-3 text-sm font-medium text-white transition hover:bg-[#00b7c9]"
+              className="
+                mt-7
+                flex
+                h-[52px]
+                w-full
+                items-center
+                justify-center
+                gap-2
+                rounded-xl
+                bg-[#0097A7]
+                text-sm
+                font-medium
+                text-white
+                transition-all
+                duration-300
+                hover:bg-[#00b7c9]
+
+                md:inline-flex
+                md:w-auto
+                md:rounded-md
+                md:px-6
+              "
             >
               HOW TO APPLY
-              <span>→</span>
+              <ArrowRight size={16} />
             </motion.button>
           </div>
 
-          {/* Stats Cards */}
+          {/* ================= MOBILE STATS ================= */}
           {data.stats && (
-            <div className="mt-16 flex flex-wrap gap-5">
+            <div
+              className="
+                mt-5
+                flex
+                flex-col
+                gap-3
+
+                md:hidden
+              "
+            >
               {data.stats.map((stat, index) => (
                 <motion.div
                   key={index}
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: 0.3 + index * 0.1 }}
+                  transition={{
+                    delay: 0.3 + index * 0.1,
+                  }}
                   className="
-              w-[180px]
-              rounded-xl
-              border border-white/20
-              bg-white/10
-              backdrop-blur-md
-              px-6
-              py-7
-              text-center
-              text-white
-            "
+                    flex
+                    items-center
+                    gap-4
+                    rounded-2xl
+                    border
+                    border-white/30
+                    bg-white/10
+                    px-4
+                    py-4
+                    backdrop-blur-md
+                  "
+                >
+                  {/* ICON */}
+                  <div
+                    className="
+                      flex
+                      h-10
+                      w-10
+                      items-center
+                      justify-center
+                      rounded-xl
+                      bg-[#00A8B5]/20
+                      text-[#35C0C8]
+                    "
+                  >
+                    {icons[index % icons.length]}
+                  </div>
+
+                  {/* TEXT */}
+                  <div>
+                    <h3
+                      className="
+                        text-[24px]
+                        font-semibold
+                        leading-none
+                        text-[#D4A843]
+                      "
+                    >
+                      {stat.value}
+                    </h3>
+
+                    <p
+                      className="
+                        mt-1
+                        text-[12px]
+                        text-white/75
+                      "
+                    >
+                      {stat.label}
+                    </p>
+                  </div>
+                </motion.div>
+              ))}
+            </div>
+          )}
+
+          {/* ================= DESKTOP STATS ================= */}
+          {data.stats && (
+            <div className="mt-16 hidden flex-wrap gap-5 md:flex">
+              {data.stats.map((stat, index) => (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{
+                    delay: 0.3 + index * 0.1,
+                  }}
+                  className="
+                    w-[180px]
+                    rounded-xl
+                    border border-white/20
+                    bg-white/10
+                    px-6
+                    py-7
+                    text-center
+                    text-white
+                    backdrop-blur-md
+                  "
                 >
                   <h3 className="text-4xl font-semibold text-[#D4A843]">
                     {stat.value}

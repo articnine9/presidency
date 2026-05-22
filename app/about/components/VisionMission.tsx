@@ -6,159 +6,177 @@ import CommonHeader from "@/app/components/CommonHeader";
 
 export default function VisionMission() {
   return (
-   <section className="relative overflow-hidden bg-white py-12 md:py-16 lg:py-24">
+    <section className="relative overflow-hidden bg-white py-12 md:py-16 lg:py-24">
       <div className="mx-auto max-w-[1400px] px-4 sm:px-6">
-
-         <CommonHeader
-                  tag="Vision, Mission & Values"
-                  title="The Core of "
-                  highlight="Presidency"
-                  description={`At the heart of the University lies a commitment to vision, mission, and values that inspire innovation, guide growth, and create lasting impact.`}
-                  primaryColor="#ff8c42"
-                  secondaryColor="#1e3a5f"
-                  align="center"
-                />
+        <CommonHeader
+          tag="Vision, Mission & Values"
+          title="The Core of "
+          highlight="Presidency"
+          description={`At the heart of the University lies a commitment to vision, mission, and values that inspire innovation, guide growth, and create lasting impact.`}
+          primaryColor="#ff8c42"
+          secondaryColor="#1e3a5f"
+          align="center"
+        />
         {/* 🔹 TITLE */}
-       
 
         {/* 🔥 CARDS */}
-        < div 
-        
-        
-        className="grid md:grid-cols-3 gap-6">
-      
-          {/* <div className="relative rounded-xl overflow-hidden shadow-md">
-            <img
-              src="/img/about/vision.jpg"
-              className="w-full h-[180px] object-cover"
-            />
+        <div className="grid gap-5 md:grid-cols-3 md:gap-6">
+          {/* Vision */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            whileHover={{ y: -15 }}
+            className="
+      rounded-[22px]
+      border
+      border-[#0A8F96]/10
+      border-b-[4px]
+      border-b-[#0A8F96]
+      bg-[#f8fcfc]
+      p-5
+      shadow-sm
+      transition-all
+      duration-300
+      hover:shadow-xl
 
-        
-            <div className="absolute inset-0 bg-black/50 flex items-end p-4">
-              <h3 className="text-white font-semibold text-sm">VISION</h3>
+      md:rounded-xl
+      md:bg-white
+      md:p-8
+    "
+          >
+            <div className="mb-4 flex items-center gap-3">
+              <div className="flex h-9 w-9 items-center justify-center rounded-full bg-[#0A8F96]/10">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5 text-[#0A8F96]"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8S1 12 1 12z"
+                  />
+                  <circle cx="12" cy="12" r="3" />
+                </svg>
+              </div>
+
+              <h3 className="text-lg font-semibold text-[#1e3a5f]">Vision</h3>
             </div>
-          </div> */}
 
-          {/* 🟡 VISION CARD */}
-
-           <motion.div 
-           initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            whileHover={{ y: -15}}
-                className={`bg-white shadow-md rounded-xl p-8 border-b-4  border-b-[#0A8F96] hover:shadow-xl transition`}>
-            
-            <h3 className="text-lg font-semibold text-[#1e3a5f]">
-                  Vision
-                </h3>
-
-           <p className="space-y-3 text-base text-gray-600 max-w-md">
-            To be an internationally networked research university, dedicated to research-oriented teaching and the holistic development of students as global citizens.
-          </p>
+            <p className="text-[13px] leading-7 text-gray-600 md:text-base">
+              To be an internationally networked research university, dedicated
+              to research-oriented teaching and the holistic development of
+              students as global citizens.
+            </p>
           </motion.div>
 
-
-
-          {/* 🟡 MISSION CARD */}
-          <motion.div 
-           initial={{ opacity: 0, y: 20 }}
+          {/* Mission */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            whileHover={{ y: -15}}
-                className={`bg-white shadow-md rounded-xl p-8 border-b-4  border-b-[#0A8F96] hover:shadow-xl transition`}>
-             <h3 className="text-lg font-semibold text-[#1e3a5f]">
-                  Mission
-                </h3>
+            whileHover={{ y: -15 }}
+            className="
+      rounded-[22px]
+      border
+      border-[#d4a017]/10
+      border-b-[4px]
+      border-b-[#d4a017]
+      bg-[#fffdf8]
+      p-5
+      shadow-sm
+      transition-all
+      duration-300
+      hover:shadow-xl
 
-            {/* <ul className="space-y-3 text-sm text-gray-600">
-              <li className="flex items-start gap-2">
-                <CheckCircle size={16} className="text-[#c4a45b] mt-1" />
-                <span>
-                  <strong>Fomentment of mission</strong>
-                  <br />
-                  Mission-driven motivations
-                </span>
-              </li>
+      md:rounded-xl
+      md:bg-white
+      md:p-8
+    "
+          >
+            <div className="mb-4 flex items-center gap-3">
+              <div className="flex h-9 w-9 items-center justify-center rounded-full bg-[#d4a017]/10">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5 text-[#d4a017]"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M12 8v4l3 3"
+                  />
+                  <circle cx="12" cy="12" r="9" />
+                </svg>
+              </div>
 
-              <li className="flex items-start gap-2">
-                <CheckCircle size={16} className="text-[#c4a45b] mt-1" />
-                <span>
-                  <strong>Reequipments</strong>
-                  <br />
-                  Innovation possibilities
-                </span>
-              </li>
+              <h3 className="text-lg font-semibold text-[#1e3a5f]">Mission</h3>
+            </div>
 
-              <li className="flex items-start gap-2">
-                <CheckCircle size={16} className="text-[#c4a45b] mt-1" />
-                <span>
-                  <strong>Excellences</strong>
-                  <br />
-                  Innovation standards
-                </span>
-              </li>
-            </ul> */}
-            <p className="space-y-3 text-base text-gray-600 max-w-md">
-            To provide an academically excellent and globally connected environment that empowers students to think critically, innovate boldly, and lead with integrity.
-          </p>
+            <p className="text-[13px] leading-7 text-gray-600 md:text-base">
+              To provide an academically excellent and globally connected
+              environment that empowers students to think critically, innovate
+              boldly, and lead with integrity.
+            </p>
           </motion.div>
 
-          {/* 🟢 VALUES CARD */}
-          <motion.div 
-           initial={{ opacity: 0, y: 20 }}
+          {/* Values */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-           whileHover={{ y: -15}}
-                className={`bg-white shadow-md rounded-xl p-8 border-b-4  border-b-[#0A8F96] hover:shadow-xl transition`}>
-             <h3 className="text-lg font-semibold text-[#1e3a5f]">
-                  Values
-                </h3>
+            whileHover={{ y: -15 }}
+            className="
+      rounded-[22px]
+      border
+      border-[#ff8c42]/10
+      border-b-[4px]
+      border-b-[#ff8c42]
+      bg-[#fffaf7]
+      p-5
+      shadow-sm
+      transition-all
+      duration-300
+      hover:shadow-xl
 
-            <ul className="space-y-3 text-base text-gray-600">
-              <li className="flex items-start gap-2">
-                <CheckCircle size={16} className="text-[#ff8c42] mt-1" />
-                <span>
-                  
-                 Academic Excellence 
-                </span>
-              </li>
+      md:rounded-xl
+      md:bg-white
+      md:p-8
+    "
+          >
+            <div className="mb-4 flex items-center gap-3">
+              <div className="flex h-9 w-9 items-center justify-center rounded-full bg-[#ff8c42]/10">
+                <CheckCircle size={18} className="text-[#ff8c42]" />
+              </div>
 
-              <li className="flex items-start gap-2">
-                <CheckCircle size={16} className="text-[#ff8c42] mt-1" />
-                <span>
-                 
-                  Global Outlook
-                </span>
-              </li>
+              <h3 className="text-lg font-semibold text-[#1e3a5f]">Values</h3>
+            </div>
 
-              <li className="flex items-start gap-2">
-                <CheckCircle size={16} className="text-[#ff8c42] mt-1" />
-                <span>
-                  
-                  Inclusivity & Diversity
-                </span>
-              </li>
-               <li className="flex items-start gap-2">
-                <CheckCircle size={16} className="text-[#ff8c42] mt-1" />
-                <span>
-                  
-                 Innovation & Entrepreneurship
-                </span>
-              </li>
-               <li className="flex items-start gap-2">
-                <CheckCircle size={16} className="text-[#ff8c42] mt-1" />
-                <span>
-                  
-                 Integrity & Ethics
-                </span>
-              </li>
-               <li className="flex items-start gap-2">
-                <CheckCircle size={16} className="text-[#ff8c42] mt-1" />
-                <span>
-                  
-                 Social Responsibility
-                </span>
-              </li>
+            <ul className="space-y-3 text-[13px] text-gray-600 md:text-base">
+              {[
+                "Academic Excellence",
+                "Global Outlook",
+                "Inclusivity & Diversity",
+                "Innovation & Entrepreneurship",
+                "Integrity & Ethics",
+                "Social Responsibility",
+              ].map((item, index) => (
+                <li key={index} className="flex items-center gap-3">
+                  <CheckCircle
+                    size={15}
+                    className="mt-[2px] shrink-0 text-[#ff8c42]"
+                  />
+
+                  <span>{item}</span>
+                </li>
+              ))}
             </ul>
           </motion.div>
         </div>

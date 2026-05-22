@@ -10,6 +10,7 @@ import {
   CheckCircle,
   Video,
   Award,
+  PhoneCall,
 } from "lucide-react";
 import CommonHeader from "@/app/components/CommonHeader";
 
@@ -53,7 +54,68 @@ export default function ApplicationSteps({ data }: any) {
           align="center"
           primaryColor="#0a8f96"
         />
+        {/* ================= MOBILE CONTACT CARD ================= */}
+        <div className="mt-8 block md:hidden">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="
+              rounded-2xl
+              bg-[#0A8F96]
+              p-5
+              text-white
+              shadow-xl
+            "
+          >
+            <h3
+              className="
+                text-[26px]
+                font-semibold
+                leading-[1.2]
+              "
+            >
+              Get Personalized
+              <br />
+              Application Guidance
+            </h3>
 
+            <p
+              className="
+                mt-4
+                text-[13px]
+                leading-7
+                text-white/90
+              "
+            >
+              Speak with our international admissions team before you apply.
+              We'll help you choose the right programme, review your
+              eligibility, and guide you through the next steps.
+            </p>
+
+            <button
+              className="
+                mt-6
+                flex
+                h-[54px]
+                w-full
+                items-center
+                justify-center
+                gap-2
+                rounded-xl
+                border
+                border-white/40
+                bg-transparent
+                text-sm
+                font-medium
+                text-white
+              "
+            >
+              CONTACT US
+              <PhoneCall size={16} />
+            </button>
+          </motion.div>
+        </div>
         {/* 🔥 MOBILE: stacked timeline (icon + card) */}
         <div className="mt-10 space-y-6 md:hidden">
           {data.steps.map((step: any, index: number) => {
