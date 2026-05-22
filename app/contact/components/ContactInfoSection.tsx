@@ -1,38 +1,32 @@
 "use client";
 
-import {
-  Mail,
-  Phone,
-  MapPin,
-  Globe,
-  Facebook,
-  Instagram,
-  Linkedin,
-  Youtube,
-  Twitter,
-} from "lucide-react";
-import CommonHeader from "@/app/components/CommonHeader";
+import { Mail, Phone, MapPin, Globe } from "lucide-react";
+
 import Image from "next/image";
 
 export default function ContactInfoSection() {
   return (
     <>
       {/* ================= CONTACT ================= */}
-      <section className="bg-[#fff] py-24">
-        <div className="max-w-[1400px] mx-auto px-6">
-          {/* HEADER */}
+      <section className="bg-[#fff] py-16 md:py-24">
+        <div className="mx-auto max-w-[1400px] px-4 sm:px-6">
+          {/* ================= HEADER ================= */}
           <div className="text-center">
             {/* TAG */}
             <span
               className="
-          inline-block
-          rounded-md
-          bg-[#FFF1E8]
-          px-4 py-2
-          text-xs
-          font-medium
-          text-[#F58233]
-        "
+                inline-block
+                rounded-xl
+                bg-[#EAF7F8]
+                px-4
+                py-2
+                text-[11px]
+                font-medium
+                text-[#00A8B5]
+
+                md:rounded-md
+                md:text-xs
+              "
             >
               Contact Details
             </span>
@@ -40,27 +34,253 @@ export default function ContactInfoSection() {
             {/* TITLE */}
             <h2
               className="
-          mt-5
-          text-4xl
-          md:text-5xl
-          font-semibold
-          text-[#183153]
-        "
+                mt-5
+                text-[38px]
+                font-semibold
+                leading-[1.15]
+                tracking-tight
+                text-[#183153]
+
+                md:text-5xl
+              "
             >
-              Connect With Our Admissions Team
+              Get in Touch with Us
             </h2>
           </div>
 
-          {/* MAIN GRID */}
-          <div className="mt-14 grid gap-8 md:grid-cols-2">
+          {/* ================= MOBILE VIEW ================= */}
+          <div className="mt-10 block md:hidden">
+            {/* MAIN CARD */}
+            <div
+              className="
+                overflow-hidden
+                rounded-2xl
+                bg-white
+                shadow-lg
+              "
+            >
+              {/* IMAGE */}
+              <div className="relative h-[220px] w-full">
+                <Image
+                  src="/img/contact/hero-bg.webp"
+                  alt="International Students"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+
+              {/* BLUE PANEL */}
+              <div className="bg-[#183153] px-5 py-6 text-white">
+                <h3
+                  className="
+                    text-[24px]
+                    font-semibold
+                    leading-[1.3]
+                  "
+                >
+                  Office of International Affairs (OIA)
+                </h3>
+
+                <p
+                  className="
+                    mt-4
+                    text-[13px]
+                    leading-7
+                    text-white/80
+                  "
+                >
+                  For international student enquiries, collaborations, and
+                  partnerships.
+                </p>
+
+                {/* CONTACT ITEMS */}
+                <div className="mt-6 space-y-5">
+                  <a
+                    href="mailto:admission@presidency.international"
+                    className="
+                      flex
+                      items-center
+                      gap-3
+                      text-[13px]
+                      text-white/90
+                    "
+                  >
+                    <Mail size={16} className="text-[#35C0C8]" />
+                    admission@presidency.international
+                  </a>
+
+                  <a
+                    href="tel:+919022092222"
+                    className="
+                      flex
+                      items-center
+                      gap-3
+                      text-[13px]
+                      text-white/90
+                    "
+                  >
+                    <Phone size={16} className="text-[#35C0C8]" />
+                    +91 9022092222
+                  </a>
+
+                  <a
+                    href="https://presidency.international"
+                    target="_blank"
+                    className="
+                      flex
+                      items-center
+                      gap-3
+                      text-[13px]
+                      text-white/90
+                    "
+                  >
+                    <Globe size={16} className="text-[#35C0C8]" />
+                    presidency.international
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* ADMISSIONS OFFICE */}
+            <div
+              className="
+                mt-5
+                rounded-2xl
+                bg-[#F7F8FA]
+                px-5
+                py-6
+              "
+            >
+              <h3
+                className="
+                  text-[26px]
+                  font-semibold
+                  text-[#183153]
+                "
+              >
+                Admissions Office
+              </h3>
+
+              <div className="mt-6 space-y-5">
+                <div
+                  className="
+                    flex
+                    items-center
+                    gap-3
+                    text-[13px]
+                    text-gray-600
+                  "
+                >
+                  <Phone size={16} className="text-[#00A8B5]" />
+                  +91 9022092222
+                </div>
+
+                <div
+                  className="
+                    flex
+                    items-center
+                    gap-3
+                    text-[13px]
+                    text-gray-600
+                  "
+                >
+                  <Phone size={16} className="text-[#00A8B5]" />
+                  +91 9024060000
+                </div>
+
+                <div
+                  className="
+                    flex
+                    items-center
+                    gap-3
+                    text-[13px]
+                    text-gray-600
+                  "
+                >
+                  <Mail size={16} className="text-[#00A8B5]" />
+                  admission@presidency.international
+                </div>
+
+                <div
+                  className="
+                    flex
+                    items-center
+                    gap-3
+                    text-[13px]
+                    text-gray-600
+                  "
+                >
+                  <Globe size={16} className="text-[#00A8B5]" />
+                  apply.presidency.international
+                </div>
+              </div>
+            </div>
+
+            {/* CAMPUS ADDRESS */}
+            <div
+              className="
+                mt-5
+                rounded-2xl
+                bg-[#F7F8FA]
+                px-5
+                py-6
+              "
+            >
+              <h3
+                className="
+                  text-[26px]
+                  font-semibold
+                  text-[#183153]
+                "
+              >
+                Main Campus Address
+              </h3>
+
+              <div
+                className="
+                  mt-6
+                  flex
+                  items-start
+                  gap-3
+                  text-[13px]
+                  leading-7
+                  text-gray-600
+                "
+              >
+                <MapPin size={16} className="mt-1 text-[#00A8B5]" />
+
+                <div>
+                  Presidency University Rajanukunte, Yelahanka Bengaluru –
+                  560119 India
+                </div>
+              </div>
+
+              <div
+                className="
+                  mt-6
+                  flex
+                  items-center
+                  gap-3
+                  text-[13px]
+                  text-gray-600
+                "
+              >
+                <Phone size={16} className="text-[#00A8B5]" />
+                +91 080-23093500
+              </div>
+            </div>
+          </div>
+
+          {/* ================= DESKTOP VIEW ================= */}
+          <div className="hidden md:grid md:grid-cols-2 md:gap-8 mt-14">
             {/* LEFT CARD */}
             <div
               className="
-          overflow-hidden
-          rounded-2xl
-          bg-white
-          shadow-lg
-        "
+                overflow-hidden
+                rounded-2xl
+                bg-white
+                shadow-lg
+              "
             >
               {/* IMAGE */}
               <div className="relative h-[240px] w-full">
@@ -118,12 +338,12 @@ export default function ContactInfoSection() {
               {/* ADMISSION OFFICE */}
               <div
                 className="
-            rounded-2xl
-            border border-gray-200
-            bg-white
-            px-8 py-7
-            shadow-md
-          "
+                  rounded-2xl
+                  border border-gray-200
+                  bg-white
+                  px-8 py-7
+                  shadow-md
+                "
               >
                 <h3 className="text-xl font-semibold text-[#183153]">
                   Admissions Office
@@ -155,18 +375,18 @@ export default function ContactInfoSection() {
               {/* CAMPUS ADDRESS */}
               <div
                 className="
-            rounded-2xl
-            border border-gray-200
-            bg-white
-            px-8 py-7
-            shadow-md
-          "
+                  rounded-2xl
+                  border border-gray-200
+                  bg-white
+                  px-8 py-7
+                  shadow-md
+                "
               >
                 <h3 className="text-xl font-semibold text-[#183153]">
                   Main Campus Address
                 </h3>
 
-                <div className="mt-6 flex items-start gap-3 text-sm text-gray-600 leading-7">
+                <div className="mt-6 flex items-start gap-3 text-sm leading-7 text-gray-600">
                   <MapPin size={16} className="mt-1 text-[#F58233]" />
 
                   <div>
@@ -185,8 +405,6 @@ export default function ContactInfoSection() {
           </div>
         </div>
       </section>
-
-      {/* ================= SOCIAL ================= */}
     </>
   );
 }

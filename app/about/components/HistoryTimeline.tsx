@@ -1,4 +1,5 @@
 "use client";
+
 import {
   ChevronLeft,
   ChevronRight,
@@ -24,10 +25,15 @@ export default function HistoryTimeline() {
 
   const getScrollStep = () => {
     if (!scrollRef.current) return 280;
+
     const step = scrollRef.current.querySelector(
       "[data-timeline-step]",
     ) as HTMLElement | null;
-    return step?.getBoundingClientRect().width ?? Math.round(window.innerWidth * 0.45);
+
+    return (
+      step?.getBoundingClientRect().width ??
+      Math.round(window.innerWidth * 0.45)
+    );
   };
 
   const scroll = (direction: ScrollDirection) => {
@@ -41,36 +47,41 @@ export default function HistoryTimeline() {
     });
   };
 
-  // Smooth continuous auto-scroll
+  // Auto Scroll
   const startAutoScroll = () => {
-    if (autoScrollInterval.current) clearInterval(autoScrollInterval.current);
+    if (autoScrollInterval.current) {
+      clearInterval(autoScrollInterval.current);
+    }
 
     autoScrollInterval.current = setInterval(() => {
       if (!isUserInteracting.current && scrollRef.current) {
         const { scrollLeft, scrollWidth, clientWidth } = scrollRef.current;
+
         const maxScroll = scrollWidth - clientWidth;
 
         if (scrollLeft >= maxScroll - 5) {
-          // Instantly reset to start without animation for seamless loop
           scrollRef.current.style.scrollBehavior = "auto";
           scrollRef.current.scrollLeft = 0;
-          // Force reflow to ensure smooth reset
+
           void scrollRef.current.offsetHeight;
+
           scrollRef.current.style.scrollBehavior = "smooth";
         } else {
           const step = scrollRef.current.querySelector(
             "[data-timeline-step]",
           ) as HTMLElement | null;
+
           const scrollAmount =
             step?.getBoundingClientRect().width ??
             Math.round(window.innerWidth * 0.45);
+
           scrollRef.current.scrollBy({
             left: scrollAmount,
             behavior: "smooth",
           });
         }
       }
-    }, 3000); // Scroll every 3 seconds for smoother experience
+    }, 3000);
   };
 
   const stopAutoScroll = () => {
@@ -80,12 +91,11 @@ export default function HistoryTimeline() {
     }
   };
 
-  // Handle user interaction
   const handleUserInteraction = (direction: ScrollDirection) => {
     isUserInteracting.current = true;
+
     scroll(direction);
 
-    // Restart auto-scroll after 8 seconds of inactivity
     if (autoScrollInterval.current) {
       clearInterval(autoScrollInterval.current);
       autoScrollInterval.current = null;
@@ -97,7 +107,6 @@ export default function HistoryTimeline() {
     }, 8000);
   };
 
-  // Start auto-scroll on mount
   useEffect(() => {
     startAutoScroll();
 
@@ -108,7 +117,6 @@ export default function HistoryTimeline() {
     };
   }, []);
 
-  // Pause auto-scroll on hover
   const handleMouseEnter = () => {
     isUserInteracting.current = true;
     stopAutoScroll();
@@ -121,7 +129,7 @@ export default function HistoryTimeline() {
     }, 2000);
   };
 
-  // Icon mapping based on title or year
+  // Icons
   const getIcon = (title: string, year: string) => {
     const iconProps = { size: 32, color: "white" };
 
@@ -130,12 +138,13 @@ export default function HistoryTimeline() {
     if (title.includes("University")) return <Library {...iconProps} />;
     if (title.includes("St Paul")) return <Landmark {...iconProps} />;
 
-    // Map by decade
     const yearNum = parseInt(year);
+
     if (yearNum < 1980) return <GraduationCap {...iconProps} />;
     if (yearNum < 1990) return <BookOpen {...iconProps} />;
     if (yearNum < 2000) return <Users {...iconProps} />;
     if (yearNum < 2010) return <Trophy {...iconProps} />;
+
     return <Award {...iconProps} />;
   };
 
@@ -145,7 +154,11 @@ export default function HistoryTimeline() {
       title: "Presidency School",
       subtitle: "Nandini Layout (ICSE)",
     },
-    { year: "1980", title: "Presidency School", subtitle: "R T Nagar (ICSE)" },
+    {
+      year: "1980",
+      title: "Presidency School",
+      subtitle: "R T Nagar (ICSE)",
+    },
     {
       year: "1983",
       title: "St Paul's English School",
@@ -156,7 +169,11 @@ export default function HistoryTimeline() {
       title: "Presidency College",
       subtitle: "Kempapura, Hebbal",
     },
-    { year: "2001", title: "Presidency School", subtitle: "Mangalore (CBSE)" },
+    {
+      year: "2001",
+      title: "Presidency School",
+      subtitle: "Mangalore (CBSE)",
+    },
     {
       year: "2006",
       title: "Presidency Jr. College",
@@ -182,8 +199,16 @@ export default function HistoryTimeline() {
       title: "Presidency University",
       subtitle: "Yelahanka, Bengaluru",
     },
-    { year: "2019", title: "Presidency PU College", subtitle: "Mangalore" },
-    { year: "2019", title: "Presidency PU College", subtitle: "Kogilu" },
+    {
+      year: "2019",
+      title: "Presidency PU College",
+      subtitle: "Mangalore",
+    },
+    {
+      year: "2019",
+      title: "Presidency PU College",
+      subtitle: "Kogilu",
+    },
     {
       year: "2021",
       title: "Presidency School",
@@ -191,18 +216,18 @@ export default function HistoryTimeline() {
     },
   ];
 
-  // Duplicate timeline for seamless infinite scroll effect
   const duplicatedTimeline = [...timeline, ...timeline];
 
   return (
     <section className="bg-[#F5F6F8] py-12 md:py-16 lg:py-24">
       <div className="mx-auto w-full max-w-[1400px] px-4 sm:px-6 md:px-10">
+        {/* Header */}
         <div className="mb-10 text-center md:mb-16">
           <motion.span
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="inline-block bg-[#0A8F96]/10 text-[#0A8F96] px-4 py-2 rounded-lg text-sm mb-4"
+            className="inline-block rounded-xl bg-[#0A8F96]/10 px-4 py-2 text-sm text-[#0A8F96] mb-4"
           >
             Our History & Mission
           </motion.span>
@@ -211,7 +236,13 @@ export default function HistoryTimeline() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-3xl md:text-4xl text-[#1e3a5f]"
+            className="
+              text-[32px]
+              leading-[1.15]
+              text-[#1e3a5f]
+
+              md:text-4xl
+            "
           >
             University's
             <span className="block text-[#0A8F96]">Journey and growth</span>
@@ -222,70 +253,141 @@ export default function HistoryTimeline() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
             viewport={{ once: true }}
-            className="text-gray-600 mt-4 max-w-5xl mx-auto text-sm md:text-lg"
+            className="
+              mx-auto
+              mt-4
+              max-w-5xl
+              text-[13px]
+              leading-7
+              text-gray-600
+
+              md:text-lg
+            "
           >
             The Presidency Group of Institutions was founded over 50 years ago
             with a singular mission: to nurture talent and transform students
             into successful professionals and responsible global citizens.
-            Today, the Group comprises eight schools, four colleges, and
-            Presidency University — a comprehensive university offering
-            programmes from undergraduate through doctoral level.
           </motion.p>
         </div>
 
+        {/* Timeline */}
         <div
           ref={scrollRef}
           className="overflow-x-auto scroll-smooth scrollbar-hide"
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
-          style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
+          style={{
+            scrollbarWidth: "none",
+            msOverflowStyle: "none",
+          }}
         >
-          <div className="flex min-w-max items-center px-3 py-6 sm:px-6">
+          <div className="flex min-w-max items-start px-2 py-4 sm:items-center sm:px-6 sm:py-6">
             {duplicatedTimeline.map((item, index, arr) => (
               <div
                 key={index}
                 data-timeline-step
-                className="flex shrink-0 items-center"
+                className="flex shrink-0 items-start sm:items-center"
               >
-                {/* Timeline Card — max-sm: ~half viewport so two milestones show */}
+                {/* Card */}
                 <div
-                  data-timeline-card
-                  className="flex max-w-[210px] shrink-0 flex-col items-center text-center max-sm:w-[calc((100vw-5.5rem)/2)] sm:w-[220px] md:w-[260px]"
+                  className="
+                    flex
+                    w-[140px]
+                    shrink-0
+                    flex-col
+                    items-center
+                    text-center
+
+                    sm:w-[220px]
+                    md:w-[260px]
+                  "
                 >
+                  {/* Icon */}
                   <motion.div
                     initial={{ opacity: 0, scale: 0.8 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.4 }}
                     viewport={{ once: true }}
-                    className="mb-4 flex h-14 w-14 shrink-0 items-center justify-center rounded-full shadow-lg sm:mb-8 sm:h-20 sm:w-20 [&_svg]:max-sm:h-7 [&_svg]:max-sm:w-7"
-                    style={{ backgroundColor: "#1B4E8C" }}
+                    className="
+                      mb-3
+                      flex
+                      h-12
+                      w-12
+                      items-center
+                      justify-center
+                      rounded-full
+                      bg-[#0A8F96]
+                      shadow-md
+
+                      sm:mb-8
+                      sm:h-20
+                      sm:w-20
+
+                      [&_svg]:h-5
+                      [&_svg]:w-5
+
+                      sm:[&_svg]:h-8
+                      sm:[&_svg]:w-8
+                    "
                   >
                     {getIcon(item.title, item.year)}
                   </motion.div>
 
+                  {/* Year */}
                   <motion.span
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    className="mb-4 inline-block max-w-full break-words rounded-lg bg-[#ff8c42]/10 px-2 py-1.5 text-xs font-semibold text-[#ff8c42] sm:px-4 sm:py-2 sm:text-sm"
+                    className="
+                      mb-3
+                      rounded-full
+                      bg-[#ff8c42]/10
+                      px-3
+                      py-1
+                      text-[11px]
+                      font-semibold
+                      text-[#ff8c42]
+
+                      sm:px-4
+                      sm:py-2
+                      sm:text-sm
+                    "
                   >
                     {item.year}
                   </motion.span>
 
+                  {/* Title */}
                   <motion.h3
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    className="mb-1 max-w-full break-words text-xs font-semibold text-[#1e3a5f] sm:text-sm md:text-base"
+                    className="
+                      mb-1
+                      px-1
+                      text-[11px]
+                      font-semibold
+                      leading-[1.4]
+                      text-[#1e3a5f]
+
+                      sm:text-sm
+                      md:text-base
+                    "
                   >
                     {item.title}
                   </motion.h3>
 
+                  {/* Subtitle */}
                   <motion.p
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    className="max-w-full break-words text-[11px] leading-snug text-gray-500 sm:text-sm"
+                    className="
+                      text-[10px]
+                      leading-[1.5]
+                      text-gray-500
+
+                      sm:text-sm
+                    "
                   >
                     {item.subtitle}
                   </motion.p>
@@ -293,29 +395,64 @@ export default function HistoryTimeline() {
 
                 {/* Connecting Line */}
                 {index !== arr.length - 1 && (
-                  <div className="mx-1 h-[2px] w-6 shrink-0 bg-gradient-to-r from-gray-300 to-gray-400 sm:mx-2 sm:w-16 md:mx-4 md:w-24"></div>
+                  <div
+                    className="
+                      mx-2
+                      mt-6
+                      h-[2px]
+                      w-5
+                      shrink-0
+                      bg-gray-300
+
+                      sm:mx-4
+                      sm:mt-0
+                      sm:w-24
+                    "
+                  />
                 )}
               </div>
             ))}
           </div>
         </div>
 
-        {/* Navigation Arrows */}
-        <div className="flex justify-end mt-8 gap-3">
+        {/* Navigation */}
+        <div className="mt-6 flex justify-center gap-3 sm:mt-8 sm:justify-end">
           <button
             onClick={() => handleUserInteraction("left")}
-            className="bg-[#0A8F96] hover:bg-[#0A8F96]/80 rounded-full p-2 shadow-lg transition-all duration-300 hover:scale-110"
-            aria-label="Scroll left"
+            className="
+              rounded-full
+              border
+              border-gray-200
+              bg-white
+              p-2
+              shadow-sm
+              transition-all
+              duration-300
+              hover:scale-105
+              hover:bg-[#0A8F96]
+              hover:text-white
+            "
           >
-            <ChevronLeft className="text-white" size={20} />
+            <ChevronLeft size={18} />
           </button>
 
           <button
             onClick={() => handleUserInteraction("right")}
-            className="bg-[#0A8F96] hover:bg-[#0A8F96]/80 rounded-full p-2 shadow-lg transition-all duration-300 hover:scale-110"
-            aria-label="Scroll right"
+            className="
+              rounded-full
+              border
+              border-gray-200
+              bg-white
+              p-2
+              shadow-sm
+              transition-all
+              duration-300
+              hover:scale-105
+              hover:bg-[#0A8F96]
+              hover:text-white
+            "
           >
-            <ChevronRight className="text-white" size={20} />
+            <ChevronRight size={18} />
           </button>
         </div>
       </div>
