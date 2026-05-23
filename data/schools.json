@@ -925,7 +925,7 @@
             "breadcrumb": [
               "Home",
               "Schools",
-              "Computer Science & Engineering",
+              "Information Science ",
               "B.Tech AI & ML"
             ],
             "stats": [
@@ -7193,16 +7193,11 @@
           "degree": "Bachelor of Technology",
           "hero": {
             "title": {
-              "normal": "B.Tech Electronics & Communication",
-              "italic": " Engineering"
+              "normal": "Bachelor of Computer Applications ",
+              "italic": ""
             },
-            "description": "Build a strong foundation in computing, AI, and modern software technologies.",
-            "breadcrumb": [
-              "Home",
-              "Schools",
-              "Computer Science & Engineering",
-              "B.Tech CSE"
-            ],
+            "description": "Launch your career in software and technology. This three-year programme builds strong foundations in programming, databases, networking, and software development — equipping you with the practical application skills sought by the IT and ITES industries across India and internationally.",
+            "breadcrumb": ["Home", "Schools", "Information Science", "BCA"],
             "stats": [
               {
                 "label": "Duration",
@@ -7219,13 +7214,13 @@
             ]
           },
           "details": {
-            "duration": "4 Years Full-Time",
+            "duration": "3 Years Full-Time",
             "campus": "Bengaluru, India",
-            "school": "Computer Science & Engineering"
+            "school": "Information Science"
           },
           "overview": [
-            "The B.Tech in Electronics & Communication Engineering explores the design, development, and deployment of electronic devices, circuits, and communication systems that underpin modern life. From mobile networks and satellite communications to embedded controllers and IoT devices, the programme builds expertise across analogue and digital electronics, signal processing, wireless systems, VLSI technology, and microcontroller-based design. Students gain fluency in both hardware and software aspects of electronic engineering through an integrated curriculum of theory, laboratory practice, and project work.",
-            "Bengaluru’s position as a centre for semiconductor manufacturing, telecom R&D, and electronics innovation gives students proximity to major employers and research organisations. The programme incorporates industry-oriented certifications, collaborative projects, and internship placements that connect classroom learning to professional practice. Graduates emerge prepared for roles in telecommunications, semiconductor design, consumer electronics, aerospace, defence, and automation industries worldwide."
+            " The Bachelor of Computer Applications programme is designed to meet the skill requirements of the rapidly growing IT and ITES industries. The curriculum covers computer algorithms and programming, database management systems, computer networks, internet technologies, cloud computing, and mobile application development. Students progress from foundational topics in C programming, applied mathematics, and web development in the first year through Java, database administration, operating systems, and software engineering in the second year, culminating in cloud computing, machine learning, Android development, and a capstone project in the final year.",
+            "The programme follows a practice-driven approach, with students introduced to business problem-solving through coding platforms such as CodeChef and HackerRank from the first year. Laboratory sessions, real-world projects, internships, and industry certification pathways ensure that graduates possess both theoretical knowledge and the applied skills that employers value. Bengaluru’s technology ecosystem provides direct access to internship and employment opportunities with software companies, IT services firms, start-ups, and digital agencies."
           ],
           "eligibility": {
             "title": "Eligibility Criteria",
@@ -7274,22 +7269,17 @@
                 {
                   "id": "PEO 1",
                   "title": "Professional Excellence",
-                  "text": "Equip graduates to thrive as professionals across industries worldwide."
+                  "text": "Prepare graduates who demonstrate success as computer  professionals with innovative AI skills, strong moral values, and ethical standards. "
                 },
                 {
                   "id": "PEO 2",
-                  "title": "Responsible Citizenship",
-                  "text": "Develop graduates who contribute to society as ethical global citizens."
+                  "title": "Software development Competence ",
+                  "text": "Develop graduates who engage in lifelong learning through AI  and software development, staying current with rapidly  evolving technologies. "
                 },
                 {
                   "id": "PEO 3",
-                  "title": "Analytical & Collaborative Skills",
-                  "text": "Foster strong analytical reasoning and teamwork."
-                },
-                {
-                  "id": "PEO 4",
-                  "title": "Lifelong Learning",
-                  "text": "Encourage continuous learning and professional growth."
+                  "title": "Leadership &  Entrepreneurship  ",
+                  "text": "Foster graduates who serve as leaders through AI consulting, research activities, and entrepreneurial ventures in intelligent systems. "
                 }
               ],
               "POs": [
@@ -7345,107 +7335,118 @@
               "PSOs": [
                 {
                   "id": "PSO 1",
-                  "title": "Problem Analysis",
-                  "text": "Identify, formulate, and critically analyse complex engineering problems related to software engineering principles, programming, and computing technologies using first principles of mathematics, natural sciences, and engineering. ."
+                  "title": "Software Development",
+                  "text": "Ability to design, develop, and maintain software applications and systems using modern programming languages, tools, and frameworks. "
                 },
                 {
                   "id": "PSO 2",
-                  "title": "Solution Development",
-                  "text": "Design solutions for complex problems related to software engineering, programming, and computing — including system components and processes that address specified needs while considering public health, safety, and environmental factors."
+                  "title": "Web & Mobile Development ",
+                  "text": "Competence in building and maintaining websites, web applications, and mobile applications using current industry technologies. "
                 },
                 {
                   "id": "PSO 3",
-                  "title": "Modern Tool Application",
-                  "text": "Create, select, and apply appropriate techniques, resources, and modern engineering tools — including prediction and modelling — to complex engineering activities related to software engineering, programming, and computing with an understanding of their capabilities and limitations."
+                  "title": "IT Infrastructure Management ",
+                  "text": "Skill in managing databases, networks, and systems with understanding of security measures to protect data and infrastructure."
                 }
               ]
             }
           },
           "highlights": [
             {
-              "title": "Comprehensive Core Curriculum",
-              "description": "Covers the full spectrum of computer science — programming, data structures, AI, ML, cyber security, cloud computing, IoT, and blockchain — with regular updates to reflect global industry trends. "
+              "title": "Comprehensive IT Curriculum",
+              "description": "Covers programming, database management, networking, software development, cloud computing, and cybersecurity across six semesters. "
             },
             {
-              "title": "Innovation-Driven Culture ",
-              "description": "A strong culture of hackathons, coding competitions, and project-based learning provides platforms to transform concepts into tangible solutions. "
+              "title": "Practice-First Pedagogy ",
+              "description": "Students engage with coding platforms, real-world projects, and hands-on laboratory work from the first year of the programme. "
             },
             {
-              "title": "Industry Expert Faculty ",
-              "description": "Faculty members bring real-world experience from active industry consulting, offering mentorship and insights that extend well beyond academic theory."
+              "title": "Industry Certification Pathways  ",
+              "description": "Preparation for professional certifications alongside academic coursework, enhancing employability upon graduation"
             },
             {
-              "title": "Global Internship & Exchange",
-              "description": "International internship placements and study-abroad partnerships broaden professional networks and enhance career mobility across global markets."
+              "title": "Super-60 Advanced Training",
+              "description": "High-performing students are selected for an accelerated skills programme targeting higher-level career opportunities and salary packages."
             },
             {
-              "title": "Professional Certifications ",
-              "description": "Earn industry-recognised credentials alongside your degree, including AWS, Google Cloud, Microsoft Azure, and other globally valued certifications."
+              "title": "Global AI Hub Certification ",
+              "description": "Partnership with a Switzerland-based organisation providing AI and data science certification recognised by international employers. "
             },
             {
-              "title": "Bengaluru Tech Ecosystem ",
-              "description": "Study in India’s technology capital — home to thousands of multinational tech firms, start-ups, and R&D centres — with direct access to internship and employment pipelines."
+              "title": "CODEATHON & Competitive Programming ",
+              "description": "Regular coding competitions and skill-based events that build problem-solving speed and collaborative development experience."
             },
             {
-              "title": "Strong Placement Track Record ",
-              "description": "Graduates are recruited by leading organisations including major IT companies, product firms, start-ups, and consulting organisations through dedicated placement drives."
+              "title": "Bengaluru Tech Ecosystem Access ",
+              "description": "Direct proximity to India’s largest technology hub, providing internship, networking, and employment opportunities with leading IT companies. "
             },
             {
-              "title": "Research & Publication Pathways ",
-              "description": "Faculty-guided research projects with opportunities for peer-reviewed publications and patent filings in emerging technology areasy."
+              "title": "Nationally Ranked Programme ",
+              "description": "BCA programme ranked 27th nationally among the Top 100 BCA Colleges and Universities in India. "
             }
           ],
           "careers": [
             {
-              "category": "Core Roles",
+              "category": "Software Development ",
               "roles": [
                 "Software Developer",
-                "Full Stack Developer",
-                "Backend Engineer"
+                "Application Developer",
+                "Front-End Developer",
+                "Back-End Developer",
+                "Full-Stack Developer"
               ]
             },
             {
-              "category": "Emerging Roles",
+              "category": "Data & Analytics",
               "roles": [
-                "AI Engineer",
-                "Machine Learning Engineer",
-                "Data Scientist"
+                "Data Analyst",
+                "Data Scientist",
+                "Data Visualisation Specialist",
+                "Business Intelligence Developer"
               ]
             },
             {
-              "category": "Emerging Technology ",
+              "category": "Web & Mobile  ",
               "roles": [
-                "IoT Solutions Engineer",
-                "AI Hardware Engineer",
-                "Robotics Systems Developer",
-                "Edge Computing Specialist"
+                "Web Developer",
+                " Mobile App Developer",
+                "UI/UX Developer."
+              ]
+            },
+            {
+              "category": "IT Infrastructure   ",
+              "roles": [
+                "System Administrator",
+                " Database Administrator",
+                " Network Engineer",
+                "Cybersecurity Analyst. "
               ]
             }
           ],
           "faq": [
             {
-              "q": "What is eligibility?",
-              "a": "10+2 with PCM."
+              "q": "What is the difference between BCA and B.Tech in Computer Science?",
+              "a": " BCA is a three-year programme focused on computer applications, software development, and IT skills. B.Tech CSE is a four-year engineering degree with deeper coverage of hardware, mathematics, and engineering fundamentals. BCA is ideal for students seeking a faster path into the IT industry; B.Tech provides broader engineering foundations for those interested in research or engineering roles. "
             },
             {
-              "q": "How do international students apply for the B.Tech CSE programme?",
-              "a": "International applicants should visit the Presidency University International admissions portal or contact the Office of International Affairs directly. The process typically involves submitting academic transcripts, proof of English language proficiency, and relevant entrance examination scores. Admission considers JEE Main, KCET, COMEDK, or the university’s own evaluation test."
+              "q": "What are the eligibility requirements for international applicants? ",
+              "a": "Candidates must have passed 10+2 or an equivalent examination from any recognised board with a minimum of 40% marks in aggregate. International applicants should confirm specific documentation requirements with the Office of International Affairs."
             },
             {
-              "q": "What entrance examinations are accepted?",
-              "a": "The university accepts JEE Main, JEE Advanced, Karnataka CET (KCET), COMEDK UGET, and the Presidency University Entrance Examination Test (PUEET). International applicants should check with the admissions team whether alternative qualifications are accepted."
+              "q": "Do I need prior programming experience?",
+              "a": "No. The programme builds programming skills from foundational levels. Students with a basic interest in computers, technology, and logical thinking will find the curriculum accessible and progressively challenging."
             },
             {
-              "q": " What career prospects are available after graduation?",
-              "a": "Graduates find roles as software developers, data scientists, AI engineers, cybersecurity specialists, cloud architects, and more across multinational IT companies, product firms, start-ups, government research bodies, and consulting organisations. The university’s placement cell maintains strong industry connections with regular on-campus recruitment drives.  "
+              "q": " What is the Super-60 training programme?",
+              "a": "Super-60 is an advanced employability programme that identifies high-performing students in the sixth semester and provides specialised training designed to prepare them for higher-level career opportunities and premium salary packages.  "
             },
             {
-              "q": "Is the B.Tech CSE programme in demand globally? ",
-              "a": "Yes, B.Tech in Computer Science & Engineering remains one of the most in-demand degrees worldwide due to the growing need for tech professionals across every industry. Graduates are hired for roles spanning software development, data science, AI, and cybersecurity, with strong salary prospects and global career mobility. "
+              "q": "What are the typical starting salaries for BCA graduates?",
+              "a": "Starting compensation for BCA graduates in India typically ranges from INR 3–5 LPA. Graduates with specialised skills in data science, AI, or full-stack development may command higher starting packages. International compensation varies by location and role. "
             },
             {
-              "q": "Is on-campus accommodation available for international students? ",
-              "a": "Presidency University offers dedicated student housing on its Bengaluru campus. International students are encouraged to contact the Office of International Affairs for information on hostel availability, room types, and the booking process."
+              "q": " Is on-campus accommodation available for international students? ",
+              "a": "Presidency University provides student housing. Contact the Office of International Affairs for details on availability and booking."
             }
           ],
           "cta": {
@@ -7455,7 +7456,7 @@
           }
         },
         {
-          "slug": "bca-AL-ML",
+          "slug": "bca-ai-ml",
           "name": "B.C.A. Artificial Intelligence and Machine Learning",
           "duration": "3 Years.Full-Time",
           "type": "UG",
@@ -7525,16 +7526,16 @@
           "overview": "Master SEO, social media marketing, content strategy, and online branding."
         },
         {
-          "slug": "bba-digital-business",
-          "name": "BBA Digital Business",
+          "slug": "ba-jmc-film",
+          "name": "BA Journalism & Mass Communication (Film & Television Production)",
           "duration": "3 Years",
           "type": "UG",
-          "degree": "Bachelor of Business Administration",
-          "overview": "Learn e-commerce, digital transformation, and online business models."
+          "degree": "Bachelor of Arts",
+          "overview": "Develop skills in filmmaking, video production, editing, and storytelling."
         },
         {
-          "slug": "bba-hospitality",
-          "name": "BBA Hospitality Management",
+          "slug": "ba-jmc-ar-vr",
+          "name": "BA Journalism & Mass Communication (AR/VR & Immersive Media)",
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Business Administration",
@@ -7557,24 +7558,263 @@
           "overview": "Learn branding, consumer behavior, digital marketing, and strategic marketing."
         },
         {
-          "slug": "mba-banking-finance",
-          "name": "MBA Banking & Finance Management",
-          "duration": "2 Years",
-          "type": "PG",
-          "degree": "Master of Business Administration",
-          "overview": "Specialise in banking operations, financial services, and risk management."
+          "slug": "ba-jmc-content",
+          "name": "BA Journalism & Mass Communication (Digital Storytelling & Content Creation)",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Arts",
+          "overview": "Create engaging content for digital platforms including blogs, video, and social media."
         },
         {
-          "slug": "mba-digital-marketing",
-          "name": "MBA Digital Marketing",
-          "duration": "2 Years",
-          "type": "PG",
-          "degree": "Master of Business Administration",
-          "overview": "Advanced strategies in SEO, performance marketing, and digital business growth."
+          "slug": "ba-jmc-journalism",
+          "name": "BA Journalism & Mass Communication (Journalism)",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Arts",
+
+          "hero": {
+            "title": {
+              "normal": "  BA Journalism & Mass Communication  ",
+              "italic": ""
+            },
+            "description": " Master the skills to inform, engage, and influence audiences across every media platform. This three-year programme combines traditional journalism principles with cutting-edge media technology — offering five specialisation tracks that prepare you for careers across news, advertising, PR, film, immersive media, and digital content creation. ",
+            "breadcrumb": ["Home", "Schools", " Media Studies", "  BA JMC "],
+            "stats": [
+              { "label": "Duration", "value": "3 Yr" },
+              { "label": "Semesters", "value": "5" },
+              { "label": "Core Programme", "value": "BA JMC  " }
+            ]
+          },
+
+          "details": {
+            "duration": "3 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "Media Studies  "
+          },
+
+          "overview": [
+            "The BA in Journalism and Mass Communication at Presidency School of Media Studies offers a cutting-edge curriculum that combines the core principles of traditional journalism with the latest advancements in media technology. Students engage in hands-on training across print, electronic, and digital media — mastering reporting, writing, editing, broadcasting, and real-time storytelling. The curriculum also integrates filmmaking, data journalism, mobile journalism, and social media management, equipping students to produce fact-based stories with impact across platforms.  ",
+            "The programme features five specialisation tracks enabling students to develop expertise in their chosen area while maintaining a holistic understanding of the media landscape: Digital Marketing & Advertising / Public Relations & Corporate Communication; Film, Television & Digital Production; Immersive Media, AR/VR & Interactive Storytelling; and Digital Storytelling & Content Creation. Through workshops, internships, and live projects, the programme prepares students for real-world media careers with skills in research, ethical reporting, broadcast techniques, content strategy, and audience engagement. "
+          ],
+
+          "eligibility": {
+            "title": "Eligibility",
+            "description": "Candidates must have passed 10+2 with 45% aggregate marks (with English) or equivalent. 40% for reserved category candidates. International applicants should confirm documentation requirements with the Office of International Affairs.",
+            "note": ""
+          },
+
+          "tabs": {
+            "curriculum": [
+              {
+                "semester": "semester1",
+                "modules": [
+                  { "name": "", "code": "" },
+                  { "name": "", "code": "" },
+                  { "name": "", "code": "" }
+                ]
+              },
+              {
+                "semester": "semester2",
+                "modules": [
+                  { "name": "", "code": "" },
+                  { "name": "", "code": "" },
+                  { "name": "", "code": "" }
+                ]
+              }
+            ],
+
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Media Foundations ",
+                  "text": "Prepare graduates who understand the nature and core concepts of communication, journalism, advertising, corporate communication, electronic media, new media, and communication research.  "
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Contextual Analysis   ",
+                  "text": "Develop graduates who can analyse contemporary media in the context of India’s socio-political environment and its relationships with other nations.  "
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Production Skills ",
+                  "text": "Foster graduates who can perform professional activities in audio-visual programme production, print media software, web design, reporting, editing, and journal design. "
+                }
+              ],
+
+              "POs": [
+                {
+                  "id": "PO 1",
+
+                  "text": "Demonstrate comprehensive knowledge of journalism, mass communication, and media studies theory and practice.  "
+                },
+                {
+                  "id": "PO 2",
+
+                  "text": "Apply ethical standards and media law principles in professional journalism and content creation.  "
+                },
+                {
+                  "id": "PO 3",
+
+                  "text": "Produce professional-quality content across print, broadcast, digital, and social media platforms.  "
+                },
+                {
+                  "id": "PO 4",
+
+                  "text": "Apply research methodology and data analysis skills to media and communication projects.  "
+                },
+                {
+                  "id": "PO 5",
+
+                  "text": "Demonstrate effective interpersonal and professional communication across media contexts "
+                },
+                {
+                  "id": "PO 6",
+
+                  "text": "Exhibit leadership qualities and visionary thinking to inspire media teams and organisations.  "
+                },
+                {
+                  "id": "PO 7",
+
+                  "text": "Engage in continuous learning, updating knowledge, skills, and technologies throughout career.  "
+                }
+              ],
+
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Journalism Knowledge  ",
+                  "text": "Ability to exhibit sound understanding and knowledge of journalism and mass communication theory, history, and practice  "
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Industry Competence ",
+                  "text": "Competence to explore career opportunities aligned with the demands and requirements of the media industry across platforms.   "
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Research & InnovationCreative & Critical Thinking  ",
+                  "text": "Ability to think critically and creatively, demonstrating curiosity to discover new horizons in journalism and mass communication.  "
+                }
+              ]
+            }
+          },
+
+          "highlights": [
+            {
+              "title": "Five Specialisation Tracks ",
+              "description": "Choose from general journalism, digital marketing/PR, film/TV production, immersive media (AR/VR), or digital storytelling."
+            },
+            {
+              "title": "Professional Media Studios   ",
+              "description": "TV, radio, and digital editing studios with professional-grade equipment for broadcast and multimedia production training.   "
+            },
+            {
+              "title": "Professional Media Studios  ",
+              "description": "Training across print, electronic, digital, and mobile journalism — mastering multi-platform storytelling and content delivery. "
+            },
+            {
+              "title": "Data & Mobile Journalism  ",
+              "description": "Modules covering data journalism techniques and mobile journalism (MoJo) reflecting contemporary newsroom practices. "
+            },
+            {
+              "title": "Filmmaking Integration    ",
+              "description": "Film production skills including screenwriting, cinematography, editing, and post-production integrated into the curriculum."
+            },
+            {
+              "title": "AR/VR & Immersive Media Track ",
+              "description": "Cutting-edge specialisation in augmented reality, virtual reality, and interactive storytelling — a distinctive and future-oriented offering.   "
+            },
+            {
+              "title": "Industry Internships & Live Projects   ",
+              "description": "Hands-on experience through media internships, live reporting assignments, and professional content production. "
+            },
+            {
+              "title": "Ethical Media Practice  ",
+              "description": "Strong emphasis on media ethics, responsible reporting, fact checking, and audience-centric journalism throughout the programme.  "
+            }
+          ],
+
+          "careers": [
+            {
+              "category": "Journalism & News   ",
+              "roles": [
+                "News Reporter",
+                "Editor",
+                "Broadcast Journalist",
+                "Data Journalist",
+                "Mobile Journalist."
+              ]
+            },
+            {
+              "category": "Advertising & PR  ",
+              "roles": [
+                "Advertising Executive",
+                "PR Manager",
+                "Corporate Communication Specialist",
+                "Crisis Communication Consultant. "
+              ]
+            },
+            {
+              "category": "Film & Production ",
+              "roles": [
+                "Film Director",
+                "TV Producer",
+                "Documentary Filmmaker",
+                "Screenwriter",
+                "Video Editor "
+              ]
+            },
+            {
+              "category": "Digital & Content   ",
+              "roles": [
+                "Content Strategist",
+                "Social Media Manager",
+                "Podcaster",
+                "Digital Storyteller",
+                "Influencer",
+                "AR/VR Content Creator"
+              ]
+            }
+          ],
+
+          "faq": [
+            {
+              "q": "  What are the eligibility requirements for international applicants? ",
+              "a": "Candidates must have passed 10+2 with 45% aggregate marks (with English) or equivalent. 40% for reserved category candidates. International applicants should confirm documentation requirements with the Office of International Affairs. "
+            },
+            {
+              "q": " When do I choose my specialisation?    ",
+              "a": "Students begin with core journalism and communication foundations before selecting their specialisation track. The specific timing should be confirmed with the school during orientation.  "
+            },
+            {
+              "q": "  Is the AR/VR & Immersive Media track available for all students?",
+              "a": "  Yes. All five specialisation tracks are available as options within the BA JMC programme. The immersive media track is a distinctive offering that positions graduates for emerging roles in spatial storytelling and interactive content.  "
+            },
+            {
+              "q": "   What is the starting salary for journalism graduates?",
+              "a": "  Starting compensation varies widely by role and platform. Entry-level media positions in India typically start from INR 3–6 LPA, with digital content and PR roles often at the higher end. Independent content creators have variable income potential.  "
+            },
+            {
+              "q": "  Can I pursue an MA after this programme?  ",
+              "a": "  Yes. Graduates can pursue the MA Journalism & Mass Communication at Presidency or other institutions for advanced study and career progression.  "
+            },
+            {
+              "q": "   Is on-campus accommodation available for international students?  ",
+              "a": "Presidency University provides student housing. Contact the Office of International Affairs for details."
+            }
+          ],
+
+          "cta": {
+            "title": "Your Future Starts Here",
+            "subtitle": "Join Presidency University and build your career in technology.",
+            "button": "Apply Now"
+          }
         },
+
         {
-          "slug": "mba-business-analytics",
-          "name": "MBA Business Analytics",
+          "slug": "ma-jmc",
+          "name": "MA Journalism & Mass Communication",
           "duration": "2 Years",
           "type": "PG",
           "degree": "Master of Business Administration",
