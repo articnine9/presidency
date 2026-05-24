@@ -3589,7 +3589,10 @@
             },
             {
               "category": " Applied AI",
-              "roles": ["Computer Vision Engineer", "AI Product Manager"]
+              "roles": [
+                "Computer Vision Engineer",
+                "AI Product Manager"
+              ]
             },
             {
               "category": " Emerging and Academic",
@@ -4618,11 +4621,17 @@
             },
             {
               "category": " Cloud and Infrastructure  ",
-              "roles": ["Cloud Data Engineer", "Database Administrator"]
+              "roles": [
+                "Cloud Data Engineer",
+                "Database Administrator"
+              ]
             },
             {
               "category": " Emerging Roles",
-              "roles": ["ML Engineer  ", "Real-Time Analytics Developerr "]
+              "roles": [
+                "ML Engineer  ",
+                "Real-Time Analytics Developerr "
+              ]
             }
           ],
           "faq": [
@@ -5024,7 +5033,12 @@
               "italic": " Engineering"
             },
             "description": "Power the world’s critical infrastructure. This four-year programme covers electrical machines, power systems, control engineering, and electronics — preparing you for careers in energy generation, distribution, automation, and the growing electric vehicle sector.",
-            "breadcrumb": ["Home", "Schools", "Engineering", "B.Tech EEE "],
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Engineering",
+              "B.Tech EEE "
+            ],
             "stats": [
               {
                 "label": "Duration",
@@ -5273,7 +5287,12 @@
               "italic": " Engineering"
             },
             "description": " Design the chips powering tomorrow’s technology. This specialised four-year programme focuses on integrated circuit design, semiconductor physics, FPGA prototyping, and electronic system verification — preparing you for careers at the heart of the global semiconductor industry. ",
-            "breadcrumb": ["Home", "Schools", "Engineering", "B.Tech VLSI "],
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Engineering",
+              "B.Tech VLSI "
+            ],
             "stats": [
               {
                 "label": "Duration",
@@ -5510,7 +5529,12 @@
               "italic": " Engineering"
             },
             "description": " Shape the built environment. This four-year programme covers structural design, geotechnical engineering, transportation systems, and sustainable construction — preparing you to plan and build the infrastructure that connects communities and drives economic development.  ",
-            "breadcrumb": ["Home", "Schools", "Engineering", " B.Tech Civil  "],
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Engineering",
+              " B.Tech Civil  "
+            ],
             "stats": [
               {
                 "label": "Duration",
@@ -6483,7 +6507,12 @@
               "italic": " Engineering"
             },
             "description": " Advance your expertise in semiconductor design and embedded computing. This two-year postgraduate programme provides specialised training in VLSI design methodology, FPGA development, SoC architecture, and embedded systems — preparing you for senior roles in the global semiconductor industry. ",
-            "breadcrumb": ["Home", "Schools", "Engineering", " M.Tech BCT  "],
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Engineering",
+              " M.Tech BCT  "
+            ],
             "stats": [
               {
                 "label": "Duration",
@@ -6988,7 +7017,11 @@
           "italic": "Information Science"
         },
         "description": "Step into the digital future with application-focused computing programmes. From software development and data science to artificial intelligence and cybersecurity, our school prepares international students with the practical skills and industry-ready expertise that technology employers seek worldwide.",
-        "breadcrumb": ["Home", "Schools", "Engineering"],
+        "breadcrumb": [
+          "Home",
+          "Schools",
+          "Engineering"
+        ],
         "image": "/img/classes/1.jpg",
         "stats": [
           {
@@ -7197,7 +7230,12 @@
               "italic": ""
             },
             "description": "Launch your career in software and technology. This three-year programme builds strong foundations in programming, databases, networking, and software development — equipping you with the practical application skills sought by the IT and ITES industries across India and internationally.",
-            "breadcrumb": ["Home", "Schools", "Information Science", "BCA"],
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Information Science",
+              "BCA"
+            ],
             "stats": [
               {
                 "label": "Duration",
@@ -7571,58 +7609,84 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
-
           "hero": {
             "title": {
               "normal": "  BA Journalism & Mass Communication  ",
               "italic": ""
             },
             "description": " Master the skills to inform, engage, and influence audiences across every media platform. This three-year programme combines traditional journalism principles with cutting-edge media technology — offering five specialisation tracks that prepare you for careers across news, advertising, PR, film, immersive media, and digital content creation. ",
-            "breadcrumb": ["Home", "Schools", " Media Studies", "  BA JMC "],
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              " Media Studies",
+              "  BA JMC "
+            ],
             "stats": [
-              { "label": "Duration", "value": "3 Yr" },
-              { "label": "Semesters", "value": "5" },
-              { "label": "Core Programme", "value": "BA JMC  " }
+              {
+                "label": "Duration",
+                "value": "3 Yr"
+              },
+              {
+                "label": "Semesters",
+                "value": "5"
+              },
+              {
+                "label": "Core Programme",
+                "value": "BA JMC  "
+              }
             ]
           },
-
           "details": {
             "duration": "3 Years Full-Time",
             "campus": "Bengaluru, India",
             "school": "Media Studies  "
           },
-
           "overview": [
             "The BA in Journalism and Mass Communication at Presidency School of Media Studies offers a cutting-edge curriculum that combines the core principles of traditional journalism with the latest advancements in media technology. Students engage in hands-on training across print, electronic, and digital media — mastering reporting, writing, editing, broadcasting, and real-time storytelling. The curriculum also integrates filmmaking, data journalism, mobile journalism, and social media management, equipping students to produce fact-based stories with impact across platforms.  ",
             "The programme features five specialisation tracks enabling students to develop expertise in their chosen area while maintaining a holistic understanding of the media landscape: Digital Marketing & Advertising / Public Relations & Corporate Communication; Film, Television & Digital Production; Immersive Media, AR/VR & Interactive Storytelling; and Digital Storytelling & Content Creation. Through workshops, internships, and live projects, the programme prepares students for real-world media careers with skills in research, ethical reporting, broadcast techniques, content strategy, and audience engagement. "
           ],
-
           "eligibility": {
             "title": "Eligibility",
             "description": "Candidates must have passed 10+2 with 45% aggregate marks (with English) or equivalent. 40% for reserved category candidates. International applicants should confirm documentation requirements with the Office of International Affairs.",
             "note": ""
           },
-
           "tabs": {
             "curriculum": [
               {
                 "semester": "semester1",
                 "modules": [
-                  { "name": "", "code": "" },
-                  { "name": "", "code": "" },
-                  { "name": "", "code": "" }
+                  {
+                    "name": "",
+                    "code": ""
+                  },
+                  {
+                    "name": "",
+                    "code": ""
+                  },
+                  {
+                    "name": "",
+                    "code": ""
+                  }
                 ]
               },
               {
                 "semester": "semester2",
                 "modules": [
-                  { "name": "", "code": "" },
-                  { "name": "", "code": "" },
-                  { "name": "", "code": "" }
+                  {
+                    "name": "",
+                    "code": ""
+                  },
+                  {
+                    "name": "",
+                    "code": ""
+                  },
+                  {
+                    "name": "",
+                    "code": ""
+                  }
                 ]
               }
             ],
-
             "outcomes": {
               "PEOs": [
                 {
@@ -7641,45 +7705,36 @@
                   "text": "Foster graduates who can perform professional activities in audio-visual programme production, print media software, web design, reporting, editing, and journal design. "
                 }
               ],
-
               "POs": [
                 {
                   "id": "PO 1",
-
                   "text": "Demonstrate comprehensive knowledge of journalism, mass communication, and media studies theory and practice.  "
                 },
                 {
                   "id": "PO 2",
-
                   "text": "Apply ethical standards and media law principles in professional journalism and content creation.  "
                 },
                 {
                   "id": "PO 3",
-
                   "text": "Produce professional-quality content across print, broadcast, digital, and social media platforms.  "
                 },
                 {
                   "id": "PO 4",
-
                   "text": "Apply research methodology and data analysis skills to media and communication projects.  "
                 },
                 {
                   "id": "PO 5",
-
                   "text": "Demonstrate effective interpersonal and professional communication across media contexts "
                 },
                 {
                   "id": "PO 6",
-
                   "text": "Exhibit leadership qualities and visionary thinking to inspire media teams and organisations.  "
                 },
                 {
                   "id": "PO 7",
-
                   "text": "Engage in continuous learning, updating knowledge, skills, and technologies throughout career.  "
                 }
               ],
-
               "PSOs": [
                 {
                   "id": "PSO 1",
@@ -7699,7 +7754,6 @@
               ]
             }
           },
-
           "highlights": [
             {
               "title": "Five Specialisation Tracks ",
@@ -7734,7 +7788,6 @@
               "description": "Strong emphasis on media ethics, responsible reporting, fact checking, and audience-centric journalism throughout the programme.  "
             }
           ],
-
           "careers": [
             {
               "category": "Journalism & News   ",
@@ -7777,7 +7830,6 @@
               ]
             }
           ],
-
           "faq": [
             {
               "q": "  What are the eligibility requirements for international applicants? ",
@@ -7804,14 +7856,12 @@
               "a": "Presidency University provides student housing. Contact the Office of International Affairs for details."
             }
           ],
-
           "cta": {
             "title": "Your Future Starts Here",
             "subtitle": "Join Presidency University and build your career in technology.",
             "button": "Apply Now"
           }
         },
-
         {
           "slug": "ma-jmc",
           "name": "MA Journalism & Mass Communication",
@@ -7848,7 +7898,260 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Commerce",
-          "overview": "Focus on banking systems, financial services, and investment management."
+          "hero": {
+            "title": {
+              "normal": " B.Com. (Banking and Finance)  ",
+              "italic": " Commerce "
+            },
+            "description": " Prepare for a career at the intersection of banking, financial markets,and commerce. Thi three-year programme covers financial accounting, banking law, cost accounting, risk management, and security analysis equipping you with the knowledge and practical skills for roles in banking, insurance, and financial services. ",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Commerce ",
+              "B.Com Banking & Finance"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "3 Yr "
+              },
+              {
+                "label": "Semesters",
+                "value": "6"
+              },
+              {
+                "label": "Core Programme",
+                "value": "Banking & Finance  "
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "Commerce"
+          },
+          "overview": [
+            "   This programme equips students with the knowledge, skills, and professional attitude for a career in banking and finance. The curriculum covers financial accounting,cost accounting, banking law, financial markets, economics, risk management, securityanalysis, and derivatives. Students develop competencies across the full spectrum ofbanking and financial services — from retail banking and credit analysis to investment management and financial regulation. The programme includes an internship component to enhance practical skills and industry readiness. ",
+            "Students also have the option to receive specialised coaching for the CAFoundation examination, providing a dual academic and professional development pathway. India’s expanding banking and financial services sector — driven by digital banking, fintech innovation, and growing capital markets — creates sustained demand for commerce graduates with specialised banking and finance expertise. Bengaluru’sconcentration of banking headquarters, financial services firms, and fintech startupsprovides direct access to internship and career opportunities.   "
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "note": "Eligibility may vary for international students."
+          },
+          "tabs": {
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Mathematics I",
+                    "code": "MAT101"
+                  },
+                  {
+                    "name": "Programming in C",
+                    "code": "CSE101"
+                  },
+                  {
+                    "name": "Physics",
+                    "code": "PHY101"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Data Structures",
+                    "code": "CSE201"
+                  },
+                  {
+                    "name": "Discrete Mathematics",
+                    "code": "MAT201"
+                  },
+                  {
+                    "name": "Digital Logic",
+                    "code": "CSE202"
+                  }
+                ]
+              }
+            ],
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Professional Growth ",
+                  "text": "Prepare graduates to work in organisations with expandingbusiness and growth prospects in banking, accounting, and finance  "
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Professional Accountancy Pathway",
+                  "text": "Develop graduates equipped to pursue professional certifications including IPCC, articleship, and Chartered Accountancy."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Financial Expertise",
+                  "text": "Foster graduates who demonstrate professional expertise in financial planning, analysis, control, and decision support with ethical standards. "
+                },
+                {
+                  "id": "PEO 4",
+                  "title": "Practical Knowledge Application   ",
+                  "text": "Inspire graduates who apply accounting, taxation, reporting, and compliance knowledge in accounting firms,KPOs, and finance roles  "
+                }
+              ],
+              "POs": [
+                {
+                  "id": "PO 1",
+                  "text": "Understand the core discipline of professional accounting and its application in banking and financial contexts.  "
+                },
+                {
+                  "id": "PO 2",
+                  "text": "Apply accounting knowledge and technical skills to real-world banking and finance scenarios."
+                },
+                {
+                  "id": "PO 3",
+                  "text": "Apply professional and ethical principles in financial practice and decision-making.   "
+                },
+                {
+                  "id": "PO 4",
+                  "text": "Demonstrate commitment to continuous learning and adaptation to evolvingfinancial regulations  "
+                },
+                {
+                  "id": "PO 5",
+                  "text": "Engage with contemporary issues in banking, finance, and economic policy. "
+                },
+                {
+                  "id": "PO 6",
+                  "text": "Function effectively in multidisciplinary teams across accounting, finance, and business contexts "
+                },
+                {
+                  "id": "PO 7",
+                  "text": "Demonstrate the ability and motivation to pursue higher education in commerce and finance "
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Banking S Insurance Knowledge    ",
+                  "text": "Ability to demonstrate knowledge and applied skills in banking operations, insurance products, and financial services management.  "
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Accounting S Taxation Practice ",
+                  "text": "Competence in applying accounting and taxation knowledge as a practitioner or professional across corporate and public practice contexts"
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Broadened Financial Horizons ",
+                  "text": "Ability to operate across the broader landscape of accounting, finance, banking, insurance, corporate accounting, and taxation "
+                }
+              ]
+            }
+          },
+          "highlights": [
+            {
+              "title": "Banking-Focused Curriculum ",
+              "description": "Specialised modules in banking law, financial markets, credit analysis, risk management, and derivatives alongside core commerce subjects.    "
+            },
+            {
+              "title": "CA Foundation Coaching Option ",
+              "description": "Optional integrated preparation for the CA Foundation examination, providing a dual academic and professional pathway.  "
+            },
+            {
+              "title": "State-of-the-Art Finance Labs ",
+              "description": "Modern accounting software, ERP systems, financial analysis tools, and market simulation platforms for hands-on training."
+            },
+            {
+              "title": "Mandatory Internship ",
+              "description": "Structured industry internship providing practical experience in banking, financial services, or accounting firms   "
+            },
+            {
+              "title": "Faculty with Industry Experience ",
+              "description": "Academics from premier institutions and industry backgrounds providing practical insights into banking and financial services.  "
+            },
+            {
+              "title": "Professional Certification pathways",
+              "description": "Preparation for CA, CMA, and other professional certifications alongside the academic degree.  "
+            },
+            {
+              "title": "India’s Growing Financial Sector ",
+              "description": "Expanding banking, fintech, and financial services industry creating strong demand for specialised commerce graduates   "
+            },
+            {
+              "title": "Strong Placement Support ",
+              "description": "Career services connecting graduates with banks, financial institutions, accounting firms, and corporate finance departments  "
+            }
+          ],
+          "careers": [
+            {
+              "category": "Banking  ",
+              "roles": [
+                "Bank Officer",
+                "Credit Analyst ",
+                "Relationship Manager",
+                " Retail Banking Executive  ",
+                " Treasury Associate "
+              ]
+            },
+            {
+              "category": "Financial Services  ",
+              "roles": [
+                "Financial Analyst",
+                "Investment Associate",
+                " Insurance Underwriter ",
+                " Wealth Management Associate"
+              ]
+            },
+            {
+              "category": "Accounting S Audit ",
+              "roles": [
+                "Chartered Accountant (Articleship)",
+                "  Audit Associate",
+                "Tax Consultant ",
+                "Compliance Officer "
+              ]
+            },
+            {
+              "category": "Corporate Finance  ",
+              "roles": [
+                "Corporate Finance Analyst",
+                "Budget Analyst",
+                " Financial Controller ",
+                " Accounts Manager"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": " What is the eligibility for international applicants? ",
+              "a": ": Candidates must have passed 10+2 or equivalent with a minimum of 40% marks in aggregate. International applicants should confirm documentation requirements with the Office of International Affairs.   "
+            },
+            {
+              "q": " Is CA Foundation coaching included? ",
+              "a": " The programme offers optional CA Foundation coaching as an additional pathway. Students interested in pursuing Chartered Accountancy can access specialised preparation alongside their regular coursework  "
+            },
+            {
+              "q": "What is the starting salary for Banking S Finance graduates?",
+              "a": "   Starting compensation varies by role and employer. Banking and finance roles in India typically start from INR 3–6 LPA, with growth potential linked to professional certifications and experience. "
+            },
+            {
+              "q": " Can I pursue an MBA after B.Com Banking S Finance?  ",
+              "a": "    Yes. The programme provides an excellent foundation for MBA programmes in finance, banking, or general management at Presidency and other institutions.     "
+            },
+            {
+              "q": "  Is the programme recognised internationally?",
+              "a": " : The B.Com degree from Presidency University is a recognised undergraduate qualification. Students pursuing ACCA, CMA-US, or CA certifications alongside the degree gain additional internationally recognised credentials.   "
+            },
+            {
+              "q": " : Is on-campus accommodation available for international students?",
+              "a": "Presidency University provides student housing. Contact the Office of International Affairs for details.  "
+            }
+          ],
+          "cta": {
+            "title": "Your Future Starts Here",
+            "subtitle": "Join Presidency University and build your career in technology.",
+            "button": "Apply Now"
+          }
         },
         {
           "slug": "bcom-acca",
@@ -7856,7 +8159,234 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Commerce",
-          "overview": "Integrated ACCA programme with global accounting certification and commerce degree."
+          "hero": {
+            "title": {
+              "normal": " B.Com. (ACCA) ",
+              "italic": " Commerce "
+            },
+            "description": "Earn a globally recognised professional accounting qualification alongside your commerce degree. This three-year programme integrates the B.Com curriculum with the ACCA (Association of Chartered Certified Accountants) syllabus — offering exemptions from up to 9 ACCA papers and opening career pathways in 180 countries worldwide.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Commerce",
+              "B.Com ACCA"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "3 Yr"
+              },
+              {
+                "label": "Degree",
+                "value": "B.Com"
+              },
+              {
+                "label": "Specialisation",
+                "value": "ACCA"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "Commerce"
+          },
+          "overview": [
+            "The B.Com. ACCA programme integrates the university’s commerce syllabus with the ACCA (Association of Chartered Certified Accountants) curriculum — a globally recognised certification for professional accountants acknowledged in 180 countries. Students complete both their B.Com degree and a significant portion of the ACCA qualification simultaneously, earning exemptions from up to 9 ACCA papers.",
+            "The curriculum covers financial accounting, management accounting, taxation, auditing, corporate governance, business law, and financial reporting aligned with international standards (IFRS). Students are mentored by faculty including ACCA-certified professionals who provide guidance on global accounting standards, exam preparation, and career planning."
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "note": "Eligibility may vary for international students."
+          },
+          "tabs": {
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Mathematics I",
+                    "code": "MAT101"
+                  },
+                  {
+                    "name": "Programming in C",
+                    "code": "CSE101"
+                  },
+                  {
+                    "name": "Physics",
+                    "code": "PHY101"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Data Structures",
+                    "code": "CSE201"
+                  },
+                  {
+                    "name": "Discrete Mathematics",
+                    "code": "MAT201"
+                  },
+                  {
+                    "name": "Digital Logic",
+                    "code": "CSE202"
+                  }
+                ]
+              }
+            ],
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Global Professional Readiness",
+                  "text": "Prepare graduates for careers in global accounting, auditing, and finance with internationally recognised ACCA credentials."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Professional Accountancy Pathway",
+                  "text": "Develop graduates on an accelerated pathway to full ACCA qualification through integrated academic and professional study."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Financial Expertise",
+                  "text": "Foster graduates with expertise in financial planning, analysis, reporting, and compliance aligned with international standards."
+                },
+                {
+                  "id": "PEO 4",
+                  "title": "Ethical Practice",
+                  "text": "Inspire graduates who apply professional ethics, regulatory compliance, and governance principles in accounting practice."
+                }
+              ],
+              "POs": [
+                {
+                  "id": "PO 1",
+                  "text": "Understand the core discipline of professional accounting aligned with international standards and ACCA requirements."
+                },
+                {
+                  "id": "PO 2",
+                  "text": "Apply accounting knowledge and technical skills to real-world financial reporting, auditing, and taxation scenarios."
+                },
+                {
+                  "id": "PO 3",
+                  "text": "Apply professional and ethical principles as defined by ACCA and international accounting bodies."
+                },
+                {
+                  "id": "PO 4",
+                  "text": "Demonstrate commitment to continuous learning and professional development in global accounting practice."
+                },
+                {
+                  "id": "PO 5",
+                  "text": "Engage with contemporary issues in international financial regulation, corporate governance, and accounting standards."
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "ACCA Qualification Progress",
+                  "text": "Ability to complete a significant portion of the ACCA qualification during the degree programme with exemptions from up to 9 papers."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "International Standards Application",
+                  "text": "Competence in applying IFRS, international auditing standards, and global regulatory frameworks in professional accounting contexts."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Global Career Readiness",
+                  "text": "Qualification recognised in 180 countries, providing international career mobility across accounting, auditing, and finance roles."
+                }
+              ]
+            }
+          },
+          "highlights": [
+            {
+              "title": "ACCA Integration",
+              "description": "B.Com curriculum integrated with ACCA syllabus — complete both academic degree and professional qualification simultaneously."
+            },
+            {
+              "title": "Up to 9 Paper Exemptions",
+              "description": "Earn exemptions from up to 9 ACCA papers during the degree, accelerating the pathway to full ACCA membership."
+            },
+            {
+              "title": "Global Recognition in 180 Countries",
+              "description": "ACCA qualification recognised worldwide, providing international career mobility across global accounting and finance markets."
+            },
+            {
+              "title": "IFRS-Aligned Curriculum",
+              "description": "Financial reporting and accounting modules aligned with International Financial Reporting Standards used by multinational organisations."
+            },
+            {
+              "title": "ACCA-Certified Mentorship",
+              "description": "Faculty including ACCA-certified professionals providing exam guidance and career mentoring in global accounting practice."
+            },
+            {
+              "title": "Big Four Career Pathway",
+              "description": "Graduates positioned for roles at Big Four firms (Deloitte, PwC, EY, KPMG) and multinational financial institutions."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Professional Accounting",
+              "roles": [
+                "ACCA Professional",
+                "Chartered Accountant",
+                "External Auditor",
+                "Tax Advisor"
+              ]
+            },
+            {
+              "category": "Corporate Finance",
+              "roles": [
+                "Financial Controller",
+                "Management Accountant",
+                "Corporate Finance Analyst",
+                "Treasury Manager"
+              ]
+            },
+            {
+              "category": "Big Four & Consulting",
+              "roles": [
+                "Audit Associate (Big Four)",
+                "Tax Consultant",
+                "Advisory Services Associate",
+                "Forensic Accountant"
+              ]
+            },
+            {
+              "category": "International Roles",
+              "roles": [
+                "International Financial Reporting Specialist",
+                "Multinational Compliance Officer",
+                "Global Finance Manager"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "What is ACCA and why is it valuable for international students?",
+              "a": "ACCA (Association of Chartered Certified Accountants) is one of the world’s most recognised professional accounting qualifications, accepted in 180 countries."
+            },
+            {
+              "q": "How many ACCA paper exemptions does this programme provide?",
+              "a": "Students can earn exemptions from up to 9 ACCA papers through the integrated programme."
+            },
+            {
+              "q": "Can I complete the full ACCA qualification during the degree?",
+              "a": "The programme provides exemptions from the Applied Knowledge and Applied Skills levels."
+            },
+            {
+              "q": "Which organisations recruit B.Com ACCA graduates?",
+              "a": "Big Four firms (Deloitte, PwC, EY, KPMG), multinational corporations, financial institutions, and accounting firms recruit ACCA graduates."
+            }
+          ],
+          "cta": {
+            "title": "Your Future Starts Here",
+            "subtitle": "Join Presidency University and build your career in technology.",
+            "button": "Apply Now"
+          }
         },
         {
           "slug": "bcom-cma",
@@ -7864,7 +8394,249 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Commerce",
-          "overview": "Combine commerce education with CMA (US) certification for global finance careers."
+          "hero": {
+            "title": {
+              "normal": " B.Com. (Banking and Finance)  ",
+              "italic": " Commerce "
+            },
+            "description": "Earn a globally recognised management accounting qualification alongside your commerce degree. This three-year programme integrates the B.Com curriculum with the CMA-US (Certified Management Accountant) programme — preparing you for prominent roles in corporate finance, cost management, and financial planning worldwide.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Commerce",
+              "B.Com CMA-US"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "3 Yr"
+              },
+              {
+                "label": "Degree",
+                "value": "B.Com"
+              },
+              {
+                "label": "Specialisation",
+                "value": "CMA-US"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "Commerce"
+          },
+          "overview": [
+            "The B.Com. integrated with CMA-US equips students with skills in corporate accounting, including financial accounting, cost accounting, risk management, financial planning, and mergers and acquisitions. Students study the CMA-US (Certified Management Accountant) curriculum during the early semesters and prepare for its two examinations while completing their B.Com degree. This integration enables students to earn the CMA-US accreditation and qualify for prominent corporate finance roles upon graduation — combining an Indian undergraduate degree with a globally recognised professional credential.",
+            "The CMA-US qualification, administered by the Institute of Management Accountants (IMA), is recognised internationally and valued by multinational corporations for roles in financial planning, analysis, cost management, and corporate strategy. The programme covers financial reporting, corporate governance, cost management, internal controls, and performance management aligned with US and international accounting standards. Graduates emerge with dual credentials that demonstrate both academic foundations and professional competence to employers across global markets."
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "note": "Eligibility may vary for international students."
+          },
+          "tabs": {
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Mathematics I",
+                    "code": "MAT101"
+                  },
+                  {
+                    "name": "Programming in C",
+                    "code": "CSE101"
+                  },
+                  {
+                    "name": "Physics",
+                    "code": "PHY101"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Data Structures",
+                    "code": "CSE201"
+                  },
+                  {
+                    "name": "Discrete Mathematics",
+                    "code": "MAT201"
+                  },
+                  {
+                    "name": "Digital Logic",
+                    "code": "CSE202"
+                  }
+                ]
+              }
+            ],
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Global Professional Readiness",
+                  "text": "Prepare graduates for careers in global corporate finance and management accounting with CMA-US credentials."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Professional Accountancy Pathway",
+                  "text": "Develop graduates on an integrated pathway to CMA-US certification alongside their academic degree."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Financial Expertise",
+                  "text": "Foster graduates with expertise in financial planning, cost management, and corporate reporting."
+                },
+                {
+                  "id": "PEO 4",
+                  "title": "Applied Practice",
+                  "text": "Inspire graduates who apply management accounting knowledge in corporate and consulting environments."
+                }
+              ],
+              "POs": [
+                {
+                  "id": "PO 1",
+                  "text": "Understand core disciplines of professional management accounting aligned with CMA-US standards."
+                },
+                {
+                  "id": "PO 2",
+                  "text": "Apply accounting, cost management, and financial planning skills to real-world corporate scenarios."
+                },
+                {
+                  "id": "PO 3",
+                  "text": "Apply professional and ethical principles as defined by IMA and international accounting standards."
+                },
+                {
+                  "id": "PO 4",
+                  "text": "Demonstrate commitment to continuous learning and adaptation to evolving financial standards."
+                },
+                {
+                  "id": "PO 5",
+                  "text": "Engage with contemporary issues in corporate governance, financial regulation, and management accounting."
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "CMA-US Qualification Progress",
+                  "text": "Ability to prepare for and sit both CMA-US examinations during the degree programme, earning professional certification alongside the academic degree."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Cost & Performance Management",
+                  "text": "Competence in cost management, performance measurement, and financial planning aligned with US and international standards."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Global Career Readiness",
+                  "text": "Qualification recognised internationally by multinational corporations, providing enhanced career mobility in corporate finance worldwide."
+                }
+              ]
+            }
+          },
+          "highlights": [
+            {
+              "title": "CMA-US Integration",
+              "description": "B.Com curriculum integrated with CMA-US syllabus — prepare for professional certification alongside your degree."
+            },
+            {
+              "title": "Globally Recognised Credential",
+              "description": "CMA-US administered by IMA and recognised by multinational corporations for corporate finance and management accounting roles."
+            },
+            {
+              "title": "Cost Management Expertise",
+              "description": "Specialised training in cost accounting, performance management, financial planning, and internal controls."
+            },
+            {
+              "title": "US Accounting Standards Alignment",
+              "description": "Curriculum covering US GAAP and international standards relevant to multinational corporate environments."
+            },
+            {
+              "title": "Dual Qualification Value",
+              "description": "Graduate with both a university degree and professional CMA-US credentials — maximising global employability."
+            },
+            {
+              "title": "Finance Lab Infrastructure",
+              "description": "Advanced accounting software, ERP systems, and financial modelling tools for practical professional training."
+            },
+            {
+              "title": "Corporate Finance Career Path",
+              "description": "Direct preparation for roles in corporate planning, financial analysis, and management accounting at leading organisations."
+            },
+            {
+              "title": "Faculty with Professional Expertise",
+              "description": "Academics and practitioners providing insights into corporate finance, cost management, and US accounting standards."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Management Accounting",
+              "roles": [
+                "Certified Management Accountant",
+                "Cost Analyst",
+                "Management Reporting Specialist",
+                "Performance Analyst"
+              ]
+            },
+            {
+              "category": "Corporate Finance",
+              "roles": [
+                "Financial Planning Analyst",
+                "Corporate Finance Manager",
+                "Budget Director",
+                "M&A Analyst"
+              ]
+            },
+            {
+              "category": "Strategy & Consulting",
+              "roles": [
+                "Management Consultant (Finance)",
+                "Internal Audit Manager",
+                "Financial Strategy Advisor"
+              ]
+            },
+            {
+              "category": "International Roles",
+              "roles": [
+                "Multinational Finance Manager",
+                "International Financial Controller",
+                "Global Cost Management Director"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "What is CMA-US?",
+              "a": "CMA-US (Certified Management Accountant) is a professional credential administered by the Institute of Management Accountants (IMA) in the United States. It is recognised globally and valued for roles in corporate financial planning, cost management, and performance analysis."
+            },
+            {
+              "q": "Can I complete the CMA-US certification during the degree?",
+              "a": "The programme prepares you for the two CMA-US examinations, which you study for during the early semesters. Sitting and passing the examinations during the degree programme is the intended pathway."
+            },
+            {
+              "q": "How does CMA-US compare to CA or ACCA?",
+              "a": "CMA-US focuses on management accounting, cost management, and financial planning — primarily for corporate finance roles. CA and ACCA focus more broadly on financial accounting, auditing, and taxation for public accounting practice."
+            },
+            {
+              "q": "Is CMA-US recognised in India?",
+              "a": "Yes. CMA-US is recognised by multinational corporations operating in India and valued for corporate finance, cost management, and financial planning roles."
+            },
+            {
+              "q": "What are the typical career outcomes?",
+              "a": "CMA-US holders enter roles in corporate financial planning, cost management, performance analysis, internal audit, and strategy consulting at multinational corporations and financial institutions."
+            },
+            {
+              "q": "Is on-campus accommodation available for international students?",
+              "a": "Presidency University provides student housing. Contact the Office of International Affairs for details."
+            }
+          ],
+          "cta": {
+            "title": "Your Future Starts Here",
+            "subtitle": "Join Presidency University and build your career in technology.",
+            "button": "Apply Now"
+          }
         },
         {
           "slug": "bcom-ca-foundation",
@@ -7872,7 +8644,250 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Commerce",
-          "overview": "Prepare for Chartered Accountant (CA) Foundation alongside your commerce degree."
+          "hero": {
+            "title": {
+              "normal": "B.Com. CA Foundation",
+              "italic": "Commerce"
+            },
+            "description": "Build the strongest possible foundation for a Chartered Accountancy career. This three-year programme integrates the B.Com curriculum with the CA Foundation syllabus — providing a structured pathway that combines academic commerce education with focused preparation for the Chartered Accountancy professional examination.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Commerce",
+              "B.Com CA Foundation"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "3 Yr"
+              },
+              {
+                "label": "Degree",
+                "value": "B.Com"
+              },
+              {
+                "label": "Specialisation",
+                "value": "CA Foundation"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "Commerce"
+          },
+          "overview": [
+            "The B.Com. CA Foundation programme is designed for students aspiring to build a strong foundation in commerce, accounting, and finance with a specific focus on Chartered Accountancy preparation. The programme integrates core B.Com subjects with the CA Foundation syllabus, providing a structured pathway for students aiming to become Chartered Accountants. Students study accounting principles, business law, taxation, auditing, economics, and quantitative methods — aligned with both the academic requirements of a commerce degree and the examination requirements of the CA Foundation.",
+            "The programme includes dedicated coaching for CA Foundation examination preparation alongside regular academic coursework, mock tests, and practice workshops. Faculty include seasoned professionals and practising chartered accountants who provide exam-oriented guidance alongside academic instruction. This integrated approach ensures that students complete their undergraduate degree with both academic qualifications and substantial progress toward their CA professional goal, saving time compared to pursuing the two pathways separately."
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "note": "Eligibility may vary for international students."
+          },
+          "tabs": {
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Mathematics I",
+                    "code": "MAT101"
+                  },
+                  {
+                    "name": "Programming in C",
+                    "code": "CSE101"
+                  },
+                  {
+                    "name": "Physics",
+                    "code": "PHY101"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Data Structures",
+                    "code": "CSE201"
+                  },
+                  {
+                    "name": "Discrete Mathematics",
+                    "code": "MAT201"
+                  },
+                  {
+                    "name": "Digital Logic",
+                    "code": "CSE202"
+                  }
+                ]
+              }
+            ],
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "CA Career Pathway",
+                  "text": "Prepare graduates with a strong foundation for pursuing the Chartered Accountancy qualification through the ICAI examination process."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Professional Accountancy",
+                  "text": "Develop graduates equipped to pursue IPCC and articleship, progressing toward final CA qualification."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Financial Expertise",
+                  "text": "Foster graduates with expertise in accounting, auditing, taxation, and financial management."
+                },
+                {
+                  "id": "PEO 4",
+                  "title": "Applied Practice",
+                  "text": "Inspire graduates who apply professional accounting knowledge in accounting firms and corporate finance."
+                }
+              ],
+              "POs": [
+                {
+                  "id": "PO 1",
+                  "text": "Understand the core discipline of professional accounting aligned with CA Foundation examination requirements."
+                },
+                {
+                  "id": "PO 2",
+                  "text": "Apply accounting, auditing, and taxation knowledge to examination and professional practice scenarios."
+                },
+                {
+                  "id": "PO 3",
+                  "text": "Apply professional and ethical principles as defined by ICAI standards."
+                },
+                {
+                  "id": "PO 4",
+                  "text": "Demonstrate commitment to continuous learning and progression through the CA qualification stages."
+                },
+                {
+                  "id": "PO 5",
+                  "text": "Engage with contemporary issues in accounting standards, financial regulation, and corporate governance."
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "CA Foundation Readiness",
+                  "text": "Ability to attempt and clear the CA Foundation examination during the degree programme."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "IPCC Preparation",
+                  "text": "Competence in progressing to the IPCC (Intermediate) level of the CA examination pathway."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Professional Practice Foundation",
+                  "text": "Solid grounding in accounting, auditing, taxation, and business law for articleship and professional practice."
+                }
+              ]
+            }
+          },
+          "highlights": [
+            {
+              "title": "Integrated CA Foundation Preparation",
+              "description": "Academic degree and CA Foundation coaching delivered in a single integrated programme — saving time and cost."
+            },
+            {
+              "title": "CA-Aligned Curriculum",
+              "description": "Modules aligned with ICAI CA Foundation syllabus covering accounting, business law, quantitative methods, and economics."
+            },
+            {
+              "title": "Dedicated Exam Coaching",
+              "description": "Mock tests, practice workshops, and exam-oriented preparation alongside regular academic instruction."
+            },
+            {
+              "title": "Practising CA Faculty",
+              "description": "Faculty including practising chartered accountants providing exam guidance and professional career mentoring."
+            },
+            {
+              "title": "Finance Lab Infrastructure",
+              "description": "Modern accounting software, auditing tools, and financial modelling platforms for hands-on practice."
+            },
+            {
+              "title": "Structured Progression Pathway",
+              "description": "Clear pathway from CA Foundation through IPCC and articleship to final CA qualification."
+            },
+            {
+              "title": "Strong CA Community",
+              "description": "Network of CA aspirants, study groups, and mentoring support within the School of Commerce."
+            },
+            {
+              "title": "Dual Qualification Advantage",
+              "description": "Graduate with a B.Com degree and CA Foundation preparation — positioned for immediate progression in the CA pathway."
+            }
+          ],
+          "careers": [
+            {
+              "category": "CA Pathway (During)",
+              "roles": [
+                "CA Foundation Candidate",
+                "IPCC Candidate",
+                "Article Clerk / Audit Trainee"
+              ]
+            },
+            {
+              "category": "CA Pathway (After Qualification)",
+              "roles": [
+                "Chartered Accountant",
+                "Statutory Auditor",
+                "Tax Consultant",
+                "Financial Advisor"
+              ]
+            },
+            {
+              "category": "Corporate (Interim/Post-CA)",
+              "roles": [
+                "Corporate Accountant",
+                "Financial Controller",
+                "Internal Auditor",
+                "Chief Financial Officer"
+              ]
+            },
+            {
+              "category": "Practice & Consulting",
+              "roles": [
+                "Independent Practitioner",
+                "Accounting Firm Partner",
+                "Tax Planning Specialist",
+                "Corporate Governance Advisor"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Is this programme specifically for students who want to become Chartered Accountants?",
+              "a": "Yes. This programme is designed for students committed to the CA career pathway. The integrated approach combines academic study with dedicated CA Foundation preparation for maximum efficiency."
+            },
+            {
+              "q": "When can I sit the CA Foundation exam?",
+              "a": "Students prepare for the CA Foundation examination during their degree programme, with coaching and mock tests integrated into the academic schedule. The specific examination timeline should be confirmed with the school and ICAI requirements."
+            },
+            {
+              "q": "Is the CA qualification recognised internationally?",
+              "a": "The Indian CA qualification issued by ICAI is one of the most rigorous accounting qualifications globally and is recognised in many countries. It has mutual recognition agreements with several international accounting bodies."
+            },
+            {
+              "q": "What happens if I don’t pass the CA Foundation exam?",
+              "a": "You still earn your B.Com degree upon completing academic requirements. The CA Foundation exam can be reattempted, and the academic knowledge gained during the programme remains valuable for commerce careers regardless of CA examination outcomes."
+            },
+            {
+              "q": "What is the typical timeline for becoming a fully qualified CA?",
+              "a": "The typical pathway is CA Foundation (during B.Com) → IPCC/Intermediate → Articleship (3 years) → Final CA examination. The complete process typically takes 4-5 years after commencing the CA Foundation, depending on examination outcomes."
+            },
+            {
+              "q": "Is on-campus accommodation available for international students?",
+              "a": "Presidency University provides student housing. Contact the Office of International Affairs for details."
+            }
+          ],
+          "cta": {
+            "title": "Your Future Starts Here",
+            "subtitle": "Join Presidency University and build your career in technology.",
+            "button": "Apply Now"
+          }
         },
         {
           "slug": "bcom-corporate-tax",
@@ -7880,7 +8895,259 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Commerce",
-          "overview": "Learn corporate accounting, tax planning, auditing, and financial compliance."
+          "hero": {
+            "title": {
+              "normal": "B.Com. (Corporate Accounting and Taxation)",
+              "italic": "Commerce"
+            },
+            "description": "Develop professional expertise in corporate financial management. This three-year programme covers accountancy, taxation, financial markets, risk management, and corporate reporting — preparing you for careers in accounting firms, corporate finance departments, and professional practice.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Commerce",
+              "B.Com Corporate Accounting"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "3 Yr"
+              },
+              {
+                "label": "Degree",
+                "value": "B.Com"
+              },
+              {
+                "label": "Specialisation",
+                "value": "Accounting & Tax"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "Commerce"
+          },
+          "overview": [
+            "The B.Com. in Corporate Accounting and Taxation equips students with in-depth knowledge and skills in corporate accounting, taxation, and related financial disciplines. The curriculum blends contemporary subjects including accountancy, economics, management, banking, taxation, and law — preparing graduates to meet the challenges of modern business finance. The programme is specifically designed to train students for professional accountancy careers in chartered accountancy, company secretaryship, and cost management accountancy.",
+            "Students develop expertise in personal and corporate taxation, financial markets, accounting standards, financial management, banking, risk management, and derivatives. The programme combines theoretical instruction with practical exercises in financial statement analysis, tax planning, audit procedures, and compliance reporting. Graduates emerge with the professional knowledge base and analytical skills valued by accounting firms, KPOs, corporate finance departments, and regulatory compliance organisations."
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "note": "Eligibility may vary for international students."
+          },
+          "tabs": {
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Mathematics I",
+                    "code": "MAT101"
+                  },
+                  {
+                    "name": "Programming in C",
+                    "code": "CSE101"
+                  },
+                  {
+                    "name": "Physics",
+                    "code": "PHY101"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Data Structures",
+                    "code": "CSE201"
+                  },
+                  {
+                    "name": "Discrete Mathematics",
+                    "code": "MAT201"
+                  },
+                  {
+                    "name": "Digital Logic",
+                    "code": "CSE202"
+                  }
+                ]
+              }
+            ],
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Professional Growth",
+                  "text": "Prepare graduates for careers in organisations with expanding business in banking, accounting, and finance."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Professional Accountancy",
+                  "text": "Develop graduates equipped to pursue IPCC, articleship, and Chartered Accountancy qualifications."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Financial Expertise",
+                  "text": "Foster graduates with expertise in financial planning, analysis, control, and decision support."
+                },
+                {
+                  "id": "PEO 4",
+                  "title": "Applied Practice",
+                  "text": "Inspire graduates who apply accounting, taxation, reporting, and compliance knowledge professionally."
+                }
+              ],
+              "POs": [
+                {
+                  "id": "PO 1",
+                  "text": "Understand the core discipline of professional accounting and corporate taxation."
+                },
+                {
+                  "id": "PO 2",
+                  "text": "Apply accounting knowledge and technical skills to real-world corporate finance and taxation scenarios."
+                },
+                {
+                  "id": "PO 3",
+                  "text": "Apply professional and ethical principles in accounting and tax practice."
+                },
+                {
+                  "id": "PO 4",
+                  "text": "Demonstrate commitment to continuous learning and professional development."
+                },
+                {
+                  "id": "PO 5",
+                  "text": "Engage with contemporary issues in corporate governance, financial regulation, and tax policy."
+                },
+                {
+                  "id": "PO 6",
+                  "text": "Function effectively in multidisciplinary teams across accounting, finance, and business contexts."
+                },
+                {
+                  "id": "PO 7",
+                  "text": "Demonstrate motivation to pursue higher education in commerce and professional accountancy."
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Banking & Insurance Competence",
+                  "text": "Ability to demonstrate knowledge and applied skills in banking operations and insurance products."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Accounting & Taxation Practice",
+                  "text": "Competence in applying professional accounting and taxation knowledge in corporate and public practice."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Broadened Financial Horizons",
+                  "text": "Ability to operate across accounting, finance, banking, insurance, corporate accounting, and taxation domains."
+                }
+              ]
+            }
+          },
+          "highlights": [
+            {
+              "title": "Professional Accounting Focus",
+              "description": "Curriculum specifically designed to prepare graduates for careers in chartered accountancy, company secretaryship, and cost management."
+            },
+            {
+              "title": "Corporate Taxation Expertise",
+              "description": "Specialised modules in personal and corporate taxation, tax planning, and compliance reporting."
+            },
+            {
+              "title": "Financial Statement Analysis",
+              "description": "Hands-on training in financial statement preparation, analysis, and interpretation using industry-standard tools."
+            },
+            {
+              "title": "CA/CMA Preparation Pathway",
+              "description": "Academic content aligned with professional accountancy examination requirements for CA and CMA qualifications."
+            },
+            {
+              "title": "Finance Lab Infrastructure",
+              "description": "Modern accounting software, ERP systems, and financial modelling tools for practical professional training."
+            },
+            {
+              "title": "Industry Internship",
+              "description": "Mandatory internship component in accounting firms, corporate finance departments, or financial institutions."
+            },
+            {
+              "title": "Faculty from Premier Institutions",
+              "description": "Academics and practising professionals providing both theoretical depth and industry-relevant practical insights."
+            },
+            {
+              "title": "Versatile Career Outcomes",
+              "description": "Graduates enter roles across accounting firms, corporate finance, banking, insurance, taxation, and financial consulting."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Accounting & Audit",
+              "roles": [
+                "Chartered Accountant (Articleship)",
+                "Tax Consultant",
+                "Audit Associate",
+                "Cost Accountant"
+              ]
+            },
+            {
+              "category": "Corporate Finance",
+              "roles": [
+                "Corporate Accountant",
+                "Financial Analyst",
+                "Budget Analyst",
+                "Financial Controller"
+              ]
+            },
+            {
+              "category": "Banking & Insurance",
+              "roles": [
+                "Bank Officer",
+                "Insurance Analyst",
+                "Credit Officer",
+                "Financial Compliance Specialist"
+              ]
+            },
+            {
+              "category": "Professional Practice",
+              "roles": [
+                "Tax Practitioner",
+                "Company Secretary",
+                "Accounting Firm Associate",
+                "KPO Analyst"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "How does this differ from B.Com Banking & Finance?",
+              "a": "Corporate Accounting and Taxation focuses specifically on corporate financial management, taxation, and professional accountancy preparation. Banking and Finance emphasises banking operations, financial markets, and investment management."
+            },
+            {
+              "q": "Does this programme prepare for the CA examination?",
+              "a": "Yes. The academic content is aligned with professional accountancy requirements. Graduates are well-prepared to pursue Chartered Accountancy (CA) qualifications, including the IPCC and articleship pathway."
+            },
+            {
+              "q": "What taxation topics are covered?",
+              "a": "The programme covers personal income taxation, corporate taxation, goods and services tax (GST), tax planning, tax compliance, and financial reporting standards related to tax obligations."
+            },
+            {
+              "q": "Can I pursue an MBA after this programme?",
+              "a": "Yes. Graduates can pursue MBA programmes in finance, accounting, or general management for advanced career development."
+            },
+            {
+              "q": "What is the typical starting salary?",
+              "a": "Starting compensation for corporate accounting graduates in India typically ranges from INR 3–6 LPA, with significant growth potential through professional certifications such as CA, CMA, or ACCA."
+            },
+            {
+              "q": "Is on-campus accommodation available for international students?",
+              "a": "Presidency University provides student housing. Contact the Office of International Affairs for details."
+            }
+          ],
+          "cta": {
+            "title": "Your Future Starts Here",
+            "subtitle": "Join Presidency University and build your career in technology.",
+            "button": "Apply Now"
+          }
         },
         {
           "slug": "bcom-business-analytics",
@@ -7888,7 +9155,244 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Commerce",
-          "overview": "Combine commerce with data analytics, business intelligence, and decision-making tools."
+          "hero": {
+            "title": {
+              "normal": "B.Com. (Business Analytics)",
+              "italic": "Commerce"
+            },
+            "description": "Combine commerce expertise with data-driven decision-making. This three-year programme integrates core commerce subjects with applied analytics, data science with R, and predictive analysis — equipping you to navigate data-rich business environments where analytical skills drive organisational success.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Commerce",
+              "B.Com Business Analytics"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "3 Yr"
+              },
+              {
+                "label": "Degree",
+                "value": "B.Com"
+              },
+              {
+                "label": "Specialisation",
+                "value": "Analytics"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "Commerce"
+          },
+          "overview": [
+            "The B.Com. in Business Analytics equips students with the skills to interpret business data using statistical tools and analytical frameworks. Recognising that modern businesses require professionals who can extract structured information from large datasets for efficient decision-making, the programme combines core commerce education with specialised analytics training. Students develop competencies in applied business analytics, data science with R, predictive analysis, programming for analytics, and domain-specific analytics across marketing, finance, and human resources.",
+            "The curriculum covers comprehensive analytics tools alongside traditional commerce disciplines — accounting, economics, management, and business law — creating graduates who understand both the business context and the analytical techniques needed to support evidence-based decisions. Students gain proficiency with industry-standard platforms including Python, R, Tableau, Power BI, and SQL through hands-on project work and data analysis exercises. This programme is particularly suited for students who want to combine commerce knowledge with analytical capabilities valued across consulting, financial services, and corporate planning roles."
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "note": "Eligibility may vary for international students."
+          },
+          "tabs": {
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Mathematics I",
+                    "code": "MAT101"
+                  },
+                  {
+                    "name": "Programming in C",
+                    "code": "CSE101"
+                  },
+                  {
+                    "name": "Physics",
+                    "code": "PHY101"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Data Structures",
+                    "code": "CSE201"
+                  },
+                  {
+                    "name": "Discrete Mathematics",
+                    "code": "MAT201"
+                  },
+                  {
+                    "name": "Digital Logic",
+                    "code": "CSE202"
+                  }
+                ]
+              }
+            ],
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Professional Excellence",
+                  "text": "Prepare graduates who demonstrate success as analytics-capable commerce professionals with innovative skills and ethical standards."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Continuous Learning",
+                  "text": "Develop graduates who engage in lifelong learning through professional development in analytics tools and methodologies."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Leadership & Consulting",
+                  "text": "Foster graduates who serve as leaders through analytics consulting, data advisory, and entrepreneurial ventures."
+                }
+              ],
+              "POs": [
+                {
+                  "id": "PO 1",
+                  "text": "Understand core commerce disciplines and their intersection with data analytics and business intelligence."
+                },
+                {
+                  "id": "PO 2",
+                  "text": "Apply analytical and statistical techniques to business problems across finance, marketing, and operations."
+                },
+                {
+                  "id": "PO 3",
+                  "text": "Apply professional and ethical principles in data handling, analysis, and business decision support."
+                },
+                {
+                  "id": "PO 4",
+                  "text": "Demonstrate commitment to continuous learning in evolving analytics tools and methodologies."
+                },
+                {
+                  "id": "PO 5",
+                  "text": "Function effectively in multidisciplinary teams integrating commerce, technology, and data science perspectives."
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Analytics Tool Proficiency",
+                  "text": "Ability to apply R, Python, Tableau, Power BI, and SQL to analyse business datasets and derive actionable insights."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Domain-Specific Analytics",
+                  "text": "Competence in applying analytics across marketing, finance, HR, and supply chain contexts for organisational decision-making."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Predictive Analysis",
+                  "text": "Skill in developing predictive models and statistical analyses that inform business strategy and operational planning."
+                }
+              ]
+            }
+          },
+          "highlights": [
+            {
+              "title": "Analytics-Integrated Commerce",
+              "description": "Core commerce education combined with applied business analytics, predictive modelling, and data visualisation."
+            },
+            {
+              "title": "Industry-Standard Tools Training",
+              "description": "Hands-on proficiency in R, Python, Tableau, Power BI, SQL, and advanced Excel for professional analytics work."
+            },
+            {
+              "title": "Cross-Functional Analytics Modules",
+              "description": "Specialised modules in marketing analytics, financial analytics, and HR analytics for versatile career preparation."
+            },
+            {
+              "title": "Professional Certification Pathways",
+              "description": "Preparation for Google Data Analytics, IBM Data Science, and other industry-recognised analytics certifications."
+            },
+            {
+              "title": "Commerce Foundation",
+              "description": "Strong grounding in accounting, economics, and business management complementing technical analytics skills."
+            },
+            {
+              "title": "Finance Lab Infrastructure",
+              "description": "Access to analytics software, data platforms, and visualisation tools in dedicated computing facilities."
+            },
+            {
+              "title": "Growing Analytics Demand",
+              "description": "Organisations across all sectors increasingly require commerce professionals with data analytics capabilities."
+            },
+            {
+              "title": "Bengaluru Analytics Ecosystem",
+              "description": "Proximity to analytics firms, consulting companies, and data-driven enterprises actively hiring analytics talent."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Business Analytics",
+              "roles": [
+                "Business Analyst",
+                "Business Intelligence Analyst",
+                "Data Analyst",
+                "Operations Analyst"
+              ]
+            },
+            {
+              "category": "Financial Analytics",
+              "roles": [
+                "Financial Data Analyst",
+                "Risk Analytics Associate",
+                "Credit Analytics Specialist"
+              ]
+            },
+            {
+              "category": "Marketing & HR Analytics",
+              "roles": [
+                "Marketing Analyst",
+                "Customer Insights Analyst",
+                "HR Analytics Associate",
+                "Compensation Analyst"
+              ]
+            },
+            {
+              "category": "Consulting",
+              "roles": [
+                "Analytics Consultant",
+                "Management Consulting Associate",
+                "Decision Support Analyst"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "How does B.Com Business Analytics differ from BBA Business Analytics?",
+              "a": "B.Com Business Analytics is rooted in commerce fundamentals — accounting, economics, taxation — with analytics as the specialisation layer. BBA Business Analytics is rooted in management — leadership, strategy, operations — with analytics applied to management decisions."
+            },
+            {
+              "q": "Do I need a strong mathematics background?",
+              "a": "A moderate aptitude for quantitative reasoning is helpful. The programme builds statistical and analytical skills progressively — advanced prior mathematics is not required for admission."
+            },
+            {
+              "q": "What analytics tools are covered?",
+              "a": "Students work with R, Python, Tableau, Power BI, SQL, and advanced Excel across the programme."
+            },
+            {
+              "q": "Can I pursue further studies after B.Com Business Analytics?",
+              "a": "Yes. Graduates can pursue MBA (Business Analytics), M.Com., M.Sc. in Data Science, or international master’s programmes in analytics and data science."
+            },
+            {
+              "q": "What is the career demand for analytics-capable commerce graduates?",
+              "a": "Very high. Organisations across every sector need professionals who combine business domain knowledge with analytical capabilities — a combination that is relatively scarce and highly valued."
+            },
+            {
+              "q": "Is on-campus accommodation available for international students?",
+              "a": "Presidency University provides student housing. Contact the Office of International Affairs for details."
+            }
+          ],
+          "cta": {
+            "title": "Your Future Starts Here",
+            "subtitle": "Join Presidency University and build your career in technology.",
+            "button": "Apply Now"
+          }
         },
         {
           "slug": "phd-commerce",
@@ -7972,7 +9476,245 @@
           "duration": "5 Years",
           "type": "UG",
           "degree": "Bachelor of Arts + Bachelor of Laws",
-          "overview": "An integrated programme combining law with humanities, preparing students for legal practice, judiciary, and civil services."
+          "hero": {
+            "title": {
+              "normal": "B.A. LL.B. (Hons.)",
+              "italic": "Law"
+            },
+            "description": "Combine legal expertise with a deep understanding of society and governance. This five-year BCI-approved integrated honours programme blends political science, sociology, and economics with comprehensive legal education — creating socially sensitive legal professionals equipped for careers in litigation, judiciary, corporate law, and public service.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Law",
+              "B.A. LL.B. (Hons.)"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "5 Yr"
+              },
+              {
+                "label": "Programme",
+                "value": "Honours"
+              },
+              {
+                "label": "Degree",
+                "value": "BA + LLB"
+              }
+            ]
+          },
+          "details": {
+            "duration": "5 Years Full-Time (10 Semesters)",
+            "campus": "Bengaluru, India",
+            "school": "Law"
+          },
+          "overview": [
+            "The integrated five-year B.A. LL.B. (Hons.) programme provides a strong foundation in the political factors that influence policy and legislation, highlighting the intricate relationship between law and social problems. Aimed at creating socially sensitive sentinels of justice, this programme integrates courses in political science, sociology, and economics with comprehensive legal education for students who prefer to approach law from a humanities and social sciences perspective. The honours structure allows students to develop deep specialisation in one of five tracks: Corporate & Commercial Law, Criminal Law, Constitutional & Administrative Law, Technology & IP Law, or International Trade Law.",
+            "The curriculum spans ten semesters covering constitutional law, criminal law, contract law, property law, family law, administrative law, international law, labour law, environmental law, and legal research methodology — alongside the humanities foundation. Clinical and practical skills are developed through moot courts, trial advocacy, legal aid clinics, client counselling, ADR (Alternative Dispute Resolution), and mandatory internships. Students develop competence in legal research, communication, and technology — formulating reasoned legal arguments, drafting professional documents, and presenting them effectively using contemporary digital tools and resources."
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "note": "Eligibility may vary for international students."
+          },
+          "tabs": {
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Mathematics I",
+                    "code": "MAT101"
+                  },
+                  {
+                    "name": "Programming in C",
+                    "code": "CSE101"
+                  },
+                  {
+                    "name": "Physics",
+                    "code": "PHY101"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Data Structures",
+                    "code": "CSE201"
+                  },
+                  {
+                    "name": "Discrete Mathematics",
+                    "code": "MAT201"
+                  },
+                  {
+                    "name": "Digital Logic",
+                    "code": "CSE202"
+                  }
+                ]
+              }
+            ],
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Academic & Research Excellence",
+                  "text": "Prepare graduates for successful academic and research careers in law, contributing to legal scholarship and policy development."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Professional Distinction",
+                  "text": "Develop graduates with professional distinction for leading positions in law firms, corporate legal offices, the judiciary, and government at all levels."
+                }
+              ],
+              "POs": [
+                {
+                  "id": "PO 1",
+                  "text": "Demonstrate comprehensive foundational knowledge of law, legal principles, and the Indian legal system."
+                },
+                {
+                  "id": "PO 2",
+                  "text": "Apply critical thinking skills to identify, analyse, and solve legal problems with professional ethics and integrity."
+                },
+                {
+                  "id": "PO 3",
+                  "text": "Exhibit professional ethics, integrity, social responsibility, and commitment to justice in legal practice."
+                },
+                {
+                  "id": "PO 4",
+                  "text": "Formulate reasoned legal arguments, draft professional documents, and present them using contemporary technological tools."
+                },
+                {
+                  "id": "PO 5",
+                  "text": "Demonstrate competence in clinical and practical legal tasks through moot courts, counselling, internships, and legal aid."
+                },
+                {
+                  "id": "PO 6",
+                  "text": "Analyse and respond to emerging legal, regulatory, and societal challenges using technology and innovative approaches."
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Interdisciplinary Legal Analysis",
+                  "text": "Ability to integrate political science, sociology, and economics perspectives with legal analysis for comprehensive understanding of law in its social context."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Policy & Social Transformation",
+                  "text": "Competence in contributing to policy-making, legal reforms, and community engagement for social transformation."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Clinical Legal Practice",
+                  "text": "Ability to apply clinical legal skills through moot courts, trial advocacy, legal aid, public interest litigation, and community-based legal services."
+                }
+              ]
+            }
+          },
+          "highlights": [
+            {
+              "title": "BCI-Approved Programme",
+              "description": "Fully approved by the Bar Council of India, meeting all professional standards for legal practice qualification in India."
+            },
+            {
+              "title": "Humanities-Law Integration",
+              "description": "Unique blend of political science, sociology, and economics with comprehensive legal education for socially aware legal practice."
+            },
+            {
+              "title": "Five Honours Tracks",
+              "description": "Choose from Corporate, Criminal, Constitutional, Technology & IP, or International Trade law for focused specialisation."
+            },
+            {
+              "title": "Moot Court & Trial Advocacy",
+              "description": "Extensive clinical programme including moot courts, mock trials, legal aid clinics, and client counselling exercises."
+            },
+            {
+              "title": "Mandatory Internships",
+              "description": "BCI-mandated internships with law firms, courts, NGOs, corporate legal departments, and government offices."
+            },
+            {
+              "title": "Legal Research & Technology",
+              "description": "Training in contemporary legal research tools, digital resources, and legal technology for modern legal practice."
+            },
+            {
+              "title": "Expert Faculty & Legal Mentors",
+              "description": "Faculty including experienced legal academics and practitioners providing both theoretical depth and professional insight."
+            },
+            {
+              "title": "Diverse Career Pathways",
+              "description": "Graduates enter litigation, judiciary, corporate law, public service, legal academia, policy research, and international organisations."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Litigation & Judiciary",
+              "roles": [
+                "Advocate",
+                "Public Prosecutor",
+                "Judicial Services Aspirant",
+                "Legal Aid Lawyer"
+              ]
+            },
+            {
+              "category": "Corporate & Commercial",
+              "roles": [
+                "Corporate Counsel",
+                "Legal Advisor",
+                "Compliance Officer",
+                "M&A Legal Specialist"
+              ]
+            },
+            {
+              "category": "Public Service & Policy",
+              "roles": [
+                "Government Legal Officer",
+                "Policy Analyst",
+                "Human Rights Advocate",
+                "Legislative Drafter"
+              ]
+            },
+            {
+              "category": "Academia & Research",
+              "roles": [
+                "Law Lecturer",
+                "Legal Researcher",
+                "Think Tank Analyst",
+                "International Law Specialist"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "What is the difference between B.A. LL.B. and B.B.A. LL.B. at Presidency?",
+              "a": "B.A. LL.B. integrates law with humanities — political science, sociology, and economics — suited for students interested in litigation, public service, and social justice advocacy. B.B.A. LL.B. integrates law with business management — economics, accounting, and corporate strategy — suited for students interested in corporate law, business advisory, and commercial legal practice."
+            },
+            {
+              "q": "What are the eligibility requirements for international applicants?",
+              "a": "Candidates must have passed 10+2 or equivalent with a minimum of 45% marks. Admission is based on CLAT, LSAT-India, or the Presidency University Law Admission Test (PULAT). Candidates above 20 years of age must furnish an undertaking."
+            },
+            {
+              "q": "Can graduates practise law in India?",
+              "a": "Yes. Upon completing the programme and passing the All India Bar Examination (AIBE) conducted by the Bar Council of India, graduates are eligible to enrol as advocates and practise in Indian courts."
+            },
+            {
+              "q": "What honours specialisation tracks are available?",
+              "a": "Five tracks: Corporate & Commercial Law, Criminal Law, Constitutional & Administrative Law, Technology & Intellectual Property Law, and International Trade Law."
+            },
+            {
+              "q": "Are moot court and internship opportunities mandatory?",
+              "a": "Yes. Both are mandated by the Bar Council of India and are integral parts of the curriculum. Students participate in moot courts and complete internships with law firms, courts, corporate legal departments, and NGOs."
+            },
+            {
+              "q": "Is on-campus accommodation available for international students?",
+              "a": "Presidency University provides student housing. Contact the Office of International Affairs for details."
+            }
+          ],
+          "cta": {
+            "title": "Your Future Starts Here",
+            "subtitle": "Join Presidency University and build your career in technology.",
+            "button": "Apply Now"
+          }
         },
         {
           "slug": "bba-llb",
@@ -7980,7 +9722,244 @@
           "duration": "5 Years",
           "type": "UG",
           "degree": "Bachelor of Business Administration + Bachelor of Laws",
-          "overview": "Blend business knowledge with legal expertise for careers in corporate law, compliance, and legal consultancy."
+          "hero": {
+            "title": {
+              "normal": "B.B.A. LL.B. (Hons.)",
+              "italic": "Law"
+            },
+            "description": "Where business acumen meets legal expertise. This five-year BCI-approved integrated honours programme blends management sciences with legal education — creating legal professionals for the growing opportunities in corporate law, business advisory, and commercial legal practice across global markets.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Law",
+              "B.B.A. LL.B. (Hons.)"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "5 Yr"
+              },
+              {
+                "label": "Programme",
+                "value": "Honours"
+              },
+              {
+                "label": "Degree",
+                "value": "BBA + LLB"
+              }
+            ]
+          },
+          "details": {
+            "duration": "5 Years Full-Time (10 Semesters)",
+            "campus": "Bengaluru, India",
+            "school": "Law"
+          },
+          "overview": [
+            "The integrated five-year B.B.A. LL.B. (Hons.) programme blends management sciences and legal education to create legal professionals for the increasing opportunities in corporate and business contexts. The core essentials of general management, coupled with a sound understanding of economics, accounting, strategic management, and human resource management, make this honours law curriculum an ideal choice for students who desire to make careers as legal professionals in the demanding context of global business. The programme spans ten semesters with the same five honours specialisation tracks available as in the B.A. LL.B. programme.",
+            "Beyond traditional legal education, the programme develops competence in corporate negotiation, contract drafting, entrepreneurship clinics, startup legal support, arbitration practice, and management internships — integrating business strategy with legal expertise. Students gain practical experience through the same clinical programme of moot courts, legal aid, and mandatory internships, while the business management modules add a distinctive commercial dimension. Graduates emerge uniquely positioned for roles where legal knowledge and business understanding must converge — corporate legal departments, commercial law firms, investment banking compliance, startup advisory, and international trade law."
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "note": "Eligibility may vary for international students."
+          },
+          "tabs": {
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Mathematics I",
+                    "code": "MAT101"
+                  },
+                  {
+                    "name": "Programming in C",
+                    "code": "CSE101"
+                  },
+                  {
+                    "name": "Physics",
+                    "code": "PHY101"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Data Structures",
+                    "code": "CSE201"
+                  },
+                  {
+                    "name": "Discrete Mathematics",
+                    "code": "MAT201"
+                  },
+                  {
+                    "name": "Digital Logic",
+                    "code": "CSE202"
+                  }
+                ]
+              }
+            ],
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Academic & Research Excellence",
+                  "text": "Prepare graduates for successful academic and research careers at the intersection of law and business."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Corporate Legal Distinction",
+                  "text": "Develop graduates with professional distinction for leading positions in corporate legal offices, law firms, the judiciary, and business organisations."
+                }
+              ],
+              "POs": [
+                {
+                  "id": "PO 1",
+                  "text": "Demonstrate comprehensive foundational knowledge of both law and business administration principles."
+                },
+                {
+                  "id": "PO 2",
+                  "text": "Apply critical thinking to identify, analyse, and solve legal problems in commercial and corporate contexts."
+                },
+                {
+                  "id": "PO 3",
+                  "text": "Exhibit professional ethics, integrity, and commitment to justice in corporate legal practice and dispute resolution."
+                },
+                {
+                  "id": "PO 4",
+                  "text": "Formulate legal arguments and draft professional documents using contemporary tools and business communication standards."
+                },
+                {
+                  "id": "PO 5",
+                  "text": "Demonstrate competence in clinical legal tasks including moot courts, corporate negotiation, and client counselling."
+                },
+                {
+                  "id": "PO 6",
+                  "text": "Analyse emerging legal and business challenges using innovative approaches in legal practice and corporate governance."
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Business-Law Integration",
+                  "text": "Ability to integrate management, economics, and accounting perspectives with legal analysis for comprehensive corporate legal practice."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Corporate Legal Strategy",
+                  "text": "Competence in corporate negotiation, M&A transactions, contract management, and commercial dispute resolution."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Entrepreneurship & Startup Law",
+                  "text": "Ability to apply clinical legal skills through startup legal support, entrepreneurship clinics, and business arbitration practice."
+                }
+              ]
+            }
+          },
+          "highlights": [
+            {
+              "title": "BCI-Approved Programme",
+              "description": "Fully approved by the Bar Council of India for professional legal practice qualification."
+            },
+            {
+              "title": "Business-Law Integration",
+              "description": "Distinctive blend of management sciences — economics, accounting, strategy, HRM — with comprehensive legal education."
+            },
+            {
+              "title": "Five Honours Tracks",
+              "description": "Choose from Corporate, Criminal, Constitutional, Technology & IP, or International Trade law specialisations."
+            },
+            {
+              "title": "Corporate Legal Skills",
+              "description": "Training in corporate negotiation, contract drafting, M&A legal practice, and commercial arbitration."
+            },
+            {
+              "title": "Startup & Entrepreneurship Law",
+              "description": "Entrepreneurship clinics and startup legal support developing skills for the growing legal-tech and startup advisory sector."
+            },
+            {
+              "title": "Moot Court & Clinical Programme",
+              "description": "Full clinical programme including moot courts, trial advocacy, legal aid, and mandatory internships as per BCI requirements."
+            },
+            {
+              "title": "Global Business Law Perspective",
+              "description": "Curriculum addressing international commercial law, cross-border transactions, and global corporate governance frameworks."
+            },
+            {
+              "title": "Dual-Skill Career Advantage",
+              "description": "Graduates combine legal qualification with business management skills — a combination highly valued in corporate legal markets."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Corporate Law",
+              "roles": [
+                "Corporate Counsel",
+                "In-House Legal Advisor",
+                "Contract Manager",
+                "Compliance Director"
+              ]
+            },
+            {
+              "category": "Commercial Practice",
+              "roles": [
+                "Commercial Lawyer",
+                "M&A Legal Specialist",
+                "Banking & Finance Legal Advisor",
+                "Securities Law Specialist"
+              ]
+            },
+            {
+              "category": "Startup & Technology",
+              "roles": [
+                "Startup Legal Advisor",
+                "Legal-Tech Entrepreneur",
+                "Venture Capital Legal Analyst",
+                "IP Commercialisation Specialist"
+              ]
+            },
+            {
+              "category": "International Business",
+              "roles": [
+                "International Trade Lawyer",
+                "Cross-Border Transaction Specialist",
+                "Foreign Investment Legal Consultant"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "How does B.B.A. LL.B. differ from B.A. LL.B.?",
+              "a": "B.B.A. LL.B. integrates business management with law — ideal for corporate law, business advisory, and commercial practice. B.A. LL.B. integrates humanities with law — ideal for litigation, public service, and social justice advocacy. Both share the same legal core and honours tracks."
+            },
+            {
+              "q": "Is the B.B.A. LL.B. suitable for students interested in corporate careers?",
+              "a": "Yes. The programme is specifically designed for students who want to combine legal expertise with business understanding — particularly relevant for roles in corporate legal departments, commercial law firms, investment banking compliance, and startup advisory."
+            },
+            {
+              "q": "What entrance examinations are accepted?",
+              "a": "CLAT, LSAT-India, and the Presidency University Law Admission Test (PULAT). International applicants should confirm specific requirements with the Office of International Affairs."
+            },
+            {
+              "q": "Can graduates practise as advocates in India?",
+              "a": "Yes. Upon completing the programme and passing the AIBE, graduates are eligible to enrol as advocates and practise in Indian courts, just as with the B.A. LL.B. programme."
+            },
+            {
+              "q": "What management subjects are included?",
+              "a": "The programme includes modules in economics, financial accounting, strategic management, human resource management, technology and entrepreneurship, and organisational behaviour alongside the full legal curriculum."
+            },
+            {
+              "q": "Is on-campus accommodation available for international students?",
+              "a": "Presidency University provides student housing. Contact the Office of International Affairs for details."
+            }
+          ],
+          "cta": {
+            "title": "Your Future Starts Here",
+            "subtitle": "Join Presidency University and build your career in technology.",
+            "button": "Apply Now"
+          }
         },
         {
           "slug": "llm",
@@ -7988,7 +9967,240 @@
           "duration": "1 Year",
           "type": "PG",
           "degree": "Master of Laws",
-          "overview": "Advanced legal studies with specialisation in areas like corporate law, international law, and constitutional law."
+
+          "hero": {
+            "title": {
+              "normal": "LL.M. (Master of Laws)",
+              "italic": "Law"
+            },
+            "description": "Deepen your legal expertise and advance your career through postgraduate specialisation. This one-year programme offers advanced study across five specialisation tracks — IPR & Technology Law, International Law, Criminal Law, Corporate Law, and Constitutional & Administrative Law — preparing you for leadership in legal practice, academia, and policy.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Law",
+              "LL.M."
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "1 Yr"
+              },
+              {
+                "label": "Programme",
+                "value": "LL.M."
+              },
+              {
+                "label": "Specialisations",
+                "value": "5 Tracks"
+              }
+            ]
+          },
+          "details": {
+            "duration": "1 Year Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "Law"
+          },
+          "overview": [
+            "The Master of Laws programme deepens legal knowledge across five specialisation tracks, emphasising advanced research, critical analysis, and scholarly writing. The programme prepares students for roles as legal scholars, senior practitioners, policy advisors, and academic leaders. IPR and Technology Law addresses the evolving interface between law and technology — including cloud computing, biotechnological inventions, big data, and traditional knowledge. International Law covers the laws of peace, war, refugees, humanitarian law, and conflict of laws. Criminal Law addresses cyber crime, digital forensics, evidence law, and sentencing reform. Corporate Law covers investment law, international commercial transactions, and commercial arbitration. Constitutional and Administrative Law covers writs, public services, national security, and environmental constitutionalism.",
+            "The programme includes practical experience through internships, seminars, and research projects, helping students apply theory to real-world legal situations. Admission is based on merit in the qualifying degree and scores from relevant entrance examinations, combined with an interview conducted by Presidency University's Centre for Post-Graduate Legal Studies (CPGLS). Graduates are well-equipped for leadership roles in legal practice, academia, international organisations, and policy institutions — with expertise in navigating the most complex legal challenges of the contemporary world."
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "note": "Eligibility may vary for international students."
+          },
+          "tabs": {
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Mathematics I",
+                    "code": "MAT101"
+                  },
+                  {
+                    "name": "Programming in C",
+                    "code": "CSE101"
+                  },
+                  {
+                    "name": "Physics",
+                    "code": "PHY101"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Data Structures",
+                    "code": "CSE201"
+                  },
+                  {
+                    "name": "Discrete Mathematics",
+                    "code": "MAT201"
+                  },
+                  {
+                    "name": "Digital Logic",
+                    "code": "CSE202"
+                  }
+                ]
+              }
+            ],
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Academic & Research Career",
+                  "text": "Prepare graduates for successful academic careers and advanced legal research contributing to the discipline of law."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Professional Leadership",
+                  "text": "Develop graduates with professional distinction for leading positions in law firms, corporate legal offices, judiciary, and government."
+                }
+              ],
+              "POs": [
+                {
+                  "id": "PO 1",
+                  "text": "Demonstrate detailed knowledge in a specific area or areas of law within the chosen specialisation."
+                },
+                {
+                  "id": "PO 2",
+                  "text": "Evaluate and improve existing legal knowledge through highly specialised analysis and research skills."
+                },
+                {
+                  "id": "PO 3",
+                  "text": "Conduct rigorous legal research and make original contributions to the discipline of law."
+                },
+                {
+                  "id": "PO 4",
+                  "text": "Enhance teaching skills in the discipline of law for academic and professional development careers."
+                },
+                {
+                  "id": "PO 5",
+                  "text": "Demonstrate quality research skills resulting in original scholarly contributions to legal knowledge."
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Specialised Legal Expertise",
+                  "text": "Ability to demonstrate advanced, specialised knowledge in the chosen legal domain — IPR, international, criminal, corporate, or constitutional law."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Legal Research & Scholarship",
+                  "text": "Competence in conducting original legal research, producing scholarly publications, and contributing to legal academic discourse."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Professional Leadership",
+                  "text": "Ability to provide thought leadership in legal practice, policy development, and institutional governance within the specialisation area."
+                }
+              ]
+            }
+          },
+          "highlights": [
+            {
+              "title": "Five Specialisation Tracks",
+              "description": "Choose from IPR & Technology, International, Criminal, Corporate, or Constitutional & Administrative Law."
+            },
+            {
+              "title": "One-Year Intensive Format",
+              "description": "Advanced postgraduate qualification completed in a single year — efficient pathway to career advancement and academic roles."
+            },
+            {
+              "title": "Law & Technology Focus",
+              "description": "IPR specialisation addresses cutting-edge issues including cloud computing, AI, big data, biotechnology, and digital content regulation."
+            },
+            {
+              "title": "Research-Intensive Programme",
+              "description": "Emphasis on advanced legal research, critical analysis, and scholarly writing developing academic publication capabilities."
+            },
+            {
+              "title": "CPGLS Admission Process",
+              "description": "Rigorous selection through the Centre for Post-Graduate Legal Studies ensuring high-calibre cohorts and academic environment."
+            },
+            {
+              "title": "Faculty with Specialist Expertise",
+              "description": "Academics with deep specialisation in each track providing advanced instruction and research supervision."
+            },
+            {
+              "title": "International Law Perspective",
+              "description": "International law modules covering peace, conflict, humanitarian law, and cross-border legal frameworks for global career preparation."
+            },
+            {
+              "title": "Academic Career Pathway",
+              "description": "Strong preparation for law teaching positions, legal research careers, and doctoral study in law."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Legal Practice",
+              "roles": [
+                "Senior Advocate",
+                "Specialist Legal Counsel",
+                "IP Attorney",
+                "International Trade Lawyer"
+              ]
+            },
+            {
+              "category": "Academia & Research",
+              "roles": [
+                "Law Professor",
+                "Legal Research Director",
+                "Academic Author",
+                "Think Tank Senior Fellow"
+              ]
+            },
+            {
+              "category": "Corporate & Compliance",
+              "roles": [
+                "Chief Legal Officer",
+                "Corporate Governance Specialist",
+                "Regulatory Affairs Director"
+              ]
+            },
+            {
+              "category": "International & Policy",
+              "roles": [
+                "International Organisation Legal Advisor",
+                "Policy Research Specialist",
+                "Diplomatic Legal Counsel"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "What are the eligibility requirements for international LL.M. applicants?",
+              "a": "Applicants need a 3-year LLB degree or a 5-year integrated law degree from a recognised university with a minimum of 50% marks (45% for reserved categories). Admission is based on qualifying degree merit, entrance test scores, and a university interview."
+            },
+            {
+              "q": "Which specialisation should I choose?",
+              "a": "Choose based on your career objectives. IPR & Technology Law suits those interested in tech law, patents, and digital regulation. International Law suits those targeting international organisations and diplomacy. Criminal Law suits those interested in prosecution, defence, or criminal justice reform. Corporate Law suits those targeting commercial practice and business transactions. Constitutional Law suits those interested in governance, public interest litigation, and administrative law."
+            },
+            {
+              "q": "Can the LL.M. lead to doctoral research?",
+              "a": "Yes. The LL.M. provides excellent preparation for Ph.D. programmes in law at Presidency and other institutions, through its emphasis on advanced research skills and scholarly writing."
+            },
+            {
+              "q": "Is the LL.M. recognised for teaching positions?",
+              "a": "Yes. The LL.M. is a standard qualification for teaching law at universities and law schools in India. It meets the academic requirements for entry-level faculty positions at most institutions."
+            },
+            {
+              "q": "What is the Centre for Post-Graduate Legal Studies (CPGLS)?",
+              "a": "CPGLS is the postgraduate arm of the School of Law responsible for administering the LL.M. programme, including admissions, curriculum, and research supervision."
+            },
+            {
+              "q": "Is on-campus accommodation available for international students?",
+              "a": "Presidency University provides student housing. Contact the Office of International Affairs for details."
+            }
+          ],
+          "cta": {
+            "title": "Your Future Starts Here",
+            "subtitle": "Join Presidency University and build your career in technology.",
+            "button": "Apply Now"
+          }
         },
         {
           "slug": "phd-law",
@@ -7997,6 +10209,7 @@
           "type": "PhD",
           "degree": "Doctor of Philosophy",
           "overview": "Conduct advanced legal research in areas such as constitutional law, corporate law, and international law."
+          
         }
       ]
     },
