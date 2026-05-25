@@ -1,21 +1,40 @@
 "use client";
 
 import { motion } from "framer-motion";
+
 import CommonHeader from "@/app/components/CommonHeader";
-import { Languages, LanguagesIcon } from "lucide-react";
+
+import { Languages } from "lucide-react";
 
 export default function LanguageElectives({ data }: any) {
   const languages = data?.languages;
 
   return (
-    <section className="py-20 md:py-28 bg-[#f8f8f8] overflow-hidden">
-      <div className="max-w-[1400px] mx-auto px-5 md:px-10">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
-          {/* 🔹 LEFT CONTENT */}
+    <section
+      className="
+        overflow-hidden
+        bg-[#f8f8f8]
+        py-20
+        md:py-28
+        max-md:py-14
+      "
+    >
+      <div className="mx-auto max-w-[1400px] px-5 md:px-10 max-md:px-4">
+        {/* DESKTOP VIEW */}
+        <div className="hidden items-center gap-16 lg:grid lg:grid-cols-2">
+          {/* LEFT */}
           <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6 }}
+            initial={{
+              opacity: 0,
+              x: -50,
+            }}
+            whileInView={{
+              opacity: 1,
+              x: 0,
+            }}
+            transition={{
+              duration: 0.6,
+            }}
             viewport={{ once: true }}
           >
             {/* HEADER */}
@@ -29,45 +48,275 @@ export default function LanguageElectives({ data }: any) {
             />
 
             {/* CONTENT */}
-            <p className="text-[#4b5563] leading-relaxed text-sm md:text-base mt-6">
+            <p
+              className="
+                mt-6
+                text-sm
+                leading-relaxed
+                text-[#4b5563]
+                md:text-base
+              "
+            >
               {languages?.description}
             </p>
 
             {/* NOTE */}
-            <p className="text-[#4b5563] leading-relaxed text-sm md:text-base mt-6">
+            <p
+              className="
+                mt-6
+                text-sm
+                leading-relaxed
+                text-[#4b5563]
+                md:text-base
+              "
+            >
               {languages?.note}
             </p>
           </motion.div>
 
-          {/* 🔹 RIGHT LANGUAGE GRID */}
+          {/* RIGHT GRID */}
+          {/* RIGHT GRID */}
           <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6 }}
+            initial={{
+              opacity: 0,
+              x: 50,
+            }}
+            whileInView={{
+              opacity: 1,
+              x: 0,
+            }}
+            transition={{
+              duration: 0.6,
+            }}
             viewport={{ once: true }}
-            className="grid grid-cols-2 sm:grid-cols-3 gap-5"
+            className="
+    flex
+    flex-col
+    items-center
+    justify-center
+    gap-5
+  "
           >
+            {/* TOP ROW */}
+            <div className="flex gap-5">
+              {languages?.list
+                ?.slice(0, 3)
+                .map((item: string, index: number) => (
+                  <motion.div
+                    key={index}
+                    whileHover={{
+                      y: -6,
+                    }}
+                    className="
+            group
+            relative
+            flex
+            h-[140px]
+            w-[130px]
+            flex-col
+            items-center
+            justify-center
+            overflow-hidden
+            rounded-lg
+            border
+            border-[#0A8F96]
+            bg-gradient-to-b
+            from-white
+            via-[#2dc4cb]
+            to-[#0A8F96]
+            text-center
+            shadow-sm
+            transition-all
+            duration-300
+            hover:shadow-xl
+          "
+                  >
+                    {/* ICON */}
+                    <div className="mb-4 flex items-center justify-center">
+                      <Languages className="h-8 w-8 text-white" />
+                    </div>
+
+                    {/* TITLE */}
+                    <h3 className="text-sm text-white">{item}</h3>
+
+                    {/* HOVER */}
+                    <div
+                      className="
+              absolute
+              inset-0
+              bg-white/5
+              opacity-0
+              transition
+              duration-500
+              group-hover:opacity-100
+            "
+                    />
+                  </motion.div>
+                ))}
+            </div>
+
+            {/* BOTTOM ROW */}
+            <div className="flex gap-5">
+              {languages?.list?.slice(3).map((item: string, index: number) => (
+                <motion.div
+                  key={index}
+                  whileHover={{
+                    y: -6,
+                  }}
+                  className="
+            group
+            relative
+            flex
+            h-[140px]
+            w-[130px]
+            flex-col
+            items-center
+            justify-center
+            overflow-hidden
+            rounded-lg
+            border
+            border-[#0A8F96]
+            bg-gradient-to-b
+            from-white
+            via-[#2dc4cb]
+            to-[#0A8F96]
+            text-center
+            shadow-sm
+            transition-all
+            duration-300
+            hover:shadow-xl
+          "
+                >
+                  {/* ICON */}
+                  <div className="mb-4 flex items-center justify-center">
+                    <Languages className="h-8 w-8 text-white" />
+                  </div>
+
+                  {/* TITLE */}
+                  <h3 className="text-sm text-white">{item}</h3>
+
+                  {/* HOVER */}
+                  <div
+                    className="
+              absolute
+              inset-0
+              bg-white/5
+              opacity-0
+              transition
+              duration-500
+              group-hover:opacity-100
+            "
+                  />
+                </motion.div>
+              ))}
+            </div>
+          </motion.div>
+        </div>
+
+        {/* MOBILE VIEW */}
+        <div className="lg:hidden">
+          {/* HEADER */}
+          <CommonHeader
+            tag={languages?.tag}
+            title={languages?.title}
+            highlight={languages?.highlight}
+            description=""
+            align="center"
+            primaryColor="#0A8F96"
+          />
+
+          {/* DESCRIPTION */}
+          <p
+            className="
+              mt-5
+              text-[11px]
+              leading-6
+              text-[#5b6475]
+            "
+          >
+            {languages?.description}
+          </p>
+
+          {/* LANGUAGE GRID */}
+          <div className="mt-6 grid grid-cols-2 gap-3">
             {languages?.list?.map((item: string, index: number) => (
-              <motion.div
+              <div
                 key={index}
-                whileHover={{ y: -6 }}
-                className="group relative overflow-hidden rounded-xl border border-[#0A8F96]/30 bg-gradient-to-b from-white via-[#14b8c0] to-[#0A8F96] p-6 h-[140px] flex flex-col items-center justify-center text-center shadow-md hover:shadow-xl transition-all duration-300"
+                className={`
+                    relative
+                    overflow-hidden
+                    rounded-lg
+                    border
+                    border-[#0A8F96]/20
+                    bg-gradient-to-b
+                    from-white
+                    via-[#26bcc3]
+                    to-[#0A8F96]
+                    px-3
+                    py-4
+                    text-center
+                    shadow-sm
+
+                    ${
+                      index === languages?.list?.length - 1
+                        ? "col-span-2 mx-auto w-[55%]"
+                        : ""
+                    }
+                  `}
               >
                 {/* ICON */}
-                <div className="w-12 h-12 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center mb-4">
-                  <Languages className="w-6 h-6 text-white" />
+                <div
+                  className="
+                      mb-2
+                      flex
+                      items-center
+                      justify-center
+                    "
+                >
+                  <Languages
+                    className="
+                        h-4
+                        w-4
+                        text-white
+                      "
+                  />
                 </div>
 
                 {/* TITLE */}
-                <h3 className="text-white text-sm md:text-base font-medium leading-snug">
+                <h3
+                  className="
+                      text-[11px]
+                      text-white
+                    "
+                >
                   {item}
                 </h3>
-
-                {/* HOVER EFFECT */}
-                <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-500 bg-white/5" />
-              </motion.div>
+              </div>
             ))}
-          </motion.div>
+          </div>
+
+          {/* NOTE */}
+          <div
+            className="
+              mt-5
+              rounded-2xl
+              border
+              border-[#0A8F96]
+              bg-[#f7fcfc]
+              px-4
+              py-4
+            "
+          >
+            <p
+              className="
+                text-[11px]
+                leading-6
+                text-[#1E3557]
+              "
+            >
+              {languages?.note}
+            </p>
+          </div>
         </div>
       </div>
     </section>

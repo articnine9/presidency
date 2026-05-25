@@ -19,7 +19,9 @@ const StudyInIndiaPage = () => {
       <StudyInIndiaHero data={data.hero} />
 
       {/* 📘 ABOUT */}
-      <StudyIndiaAbout data={data} />
+      <div className="hidden md:block">
+        <StudyIndiaAbout data={data} />
+      </div>
 
       {/* 🎓 PROGRAMMES */}
       <UGSection data={data} />

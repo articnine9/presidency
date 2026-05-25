@@ -137,7 +137,53 @@ export default function ClubsActivitiesSection({ data }: ClubsPageProps) {
             );
           })}
         </div>
+        <div className="block md:hidden">
+          {/* SPORTS CARD */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="
+            mt-10
+            bg-white
+            rounded-2xl
+            border
+            border-[#0A8F96]/20
+            p-6
+            shadow-sm
+            relative
+            overflow-hidden
+          "
+          >
+            {/* LEFT ACCENT */}
+            <div className="absolute left-0 top-0 h-full w-[5px] bg-[#0A8F96]" />
 
+            <div className="flex items-start gap-4">
+              <div
+                className="
+                w-12 h-12
+                rounded-xl
+                bg-[#0A8F96]/10
+                text-[#0A8F96]
+                flex items-center justify-center
+                shrink-0
+              "
+              >
+                <Trophy size={22} />
+              </div>
+
+              <div>
+                <h4 className="text-[#1E3557] text-xl mb-2">
+                  {data.sports.title}
+                </h4>
+
+                <p className="text-gray-600 leading-relaxed">
+                  {data.sports.desc}
+                </p>
+              </div>
+            </div>
+          </motion.div>
+        </div>
         {/* EVENTS */}
         <div className="mt-20">
           <h3 className="text-3xl text-[#1E3557] mb-8">Major Campus Events</h3>
@@ -151,32 +197,85 @@ export default function ClubsActivitiesSection({ data }: ClubsPageProps) {
                 transition={{ delay: i * 0.08 }}
                 viewport={{ once: true }}
                 className="
-                  bg-white
-                  rounded-xl
-                  border
-                  border-[#0A8F96]/20
-                  p-6
-                  shadow-sm
-                  hover:shadow-lg
-                  transition-all
-                "
+    group
+    relative
+    overflow-hidden
+    rounded-tr-[24px] rounded-br-[24px] rounded-bl-[24px]
+    border
+    border-[#0A8F96]
+    bg-[#F8F8F8]
+    p-8
+    shadow-[0_10px_30px_rgba(0,0,0,0.08)]
+    transition-all
+    duration-300
+    hover:-translate-y-1
+    hover:shadow-xl
+  "
               >
-                <h4 className="text-[#1E3557] text-xl mb-2">{event.title}</h4>
+                {/* TOP ACCENT */}
+                <div
+                  className="
+      absolute
+      left-0
+      top-0
+      h-[6px]
+      w-[95px]
+      bg-[#BFECEF]
+    "
+                />
 
-                <p className="text-gray-600 text-sm leading-relaxed">
-                  {event.desc}
-                </p>
+                {/* LEFT ACCENT */}
+                <div
+                  className="
+      absolute
+      left-0
+      top-0
+      h-[100px]
+      w-[6px]
+      bg-[#BFECEF]
+    "
+                />
+
+                {/* CONTENT */}
+                <div className="relative z-10">
+                  <h4
+                    className="
+        mb-6
+        text-[24px]
+        leading-none
+        text-[#1B2B52]
+
+        
+      "
+                  >
+                    {event.title}
+                  </h4>
+
+                  <p
+                    className="
+        max-w-4xl
+        
+        leading-[1.7]
+        text-[#2F3B5B]
+
+        max-md:text-[16px]
+        max-md:leading-8
+      "
+                  >
+                    {event.desc}
+                  </p>
+                </div>
               </motion.div>
             ))}
           </div>
         </div>
-
-        {/* SPORTS CARD */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="
+        <div className="hidden md:block">
+          {/* SPORTS CARD */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="
             mt-10
             bg-white
             rounded-2xl
@@ -187,13 +286,13 @@ export default function ClubsActivitiesSection({ data }: ClubsPageProps) {
             relative
             overflow-hidden
           "
-        >
-          {/* LEFT ACCENT */}
-          <div className="absolute left-0 top-0 h-full w-[5px] bg-[#0A8F96]" />
+          >
+            {/* LEFT ACCENT */}
+            <div className="absolute left-0 top-0 h-full w-[5px] bg-[#0A8F96]" />
 
-          <div className="flex items-start gap-4">
-            <div
-              className="
+            <div className="flex items-start gap-4">
+              <div
+                className="
                 w-12 h-12
                 rounded-xl
                 bg-[#0A8F96]/10
@@ -201,21 +300,22 @@ export default function ClubsActivitiesSection({ data }: ClubsPageProps) {
                 flex items-center justify-center
                 shrink-0
               "
-            >
-              <Trophy size={22} />
-            </div>
+              >
+                <Trophy size={22} />
+              </div>
 
-            <div>
-              <h4 className="text-[#1E3557] text-xl mb-2">
-                {data.sports.title}
-              </h4>
+              <div>
+                <h4 className="text-[#1E3557] text-xl mb-2">
+                  {data.sports.title}
+                </h4>
 
-              <p className="text-gray-600 leading-relaxed">
-                {data.sports.desc}
-              </p>
+                <p className="text-gray-600 leading-relaxed">
+                  {data.sports.desc}
+                </p>
+              </div>
             </div>
-          </div>
-        </motion.div>
+          </motion.div>
+        </div>
       </div>
     </section>
   );

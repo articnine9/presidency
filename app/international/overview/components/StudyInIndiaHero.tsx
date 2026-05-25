@@ -24,13 +24,26 @@ type HeroProps = {
 export default function StudyInIndiaHero({ data }: HeroProps) {
   return (
     <>
-      {/* 🔹 BREADCRUMB */}
+      {/* BREADCRUMB */}
       {data.breadcrumb && (
         <div className="bg-[#f5f7fa] py-3">
-          <div className="max-w-[1400px] mx-auto px-4 md:px-6 text-xs md:text-sm text-gray-600 flex flex-wrap">
+          <div
+            className="
+              mx-auto
+              flex
+              max-w-[1400px]
+              flex-wrap
+              px-4
+              text-xs
+              text-gray-600
+              md:px-6
+              md:text-sm
+            "
+          >
             {data.breadcrumb.map((item, index, arr) => (
               <span key={index}>
                 {item}
+
                 {index !== arr.length - 1 && (
                   <span className="mx-2 text-gray-400">›</span>
                 )}
@@ -40,45 +53,138 @@ export default function StudyInIndiaHero({ data }: HeroProps) {
         </div>
       )}
 
-      {/* 🔥 HERO SECTION */}
-      <section className="relative w-full overflow-hidden h-screen">
-        {/* BACKGROUND IMAGE */}
+      {/* HERO */}
+      <section
+        className="
+          relative
+          h-screen
+          w-full
+          overflow-hidden
+        "
+      >
+        {/* IMAGE */}
         <img
           src={
             data.image ||
             "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=1920&auto=format&fit=crop"
           }
           alt="Hero"
-          className="absolute inset-0 w-full h-full object-cover"
+          className="
+            absolute
+            inset-0
+            h-full
+            w-full
+            object-cover
+          "
         />
 
-        {/* DARK OVERLAY */}
-        <div className="absolute inset-0 bg-black/55" />
+        {/* OVERLAY */}
+        <div
+          className="
+            absolute
+            inset-0
+            bg-black/55
+
+            max-md:bg-black/60
+          "
+        />
 
         {/* CONTENT */}
-        <div className="relative z-10 max-w-[1400px] mx-auto h-full flex items-center px-4 sm:px-6 lg:px-10 py-16">
-          <div className="max-w-2xl text-white">
+        <div
+          className="
+            relative
+            z-10
+            mx-auto
+            flex
+            h-full
+            max-w-[1400px]
+            items-center
+            px-4
+            py-16
+            sm:px-6
+            lg:px-10
+
+            /* MOBILE */
+            max-md:items-end
+            max-md:pb-12
+          "
+        >
+          <div
+            className="
+              max-w-2xl
+              text-white
+            "
+          >
             {/* TITLE */}
             <motion.h1
-              initial={{ opacity: 0, y: 40 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              className="font-serif text-4xl sm:text-5xl md:text-6xl leading-tight font-bold"
+              initial={{
+                opacity: 0,
+                y: 40,
+              }}
+              animate={{
+                opacity: 1,
+                y: 0,
+              }}
+              transition={{
+                duration: 0.6,
+              }}
+              className="
+                font-serif
+                text-4xl
+                font-bold
+                leading-tight
+                sm:text-5xl
+                md:text-6xl
+
+                /* MOBILE */
+                max-md:text-[42px]
+                max-md:leading-[1.1]
+                max-md:font-medium
+              "
             >
               {data.title.normal}
+
               <br />
 
-              <span className="italic text-[#00B8C8] font-medium">
+              <span
+                className="
+                  italic
+                  font-medium
+                  text-[#00B8C8]
+                "
+              >
                 {data.title.italic}
               </span>
             </motion.h1>
 
             {/* DESCRIPTION */}
             <motion.p
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.2 }}
-              className="mt-5 text-sm sm:text-base md:text-lg text-white/90 leading-relaxed max-w-xl"
+              initial={{
+                opacity: 0,
+                y: 30,
+              }}
+              animate={{
+                opacity: 1,
+                y: 0,
+              }}
+              transition={{
+                delay: 0.2,
+              }}
+              className="
+                mt-5
+                max-w-xl
+                text-sm
+                leading-relaxed
+                text-white/90
+                sm:text-base
+                md:text-lg
+
+                /* MOBILE */
+                max-md:mt-4
+                max-md:text-[13px]
+                max-md:leading-7
+                max-md:text-white/85
+              "
             >
               {data.description}
             </motion.p>
@@ -86,10 +192,26 @@ export default function StudyInIndiaHero({ data }: HeroProps) {
             {/* BUTTONS */}
             {data.buttons && (
               <motion.div
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.3 }}
-                className="mt-8 flex flex-wrap gap-4"
+                initial={{
+                  opacity: 0,
+                  y: 30,
+                }}
+                animate={{
+                  opacity: 1,
+                  y: 0,
+                }}
+                transition={{
+                  delay: 0.3,
+                }}
+                className="
+                  mt-8
+                  flex
+                  flex-wrap
+                  gap-4
+
+                  /* HIDE MOBILE */
+                  max-md:hidden
+                "
               >
                 {data.buttons.map((btn, index) => (
                   <a
@@ -108,9 +230,9 @@ export default function StudyInIndiaHero({ data }: HeroProps) {
 
                     {btn.icon &&
                       (btn.type === "dark" ? (
-                        <Headphones className="w-4 h-4" />
+                        <Headphones className="h-4 w-4" />
                       ) : (
-                        <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+                        <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                       ))}
                   </a>
                 ))}

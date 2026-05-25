@@ -10,6 +10,7 @@ import {
   Home,
   Info,
 } from "lucide-react";
+
 import { motion } from "framer-motion";
 
 const features = [
@@ -47,8 +48,8 @@ const features = [
 
 export default function StudentHousingSection() {
   return (
-    <section className="bg-white py-20">
-      <div className="max-w-[1400px] mx-auto px-6">
+    <section className="bg-white py-20 max-md:py-14">
+      <div className="mx-auto max-w-[1400px] px-6 max-md:px-4">
         {/* HEADER */}
         <CommonHeader
           tag="Campus Life"
@@ -59,8 +60,8 @@ export default function StudentHousingSection() {
           primaryColor="#ff7a2f"
         />
 
-        {/* FEATURES GRID */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 mt-14">
+        {/* DESKTOP GRID */}
+        <div className="mt-14 hidden gap-5 md:grid md:grid-cols-2 lg:grid-cols-3">
           {features.map((item, index) => {
             const Icon = item.icon;
 
@@ -68,51 +69,56 @@ export default function StudentHousingSection() {
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 25 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: index * 0.08 }}
+                whileInView={{
+                  opacity: 1,
+                  y: 0,
+                }}
+                transition={{
+                  delay: index * 0.08,
+                }}
                 viewport={{ once: true }}
                 className="
-    relative
-    overflow-hidden
-    rounded-[22px]
-    border
-    border-[#f4d7c3]
-    bg-white
-    px-8
-    py-7
-    shadow-[0_4px_20px_rgba(0,0,0,0.04)]
-    transition-all
-    duration-300
-    hover:shadow-xl
-  "
+                  relative
+                  overflow-hidden
+                  rounded-[22px]
+                  border
+                  border-[#f4d7c3]
+                  bg-white
+                  px-8
+                  py-7
+                  shadow-[0_4px_20px_rgba(0,0,0,0.04)]
+                  transition-all
+                  duration-300
+                  hover:shadow-xl
+                "
               >
                 {/* LEFT ACCENT */}
                 <div
                   className="
-      absolute
-      left-0
-      top-0
-      h-full
-      w-[6px]
-      bg-[#ff7a2f]
-      rounded-l-[22px]
-    "
+                    absolute
+                    left-0
+                    top-0
+                    h-full
+                    w-[6px]
+                    rounded-l-[22px]
+                    bg-[#ff7a2f]
+                  "
                 />
 
                 <div className="flex items-start gap-5">
                   {/* ICON */}
                   <div
                     className="
-        flex
-        h-14
-        w-14
-        shrink-0
-        items-center
-        justify-center
-        rounded-full
-        bg-[#ff7a2f]/10
-        text-[#ff7a2f]
-      "
+                      flex
+                      h-14
+                      w-14
+                      shrink-0
+                      items-center
+                      justify-center
+                      rounded-full
+                      bg-[#ff7a2f]/10
+                      text-[#ff7a2f]
+                    "
                   >
                     <Icon size={28} strokeWidth={2.2} />
                   </div>
@@ -121,22 +127,101 @@ export default function StudentHousingSection() {
                   <div>
                     <h3
                       className="
-          text-[#1E3557]
-          text-2xl
-          leading-snug
-          mb-3
-        "
+                        mb-3
+                        text-2xl
+                        leading-snug
+                        text-[#1E3557]
+                      "
                     >
                       {item.title}
                     </h3>
 
                     <p
                       className="
-          text-gray-500
-          text-lg
-          leading-relaxed
-          max-w-2xl
-        "
+                        max-w-2xl
+                        text-lg
+                        leading-relaxed
+                        text-gray-500
+                      "
+                    >
+                      {item.desc}
+                    </p>
+                  </div>
+                </div>
+              </motion.div>
+            );
+          })}
+        </div>
+
+        {/* MOBILE LIST DESIGN */}
+        <div className="mt-8 space-y-3 md:hidden">
+          {features.map((item, index) => {
+            const Icon = item.icon;
+
+            return (
+              <motion.div
+                key={index}
+                initial={{
+                  opacity: 0,
+                  y: 20,
+                }}
+                whileInView={{
+                  opacity: 1,
+                  y: 0,
+                }}
+                transition={{
+                  delay: index * 0.05,
+                }}
+                viewport={{ once: true }}
+                className="
+                  rounded-2xl
+                  border
+                  border-[#f3ddd0]
+                  bg-[#faf7f5]
+                  px-4
+                  py-3
+                "
+              >
+                <div className="flex items-start gap-3">
+                  {/* ICON */}
+                  <div
+                    className="
+                      mt-0.5
+                      flex
+                      h-8
+                      w-8
+                      shrink-0
+                      items-center
+                      justify-center
+                      rounded-lg
+                      border
+                      border-[#ff7a2f]/30
+                      bg-[#ff7a2f]/10
+                      text-[#ff7a2f]
+                    "
+                  >
+                    <Icon size={16} />
+                  </div>
+
+                  {/* CONTENT */}
+                  <div>
+                    <h3
+                      className="
+                        text-[14px]
+                        font-medium
+                        text-[#1E3557]
+                      "
+                    >
+                      {item.title}
+                    </h3>
+
+                    <p
+                      className="
+                        mt-1
+                        text-[11px]
+                        leading-5
+                        text-gray-500
+                      "
                     >
                       {item.desc}
                     </p>
@@ -150,27 +235,58 @@ export default function StudentHousingSection() {
         {/* NOTE BOX */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          whileInView={{
+            opacity: 1,
+            y: 0,
+          }}
           viewport={{ once: true }}
           className="
             mt-8
+            rounded-xl
             border
             border-[#ff7a2f]/40
-            rounded-xl
             bg-[#fffaf5]
             px-6
             py-4
+
+            max-md:mt-6
+            max-md:px-4
+            max-md:py-3
           "
         >
           <div className="flex items-start gap-3">
-            <div className="text-[#ff7a2f] mt-0.5">
+            <div
+              className="
+                mt-0.5
+                text-[#ff7a2f]
+              "
+            >
               <Info size={18} />
             </div>
 
             <div>
-              <h4 className="text-[#ff7a2f] text-sm mb-1">Note</h4>
+              <h4
+                className="
+                  mb-1
+                  text-sm
+                  text-[#ff7a2f]
 
-              <p className="text-sm text-gray-600 leading-relaxed">
+                  max-md:text-[12px]
+                "
+              >
+                Note
+              </h4>
+
+              <p
+                className="
+                  text-sm
+                  leading-relaxed
+                  text-gray-600
+
+                  max-md:text-[11px]
+                  max-md:leading-5
+                "
+              >
                 For students who prefer to live off-campus, the university’s
                 student services team can assist in identifying reputable
                 private accommodation near Yelahanka and Bangalore city.
