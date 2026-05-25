@@ -6019,7 +6019,7 @@
               "normal": "  B.Tech Petroleum  ",
               "italic": " Engineering"
             },
-            "description": " Power the global energy sector. This four-year programme covers petroleum exploration, drilling engineering, reservoir management, production operations, refining technology, and subsurface evaluation — preparing you for careers in upstream and downstream oil and gas operations, energy companies, and resource exploration worldwide.",
+            "description": " Power the global energy sector. This four-year programme covers petroleum exploration, drilling engineering, reservoir management, production operations, refining technology, and subsurface evaluation — preparing you for careers in upstream and downstream oil and gas operations, energy companies, and resource exploration worldwide.",
             "breadcrumb": [
               "Home",
               "Schools",
@@ -7121,47 +7121,61 @@
         }
       },
       "programPreview": {
-        "title": "About the School of Law",
-        "subtitle": "Building Future Legal Professionals",
+        "title": "About the School of Information Science",
+        "subtitle": "Empowering Digital Innovation",
         "content": [
-          "The Presidency School of Law is approved by the Bar Council of India.",
-          "Offers integrated law programmes and global exposure."
+          "The Presidency School of Information Science offers cutting-edge programmes in computer applications, data science, and emerging technologies.",
+          "Programmes are recognised for computing excellence, research, and industry exposure."
         ],
         "programs": [
           {
-            "name": "B.A. LL.B. (Hons.)",
-            "duration": "5 Years - Full-Time",
+            "name": "B.Tech Computer Applications (BCA)",
+            "duration": "3 Years - Full-Time",
             "image": "/img/classes/1.jpg"
           },
           {
-            "name": "B.B.A. LL.B. (Hons.)",
-            "duration": "5 Years - Full-Time",
+            "name": "B.Tech Computer Applications with AI & ML",
+            "duration": "3 Years - Full-Time",
+            "image": "/img/classes/1.jpg"
+          },
+          {
+            "name": "M.Tech Computer Applications (Data Science)",
+            "duration": "2 Years - Full-Time",
             "image": "/img/classes/1.jpg"
           }
         ]
       },
       "programTable": {
         "image": "/img/classes/1.jpg",
-        "description": "Five-year full-time programme with focus on legal excellence, research, and practical exposure.",
+        "description": "Three-year and two-year programmes with focus on computing excellence, research, and industry exposure.",
         "sections": [
           {
-            "title": "Integrated Law – 5-Year Full-Time (Honours)",
+            "title": "Undergraduate – 3-Year Full-Time",
             "programs": [
               {
-                "name": "B.A. LL.B. (Hons.)",
-                "duration": "5 Years - Full-Time"
+                "name": "B.Tech Computer Applications (BCA)",
+                "duration": "3 Years - Full-Time"
               },
               {
-                "name": "B.B.A. LL.B. (Hons.)",
-                "duration": "5 Years - Full-Time"
+                "name": "B.Tech Computer Applications with AI & ML",
+                "duration": "3 Years - Full-Time"
               }
             ]
           },
           {
-            "title": "Doctoral Studies",
+            "title": "Postgraduate",
             "programs": [
               {
-                "name": "Ph.D. Law",
+                "name": "M.Tech Computer Applications (Data Science)",
+                "duration": "2 Years - Full-Time"
+              }
+            ]
+          },
+          {
+            "title": "Doctoral Research",
+            "programs": [
+              {
+                "name": "Ph.D. Information Science",
                 "duration": "Doctoral Research"
               }
             ]
@@ -7170,20 +7184,20 @@
       },
       "faq": [
         {
-          "q": "What is the difference between B.A. LL.B. and B.B.A. LL.B.?",
-          "a": "B.A. LL.B focuses on humanities while B.B.A. LL.B focuses on business subjects."
+          "q": "What is the difference between BCA and B.Tech Computer Science?",
+          "a": "BCA (Bachelor of Computer Applications) is a 3-year programme focused on practical computing applications, while B.Tech Computer Science is a 4-year programme with deeper theoretical foundations and engineering concepts."
         },
         {
-          "q": "What are the eligibility requirements?",
-          "a": "Candidates must have completed 10+2 with minimum required marks."
+          "q": "Does the BCA programme include internships?",
+          "a": "Yes, internships and industry projects are integral to the curriculum, providing real-world experience with software development and data science tools."
         },
         {
-          "q": "Can I specialise during my studies?",
-          "a": "Yes, students can choose specialisation tracks."
+          "q": "What are the career prospects after BCA?",
+          "a": "BCA graduates pursue careers as software developers, data analysts, systems administrators, IT consultants, and can also pursue higher studies like M.Tech or MBA."
         },
         {
-          "q": "Are internships included?",
-          "a": "Yes, internships and practical training are part of the programme."
+          "q": "Is the AI & ML specialisation suitable for beginners?",
+          "a": "Yes, the programme starts with foundational concepts and progressively builds expertise. No prior AI/ML knowledge is required."
         }
       ],
       "highlights": [
@@ -9967,7 +9981,6 @@
           "duration": "1 Year",
           "type": "PG",
           "degree": "Master of Laws",
-
           "hero": {
             "title": {
               "normal": "LL.M. (Master of Laws)",
@@ -10209,7 +10222,6 @@
           "type": "PhD",
           "degree": "Doctor of Philosophy",
           "overview": "Conduct advanced legal research in areas such as constitutional law, corporate law, and international law."
-          
         }
       ]
     },
