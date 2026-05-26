@@ -15885,6 +15885,517 @@
         "subtitle": "Join Presidency University and build your career in technology.",
         "button": "Apply Now"
       }
+    },
+    {
+      "slug": "health",
+      "name": "School of Health Sciences",
+      "hero": {
+        "title": {
+          "normal": "School of",
+          "italic": "Health Sciences"
+        },
+        "description": "Advancing healthcare through education, research, and clinical excellence. Our programs prepare healthcare professionals to make a meaningful impact on global health.",
+        "breadcrumb": [
+          "Home",
+          "Schools",
+          "School of Health Sciences"
+        ],
+        "stats": [
+          {
+            "label": "Programs",
+            "value": "7"
+          },
+          {
+            "label": "Faculty",
+            "value": "50+"
+          },
+          {
+            "label": "Students",
+            "value": "400+"
+          }
+        ]
+      },
+      "about": {
+        "title": "About the School",
+        "description": "The School of Health Sciences is dedicated to developing compassionate, competent, and committed healthcare professionals. Our interdisciplinary approach combines theoretical knowledge with practical skills, ensuring graduates are prepared for the dynamic healthcare landscape."
+      },
+      "visionMission": {
+        "vision": "To be a leading institution in health sciences education, research, and service, contributing to improved health outcomes and advancement of global healthcare.",
+        "mission": "To provide comprehensive, evidence-based education in health sciences, foster innovation in healthcare practices, and develop professionals committed to community health and wellness."
+      },
+      "programPreview": {
+        "title": "Our Programs",
+        "subtitle": "Comprehensive healthcare education across multiple disciplines",
+        "programs": [
+          {
+            "name": "Bachelor of Physiotherapy (BPT)",
+            "icon": "🏥"
+          },
+          {
+            "name": "B.Sc Nursing",
+            "icon": "👨‍⚕️"
+          },
+          {
+            "name": "B.Sc Occupational Therapy",
+            "icon": "🤝"
+          },
+          {
+            "name": "B.Sc Medical Laboratory Technology",
+            "icon": "🔬"
+          },
+          {
+            "name": "M.Sc Physiotherapy (Musculoskeletal)",
+            "icon": "💪"
+          },
+          {
+            "name": "M.Sc Nursing (Clinical Specialization)",
+            "icon": "📚"
+          },
+          {
+            "name": "Ph.D. Health Sciences",
+            "icon": "🎓"
+          }
+        ]
+      },
+      "programTable": [
+        {
+          "degree": "Bachelor of Physiotherapy",
+          "duration": "4 Years",
+          "intake": "60"
+        },
+        {
+          "degree": "B.Sc Nursing",
+          "duration": "4 Years",
+          "intake": "80"
+        },
+        {
+          "degree": "B.Sc Occupational Therapy",
+          "duration": "4 Years",
+          "intake": "40"
+        },
+        {
+          "degree": "B.Sc Medical Laboratory Technology",
+          "duration": "3 Years",
+          "intake": "50"
+        },
+        {
+          "degree": "M.Sc Physiotherapy",
+          "duration": "2 Years",
+          "intake": "30"
+        },
+        {
+          "degree": "M.Sc Nursing",
+          "duration": "2 Years",
+          "intake": "35"
+        },
+        {
+          "degree": "Ph.D. Health Sciences",
+          "duration": "3-5 Years",
+          "intake": "15"
+        }
+      ],
+      "faq": [
+        {
+          "question": "What are the career prospects after completing a health sciences degree?",
+          "answer": "Graduates have diverse career opportunities including clinical practice, research, teaching, hospital administration, public health, and healthcare consulting. Our programs are designed to meet national and international healthcare standards."
+        },
+        {
+          "question": "Are there internship and clinical placement opportunities?",
+          "answer": "Yes, all our programs include mandatory clinical rotations and internships with affiliated hospitals and healthcare centers. This provides hands-on experience with real patient care and healthcare systems."
+        },
+        {
+          "question": "What makes Presidency's health sciences programs unique?",
+          "answer": "We combine cutting-edge curriculum with practical training, experienced faculty from clinical backgrounds, state-of-the-art laboratories and simulation centers, and strong partnerships with leading healthcare institutions."
+        },
+        {
+          "question": "Can I pursue further studies after my bachelor's degree?",
+          "answer": "Absolutely. Our bachelor's graduates can pursue master's programs, PhD studies, or specialized certifications in various healthcare disciplines. We offer clear pathways for continuous professional development."
+        },
+        {
+          "question": "What are the admission requirements?",
+          "answer": "Requirements vary by program. Generally, bachelor's programs require 10+2 with Science. Master's programs require relevant bachelor's degrees. PhD programs require master's degrees with research aptitude. Contact admissions for specific requirements."
+        }
+      ],
+      "programs": [
+        {
+          "slug": "bpt",
+          "name": "Bachelor of Physiotherapy (BPT)",
+          "duration": "4 Years",
+          "type": "Undergraduate",
+          "degree": "B.Pt",
+          "hero": {
+            "title": {
+              "normal": "Bachelor of",
+              "italic": "Physiotherapy (BPT)"
+            },
+            "description": "Master the art and science of rehabilitation. Our BPT program prepares you to diagnose and treat movement disorders, helping patients recover from injuries and improve their quality of life.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Health Sciences",
+              "Bachelor of Physiotherapy"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "4 Years"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "4 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Health Sciences"
+          },
+          "overview": [
+            {
+              "title": "Program Overview",
+              "content": "The Bachelor of Physiotherapy program is a comprehensive 4-year course that combines theoretical knowledge with practical skills. Students learn anatomy, physiology, pathology, and therapeutic techniques. The program includes extensive clinical rotations in orthopedics, neurology, cardiopulmonary, and sports physiotherapy."
+            },
+            {
+              "title": "Clinical Training",
+              "content": "Hands-on experience is crucial. Students work in teaching clinics, community health centers, and affiliated hospitals. Clinical placements span orthopedic, neurological, pediatric, and geriatric settings, ensuring diverse clinical exposure."
+            }
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with Physics, Chemistry, and Biology. Merit-based selection through entrance examination. NEET qualification required as per regulatory standards.",
+            "note": "Eligibility may vary for international students. Physical fitness is essential for this program."
+          }
+        },
+        {
+          "slug": "bsc-nursing",
+          "name": "B.Sc Nursing",
+          "duration": "4 Years",
+          "type": "Undergraduate",
+          "degree": "B.Sc",
+          "hero": {
+            "title": {
+              "normal": "B.Sc",
+              "italic": "Nursing"
+            },
+            "description": "Shape the future of patient care. Our nursing program develops compassionate, skilled nurses who provide quality healthcare across diverse settings and populations.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Health Sciences",
+              "B.Sc Nursing"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "4 Years"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "4 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Health Sciences"
+          },
+          "overview": [
+            {
+              "title": "Comprehensive Nursing Education",
+              "content": "Our B.Sc Nursing program prepares students to provide holistic patient care. The curriculum covers medical-surgical nursing, psychiatric nursing, community health, obstetric and pediatric nursing. Students develop clinical competence, critical thinking, and professional communication skills."
+            },
+            {
+              "title": "Internship & Placements",
+              "content": "Extensive clinical placements in general hospitals, specialized centers, and community health programs. Students gain experience in patient care, health promotion, and disease prevention across acute and chronic settings."
+            }
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "10+2 with Physics, Chemistry, and Biology (or equivalent). Qualifying score in NEET examination. Physical and mental fitness for nursing practice. Passing in English.",
+            "note": "Applicants from across India and abroad welcome. Age criteria as per regulatory norms."
+          }
+        },
+        {
+          "slug": "bsc-occupational-therapy",
+          "name": "B.Sc Occupational Therapy",
+          "duration": "4 Years",
+          "type": "Undergraduate",
+          "degree": "B.Sc",
+          "hero": {
+            "title": {
+              "normal": "B.Sc",
+              "italic": "Occupational Therapy"
+            },
+            "description": "Empower individuals to achieve independence. Our OT program trains therapists to help clients overcome physical, cognitive, and emotional challenges through meaningful activities.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Health Sciences",
+              "B.Sc Occupational Therapy"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "4 Years"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "4 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Health Sciences"
+          },
+          "overview": [
+            {
+              "title": "Occupational Therapy Fundamentals",
+              "content": "This program teaches students to use purposeful activities as therapeutic tools. Curriculum covers human anatomy, psychology, pathology, and therapeutic techniques. Students learn to assess functional abilities and design interventions for diverse client populations."
+            },
+            {
+              "title": "Diverse Practice Settings",
+              "content": "Clinical exposure includes mental health facilities, rehabilitation centers, schools, community programs, and corporate wellness settings. Students work with pediatric, adult, and geriatric populations across various disabilities."
+            }
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "10+2 with Physics, Chemistry, and Biology. NEET qualification required. Strong interest in healthcare and helping professions. Physical capability to perform therapeutic techniques.",
+            "note": "This program develops professionals to work across healthcare, education, and community sectors."
+          }
+        },
+        {
+          "slug": "bsc-mlt",
+          "name": "B.Sc Medical Laboratory Technology",
+          "duration": "3 Years",
+          "type": "Undergraduate",
+          "degree": "B.Sc",
+          "hero": {
+            "title": {
+              "normal": "B.Sc",
+              "italic": "Medical Laboratory Technology"
+            },
+            "description": "Unlock the secrets of disease diagnosis. Our MLT program trains technologists to perform complex laboratory tests that inform clinical decisions and patient treatment.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Health Sciences",
+              "B.Sc Medical Laboratory Technology"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "3 Years"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Health Sciences"
+          },
+          "overview": [
+            {
+              "title": "Laboratory Technology Excellence",
+              "content": "Students master clinical biochemistry, hematology, microbiology, and immunology. The program emphasizes quality assurance, safety protocols, and modern diagnostic techniques. Training includes both conventional and advanced automated laboratory procedures."
+            },
+            {
+              "title": "Practical Laboratory Experience",
+              "content": "Extensive practical training in our state-of-the-art laboratory facilities and affiliated diagnostic centers. Students handle diverse samples, operate sophisticated equipment, and ensure accurate results that impact patient care decisions."
+            }
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "10+2 with Physics, Chemistry, and Biology. Merit-based selection through entrance examination. Strong aptitude for scientific work and laboratory procedures.",
+            "note": "This is a 3-year program with excellent career prospects in hospitals, diagnostic labs, and research centers."
+          }
+        },
+        {
+          "slug": "msc-physiotherapy-musculoskeletal",
+          "name": "M.Sc Physiotherapy (Musculoskeletal)",
+          "duration": "2 Years",
+          "type": "Postgraduate",
+          "degree": "M.Sc",
+          "hero": {
+            "title": {
+              "normal": "M.Sc Physiotherapy",
+              "italic": "(Musculoskeletal)"
+            },
+            "description": "Specialize in orthopedic rehabilitation and sports physiotherapy. Develop advanced clinical skills to treat complex musculoskeletal conditions and enhance athletic performance.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Health Sciences",
+              "M.Sc Physiotherapy (Musculoskeletal)"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "2 Years"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "2 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Health Sciences"
+          },
+          "overview": [
+            {
+              "title": "Advanced Orthopedic Specialization",
+              "content": "This master's program focuses on musculoskeletal physiotherapy with advanced training in biomechanics, manual therapy, and sports rehabilitation. Students learn evidence-based assessment and treatment techniques for sports injuries, orthopedic conditions, and post-surgical rehabilitation."
+            },
+            {
+              "title": "Research & Clinical Practice",
+              "content": "Combines advanced clinical practice with research methodology. Students conduct original research on musculoskeletal disorders, participate in sports events, and work with elite athletes. Strong emphasis on evidence-based practice and clinical reasoning."
+            }
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Bachelor's degree in Physiotherapy or related field. Minimum 50% marks in undergraduate studies. Work experience as a physiotherapist is preferred. Entrance examination and interview selection.",
+            "note": "Ideal for physiotherapists seeking specialization in orthopedics and sports medicine."
+          }
+        },
+        {
+          "slug": "msc-nursing-clinical",
+          "name": "M.Sc Nursing (Clinical Specialization)",
+          "duration": "2 Years",
+          "type": "Postgraduate",
+          "degree": "M.Sc",
+          "hero": {
+            "title": {
+              "normal": "M.Sc Nursing",
+              "italic": "(Clinical Specialization)"
+            },
+            "description": "Advance your nursing career with specialized clinical expertise. Our master's program develops nurse leaders and specialists in critical care, medical-surgical, and community health nursing.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Health Sciences",
+              "M.Sc Nursing (Clinical Specialization)"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "2 Years"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "2 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Health Sciences"
+          },
+          "overview": [
+            {
+              "title": "Clinical Nursing Specialization",
+              "content": "This program offers specialized clinical knowledge and advanced nursing practice in critical care, medical-surgical nursing, and community health. Students develop expertise in patient assessment, complex clinical decision-making, and evidence-based nursing interventions."
+            },
+            {
+              "title": "Leadership & Research",
+              "content": "Beyond clinical expertise, students develop leadership skills, research capabilities, and health policy understanding. The program prepares nurse specialists, educators, and administrators equipped to lead healthcare initiatives."
+            }
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Bachelor's degree in Nursing (B.Sc or B.N). Minimum 55% marks in undergraduate studies. Clinical experience preferred. Selection through entrance examination and interview.",
+            "note": "Excellent for nurses seeking career advancement in clinical leadership and specialization."
+          }
+        },
+        {
+          "slug": "phd-health-sciences",
+          "name": "Ph.D. Health Sciences",
+          "duration": "3-5 Years",
+          "type": "Doctoral",
+          "degree": "PhD",
+          "hero": {
+            "title": {
+              "normal": "Ph.D.",
+              "italic": "Health Sciences"
+            },
+            "description": "Conduct groundbreaking research to advance healthcare. Our doctoral program develops researchers who contribute original knowledge to improve health outcomes and healthcare systems.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Health Sciences",
+              "Ph.D. Health Sciences"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "3-5 Years"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3-5 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Health Sciences"
+          },
+          "overview": [
+            {
+              "title": "Doctoral Research in Health Sciences",
+              "content": "This program prepares researchers to conduct original investigations in health sciences. Research areas include clinical healthcare, epidemiology, public health, rehabilitation science, and health systems. Students develop expertise in research methodology, statistical analysis, and scientific writing."
+            },
+            {
+              "title": "Research Support & Collaboration",
+              "content": "Students work under experienced research mentors with access to laboratory facilities, clinical settings, and research networks. Strong emphasis on publication, conference presentations, and collaboration with national and international institutions."
+            }
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Master's degree in Health Sciences, Nursing, Physiotherapy, or related field. Minimum 55% marks in master's studies. Clear research interests and motivation. Selection through entrance examination, interview, and research proposal presentation.",
+            "note": "This program is designed for healthcare professionals and scientists pursuing research careers."
+          }
+        }
+      ]
     }
   ]
 }
