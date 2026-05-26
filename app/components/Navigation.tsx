@@ -154,7 +154,7 @@ export function Navigation() {
         {
           label:
             "M.Tech Computer Science & Engineering (Artificial Intelligence)",
-          href: "/schools/pg/mtech-ai",
+          href: "/schools/computer-science/mtech-ai",
         },
         {
           label: "M.Tech Computer Science & Engineering (Data Science)",
@@ -231,7 +231,7 @@ export function Navigation() {
         },
         {
           label: "B.C.A. Artificial Intelligence and Machine Learning",
-          href: "/schools/information-science/bca-AL-ML",
+          href: "/schools/information-science/bca-ai-ml",
         },
         {
           label: "B.C.A. Data Science",
@@ -490,7 +490,7 @@ export function Navigation() {
         {
           label:
             "B.A. (Performing Arts – Western Music – Instrumental, Psychology)",
-          href: "/schools/liberal-arts-science/ba-performing-arts–western-music-instrumental-psychology",
+          href: "/schools/liberal-arts-science/ba-performing-arts-western-music-instrumental-psychology",
         },
         {
           label: "B.A. (Theatre Studies, Psychology)",
@@ -653,7 +653,7 @@ export function Navigation() {
             {
               label: "Liberal Arts & Sciences",
               icon: "graduationCap",
-              href: "/schools/liberal-arts",
+              href: "/schools/liberal-arts-science",
             },
           ],
         },
