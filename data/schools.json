@@ -5261,12 +5261,7 @@
               "italic": " Engineering"
             },
             "description": "Power the world’s critical infrastructure. This four-year programme covers electrical machines, power systems, control engineering, and electronics — preparing you for careers in energy generation, distribution, automation, and the growing electric vehicle sector.",
-            "breadcrumb": [
-              "Home",
-              "Schools",
-              "Engineering",
-              "B.Tech EEE "
-            ],
+            "breadcrumb": ["Home", "Schools", "Engineering", "B.Tech EEE "],
             "stats": [
               {
                 "label": "Duration",
@@ -5513,12 +5508,7 @@
               "italic": " Engineering"
             },
             "description": " Design the chips powering tomorrow’s technology. This specialised four-year programme focuses on integrated circuit design, semiconductor physics, FPGA prototyping, and electronic system verification — preparing you for careers at the heart of the global semiconductor industry. ",
-            "breadcrumb": [
-              "Home",
-              "Schools",
-              "Engineering",
-              "B.Tech VLSI "
-            ],
+            "breadcrumb": ["Home", "Schools", "Engineering", "B.Tech VLSI "],
             "stats": [
               {
                 "label": "Duration",
@@ -5756,12 +5746,7 @@
               "italic": " Engineering"
             },
             "description": " Shape the built environment. This four-year programme covers structural design, geotechnical engineering, transportation systems, and sustainable construction — preparing you to plan and build the infrastructure that connects communities and drives economic development.  ",
-            "breadcrumb": [
-              "Home",
-              "Schools",
-              "Engineering",
-              " B.Tech Civil  "
-            ],
+            "breadcrumb": ["Home", "Schools", "Engineering", " B.Tech Civil  "],
             "stats": [
               {
                 "label": "Duration",
@@ -6734,12 +6719,7 @@
               "italic": " Engineering"
             },
             "description": " Advance your expertise in semiconductor design and embedded computing. This two-year postgraduate programme provides specialised training in VLSI design methodology, FPGA development, SoC architecture, and embedded systems — preparing you for senior roles in the global semiconductor industry. ",
-            "breadcrumb": [
-              "Home",
-              "Schools",
-              "Engineering",
-              " M.Tech BCT  "
-            ],
+            "breadcrumb": ["Home", "Schools", "Engineering", " M.Tech BCT  "],
             "stats": [
               {
                 "label": "Duration",
@@ -7895,11 +7875,7 @@
           "italic": "Engineering"
         },
         "description": "Engineer Solutions for Tomorrow. Our engineering programs develop skilled professionals capable of designing, building, and innovating solutions to complex technical and societal challenges.",
-        "breadcrumb": [
-          "Home",
-          "Schools",
-          "School of Engineering"
-        ],
+        "breadcrumb": ["Home", "Schools", "School of Engineering"],
         "stats": [
           {
             "label": "Programs",
@@ -7987,11 +7963,7 @@
           "italic": "Information Science"
         },
         "description": "Step into the digital future with application-focused computing programmes. From software development and data science to artificial intelligence and cybersecurity, our school prepares international students with the practical skills and industry-ready expertise that technology employers seek worldwide.",
-        "breadcrumb": [
-          "Home",
-          "Schools",
-          "Engineering"
-        ],
+        "breadcrumb": ["Home", "Schools", "Engineering"],
         "image": "/img/classes/1.jpg",
         "stats": [
           {
@@ -8212,12 +8184,7 @@
               "italic": ""
             },
             "description": "Launch your career in software and technology. This three-year programme builds strong foundations in programming, databases, networking, and software development — equipping you with the practical application skills sought by the IT and ITES industries across India and internationally.",
-            "breadcrumb": [
-              "Home",
-              "Schools",
-              "Information Science",
-              "BCA"
-            ],
+            "breadcrumb": ["Home", "Schools", "Information Science", "BCA"],
             "stats": [
               {
                 "label": "Duration",
@@ -9045,12 +9012,7 @@
               "italic": ""
             },
             "description": "Build the management foundations for a versatile career in business. This three-year programme covers finance, marketing, human resource management, operations, and entrepreneurship — developing the analytical, communication, and leadership skills that organisations seek in tomorrow’s business professionals.",
-            "breadcrumb": [
-              "Home",
-              "Schools",
-              "Management",
-              "BBA"
-            ],
+            "breadcrumb": ["Home", "Schools", "Management", "BBA"],
             "stats": [
               {
                 "label": "Duration",
@@ -9296,12 +9258,7 @@
               "italic": ""
             },
             "description": "Prepare for a career in one of the world’s fastest-growing transport sectors. This three-year programme covers aviation operations, airport management, travel and tourism, and airline business strategy — equipping you with the specialised management skills demanded by the global aviation industry.",
-            "breadcrumb": [
-              "Home",
-              "Schools",
-              "Management",
-              "BBA Aviation"
-            ],
+            "breadcrumb": ["Home", "Schools", "Management", "BBA Aviation"],
             "stats": [
               {
                 "label": "Duration",
@@ -10284,12 +10241,7 @@
               "italic": ""
             },
             "description": "Enter one of the world’s largest and fastest-growing service sectors. This three-year programme covers hotel operations, food and beverage management, tourism, event management, and guest services — preparing you for a career in an industry that values people skills, operational excellence, and cultural fluency.",
-            "breadcrumb": [
-              "Home",
-              "Schools",
-              "Management",
-              "BBA Hospitality"
-            ],
+            "breadcrumb": ["Home", "Schools", "Management", "BBA Hospitality"],
             "stats": [
               {
                 "label": "Duration",
@@ -11221,12 +11173,7 @@
               "italic": ""
             },
             "description": " Master the skills to inform, engage, and influence audiences across every media platform. This three-year programme combines traditional journalism principles with cutting-edge media technology — offering five specialisation tracks that prepare you for careers across news, advertising, PR, film, immersive media, and digital content creation. ",
-            "breadcrumb": [
-              "Home",
-              "Schools",
-              " Media Studies",
-              "  BA JMC "
-            ],
+            "breadcrumb": ["Home", "Schools", " Media Studies", "  BA JMC "],
             "stats": [
               {
                 "label": "Duration",
@@ -11747,11 +11694,7 @@
           "italic": "Management"
         },
         "description": "Lead with Excellence. Our management programs prepare strategic leaders and business professionals to navigate complex organizational challenges and drive sustainable business growth.",
-        "breadcrumb": [
-          "Home",
-          "Schools",
-          "School of Management"
-        ],
+        "breadcrumb": ["Home", "Schools", "School of Management"],
         "stats": [
           {
             "label": "Programs",
@@ -12328,12 +12271,7 @@
               "italic": " Commerce "
             },
             "description": "Earn a globally recognised professional accounting qualification alongside your commerce degree. This three-year programme integrates the B.Com curriculum with the ACCA (Association of Chartered Certified Accountants) syllabus — offering exemptions from up to 9 ACCA papers and opening career pathways in 180 countries worldwide.",
-            "breadcrumb": [
-              "Home",
-              "Schools",
-              "Commerce",
-              "B.Com ACCA"
-            ],
+            "breadcrumb": ["Home", "Schools", "Commerce", "B.Com ACCA"],
             "stats": [
               {
                 "label": "Duration",
@@ -12564,12 +12502,7 @@
               "italic": " Commerce "
             },
             "description": "Earn a globally recognised management accounting qualification alongside your commerce degree. This three-year programme integrates the B.Com curriculum with the CMA-US (Certified Management Accountant) programme — preparing you for prominent roles in corporate finance, cost management, and financial planning worldwide.",
-            "breadcrumb": [
-              "Home",
-              "Schools",
-              "Commerce",
-              "B.Com CMA-US"
-            ],
+            "breadcrumb": ["Home", "Schools", "Commerce", "B.Com CMA-US"],
             "stats": [
               {
                 "label": "Duration",
@@ -13708,11 +13641,7 @@
           "italic": "Commerce"
         },
         "description": "Master Financial Markets and Business Operations. Our commerce programs prepare professionals for careers in accounting, finance, taxation, and corporate management.",
-        "breadcrumb": [
-          "Home",
-          "Schools",
-          "School of Commerce"
-        ],
+        "breadcrumb": ["Home", "Schools", "School of Commerce"],
         "stats": [
           {
             "label": "Programs",
@@ -13886,12 +13815,7 @@
               "italic": "Design"
             },
             "description": "Shape how the world sees, reads, and interacts with information. This four-year programme covers graphic design, branding, typography, motion graphics, UI/UX, and interactive media — preparing you for careers at the creative heart of advertising, publishing, digital media, and brand communication.",
-            "breadcrumb": [
-              "Home",
-              "Schools",
-              "Design",
-              "Communication Design"
-            ],
+            "breadcrumb": ["Home", "Schools", "Design", "Communication Design"],
             "stats": [
               {
                 "label": "Duration",
@@ -14137,12 +14061,7 @@
               "italic": "Design"
             },
             "description": "Create the garments and accessories that define contemporary style. This four-year programme covers fashion illustration, garment construction, textile innovation, trend forecasting, and sustainable fashion — preparing you for careers in one of the world’s most dynamic and expressive creative industries.",
-            "breadcrumb": [
-              "Home",
-              "Schools",
-              "Design",
-              "Fashion Design"
-            ],
+            "breadcrumb": ["Home", "Schools", "Design", "Fashion Design"],
             "stats": [
               {
                 "label": "Duration",
@@ -14388,12 +14307,7 @@
               "italic": "Design"
             },
             "description": "Design the objects and experiences that shape everyday life. This four-year technology-driven programme covers concept development, CAD/CAM, prototyping, ergonomics, material science, and sustainable manufacturing — preparing you for careers in industrial design across electronics, furniture, consumer goods, automotive, and lifestyle products.",
-            "breadcrumb": [
-              "Home",
-              "Schools",
-              "Design",
-              "Product Design"
-            ],
+            "breadcrumb": ["Home", "Schools", "Design", "Product Design"],
             "stats": [
               {
                 "label": "Duration",
@@ -14639,12 +14553,7 @@
               "italic": "Design"
             },
             "description": "Design the environments where people live, work, and experience the world. This four-year programme covers interior architecture, spatial planning, exhibition design, hospitality environments, and retail experiences — preparing you for careers in one of design’s most immersive and impactful disciplines.",
-            "breadcrumb": [
-              "Home",
-              "Schools",
-              "Design",
-              "Space Design"
-            ],
+            "breadcrumb": ["Home", "Schools", "Design", "Space Design"],
             "stats": [
               {
                 "label": "Duration",
@@ -14890,12 +14799,7 @@
               "italic": "Design"
             },
             "description": "Design the games that captivate and engage millions. This four-year programme covers game mechanics, level design, interactive storytelling, game art, and game development — preparing you for careers in one of the world’s fastest-growing entertainment and technology sectors.",
-            "breadcrumb": [
-              "Home",
-              "Schools",
-              "Design",
-              "Game Design"
-            ],
+            "breadcrumb": ["Home", "Schools", "Design", "Game Design"],
             "stats": [
               {
                 "label": "Duration",
@@ -15141,12 +15045,7 @@
               "italic": ""
             },
             "description": "Bring stories and ideas to life through digital media. This four-year programme covers visual effects (VFX), special effects (SFX), game art, 3D animation, character design, and interactive media — preparing you for careers in film, television, gaming, advertising, and the booming digital content industry.",
-            "breadcrumb": [
-              "Home",
-              "Schools",
-              "Design",
-              "B.Sc Multimedia"
-            ],
+            "breadcrumb": ["Home", "Schools", "Design", "B.Sc Multimedia"],
             "stats": [
               {
                 "label": "Duration",
@@ -15392,12 +15291,7 @@
               "italic": ""
             },
             "description": "Develop your artistic voice through rigorous creative practice. This four-year programme covers painting, sculpture, printmaking, drawing, art history, and contemporary art practice — preparing you for careers as exhibiting artists, art educators, curators, and creative professionals in galleries, studios, and cultural institutions worldwide.",
-            "breadcrumb": [
-              "Home",
-              "Schools",
-              "Design",
-              "BFA"
-            ],
+            "breadcrumb": ["Home", "Schools", "Design", "BFA"],
             "stats": [
               {
                 "label": "Duration",
@@ -15772,11 +15666,7 @@
           "italic": "Design"
         },
         "description": "Create Impactful Design Solutions. Our design programs blend creativity with strategy, preparing designers to shape user experiences and visual communication across digital and physical spaces.",
-        "breadcrumb": [
-          "Home",
-          "Schools",
-          "School of Design"
-        ],
+        "breadcrumb": ["Home", "Schools", "School of Design"],
         "stats": [
           {
             "label": "Programs",
@@ -15950,12 +15840,7 @@
               "italic": "Law"
             },
             "description": "Combine legal expertise with a deep understanding of society and governance. This five-year BCI-approved integrated honours programme blends political science, sociology, and economics with comprehensive legal education — creating socially sensitive legal professionals equipped for careers in litigation, judiciary, corporate law, and public service.",
-            "breadcrumb": [
-              "Home",
-              "Schools",
-              "Law",
-              "B.A. LL.B. (Hons.)"
-            ],
+            "breadcrumb": ["Home", "Schools", "Law", "B.A. LL.B. (Hons.)"],
             "stats": [
               {
                 "label": "Duration",
@@ -16196,12 +16081,7 @@
               "italic": "Law"
             },
             "description": "Where business acumen meets legal expertise. This five-year BCI-approved integrated honours programme blends management sciences with legal education — creating legal professionals for the growing opportunities in corporate law, business advisory, and commercial legal practice across global markets.",
-            "breadcrumb": [
-              "Home",
-              "Schools",
-              "Law",
-              "B.B.A. LL.B. (Hons.)"
-            ],
+            "breadcrumb": ["Home", "Schools", "Law", "B.B.A. LL.B. (Hons.)"],
             "stats": [
               {
                 "label": "Duration",
@@ -16442,12 +16322,7 @@
               "italic": "Law"
             },
             "description": "Deepen your legal expertise and advance your career through postgraduate specialisation. This one-year programme offers advanced study across five specialisation tracks — IPR & Technology Law, International Law, Criminal Law, Corporate Law, and Constitutional & Administrative Law — preparing you for leadership in legal practice, academia, and policy.",
-            "breadcrumb": [
-              "Home",
-              "Schools",
-              "Law",
-              "LL.M."
-            ],
+            "breadcrumb": ["Home", "Schools", "Law", "LL.M."],
             "stats": [
               {
                 "label": "Duration",
@@ -16688,12 +16563,7 @@
               "italic": ""
             },
             "description": "Discover our comprehensive Ph.D in Law programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
-            "breadcrumb": [
-              "Home",
-              "Schools",
-              "School of Law",
-              "Ph.D in Law"
-            ],
+            "breadcrumb": ["Home", "Schools", "School of Law", "Ph.D in Law"],
             "stats": [
               {
                 "label": "Programme",
@@ -16817,11 +16687,7 @@
           "italic": "Law"
         },
         "description": "Justice Through Excellence. Our law programs develop skilled legal professionals committed to justice, ethical practice, and advancing the rule of law in society.",
-        "breadcrumb": [
-          "Home",
-          "Schools",
-          "School of Law"
-        ],
+        "breadcrumb": ["Home", "Schools", "School of Law"],
         "stats": [
           {
             "label": "Programs",
@@ -16842,7 +16708,7 @@
         "content": [
           "The School of Law offers rigorous legal education combining constitutional law, criminal law, civil law, corporate law, and contemporary legal issues. Our programs prepare advocates, judges, legal advisors, and corporate counselors through moot courts, legal clinics, and internships with courts and law firms.."
         ],
-        "image": "img/law.png",
+        "image": "/img/law.png",
         "features": [
           {
             "title": "Moot Court",
@@ -18081,11 +17947,7 @@
           "italic": "Media Studies"
         },
         "description": "Tell Stories That Matter. Our media programs prepare journalists, broadcasters, and media professionals to inform, inspire, and influence through ethical, impactful communication.",
-        "breadcrumb": [
-          "Home",
-          "Schools",
-          "School of Media Studies"
-        ],
+        "breadcrumb": ["Home", "Schools", "School of Media Studies"],
         "stats": [
           {
             "label": "Programs",
@@ -20356,11 +20218,7 @@
           "italic": "Liberal Arts & Sciences"
         },
         "description": "Think Critically, Act Responsibly. Our liberal arts programs develop intellectually versatile professionals who approach complex problems from multiple perspectives and drive meaningful change.",
-        "breadcrumb": [
-          "Home",
-          "Schools",
-          "School of Liberal Arts & Sciences"
-        ],
+        "breadcrumb": ["Home", "Schools", "School of Liberal Arts & Sciences"],
         "stats": [
           {
             "label": "Programs",
@@ -20381,7 +20239,7 @@
         "content": [
           "The School of Liberal Arts & Sciences offers interdisciplinary education combining humanities, social sciences, natural sciences, and professional studies. Our programs develop critical thinkers and versatile professionals prepared for evolving careers and engaged global citizenship."
         ],
-        "image": "img/law.png",
+        "image": "/img/law.png",
         "features": [
           {
             "title": "Interdisciplinary Learning",
@@ -20541,11 +20399,7 @@
           "italic": "Health Sciences"
         },
         "description": "Advancing healthcare through education, research, and clinical excellence. Our programs prepare healthcare professionals to make a meaningful impact on global health.",
-        "breadcrumb": [
-          "Home",
-          "Schools",
-          "School of Health Sciences"
-        ],
+        "breadcrumb": ["Home", "Schools", "School of Health Sciences"],
         "stats": [
           {
             "label": "Programs",
