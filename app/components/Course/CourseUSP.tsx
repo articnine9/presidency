@@ -71,9 +71,10 @@ function HexTile({
 ──────────────────────────────────────────────────── */
 function Honeycomb({ highlights, image }: { highlights: { title: string }[]; image: string }) {
   const S  = 160;                   // hex width
-  const H  = Math.round(S * 0.866); // hex height
-  const cX = S * 0.77;              // horizontal step
-  const cY = H * 0.54;              // vertical step (honeycomb offset)
+  const H        = Math.round(S * 0.866);
+  const colStep  = Math.round(S * 0.76);   // tight flat-top honeycomb
+  const rowStep  = H;
+  const halfH    = Math.round(H * 0.5);    // offset for middle col
 
   /* anchor positions (col, row) — col-2 is shifted down ½ step */
   const layout = [
@@ -88,12 +89,12 @@ function Honeycomb({ highlights, image }: { highlights: { title: string }[]; ima
     { col: 2, row:  2, type: "img" },
   ] as const;
 
-  /* convert (col, row) to pixel coords */
+  /* convert (col, row) → pixel — tight flat-top honeycomb */
   function pos(col: number, row: number) {
-    const x = col * cX * 2;
-    const baseY = row * cY * 2;
-    const offset = col % 2 === 1 ? cY : 0; // middle col shifts down
-    return { x, y: baseY + offset };
+    return {
+      x: col * colStep,
+      y: row * rowStep + (col % 2 === 1 ? halfH : 0),
+    };
   }
 
   /* canvas size */
