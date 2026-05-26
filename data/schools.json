@@ -9017,244 +9017,7 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
-          "hero": {
-            "title": {
-              "normal": "BBA (Digital Marketing)",
-              "italic": ""
-            },
-            "description": "Master the strategies that connect brands to audiences online. This three-year programme covers SEO, social media marketing, digital advertising, web analytics, and content strategy — preparing you for one of the most dynamic and in-demand career fields in modern business.",
-            "breadcrumb": [
-              "Home",
-              "Schools",
-              "Management",
-              "BBA Digital Marketing"
-            ],
-            "stats": [
-              {
-                "label": "Duration",
-                "value": "3 Yr"
-              },
-              {
-                "label": "Programme",
-                "value": "BBA"
-              },
-              {
-                "label": "Specialisation",
-                "value": "Digital Marketing"
-              }
-            ]
-          },
-          "details": {
-            "duration": "3 Years Full-Time",
-            "campus": "Bengaluru, India",
-            "school": "Management"
-          },
-          "overview": [
-            "The BBA in Digital Marketing provides comprehensive training in the strategies used to attract customers through digital channels. The programme covers search engine optimisation (SEO), search engine marketing (SEM), social media marketing, web analytics, the digital advertising landscape, and customer communication using new media techniques. Students develop a practical understanding of online marketing alongside insights into human and organisational dynamics — creating professionals who can plan, execute, and measure digital campaigns that drive measurable business results.",
-            "The curriculum covers technology platforms, content marketing, influencer strategies, email marketing, paid advertising management, and analytics-driven optimisation. Students gain hands-on experience with industry-standard digital marketing platforms and develop professional portfolios through live campaign projects. Bengaluru’s vibrant digital economy — home to digital agencies, e-commerce companies, and technology startups — provides an ideal environment for building practical skills and professional networks in digital marketing."
-          ],
-          "eligibility": {
-            "title": "Eligibility Criteria",
-            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
-            "note": "Eligibility may vary for international students."
-          },
-          "tabs": {
-            "curriculum": [
-              {
-                "semester": "Semester 1",
-                "modules": [
-                  {
-                    "name": "Mathematics I",
-                    "code": "MAT101"
-                  },
-                  {
-                    "name": "Programming in C",
-                    "code": "CSE101"
-                  },
-                  {
-                    "name": "Physics",
-                    "code": "PHY101"
-                  }
-                ]
-              },
-              {
-                "semester": "Semester 2",
-                "modules": [
-                  {
-                    "name": "Data Structures",
-                    "code": "CSE201"
-                  },
-                  {
-                    "name": "Discrete Mathematics",
-                    "code": "MAT201"
-                  },
-                  {
-                    "name": "Digital Logic",
-                    "code": "CSE202"
-                  }
-                ]
-              }
-            ],
-            "outcomes": {
-              "PEOs": [
-                {
-                  "id": "PEO 1",
-                  "title": "Digital Marketing Expertise",
-                  "text": "Prepare graduates with expertise in digital marketing, interpersonal skills, entrepreneurship, and online marketing strategy."
-                },
-                {
-                  "id": "PEO 2",
-                  "title": "Problem-Solving Capability",
-                  "text": "Develop graduates equipped to recognise and address marketing challenges using digital tools and managerial skills."
-                },
-                {
-                  "id": "PEO 3",
-                  "title": "Continuous Development",
-                  "text": "Foster graduates who engage in lifelong learning through higher studies and ongoing professional development."
-                }
-              ],
-              "POs": [
-                {
-                  "id": "PO 1",
-                  "text": "Acquire knowledge and skills in the field of digital marketing strategy, platforms, and campaign management."
-                },
-                {
-                  "id": "PO 2",
-                  "text": "Apply managerial skills to plan, execute, and optimise digital marketing campaigns across channels."
-                },
-                {
-                  "id": "PO 3",
-                  "text": "Develop employability skills through practical awareness of digital marketing industry tools and techniques."
-                },
-                {
-                  "id": "PO 4",
-                  "text": "Apply professional and ethical principles to digital marketing practice."
-                },
-                {
-                  "id": "PO 5",
-                  "text": "Demonstrate commitment to continuous learning and function effectively in multidisciplinary teams."
-                }
-              ],
-              "PSOs": [
-                {
-                  "id": "PSO 1",
-                  "title": "Digital Strategy Application",
-                  "text": "Ability to apply managerial skills in the domain of digital marketing across search, social, content, and paid advertising channels."
-                },
-                {
-                  "id": "PSO 2",
-                  "title": "Campaign Analytics",
-                  "text": "Competence in measuring, analysing, and optimising digital marketing campaign performance using web analytics tools."
-                },
-                {
-                  "id": "PSO 3",
-                  "title": "Brand & Content Management",
-                  "text": "Skill in developing and executing content marketing strategies, brand campaigns, and audience engagement programmes across digital platforms."
-                }
-              ]
-            }
-          },
-          "highlights": [
-            {
-              "title": "Specialised Digital Curriculum",
-              "description": "Covers SEO/SEM, social media strategy, content marketing, digital advertising, web analytics, and e-commerce marketing."
-            },
-            {
-              "title": "Platform-Based Training",
-              "description": "Hands-on experience with Google Ads, Meta Business Suite, analytics platforms, and marketing automation tools."
-            },
-            {
-              "title": "Live Campaign Projects",
-              "description": "Students plan, execute, and measure real digital marketing campaigns, building professional portfolios during the programme."
-            },
-            {
-              "title": "Industry Certification Pathways",
-              "description": "Preparation for Google, Meta, and HubSpot certifications alongside the academic degree."
-            },
-            {
-              "title": "Bengaluru’s Digital Economy",
-              "description": "Proximity to digital agencies, e-commerce companies, and tech startups providing internship and career opportunities."
-            },
-            {
-              "title": "Content & Creative Skills",
-              "description": "Training in content creation, visual communication, and brand storytelling across digital channels."
-            },
-            {
-              "title": "Entrepreneurship Application",
-              "description": "Skills directly applicable to launching and marketing online businesses, personal brands, and digital-first ventures."
-            },
-            {
-              "title": "Strong Graduate Demand",
-              "description": "Digital marketing professionals are among the most sought-after roles across industries, with growing demand globally."
-            }
-          ],
-          "careers": [
-            {
-              "category": "Digital Marketing",
-              "roles": [
-                "Digital Marketing Executive",
-                "SEO Specialist",
-                "SEM/PPC Specialist",
-                "Social Media Manager"
-              ]
-            },
-            {
-              "category": "Content & Brand",
-              "roles": [
-                "Content Marketing Manager",
-                "Brand Strategist",
-                "Influencer Marketing Coordinator",
-                "Email Marketing Specialist"
-              ]
-            },
-            {
-              "category": "Analytics & Strategy",
-              "roles": [
-                "Web Analytics Analyst",
-                "Marketing Data Analyst",
-                "Digital Strategy Consultant"
-              ]
-            },
-            {
-              "category": "Entrepreneurship",
-              "roles": [
-                "Digital Marketing Freelancer",
-                "E-Commerce Entrepreneur",
-                "Social Media Consultant"
-              ]
-            }
-          ],
-          "faq": [
-            {
-              "q": "What is the starting salary for digital marketing graduates?",
-              "a": "Starting compensation typically ranges from INR 3–5 LPA in India, with growth potential tied to specialisation and experience. Performance-based roles in digital marketing often include variable compensation. International roles vary by market."
-            },
-            {
-              "q": "Are industry certifications included?",
-              "a": "Yes. The programme prepares students for certifications from Google, Meta, and HubSpot, providing industry-recognised credentials alongside the academic degree."
-            },
-            {
-              "q": "Can I freelance or start my own business with this degree?",
-              "a": "Absolutely. Digital marketing is one of the most accessible fields for freelancing and entrepreneurship. Graduates frequently start agencies, consult independently, or build personal brands using the skills and portfolio developed during the programme."
-            },
-            {
-              "q": "How does this differ from BBA Digital Business?",
-              "a": "Digital Marketing focuses specifically on marketing strategy, campaigns, and audience engagement through digital channels. Digital Business takes a broader view, covering digital transformation, e-commerce operations, and the management of digital-first business models."
-            },
-            {
-              "q": "Can graduates pursue an MBA?",
-              "a": "Yes. Graduates can pursue MBA Digital Marketing or other MBA specialisations for advanced career development."
-            },
-            {
-              "q": "Is on-campus accommodation available for international students?",
-              "a": "Presidency University provides student housing. Contact the Office of International Affairs for details."
-            }
-          ],
-          "cta": {
-            "title": "Your Future Starts Here",
-            "subtitle": "Join Presidency University and build your career in technology.",
-            "button": "Apply Now"
-          }
+          "overview": "Explore the art and craft of visual storytelling in film and television production."
         },
         {
           "slug": "ba-jmc-ar-vr",
@@ -11099,7 +10862,250 @@
           "duration": "4 Years",
           "type": "UG",
           "degree": "Bachelor of Design",
-          "overview": "Learn visual communication, branding, typography, and digital media design."
+          "hero": {
+            "title": {
+              "normal": "B.Des Communication Design",
+              "italic": "Design"
+            },
+            "description": "Shape how the world sees, reads, and interacts with information. This four-year programme covers graphic design, branding, typography, motion graphics, UI/UX, and interactive media — preparing you for careers at the creative heart of advertising, publishing, digital media, and brand communication.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Design",
+              "Communication Design"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "4 Yr"
+              },
+              {
+                "label": "Degree",
+                "value": "B.Des"
+              },
+              {
+                "label": "Specialisation",
+                "value": "Communication"
+              }
+            ]
+          },
+          "details": {
+            "duration": "4 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "Design"
+          },
+          "overview": [
+            "The B.Des in Communication Design focuses on the fundamentals of visual communication, enabling students to choose between graphic design and visual representation of information via electronic and new media. The programme provides an in-depth understanding of both pathways and their applications, including motion graphics, special effects, brand identity development, editorial design, and interactive digital experiences. Students develop proficiency with industry-standard tools including Adobe Creative Suite, Sketch, and prototyping platforms through studio-based projects, client briefs, and design competitions.",
+            "The programme follows the school’s common first-year structure before specialising from the second year into communication design disciplines. Students build professional portfolios through live projects, design workshops, and industry internships. Certifications in UX/UI, motion design, digital storytelling, and interactive media complement the degree programme. Bengaluru’s vibrant advertising, digital media, and technology startup ecosystem provides direct access to internship and employment opportunities with agencies, studios, media houses, and corporate brands."
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "note": "Eligibility may vary for international students."
+          },
+          "tabs": {
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Mathematics I",
+                    "code": "MAT101"
+                  },
+                  {
+                    "name": "Programming in C",
+                    "code": "CSE101"
+                  },
+                  {
+                    "name": "Physics",
+                    "code": "PHY101"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Data Structures",
+                    "code": "CSE201"
+                  },
+                  {
+                    "name": "Discrete Mathematics",
+                    "code": "MAT201"
+                  },
+                  {
+                    "name": "Digital Logic",
+                    "code": "CSE202"
+                  }
+                ]
+              }
+            ],
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Professional Designer",
+                  "text": "Prepare graduates who become professional designers in communication design, capable of working across visual, digital, and interactive media."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Design Researcher",
+                  "text": "Develop graduates who contribute to design research, advancing knowledge in visual communication and information design."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Design Entrepreneur",
+                  "text": "Foster graduates who become entrepreneurs, consultants, or independent design practitioners in the creative industries."
+                }
+              ],
+              "POs": [
+                {
+                  "id": "PO 1",
+                  "text": "Apply knowledge of fundamental principles of design to communication challenges across visual and digital media."
+                },
+                {
+                  "id": "PO 2",
+                  "text": "Design and conduct design experiments, analyse and interpret design data for evidence-based creative decisions."
+                },
+                {
+                  "id": "PO 3",
+                  "text": "Design systems, programmes, and visual components that meet needs within realistic economic, environmental, social, and ethical constraints."
+                },
+                {
+                  "id": "PO 4",
+                  "text": "Operate effectively in multidisciplinary teams combining design, technology, and business perspectives."
+                },
+                {
+                  "id": "PO 5",
+                  "text": "Identify, formulate, and solve complex design problems through creative and analytical thinking."
+                },
+                {
+                  "id": "PO 6",
+                  "text": "Demonstrate professional and ethical responsibility in design practice."
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Visual Communication Mastery",
+                  "text": "Ability to create compelling visual narratives across print, digital, and interactive media using professional design tools and techniques."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Brand & Identity Design",
+                  "text": "Competence in developing comprehensive brand identity systems, campaign visuals, and corporate communication materials."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Digital & Interactive Design",
+                  "text": "Skill in UI/UX design, motion graphics, digital storytelling, and interactive media creation for web and mobile platforms."
+                }
+              ]
+            }
+          },
+          "highlights": [
+            {
+              "title": "Comprehensive Visual Curriculum",
+              "description": "Covers design fundamentals, typography, brand identity, motion graphics, UI/UX, and interactive media across eight semesters."
+            },
+            {
+              "title": "Industry-Standard Tools",
+              "description": "Hands-on training with Adobe Creative Suite, Sketch, Figma, After Effects, and prototyping platforms used by professional designers."
+            },
+            {
+              "title": "Studio-Based Learning",
+              "description": "Dedicated design studios for visual communication projects, client briefs, and collaborative creative work."
+            },
+            {
+              "title": "Portfolio Development",
+              "description": "Progressive portfolio building through live projects, competitions, and client briefs throughout the programme."
+            },
+            {
+              "title": "UX/UI Certification Pathways",
+              "description": "Training and certification opportunities in UX/UI design, motion graphics, and digital storytelling alongside the degree."
+            },
+            {
+              "title": "Industry Collaborations",
+              "description": "Partnerships with advertising agencies, design studios, media houses, and corporate brands for internships and projects."
+            },
+            {
+              "title": "Common Foundation Year",
+              "description": "Shared first year across all design disciplines providing broad creative foundations before specialisation."
+            },
+            {
+              "title": "Bengaluru Creative Ecosystem",
+              "description": "Proximity to India’s advertising, digital media, and technology startup hub for career and freelance opportunities."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Graphic & Brand Design",
+              "roles": [
+                "Graphic Designer",
+                "Brand Identity Designer",
+                "Art Director",
+                "Visual Communication Specialist"
+              ]
+            },
+            {
+              "category": "Digital & Interactive",
+              "roles": [
+                "UI/UX Designer",
+                "Motion Graphics Designer",
+                "Web Designer",
+                "Interactive Media Designer"
+              ]
+            },
+            {
+              "category": "Advertising & Publishing",
+              "roles": [
+                "Advertising Designer",
+                "Campaign Creative",
+                "Editorial Designer",
+                "Packaging Designer"
+              ]
+            },
+            {
+              "category": "Freelance & Entrepreneurship",
+              "roles": [
+                "Freelance Designer",
+                "Design Studio Founder",
+                "Creative Consultant",
+                "Digital Marketing Designer"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Do I need a portfolio to apply?",
+              "a": "Submitting a portfolio helps evaluate creative aptitude but is not always mandatory. There is no formal entrance exam. International applicants should confirm requirements with the Office of International Affairs."
+            },
+            {
+              "q": "Can I study Communication Design without an arts background?",
+              "a": "Yes. The common first year builds foundational design skills from the ground up. Students without formal arts training are guided through core principles before specialising."
+            },
+            {
+              "q": "What is the starting salary for Communication Design graduates?",
+              "a": "Starting compensation typically ranges from INR 3–6 LPA in India, with growth tied to specialisation, portfolio quality, and experience. Freelance designers may earn variable income depending on client base."
+            },
+            {
+              "q": "What software tools are taught?",
+              "a": "Students work with Adobe Creative Suite (Photoshop, Illustrator, InDesign, After Effects, Premiere Pro), Sketch, Figma, and prototyping tools throughout the programme."
+            },
+            {
+              "q": "Is freelancing a viable career path after this programme?",
+              "a": "Absolutely. Communication design is one of the most accessible creative fields for freelancing. The portfolio developed during the programme provides a professional foundation for independent practice."
+            },
+            {
+              "q": "Is on-campus accommodation available for international students?",
+              "a": "Presidency University provides student housing. Contact the Office of International Affairs for details."
+            }
+          ],
+          "cta": {
+            "title": "Your Future Starts Here",
+            "subtitle": "Join Presidency University and build your career in technology.",
+            "button": "Apply Now"
+          }
         },
         {
           "slug": "bdes-fashion",
@@ -11107,7 +11113,250 @@
           "duration": "4 Years",
           "type": "UG",
           "degree": "Bachelor of Design",
-          "overview": "Explore fashion trends, garment design, textiles, and fashion business."
+          "hero": {
+            "title": {
+              "normal": "B.Des Fashion Design",
+              "italic": "Design"
+            },
+            "description": "Create the garments and accessories that define contemporary style. This four-year programme covers fashion illustration, garment construction, textile innovation, trend forecasting, and sustainable fashion — preparing you for careers in one of the world’s most dynamic and expressive creative industries.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Design",
+              "Fashion Design"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "4 Yr"
+              },
+              {
+                "label": "Degree",
+                "value": "B.Des"
+              },
+              {
+                "label": "Specialisation",
+                "value": "Fashion"
+              }
+            ]
+          },
+          "details": {
+            "duration": "4 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "Design"
+          },
+          "overview": [
+            "The B.Des in Fashion Design enables students to develop technical skills in garment, apparel, and accessory construction while cultivating the creative sensibility to produce aesthetically compelling and commercially viable designs. The curriculum covers design principles, fashion illustration, pattern making, draping, textile science, trend forecasting, sustainable fashion practices, and fashion business management. Students progress from foundational design skills in the common first year through increasingly advanced specialisation in fashion across subsequent semesters.",
+            "The programme is supported by state-of-the-art design studios equipped with modern design software, digital printing tools, sewing and pattern-making facilities, and advanced textile labs. Students build professional portfolios through studio projects, fashion shows, design workshops, and internships with fashion houses and textile manufacturers. India’s thriving fashion and textile industry — one of the world’s largest — provides a rich context for study, with access to diverse traditional craft techniques, emerging sustainable practices, and a dynamic contemporary fashion market."
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "note": "Eligibility may vary for international students."
+          },
+          "tabs": {
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Mathematics I",
+                    "code": "MAT101"
+                  },
+                  {
+                    "name": "Programming in C",
+                    "code": "CSE101"
+                  },
+                  {
+                    "name": "Physics",
+                    "code": "PHY101"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Data Structures",
+                    "code": "CSE201"
+                  },
+                  {
+                    "name": "Discrete Mathematics",
+                    "code": "MAT201"
+                  },
+                  {
+                    "name": "Digital Logic",
+                    "code": "CSE202"
+                  }
+                ]
+              }
+            ],
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Professional Designer",
+                  "text": "Prepare graduates who become professional designers in fashion design, capable of working across apparel, accessories, and textile industries."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Design Researcher",
+                  "text": "Develop graduates who contribute to design research, advancing knowledge in fashion, textile innovation, and sustainable practices."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Design Entrepreneur",
+                  "text": "Foster graduates who become entrepreneurs, consultants, or independent fashion practitioners in the creative industries."
+                }
+              ],
+              "POs": [
+                {
+                  "id": "PO 1",
+                  "text": "Apply knowledge of fundamental principles of design to fashion challenges across apparel, accessories, and textiles."
+                },
+                {
+                  "id": "PO 2",
+                  "text": "Design and conduct fashion experiments, analyse and interpret design data for evidence-based creative decisions."
+                },
+                {
+                  "id": "PO 3",
+                  "text": "Design garments, accessories, and fashion systems that meet needs within realistic economic, environmental, social, and ethical constraints."
+                },
+                {
+                  "id": "PO 4",
+                  "text": "Operate effectively in multidisciplinary teams combining design, technology, and business perspectives."
+                },
+                {
+                  "id": "PO 5",
+                  "text": "Identify, formulate, and solve complex fashion design problems through creative and analytical thinking."
+                },
+                {
+                  "id": "PO 6",
+                  "text": "Demonstrate professional and ethical responsibility in fashion design practice."
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Fashion Creation & Construction",
+                  "text": "Ability to design, construct, and present garments and accessories using professional pattern-making, draping, and construction techniques."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Textile & Material Innovation",
+                  "text": "Competence in textile selection, manipulation, and innovation for garment and accessory applications."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Sustainable Fashion Practice",
+                  "text": "Skill in incorporating sustainable design principles, ethical sourcing, and responsible production methods into fashion practice."
+                }
+              ]
+            }
+          },
+          "highlights": [
+            {
+              "title": "Comprehensive Fashion Curriculum",
+              "description": "Covers fashion illustration, garment construction, textile science, trend forecasting, and sustainable fashion across eight semesters."
+            },
+            {
+              "title": "Professional Studio Facilities",
+              "description": "Sewing labs, pattern-making rooms, digital printing equipment, and textile labs for hands-on fashion creation."
+            },
+            {
+              "title": "Fashion Show & Portfolio Development",
+              "description": "Students present collections in fashion shows and develop professional portfolios through industry-grade projects."
+            },
+            {
+              "title": "India’s Textile & Fashion Heritage",
+              "description": "Study within one of the world’s largest fashion and textile markets, with exposure to traditional craft techniques and contemporary design."
+            },
+            {
+              "title": "Sustainable Fashion Focus",
+              "description": "Dedicated attention to ethical fashion, sustainable materials, and responsible production aligned with global industry trends."
+            },
+            {
+              "title": "Industry Internships",
+              "description": "Structured placements with fashion houses, retail brands, textile manufacturers, and design agencies."
+            },
+            {
+              "title": "Common Foundation Year",
+              "description": "Shared first year building core design principles before specialising in fashion disciplines."
+            },
+            {
+              "title": "Diverse Career Pathways",
+              "description": "Graduates enter roles in fashion houses, retail, textile firms, costume design, styling, and independent fashion entrepreneurship."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Fashion Design",
+              "roles": [
+                "Fashion Designer",
+                "Apparel Designer",
+                "Accessory Designer",
+                "Textile Designer"
+              ]
+            },
+            {
+              "category": "Fashion Business",
+              "roles": [
+                "Fashion Buyer",
+                "Merchandiser",
+                "Trend Forecaster",
+                "Fashion Marketing Executive"
+              ]
+            },
+            {
+              "category": "Creative Roles",
+              "roles": [
+                "Fashion Stylist",
+                "Costume Designer",
+                "Fashion Illustrator",
+                "Fashion Journalist"
+              ]
+            },
+            {
+              "category": "Entrepreneurship",
+              "roles": [
+                "Fashion Label Founder",
+                "Boutique Owner",
+                "Sustainable Fashion Consultant",
+                "Fashion Freelancer"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Do I need drawing or arts experience to apply?",
+              "a": "No. The programme builds creative and technical skills from foundational levels. Beginners are guided through core competencies during the common first year and early semesters."
+            },
+            {
+              "q": "What materials and techniques are covered?",
+              "a": "Students work with textiles including woven, knitted, and printed fabrics, learning techniques in draping, pattern-making, garment construction, embellishment, and digital textile printing."
+            },
+            {
+              "q": "What is the starting salary for fashion design graduates?",
+              "a": "Starting compensation typically ranges from INR 3–6 LPA in India. Earnings vary by role, employer, and specialisation. Independent designers and entrepreneurs have variable income potential."
+            },
+            {
+              "q": "Does the programme include fashion shows?",
+              "a": "Yes. Students design and present collections in fashion shows as part of their academic and portfolio development experience."
+            },
+            {
+              "q": "Can I pursue further studies after this programme?",
+              "a": "Yes. Graduates can pursue master’s programmes in fashion design, textile design, or fashion management at institutions in India and internationally."
+            },
+            {
+              "q": "Is on-campus accommodation available for international students?",
+              "a": "Presidency University provides student housing. Contact the Office of International Affairs for details."
+            }
+          ],
+          "cta": {
+            "title": "Your Future Starts Here",
+            "subtitle": "Join Presidency University and build your career in technology.",
+            "button": "Apply Now"
+          }
         },
         {
           "slug": "bdes-product",
@@ -11115,7 +11364,249 @@
           "duration": "4 Years",
           "type": "UG",
           "degree": "Bachelor of Design",
-          "overview": "Design innovative products with focus on usability, aesthetics, and functionality."
+          "hero": {
+            "title": {
+              "normal": "B.Des Product Design",
+              "italic": "Design"
+            },
+            "description": "Design the objects and experiences that shape everyday life. This four-year technology-driven programme covers concept development, CAD/CAM, prototyping, ergonomics, material science, and sustainable manufacturing — preparing you for careers in industrial design across electronics, furniture, consumer goods, automotive, and lifestyle products.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Design",
+              "Product Design"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "4 Yr"
+              },
+              {
+                "label": "Degree",
+                "value": "B.Des"
+              },
+              {
+                "label": "Specialisation",
+                "value": "Product"
+              }
+            ]
+          },
+          "details": {
+            "duration": "4 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "Design"
+          },
+          "overview": [
+            "The B.Des in Product Design is a technology-driven industrial design programme focused on creating digitally and technologically integrated products, with optional specialisation in lifestyle and accessory design. Students develop core skills in design principles, concept development, sketching, digital modelling (CAD/CAM), prototyping, ergonomics, material science, and sustainable manufacturing. The programme integrates studio work, tool-based learning, elective modules, real-world projects, and internships — all culminating in a professional portfolio that demonstrates industry readiness.",
+            "Students learn practical skills in 3D modelling, prototyping through 3D printing, laser cutting, and CNC machining, as well as material exploration across wood, metal, plastic, and textiles. The programme builds designers who understand the full product development cycle from initial concept through user research, iterative design, prototype testing, and production-ready specification. Bengaluru’s diverse industrial ecosystem — spanning electronics, automotive, consumer goods, and startup innovation — provides rich context for product design education and direct access to industry collaboration."
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "note": "Eligibility may vary for international students."
+          },
+          "tabs": {
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Mathematics I",
+                    "code": "MAT101"
+                  },
+                  {
+                    "name": "Programming in C",
+                    "code": "CSE101"
+                  },
+                  {
+                    "name": "Physics",
+                    "code": "PHY101"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Data Structures",
+                    "code": "CSE201"
+                  },
+                  {
+                    "name": "Discrete Mathematics",
+                    "code": "MAT201"
+                  },
+                  {
+                    "name": "Digital Logic",
+                    "code": "CSE202"
+                  }
+                ]
+              }
+            ],
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Professional Designer",
+                  "text": "Prepare graduates who become professional designers in product design, capable of working across industrial, consumer, and technology product sectors."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Design Researcher",
+                  "text": "Develop graduates who contribute to design research, advancing knowledge in product innovation, manufacturing, and sustainability."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Design Entrepreneur",
+                  "text": "Foster graduates who become entrepreneurs, consultants, or independent product design practitioners in the creative industries."
+                }
+              ],
+              "POs": [
+                {
+                  "id": "PO 1",
+                  "text": "Apply knowledge of fundamental principles of design to industrial and product design challenges."
+                },
+                {
+                  "id": "PO 2",
+                  "text": "Design and conduct product experiments, analyse and interpret design data for evidence-based creative decisions."
+                },
+                {
+                  "id": "PO 3",
+                  "text": "Design systems, products, and components that meet needs within realistic economic, environmental, social, and ethical constraints."
+                },
+                {
+                  "id": "PO 4",
+                  "text": "Operate effectively in multidisciplinary teams combining design, engineering, and business perspectives."
+                },
+                {
+                  "id": "PO 5",
+                  "text": "Identify, formulate, and solve complex product design problems through creative and analytical thinking."
+                },
+                {
+                  "id": "PO 6",
+                  "text": "Demonstrate professional and ethical responsibility in product design practice."
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Product Development Mastery",
+                  "text": "Ability to take products from initial concept through user research, iterative design, prototyping, and production-ready specification."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Digital & Physical Prototyping",
+                  "text": "Competence in CAD/CAM modelling, 3D printing, laser cutting, CNC machining, and model building for product visualisation and testing."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Sustainable Product Design",
+                  "text": "Skill in designing products that consider material sustainability, manufacturing efficiency, lifecycle impact, and environmental responsibility."
+                }
+              ]
+            }
+          },
+          "highlights": [
+            {
+              "title": "Technology-Driven Curriculum",
+              "description": "Covers CAD/CAM, 3D printing, prototyping, material science, ergonomics, and sustainable manufacturing for modern product design."
+            },
+            {
+              "title": "Fabrication Lab Access",
+              "description": "3D printers, laser cutters, CNC machines, and model-making facilities for hands-on prototyping and material experimentation."
+            },
+            {
+              "title": "Full Product Development Cycle",
+              "description": "Training spans concept generation through user research, design iteration, prototype testing, and production specification."
+            },
+            {
+              "title": "Material Exploration",
+              "description": "Hands-on work with wood, metal, plastic, textiles, and composite materials through studio projects and lab sessions."
+            },
+            {
+              "title": "Lifestyle & Accessory Specialisation",
+              "description": "Optional focus on lifestyle products, accessories, and consumer goods design for niche career development."
+            },
+            {
+              "title": "Industrial Visits",
+              "description": "Visits to manufacturing facilities, design centres, and technology museums connecting theory with practice."
+            },
+            {
+              "title": "Common Foundation Year",
+              "description": "Shared first year across design disciplines building broad creative foundations before product design specialisation."
+            },
+            {
+              "title": "Cross-Industry Career Flexibility",
+              "description": "Product design skills applicable across electronics, furniture, automotive, packaging, medical devices, and consumer goods."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Industrial & Product Design",
+              "roles": [
+                "Industrial Designer",
+                "Product Designer",
+                "Consumer Goods Designer",
+                "Packaging Designer"
+              ]
+            },
+            {
+              "category": "Technology & Electronics",
+              "roles": [
+                "Electronics Product Designer",
+                "UX/UI Product Designer",
+                "IoT Device Designer"
+              ]
+            },
+            {
+              "category": "Furniture & Lifestyle",
+              "roles": [
+                "Furniture Designer",
+                "Accessory Designer",
+                "Lifestyle Product Designer",
+                "Home Goods Designer"
+              ]
+            },
+            {
+              "category": "Design Strategy",
+              "roles": [
+                "Design Researcher",
+                "Design Thinking Consultant",
+                "Innovation Strategist",
+                "Sustainable Design Specialist"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "What prototyping tools are available?",
+              "a": "Students access 3D printers, laser cutters, CNC machines, and traditional model-making workshops alongside CAD/CAM software for digital design and visualisation."
+            },
+            {
+              "q": "Is product design more technical or artistic?",
+              "a": "Product design integrates both. The programme develops artistic sensibility alongside technical competencies in engineering materials, manufacturing processes, and digital modelling — creating designers who can bridge creative vision and production reality."
+            },
+            {
+              "q": "What industries hire product designers?",
+              "a": "Product designers are sought across electronics, furniture, automotive, consumer goods, packaging, medical devices, sporting goods, and technology startups — any industry that creates physical or digital products."
+            },
+            {
+              "q": "What is the starting salary?",
+              "a": "Starting compensation typically ranges from INR 3–6 LPA in India. Experienced product designers in technology and consumer goods firms can earn significantly more."
+            },
+            {
+              "q": "Can I pursue further studies?",
+              "a": "Yes. Graduates can pursue master’s programmes in industrial design, product design, design management, or design engineering at institutions in India and internationally."
+            },
+            {
+              "q": "Is on-campus accommodation available for international students?",
+              "a": "Presidency University provides student housing. Contact the Office of International Affairs for details."
+            }
+          ],
+          "cta": {
+            "title": "Your Future Starts Here",
+            "subtitle": "Join Presidency University and build your career in technology.",
+            "button": "Apply Now"
+          }
         },
         {
           "slug": "bdes-space",
@@ -11123,7 +11614,248 @@
           "duration": "4 Years",
           "type": "UG",
           "degree": "Bachelor of Design",
-          "overview": "Learn interior design, spatial planning, and environmental design concepts."
+          "hero": {
+            "title": {
+              "normal": "B.Des Space Design",
+              "italic": "Design"
+            },
+            "description": "Design the environments where people live, work, and experience the world. This four-year programme covers interior architecture, spatial planning, exhibition design, hospitality environments, and retail experiences — preparing you for careers in one of design’s most immersive and impactful disciplines.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Design",
+              "Space Design"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "4 Yr"
+              },
+              {
+                "label": "Degree",
+                "value": "B.Des"
+              },
+              {
+                "label": "Specialisation",
+                "value": "Space"
+              }
+            ]
+          },
+          "details": {
+            "duration": "4 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "Design"
+          },
+          "overview": [
+            "The B.Des in Space Design prepares students to create meaningful spatial experiences across residential, commercial, hospitality, retail, exhibition, and public environments. The curriculum covers spatial planning, interior architecture, material specification, lighting design, furniture design, environmental graphics, and design for human behaviour. Students develop the ability to conceptualise, plan, and execute three-dimensional environments that are functional, aesthetically compelling, and responsive to the needs of their occupants.",
+            "The programme combines studio-based design projects with technical drawing, 3D modelling, rendering, and material exploration. Students progress from the common foundation year into increasingly complex spatial design challenges — from individual rooms and retail environments to large-scale hospitality and exhibition spaces. India’s booming real estate, hospitality, and retail sectors — combined with growing awareness of design-led spatial experiences — create strong demand for professionally trained space designers."
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "note": "Eligibility may vary for international students."
+          },
+          "tabs": {
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Mathematics I",
+                    "code": "MAT101"
+                  },
+                  {
+                    "name": "Programming in C",
+                    "code": "CSE101"
+                  },
+                  {
+                    "name": "Physics",
+                    "code": "PHY101"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Data Structures",
+                    "code": "CSE201"
+                  },
+                  {
+                    "name": "Discrete Mathematics",
+                    "code": "MAT201"
+                  },
+                  {
+                    "name": "Digital Logic",
+                    "code": "CSE202"
+                  }
+                ]
+              }
+            ],
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Professional Designer",
+                  "text": "Prepare graduates who become professional designers in space design, capable of working across residential, commercial, hospitality, and public environments."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Design Researcher",
+                  "text": "Develop graduates who contribute to design research, advancing knowledge in spatial planning, environmental experience, and human-centred design."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Design Entrepreneur",
+                  "text": "Foster graduates who become entrepreneurs, consultants, or independent space design practitioners in the creative industries."
+                }
+              ],
+              "POs": [
+                {
+                  "id": "PO 1",
+                  "text": "Apply knowledge of fundamental principles of design to spatial and interior design challenges."
+                },
+                {
+                  "id": "PO 2",
+                  "text": "Design and conduct spatial experiments, analyse and interpret design data for evidence-based creative decisions."
+                },
+                {
+                  "id": "PO 3",
+                  "text": "Design environments and spatial systems that meet needs within realistic economic, environmental, social, and ethical constraints."
+                },
+                {
+                  "id": "PO 4",
+                  "text": "Operate effectively in multidisciplinary teams combining design, architecture, and business perspectives."
+                },
+                {
+                  "id": "PO 5",
+                  "text": "Identify, formulate, and solve complex spatial design problems through creative and analytical thinking."
+                },
+                {
+                  "id": "PO 6",
+                  "text": "Demonstrate professional and ethical responsibility in space design practice."
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Spatial Design & Planning",
+                  "text": "Ability to conceptualise, plan, and design functional and aesthetically compelling interior and spatial environments."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Technical Execution",
+                  "text": "Competence in technical drawing, 3D modelling, material specification, and lighting design for buildable spatial solutions."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Experience-Led Design",
+                  "text": "Skill in designing spaces that respond to human behaviour, sensory experience, and user needs across residential, commercial, and public contexts."
+                }
+              ]
+            }
+          },
+          "highlights": [
+            {
+              "title": "Immersive Spatial Curriculum",
+              "description": "Covers interior architecture, spatial planning, exhibition design, hospitality environments, retail experience, and environmental graphics."
+            },
+            {
+              "title": "3D Modelling & Rendering",
+              "description": "Training in AutoCAD, SketchUp, 3ds Max, V-Ray, and other visualisation tools used by professional space designers."
+            },
+            {
+              "title": "Material & Lighting Expertise",
+              "description": "Hands-on experience with material specification, lighting design, furniture selection, and finish detailing."
+            },
+            {
+              "title": "Studio-Based Design Projects",
+              "description": "Progressive studio projects from residential interiors to large-scale commercial and hospitality environments."
+            },
+            {
+              "title": "India’s Design-Led Growth Sectors",
+              "description": "Booming real estate, hospitality, retail, and exhibition industries creating sustained demand for trained space designers."
+            },
+            {
+              "title": "Cross-Disciplinary Foundation",
+              "description": "Common first year building broad design thinking skills that inform spatially aware, human-centred design practice."
+            },
+            {
+              "title": "Industry Collaboration & Internships",
+              "description": "Partnerships with interior design firms, architects, hospitality brands, and retail organisations for project and placement opportunities."
+            },
+            {
+              "title": "Versatile Design Career",
+              "description": "Space design skills applicable across residential, commercial, hospitality, retail, exhibition, event, and set design contexts."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Interior & Spatial Design",
+              "roles": [
+                "Interior Designer",
+                "Space Designer",
+                "Residential Designer",
+                "Commercial Interior Specialist"
+              ]
+            },
+            {
+              "category": "Hospitality & Retail",
+              "roles": [
+                "Hospitality Environment Designer",
+                "Retail Experience Designer",
+                "Restaurant Designer"
+              ]
+            },
+            {
+              "category": "Exhibition & Experience",
+              "roles": [
+                "Exhibition Designer",
+                "Museum Designer",
+                "Event Space Designer",
+                "Experiential Design Specialist"
+              ]
+            },
+            {
+              "category": "Architecture & Consulting",
+              "roles": [
+                "Interior Architecture Associate",
+                "Space Planning Consultant",
+                "Design Project Manager"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "How does Space Design differ from architecture?",
+              "a": "Space Design focuses on the interior environment — the experience, aesthetics, materials, and functionality within built spaces. Architecture focuses on the structural design of buildings themselves. Space designers typically work within existing or new structures, creating the interior environments that occupants experience."
+            },
+            {
+              "q": "What software tools are taught?",
+              "a": "Students work with AutoCAD, SketchUp, 3ds Max, V-Ray, and presentation tools for spatial design visualisation and technical documentation."
+            },
+            {
+              "q": "What is the career demand for space designers in India?",
+              "a": "Strong. India’s real estate, hospitality, and retail sectors are expanding rapidly, and design-conscious consumers increasingly demand professionally designed spaces — creating growing opportunities for qualified space designers."
+            },
+            {
+              "q": "What is the starting salary?",
+              "a": "Starting compensation typically ranges from INR 3–6 LPA in India. Established space designers and those working in premium hospitality and commercial sectors can earn significantly more."
+            },
+            {
+              "q": "Can I pursue further studies?",
+              "a": "Yes. Graduates can pursue master’s programmes in interior design, spatial design, or design management at institutions in India and internationally."
+            },
+            {
+              "q": "Is on-campus accommodation available for international students?",
+              "a": "Presidency University provides student housing. Contact the Office of International Affairs for details."
+            }
+          ],
+          "cta": {
+            "title": "Your Future Starts Here",
+            "subtitle": "Join Presidency University and build your career in technology.",
+            "button": "Apply Now"
+          }
         },
         {
           "slug": "bdes-game",
@@ -11131,7 +11863,251 @@
           "duration": "4 Years",
           "type": "UG",
           "degree": "Bachelor of Design",
-          "overview": "Create interactive games using storytelling, animation, and game development tools."
+          "hero": {
+            "title": {
+              "normal": "B.Des Game Design",
+              "italic": "Design"
+            },
+            "description": "Design the games that captivate and engage millions. This four-year programme covers game mechanics, level design, interactive storytelling, game art, and game development — preparing you for careers in one of the world’s fastest-growing entertainment and technology sectors.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Design",
+              "Game Design"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "4 Yr"
+              },
+              {
+                "label": "Degree",
+                "value": "B.Des"
+              },
+              {
+                "label": "Specialisation",
+                "value": "Game Design"
+              }
+            ]
+          },
+          "details": {
+            "duration": "4 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "Design"
+          },
+          "overview": [
+            "The B.Des in Game Design prepares students to conceptualise, design, and develop interactive gaming experiences across platforms — mobile, console, PC, and emerging platforms like AR/VR. The curriculum covers game mechanics, level design, interactive storytelling, game art, character design, world-building, user experience design, and game development using industry-standard engines. Students develop both the creative vision and technical skills needed to create games that are engaging, well-crafted, and commercially viable.",
+            "India’s gaming industry is among the world’s fastest-growing, driven by mobile gaming, esports, and increasing investment in game development studios. The programme combines the school’s common design foundation year with progressive game design specialisation, producing graduates who understand design thinking, player psychology, and the technical production pipeline. Students build professional portfolios through game prototypes, jam projects, and industry collaborations — demonstrating their capabilities to studios, publishers, and technology companies worldwide."
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "note": "Eligibility may vary for international students."
+          },
+          "tabs": {
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Mathematics I",
+                    "code": "MAT101"
+                  },
+                  {
+                    "name": "Programming in C",
+                    "code": "CSE101"
+                  },
+                  {
+                    "name": "Physics",
+                    "code": "PHY101"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Data Structures",
+                    "code": "CSE201"
+                  },
+                  {
+                    "name": "Discrete Mathematics",
+                    "code": "MAT201"
+                  },
+                  {
+                    "name": "Digital Logic",
+                    "code": "CSE202"
+                  }
+                ]
+              }
+            ],
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Professional Designer",
+                  "text": "Prepare graduates who become professional designers in game design, capable of working across gaming, entertainment, and interactive media industries."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Design Researcher",
+                  "text": "Develop graduates who contribute to design research, advancing knowledge in interactive storytelling, player psychology, and immersive experiences."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Design Entrepreneur",
+                  "text": "Foster graduates who become entrepreneurs, consultants, or independent game design practitioners in the creative industries."
+                }
+              ],
+              "POs": [
+                {
+                  "id": "PO 1",
+                  "text": "Apply knowledge of fundamental principles of design to interactive game design challenges."
+                },
+                {
+                  "id": "PO 2",
+                  "text": "Design and conduct gameplay experiments, analyse and interpret player data for evidence-based creative decisions."
+                },
+                {
+                  "id": "PO 3",
+                  "text": "Design systems, gameplay mechanics, and interactive experiences that meet realistic economic, social, and ethical constraints."
+                },
+                {
+                  "id": "PO 4",
+                  "text": "Operate effectively in multidisciplinary teams combining design, technology, storytelling, and business perspectives."
+                },
+                {
+                  "id": "PO 5",
+                  "text": "Identify, formulate, and solve complex game design problems through creative and analytical thinking."
+                },
+                {
+                  "id": "PO 6",
+                  "text": "Demonstrate professional and ethical responsibility in game design practice."
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Game Concept & Mechanics Design",
+                  "text": "Ability to conceptualise, prototype, and iterate game mechanics, systems, and interactive experiences across platforms."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Game Art & Visual Development",
+                  "text": "Competence in creating game characters, environments, visual assets, and art direction for interactive experiences."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Game Development & Production",
+                  "text": "Skill in developing games using industry-standard engines (Unity, Unreal) through the full production pipeline from concept to deployment."
+                }
+              ]
+            }
+          },
+          "highlights": [
+            {
+              "title": "Dedicated Game Design Programme",
+              "description": "Focused curriculum covering game mechanics, level design, interactive storytelling, game art, and game development."
+            },
+            {
+              "title": "Industry-Standard Game Engines",
+              "description": "Hands-on training with Unity, Unreal Engine, and other development platforms used by professional game studios."
+            },
+            {
+              "title": "India’s Booming Gaming Market",
+              "description": "India’s gaming industry is one of the world’s fastest-growing, with expanding studios, mobile gaming, and esports investment."
+            },
+            {
+              "title": "Full Production Pipeline",
+              "description": "Training spans concept, prototyping, art creation, level design, programming integration, testing, and deployment."
+            },
+            {
+              "title": "Player Psychology & UX",
+              "description": "Understanding of player behaviour, motivation, and user experience principles that inform compelling game design."
+            },
+            {
+              "title": "Game Jam & Prototype Development",
+              "description": "Regular game jam events and prototype development building portfolios and collaborative creative experience."
+            },
+            {
+              "title": "Common Foundation Year",
+              "description": "Broad design thinking foundation in the first year informing creative and human-centred game design approach."
+            },
+            {
+              "title": "Cross-Platform Skills",
+              "description": "Skills applicable across mobile, console, PC, AR/VR, and emerging interactive platforms."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Game Design",
+              "roles": [
+                "Game Designer",
+                "Level Designer",
+                "Narrative Designer",
+                "Systems Designer"
+              ]
+            },
+            {
+              "category": "Game Art",
+              "roles": [
+                "Game Artist",
+                "3D Character Artist",
+                "Environment Artist",
+                "Concept Artist",
+                "Technical Artist"
+              ]
+            },
+            {
+              "category": "Game Development",
+              "roles": [
+                "Game Developer",
+                "Gameplay Programmer",
+                "Tools Developer",
+                "QA Tester"
+              ]
+            },
+            {
+              "category": "Emerging Roles",
+              "roles": [
+                "AR/VR Experience Designer",
+                "Esports Production Specialist",
+                "Gamification Designer",
+                "Serious Games Developer"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Do I need programming skills to apply?",
+              "a": "No. The programme builds both creative and technical skills from foundational levels. While game design involves working with game engines, the focus is on design thinking, mechanics, and creative direction rather than heavy coding."
+            },
+            {
+              "q": "What game engines are taught?",
+              "a": "Students work primarily with Unity and Unreal Engine — the two most widely used game development platforms in the industry — alongside supporting tools for art, audio, and production."
+            },
+            {
+              "q": "What is the career outlook for game designers in India?",
+              "a": "Very strong. India’s gaming industry is growing rapidly, with new studios opening, mobile gaming expanding, and esports investment increasing. International studios also recruit from India’s growing talent pool."
+            },
+            {
+              "q": "What is the starting salary?",
+              "a": "Starting compensation typically ranges from INR 3–6 LPA in India for game design roles. Experienced game designers at established studios can earn significantly more."
+            },
+            {
+              "q": "Can I work internationally with this degree?",
+              "a": "Yes. Game design is a global industry. The skills, portfolio, and game engine proficiency developed in this programme are valued by studios worldwide."
+            },
+            {
+              "q": "Is on-campus accommodation available for international students?",
+              "a": "Presidency University provides student housing. Contact the Office of International Affairs for details."
+            }
+          ],
+          "cta": {
+            "title": "Your Future Starts Here",
+            "subtitle": "Join Presidency University and build your career in technology.",
+            "button": "Apply Now"
+          }
         },
         {
           "slug": "bsc-multimedia",
@@ -11139,7 +12115,498 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Science",
-          "overview": "Develop skills in animation, visual effects, and multimedia production."
+          "hero": {
+            "title": {
+              "normal": "B.Sc. Multimedia and Animation",
+              "italic": ""
+            },
+            "description": "Bring stories and ideas to life through digital media. This four-year programme covers visual effects (VFX), special effects (SFX), game art, 3D animation, character design, and interactive media — preparing you for careers in film, television, gaming, advertising, and the booming digital content industry.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Design",
+              "B.Sc Multimedia"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "4 Yr"
+              },
+              {
+                "label": "Degree",
+                "value": "B.Sc"
+              },
+              {
+                "label": "Specialisation",
+                "value": "VFX/SFX/Gaming"
+              }
+            ]
+          },
+          "details": {
+            "duration": "4 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "Design"
+          },
+          "overview": [
+            "The B.Sc. in Multimedia and Animation covers multimedia design fundamentals, visual effects (VFX), special effects (SFX), game design, digital animation, and interactive media. Students develop proficiency in industry-standard software and hardware including Adobe Creative Suite, Autodesk Maya, Unity and Unreal Engine, and advanced sound design tools. The curriculum spans 2D and 3D animation, character design and rigging, motion graphics, VFX compositing, and AI applications in multimedia — building the technical skills needed for professional content creation across film, television, gaming, and digital media.",
+            "The programme is suitable for students without a design or arts background — it covers fundamentals from the ground up while progressing to advanced techniques in animation production, VFX workflows, and game art. Students create market-ready digital content through live projects, collaborative workshops, design challenges, and industry internships. India’s film, gaming, and digital content industries are growing rapidly, creating strong demand for skilled multimedia professionals who can deliver high-quality visual content for domestic and international markets."
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "note": "Eligibility may vary for international students."
+          },
+          "tabs": {
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Mathematics I",
+                    "code": "MAT101"
+                  },
+                  {
+                    "name": "Programming in C",
+                    "code": "CSE101"
+                  },
+                  {
+                    "name": "Physics",
+                    "code": "PHY101"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Data Structures",
+                    "code": "CSE201"
+                  },
+                  {
+                    "name": "Discrete Mathematics",
+                    "code": "MAT201"
+                  },
+                  {
+                    "name": "Digital Logic",
+                    "code": "CSE202"
+                  }
+                ]
+              }
+            ],
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Professional Multimedia Specialist",
+                  "text": "Prepare graduates who become professional multimedia and animation specialists capable of working across film, gaming, television, and digital media industries."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Creative Technologist",
+                  "text": "Develop graduates who contribute to creative digital production using animation, VFX, game art, and emerging multimedia technologies."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Media Entrepreneur",
+                  "text": "Foster graduates who become entrepreneurs, consultants, or independent multimedia creators in the creative industries."
+                }
+              ],
+              "POs": [
+                {
+                  "id": "PO 1",
+                  "text": "Apply knowledge of multimedia fundamentals, animation principles, and digital production workflows to creative challenges."
+                },
+                {
+                  "id": "PO 2",
+                  "text": "Design and develop multimedia projects using animation, VFX, interactive media, and digital storytelling techniques."
+                },
+                {
+                  "id": "PO 3",
+                  "text": "Create multimedia content that meets artistic, technical, and professional production standards."
+                },
+                {
+                  "id": "PO 4",
+                  "text": "Operate effectively in multidisciplinary creative teams across film, gaming, advertising, and entertainment industries."
+                },
+                {
+                  "id": "PO 5",
+                  "text": "Identify, formulate, and solve multimedia production challenges using creative and analytical thinking."
+                },
+                {
+                  "id": "PO 6",
+                  "text": "Demonstrate professional and ethical responsibility in multimedia and animation practice."
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Animation & VFX Production",
+                  "text": "Ability to create professional-quality 2D and 3D animation, visual effects, and composited sequences for film, television, and digital media."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Game Art & Interactive Media",
+                  "text": "Competence in creating game assets, characters, environments, and interactive digital experiences using industry-standard engines."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "AI-Enhanced Multimedia",
+                  "text": "Skill in applying AI tools and emerging technologies to multimedia production workflows, including automated processes and generative content."
+                }
+              ]
+            }
+          },
+          "highlights": [
+            {
+              "title": "VFX/SFX/Gaming Focus",
+              "description": "Specialised curriculum covering visual effects, special effects, game art, 3D animation, and digital content creation."
+            },
+            {
+              "title": "Industry-Standard Software",
+              "description": "Training with Adobe Creative Suite, Autodesk Maya, Unity, Unreal Engine, After Effects, and sound design tools."
+            },
+            {
+              "title": "AI in Multimedia",
+              "description": "Modules covering AI applications in multimedia production — a cutting-edge addition reflecting industry evolution."
+            },
+            {
+              "title": "Beginner-Friendly Entry",
+              "description": "Programme covers design fundamentals from the ground up — suitable for students without formal arts or design backgrounds."
+            },
+            {
+              "title": "Film & Gaming Industry Growth",
+              "description": "India’s expanding film VFX, gaming, and digital content sectors creating strong demand for multimedia professionals."
+            },
+            {
+              "title": "3D Character Animation & Rigging",
+              "description": "Specialised training in character animation, rigging, and motion that forms the core of film and game production."
+            },
+            {
+              "title": "Live Project Experience",
+              "description": "Collaborative workshops, design challenges, and internships producing market-ready digital content for professional portfolios."
+            },
+            {
+              "title": "Cross-Platform Career Options",
+              "description": "Skills applicable across film, television, gaming, advertising, social media content, web/app development, and AR/VR."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Animation & VFX",
+              "roles": [
+                "3D Animator",
+                "VFX Artist",
+                "Compositing Artist",
+                "Motion Graphics Designer",
+                "Character Animator"
+              ]
+            },
+            {
+              "category": "Gaming",
+              "roles": [
+                "Game Artist",
+                "3D Environment Artist",
+                "Game Designer",
+                "Technical Artist"
+              ]
+            },
+            {
+              "category": "Film & Television",
+              "roles": [
+                "Post-Production Artist",
+                "Video Editor",
+                "Title Designer",
+                "Storyboard Artist"
+              ]
+            },
+            {
+              "category": "Digital Content",
+              "roles": [
+                "Content Creator",
+                "Social Media Visual Designer",
+                "AR/VR Content Developer",
+                "Interactive Media Designer"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Do I need an arts background to study Multimedia and Animation?",
+              "a": "No. The programme is beginner-friendly, covering design fundamentals, visual communication, software skills, and creative thinking from foundational levels."
+            },
+            {
+              "q": "What is the difference between this programme and B.Des Game Design?",
+              "a": "B.Sc. Multimedia covers a broader range of digital media disciplines including VFX, animation, and film production alongside game art. B.Des Game Design focuses specifically on game creation including game mechanics, level design, and interactive storytelling. Both develop digital creation skills but with different primary focuses."
+            },
+            {
+              "q": "What is the starting salary?",
+              "a": "Starting compensation typically ranges from INR 2–6 LPA in India, depending on specialisation and skills. VFX artists and game professionals with strong portfolios and software proficiency can command higher packages."
+            },
+            {
+              "q": "What industries hire multimedia graduates?",
+              "a": "Film and television, gaming, advertising, digital marketing, web and app development, social media, AR/VR, e-learning, and entertainment content production."
+            },
+            {
+              "q": "Can I pursue further studies?",
+              "a": "Yes. Graduates can pursue master’s programmes in animation, VFX, game design, or digital media at institutions in India and internationally."
+            },
+            {
+              "q": "Is on-campus accommodation available for international students?",
+              "a": "Presidency University provides student housing. Contact the Office of International Affairs for details."
+            }
+          ],
+          "cta": {
+            "title": "Your Future Starts Here",
+            "subtitle": "Join Presidency University and build your career in technology.",
+            "button": "Apply Now"
+          }
+        },
+        {
+          "slug": "bfa",
+          "name": "Bachelor of Fine Arts",
+          "duration": "4 Years",
+          "type": "UG",
+          "degree": "Bachelor of Fine Arts",
+          "hero": {
+            "title": {
+              "normal": "Bachelor of Fine Arts",
+              "italic": ""
+            },
+            "description": "Develop your artistic voice through rigorous creative practice. This four-year programme covers painting, sculpture, printmaking, drawing, art history, and contemporary art practice — preparing you for careers as exhibiting artists, art educators, curators, and creative professionals in galleries, studios, and cultural institutions worldwide.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Design",
+              "BFA"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "4 Yr"
+              },
+              {
+                "label": "Degree",
+                "value": "BFA"
+              },
+              {
+                "label": "Specialisation",
+                "value": "Fine Arts"
+              }
+            ]
+          },
+          "details": {
+            "duration": "4 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "Design"
+          },
+          "overview": [
+            "The Bachelor of Fine Arts programme provides rigorous training in visual arts practice, developing students’ creative voice through sustained engagement with painting, sculpture, drawing, printmaking, and mixed media. The curriculum combines studio practice with art history, aesthetics, critical theory, and contemporary art discourse — producing graduates who can create, exhibit, and contextualise their work within the broader landscape of contemporary visual culture.",
+            "The programme benefits from the School of Design’s creative infrastructure, faculty expertise, and collaborative environment. Students develop professional portfolios through studio work, exhibitions, and engagement with Bengaluru’s growing contemporary art scene. The BFA provides a foundation for careers in fine art practice, art education, gallery and museum work, community arts, and creative roles that value strong visual literacy and artistic thinking."
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "note": "Eligibility may vary for international students."
+          },
+          "tabs": {
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Mathematics I",
+                    "code": "MAT101"
+                  },
+                  {
+                    "name": "Programming in C",
+                    "code": "CSE101"
+                  },
+                  {
+                    "name": "Physics",
+                    "code": "PHY101"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Data Structures",
+                    "code": "CSE201"
+                  },
+                  {
+                    "name": "Discrete Mathematics",
+                    "code": "MAT201"
+                  },
+                  {
+                    "name": "Digital Logic",
+                    "code": "CSE202"
+                  }
+                ]
+              }
+            ],
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Practising Artist",
+                  "text": "Prepare graduates who develop as practising visual artists, capable of creating and exhibiting original artwork."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Art Research & Scholarship",
+                  "text": "Develop graduates who contribute to art research, criticism, and scholarly discourse in visual arts."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Creative Professional",
+                  "text": "Foster graduates who apply fine arts skills to professional creative practice, education, and cultural leadership."
+                }
+              ],
+              "POs": [
+                {
+                  "id": "PO 1",
+                  "text": "Apply knowledge of fundamental principles of visual arts including composition, colour theory, form, and material expression."
+                },
+                {
+                  "id": "PO 2",
+                  "text": "Create original artworks across multiple media demonstrating technical skill, conceptual depth, and personal artistic vision."
+                },
+                {
+                  "id": "PO 3",
+                  "text": "Contextualise artistic practice within art historical, cultural, and contemporary critical frameworks."
+                },
+                {
+                  "id": "PO 4",
+                  "text": "Present and exhibit work professionally, articulating artistic intentions and conceptual underpinnings to diverse audiences."
+                },
+                {
+                  "id": "PO 5",
+                  "text": "Demonstrate professional, ethical, and socially responsible practice in artistic creation and presentation."
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Studio Practice",
+                  "text": "Ability to create original visual artwork across painting, sculpture, printmaking, and mixed media with technical proficiency and conceptual depth."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Critical & Art Historical Awareness",
+                  "text": "Competence in analysing and contextualising art within historical, cultural, and contemporary critical frameworks."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Exhibition & Professional Practice",
+                  "text": "Skill in preparing, presenting, and exhibiting artwork professionally in gallery, museum, and public contexts."
+                }
+              ]
+            }
+          },
+          "highlights": [
+            {
+              "title": "Studio-Intensive Education",
+              "description": "Dedicated studio time for painting, sculpture, drawing, printmaking, and mixed media practice throughout the programme."
+            },
+            {
+              "title": "Art History & Critical Theory",
+              "description": "Academic modules in art history, aesthetics, and contemporary art discourse complementing studio practice."
+            },
+            {
+              "title": "Exhibition Opportunities",
+              "description": "Students develop and present work in exhibitions, building professional exhibition experience during the programme."
+            },
+            {
+              "title": "Design School Environment",
+              "description": "Benefit from the School of Design’s creative facilities, interdisciplinary dialogue, and collaborative culture."
+            },
+            {
+              "title": "Bengaluru Arts Scene",
+              "description": "Access to Bengaluru’s growing contemporary art galleries, cultural institutions, and creative communities."
+            },
+            {
+              "title": "Portfolio Development",
+              "description": "Progressive portfolio building through studio projects, exhibitions, and critical engagement with artistic practice."
+            },
+            {
+              "title": "Interdisciplinary Connections",
+              "description": "Opportunities to engage with design, multimedia, and communication disciplines within the School of Design."
+            },
+            {
+              "title": "Diverse Career Pathways",
+              "description": "Foundation for careers in fine art practice, art education, gallery work, community arts, and creative industries."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Fine Art Practice",
+              "roles": [
+                "Exhibiting Artist",
+                "Studio Artist",
+                "Muralist",
+                "Public Art Specialist",
+                "Art Residency Participant"
+              ]
+            },
+            {
+              "category": "Art Education",
+              "roles": [
+                "Art Teacher",
+                "Art Workshop Facilitator",
+                "Community Arts Coordinator"
+              ]
+            },
+            {
+              "category": "Gallery & Museum",
+              "roles": [
+                "Gallery Coordinator",
+                "Curator",
+                "Art Conservator",
+                "Museum Education Officer"
+              ]
+            },
+            {
+              "category": "Creative Industries",
+              "roles": [
+                "Art Director",
+                "Creative Consultant",
+                "Visual Merchandiser",
+                "Set Designer"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Do I need formal art training to apply for the BFA?",
+              "a": "A portfolio demonstrating creative aptitude is typically expected. However, the programme builds skills from foundational levels. Applicants should confirm specific requirements with the School of Design."
+            },
+            {
+              "q": "What media are covered in the programme?",
+              "a": "Students work across painting, sculpture, drawing, printmaking, and mixed media. The curriculum balances traditional techniques with contemporary approaches."
+            },
+            {
+              "q": "Can BFA graduates pursue further studies?",
+              "a": "Yes. Graduates can pursue MFA (Master of Fine Arts) programmes, master’s degrees in art history or visual culture, or doctoral research in art and design."
+            },
+            {
+              "q": "Is fine art a viable career path?",
+              "a": "Yes. Fine arts graduates work as exhibiting artists, art educators, curators, art directors, and creative professionals. The visual literacy, creative thinking, and material skills developed in the programme are valued across creative industries."
+            },
+            {
+              "q": "What is the relationship between BFA and the B.Des programmes?",
+              "a": "BFA focuses on fine art practice — painting, sculpture, printmaking — within the School of Design. B.Des programmes focus on applied design disciplines — communication, fashion, product, space. All share the school’s creative environment and interdisciplinary culture."
+            },
+            {
+              "q": "Is on-campus accommodation available for international students?",
+              "a": "Presidency University provides student housing. Contact the Office of International Affairs for details."
+            }
+          ],
+          "cta": {
+            "title": "Your Future Starts Here",
+            "subtitle": "Join Presidency University and build your career in fine arts.",
+            "button": "Apply Now"
+          }
         },
         {
           "slug": "phd-design",
@@ -12015,8 +13482,237 @@
           "name": "B.Sc Psychology",
           "duration": "3 Years",
           "type": "UG",
-          "degree": "Bachelor of Science",
-          "overview": "Scientific study of behaviour, neuroscience, and psychological research."
+          "degree": "Bachelor of Science (Psychology) ",
+          "hero": {
+            "title": {
+              "normal": " B.Sc. Psychology ",
+              "italic": ""
+            },
+            "description": "   Understand the science of human behaviour, cognition, and emotion. This three-year programme covers psychological theory, research methods, developmental psychology, abnormal psychology, and applied practice — preparing you for careers in counselling, clinical practice, organisational psychology, and research. ",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              " Liberal Arts & Sciences",
+              "  B.Sc. Psychology "
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "3 Yr"
+              },
+              {
+                "label": "Semesters",
+                "value": "5"
+              },
+              {
+                "label": "Core Programme",
+                "value": "Psychology  "
+              }
+            ]
+          },
+          "details": {
+            "duration": "1 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": " Liberal Arts & Sciences "
+          },
+          "overview": [
+            " The B.Sc. in Psychology provides a scientific foundation in the study of human behaviour, cognition, emotion, and mental processes. The curriculum covers core areas including developmental psychology, social psychology, abnormal psychology, cognitive psychology, research methodology, and statistical analysis. Students develop competencies in understanding human behaviour through both theoretical frameworks and empirical research methods — building the analytical and observational skills essential for careers across psychology, counselling, human resources, and social services. ",
+            "The programme combines classroom instruction with laboratory work, case study analysis, and field exposure. Students engage with contemporary topics including mental health awareness, workplace psychology, child development, and psychological assessment. This standalone B.Sc. provides a comprehensive scientific grounding in psychology, distinct from the dual-discipline B.A. combinations that pair psychology with other humanities subjects. It serves as the primary pathway for students seeking to progress to the M.Sc. Psychology and professional practice in clinical, counselling, or industrial psychology.   "
+          ],
+          "eligibility": {
+            "title": "Eligibility",
+            "description": "Candidates must have completed 10+2 or equivalent with at least 45% aggregate marks. International applicants should confirm requirements with the Office of International Affairs ",
+            "note": "Programme duration, detailed curriculum, and specific PEOs/POs should be confirmed with the School of Media Studies. "
+          },
+          "tabs": {
+            "curriculum": [
+              {
+                "semester": "semester1",
+                "modules": [
+                  {
+                    "name": "",
+                    "code": ""
+                  },
+                  {
+                    "name": "",
+                    "code": ""
+                  },
+                  {
+                    "name": "",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "semester2",
+                "modules": [
+                  {
+                    "name": "",
+                    "code": ""
+                  },
+                  {
+                    "name": "",
+                    "code": ""
+                  },
+                  {
+                    "name": "",
+                    "code": ""
+                  }
+                ]
+              }
+            ],
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": " Scientific Psychology Knowledge   ",
+                  "text": "Prepare graduates with comprehensive scientific understanding of human behaviour, cognition, and psychological processes. "
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Research Competence   ",
+                  "text": "Develop graduates who can design, conduct, and interpret psychological research using appropriate methodologies. "
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Professional & Applied Practice   ",
+                  "text": "Foster graduates ready for professional careers in psychology, counselling, HR, education, and social services. "
+                }
+              ],
+              "POs": [
+                {
+                  "id": "PO 1",
+                  "text": "Demonstrate comprehensive knowledge of major psychological theories, perspectives, and findings.   "
+                },
+                {
+                  "id": "PO 2",
+                  "text": "Apply research methods and statistical techniques to investigate psychological questions.    "
+                },
+                {
+                  "id": "PO 3",
+                  "text": "Analyse human behaviour, cognition, and emotion using established psychological frameworks. "
+                },
+                {
+                  "id": "PO 4",
+                  "text": "Communicate psychological knowledge effectively through written reports and professional presentations. "
+                },
+                {
+                  "id": "PO 5",
+                  "text": "Apply ethical principles in psychological research, assessment, and professional interactions. "
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Psychological Assessment   ",
+                  "text": "Ability to administer, interpret, and apply basic psychological assessment tools in educational, clinical, and organisational contexts.  "
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Research & Analysis ",
+                  "text": "Competence in designing and conducting psychological research, analysing data, and drawing evidence-based conclusions.    "
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Applied Psychology   ",
+                  "text": "Skill in applying psychological principles to real-world challenges in counselling, education, organisational behaviour, and community settings.  "
+                }
+              ]
+            }
+          },
+          "highlights": [
+            {
+              "title": "Scientific Psychology Foundation ",
+              "description": "Rigorous scientific approach combining theory, research methods, and statistical analysis for evidence-based understanding.   "
+            },
+            {
+              "title": "M.Sc. Psychology Pathway  ",
+              "description": "Direct progression route to M.Sc. Psychology with four specialisation tracks at Presidency. "
+            },
+            {
+              "title": "Research Methods Training   ",
+              "description": "Comprehensive training in experimental design, data collection, statistical analysis, and research ethics.    "
+            },
+            {
+              "title": "Applied Practice Exposure   ",
+              "description": "Field work, case studies, and practical exercises connecting theoretical knowledge to real-world psychological practice. "
+            },
+            {
+              "title": "Mental Health Awareness   ",
+              "description": "Contemporary coverage of mental health issues, psychological wellbeing, and therapeutic approaches.  "
+            },
+            {
+              "title": "Interdisciplinary Context ",
+              "description": "Liberal arts environment enabling engagement with English, sociology, economics, and performing arts perspectives. "
+            },
+            {
+              "title": "Professional Career Preparation     ",
+              "description": "Foundation for careers in counselling, clinical psychology, HR, education, social work, and research. "
+            },
+            {
+              "title": "Growing Demand for Psychology Professionals  ",
+              "description": "India’s increasing recognition of mental health importance creating expanding demand for trained psychologists"
+            }
+          ],
+          "careers": [
+            {
+              "category": "Clinical & Counselling    ",
+              "roles": [
+                "Counsellor",
+                " Clinical Psychology Trainee",
+                " Mental Health Support Worker",
+                "Rehabilitation Specialist."
+              ]
+            },
+            {
+              "category": "Organisational ",
+              "roles": [
+                "HR Specialist",
+                "Organisational Development Consultant",
+                "Employee Wellbeing Coordinator."
+              ]
+            },
+            {
+              "category": "Education & Research ",
+              "roles": [
+                "Research Assistant",
+                "Academic Researcher",
+                "Educational Psychologist",
+                "School Counsellor ."
+              ]
+            },
+            {
+              "category": "Social Services ",
+              "roles": [
+                "Social Worker",
+                "Community Development Officer",
+                "NGO Programme Coordinator"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "What are the eligibility requirements? ",
+              "a": "  Candidates must have completed 10+2 or equivalent with at least 45% aggregate marks. International applicants should confirm requirements with the Office of International Affairs.  "
+            },
+            {
+              "q": " Can I become a clinical psychologist with this degree? ",
+              "a": "The B.Sc. provides the foundation. To practise as a clinical psychologist in India, you would typically need to complete the M.Sc. Psychology (Clinical specialisation) and further supervised training. This B.Sc. is the first step on that pathway.    "
+            },
+            {
+              "q": " How does B.Sc. Psychology differ from the B.A. combinations with Psychology?",
+              "a": "  B.Sc. Psychology is a standalone science-focused programme providing comprehensive depth in psychology. The B.A. combinations pair psychology with a second discipline (economics, English, performing arts, etc.) for interdisciplinary breadth. Choose B.Sc. if you want maximum psychology depth; choose a B.A. combination if you want dual-discipline breadth. "
+            },
+            {
+              "q": " Is on-campus accommodation available?  ",
+              "a": "  Presidency University provides student housing. Contact the Office of International Affairs for details. "
+            }
+          ],
+          "cta": {
+            "title": "Your Future Starts Here",
+            "subtitle": "Join Presidency University and build your career in technology.",
+            "button": "Apply Now"
+          }
         },
         {
           "slug": "ba-performing-arts-dance",
@@ -12056,15 +13752,479 @@
           "duration": "2 Years",
           "type": "PG",
           "degree": "Master of Science",
-          "overview": "Advanced psychology with specialisations in clinical, counselling, and industrial psychology."
+          "hero": {
+            "title": {
+              "normal": " M.Sc. Psychology",
+              "italic": ""
+            },
+            "description": " Advance your understanding of human behaviour through postgraduate specialisation. Choose from four tracks — Child Psychology, Clinical Psychology, Counselling Psychology, or Industrial Psychology — and develop the advanced competencies needed for professional psychological practice, research, and academic careers. ",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "  Liberal Arts & Sciences",
+              "  M.Sc. Psychology"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "3 Yr"
+              },
+              {
+                "label": "Semesters",
+                "value": "5"
+              },
+              {
+                "label": "Core Programme",
+                "value": "Psychology  "
+              }
+            ]
+          },
+          "details": {
+            "duration": "1 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": " Liberal Arts & Sciences "
+          },
+          "overview": [
+            "  The M.Sc. in Psychology provides advanced postgraduate education across four specialisation tracks — Child, Clinical, Counselling, and Industrial Psychology. Each track develops deep expertise in the chosen domain while maintaining a strong foundation in psychological research methodology, advanced statistics, and ethical practice. Students engage with contemporary psychological theories, evidence-based assessment techniques, and therapeutic or organisational interventions relevant to their specialisation. ",
+            "The programme combines academic instruction with supervised practical experience, case studies, and research projects. Clinical and counselling tracks include practicum components in therapeutic settings. The industrial psychology track connects with organisational practice through corporate projects and HR collaborations. Graduates are prepared for professional practice, research careers, and academic positions — and the programme provides a strong foundation for doctoral study in psychology.   "
+          ],
+          "eligibility": {
+            "title": "Eligibility",
+            "description": "Candidates need a BA or B.Sc. degree with at least 50% marks and Psychology as a compulsory subject at the undergraduate level. International applicants should confirm requirements with the Office of International Affairs. ",
+            "note": " "
+          },
+          "tabs": {
+            "curriculum": [
+              {
+                "semester": "semester1",
+                "modules": [
+                  {
+                    "name": "",
+                    "code": ""
+                  },
+                  {
+                    "name": "",
+                    "code": ""
+                  },
+                  {
+                    "name": "",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "semester2",
+                "modules": [
+                  {
+                    "name": "",
+                    "code": ""
+                  },
+                  {
+                    "name": "",
+                    "code": ""
+                  },
+                  {
+                    "name": "",
+                    "code": ""
+                  }
+                ]
+              }
+            ],
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": " Scientific Psychology Knowledge   ",
+                  "text": "Prepare graduates with comprehensive scientific understanding of human behaviour, cognition, and psychological processes. "
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Research Competence   ",
+                  "text": "Develop graduates who can design, conduct, and interpret psychological research using appropriate methodologies. "
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Professional & Applied Practice   ",
+                  "text": "Foster graduates ready for professional careers in psychology, counselling, HR, education, and social services. "
+                }
+              ],
+              "POs": [
+                {
+                  "id": "PO 1",
+                  "text": "Demonstrate comprehensive knowledge of major psychological theories, perspectives, and findings.   "
+                },
+                {
+                  "id": "PO 2",
+                  "text": "Apply research methods and statistical techniques to investigate psychological questions.    "
+                },
+                {
+                  "id": "PO 3",
+                  "text": "Analyse human behaviour, cognition, and emotion using established psychological frameworks. "
+                },
+                {
+                  "id": "PO 4",
+                  "text": "Communicate psychological knowledge effectively through written reports and professional presentations. "
+                },
+                {
+                  "id": "PO 5",
+                  "text": "Apply ethical principles in psychological research, assessment, and professional interactions. "
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Psychological Assessment   ",
+                  "text": "Ability to administer, interpret, and apply basic psychological assessment tools in educational, clinical, and organisational contexts.  "
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Research & Analysis ",
+                  "text": "Competence in designing and conducting psychological research, analysing data, and drawing evidence-based conclusions.    "
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Applied Psychology   ",
+                  "text": "Skill in applying psychological principles to real-world challenges in counselling, education, organisational behaviour, and community settings.  "
+                }
+              ]
+            }
+          },
+          "highlights": [
+            {
+              "title": "Four Specialisation Tracks ",
+              "description": "Choose from Child, Clinical, Counselling, or Industrial Psychology based on your professional career goals. "
+            },
+            {
+              "title": "Research-Intensive Programme ",
+              "description": "Advanced training in research methodology, statistical analysis, and evidence-based practice. "
+            },
+            {
+              "title": "Supervised Practical Experience  ",
+              "description": "Practicum and fieldwork components providing hands-on experience in therapeutic and organisational settings.   "
+            },
+            {
+              "title": "Growing Mental Health Demand  ",
+              "description": "India’s increasing recognition of mental health importance creating expanding demand for qualified psychologists."
+            },
+            {
+              "title": "Academic Career Pathway   ",
+              "description": "Strong preparation for doctoral research and academic teaching positions in psychology. "
+            },
+            {
+              "title": "Professional Practice Foundation",
+              "description": "Advanced skills in assessment, intervention, and case formulation for professional psychological practice."
+            },
+            {
+              "title": "Interdisciplinary Environment    ",
+              "description": "Liberal arts context enabling engagement with literature, performing arts, and social sciences perspectives. "
+            },
+            {
+              "title": "Ethical Practice Emphasis ",
+              "description": "Rigorous training in research ethics, professional conduct, and client-centred practice."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Clinical & Counselling ",
+              "roles": [
+                "Clinical Psychologist",
+                "Counselling Psychologist",
+                "Mental Health Professional",
+                "Rehabilitation Psychologist"
+              ]
+            },
+            {
+              "category": "Child & Educational ",
+              "roles": [
+                "Child Psychologist",
+                "Educational Psychologist",
+                "School Counsellor",
+                "Developmental Specialist"
+              ]
+            },
+            {
+              "category": "Industrial & Organisational ",
+              "roles": [
+                "Industrial Psychologist",
+                "HR Consultant",
+                "Organisational Development Specialist",
+                "Employee Wellbeing Manager"
+              ]
+            },
+            {
+              "category": "Research & Academia ",
+              "roles": [
+                "Psychology Researcher",
+                "University Lecturer",
+                "Research Fellow",
+                "Academic Author"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": " What are the eligibility requirements? ",
+              "a": "  Candidates need a BA or B.Sc. degree with at least 50% marks and Psychology as a compulsory subject at the undergraduate level. International applicants should confirm requirements with the Office of International Affairs.  "
+            },
+            {
+              "q": " Which specialisation should I choose? ",
+              "a": " Choose based on your career goals. Clinical Psychology for therapeutic practice with mental health conditions. Counselling Psychology for supportive counselling and guidance. Child Psychology for working with children and developmental issues. Industrial Psychology for organisational and workplace applications.   "
+            },
+            {
+              "q": " Can I practise as a psychologist after this degree? ",
+              "a": " The M.Sc. provides advanced training for professional practice. Specific licensing and registration requirements vary by jurisdiction. Graduates typically practise under supervision initially before independent practice."
+            },
+            {
+              "q": " Is on-campus accommodation available?  ",
+              "a": "  Presidency University provides student housing. Contact the Office of International Affairs for details. "
+            }
+          ],
+          "cta": {
+            "title": "Your Future Starts Here",
+            "subtitle": "Join Presidency University and build your career in technology.",
+            "button": "Apply Now"
+          }
         },
         {
           "slug": "ma-english",
           "name": "MA English",
           "duration": "2 Years",
           "type": "PG",
-          "degree": "Master of Arts",
-          "overview": "Advanced literary studies with specialisations in digital humanities and creative writing."
+          "degree": "M.A. English ",
+          "hero": {
+            "title": {
+              "normal": " M.A. English ",
+              "italic": ""
+            },
+            "description": " Deepen your engagement with literature, language, and culture through postgraduate specialisation. Choose from Digital Humanities, Cultural Studies, Creative Writing, or Educational Leadership — and develop advanced competencies for careers in academia, publishing, media, education, and cultural institutions.  ",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "   Liberal Arts & Sciences",
+              "  M.A. English "
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "2 Yr"
+              },
+              {
+                "label": "Semesters",
+                "value": "4"
+              },
+              {
+                "label": "Core Programme",
+                "value": "English "
+              }
+            ]
+          },
+          "details": {
+            "duration": "2 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": " Liberal Arts & Sciences "
+          },
+          "overview": [
+            " The M.A. in English provides advanced postgraduate study in literature, language, and culture with four distinctive specialisation tracks. Digital Humanities explores the intersection of technology and literary scholarship. Cultural Studies engages with contemporary cultural theory, identity, and representation. Creative Writing develops professional authorial and editorial skills. Educational Leadership prepares graduates for leadership roles in educational institutions and policy development.",
+            "All tracks share a foundation in advanced literary analysis, critical theory, research methodology, and academic writing. The programme prepares graduates for academic careers, doctoral research, publishing, media, cultural organisations, and educational leadership. The educational leadership track is particularly distinctive, combining English studies with institutional management and pedagogical innovation for careers in education administration. The M.A. English at Presidency University offers a rich interdisciplinary environment, connecting with performing arts, sociology, economics, and psychology across"
+          ],
+          "eligibility": {
+            "title": "Eligibility",
+            "description": "Applicants typically need a recognised undergraduate degree with English as a subject. Specific eligibility and marks requirements should be confirmed with the school.  ",
+            "note": " "
+          },
+          "tabs": {
+            "curriculum": [
+              {
+                "semester": "semester1",
+                "modules": [
+                  {
+                    "name": "",
+                    "code": ""
+                  },
+                  {
+                    "name": "",
+                    "code": ""
+                  },
+                  {
+                    "name": "",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "semester2",
+                "modules": [
+                  {
+                    "name": "",
+                    "code": ""
+                  },
+                  {
+                    "name": "",
+                    "code": ""
+                  },
+                  {
+                    "name": "",
+                    "code": ""
+                  }
+                ]
+              }
+            ],
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": " Scientific Psychology Knowledge   ",
+                  "text": "Prepare graduates with comprehensive scientific understanding of human behaviour, cognition, and psychological processes. "
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Research Competence   ",
+                  "text": "Develop graduates who can design, conduct, and interpret psychological research using appropriate methodologies. "
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Professional & Applied Practice   ",
+                  "text": "Foster graduates ready for professional careers in psychology, counselling, HR, education, and social services. "
+                }
+              ],
+              "POs": [
+                {
+                  "id": "PO 1",
+                  "text": "Demonstrate comprehensive knowledge of major psychological theories, perspectives, and findings.   "
+                },
+                {
+                  "id": "PO 2",
+                  "text": "Apply research methods and statistical techniques to investigate psychological questions.    "
+                },
+                {
+                  "id": "PO 3",
+                  "text": "Analyse human behaviour, cognition, and emotion using established psychological frameworks. "
+                },
+                {
+                  "id": "PO 4",
+                  "text": "Communicate psychological knowledge effectively through written reports and professional presentations. "
+                },
+                {
+                  "id": "PO 5",
+                  "text": "Apply ethical principles in psychological research, assessment, and professional interactions. "
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Psychological Assessment   ",
+                  "text": "Ability to administer, interpret, and apply basic psychological assessment tools in educational, clinical, and organisational contexts.  "
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Research & Analysis ",
+                  "text": "Competence in designing and conducting psychological research, analysing data, and drawing evidence-based conclusions.    "
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Applied Psychology   ",
+                  "text": "Skill in applying psychological principles to real-world challenges in counselling, education, organisational behaviour, and community settings.  "
+                }
+              ]
+            }
+          },
+          "highlights": [
+            {
+              "title": "Four Distinctive Specialisations  ",
+              "description": "Choose from Digital Humanities, Cultural Studies, Creative Writing, or Educational Leadership based on career goals.  "
+            },
+            {
+              "title": "Digital Humanities Track  ",
+              "description": "Cutting-edge specialisation exploring computational methods and technology in literary and cultural studies.  "
+            },
+            {
+              "title": "Creative Writing Development   ",
+              "description": "Professional authorial skills in fiction, poetry, non-fiction, and screenwriting for publishing and media careers. "
+            },
+            {
+              "title": "Educational Leadership Option  ",
+              "description": "Unique specialisation combining English studies with institutional management for education sector careers."
+            },
+            {
+              "title": "Research & Academic Preparation   ",
+              "description": "Advanced research skills and critical analysis preparing graduates for doctoral study and academic positions. "
+            },
+            {
+              "title": "Publishing & Media Pathways ",
+              "description": "Skills applicable to publishing, editorial work, content development, media writing, and cultural journalism. "
+            },
+            {
+              "title": "Interdisciplinary Context    ",
+              "description": "Engagement with psychology, performing arts, and social sciences within the liberal arts school environment. "
+            },
+            {
+              "title": "Doctoral Research Foundation  ",
+              "description": "Strong preparation for Ph.D. English and related doctoral programmes at Presidency and other institutions. "
+            }
+          ],
+          "careers": [
+            {
+              "category": "Academia  ",
+              "roles": [
+                "English Lecturer",
+                "Literary Researcher",
+                "Academic Author",
+                "University Administrator."
+              ]
+            },
+            {
+              "category": "Publishing & Media ",
+              "roles": [
+                "Editor",
+                "Content Strategist",
+                "Literary Agent",
+                "Publishing Manager",
+                "Cultural Journalist."
+              ]
+            },
+            {
+              "category": "Creative Writing  ",
+              "roles": [
+                "Author",
+                "Screenwriter",
+                "Copywriter",
+                "Creative Director",
+                " Content Creator."
+              ]
+            },
+            {
+              "category": "Education Leadership  ",
+              "roles": [
+                "School Principal",
+                "Curriculum Developer",
+                "Education Policy Analyst",
+                "Institutional Manager"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": " What are the eligibility requirements? ",
+              "a": "  Applicants typically need a recognised undergraduate degree with English as a subject. Specific eligibility and marks requirements should be confirmed with the school "
+            },
+            {
+              "q": "Can the M.A. English lead to doctoral research?",
+              "a": " Yes. The Ph.D. in English is available at Presidency, and the M.A. provides strong preparation for doctoral study at Presidency and other institutions.   "
+            },
+            {
+              "q": " Is the Creative Writing track suitable for aspiring authors? ",
+              "a": "Yes. The track develops professional writing skills in fiction, poetry, non-fiction, and screenwriting alongside critical and editorial competencies valued in publishing. "
+            },
+            {
+              "q": " Is on-campus accommodation available?  ",
+              "a": "  Presidency University provides student housing. Contact the Office of International Affairs for details. "
+            }
+          ],
+          "cta": {
+            "title": "Your Future Starts Here",
+            "subtitle": "Join Presidency University and build your career in technology.",
+            "button": "Apply Now"
+          }
         },
         {
           "slug": "phd-liberal-arts",
@@ -12077,18 +14237,248 @@
       ]
     },
     {
-      "slug": "allied-health",
-      "name": "School of Allied Health Sciences",
-      "programs": [
-        {
-          "slug": "bpt",
-          "name": "Bachelor of Physiotherapy (BPT)",
-          "duration": "4.5 Years",
-          "type": "UG",
-          "degree": "Bachelor of Physiotherapy",
-          "overview": "Develop expertise in physical rehabilitation, injury recovery, and patient care through clinical training and practical exposure."
+      "slug": "bpt",
+      "name": "Bachelor of Physiotherapy (BPT)",
+      "duration": "4.5 Years",
+      "type": "UG",
+      "degree": "Bachelor of Physiotherapy",
+      "hero": {
+        "title": {
+          "normal": " Bachelor of Physiotherapy ",
+          "italic": ""
+        },
+        "description": "    Restore movement, relieve pain, and improve quality of life. This four-and-a-half-year programme (including internship) covers musculoskeletal, neurological, cardiovascular, and sports rehabilitation — preparing you for a rewarding clinical career as a physiotherapy professional in hospitals, clinics, and rehabilitation centres worldwide.",
+        "breadcrumb": [
+          "Home",
+          "Schools",
+          " Allied Health Sciences ",
+          "   BPT "
+        ],
+        "stats": [
+          {
+            "label": "Duration",
+            "value": "4.5 Yr"
+          },
+          {
+            "label": "Semesters",
+            "value": "5"
+          },
+          {
+            "label": "Core Programme",
+            "value": "Physiotherapy  "
+          }
+        ]
+      },
+      "details": {
+        "duration": "4 Years + 6 Months Internship",
+        "campus": "Bengaluru, India",
+        "school": " Allied Health Sciences "
+      },
+      "overview": [
+        "The Bachelor of Physiotherapy is a comprehensive clinical programme covering the assessment, diagnosis, and treatment of physical dysfunction through movement, exercise, and manual therapy. The curriculum spans anatomy, physiology, biomechanics, exercise therapy, electrotherapy, musculoskeletal rehabilitation, neurological rehabilitation, cardiovascular and respiratory physiotherapy, paediatric physiotherapy, and sports rehabilitation. Students develop clinical reasoning skills alongside hands-on therapeutic techniques through progressive clinical rotations in hospitals and rehabilitation centres. ",
+        "The programme includes a mandatory six-month internship providing intensive supervised clinical practice across physiotherapy specialisations. Physiotherapy is a globally recognised and portable healthcare profession — graduates can practise in hospitals, rehabilitation centres, sports clinics, community health settings, and private practice across international markets. India’s growing awareness of rehabilitation and preventive healthcare, combined with its expanding hospital infrastructure, creates strong domestic demand alongside international career mobility for qualified physiotherapists.  "
+      ],
+      "eligibility": {
+        "title": "Eligibility",
+        "description": " ",
+        "note": ". "
+      },
+      "tabs": {
+        "curriculum": [
+          {
+            "semester": "semester1",
+            "modules": [
+              {
+                "name": "",
+                "code": ""
+              },
+              {
+                "name": "",
+                "code": ""
+              },
+              {
+                "name": "",
+                "code": ""
+              }
+            ]
+          },
+          {
+            "semester": "semester2",
+            "modules": [
+              {
+                "name": "",
+                "code": ""
+              },
+              {
+                "name": "",
+                "code": ""
+              },
+              {
+                "name": "",
+                "code": ""
+              }
+            ]
+          }
+        ],
+        "outcomes": {
+          "PEOs": [
+            {
+              "id": "PEO 1",
+              "title": " Clinical Excellence   ",
+              "text": "Prepare graduates who provide evidence-based physiotherapy assessment and treatment across clinical specialisations. "
+            },
+            {
+              "id": "PEO 2",
+              "title": "Patient-Centred Care  ",
+              "text": "Develop graduates who deliver compassionate, ethical, and patient-centred rehabilitation services. "
+            },
+            {
+              "id": "PEO 3",
+              "title": "Professional Development   ",
+              "text": "Foster graduates who engage in lifelong learning, research, and professional advancement in physiotherapy. "
+            }
+          ],
+          "POs": [
+            {
+              "id": "PO 1",
+              "text": "Demonstrate comprehensive knowledge of anatomy, physiology, biomechanics, and pathology relevant to physiotherapy practice.  "
+            },
+            {
+              "id": "PO 2",
+              "text": "Assess, diagnose, and plan physiotherapy interventions for musculoskeletal, neurological, cardiovascular, and respiratory conditions.    "
+            },
+            {
+              "id": "PO 3",
+              "text": "Apply therapeutic techniques including exercise therapy, manual therapy, and electrotherapy safely and effectively. "
+            },
+            {
+              "id": "PO 4",
+              "text": "Demonstrate clinical reasoning, evidence-based decision-making, and outcome measurement in physiotherapy practice. "
+            },
+            {
+              "id": "PO 5",
+              "text": "Apply professional ethics, patient safety, and communication skills in clinical interactions. "
+            }
+          ],
+          "PSOs": [
+            {
+              "id": "PSO 1",
+              "title": "Rehabilitation Competence ",
+              "text": "Ability to plan and deliver comprehensive rehabilitation programmes for patients with diverse physical conditions and functional limitations.  "
+            },
+            {
+              "id": "PSO 2",
+              "title": "Clinical Reasoning ",
+              "text": "Competence in clinical assessment, differential diagnosis, and evidence-based treatment planning across physiotherapy specialisations.    "
+            },
+            {
+              "id": "PSO 3",
+              "title": "Professional Practice  ",
+              "text": "Skill in independent physiotherapy practice, interdisciplinary collaboration, and patient communication in clinical healthcare settings.  "
+            }
+          ]
         }
-      ]
+      },
+      "highlights": [
+        {
+          "title": "Comprehensive Clinical Curriculum ",
+          "description": "Covers musculoskeletal, neurological, cardiovascular, respiratory, paediatric, and sports physiotherapy across four years.  "
+        },
+        {
+          "title": "Mandatory Clinical Internship  ",
+          "description": "Six-month supervised internship in hospitals and rehabilitation centres providing intensive hands-on clinical experience."
+        },
+        {
+          "title": "Globally Portable Qualification  ",
+          "description": "Physiotherapy is a recognised profession worldwide — graduates can pursue careers across international healthcare markets.   "
+        },
+        {
+          "title": "Growing Rehabilitation Demand ",
+          "description": "India’s expanding healthcare sector and increasing awareness of rehabilitation creating strong demand for physiotherapists. "
+        },
+        {
+          "title": "Evidence-Based Practice  ",
+          "description": "Training in clinical reasoning, outcome measurement, and evidence-based physiotherapy reflecting contemporary professional standards. "
+        },
+        {
+          "title": "Sports Rehabilitation Exposure ",
+          "description": "Coverage of sports physiotherapy and athletic rehabilitation — a growing specialisation with diverse career opportunities. "
+        },
+        {
+          "title": "Interdisciplinary Clinical Training    ",
+          "description": "Clinical rotations working alongside physicians, surgeons, and other healthcare professionals in hospital settings."
+        },
+        {
+          "title": "Private Practice Pathway ",
+          "description": "Skills and qualification enabling independent physiotherapy practice and clinic establishment."
+        }
+      ],
+      "careers": [
+        {
+          "category": "Hospital & Clinical    ",
+          "roles": [
+            "Hospital Physiotherapist",
+            "Outpatient Rehabilitation Therapist",
+            "ICU Physiotherapist."
+          ]
+        },
+        {
+          "category": "Specialist Rehabilitation ",
+          "roles": [
+            "Sports Physiotherapist",
+            "Neurological Rehabilitation Specialist",
+            "Paediatric Physiotherapist",
+            "Orthopaedic Physiotherapist."
+          ]
+        },
+        {
+          "category": "Community & Education   ",
+          "roles": [
+            "Community Health Physiotherapist",
+            "Physiotherapy Lecturer",
+            "Rehabilitation Programme Coordinator."
+          ]
+        },
+        {
+          "category": "Private Practice ",
+          "roles": [
+            "Private Practice Physiotherapist",
+            "Home Visit Physiotherapist",
+            "Wellness Centre Consultant."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is the total programme duration?    ",
+          "a": "  Four years of academic study plus a mandatory six-month clinical internship, totalling approximately four and a half years.  "
+        },
+        {
+          "q": " Is physiotherapy a globally recognised profession?",
+          "a": "Yes. Physiotherapy is practised and regulated worldwide. Specific registration and licensure requirements vary by country, but the profession is well-established in healthcare systems globally.  "
+        },
+        {
+          "q": " Can I specialise in sports physiotherapy?",
+          "a": "  The BPT covers sports rehabilitation as part of the curriculum. Further specialisation is available through postgraduate study (MPT in Sports Physiotherapy) after completing the BPT."
+        },
+        {
+          "q": " What clinical settings are included in the internship?",
+          "a": "   Students rotate through hospital departments including orthopaedics, neurology, cardiopulmonary, paediatrics, and outpatient rehabilitation under supervised clinical practice."
+        },
+        {
+          "q": " Can I open my own practice?",
+          "a": "  Yes. Qualified physiotherapists can establish independent clinical practices after gaining appropriate registration and supervised experience."
+        },
+        {
+          "q": " Is on-campus accommodation available?  ",
+          "a": "  Presidency University provides student housing. Contact the Office of International Affairs for details. "
+        }
+      ],
+      "cta": {
+        "title": "Your Future Starts Here",
+        "subtitle": "Join Presidency University and build your career in technology.",
+        "button": "Apply Now"
+      }
     }
   ]
 }
