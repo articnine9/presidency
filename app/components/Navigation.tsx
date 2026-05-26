@@ -577,35 +577,41 @@ export function Navigation() {
       ],
     },
 
-    "Allied Health Sciences": {
+    "Health Sciences": {
       ug: [
         {
           label: "Bachelor of Physiotherapy (BPT)",
-          href: "/schools/allied-health-sciences/bpt",
+          href: "/schools/health/bpt",
         },
         {
-          label: "B.Sc. Anaesthesia and Operation Theatre",
-          href: "/schools/allied-health-sciences/bsc-anesthesia-operation-theatre",
+          label: "B.Sc Nursing",
+          href: "/schools/health/bsc-nursing",
         },
         {
-          label: "B.Sc. Medical Laboratory Technology",
-          href: "/schools/allied-health-sciences/bsc-medical-laboratory-technology",
+          label: "B.Sc Occupational Therapy",
+          href: "/schools/health/bsc-occupational-therapy",
         },
         {
-          label: "B.Sc. Cardiac Care Technology (CCT)",
-          href: "/schools/allied-health-sciences/bsc-cct",
-        },
-        {
-          label: "B.Sc. Respiratory Care Technology (RCT)",
-          href: "/schools/allied-health-sciences/bsc-rct",
-        },
-        {
-          label: "B.Sc. Medical Radiology and Imaging",
-          href: "/schools/allied-health-sciences/bsc-medical-radiology-imaging",
+          label: "B.Sc Medical Laboratory Technology",
+          href: "/schools/health/bsc-mlt",
         },
       ],
-      pg: [],
-      phd: [],
+      pg: [
+        {
+          label: "M.Sc Physiotherapy (Musculoskeletal)",
+          href: "/schools/health/msc-physiotherapy-musculoskeletal",
+        },
+        {
+          label: "M.Sc Nursing (Clinical Specialization)",
+          href: "/schools/health/msc-nursing-clinical",
+        },
+      ],
+      phd: [
+        {
+          label: "Ph.D. Health Sciences",
+          href: "/schools/health/phd-health-sciences",
+        },
+      ],
       diploma: [],
     },
   };
@@ -693,7 +699,7 @@ export function Navigation() {
           title: "Health Sciences",
           items: [
             {
-              label: "Allied Health Sciences",
+              label: "School of Health Sciences",
               icon: "graduationCap",
               href: "/schools/health",
             },
