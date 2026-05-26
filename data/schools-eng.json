@@ -4695,7 +4695,9 @@
       },
       "about": {
         "title": "About the School",
-        "description": "The School of Computer Science & Engineering is at the forefront of technology education. We combine cutting-edge curriculum with practical industry experience, preparing students for careers in software development, artificial intelligence, cloud computing, cybersecurity, and emerging technologies."
+        "content": [
+          "The School of Computer Science & Engineering is at the forefront of technology education. We combine cutting-edge curriculum with practical industry experience, preparing students for careers in software development, artificial intelligence, cloud computing, cybersecurity, and emerging technologies."
+        ]
       },
       "visionMission": {
         "vision": {
@@ -7262,7 +7264,9 @@
       },
       "about": {
         "title": "About the School",
-        "description": "The School of Engineering encompasses multiple disciplines including mechanical, civil, electrical, petroleum, and specialized engineering fields. We emphasize practical skills, hands-on laboratory experience, and collaboration with industry to prepare engineers for real-world challenges."
+        "content": [
+          "The School of Engineering encompasses multiple disciplines including mechanical, civil, electrical, petroleum, and specialized engineering fields. We emphasize practical skills, hands-on laboratory experience, and collaboration with industry to prepare engineers for real-world challenges."
+        ]
       },
       "visionMission": {
         "vision": {
@@ -10031,7 +10035,9 @@
       },
       "about": {
         "title": "About the School",
-        "description": "The School of Management offers rigorous business education combining management theory, case study analysis, and real-world projects. Our programs develop leaders and managers equipped with strategic thinking, entrepreneurial mindset, and global business acumen."
+        "content": [
+          "The School of Management offers rigorous business education combining management theory, case study analysis, and real-world projects. Our programs develop leaders and managers equipped with strategic thinking, entrepreneurial mindset, and global business acumen."
+        ]
       },
       "visionMission": {
         "vision": {
@@ -11755,7 +11761,9 @@
       },
       "about": {
         "title": "About the School",
-        "description": "The School of Commerce offers specialized education in accounting, finance, and business operations. Our curriculum is aligned with professional bodies like CA, ICWA, and ICSI, ensuring students are equipped for professional certifications and corporate careers."
+        "content": [
+          "The School of Commerce offers specialized education in accounting, finance, and business operations. Our curriculum is aligned with professional bodies like CA, ICWA, and ICSI, ensuring students are equipped for professional certifications and corporate careers."
+        ]
       },
       "visionMission": {
         "vision": {
@@ -13684,7 +13692,9 @@
       },
       "about": {
         "title": "About the School",
-        "description": "The School of Design nurtures creative professionals skilled in graphic design, user experience design, product design, and visual communication. We emphasize design thinking, problem-solving, and industry-standard tools to prepare designers for global creative industries."
+        "content": [
+          "The School of Design nurtures creative professionals skilled in graphic design, user experience design, product design, and visual communication. We emphasize design thinking, problem-solving, and industry-standard tools to prepare designers for global creative industries."
+        ]
       },
       "visionMission": {
         "vision": {
@@ -14592,7 +14602,9 @@
       },
       "about": {
         "title": "About the School",
-        "description": "The School of Law offers rigorous legal education combining constitutional law, criminal law, civil law, corporate law, and contemporary legal issues. Our programs prepare advocates, judges, legal advisors, and corporate counselors through moot courts, legal clinics, and internships with courts and law firms."
+        "content": [
+          "The School of Law offers rigorous legal education combining constitutional law, criminal law, civil law, corporate law, and contemporary legal issues. Our programs prepare advocates, judges, legal advisors, and corporate counselors through moot courts, legal clinics, and internships with courts and law firms.."
+        ]
       },
       "visionMission": {
         "vision": {
@@ -15066,7 +15078,9 @@
       },
       "about": {
         "title": "About the School",
-        "description": "The School of Media Studies offers comprehensive education in journalism, broadcasting, digital media, and mass communication. Our programs combine media theory, professional skills, and hands-on experience in state-of-the-art facilities, preparing students for evolving media landscapes."
+        "content": [
+          "The School of Media Studies offers comprehensive education in journalism, broadcasting, digital media, and mass communication. Our programs combine media theory, professional skills, and hands-on experience in state-of-the-art facilities, preparing students for evolving media landscapes."
+        ]
       },
       "visionMission": {
         "vision": {
@@ -16365,7 +16379,9 @@
       },
       "about": {
         "title": "About the School",
-        "description": "The School of Liberal Arts & Sciences offers interdisciplinary education combining humanities, social sciences, natural sciences, and professional studies. Our programs develop critical thinkers and versatile professionals prepared for evolving careers and engaged global citizenship."
+        "content": [
+          "The School of Liberal Arts & Sciences offers interdisciplinary education combining humanities, social sciences, natural sciences, and professional studies. Our programs develop critical thinkers and versatile professionals prepared for evolving careers and engaged global citizenship."
+        ]
       },
       "visionMission": {
         "vision": {
@@ -16504,7 +16520,9 @@
       },
       "about": {
         "title": "About the School",
-        "description": "The School of Health Sciences is dedicated to developing compassionate, competent, and committed healthcare professionals. Our interdisciplinary approach combines theoretical knowledge with practical skills, ensuring graduates are prepared for the dynamic healthcare landscape."
+        "content": [
+          "The School of Health Sciences is dedicated to developing compassionate, competent, and committed healthcare professionals. Our interdisciplinary approach combines theoretical knowledge with practical skills, ensuring graduates are prepared for the dynamic healthcare landscape."
+        ]
       },
       "visionMission": {
         "vision": {
