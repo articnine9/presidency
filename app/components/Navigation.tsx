@@ -163,8 +163,8 @@ export function Navigation() {
       ],
       phd: [
         {
-          label: "PhD in Computer Science & Engineering",
-          href: "/schools/computer-science/phd-cse",
+          label: "Ph.D. Research Programme",
+          href: "/schools/computer-science#phd-research",
         },
       ],
       diploma: [
@@ -211,24 +211,8 @@ export function Navigation() {
       ],
       phd: [
         {
-          label: "Ph.D. Electronics & Communications Engineering",
-          href: "/schools/engineering/phd-ece",
-        },
-        {
-          label: "PhD Mechanical Engineering",
-          href: "/schools/engineering/phd-mechanical-engineering",
-        },
-        {
-          label: "PhD Civil Engineering",
-          href: "/schools/engineering/phd-civil-engineering",
-        },
-        {
-          label: "Ph.D. Electrical & Electronics Engineering",
-          href: "/schools/engineering/phd-eee",
-        },
-        {
-          label: "Ph.D. Petroleum Engineering",
-          href: "/schools/engineering/phd-petroleum-engineering",
+          label: "Ph.D. Research Programme",
+          href: "/schools/engineering#phd-research",
         },
       ],
       diploma: [
@@ -262,8 +246,8 @@ export function Navigation() {
       ],
       phd: [
         {
-          label: "Ph.D. Information Science",
-          href: "/schools/information-science/phd-information-science",
+          label: "Ph.D. Research Programme",
+          href: "/schools/information-science#phd-research",
         },
       ],
       diploma: [],
@@ -320,24 +304,8 @@ export function Navigation() {
       ],
       phd: [
         {
-          label: "Ph.D. General Management",
-          href: "/schools/management/phd-general-management",
-        },
-        {
-          label: "Ph.D. Marketing Management",
-          href: "/schools/management/phd-marketing-management",
-        },
-        {
-          label: "Ph.D. Financial Management",
-          href: "/schools/management/phd-financial-management",
-        },
-        {
-          label: "Ph.D. Human Resource Management",
-          href: "/schools/management/phd-human-resource-management",
-        },
-        {
-          label: "Ph.D. Business Analytics",
-          href: "/schools/management/phd-business-analytics",
+          label: "Ph.D. Research Programme",
+          href: "/schools/management#phd-research",
         },
       ],
       diploma: [
@@ -374,15 +342,9 @@ export function Navigation() {
       ],
       pg: [],
       phd: [
-        { label: "Ph.D. Commerce", href: "/schools/commerce/phd-commerce" },
-        { label: "Ph.D. Economics", href: "/schools/commerce/phd-economics" },
+        { label: "Ph.D. Research Programme", href: "/schools/commerce#phd-research" },
       ],
-      diploma: [
-        {
-          label: "PhD in Computer Science & Engineering",
-          href: "/schools/computer-science/phd-cse",
-        },
-      ],
+      diploma: [],
     },
 
     Law: {
@@ -391,7 +353,7 @@ export function Navigation() {
         { label: "B.B.A. LL.B. (Hons.)", href: "/schools/law/bba-llb" },
       ],
       pg: [{ label: "LL.M. (Master of Laws)", href: "/schools/law/llm" }],
-      phd: [{ label: "Ph.D. Law", href: "/schools/law/phd-law" }],
+      phd: [{ label: "Ph.D. Research Programme", href: "/schools/law#phd-research" }],
       diploma: [],
     },
 
@@ -427,7 +389,7 @@ export function Navigation() {
         },
       ],
       pg: [],
-      phd: [{ label: "Ph.D. Design", href: "/schools/design/phd-design" }],
+      phd: [{ label: "Ph.D. Research Programme", href: "/schools/design#phd-research" }],
       diploma: [],
     },
 
@@ -462,8 +424,8 @@ export function Navigation() {
       ],
       phd: [
         {
-          label: "Ph.D. Media Studies",
-          href: "/schools/media/phd-media-studies",
+          label: "Ph.D. Research Programme",
+          href: "/schools/media#phd-research",
         },
       ],
       diploma: [
@@ -553,8 +515,8 @@ export function Navigation() {
       ],
       phd: [
         {
-          label: "Ph.D. English",
-          href: "/schools/liberal-arts-science/phd-english",
+          label: "Ph.D. Research Programme",
+          href: "/schools/liberal-arts-science#phd-research",
         },
       ],
       diploma: [
@@ -608,8 +570,8 @@ export function Navigation() {
       ],
       phd: [
         {
-          label: "Ph.D. Health Sciences",
-          href: "/schools/health/phd-health-sciences",
+          label: "Ph.D. Research Programme",
+          href: "/schools/health#phd-research",
         },
       ],
       diploma: [],

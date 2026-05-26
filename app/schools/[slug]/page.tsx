@@ -9,6 +9,7 @@ import SchoolProgramsPreview from "@/app/components/School/SchoolProgramsPreview
 import SchoolProgramsTable from "@/app/components/School/SchoolProgramsTable";
 import ProgramList from "@/app/components/School/ProgramList";
 import SchoolFAQ from "@/app/components/School/SchoolFAQ";
+import SchoolPhDSection from "@/app/components/School/SchoolPhDSection";
 import CourseCTA from "@/app/components/Course/CourseCTA";
 
 type Params = {
@@ -57,6 +58,11 @@ export default async function SchoolPage({
           slug={school.slug}
           sections={school.programSections || []}
         />
+      )}
+
+      {/* 🎓 PHD SUMMARY */}
+      {(school as any).phdSummary && (
+        <SchoolPhDSection data={(school as any).phdSummary} />
       )}
 
       {/* <CourseCTA /> */}

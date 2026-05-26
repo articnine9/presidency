@@ -47,13 +47,8 @@ export default function ProgramList({
     <section className="py-16 bg-[#F6F7FB]">
       <div className="max-w-[1400px] mx-auto px-6 space-y-12">
         {sections.map((section) => {
-          // Filter programs dynamically
-          const items = programs.filter((p) => {
-            if (section.type === "PhD") {
-              return p.type === "PhD" || p.type === "Diploma";
-            }
-            return p.type === section.type;
-          });
+          // Filter programs by section type
+          const items = programs.filter((p) => p.type === section.type);
 
           if (!items.length) return null;
 
@@ -117,71 +112,29 @@ export default function ProgramList({
                           {label}
                         </H4>
 
-                        {/* PROGRAM LIST */}
-                        {section.type === "PhD" ? (
-                          <div className="grid md:grid-cols-2 gap-4">
-                            {labelPrograms.map((program) => (
-                              <Link
-                                key={program.slug}
-                                href={`/schools/${slug}/${program.slug}`}
-                                className="bg-[#e5f0f2] hover:bg-[#E9ECEF] border border-gray-200 rounded-lg p-4 text-sm hover:shadow-sm transition"
-                              >
-                                <p className="text-lg font-medium text-gray-800">
-                                  {program.name}
-                                </p>
-                                <p className="text-gray-500 text-base mt-1">
-                                  {program.duration}
-                                </p>
-                              </Link>
-                            ))}
-                          </div>
-                        ) : (
-                          <div className="space-y-2 mb-12">
-                            {labelPrograms.map((program) => (
-                              <ProgramRow
-                                key={program.slug}
-                                program={program}
-                                slug={slug}
-                              />
-                            ))}
-                          </div>
-                        )}
+                        <div className="space-y-2 mb-12">
+                          {labelPrograms.map((program) => (
+                            <ProgramRow
+                              key={program.slug}
+                              program={program}
+                              slug={slug}
+                            />
+                          ))}
+                        </div>
                       </div>
                     );
                   })}
                 </div>
               ) : (
-                // ✅ OLD UI (NO LABELS)
-                <>
-                  {section.type === "PhD" ? (
-                    <div className="grid md:grid-cols-2 gap-4">
-                      {items.map((program) => (
-                        <Link
-                          key={program.slug}
-                          href={`/schools/${slug}/${program.slug}`}
-                          className="bg-[#e5f0f2] hover:bg-[#E9ECEF] border border-gray-200 rounded-lg p-4 text-sm hover:shadow-sm transition"
-                        >
-                          <p className="text-lg font-medium text-gray-800">
-                            {program.name}
-                          </p>
-                          <p className="text-gray-500 text-base mt-1">
-                            {program.duration}
-                          </p>
-                        </Link>
-                      ))}
-                    </div>
-                  ) : (
-                    <div className="space-y-2">
-                      {items.map((program) => (
-                        <ProgramRow
-                          key={program.slug}
-                          program={program}
-                          slug={slug}
-                        />
-                      ))}
-                    </div>
-                  )}
-                </>
+                <div className="space-y-2">
+                  {items.map((program) => (
+                    <ProgramRow
+                      key={program.slug}
+                      program={program}
+                      slug={slug}
+                    />
+                  ))}
+                </div>
               )}
             </div>
           );
