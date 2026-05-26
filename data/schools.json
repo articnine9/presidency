@@ -4666,7 +4666,41 @@
             "button": "Apply Now"
           }
         }
-      ]
+      ],
+      "hero": {
+        "title": {
+          "normal": "School of",
+          "italic": "Computer Science & Engineering"
+        },
+        "description": "Innovate, Code, Transform. Our CS&E programs prepare developers, engineers, and innovators to build tomorrow's digital solutions and lead technological advancement globally.",
+        "breadcrumb": [
+          "Home",
+          "Schools",
+          "School of Computer Science & Engineering"
+        ],
+        "stats": [
+          {
+            "label": "Programs",
+            "value": "17"
+          },
+          {
+            "label": "Faculty",
+            "value": "60+"
+          },
+          {
+            "label": "Students",
+            "value": "600+"
+          }
+        ]
+      },
+      "about": {
+        "title": "About the School",
+        "description": "The School of Computer Science & Engineering is at the forefront of technology education. We combine cutting-edge curriculum with practical industry experience, preparing students for careers in software development, artificial intelligence, cloud computing, cybersecurity, and emerging technologies."
+      },
+      "visionMission": {
+        "vision": "To be a globally recognized center of excellence in computer science and engineering education, research, and innovation, fostering technologists who drive digital transformation.",
+        "mission": "To provide comprehensive, industry-aligned education in computer science and engineering, cultivate innovation through research and projects, and develop professionals equipped to solve complex computational challenges."
+      }
     },
     {
       "slug": "engineering",
@@ -7191,7 +7225,41 @@
             "button": "Apply Now"
           }
         }
-      ]
+      ],
+      "hero": {
+        "title": {
+          "normal": "School of",
+          "italic": "Engineering"
+        },
+        "description": "Engineer Solutions for Tomorrow. Our engineering programs develop skilled professionals capable of designing, building, and innovating solutions to complex technical and societal challenges.",
+        "breadcrumb": [
+          "Home",
+          "Schools",
+          "School of Engineering"
+        ],
+        "stats": [
+          {
+            "label": "Programs",
+            "value": "14"
+          },
+          {
+            "label": "Faculty",
+            "value": "70+"
+          },
+          {
+            "label": "Students",
+            "value": "700+"
+          }
+        ]
+      },
+      "about": {
+        "title": "About the School",
+        "description": "The School of Engineering encompasses multiple disciplines including mechanical, civil, electrical, petroleum, and specialized engineering fields. We emphasize practical skills, hands-on laboratory experience, and collaboration with industry to prepare engineers for real-world challenges."
+      },
+      "visionMission": {
+        "vision": "To cultivate world-class engineers who drive innovation, sustainability, and progress through advanced technical knowledge and ethical practice.",
+        "mission": "To deliver comprehensive engineering education combining theoretical rigor with practical application, foster research and innovation, and develop engineers committed to sustainable development."
+      }
     },
     {
       "slug": "information-science",
@@ -9918,6 +9986,124 @@
             "note": "Eligibility may vary for international students."
           }
         }
+      ],
+      "hero": {
+        "title": {
+          "normal": "School of",
+          "italic": "Management"
+        },
+        "description": "Lead with Excellence. Our management programs prepare strategic leaders and business professionals to navigate complex organizational challenges and drive sustainable business growth.",
+        "breadcrumb": [
+          "Home",
+          "Schools",
+          "School of Management"
+        ],
+        "stats": [
+          {
+            "label": "Programs",
+            "value": "14"
+          },
+          {
+            "label": "Faculty",
+            "value": "45+"
+          },
+          {
+            "label": "Students",
+            "value": "400+"
+          }
+        ]
+      },
+      "about": {
+        "title": "About the School",
+        "description": "The School of Management offers rigorous business education combining management theory, case study analysis, and real-world projects. Our programs develop leaders and managers equipped with strategic thinking, entrepreneurial mindset, and global business acumen."
+      },
+      "visionMission": {
+        "vision": "To develop ethical, visionary leaders who create sustainable value for organizations and society in an increasingly complex global business environment.",
+        "mission": "To provide comprehensive management education emphasizing strategic thinking, ethical leadership, and business innovation, fostering professionals who drive organizational excellence and social responsibility."
+      },
+      "programPreview": {
+        "title": "Our Programs",
+        "subtitle": "Comprehensive business and management education",
+        "programs": [
+          {
+            "name": "BBA (Bachelor of Business Administration)",
+            "icon": "💼"
+          },
+          {
+            "name": "B.Com (Bachelor of Commerce)",
+            "icon": "📊"
+          },
+          {
+            "name": "MBA (Master of Business Administration)",
+            "icon": "🎓"
+          },
+          {
+            "name": "M.Com (Master of Commerce)",
+            "icon": "📈"
+          },
+          {
+            "name": "Executive Programs",
+            "icon": "🚀"
+          },
+          {
+            "name": "Doctoral Programs",
+            "icon": "🔬"
+          }
+        ]
+      },
+      "programTable": [
+        {
+          "degree": "BBA",
+          "duration": "3 Years",
+          "intake": "100"
+        },
+        {
+          "degree": "B.Com",
+          "duration": "3 Years",
+          "intake": "80"
+        },
+        {
+          "degree": "MBA",
+          "duration": "2 Years",
+          "intake": "60"
+        },
+        {
+          "degree": "M.Com",
+          "duration": "2 Years",
+          "intake": "40"
+        },
+        {
+          "degree": "Executive MBA",
+          "duration": "2 Years (Part-time)",
+          "intake": "50"
+        },
+        {
+          "degree": "PhD Management",
+          "duration": "3-5 Years",
+          "intake": "10"
+        }
+      ],
+      "faq": [
+        {
+          "question": "What are the career prospects for management graduates?",
+          "answer": "Our graduates pursue careers in corporate management, entrepreneurship, finance, consulting, HR, and operations across diverse industries. Many advance to senior leadership positions within 5-10 years."
+        },
+        {
+          "question": "Is work experience required for MBA programs?",
+          "answer": "While not mandatory, 2-3 years of professional experience is preferred for MBA programs. This enhances classroom discussions and networking value."
+        },
+        {
+          "question": "Do you offer internship opportunities?",
+          "answer": "Yes, all our programs include mandatory internships with leading organizations, providing real-world business experience and industry connections."
+        },
+        {
+          "question": "What is the placement record?",
+          "answer": "Our graduates have a 95%+ placement rate with average starting salaries significantly above industry standards. Top recruiting companies include Fortune 500 organizations."
+        },
+        {
+          "question": "Are there any executive or part-time options?",
+          "answer": "Yes, we offer executive programs designed for working professionals, with flexible schedules including weekend and online delivery options."
+        }
       ]
     },
     {
@@ -11515,6 +11701,124 @@
             "description": "Candidates must have a relevant Master's degree with strong academic record and research aptitude.",
             "note": "Eligibility may vary for international students."
           }
+        }
+      ],
+      "hero": {
+        "title": {
+          "normal": "School of",
+          "italic": "Commerce"
+        },
+        "description": "Master Financial Markets and Business Operations. Our commerce programs prepare professionals for careers in accounting, finance, taxation, and corporate management.",
+        "breadcrumb": [
+          "Home",
+          "Schools",
+          "School of Commerce"
+        ],
+        "stats": [
+          {
+            "label": "Programs",
+            "value": "8"
+          },
+          {
+            "label": "Faculty",
+            "value": "35+"
+          },
+          {
+            "label": "Students",
+            "value": "250+"
+          }
+        ]
+      },
+      "about": {
+        "title": "About the School",
+        "description": "The School of Commerce offers specialized education in accounting, finance, and business operations. Our curriculum is aligned with professional bodies like CA, ICWA, and ICSI, ensuring students are equipped for professional certifications and corporate careers."
+      },
+      "visionMission": {
+        "vision": "To nurture competent, ethical commerce professionals who contribute to sound financial decision-making and organizational excellence.",
+        "mission": "To provide comprehensive commerce education combining financial and accounting expertise with business acumen, fostering professionals prepared for CA, ICWA, ICSI, and corporate roles."
+      },
+      "programPreview": {
+        "title": "Our Programs",
+        "subtitle": "Commerce, Accounting & Finance specializations",
+        "programs": [
+          {
+            "name": "B.Com (General)",
+            "icon": "📚"
+          },
+          {
+            "name": "B.Com (Honors)",
+            "icon": "⭐"
+          },
+          {
+            "name": "B.Com (Accounting)",
+            "icon": "📊"
+          },
+          {
+            "name": "M.Com (Accounting & Finance)",
+            "icon": "💰"
+          },
+          {
+            "name": "CA/ICWA Preparation",
+            "icon": "📝"
+          },
+          {
+            "name": "Professional Certifications",
+            "icon": "🏆"
+          }
+        ]
+      },
+      "programTable": [
+        {
+          "degree": "B.Com (General)",
+          "duration": "3 Years",
+          "intake": "60"
+        },
+        {
+          "degree": "B.Com (Honors)",
+          "duration": "3 Years",
+          "intake": "40"
+        },
+        {
+          "degree": "B.Com (Accounting)",
+          "duration": "3 Years",
+          "intake": "35"
+        },
+        {
+          "degree": "M.Com (Accounting & Finance)",
+          "duration": "2 Years",
+          "intake": "30"
+        },
+        {
+          "degree": "M.Com (Taxation)",
+          "duration": "2 Years",
+          "intake": "25"
+        },
+        {
+          "degree": "PhD Commerce",
+          "duration": "3-5 Years",
+          "intake": "8"
+        }
+      ],
+      "faq": [
+        {
+          "question": "What is the difference between B.Com General and Honors?",
+          "answer": "B.Com General provides broad commerce education, while B.Com Honors offers specialized, research-focused curriculum with deeper subject expertise suitable for higher studies."
+        },
+        {
+          "question": "Does your program prepare for CA/ICWA exams?",
+          "answer": "Yes, our curriculum is designed to align with CA, ICWA, and ICSI requirements. Many of our graduates pursue these professional qualifications after graduation."
+        },
+        {
+          "question": "What are the job prospects for commerce graduates?",
+          "answer": "Excellent career opportunities in accounting firms, corporate finance, banking, taxation, auditing, and business management with strong salary packages."
+        },
+        {
+          "question": "Do you provide internship placements?",
+          "answer": "Yes, all programs include mandatory internships with accounting firms, corporations, and financial institutions for practical exposure."
+        },
+        {
+          "question": "Is mathematics a compulsory subject?",
+          "answer": "For B.Com, mathematics is typically optional but recommended for accounting and finance specializations."
         }
       ]
     },
@@ -13319,6 +13623,124 @@
             "note": "Eligibility may vary for international students."
           }
         }
+      ],
+      "hero": {
+        "title": {
+          "normal": "School of",
+          "italic": "Design"
+        },
+        "description": "Create Impactful Design Solutions. Our design programs blend creativity with strategy, preparing designers to shape user experiences and visual communication across digital and physical spaces.",
+        "breadcrumb": [
+          "Home",
+          "Schools",
+          "School of Design"
+        ],
+        "stats": [
+          {
+            "label": "Programs",
+            "value": "8"
+          },
+          {
+            "label": "Faculty",
+            "value": "30+"
+          },
+          {
+            "label": "Students",
+            "value": "200+"
+          }
+        ]
+      },
+      "about": {
+        "title": "About the School",
+        "description": "The School of Design nurtures creative professionals skilled in graphic design, user experience design, product design, and visual communication. We emphasize design thinking, problem-solving, and industry-standard tools to prepare designers for global creative industries."
+      },
+      "visionMission": {
+        "vision": "To cultivate innovative designers who create meaningful, user-centered design solutions that improve lives and drive social impact.",
+        "mission": "To provide comprehensive design education combining artistic creativity with design methodology, foster design thinking and problem-solving, and develop professionals prepared for creative industries."
+      },
+      "programPreview": {
+        "title": "Our Programs",
+        "subtitle": "Creative design across multiple disciplines",
+        "programs": [
+          {
+            "name": "BA in Graphic Design",
+            "icon": "🎨"
+          },
+          {
+            "name": "BA in UX/UI Design",
+            "icon": "💻"
+          },
+          {
+            "name": "BA in Product Design",
+            "icon": "⚙️"
+          },
+          {
+            "name": "BA in Animation & VFX",
+            "icon": "🎬"
+          },
+          {
+            "name": "MA in Design",
+            "icon": "🎓"
+          },
+          {
+            "name": "Design Specializations",
+            "icon": "✨"
+          }
+        ]
+      },
+      "programTable": [
+        {
+          "degree": "BA Graphic Design",
+          "duration": "3 Years",
+          "intake": "40"
+        },
+        {
+          "degree": "BA UX/UI Design",
+          "duration": "3 Years",
+          "intake": "35"
+        },
+        {
+          "degree": "BA Product Design",
+          "duration": "3 Years",
+          "intake": "30"
+        },
+        {
+          "degree": "BA Animation & VFX",
+          "duration": "3 Years",
+          "intake": "25"
+        },
+        {
+          "degree": "MA Design",
+          "duration": "2 Years",
+          "intake": "20"
+        },
+        {
+          "degree": "Diploma Design",
+          "duration": "1 Year",
+          "intake": "15"
+        }
+      ],
+      "faq": [
+        {
+          "question": "Do I need prior art training for design programs?",
+          "answer": "While helpful, prior art training is not mandatory. We focus on design thinking and problem-solving. Passion for design and creativity are key requirements."
+        },
+        {
+          "question": "What design tools and software are taught?",
+          "answer": "We teach industry-standard tools including Adobe Creative Suite, Figma, Sketch, 3D software, and emerging design technologies used by top creative companies."
+        },
+        {
+          "question": "Are there internship opportunities with design agencies?",
+          "answer": "Yes, partnerships with leading design studios, advertising agencies, and tech companies provide excellent internship and project opportunities."
+        },
+        {
+          "question": "Can I specialize in a particular design field?",
+          "answer": "Absolutely. We offer specializations in graphic design, UX/UI, product design, animation, branding, and more based on student interests."
+        },
+        {
+          "question": "What are the career prospects for designers?",
+          "answer": "Strong demand across creative agencies, tech companies, startups, corporate design teams, and freelance opportunities with competitive compensation."
+        }
       ]
     },
     {
@@ -14101,6 +14523,106 @@
             "note": "Eligibility may vary for international students."
           }
         }
+      ],
+      "hero": {
+        "title": {
+          "normal": "School of",
+          "italic": "Law"
+        },
+        "description": "Justice Through Excellence. Our law programs develop skilled legal professionals committed to justice, ethical practice, and advancing the rule of law in society.",
+        "breadcrumb": [
+          "Home",
+          "Schools",
+          "School of Law"
+        ],
+        "stats": [
+          {
+            "label": "Programs",
+            "value": "4"
+          },
+          {
+            "label": "Faculty",
+            "value": "25+"
+          },
+          {
+            "label": "Students",
+            "value": "150+"
+          }
+        ]
+      },
+      "about": {
+        "title": "About the School",
+        "description": "The School of Law offers rigorous legal education combining constitutional law, criminal law, civil law, corporate law, and contemporary legal issues. Our programs prepare advocates, judges, legal advisors, and corporate counselors through moot courts, legal clinics, and internships with courts and law firms."
+      },
+      "visionMission": {
+        "vision": "To develop ethical, competent legal professionals who uphold justice, advance rule of law, and serve society with integrity.",
+        "mission": "To provide comprehensive legal education emphasizing constitutional values, practical legal skills, and professional ethics, fostering advocates and legal professionals committed to justice."
+      },
+      "programPreview": {
+        "title": "Our Programs",
+        "subtitle": "Rigorous legal education and professional development",
+        "programs": [
+          {
+            "name": "BA LLB (Integrated)",
+            "icon": "⚖️"
+          },
+          {
+            "name": "LLM (Master of Laws)",
+            "icon": "🎓"
+          },
+          {
+            "name": "Specialization Programs",
+            "icon": "📖"
+          },
+          {
+            "name": "Legal Research & Writing",
+            "icon": "📝"
+          }
+        ]
+      },
+      "programTable": [
+        {
+          "degree": "BA LLB (Integrated)",
+          "duration": "5 Years",
+          "intake": "80"
+        },
+        {
+          "degree": "LLM (General)",
+          "duration": "2 Years",
+          "intake": "30"
+        },
+        {
+          "degree": "LLM (Corporate Law)",
+          "duration": "2 Years",
+          "intake": "25"
+        },
+        {
+          "degree": "Diploma in Law",
+          "duration": "1 Year",
+          "intake": "20"
+        }
+      ],
+      "faq": [
+        {
+          "question": "What are the eligibility criteria for BA LLB?",
+          "answer": "12th pass (or equivalent) with any stream. Admission through entrance examination and merit-based selection."
+        },
+        {
+          "question": "Is the BA LLB degree recognized by Bar Council?",
+          "answer": "Yes, our BA LLB is approved by Bar Council of India and recognized across India. Graduates can appear for All India Bar Examination (AIBE)."
+        },
+        {
+          "question": "What specializations are available in LLM?",
+          "answer": "We offer specializations in Constitutional Law, Criminal Law, Corporate Law, International Law, Intellectual Property Rights, and others."
+        },
+        {
+          "question": "Do you have moot court and legal clinic programs?",
+          "answer": "Yes, moot court participation, legal aid clinics, and internships with courts and law firms are integral parts of our curriculum."
+        },
+        {
+          "question": "What are placement opportunities for law graduates?",
+          "answer": "Graduates pursue careers as advocates, corporate counsels, judges, legal consultants, and in government positions with law firms and corporations."
+        }
       ]
     },
     {
@@ -14466,6 +14988,124 @@
             "description": "Candidates must have a relevant Master's degree with strong academic record and research aptitude.",
             "note": "Eligibility may vary for international students."
           }
+        }
+      ],
+      "hero": {
+        "title": {
+          "normal": "School of",
+          "italic": "Media Studies"
+        },
+        "description": "Tell Stories That Matter. Our media programs prepare journalists, broadcasters, and media professionals to inform, inspire, and influence through ethical, impactful communication.",
+        "breadcrumb": [
+          "Home",
+          "Schools",
+          "School of Media Studies"
+        ],
+        "stats": [
+          {
+            "label": "Programs",
+            "value": "8"
+          },
+          {
+            "label": "Faculty",
+            "value": "30+"
+          },
+          {
+            "label": "Students",
+            "value": "180+"
+          }
+        ]
+      },
+      "about": {
+        "title": "About the School",
+        "description": "The School of Media Studies offers comprehensive education in journalism, broadcasting, digital media, and mass communication. Our programs combine media theory, professional skills, and hands-on experience in state-of-the-art facilities, preparing students for evolving media landscapes."
+      },
+      "visionMission": {
+        "vision": "To develop responsible, skilled media professionals who uphold journalistic integrity and drive meaningful communication in society.",
+        "mission": "To provide comprehensive media education combining journalistic principles, digital innovation, and multimedia skills, fostering professionals committed to ethical, impactful storytelling."
+      },
+      "programPreview": {
+        "title": "Our Programs",
+        "subtitle": "Journalism, Broadcasting & Digital Media",
+        "programs": [
+          {
+            "name": "BA in Journalism",
+            "icon": "📰"
+          },
+          {
+            "name": "BA in Mass Communication",
+            "icon": "📡"
+          },
+          {
+            "name": "BA in Broadcast Journalism",
+            "icon": "🎙️"
+          },
+          {
+            "name": "BA in Digital Media",
+            "icon": "💻"
+          },
+          {
+            "name": "MA in Media Studies",
+            "icon": "🎓"
+          },
+          {
+            "name": "Specialized Certificates",
+            "icon": "📜"
+          }
+        ]
+      },
+      "programTable": [
+        {
+          "degree": "BA Journalism",
+          "duration": "3 Years",
+          "intake": "50"
+        },
+        {
+          "degree": "BA Mass Communication",
+          "duration": "3 Years",
+          "intake": "45"
+        },
+        {
+          "degree": "BA Broadcast Journalism",
+          "duration": "3 Years",
+          "intake": "35"
+        },
+        {
+          "degree": "BA Digital Media",
+          "duration": "3 Years",
+          "intake": "40"
+        },
+        {
+          "degree": "MA Media Studies",
+          "duration": "2 Years",
+          "intake": "25"
+        },
+        {
+          "degree": "Diploma in Journalism",
+          "duration": "1 Year",
+          "intake": "20"
+        }
+      ],
+      "faq": [
+        {
+          "question": "What is the difference between journalism and mass communication programs?",
+          "answer": "Journalism focuses on news reporting and editorial skills, while mass communication provides broader media education including advertising, PR, and media management."
+        },
+        {
+          "question": "Do you have media labs and broadcast facilities?",
+          "answer": "Yes, we have fully equipped studios, editing labs, broadcast facilities, and digital media labs with professional-grade equipment for hands-on training."
+        },
+        {
+          "question": "Are there internship opportunities with media organizations?",
+          "answer": "Yes, partnerships with leading news channels, newspapers, digital media platforms, and PR agencies provide excellent internship opportunities."
+        },
+        {
+          "question": "What are career options after graduation?",
+          "answer": "Careers as journalists, news anchors, content creators, producers, media managers, PR professionals, and digital media specialists with news outlets and media companies."
+        },
+        {
+          "question": "Is knowledge of multiple languages helpful?",
+          "answer": "Yes, proficiency in English, Hindi, and regional languages is advantageous in India's diverse media landscape."
         }
       ]
     },
@@ -15640,251 +16280,134 @@
             "note": "Eligibility may vary for international students."
           }
         }
-      ]
-    },
-    {
-      "slug": "bpt",
-      "name": "Bachelor of Physiotherapy (BPT)",
-      "duration": "4.5 Years",
-      "type": "UG",
-      "degree": "Bachelor of Physiotherapy",
+      ],
       "hero": {
         "title": {
-          "normal": " Bachelor of Physiotherapy ",
-          "italic": ""
+          "normal": "School of",
+          "italic": "Liberal Arts & Sciences"
         },
-        "description": "    Restore movement, relieve pain, and improve quality of life. This four-and-a-half-year programme (including internship) covers musculoskeletal, neurological, cardiovascular, and sports rehabilitation — preparing you for a rewarding clinical career as a physiotherapy professional in hospitals, clinics, and rehabilitation centres worldwide.",
+        "description": "Think Critically, Act Responsibly. Our liberal arts programs develop intellectually versatile professionals who approach complex problems from multiple perspectives and drive meaningful change.",
         "breadcrumb": [
           "Home",
           "Schools",
-          " Allied Health Sciences ",
-          "   BPT "
+          "School of Liberal Arts & Sciences"
         ],
         "stats": [
           {
-            "label": "Duration",
-            "value": "4.5 Yr"
+            "label": "Programs",
+            "value": "13"
           },
           {
-            "label": "Semesters",
-            "value": "5"
+            "label": "Faculty",
+            "value": "50+"
           },
           {
-            "label": "Core Programme",
-            "value": "Physiotherapy  "
+            "label": "Students",
+            "value": "350+"
           }
         ]
       },
-      "details": {
-        "duration": "4 Years + 6 Months Internship",
-        "campus": "Bengaluru, India",
-        "school": " Allied Health Sciences "
+      "about": {
+        "title": "About the School",
+        "description": "The School of Liberal Arts & Sciences offers interdisciplinary education combining humanities, social sciences, natural sciences, and professional studies. Our programs develop critical thinkers and versatile professionals prepared for evolving careers and engaged global citizenship."
       },
-      "overview": [
-        "The Bachelor of Physiotherapy is a comprehensive clinical programme covering the assessment, diagnosis, and treatment of physical dysfunction through movement, exercise, and manual therapy. The curriculum spans anatomy, physiology, biomechanics, exercise therapy, electrotherapy, musculoskeletal rehabilitation, neurological rehabilitation, cardiovascular and respiratory physiotherapy, paediatric physiotherapy, and sports rehabilitation. Students develop clinical reasoning skills alongside hands-on therapeutic techniques through progressive clinical rotations in hospitals and rehabilitation centres. ",
-        "The programme includes a mandatory six-month internship providing intensive supervised clinical practice across physiotherapy specialisations. Physiotherapy is a globally recognised and portable healthcare profession — graduates can practise in hospitals, rehabilitation centres, sports clinics, community health settings, and private practice across international markets. India’s growing awareness of rehabilitation and preventive healthcare, combined with its expanding hospital infrastructure, creates strong domestic demand alongside international career mobility for qualified physiotherapists.  "
-      ],
-      "eligibility": {
-        "title": "Eligibility",
-        "description": " ",
-        "note": ". "
+      "visionMission": {
+        "vision": "To cultivate intellectually engaged citizens and professionals who think critically, communicate effectively, and contribute meaningfully to society.",
+        "mission": "To provide comprehensive liberal arts education emphasizing critical thinking, interdisciplinary learning, and global perspectives, developing versatile professionals prepared for diverse careers."
       },
-      "tabs": {
-        "curriculum": [
+      "programPreview": {
+        "title": "Our Programs",
+        "subtitle": "Interdisciplinary Education in Humanities, Sciences & Social Studies",
+        "programs": [
           {
-            "semester": "semester1",
-            "modules": [
-              {
-                "name": "",
-                "code": ""
-              },
-              {
-                "name": "",
-                "code": ""
-              },
-              {
-                "name": "",
-                "code": ""
-              }
-            ]
+            "name": "BA in History",
+            "icon": "📚"
           },
           {
-            "semester": "semester2",
-            "modules": [
-              {
-                "name": "",
-                "code": ""
-              },
-              {
-                "name": "",
-                "code": ""
-              },
-              {
-                "name": "",
-                "code": ""
-              }
-            ]
+            "name": "BA in English Literature",
+            "icon": "✍️"
+          },
+          {
+            "name": "BA in Philosophy",
+            "icon": "💭"
+          },
+          {
+            "name": "BA in Psychology",
+            "icon": "🧠"
+          },
+          {
+            "name": "BA in Economics",
+            "icon": "📊"
+          },
+          {
+            "name": "BA in Environmental Studies",
+            "icon": "🌱"
+          },
+          {
+            "name": "BA in Political Science",
+            "icon": "🏛️"
           }
-        ],
-        "outcomes": {
-          "PEOs": [
-            {
-              "id": "PEO 1",
-              "title": " Clinical Excellence   ",
-              "text": "Prepare graduates who provide evidence-based physiotherapy assessment and treatment across clinical specialisations. "
-            },
-            {
-              "id": "PEO 2",
-              "title": "Patient-Centred Care  ",
-              "text": "Develop graduates who deliver compassionate, ethical, and patient-centred rehabilitation services. "
-            },
-            {
-              "id": "PEO 3",
-              "title": "Professional Development   ",
-              "text": "Foster graduates who engage in lifelong learning, research, and professional advancement in physiotherapy. "
-            }
-          ],
-          "POs": [
-            {
-              "id": "PO 1",
-              "text": "Demonstrate comprehensive knowledge of anatomy, physiology, biomechanics, and pathology relevant to physiotherapy practice.  "
-            },
-            {
-              "id": "PO 2",
-              "text": "Assess, diagnose, and plan physiotherapy interventions for musculoskeletal, neurological, cardiovascular, and respiratory conditions.    "
-            },
-            {
-              "id": "PO 3",
-              "text": "Apply therapeutic techniques including exercise therapy, manual therapy, and electrotherapy safely and effectively. "
-            },
-            {
-              "id": "PO 4",
-              "text": "Demonstrate clinical reasoning, evidence-based decision-making, and outcome measurement in physiotherapy practice. "
-            },
-            {
-              "id": "PO 5",
-              "text": "Apply professional ethics, patient safety, and communication skills in clinical interactions. "
-            }
-          ],
-          "PSOs": [
-            {
-              "id": "PSO 1",
-              "title": "Rehabilitation Competence ",
-              "text": "Ability to plan and deliver comprehensive rehabilitation programmes for patients with diverse physical conditions and functional limitations.  "
-            },
-            {
-              "id": "PSO 2",
-              "title": "Clinical Reasoning ",
-              "text": "Competence in clinical assessment, differential diagnosis, and evidence-based treatment planning across physiotherapy specialisations.    "
-            },
-            {
-              "id": "PSO 3",
-              "title": "Professional Practice  ",
-              "text": "Skill in independent physiotherapy practice, interdisciplinary collaboration, and patient communication in clinical healthcare settings.  "
-            }
-          ]
-        }
+        ]
       },
-      "highlights": [
+      "programTable": [
         {
-          "title": "Comprehensive Clinical Curriculum ",
-          "description": "Covers musculoskeletal, neurological, cardiovascular, respiratory, paediatric, and sports physiotherapy across four years.  "
+          "degree": "BA History",
+          "duration": "3 Years",
+          "intake": "50"
         },
         {
-          "title": "Mandatory Clinical Internship  ",
-          "description": "Six-month supervised internship in hospitals and rehabilitation centres providing intensive hands-on clinical experience."
+          "degree": "BA English Literature",
+          "duration": "3 Years",
+          "intake": "55"
         },
         {
-          "title": "Globally Portable Qualification  ",
-          "description": "Physiotherapy is a recognised profession worldwide — graduates can pursue careers across international healthcare markets.   "
+          "degree": "BA Psychology",
+          "duration": "3 Years",
+          "intake": "45"
         },
         {
-          "title": "Growing Rehabilitation Demand ",
-          "description": "India’s expanding healthcare sector and increasing awareness of rehabilitation creating strong demand for physiotherapists. "
+          "degree": "BA Economics",
+          "duration": "3 Years",
+          "intake": "50"
         },
         {
-          "title": "Evidence-Based Practice  ",
-          "description": "Training in clinical reasoning, outcome measurement, and evidence-based physiotherapy reflecting contemporary professional standards. "
+          "degree": "BA Environmental Studies",
+          "duration": "3 Years",
+          "intake": "40"
         },
         {
-          "title": "Sports Rehabilitation Exposure ",
-          "description": "Coverage of sports physiotherapy and athletic rehabilitation — a growing specialisation with diverse career opportunities. "
+          "degree": "BA Political Science",
+          "duration": "3 Years",
+          "intake": "45"
         },
         {
-          "title": "Interdisciplinary Clinical Training    ",
-          "description": "Clinical rotations working alongside physicians, surgeons, and other healthcare professionals in hospital settings."
-        },
-        {
-          "title": "Private Practice Pathway ",
-          "description": "Skills and qualification enabling independent physiotherapy practice and clinic establishment."
-        }
-      ],
-      "careers": [
-        {
-          "category": "Hospital & Clinical    ",
-          "roles": [
-            "Hospital Physiotherapist",
-            "Outpatient Rehabilitation Therapist",
-            "ICU Physiotherapist."
-          ]
-        },
-        {
-          "category": "Specialist Rehabilitation ",
-          "roles": [
-            "Sports Physiotherapist",
-            "Neurological Rehabilitation Specialist",
-            "Paediatric Physiotherapist",
-            "Orthopaedic Physiotherapist."
-          ]
-        },
-        {
-          "category": "Community & Education   ",
-          "roles": [
-            "Community Health Physiotherapist",
-            "Physiotherapy Lecturer",
-            "Rehabilitation Programme Coordinator."
-          ]
-        },
-        {
-          "category": "Private Practice ",
-          "roles": [
-            "Private Practice Physiotherapist",
-            "Home Visit Physiotherapist",
-            "Wellness Centre Consultant."
-          ]
+          "degree": "MA Liberal Studies",
+          "duration": "2 Years",
+          "intake": "35"
         }
       ],
       "faq": [
         {
-          "q": "What is the total programme duration?    ",
-          "a": "  Four years of academic study plus a mandatory six-month clinical internship, totalling approximately four and a half years.  "
+          "question": "What is liberal arts education?",
+          "answer": "Liberal arts education emphasizes broad intellectual learning across humanities, sciences, and social sciences, developing critical thinking, communication, and problem-solving skills applicable to diverse careers."
         },
         {
-          "q": " Is physiotherapy a globally recognised profession?",
-          "a": "Yes. Physiotherapy is practised and regulated worldwide. Specific registration and licensure requirements vary by country, but the profession is well-established in healthcare systems globally.  "
+          "question": "Can I pursue a BA in a single subject or must I combine subjects?",
+          "answer": "Both options are available. You can specialize in one subject (Honours) or pursue an interdisciplinary approach combining multiple subjects."
         },
         {
-          "q": " Can I specialise in sports physiotherapy?",
-          "a": "  The BPT covers sports rehabilitation as part of the curriculum. Further specialisation is available through postgraduate study (MPT in Sports Physiotherapy) after completing the BPT."
+          "question": "What career options are available for liberal arts graduates?",
+          "answer": "Diverse career paths in education, journalism, civil service, NGOs, business, law, research, and public policy. The versatile skills prepare graduates for many professional fields."
         },
         {
-          "q": " What clinical settings are included in the internship?",
-          "a": "   Students rotate through hospital departments including orthopaedics, neurology, cardiopulmonary, paediatrics, and outpatient rehabilitation under supervised clinical practice."
+          "question": "Do you encourage interdisciplinary learning?",
+          "answer": "Yes, our curriculum encourages students to combine subjects and learn across disciplines, developing well-rounded, versatile professionals."
         },
         {
-          "q": " Can I open my own practice?",
-          "a": "  Yes. Qualified physiotherapists can establish independent clinical practices after gaining appropriate registration and supervised experience."
-        },
-        {
-          "q": " Is on-campus accommodation available?  ",
-          "a": "  Presidency University provides student housing. Contact the Office of International Affairs for details. "
+          "question": "Are there opportunities for research and internships?",
+          "answer": "Yes, research opportunities, internships with NGOs, media organizations, government agencies, and corporate partners are integrated into our programs."
         }
-      ],
-      "cta": {
-        "title": "Your Future Starts Here",
-        "subtitle": "Join Presidency University and build your career in technology.",
-        "button": "Apply Now"
-      }
+      ]
     },
     {
       "slug": "health",
