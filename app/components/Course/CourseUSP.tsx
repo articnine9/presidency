@@ -8,6 +8,7 @@ import {
 } from "lucide-react";
 import { TrendingUp, Award, Users, DollarSign, BarChart } from "lucide-react";
 import CommonHeader from "@/app/components/CommonHeader";
+import { H2, H4 } from "@/app/components/Headings";
 
 export default function CourseUSP({ data }: any) {
   if (!data?.highlights || data.highlights.length === 0) return null;
@@ -33,17 +34,9 @@ export default function CourseUSP({ data }: any) {
           </span>
 
           {/* TITLE */}
-          <h2
-            className="
-          mt-5
-          text-4xl
-          md:text-5xl
-          font-semibold
-          text-[#183153]
-        "
-          >
+          <H2 className="mt-5 text-[#183153]">
             Why Choose This <span className="text-[#0097A7]">Programme</span>
-          </h2>
+          </H2>
         </div>
 
         {/* GRID */}
@@ -72,15 +65,9 @@ export default function CourseUSP({ data }: any) {
 
                 {/* TEXT */}
                 <div>
-                  <h3
-                    className="
-                  text-lg
-                  font-semibold
-                  text-[#183153]
-                "
-                  >
+                  <H4 className="text-[#183153]">
                     {item.title}
-                  </h3>
+                  </H4>
 
                   <p
                     className="

@@ -6,6 +6,7 @@ import {
   Sparkles,
 } from "lucide-react";
 import CommonHeader from "@/app/components/CommonHeader";
+import { H2, H4 } from "@/app/components/Headings";
 
 export default function CourseCareers({ data }: any) {
   const careers = data?.careers || [];
@@ -33,17 +34,9 @@ export default function CourseCareers({ data }: any) {
           </span>
 
           {/* TITLE */}
-          <h2
-            className="
-          mt-5
-          text-4xl
-          md:text-5xl
-          font-semibold
-          text-[#183153]
-        "
-          >
+          <H2 className="mt-5 text-[#183153]">
             Career <span className="text-[#F58233]">Opportunities</span>
-          </h2>
+          </H2>
         </div>
 
         {/* GRID */}
@@ -83,15 +76,9 @@ export default function CourseCareers({ data }: any) {
                 {/* TEXT */}
                 <div>
                   {/* TITLE */}
-                  <h3
-                    className="
-                  text-lg
-                  font-semibold
-                  text-[#183153]
-                "
-                  >
+                  <H4 className="text-[#183153]">
                     {item.category}
-                  </h3>
+                  </H4>
 
                   {/* ROLES */}
                   <div className="mt-5 space-y-4">

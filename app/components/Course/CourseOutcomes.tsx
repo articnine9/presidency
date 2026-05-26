@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
+import { H2, H4 } from "@/app/components/Headings";
 
 export default function CourseOutcomes({ data }: any) {
   const tabs = data?.tabs?.outcomes || {};
@@ -32,17 +33,9 @@ export default function CourseOutcomes({ data }: any) {
           </span>
 
           {/* TITLE */}
-          <h2
-            className="
-              mt-5
-              text-4xl
-              md:text-5xl
-              font-semibold
-              text-[#183153]
-            "
-          >
+          <H2 className="mt-5 text-[#183153]">
             Programme <span className="text-[#F58233]">Outcomes</span>
-          </h2>
+          </H2>
         </div>
 
         {/* TABS */}
@@ -121,15 +114,9 @@ export default function CourseOutcomes({ data }: any) {
 
                 {/* RIGHT CONTENT */}
                 <div className="col-span-12 md:col-span-10">
-                  <h3
-                    className="
-                      text-lg
-                      font-semibold
-                      text-[#183153]
-                    "
-                  >
+                  <H4 className="text-[#183153]">
                     {item.title}
-                  </h3>
+                  </H4>
 
                   <p
                     className="

@@ -3,6 +3,7 @@
 import { Globe, Phone, FileText } from "lucide-react";
 import { motion } from "framer-motion";
 import CommonHeader from "@/app/components/CommonHeader";
+import { H5 } from "@/app/components/Headings";
 
 const steps = [
   {
@@ -57,9 +58,9 @@ export default function JourneySection() {
                 </div>
 
                 {/* Step Title */}
-                <h3 className=" text-gray-800 mb-2">
+                <H5 className="text-gray-800 mb-2">
                   <span className="italic">Step {index + 1}:</span> {step.title}
-                </h3>
+                </H5>
 
                 {/* Description */}
                 <p className="text-sm text-gray-600 max-w-xs">

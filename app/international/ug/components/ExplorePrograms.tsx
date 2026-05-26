@@ -16,7 +16,7 @@ export default function ExplorePrograms({ query, setQuery }: any) {
           description="Search and discover undergraduate programmes across multiple schools."
           align="center"
           primaryColor="#ffffff" // tag + highlight
-          secondaryColor="#ffffff" // full heading
+          secondaryColor="#b8c7db" // full heading - light gray
           descriptionColor="#ffffff" // description
         />
 

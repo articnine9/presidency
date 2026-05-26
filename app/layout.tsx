@@ -8,6 +8,7 @@ import { cn } from "@/lib/utils";
 /* ✅ IMPORT HERE */
 import { Navigation } from "@/app/components/Navigation";
 import { FooterSection } from "@/app/components/Footer";
+import { ApplicationProvider } from "@/app/providers/ApplicationProvider";
 
 /* ---------------- FONTS ---------------- */
 
@@ -59,16 +60,18 @@ export default function RootLayout({
       )}
     >
       <body className="min-h-dvh overflow-x-clip antialiased font-body bg-background text-foreground">
-        {/* 🔥 GLOBAL NAVBAR */}
-        <Navigation />
+        <ApplicationProvider>
+          {/* 🔥 GLOBAL NAVBAR */}
+          <Navigation />
 
-        {/* PAGE CONTENT */}
-        <main className="min-w-0 w-full overflow-x-hidden pb-[env(safe-area-inset-bottom,0px)]">
-          {children}
-        </main>
+          {/* PAGE CONTENT */}
+          <main className="min-w-0 w-full overflow-x-hidden pb-[env(safe-area-inset-bottom,0px)]">
+            {children}
+          </main>
 
-        {/* 🔥 GLOBAL FOOTER */}
-        <FooterSection />
+          {/* 🔥 GLOBAL FOOTER */}
+          <FooterSection />
+        </ApplicationProvider>
       </body>
     </html>
   );

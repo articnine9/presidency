@@ -2,6 +2,7 @@
 import { CheckCircle2 } from "lucide-react";
 import CommonHeader from "@/app/components/CommonHeader";
 import { motion } from "framer-motion";
+import { H5 } from "@/app/components/Headings";
 
 export default function CourseOverview({ data }: any) {
   if (!data?.overview) return null;
@@ -55,9 +56,9 @@ export default function CourseOverview({ data }: any) {
 
               {/* CONTENT */}
               <div>
-                <h4 className="text-lg font-semibold text-[#2B2B2B]">
+                <H5 className="text-[#2B2B2B]">
                   Eligibility
-                </h4>
+                </H5>
 
                 <p className="mt-1 text-sm leading-relaxed text-[#4B5563]">
                   Bachelor’s in relevant engineering technology with 50%

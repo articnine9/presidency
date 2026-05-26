@@ -6,6 +6,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useMemo, useState, useRef, useEffect } from "react";
 import CommonHeader from "@/app/components/CommonHeader";
+import { H3 } from "./Headings";
 
 import {
   applyUrlForCourse,
@@ -197,9 +198,9 @@ export function ProgrammesSection() {
                     text-center
                   `}
                 >
-                  <h3 className="text-[#1B4E8C] font-semibold text-sm md:text-base leading-snug">
+                  <H3 className="text-[#1B4E8C] text-sm md:text-base">
                     {item.title}
-                  </h3>
+                  </H3>
                 </motion.div>
               ))}
             </div>

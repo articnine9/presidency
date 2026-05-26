@@ -3,6 +3,7 @@
 import { motion } from "motion/react";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+import { H2, H5 } from "@/app/components/Headings";
 
 export default function ResearchInnovation() {
   const cards = [
@@ -44,15 +45,17 @@ export default function ResearchInnovation() {
               Research & Innovation
             </motion.span>
 
-            <motion.h2
+            <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="mt-4 text-[38px] leading-[1.05] tracking-tight text-white"
+              className="mt-4"
             >
-              Research That
-              <span className="text-[#ff8c42]"> Matters</span>
-            </motion.h2>
+              <H2 className="text-white">
+                Research That
+                <span className="text-[#ff8c42]"> Matters</span>
+              </H2>
+            </motion.div>
           </div>
 
           {/* IMAGE GRID */}
@@ -177,9 +180,9 @@ export default function ResearchInnovation() {
                 <div className="absolute inset-0 bg-gradient-to-t from-[#1e3a5f]/90 via-[#1e3a5f]/20 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div>
 
                 <div className="absolute bottom-0 left-0 right-0 translate-y-full p-4 transition-transform duration-500 ease-out group-hover:translate-y-0">
-                  <h3 className="text-center text-xl font-semibold text-white">
+                  <H5 className="text-center text-white">
                     {item.title}
-                  </h3>
+                  </H5>
 
                   <div className="mt-2 flex justify-center opacity-0 transition-opacity duration-300 delay-100 group-hover:opacity-100">
                     <span className="flex items-center gap-1 text-sm text-[#ff8c42]">
@@ -203,15 +206,17 @@ export default function ResearchInnovation() {
               Research & Innovation
             </motion.span>
 
-            <motion.h2
+            <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="mt-4 text-4xl leading-tight"
+              className="mt-4"
             >
-              Research That
-              <span className="text-[#ff8c42]"> Matters</span>
-            </motion.h2>
+              <H2 className="text-white">
+                Research That
+                <span className="text-[#ff8c42]"> Matters</span>
+              </H2>
+            </motion.div>
 
             <motion.p
               initial={{ opacity: 0, y: 20 }}

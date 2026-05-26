@@ -11,6 +11,7 @@ import {
   Code,
   ArrowRight,
 } from "lucide-react";
+import { H2, H3, H4 } from "@/app/components/Headings";
 
 /* ---------------- TYPES ---------------- */
 
@@ -59,9 +60,9 @@ export default function ProgramList({
           return (
             <div key={section.type}>
               {/* TITLE */}
-              <h2 className="text-3xl md:text-4xl font-serif text-gray-900 mb-5">
+              <H2 className="font-serif text-gray-900 mb-5">
                 {section.title}
-              </h2>
+              </H2>
 
               {/* SUBTITLE */}
               {section.subtitle && (
@@ -112,9 +113,9 @@ export default function ProgramList({
                     return (
                       <div key={label}>
                         {/* LABEL TITLE */}
-                        <p className="text-lg font-medium text-gray-800 mb-5">
+                        <H4 className="text-gray-800 mb-5">
                           {label}
-                        </p>
+                        </H4>
 
                         {/* PROGRAM LIST */}
                         {section.type === "PhD" ? (
@@ -241,7 +242,7 @@ function ProgramRow({ program, slug }: { program: Program; slug: string }) {
 
         {/* TEXT */}
         <div>
-          <h3 className="text-[15px] font-semibold text-[#183153]">
+          <h3 className="text-[15px] text-[#183153]">
             {program.name}
           </h3>
 

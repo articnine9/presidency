@@ -1,3 +1,5 @@
+import { H2 } from "@/app/components/Headings";
+
 export default function CourseCTA() {
   return (
     <section className="bg-white pb-16 pt-16 md:pt-24">
@@ -5,10 +7,10 @@ export default function CourseCTA() {
         <div className="bg-gradient-to-r from-[#0F1E3D] to-[#0D3B5C] rounded-2xl px-8 py-10 flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Left Content */}
           <div>
-            <h2 className="text-2xl md:text-3xl font-serif text-white">
+            <H2 className="font-serif text-white">
               Your Next Move{" "}
               <span className="text-teal-400 italic">Awaits</span>
-            </h2>
+            </H2>
 
             <p className="text-gray-300 mt-2 text-sm md:text-base">
               Begin an extraordinary journey at Presidency University,

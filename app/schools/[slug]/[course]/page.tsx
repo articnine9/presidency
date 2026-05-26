@@ -29,7 +29,7 @@ export default async function CoursePage({
     (s) => s.slug.toLowerCase() === slug.toLowerCase(),
   );
 
-  if (!school) return notFound();
+  if (!school || !school.programs) return notFound();
 
   const selectedCourse = school.programs.find(
     (p) => p.slug.toLowerCase() === course.toLowerCase(),

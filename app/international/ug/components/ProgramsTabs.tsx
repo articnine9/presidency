@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { ChevronDown, ChevronUp } from "lucide-react";
+import { H5 } from "@/app/components/Headings";
 
 export default function ProgramsAccordion({ data, query }: any) {
   const [active, setActive] = useState(0);
@@ -51,7 +52,7 @@ export default function ProgramsAccordion({ data, query }: any) {
                     </div>
 
                     {/* Title */}
-                    <h3 className="text-base md:text-lg ">{school.name}</h3>
+                    <H5>{school.name}</H5>
                   </div>
 
                   {/* Icon */}

@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { motion } from "motion/react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import { H2, H4 } from "@/app/components/Headings";
 
 const accreditations = [
   {
@@ -63,9 +64,9 @@ function AccreditationCard({
       </div>
 
       {/* TITLE */}
-      <h3 className="text-[#1e3a5f] font-semibold text-lg leading-snug">
+      <H4 className="text-[#1e3a5f]">
         {item.title}
-      </h3>
+      </H4>
 
       {/* DESC */}
       <p className="text-sm text-gray-500 mt-2 leading-6">{item.desc}</p>
@@ -110,20 +111,16 @@ export function RankingAccreditationSection() {
             Accreditation & Rankings
           </motion.span>
 
-          <motion.h2
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="
-              text-[34px]
-              md:text-4xl
-              text-[#1e3a5f]
-              leading-tight
-            "
           >
-            Recognised for
-            <span className="block text-[#F58A3C]">Academic Excellence</span>
-          </motion.h2>
+            <H2 className="text-[#1e3a5f]">
+              Recognised for
+              <span className="block text-[#F58A3C]">Academic Excellence</span>
+            </H2>
+          </motion.div>
 
           <motion.p
             initial={{ opacity: 0, y: 20 }}

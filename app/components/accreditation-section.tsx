@@ -7,6 +7,7 @@ import {
   Globe,
   Target,
 } from "lucide-react";
+import { H2, H3, H4 } from "@/app/components/Headings";
 
 export function AccreditationSection() {
   const achievements = [
@@ -76,14 +77,16 @@ export function AccreditationSection() {
 
       <div className="max-w-[1180px] mx-auto px-5 md:px-10 relative z-10">
         <div className="text-center mb-16">
-          <motion.h2
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-white mb-4"
+            className="mb-4"
           >
-            Accredited, Ranked & Industry Connected
-          </motion.h2>
+            <H2 className="text-white">
+              Accredited, Ranked & Industry Connected
+            </H2>
+          </motion.div>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -111,7 +114,7 @@ export function AccreditationSection() {
               ></div>
               <div className="relative bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-8 hover:border-white/40 transition-all duration-300 hover:transform hover:scale-105">
                 <div className="text-white mb-4">{achievement.icon}</div>
-                <h3 className="text-white mb-3 text-xl">{achievement.title}</h3>
+                <H4 className="text-white mb-3">{achievement.title}</H4>
                 <p className="text-white/80 text-sm m-0">
                   {achievement.description}
                 </p>
@@ -127,7 +130,7 @@ export function AccreditationSection() {
           viewport={{ once: true }}
           className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-8 md:p-12 mb-16"
         >
-          <h3 className="text-white text-center mb-10">Placement Excellence</h3>
+          <H3 className="text-white text-center mb-10">Placement Excellence</H3>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             {stats.map((stat, index) => (
               <motion.div
@@ -159,9 +162,9 @@ export function AccreditationSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          <h3 className="text-white text-center mb-10">
+          <H3 className="text-white text-center mb-10">
             Our Recruitment Partners
-          </h3>
+          </H3>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-10">
             {companies.map((company, index) => (
               <motion.div
@@ -186,9 +189,9 @@ export function AccreditationSection() {
 
           {/* CTA Section */}
           <div className="bg-gradient-to-r from-[#0A8F96] to-[#0BB5B5] rounded-2xl p-8 md:p-12 text-center">
-            <h3 className="text-white mb-4">
+            <H3 className="text-white mb-4">
               Ready to Join Our Success Story?
-            </h3>
+            </H3>
             <p className="text-white/90 mb-6 max-w-2xl mx-auto">
               Join thousands of successful alumni working at leading companies
               worldwide. Our dedicated placement cell ensures you're

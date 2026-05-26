@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { H2 } from "@/app/components/Headings";
 
 type CommonHeaderProps = {
   tag?: string; // ✅ optional
@@ -51,24 +52,24 @@ export default function CommonHeader({
       )}
 
       {/* Heading */}
-      <motion.h2
+      <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        style={{ color: secondaryColor || "#1e3a5f" }}
-        className="text-2xl sm:text-3xl md:text-4xl leading-tight"
       >
-        {title}
+        <H2 color={secondaryColor || "#1e3a5f"}>
+          {title}
 
-        {highlight && (
-          <span
-            className="inline-block ml-2"
-            style={{ color: primaryColor }}
-          >
-            {highlight}
-          </span>
-        )}
-      </motion.h2>
+          {highlight && (
+            <span
+              className="inline-block ml-2"
+              style={{ color: primaryColor }}
+            >
+              {highlight}
+            </span>
+          )}
+        </H2>
+      </motion.div>
 
       {/* Description */}
       {description && (

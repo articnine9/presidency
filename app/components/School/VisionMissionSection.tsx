@@ -1,4 +1,5 @@
 import { Eye, Target, CheckCircle2 } from "lucide-react";
+import { H2 } from "@/app/components/Headings";
 type VisionMission = {
   vision: {
     title: string;
@@ -50,15 +51,9 @@ export default function VisionMissionSection({ data }: Props) {
                   <Eye size={18} />
                 </div>
 
-                <h2
-                  className="
-            text-[28px]
-            font-semibold
-            text-[#0A8F96]
-          "
-                >
+                <H2 className="text-[#0A8F96]">
                   {data.vision.title}
-                </h2>
+                </H2>
               </div>
 
               {/* DESCRIPTION */}
@@ -131,15 +126,9 @@ export default function VisionMissionSection({ data }: Props) {
                   <Target size={18} />
                 </div>
 
-                <h2
-                  className="
-            text-[28px]
-            font-semibold
-            text-[#D4A843]
-          "
-                >
+                <H2 className="text-[#D4A843]">
                   {data.mission.title}
-                </h2>
+                </H2>
               </div>
 
               {/* DESCRIPTION */}
@@ -186,9 +175,9 @@ export default function VisionMissionSection({ data }: Props) {
           <div className="grid md:grid-cols-2 gap-8">
             {/* VISION */}
             <div className="bg-gradient-to-br from-[#EAF3F5] to-[#DCEBEE] rounded-xl p-6 shadow-sm">
-              <h2 className="text-3xl md:text-4xl font-serif text-gray-900 mb-5">
+              <H2 className="font-serif text-gray-900 mb-5">
                 {data.vision.title}
-              </h2>
+              </H2>
 
               <p className="text-lg text-gray-600 mb-4">
                 {data.vision.description}

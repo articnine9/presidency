@@ -2,6 +2,7 @@
 import { GraduationCap, CalendarDays, Building2, MapPin } from "lucide-react";
 import { ArrowRight, Play } from "lucide-react";
 import { motion } from "motion/react";
+import { H1 } from "@/app/components/Headings";
 
 export default function CourseHero({ data, school }: any) {
   const hero = data.hero;
@@ -30,22 +31,17 @@ export default function CourseHero({ data, school }: any) {
           {/* CONTENT */}
           <div className="relative z-10 px-4 pt-24 pb-10">
             {/* TITLE */}
-            <motion.h1
+            <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
-              className="
-          max-w-[340px]
-          text-[28px]
-          font-semibold
-          leading-[1.05]
-          text-white
-        "
             >
-              {hero?.title.normal}
-              <br />
+              <H1 className="max-w-[340px] text-[28px] text-white leading-[1.05]">
+                {hero?.title.normal}
+                <br />
 
-              <span className="font-light italic">{hero?.title.italic}</span>
-            </motion.h1>
+                <span className="font-light italic">{hero?.title.italic}</span>
+              </H1>
+            </motion.div>
 
             {/* DESCRIPTION */}
             <motion.p
@@ -140,23 +136,18 @@ export default function CourseHero({ data, school }: any) {
           <div className="relative z-10 mx-auto flex min-h-screen max-w-[1400px] flex-col justify-center px-6 md:px-12">
             {/* TEXT CONTENT */}
             <div className="max-w-[700px]">
-              <motion.h1
+              <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8 }}
-                className="
-          text-white
-          leading-[1.05]
-          text-4xl
-          md:text-6xl
-          font-semibold
-        "
               >
-                {hero?.title.normal}
-                <br />
+                <H1 className="text-white">
+                  {hero?.title.normal}
+                  <br />
 
-                <span className="italic font-light">{hero?.title.italic}</span>
-              </motion.h1>
+                  <span className="italic font-light">{hero?.title.italic}</span>
+                </H1>
+              </motion.div>
 
               {/* SUBTITLE */}
               <motion.p

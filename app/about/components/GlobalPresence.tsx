@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { ArrowRight, Headphones } from "lucide-react";
+import { H2, H3 } from "@/app/components/Headings";
 
 export default function GlobalPresence() {
   return (
@@ -30,23 +31,18 @@ export default function GlobalPresence() {
               Global Presence
             </motion.span>
 
-            <motion.h2
+            <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
-              className="
-                mt-5
-                text-[36px]
-                font-bold
-                leading-[1.12]
-                tracking-tight
-                text-[#163B65]
-              "
+              className="mt-5"
             >
-              Worldwide Academic
-              <span className="block text-[#0A8F96]">Connections</span>
-            </motion.h2>
+              <H2 className="text-[#163B65]">
+                Worldwide Academic
+                <span className="block text-[#0A8F96]">Connections</span>
+              </H2>
+            </motion.div>
 
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -102,10 +98,10 @@ export default function GlobalPresence() {
               p-5
             "
           >
-            <h3 className="text-[34px] font-bold leading-[1.1] text-white">
+            <H2 className="text-white">
               Your Next Move
               <span className="ml-2 italic text-[#0A8F96]">Awaits</span>
-            </h3>
+            </H2>
 
             <p className="mt-3 text-[13px] leading-6 text-white/75">
               Start your global academic journey with Presidency University
@@ -175,16 +171,18 @@ export default function GlobalPresence() {
                 Global Presence
               </motion.span>
 
-              <motion.h2
+              <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.1 }}
-                className="max-w-xl text-3xl font-bold leading-snug text-[#163B65] md:text-4xl"
+                className="max-w-xl"
               >
-                Worldwide Academic{" "}
-                <span className="text-[#0A8F96]">Connections</span>
-              </motion.h2>
+                <H2 className="text-[#163B65]">
+                  Worldwide Academic{" "}
+                  <span className="text-[#0A8F96]">Connections</span>
+                </H2>
+              </motion.div>
 
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
@@ -235,10 +233,10 @@ export default function GlobalPresence() {
             className="mt-14 flex flex-col items-center justify-between gap-6 rounded-2xl bg-[#0D2E57] px-8 py-10 md:flex-row"
           >
             <div>
-              <h3 className="text-2xl font-semibold text-white">
+              <H3 className="text-white">
                 Your Next Move{" "}
                 <span className="text-[#0A8F96] italic">Awaits</span>
-              </h3>
+              </H3>
 
               <p className="mt-2 text-sm text-[#D1D5DB]">
                 Start your global academic journey with Presidency University

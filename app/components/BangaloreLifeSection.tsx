@@ -12,6 +12,7 @@ import {
 } from "lucide-react";
 
 import { motion } from "framer-motion";
+import { H4, H6 } from "@/app/components/Headings";
 
 const features = [
   {
@@ -125,16 +126,15 @@ export default function StudentHousingSection() {
 
                   {/* CONTENT */}
                   <div>
-                    <h3
+                    <H4
                       className="
                         mb-3
-                        text-2xl
                         leading-snug
                         text-[#1E3557]
                       "
                     >
                       {item.title}
-                    </h3>
+                    </H4>
 
                     <p
                       className="
@@ -205,15 +205,13 @@ export default function StudentHousingSection() {
 
                   {/* CONTENT */}
                   <div>
-                    <h3
+                    <H6
                       className="
-                        text-[14px]
-                        font-medium
                         text-[#1E3557]
                       "
                     >
                       {item.title}
-                    </h3>
+                    </H6>
 
                     <p
                       className="
@@ -265,17 +263,14 @@ export default function StudentHousingSection() {
             </div>
 
             <div>
-              <h4
+              <H6
                 className="
                   mb-1
-                  text-sm
                   text-[#ff7a2f]
-
-                  max-md:text-[12px]
                 "
               >
                 Note
-              </h4>
+              </H6>
 
               <p
                 className="

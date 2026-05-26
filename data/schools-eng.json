@@ -1241,66 +1241,67 @@
         {
           "slug": "bdes-communication-design",
           "name": "B.Des Communication Design",
-          "duration": "4 Years.Full-Time ",
+          "duration": "4 Years Full-Time",
           "type": "UG",
-          "degree": "Bachelor of Technology"
+          "degree": "Bachelor of Design",
+          "overview": "Master the art of visual communication. Learn to craft compelling brand identities, design publications, create digital interfaces, and develop multimedia campaigns that communicate ideas effectively across all media."
         },
         {
           "slug": "bdes-fashion-design",
-          "name": "B.Des Fashion Design ",
-          "duration": "4 Years.Full-Time",
+          "name": "B.Des Fashion Design",
+          "duration": "4 Years Full-Time",
           "type": "UG",
-          "degree": "Bachelor of Technology",
-          "overview": "Learn to process, analyse, and manage large-scale data using modern tools like Hadoop, Spark, and AI-driven analytics."
+          "degree": "Bachelor of Design",
+          "overview": "Design the future of fashion. Develop expertise in garment construction, textile innovation, trend forecasting, and sustainable fashion practices to create collections that define style and express cultural identity."
         },
         {
           "slug": "bdes-product-design",
           "name": "B.Des Product Design",
-          "duration": "4 Years.Full-Time",
+          "duration": "4 Years Full-Time",
           "type": "UG",
-          "degree": "Bachelor of Technology",
-          "overview": "Master CI/CD pipelines, cloud infrastructure, and automation tools used in modern software delivery systems."
+          "degree": "Bachelor of Design",
+          "overview": "Engineer products that matter. Learn to design innovative, user-centred products that balance aesthetics, functionality, manufacturability, and sustainability for global markets."
         },
         {
           "slug": "bdes-space-design",
           "name": "B.Des Space Design",
-          "duration": "4 Years.Full-Time",
+          "duration": "4 Years Full-Time",
           "type": "UG",
-          "degree": "Bachelor of Technology",
-          "overview": "Develop intelligent systems using machine learning, deep learning, and AI technologies across real-world applications."
+          "degree": "Bachelor of Design",
+          "overview": "Design spaces that inspire and function. Create interiors, environments, and spatial experiences that enhance human interaction and reflect cultural values through thoughtful design."
         },
         {
           "slug": "bsc-multimedia-and-animation",
-          "name": "B.Sc. Multimedia and Animation",
-          "duration": "4 Years.Full-Time",
+          "name": "B.Sc Multimedia & Animation",
+          "duration": "4 Years Full-Time",
           "type": "UG",
-          "degree": "Bachelor of Technology",
-          "overview": "Explore blockchain architecture, smart contracts, and decentralized applications for future-ready systems."
+          "degree": "Bachelor of Science",
+          "overview": "Bring stories to life through animation and multimedia. Master animation techniques, visual effects, motion graphics, and multimedia production for film, television, advertising, and digital media."
         },
         {
           "slug": "bdes-game-design",
-          "name": "B.Des Game Design  ",
-          "duration": "4 Years.Full-Time",
+          "name": "B.Des Game Design",
+          "duration": "4 Years Full-Time",
           "type": "UG",
-          "degree": "Bachelor of Technology",
-          "overview": "Learn network security, ethical hacking, cryptography, and cyber defense strategies to protect digital systems."
+          "degree": "Bachelor of Design",
+          "overview": "Create engaging interactive experiences. Design compelling games across platforms using storytelling, mechanics design, art direction, and user engagement principles."
         },
         {
           "slug": "bfa",
-          "name": "Bachelor of Fine Arts (BFA)  ",
-          "duration": "4 Years.Full-Time",
+          "name": "Bachelor of Fine Arts (BFA)",
+          "duration": "4 Years Full-Time",
           "type": "UG",
-          "degree": "Bachelor of Technology",
-          "overview": "Learn network security, ethical hacking, cryptography, and cyber defense strategies to protect digital systems."
+          "degree": "Bachelor of Fine Arts",
+          "overview": "Develop artistic voice and critical practice. Explore painting, sculpture, printmaking, and contemporary art practices in a rigorous studio environment that challenges conventional thinking."
         },
 
         {
           "slug": "phd-design",
-          "name": "Ph.D. Design",
+          "name": "Ph.D Design",
           "duration": "Research Programme",
           "type": "PhD",
           "degree": "Doctor of Philosophy",
-          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies."
+          "overview": "Advance design knowledge through rigorous research. Conduct doctoral research in design theory, practice, innovation, and emerging creative technologies."
         }
       ]
     },

@@ -4,6 +4,7 @@ import CommonHeader from "@/app/components/CommonHeader";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
+import { H4 } from "@/app/components/Headings";
 
 import styles from "@/styles/swiper.module.css";
 
@@ -129,9 +130,9 @@ export function WhyChooseUs() {
 
                   {/* CONTENT */}
                   <div className="p-5">
-                    <h4 className="text-[24px] font-semibold text-[#1B1F3B] leading-snug">
+                    <H4 className="text-[#1B1F3B]">
                       {item.title}
-                    </h4>
+                    </H4>
 
                     <p className="text-[#475569] text-sm mt-2 leading-7">
                       {item.desc}
@@ -252,9 +253,9 @@ export function WhyChooseUs() {
                     </div>
 
                     <div className="p-3 md:p-4 shrink-0">
-                      <h4 className="text-xs sm:text-sm md:text-base font-semibold text-gray-800 mb-1 md:mb-2 leading-snug">
+                      <H4 className="text-gray-800 mb-1 md:mb-2 text-xs sm:text-sm md:text-base">
                         {item.title}
-                      </h4>
+                      </H4>
 
                       <p className="text-xs md:text-sm text-gray-600 leading-relaxed">
                         {item.desc}

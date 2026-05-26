@@ -3,6 +3,7 @@
 import { useState } from "react";
 import CommonHeader from "@/app/components/CommonHeader";
 import { motion } from "framer-motion";
+import { H2 } from "@/app/components/Headings";
 
 export default function CourseCurriculum({ data }: any) {
   const curriculum = data?.tabs?.curriculum || [];
@@ -30,18 +31,10 @@ export default function CourseCurriculum({ data }: any) {
             Curriculum
           </span>
 
-          <h2
-            className="
-              mt-5
-              text-4xl
-              md:text-5xl
-              font-semibold
-              text-[#183153]
-            "
-          >
+          <H2 className="mt-5 text-[#183153]">
             Semester-by-Semester{" "}
             <span className="text-[#0097A7]">Structure</span>
-          </h2>
+          </H2>
         </div>
 
         {/* TABS */}

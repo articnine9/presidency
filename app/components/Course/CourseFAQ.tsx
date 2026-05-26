@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { ChevronDown, ArrowRight } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { H2 } from "@/app/components/Headings";
 
 export default function CourseFAQ({ data }: any) {
   const faqs = data?.faq || [];
@@ -36,17 +37,9 @@ export default function CourseFAQ({ data }: any) {
           </span>
 
           {/* TITLE */}
-          <h2
-            className="
-              mt-5
-              text-4xl
-              md:text-5xl
-              font-semibold
-              text-[#183153]
-            "
-          >
+          <H2 className="mt-5 text-[#183153]">
             Frequently Asked <span className="text-[#0097A7]">Questions</span>
-          </h2>
+          </H2>
         </div>
 
         {/* FAQ LIST */}

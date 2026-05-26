@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { GraduationCap, BookOpen, Rocket, ArrowRight } from "lucide-react";
+import { H1, H4 } from "@/app/components/Headings";
 
 type SchoolHeroProps = {
   data: {
@@ -106,25 +107,18 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
           {/* LEFT CONTENT */}
           <div className="max-w-[560px]">
             {/* TITLE */}
-            <motion.h1
+            <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
-              className="
-                text-[42px]
-                font-semibold
-                leading-[0.95]
-                tracking-tight
-                text-white
-
-                md:text-6xl
-              "
             >
-              {data.title.normal}
+              <H1 className="text-white tracking-tight">
+                {data.title.normal}
 
-              <br />
+                <br />
 
-              <span className="italic font-light">{data.title.italic}</span>
-            </motion.h1>
+                <span className="italic font-light">{data.title.italic}</span>
+              </H1>
+            </motion.div>
 
             {/* DESCRIPTION */}
             <motion.p
@@ -229,16 +223,14 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
 
                   {/* TEXT */}
                   <div>
-                    <h3
+                    <H4
                       className="
-                        text-[24px]
-                        font-semibold
                         leading-none
                         text-[#D4A843]
                       "
                     >
                       {stat.value}
-                    </h3>
+                    </H4>
 
                     <p
                       className="
@@ -278,9 +270,9 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
                     backdrop-blur-md
                   "
                 >
-                  <h3 className="text-4xl font-semibold text-[#D4A843]">
+                  <H4 className="text-4xl text-[#D4A843]">
                     {stat.value}
-                  </h3>
+                  </H4>
 
                   <p className="mt-2 text-sm text-white/80">{stat.label}</p>
                 </motion.div>

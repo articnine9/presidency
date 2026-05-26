@@ -3,6 +3,7 @@ import { motion } from "motion/react";
 
 import { CheckCircle } from "lucide-react";
 import CommonHeader from "@/app/components/CommonHeader";
+import { H5 } from "@/app/components/Headings";
 
 export default function VisionMission() {
   return (
@@ -64,7 +65,7 @@ export default function VisionMission() {
                 </svg>
               </div>
 
-              <h3 className="text-lg font-semibold text-[#1e3a5f]">Vision</h3>
+              <H5>Vision</H5>
             </div>
 
             <p className="text-[13px] leading-7 text-gray-600 md:text-base">

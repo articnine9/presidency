@@ -4,6 +4,7 @@ import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { TopBar } from "./TopBar";
+import { useApplication } from "@/app/providers/ApplicationProvider";
 import {
   Menu,
   X,
@@ -65,6 +66,7 @@ function ProgrammeMegaColumn({
 
 export function Navigation() {
   const pathname = usePathname();
+  const { openModal } = useApplication();
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [mobileOpenItem, setMobileOpenItem] = useState<string | null>(null);
@@ -987,7 +989,10 @@ export function Navigation() {
               ))}
 
               {/* CTA */}
-              <button className="bg-[#0A8F96] text-white px-6 py-2 rounded-lg flex items-center gap-2">
+              <button
+                onClick={openModal}
+                className="bg-[#0A8F96] text-white px-6 py-2 rounded-lg flex items-center gap-2 hover:bg-[#088b91] transition"
+              >
                 APPLY NOW <ArrowRight size={16} />
               </button>
             </div>
@@ -1010,24 +1015,32 @@ export function Navigation() {
             <div className="max-h-[min(70dvh,calc(100dvh-4rem))] space-y-4 overflow-y-auto overscroll-contain px-4 py-4 pb-[max(1rem,env(safe-area-inset-bottom))] sm:px-6">
               {navItems.map((item, i) => (
                 <div key={i}>
-                  <button
-                    onClick={() =>
-                      setMobileOpenItem(
-                        mobileOpenItem === item.label ? null : item.label,
-                      )
-                    }
-                    className="w-full flex justify-between text-[#1e3a5f] font-medium py-2"
-                  >
-                    {item.label}
-                    {(item.hasDropdown || item.hasMegaMenu) && (
+                  {item.hasDropdown || item.hasMegaMenu ? (
+                    <button
+                      onClick={() =>
+                        setMobileOpenItem(
+                          mobileOpenItem === item.label ? null : item.label,
+                        )
+                      }
+                      className="w-full flex justify-between text-[#1e3a5f] font-medium py-2"
+                    >
+                      {item.label}
                       <ChevronDown
                         size={16}
                         className={
                           mobileOpenItem === item.label ? "rotate-180" : ""
                         }
                       />
-                    )}
-                  </button>
+                    </button>
+                  ) : (
+                    <Link
+                      href={item.href || "#"}
+                      className="w-full flex justify-between text-[#1e3a5f] font-medium py-2"
+                      onClick={closeMobileMenu}
+                    >
+                      {item.label}
+                    </Link>
+                  )}
 
                   {/* MOBILE DROPDOWN */}
                   {item.hasDropdown && mobileOpenItem === item.label && (
@@ -1070,13 +1083,15 @@ export function Navigation() {
                 </div>
               ))}
 
-              <a
-                href="/apply"
-                className="block bg-[#0A8F96] text-white py-3 text-center rounded-lg"
-                onClick={closeMobileMenu}
+              <button
+                onClick={() => {
+                  openModal();
+                  closeMobileMenu();
+                }}
+                className="w-full block bg-[#0A8F96] text-white py-3 text-center rounded-lg hover:bg-[#088b91] transition font-semibold"
               >
                 APPLY NOW
-              </a>
+              </button>
             </div>
           </div>
         )}

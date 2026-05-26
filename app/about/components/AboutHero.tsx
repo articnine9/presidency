@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "motion/react";
 import { ArrowRight } from "lucide-react";
+import { H1 } from "@/app/components/Headings";
 // import "../../../styles/about.css";
 
 export default function AboutHero() {
@@ -63,29 +64,23 @@ export default function AboutHero() {
         <div className="relative z-10 mx-auto flex w-full max-w-[1400px] items-end px-4 pb-10 sm:px-6 md:px-10 md:pb-16 lg:pb-20">
           <div className="max-w-3xl">
             {/* Heading */}
-            <motion.h1
+            <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.1 }}
               className="
         mb-4
         max-w-[320px]
-        text-[34px]
-        leading-[1.05]
-        tracking-tight
-        text-white
 
         sm:max-w-xl
-        sm:text-5xl
 
         md:max-w-3xl
-        md:text-6xl
-
-        lg:text-7xl
       "
             >
-              Where Ambition Meets Opportunity
-            </motion.h1>
+              <H1 className="text-white tracking-tight">
+                Where Ambition Meets Opportunity
+              </H1>
+            </motion.div>
 
             {/* Description */}
             <motion.p

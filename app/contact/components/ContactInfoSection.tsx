@@ -3,6 +3,7 @@
 import { Mail, Phone, MapPin, Globe } from "lucide-react";
 
 import Image from "next/image";
+import { H2, H3 } from "@/app/components/Headings";
 
 export default function ContactInfoSection() {
   return (
@@ -32,20 +33,15 @@ export default function ContactInfoSection() {
             </span>
 
             {/* TITLE */}
-            <h2
+            <H2
               className="
                 mt-5
-                text-[38px]
-                font-semibold
-                leading-[1.15]
                 tracking-tight
                 text-[#183153]
-
-                md:text-5xl
               "
             >
               Get in Touch with Us
-            </h2>
+            </H2>
           </div>
 
           {/* ================= MOBILE VIEW ================= */}
@@ -71,15 +67,13 @@ export default function ContactInfoSection() {
 
               {/* BLUE PANEL */}
               <div className="bg-[#183153] px-5 py-6 text-white">
-                <h3
+                <H3
                   className="
-                    text-[24px]
-                    font-semibold
-                    leading-[1.3]
+                    text-white
                   "
                 >
                   Office of International Affairs (OIA)
-                </h3>
+                </H3>
 
                 <p
                   className="
@@ -151,15 +145,13 @@ export default function ContactInfoSection() {
                 py-6
               "
             >
-              <h3
+              <H3
                 className="
-                  text-[26px]
-                  font-semibold
                   text-[#183153]
                 "
               >
                 Admissions Office
-              </h3>
+              </H3>
 
               <div className="mt-6 space-y-5">
                 <div
@@ -226,15 +218,13 @@ export default function ContactInfoSection() {
                 py-6
               "
             >
-              <h3
+              <H3
                 className="
-                  text-[26px]
-                  font-semibold
                   text-[#183153]
                 "
               >
                 Main Campus Address
-              </h3>
+              </H3>
 
               <div
                 className="
@@ -294,9 +284,9 @@ export default function ContactInfoSection() {
 
               {/* BLUE INFO PANEL */}
               <div className="bg-[#183153] px-8 py-7 text-white">
-                <h3 className="text-xl font-semibold">
+                <H3 className="text-white">
                   Office of International Affairs (OIA)
-                </h3>
+                </H3>
 
                 <p className="mt-4 text-sm leading-7 text-white/80">
                   For international student enquiries, collaborations, and
@@ -345,9 +335,9 @@ export default function ContactInfoSection() {
                   shadow-md
                 "
               >
-                <h3 className="text-xl font-semibold text-[#183153]">
+                <H3 className="text-[#183153]">
                   Admissions Office
-                </h3>
+                </H3>
 
                 <div className="mt-6 space-y-5">
                   <div className="flex items-center gap-3 text-sm text-gray-600">
@@ -382,9 +372,9 @@ export default function ContactInfoSection() {
                   shadow-md
                 "
               >
-                <h3 className="text-xl font-semibold text-[#183153]">
+                <H3 className="text-[#183153]">
                   Main Campus Address
-                </h3>
+                </H3>
 
                 <div className="mt-6 flex items-start gap-3 text-sm leading-7 text-gray-600">
                   <MapPin size={16} className="mt-1 text-[#F58233]" />

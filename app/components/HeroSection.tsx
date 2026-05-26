@@ -8,6 +8,7 @@ import {
 } from "lucide-react";
 import { motion } from "motion/react";
 import { useState } from "react";
+import { H1, H3 } from "./Headings";
 
 export function HeroSection() {
   const [videoError, setVideoError] = useState(false);
@@ -66,28 +67,20 @@ export function HeroSection() {
       <div className="relative z-10 w-full max-w-7xl mx-auto px-5 sm:px-8 lg:px-10 py-20">
         <div className="">
           {/* 🔹 Heading */}
-          <motion.h1
+          <motion.div
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="
-              text-white
-              font-bold
-              leading-tight
-              font-serif
-              text-[42px]
-              sm:text-2xl
-              md:text-5xl
-              lg:text-6xl
-              max-w-2xl
-            "
+            className="max-w-2xl"
           >
-            Your World-Class
-            <br />
-            Education Starts in
-            <br />
-            Bangalore
-          </motion.h1>
+            <H1 className="text-white font-serif">
+              Your World-Class
+              <br />
+              Education Starts in
+              <br />
+              Bangalore
+            </H1>
+          </motion.div>
 
           {/* 🔹 Description */}
           <motion.p

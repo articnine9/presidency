@@ -12,6 +12,7 @@ import {
   ChevronRight,
   Trophy,
 } from "lucide-react";
+import { H2, H4, H5 } from "@/app/components/Headings";
 
 const iconMap: any = {
   tech: Cpu,
@@ -97,7 +98,7 @@ export default function ClubsActivitiesSection({ data }: ClubsPageProps) {
                       {Icon && <Icon size={18} />}
                     </div>
 
-                    <h3 className="text-lg">{club.title}</h3>
+                    <H5 className="text-white">{club.title}</H5>
                   </div>
                 </div>
 
@@ -173,9 +174,9 @@ export default function ClubsActivitiesSection({ data }: ClubsPageProps) {
               </div>
 
               <div>
-                <h4 className="text-[#1E3557] text-xl mb-2">
+                <H4 className="text-[#1E3557] mb-2">
                   {data.sports.title}
-                </h4>
+                </H4>
 
                 <p className="text-gray-600 leading-relaxed">
                   {data.sports.desc}
@@ -186,7 +187,7 @@ export default function ClubsActivitiesSection({ data }: ClubsPageProps) {
         </div>
         {/* EVENTS */}
         <div className="mt-20">
-          <h3 className="text-3xl text-[#1E3557] mb-8">Major Campus Events</h3>
+          <H2 className="text-[#1E3557] mb-8">Major Campus Events</H2>
 
           <div className="grid md:grid-cols-3 gap-6">
             {data.events.map((event: any, i: number) => (
@@ -238,18 +239,15 @@ export default function ClubsActivitiesSection({ data }: ClubsPageProps) {
 
                 {/* CONTENT */}
                 <div className="relative z-10">
-                  <h4
+                  <H4
                     className="
         mb-6
-        text-[24px]
         leading-none
         text-[#1B2B52]
-
-        
       "
                   >
                     {event.title}
-                  </h4>
+                  </H4>
 
                   <p
                     className="
@@ -305,9 +303,9 @@ export default function ClubsActivitiesSection({ data }: ClubsPageProps) {
               </div>
 
               <div>
-                <h4 className="text-[#1E3557] text-xl mb-2">
+                <H4 className="text-[#1E3557] mb-2">
                   {data.sports.title}
-                </h4>
+                </H4>
 
                 <p className="text-gray-600 leading-relaxed">
                   {data.sports.desc}
