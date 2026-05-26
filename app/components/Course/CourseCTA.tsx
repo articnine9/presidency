@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { H2 } from "@/app/components/Headings";
 
 export default function CourseCTA() {
@@ -19,9 +20,9 @@ export default function CourseCTA() {
           </div>
 
           {/* Button */}
-          <button className="bg-teal-500 hover:bg-teal-600 text-white px-6 py-3 rounded-lg font-semibold transition">
+          <Link href="/international/apply" className="bg-teal-500 hover:bg-teal-600 text-white px-6 py-3 rounded-lg font-semibold transition">
             APPLY NOW →
-          </button>
+          </Link>
         </div>
       </div>
     </section>

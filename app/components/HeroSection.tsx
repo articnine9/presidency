@@ -6,6 +6,7 @@ import {
   Users,
   Landmark,
 } from "lucide-react";
+import Link from "next/link";
 import { motion } from "motion/react";
 import { useState } from "react";
 import { H1, H3 } from "./Headings";
@@ -109,7 +110,8 @@ export function HeroSection() {
             className="hidden md:flex flex-wrap gap-3 mt-8"
           >
             {/* Explore */}
-            <button
+            <Link
+              href="/schools/computer-science"
               className="
                 bg-[#00A3AD]
                 hover:bg-[#00929B]
@@ -128,10 +130,11 @@ export function HeroSection() {
             >
               Explore Programmes
               <ArrowRight size={18} />
-            </button>
+            </Link>
 
             {/* Contact */}
-            <button
+            <Link
+              href="/contact"
               className="
                 border
                 border-white/40
@@ -153,10 +156,11 @@ export function HeroSection() {
             >
               Contact the OIA
               <Play size={16} />
-            </button>
+            </Link>
 
             {/* Apply */}
-            <button
+            <Link
+              href="/international/apply"
               className="
                 bg-white
                 text-[#0F1E3D]
@@ -175,7 +179,7 @@ export function HeroSection() {
             >
               How to Apply
               <ArrowRight size={18} />
-            </button>
+            </Link>
           </motion.div>
 
           {/* 🔥 MOBILE BUTTONS */}

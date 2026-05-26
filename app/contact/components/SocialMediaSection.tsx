@@ -1,6 +1,7 @@
 "use client";
 
 import { Facebook, Instagram, Linkedin, Youtube, Twitter } from "lucide-react";
+import Link from "next/link";
 import CommonHeader from "@/app/components/CommonHeader";
 
 export default function SocialMediaSection() {
@@ -56,15 +57,17 @@ export default function SocialMediaSection() {
         {/* SOCIAL CARDS */}
         <div className="mt-12 flex flex-wrap justify-center gap-5">
           {[
-            { icon: <Facebook size={18} />, name: "Facebook" },
-            { icon: <Instagram size={18} />, name: "Instagram" },
-            { icon: <Youtube size={18} />, name: "YouTube" },
-            { icon: <Twitter size={18} />, name: "Twitter/X" },
-            { icon: <Linkedin size={18} />, name: "LinkedIn" },
+            { icon: <Facebook size={18} />, name: "Facebook", href: "https://www.facebook.com/presidencyuniversitybangalore" },
+            { icon: <Instagram size={18} />, name: "Instagram", href: "https://www.instagram.com/presidencyuniversitybangalore" },
+            { icon: <Youtube size={18} />, name: "YouTube", href: "https://www.youtube.com/@presidencyuniversity" },
+            { icon: <Twitter size={18} />, name: "Twitter/X", href: "https://twitter.com/presidency_univ" },
+            { icon: <Linkedin size={18} />, name: "LinkedIn", href: "https://www.linkedin.com/school/presidency-university-bangalore" },
           ].map((item, i) => (
             <a
               key={i}
-              href="#"
+              href={item.href}
+              target="_blank"
+              rel="noopener noreferrer"
               className="
             group
             flex
@@ -147,7 +150,8 @@ export default function SocialMediaSection() {
           </div>
 
           {/* BUTTON */}
-          <button
+          <Link
+            href="/international/apply"
             className="
           mt-6
           inline-flex
@@ -165,7 +169,7 @@ export default function SocialMediaSection() {
         "
           >
             APPLY NOW →
-          </button>
+          </Link>
         </div>
       </div>
     </section>

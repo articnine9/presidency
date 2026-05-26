@@ -3,6 +3,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 import styles from "@/styles/swiper.module.css";
 
 import "swiper/css";
@@ -14,30 +15,35 @@ const schools = [
     description:
       "Offers UG, PG and PhD programmes in Artificial Intelligence, Data Science, Cyber Security, Blockchain and Robotics.",
     image: "img/cse.png",
+    slug: "computer-science",
   },
   {
     title: "School of Engineering",
     description:
       "Engineering programmes in Electronics, Electrical, Civil, Mechanical, Petroleum and VLSI technologies.",
     image: "img/school-eng.png",
+    slug: "engineering",
   },
   {
     title: "School of Management",
     description:
       "Business education including BBA, MBA and doctoral research across finance, marketing and analytics.",
     image: "img/mang.png",
+    slug: "management",
   },
   {
     title: "School of Design",
     description:
       "Creative design programmes including product design, fashion design, game design and multimedia.",
     image: "img/media.png",
+    slug: "design",
   },
   {
     title: "School of Law",
     description:
       "Integrated BA LLB, BBA LLB and LLM programmes with moot court training and legal research.",
     image: "img/law.png",
+    slug: "law",
   },
 ];
 
@@ -126,7 +132,8 @@ export function SchoolsSliderSection() {
     </p>
 
     {/* Button */}
-    <div className="flex justify-end"><button
+    <div className="flex justify-end"><Link
+    href={`/schools/${school.slug}`}
     className="
       flex
       items-center
@@ -141,7 +148,7 @@ export function SchoolsSliderSection() {
   >
     View More
     <ArrowRight size={16} />
-  </button></div>
+  </Link></div>
 
   </div>
 </div>

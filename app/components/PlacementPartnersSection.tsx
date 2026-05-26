@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import {
   Briefcase,
   TrendingUp,
@@ -200,7 +201,8 @@ export function PlacementPartnersSection() {
 
         {/* 🔥 MOBILE CTA */}
         <div className="mt-6 md:hidden">
-          <button
+          <Link
+            href="/campus-life"
             className="
               w-full
               bg-[#0A8F96]
@@ -219,15 +221,18 @@ export function PlacementPartnersSection() {
           >
             VIEW ALL PLACEMENTS
             <ArrowRight size={18} />
-          </button>
+          </Link>
         </div>
 
         {/* 🔥 DESKTOP CTA */}
         <div className="hidden md:block mt-10">
-          <button className="inline-flex items-center gap-2 bg-[#ff8c42] text-white px-7 py-3 rounded-lg hover:bg-[#e67932] transition shadow-md hover:shadow-lg">
-            View All Placement
+          <Link
+            href="/campus-life"
+            className="inline-flex items-center gap-2 bg-[#ff8c42] text-white px-7 py-3 rounded-lg hover:bg-[#e67932] transition shadow-md hover:shadow-lg"
+          >
+            View All Placements
             <ArrowRight size={18} />
-          </button>
+          </Link>
         </div>
       </div>
     </section>

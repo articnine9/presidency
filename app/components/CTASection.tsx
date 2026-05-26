@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { ArrowRight, Download } from "lucide-react";
 
 /* ---------- DATA ---------- */
@@ -41,15 +42,15 @@ export function CTASection() {
 
         {/* BUTTONS */}
         <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <button className="bg-[#ff8c42] hover:bg-[#e67a32] text-white px-8 py-4 rounded-lg flex items-center justify-center gap-2 transition shadow-lg">
+          <Link href="/international/apply" className="bg-[#ff8c42] hover:bg-[#e67a32] text-white px-8 py-4 rounded-lg flex items-center justify-center gap-2 transition shadow-lg">
             {ctaContent.primaryBtn}
             <ArrowRight size={18} />
-          </button>
+          </Link>
 
-          <button className="border border-gray-300 hover:bg-gray-100 px-8 py-4 rounded-lg flex items-center justify-center gap-2 transition text-[#1e3a5f]">
+          <Link href="/international/overview" className="border border-gray-300 hover:bg-gray-100 px-8 py-4 rounded-lg flex items-center justify-center gap-2 transition text-[#1e3a5f]">
             {ctaContent.secondaryBtn}
             <Download size={18} />
-          </button>
+          </Link>
         </div>
       </div>
     </section>

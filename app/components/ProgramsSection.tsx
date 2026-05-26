@@ -3,16 +3,25 @@
 import { Search } from "lucide-react";
 import { motion } from "motion/react";
 import Link from "next/link";
+import { createPortal } from "react-dom";
 import { useRouter } from "next/navigation";
-import { useMemo, useState, useRef, useEffect } from "react";
+import {
+  useMemo,
+  useState,
+  useRef,
+  useEffect,
+  useCallback,
+  useLayoutEffect,
+} from "react";
 import CommonHeader from "@/app/components/CommonHeader";
-import { H3 } from "./Headings";
 
 import {
   applyUrlForCourse,
   filterCourses,
   getAllCourses,
 } from "@/lib/course-search";
+
+type DropPos = { top: number; left: number; width: number; maxHeight: number };
 
 export function ProgrammesSection() {
   const router = useRouter();
@@ -42,8 +51,16 @@ export function ProgrammesSection() {
 
   const [query, setQuery] = useState("");
   const [open, setOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
+  const [dropPos, setDropPos] = useState<DropPos>({
+    top: 0,
+    left: 0,
+    width: 400,
+    maxHeight: 320,
+  });
 
   const searchWrapRef = useRef<HTMLDivElement>(null);
+  const dropdownRef = useRef<HTMLDivElement>(null);
 
   const allCourses = useMemo(() => getAllCourses(), []);
   const results = useMemo(
@@ -54,35 +71,137 @@ export function ProgrammesSection() {
   const hasQuery = query.trim().length > 0;
 
   useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  /* ---------- Position the portal dropdown relative to the input ---------- */
+  const updatePos = useCallback(() => {
+    const wrap = searchWrapRef.current;
+    if (!wrap) return;
+    const r = wrap.getBoundingClientRect();
+    const vw = window.innerWidth;
+    const vh = window.innerHeight;
+    let width = Math.max(r.width, 280);
+    width = Math.min(width, vw - 32);
+    let left = r.left;
+    if (left + width > vw - 16) left = vw - 16 - width;
+    if (left < 16) left = 16;
+    const top = r.bottom + 8;
+    const maxHeight = Math.max(200, Math.min(320, vh - top - 16));
+    setDropPos({ top, left, width, maxHeight });
+  }, []);
+
+  useLayoutEffect(() => {
+    if (!open || !hasQuery) return;
+    updatePos();
+    window.addEventListener("scroll", updatePos, true);
+    window.addEventListener("resize", updatePos);
+    return () => {
+      window.removeEventListener("scroll", updatePos, true);
+      window.removeEventListener("resize", updatePos);
+    };
+  }, [open, hasQuery, updatePos]);
+
+  /* ---------- Close on outside click ---------- */
+  useEffect(() => {
     function handlePointerDown(e: MouseEvent) {
-      if (
-        searchWrapRef.current &&
-        !searchWrapRef.current.contains(e.target as Node)
-      ) {
-        setOpen(false);
-      }
+      const t = e.target as Node;
+      if (searchWrapRef.current?.contains(t)) return;
+      if (dropdownRef.current?.contains(t)) return;
+      setOpen(false);
     }
-
     document.addEventListener("mousedown", handlePointerDown);
-
     return () => document.removeEventListener("mousedown", handlePointerDown);
   }, []);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-
     if (!hasQuery) return;
-
     setOpen(true);
-
-    if (results.length === 1) {
-      router.push(results[0].href);
-    }
+    if (results.length === 1) router.push(results[0].href);
   };
+
+  /* ---------- Portal dropdown ---------- */
+  const dropdownPortal =
+    mounted &&
+    open &&
+    hasQuery &&
+    typeof document !== "undefined" &&
+    createPortal(
+      <div
+        ref={dropdownRef}
+        id="degree-search-results"
+        role="listbox"
+        style={{
+          position: "fixed",
+          top: dropPos.top,
+          left: dropPos.left,
+          width: dropPos.width,
+          maxHeight: dropPos.maxHeight,
+          zIndex: 9999,
+        }}
+        className="overflow-y-auto rounded-xl border border-gray-200 bg-white shadow-xl"
+      >
+        {results.length === 0 ? (
+          <p className="p-4 text-sm text-gray-600">
+            No programmes match. Try another keyword.
+          </p>
+        ) : (
+          <ul className="py-2">
+            {results.map((course) => (
+              <li
+                key={`${course.schoolSlug}-${course.courseSlug}`}
+                className="border-b border-gray-100 last:border-0"
+              >
+                <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 p-4">
+                  <div>
+                    <p className="text-sm font-semibold text-[#1B4E8C]">
+                      {course.name}
+                    </p>
+                    <p className="text-xs text-gray-500 mt-1">
+                      {course.schoolName}
+                    </p>
+                  </div>
+
+                  <div className="flex gap-2">
+                    <Link
+                      href={course.href}
+                      onClick={() => setOpen(false)}
+                      className="
+                        inline-flex items-center justify-center
+                        rounded-md border border-[#0A8F96]
+                        px-3 py-2 text-xs font-medium text-[#0A8F96]
+                        hover:bg-[#0A8F96]/10
+                      "
+                    >
+                      View
+                    </Link>
+
+                    <Link
+                      href={applyUrlForCourse(course.name)}
+                      onClick={() => setOpen(false)}
+                      className="
+                        inline-flex items-center justify-center
+                        rounded-md bg-[#0A8F96]
+                        px-3 py-2 text-xs font-medium text-white
+                        hover:bg-[#088f96]
+                      "
+                    >
+                      Apply
+                    </Link>
+                  </div>
+                </div>
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>,
+      document.body,
+    );
 
   return (
     <section
-      className="bg-white py-14 md:py-20 overflow-hidden"
+      className="bg-white py-14 md:py-20 overflow-x-hidden"
       id="degree-programmes"
     >
       <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12">
@@ -193,20 +312,19 @@ export function ProgrammesSection() {
                     hover:shadow-xl
                     transition-all
                     duration-300
-
                     p-5 md:p-7
                     text-center
                   `}
                 >
-                  <H3 className="text-[#1B4E8C] text-sm md:text-base">
+                  <p className="text-[#1B4E8C] text-sm md:text-base font-semibold leading-tight">
                     {item.title}
-                  </H3>
+                  </p>
                 </motion.div>
               ))}
             </div>
 
             {/* 🔥 SEARCH */}
-            <div className="relative z-20" ref={searchWrapRef}>
+            <div className="relative" ref={searchWrapRef}>
               <form onSubmit={handleSubmit}>
                 <div className="relative">
                   <input
@@ -220,6 +338,9 @@ export function ProgrammesSection() {
                       setOpen(true);
                     }}
                     onFocus={() => hasQuery && setOpen(true)}
+                    onKeyDown={(e) => {
+                      if (e.key === "Escape") setOpen(false);
+                    }}
                     className="
                       w-full
                       border
@@ -261,98 +382,8 @@ export function ProgrammesSection() {
                 </div>
               </form>
 
-              {/* 🔥 SEARCH RESULT */}
-              {open && hasQuery ? (
-                <div
-                  id="degree-search-results"
-                  role="listbox"
-                  className="
-                    absolute
-                    left-0
-                    right-0
-                    top-full
-                    z-30
-                    mt-2
-                    max-h-[320px]
-                    overflow-y-auto
-                    rounded-xl
-                    border
-                    border-gray-200
-                    bg-white
-                    shadow-xl
-                  "
-                >
-                  {results.length === 0 ? (
-                    <p className="p-4 text-sm text-gray-600">
-                      No programmes match. Try another keyword.
-                    </p>
-                  ) : (
-                    <ul className="py-2">
-                      {results.map((course) => (
-                        <li
-                          key={`${course.schoolSlug}-${course.courseSlug}`}
-                          className="border-b border-gray-100 last:border-0"
-                        >
-                          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 p-4">
-                            <div>
-                              <p className="text-sm font-semibold text-[#1B4E8C]">
-                                {course.name}
-                              </p>
-
-                              <p className="text-xs text-gray-500 mt-1">
-                                {course.schoolName}
-                              </p>
-                            </div>
-
-                            <div className="flex gap-2">
-                              <Link
-                                href={course.href}
-                                className="
-                                  inline-flex
-                                  items-center
-                                  justify-center
-                                  rounded-md
-                                  border
-                                  border-[#0A8F96]
-                                  px-3
-                                  py-2
-                                  text-xs
-                                  font-medium
-                                  text-[#0A8F96]
-                                  hover:bg-[#0A8F96]/10
-                                "
-                                onClick={() => setOpen(false)}
-                              >
-                                View
-                              </Link>
-
-                              <Link
-                                href={applyUrlForCourse(course.name)}
-                                className="
-                                  inline-flex
-                                  items-center
-                                  justify-center
-                                  rounded-md
-                                  bg-[#0A8F96]
-                                  px-3
-                                  py-2
-                                  text-xs
-                                  font-medium
-                                  text-white
-                                  hover:bg-[#088f96]
-                                "
-                                onClick={() => setOpen(false)}
-                              >
-                                Apply
-                              </Link>
-                            </div>
-                          </div>
-                        </li>
-                      ))}
-                    </ul>
-                  )}
-                </div>
-              ) : null}
+              {/* Portal dropdown renders at document.body — no clipping */}
+              {dropdownPortal}
 
               {/* 🔥 MOBILE BUTTON */}
               <div className="mt-5 md:hidden">
