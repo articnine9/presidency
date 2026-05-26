@@ -6778,7 +6778,20 @@
           "duration": "Research Programme",
           "type": "PhD",
           "degree": "Doctor of Philosophy",
-          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies.",
+          "overview": [
+            {
+              "title": "Technical Foundation",
+              "description": "Build strong fundamentals in core engineering principles and applications."
+            },
+            {
+              "title": "Practical Expertise",
+              "description": "Gain hands-on experience through lab work, projects, and industrial internships."
+            },
+            {
+              "title": "Innovation Focus",
+              "description": "Work on cutting-edge technologies and contribute to engineering breakthroughs."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "Ph.D. Electronics & Communications Engineering",
@@ -6815,7 +6828,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have a relevant Master's degree with strong academic record and research aptitude.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Advanced Manufacturing",
+            "Renewable Energy",
+            "Smart Systems",
+            "Industry 4.0"
+          ],
+          "careers": [
+            {
+              "title": "Design Engineer",
+              "companies": "Siemens, GE, Bosch, L&T"
+            },
+            {
+              "title": "Project Manager",
+              "companies": "Larsen & Toubro, Reliance, Bharat Heavy Electricals, NTPC"
+            },
+            {
+              "title": "Quality Assurance",
+              "companies": "Bajaj, TVS, Hero MotoCorp, Maruti Suzuki"
+            },
+            {
+              "title": "Systems Engineer",
+              "companies": "ISRO, DRDO, Aerospace firms, Defense contractors"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What specializations are available?",
+              "a": "We offer specializations in Electronics, Civil, Mechanical, Petroleum, and VLSI engineering"
+            },
+            {
+              "q": "Are there research opportunities?",
+              "a": "Yes, PhD and M.Tech programs focus heavily on research in emerging technologies"
+            },
+            {
+              "q": "What is the industry partnership?",
+              "a": "We have partnerships with companies like Siemens, L&T, Bosch, and GE for projects and placements"
+            },
+            {
+              "q": "Are laboratories well-equipped?",
+              "a": "Our labs are state-of-the-art with modern equipment and latest software"
+            },
+            {
+              "q": "What is the placement statistics?",
+              "a": "Engineering graduates have 92%+ placement with average packages of 7-12 LPA"
+            },
+            {
+              "q": "Is there an exchange program?",
+              "a": "Yes, we offer study abroad options and international collaborations with partner institutions"
+            }
+          ]
         },
         {
           "slug": "phd-mechanical-engineering",
@@ -6823,7 +6886,20 @@
           "duration": "Research Programme",
           "type": "PhD",
           "degree": "Doctor of Philosophy",
-          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies.",
+          "overview": [
+            {
+              "title": "Technical Foundation",
+              "description": "Build strong fundamentals in core engineering principles and applications."
+            },
+            {
+              "title": "Practical Expertise",
+              "description": "Gain hands-on experience through lab work, projects, and industrial internships."
+            },
+            {
+              "title": "Innovation Focus",
+              "description": "Work on cutting-edge technologies and contribute to engineering breakthroughs."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "Ph.D. Mechanical Engineering",
@@ -6860,7 +6936,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have a relevant Master's degree with strong academic record and research aptitude.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Advanced Manufacturing",
+            "Renewable Energy",
+            "Smart Systems",
+            "Industry 4.0"
+          ],
+          "careers": [
+            {
+              "title": "Design Engineer",
+              "companies": "Siemens, GE, Bosch, L&T"
+            },
+            {
+              "title": "Project Manager",
+              "companies": "Larsen & Toubro, Reliance, Bharat Heavy Electricals, NTPC"
+            },
+            {
+              "title": "Quality Assurance",
+              "companies": "Bajaj, TVS, Hero MotoCorp, Maruti Suzuki"
+            },
+            {
+              "title": "Systems Engineer",
+              "companies": "ISRO, DRDO, Aerospace firms, Defense contractors"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What specializations are available?",
+              "a": "We offer specializations in Electronics, Civil, Mechanical, Petroleum, and VLSI engineering"
+            },
+            {
+              "q": "Are there research opportunities?",
+              "a": "Yes, PhD and M.Tech programs focus heavily on research in emerging technologies"
+            },
+            {
+              "q": "What is the industry partnership?",
+              "a": "We have partnerships with companies like Siemens, L&T, Bosch, and GE for projects and placements"
+            },
+            {
+              "q": "Are laboratories well-equipped?",
+              "a": "Our labs are state-of-the-art with modern equipment and latest software"
+            },
+            {
+              "q": "What is the placement statistics?",
+              "a": "Engineering graduates have 92%+ placement with average packages of 7-12 LPA"
+            },
+            {
+              "q": "Is there an exchange program?",
+              "a": "Yes, we offer study abroad options and international collaborations with partner institutions"
+            }
+          ]
         },
         {
           "slug": "phd-civil-engineering",
@@ -6868,7 +6994,20 @@
           "duration": "Research Programme",
           "type": "PhD",
           "degree": "Doctor of Philosophy",
-          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies.",
+          "overview": [
+            {
+              "title": "Technical Foundation",
+              "description": "Build strong fundamentals in core engineering principles and applications."
+            },
+            {
+              "title": "Practical Expertise",
+              "description": "Gain hands-on experience through lab work, projects, and industrial internships."
+            },
+            {
+              "title": "Innovation Focus",
+              "description": "Work on cutting-edge technologies and contribute to engineering breakthroughs."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "Ph.D. Civil Engineering",
@@ -6905,7 +7044,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have a relevant Master's degree with strong academic record and research aptitude.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Advanced Manufacturing",
+            "Renewable Energy",
+            "Smart Systems",
+            "Industry 4.0"
+          ],
+          "careers": [
+            {
+              "title": "Design Engineer",
+              "companies": "Siemens, GE, Bosch, L&T"
+            },
+            {
+              "title": "Project Manager",
+              "companies": "Larsen & Toubro, Reliance, Bharat Heavy Electricals, NTPC"
+            },
+            {
+              "title": "Quality Assurance",
+              "companies": "Bajaj, TVS, Hero MotoCorp, Maruti Suzuki"
+            },
+            {
+              "title": "Systems Engineer",
+              "companies": "ISRO, DRDO, Aerospace firms, Defense contractors"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What specializations are available?",
+              "a": "We offer specializations in Electronics, Civil, Mechanical, Petroleum, and VLSI engineering"
+            },
+            {
+              "q": "Are there research opportunities?",
+              "a": "Yes, PhD and M.Tech programs focus heavily on research in emerging technologies"
+            },
+            {
+              "q": "What is the industry partnership?",
+              "a": "We have partnerships with companies like Siemens, L&T, Bosch, and GE for projects and placements"
+            },
+            {
+              "q": "Are laboratories well-equipped?",
+              "a": "Our labs are state-of-the-art with modern equipment and latest software"
+            },
+            {
+              "q": "What is the placement statistics?",
+              "a": "Engineering graduates have 92%+ placement with average packages of 7-12 LPA"
+            },
+            {
+              "q": "Is there an exchange program?",
+              "a": "Yes, we offer study abroad options and international collaborations with partner institutions"
+            }
+          ]
         },
         {
           "slug": "phd-ece",
@@ -6913,7 +7102,20 @@
           "duration": "Research Programme",
           "type": "PhD",
           "degree": "Doctor of Philosophy",
-          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies.",
+          "overview": [
+            {
+              "title": "Technical Foundation",
+              "description": "Build strong fundamentals in core engineering principles and applications."
+            },
+            {
+              "title": "Practical Expertise",
+              "description": "Gain hands-on experience through lab work, projects, and industrial internships."
+            },
+            {
+              "title": "Innovation Focus",
+              "description": "Work on cutting-edge technologies and contribute to engineering breakthroughs."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "Ph.D. Electrical & Electronics Engineering",
@@ -6950,7 +7152,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have a relevant Master's degree with strong academic record and research aptitude.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Advanced Manufacturing",
+            "Renewable Energy",
+            "Smart Systems",
+            "Industry 4.0"
+          ],
+          "careers": [
+            {
+              "title": "Design Engineer",
+              "companies": "Siemens, GE, Bosch, L&T"
+            },
+            {
+              "title": "Project Manager",
+              "companies": "Larsen & Toubro, Reliance, Bharat Heavy Electricals, NTPC"
+            },
+            {
+              "title": "Quality Assurance",
+              "companies": "Bajaj, TVS, Hero MotoCorp, Maruti Suzuki"
+            },
+            {
+              "title": "Systems Engineer",
+              "companies": "ISRO, DRDO, Aerospace firms, Defense contractors"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What specializations are available?",
+              "a": "We offer specializations in Electronics, Civil, Mechanical, Petroleum, and VLSI engineering"
+            },
+            {
+              "q": "Are there research opportunities?",
+              "a": "Yes, PhD and M.Tech programs focus heavily on research in emerging technologies"
+            },
+            {
+              "q": "What is the industry partnership?",
+              "a": "We have partnerships with companies like Siemens, L&T, Bosch, and GE for projects and placements"
+            },
+            {
+              "q": "Are laboratories well-equipped?",
+              "a": "Our labs are state-of-the-art with modern equipment and latest software"
+            },
+            {
+              "q": "What is the placement statistics?",
+              "a": "Engineering graduates have 92%+ placement with average packages of 7-12 LPA"
+            },
+            {
+              "q": "Is there an exchange program?",
+              "a": "Yes, we offer study abroad options and international collaborations with partner institutions"
+            }
+          ]
         },
         {
           "slug": "phd-petroleum-engineering",
@@ -6958,7 +7210,20 @@
           "duration": "Research Programme",
           "type": "PhD",
           "degree": "Doctor of Philosophy",
-          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies.",
+          "overview": [
+            {
+              "title": "Technical Foundation",
+              "description": "Build strong fundamentals in core engineering principles and applications."
+            },
+            {
+              "title": "Practical Expertise",
+              "description": "Gain hands-on experience through lab work, projects, and industrial internships."
+            },
+            {
+              "title": "Innovation Focus",
+              "description": "Work on cutting-edge technologies and contribute to engineering breakthroughs."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "Ph.D. Petroleum Engineering",
@@ -6995,7 +7260,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have a relevant Master's degree with strong academic record and research aptitude.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Advanced Manufacturing",
+            "Renewable Energy",
+            "Smart Systems",
+            "Industry 4.0"
+          ],
+          "careers": [
+            {
+              "title": "Design Engineer",
+              "companies": "Siemens, GE, Bosch, L&T"
+            },
+            {
+              "title": "Project Manager",
+              "companies": "Larsen & Toubro, Reliance, Bharat Heavy Electricals, NTPC"
+            },
+            {
+              "title": "Quality Assurance",
+              "companies": "Bajaj, TVS, Hero MotoCorp, Maruti Suzuki"
+            },
+            {
+              "title": "Systems Engineer",
+              "companies": "ISRO, DRDO, Aerospace firms, Defense contractors"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What specializations are available?",
+              "a": "We offer specializations in Electronics, Civil, Mechanical, Petroleum, and VLSI engineering"
+            },
+            {
+              "q": "Are there research opportunities?",
+              "a": "Yes, PhD and M.Tech programs focus heavily on research in emerging technologies"
+            },
+            {
+              "q": "What is the industry partnership?",
+              "a": "We have partnerships with companies like Siemens, L&T, Bosch, and GE for projects and placements"
+            },
+            {
+              "q": "Are laboratories well-equipped?",
+              "a": "Our labs are state-of-the-art with modern equipment and latest software"
+            },
+            {
+              "q": "What is the placement statistics?",
+              "a": "Engineering graduates have 92%+ placement with average packages of 7-12 LPA"
+            },
+            {
+              "q": "Is there an exchange program?",
+              "a": "Yes, we offer study abroad options and international collaborations with partner institutions"
+            }
+          ]
         },
         {
           "slug": "pg-diploma-drone-technology",
@@ -7772,7 +8087,20 @@
           "duration": "3 Years.Full-Time",
           "type": "UG",
           "degree": "Bachelor of Technology",
-          "overview": "Learn to process, analyse, and manage large-scale data using modern tools like Hadoop, Spark, and AI-driven analytics.",
+          "overview": [
+            {
+              "title": "Data Science Skills",
+              "description": "Learn data engineering, analytics, and machine learning technologies."
+            },
+            {
+              "title": "Cloud Technologies",
+              "description": "Master cloud platforms, database management, and distributed systems."
+            },
+            {
+              "title": "Software Architecture",
+              "description": "Design scalable applications and understand modern software patterns."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "B.C.A. Artificial Intelligence and Machine Learning",
@@ -7809,7 +8137,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Data Engineering",
+            "Database Management",
+            "Software Architecture",
+            "Cloud Technologies"
+          ],
+          "careers": [
+            {
+              "title": "Data Engineer",
+              "companies": "Google, Microsoft, Amazon, Databricks"
+            },
+            {
+              "title": "Database Administrator",
+              "companies": "Oracle, IBM, Cisco, VMware"
+            },
+            {
+              "title": "Cloud Solutions Architect",
+              "companies": "AWS, Azure, GCP, Terraform"
+            },
+            {
+              "title": "Software Architect",
+              "companies": "Google, Meta, Apple, Netflix"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What programming languages are taught?",
+              "a": "We cover Java, Python, C++, SQL, and modern frameworks for data science and cloud computing"
+            },
+            {
+              "q": "Are there specializations?",
+              "a": "Yes, we offer specializations in Data Science, AI/ML, Cloud Computing, and Database Management"
+            },
+            {
+              "q": "What is the placement rate?",
+              "a": "Our placement rate is 94%+ with average packages of 7-14 LPA in IT and data-driven companies"
+            },
+            {
+              "q": "Are there live projects?",
+              "a": "Yes, students work on industry projects with real datasets and business challenges"
+            },
+            {
+              "q": "Is there certification support?",
+              "a": "Yes, we support certifications from AWS, Google Cloud, Azure, and data science platforms"
+            },
+            {
+              "q": "What is the curriculum focus?",
+              "a": "Focus on practical skills in data analysis, software development, and cloud technologies"
+            }
+          ]
         },
         {
           "slug": "bca-data-science",
@@ -7817,7 +8195,20 @@
           "duration": "3 Years.Full-Time",
           "type": "UG",
           "degree": "Bachelor of Technology",
-          "overview": "Master CI/CD pipelines, cloud infrastructure, and automation tools used in modern software delivery systems.",
+          "overview": [
+            {
+              "title": "Data Science Skills",
+              "description": "Learn data engineering, analytics, and machine learning technologies."
+            },
+            {
+              "title": "Cloud Technologies",
+              "description": "Master cloud platforms, database management, and distributed systems."
+            },
+            {
+              "title": "Software Architecture",
+              "description": "Design scalable applications and understand modern software patterns."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "B.C.A. Data Science",
@@ -7854,7 +8245,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Data Engineering",
+            "Database Management",
+            "Software Architecture",
+            "Cloud Technologies"
+          ],
+          "careers": [
+            {
+              "title": "Data Engineer",
+              "companies": "Google, Microsoft, Amazon, Databricks"
+            },
+            {
+              "title": "Database Administrator",
+              "companies": "Oracle, IBM, Cisco, VMware"
+            },
+            {
+              "title": "Cloud Solutions Architect",
+              "companies": "AWS, Azure, GCP, Terraform"
+            },
+            {
+              "title": "Software Architect",
+              "companies": "Google, Meta, Apple, Netflix"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What programming languages are taught?",
+              "a": "We cover Java, Python, C++, SQL, and modern frameworks for data science and cloud computing"
+            },
+            {
+              "q": "Are there specializations?",
+              "a": "Yes, we offer specializations in Data Science, AI/ML, Cloud Computing, and Database Management"
+            },
+            {
+              "q": "What is the placement rate?",
+              "a": "Our placement rate is 94%+ with average packages of 7-14 LPA in IT and data-driven companies"
+            },
+            {
+              "q": "Are there live projects?",
+              "a": "Yes, students work on industry projects with real datasets and business challenges"
+            },
+            {
+              "q": "Is there certification support?",
+              "a": "Yes, we support certifications from AWS, Google Cloud, Azure, and data science platforms"
+            },
+            {
+              "q": "What is the curriculum focus?",
+              "a": "Focus on practical skills in data analysis, software development, and cloud technologies"
+            }
+          ]
         },
         {
           "slug": "mca",
@@ -7862,7 +8303,20 @@
           "duration": "2 Years.Full-Time",
           "type": "PG",
           "degree": "Master of Technology",
-          "overview": "Build connected systems and smart devices using IoT technologies, sensors, and cloud platforms.",
+          "overview": [
+            {
+              "title": "Data Science Skills",
+              "description": "Learn data engineering, analytics, and machine learning technologies."
+            },
+            {
+              "title": "Cloud Technologies",
+              "description": "Master cloud platforms, database management, and distributed systems."
+            },
+            {
+              "title": "Software Architecture",
+              "description": "Design scalable applications and understand modern software patterns."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "Master of Computer Applications",
@@ -7899,7 +8353,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Data Engineering",
+            "Database Management",
+            "Software Architecture",
+            "Cloud Technologies"
+          ],
+          "careers": [
+            {
+              "title": "Data Engineer",
+              "companies": "Google, Microsoft, Amazon, Databricks"
+            },
+            {
+              "title": "Database Administrator",
+              "companies": "Oracle, IBM, Cisco, VMware"
+            },
+            {
+              "title": "Cloud Solutions Architect",
+              "companies": "AWS, Azure, GCP, Terraform"
+            },
+            {
+              "title": "Software Architect",
+              "companies": "Google, Meta, Apple, Netflix"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What programming languages are taught?",
+              "a": "We cover Java, Python, C++, SQL, and modern frameworks for data science and cloud computing"
+            },
+            {
+              "q": "Are there specializations?",
+              "a": "Yes, we offer specializations in Data Science, AI/ML, Cloud Computing, and Database Management"
+            },
+            {
+              "q": "What is the placement rate?",
+              "a": "Our placement rate is 94%+ with average packages of 7-14 LPA in IT and data-driven companies"
+            },
+            {
+              "q": "Are there live projects?",
+              "a": "Yes, students work on industry projects with real datasets and business challenges"
+            },
+            {
+              "q": "Is there certification support?",
+              "a": "Yes, we support certifications from AWS, Google Cloud, Azure, and data science platforms"
+            },
+            {
+              "q": "What is the curriculum focus?",
+              "a": "Focus on practical skills in data analysis, software development, and cloud technologies"
+            }
+          ]
         },
         {
           "slug": "phd-information-science",
@@ -7907,7 +8411,20 @@
           "duration": "Research Programme",
           "type": "PhD",
           "degree": "Doctor of Philosophy",
-          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies.",
+          "overview": [
+            {
+              "title": "Data Science Skills",
+              "description": "Learn data engineering, analytics, and machine learning technologies."
+            },
+            {
+              "title": "Cloud Technologies",
+              "description": "Master cloud platforms, database management, and distributed systems."
+            },
+            {
+              "title": "Software Architecture",
+              "description": "Design scalable applications and understand modern software patterns."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "Ph.D. Information Science",
@@ -7944,7 +8461,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have a relevant Master's degree with strong academic record and research aptitude.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Data Engineering",
+            "Database Management",
+            "Software Architecture",
+            "Cloud Technologies"
+          ],
+          "careers": [
+            {
+              "title": "Data Engineer",
+              "companies": "Google, Microsoft, Amazon, Databricks"
+            },
+            {
+              "title": "Database Administrator",
+              "companies": "Oracle, IBM, Cisco, VMware"
+            },
+            {
+              "title": "Cloud Solutions Architect",
+              "companies": "AWS, Azure, GCP, Terraform"
+            },
+            {
+              "title": "Software Architect",
+              "companies": "Google, Meta, Apple, Netflix"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What programming languages are taught?",
+              "a": "We cover Java, Python, C++, SQL, and modern frameworks for data science and cloud computing"
+            },
+            {
+              "q": "Are there specializations?",
+              "a": "Yes, we offer specializations in Data Science, AI/ML, Cloud Computing, and Database Management"
+            },
+            {
+              "q": "What is the placement rate?",
+              "a": "Our placement rate is 94%+ with average packages of 7-14 LPA in IT and data-driven companies"
+            },
+            {
+              "q": "Are there live projects?",
+              "a": "Yes, students work on industry projects with real datasets and business challenges"
+            },
+            {
+              "q": "Is there certification support?",
+              "a": "Yes, we support certifications from AWS, Google Cloud, Azure, and data science platforms"
+            },
+            {
+              "q": "What is the curriculum focus?",
+              "a": "Focus on practical skills in data analysis, software development, and cloud technologies"
+            }
+          ]
         }
       ]
     },
@@ -9438,7 +10005,20 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
-          "overview": "Explore the art and craft of visual storytelling in film and television production.",
+          "overview": [
+            {
+              "title": "Business Strategy",
+              "description": "Learn strategic planning, decision-making, and business development frameworks."
+            },
+            {
+              "title": "Leadership Skills",
+              "description": "Develop management competencies including team leadership and organizational behavior."
+            },
+            {
+              "title": "Global Perspective",
+              "description": "Understand international business, market dynamics, and cross-cultural management."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "BA Journalism & Mass Communication",
@@ -9475,7 +10055,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Strategic Management",
+            "Digital Transformation",
+            "Financial Analysis",
+            "Business Analytics"
+          ],
+          "careers": [
+            {
+              "title": "Business Analyst",
+              "companies": "Accenture, Cognizant, Wipro, Tech Mahindra"
+            },
+            {
+              "title": "Marketing Manager",
+              "companies": "Unilever, Procter & Gamble, ITC, Nestlé"
+            },
+            {
+              "title": "Finance Manager",
+              "companies": "ICICI Bank, HDFC Bank, Axis Bank, Goldman Sachs"
+            },
+            {
+              "title": "Operations Manager",
+              "companies": "Amazon, Flipkart, OYO, Ola"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What are the specializations?",
+              "a": "We offer specializations in Finance, Marketing, Operations, HR, and Business Analytics"
+            },
+            {
+              "q": "Is there industry exposure?",
+              "a": "Yes, we organize industry visits, guest lectures, and projects with real companies"
+            },
+            {
+              "q": "What is the average placement package?",
+              "a": "MBA graduates get average packages of 15-25 LPA with top companies like Google, Amazon, Goldman Sachs"
+            },
+            {
+              "q": "Are there exchange programs?",
+              "a": "Yes, we have international partnerships for semester abroad and student exchanges"
+            },
+            {
+              "q": "What are the admission requirements?",
+              "a": "For MBA: Bachelor's degree, GMAT/CAT scores, and work experience (preferred)"
+            },
+            {
+              "q": "Is there a startup incubation center?",
+              "a": "Yes, we support student startups with mentorship, funding, and resources"
+            }
+          ]
         },
         {
           "slug": "ba-jmc-ar-vr",
@@ -9483,7 +10113,20 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Business Administration",
-          "overview": "Focus on hotel management, tourism, and customer experience in hospitality industries.",
+          "overview": [
+            {
+              "title": "Business Strategy",
+              "description": "Learn strategic planning, decision-making, and business development frameworks."
+            },
+            {
+              "title": "Leadership Skills",
+              "description": "Develop management competencies including team leadership and organizational behavior."
+            },
+            {
+              "title": "Global Perspective",
+              "description": "Understand international business, market dynamics, and cross-cultural management."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "BA Journalism & Mass Communication",
@@ -9520,7 +10163,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Strategic Management",
+            "Digital Transformation",
+            "Financial Analysis",
+            "Business Analytics"
+          ],
+          "careers": [
+            {
+              "title": "Business Analyst",
+              "companies": "Accenture, Cognizant, Wipro, Tech Mahindra"
+            },
+            {
+              "title": "Marketing Manager",
+              "companies": "Unilever, Procter & Gamble, ITC, Nestlé"
+            },
+            {
+              "title": "Finance Manager",
+              "companies": "ICICI Bank, HDFC Bank, Axis Bank, Goldman Sachs"
+            },
+            {
+              "title": "Operations Manager",
+              "companies": "Amazon, Flipkart, OYO, Ola"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What are the specializations?",
+              "a": "We offer specializations in Finance, Marketing, Operations, HR, and Business Analytics"
+            },
+            {
+              "q": "Is there industry exposure?",
+              "a": "Yes, we organize industry visits, guest lectures, and projects with real companies"
+            },
+            {
+              "q": "What is the average placement package?",
+              "a": "MBA graduates get average packages of 15-25 LPA with top companies like Google, Amazon, Goldman Sachs"
+            },
+            {
+              "q": "Are there exchange programs?",
+              "a": "Yes, we have international partnerships for semester abroad and student exchanges"
+            },
+            {
+              "q": "What are the admission requirements?",
+              "a": "For MBA: Bachelor's degree, GMAT/CAT scores, and work experience (preferred)"
+            },
+            {
+              "q": "Is there a startup incubation center?",
+              "a": "Yes, we support student startups with mentorship, funding, and resources"
+            }
+          ]
         },
         {
           "slug": "mba-finance",
@@ -9528,7 +10221,20 @@
           "duration": "2 Years",
           "type": "PG",
           "degree": "Master of Business Administration",
-          "overview": "Develop expertise in financial management, investment analysis, and corporate finance.",
+          "overview": [
+            {
+              "title": "Business Strategy",
+              "description": "Learn strategic planning, decision-making, and business development frameworks."
+            },
+            {
+              "title": "Leadership Skills",
+              "description": "Develop management competencies including team leadership and organizational behavior."
+            },
+            {
+              "title": "Global Perspective",
+              "description": "Understand international business, market dynamics, and cross-cultural management."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "MBA Finance",
@@ -9565,7 +10271,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Strategic Management",
+            "Digital Transformation",
+            "Financial Analysis",
+            "Business Analytics"
+          ],
+          "careers": [
+            {
+              "title": "Business Analyst",
+              "companies": "Accenture, Cognizant, Wipro, Tech Mahindra"
+            },
+            {
+              "title": "Marketing Manager",
+              "companies": "Unilever, Procter & Gamble, ITC, Nestlé"
+            },
+            {
+              "title": "Finance Manager",
+              "companies": "ICICI Bank, HDFC Bank, Axis Bank, Goldman Sachs"
+            },
+            {
+              "title": "Operations Manager",
+              "companies": "Amazon, Flipkart, OYO, Ola"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What are the specializations?",
+              "a": "We offer specializations in Finance, Marketing, Operations, HR, and Business Analytics"
+            },
+            {
+              "q": "Is there industry exposure?",
+              "a": "Yes, we organize industry visits, guest lectures, and projects with real companies"
+            },
+            {
+              "q": "What is the average placement package?",
+              "a": "MBA graduates get average packages of 15-25 LPA with top companies like Google, Amazon, Goldman Sachs"
+            },
+            {
+              "q": "Are there exchange programs?",
+              "a": "Yes, we have international partnerships for semester abroad and student exchanges"
+            },
+            {
+              "q": "What are the admission requirements?",
+              "a": "For MBA: Bachelor's degree, GMAT/CAT scores, and work experience (preferred)"
+            },
+            {
+              "q": "Is there a startup incubation center?",
+              "a": "Yes, we support student startups with mentorship, funding, and resources"
+            }
+          ]
         },
         {
           "slug": "mba-marketing",
@@ -9573,7 +10329,20 @@
           "duration": "2 Years",
           "type": "PG",
           "degree": "Master of Business Administration",
-          "overview": "Learn branding, consumer behavior, digital marketing, and strategic marketing.",
+          "overview": [
+            {
+              "title": "Business Strategy",
+              "description": "Learn strategic planning, decision-making, and business development frameworks."
+            },
+            {
+              "title": "Leadership Skills",
+              "description": "Develop management competencies including team leadership and organizational behavior."
+            },
+            {
+              "title": "Global Perspective",
+              "description": "Understand international business, market dynamics, and cross-cultural management."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "MBA Marketing",
@@ -9610,7 +10379,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Strategic Management",
+            "Digital Transformation",
+            "Financial Analysis",
+            "Business Analytics"
+          ],
+          "careers": [
+            {
+              "title": "Business Analyst",
+              "companies": "Accenture, Cognizant, Wipro, Tech Mahindra"
+            },
+            {
+              "title": "Marketing Manager",
+              "companies": "Unilever, Procter & Gamble, ITC, Nestlé"
+            },
+            {
+              "title": "Finance Manager",
+              "companies": "ICICI Bank, HDFC Bank, Axis Bank, Goldman Sachs"
+            },
+            {
+              "title": "Operations Manager",
+              "companies": "Amazon, Flipkart, OYO, Ola"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What are the specializations?",
+              "a": "We offer specializations in Finance, Marketing, Operations, HR, and Business Analytics"
+            },
+            {
+              "q": "Is there industry exposure?",
+              "a": "Yes, we organize industry visits, guest lectures, and projects with real companies"
+            },
+            {
+              "q": "What is the average placement package?",
+              "a": "MBA graduates get average packages of 15-25 LPA with top companies like Google, Amazon, Goldman Sachs"
+            },
+            {
+              "q": "Are there exchange programs?",
+              "a": "Yes, we have international partnerships for semester abroad and student exchanges"
+            },
+            {
+              "q": "What are the admission requirements?",
+              "a": "For MBA: Bachelor's degree, GMAT/CAT scores, and work experience (preferred)"
+            },
+            {
+              "q": "Is there a startup incubation center?",
+              "a": "Yes, we support student startups with mentorship, funding, and resources"
+            }
+          ]
         },
         {
           "slug": "ba-jmc-content",
@@ -9618,7 +10437,20 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
-          "overview": "Create engaging content for digital platforms including blogs, video, and social media.",
+          "overview": [
+            {
+              "title": "Business Strategy",
+              "description": "Learn strategic planning, decision-making, and business development frameworks."
+            },
+            {
+              "title": "Leadership Skills",
+              "description": "Develop management competencies including team leadership and organizational behavior."
+            },
+            {
+              "title": "Global Perspective",
+              "description": "Understand international business, market dynamics, and cross-cultural management."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "BA Journalism & Mass Communication",
@@ -9655,7 +10487,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Strategic Management",
+            "Digital Transformation",
+            "Financial Analysis",
+            "Business Analytics"
+          ],
+          "careers": [
+            {
+              "title": "Business Analyst",
+              "companies": "Accenture, Cognizant, Wipro, Tech Mahindra"
+            },
+            {
+              "title": "Marketing Manager",
+              "companies": "Unilever, Procter & Gamble, ITC, Nestlé"
+            },
+            {
+              "title": "Finance Manager",
+              "companies": "ICICI Bank, HDFC Bank, Axis Bank, Goldman Sachs"
+            },
+            {
+              "title": "Operations Manager",
+              "companies": "Amazon, Flipkart, OYO, Ola"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What are the specializations?",
+              "a": "We offer specializations in Finance, Marketing, Operations, HR, and Business Analytics"
+            },
+            {
+              "q": "Is there industry exposure?",
+              "a": "Yes, we organize industry visits, guest lectures, and projects with real companies"
+            },
+            {
+              "q": "What is the average placement package?",
+              "a": "MBA graduates get average packages of 15-25 LPA with top companies like Google, Amazon, Goldman Sachs"
+            },
+            {
+              "q": "Are there exchange programs?",
+              "a": "Yes, we have international partnerships for semester abroad and student exchanges"
+            },
+            {
+              "q": "What are the admission requirements?",
+              "a": "For MBA: Bachelor's degree, GMAT/CAT scores, and work experience (preferred)"
+            },
+            {
+              "q": "Is there a startup incubation center?",
+              "a": "Yes, we support student startups with mentorship, funding, and resources"
+            }
+          ]
         },
         {
           "slug": "ba-jmc-journalism",
@@ -9922,7 +10804,20 @@
           "duration": "2 Years",
           "type": "PG",
           "degree": "Master of Business Administration",
-          "overview": "Combine business strategy with data analytics to drive decision-making.",
+          "overview": [
+            {
+              "title": "Business Strategy",
+              "description": "Learn strategic planning, decision-making, and business development frameworks."
+            },
+            {
+              "title": "Leadership Skills",
+              "description": "Develop management competencies including team leadership and organizational behavior."
+            },
+            {
+              "title": "Global Perspective",
+              "description": "Understand international business, market dynamics, and cross-cultural management."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "MA Journalism & Mass Communication",
@@ -9959,7 +10854,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Strategic Management",
+            "Digital Transformation",
+            "Financial Analysis",
+            "Business Analytics"
+          ],
+          "careers": [
+            {
+              "title": "Business Analyst",
+              "companies": "Accenture, Cognizant, Wipro, Tech Mahindra"
+            },
+            {
+              "title": "Marketing Manager",
+              "companies": "Unilever, Procter & Gamble, ITC, Nestlé"
+            },
+            {
+              "title": "Finance Manager",
+              "companies": "ICICI Bank, HDFC Bank, Axis Bank, Goldman Sachs"
+            },
+            {
+              "title": "Operations Manager",
+              "companies": "Amazon, Flipkart, OYO, Ola"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What are the specializations?",
+              "a": "We offer specializations in Finance, Marketing, Operations, HR, and Business Analytics"
+            },
+            {
+              "q": "Is there industry exposure?",
+              "a": "Yes, we organize industry visits, guest lectures, and projects with real companies"
+            },
+            {
+              "q": "What is the average placement package?",
+              "a": "MBA graduates get average packages of 15-25 LPA with top companies like Google, Amazon, Goldman Sachs"
+            },
+            {
+              "q": "Are there exchange programs?",
+              "a": "Yes, we have international partnerships for semester abroad and student exchanges"
+            },
+            {
+              "q": "What are the admission requirements?",
+              "a": "For MBA: Bachelor's degree, GMAT/CAT scores, and work experience (preferred)"
+            },
+            {
+              "q": "Is there a startup incubation center?",
+              "a": "Yes, we support student startups with mentorship, funding, and resources"
+            }
+          ]
         },
         {
           "slug": "phd-management",
@@ -9967,7 +10912,20 @@
           "duration": "Varies",
           "type": "PhD",
           "degree": "Doctor of Philosophy",
-          "overview": "Conduct advanced research in business, management, finance, and marketing.",
+          "overview": [
+            {
+              "title": "Business Strategy",
+              "description": "Learn strategic planning, decision-making, and business development frameworks."
+            },
+            {
+              "title": "Leadership Skills",
+              "description": "Develop management competencies including team leadership and organizational behavior."
+            },
+            {
+              "title": "Global Perspective",
+              "description": "Understand international business, market dynamics, and cross-cultural management."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "Ph.D in Management",
@@ -10004,7 +10962,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have a relevant Master's degree with strong academic record and research aptitude.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Strategic Management",
+            "Digital Transformation",
+            "Financial Analysis",
+            "Business Analytics"
+          ],
+          "careers": [
+            {
+              "title": "Business Analyst",
+              "companies": "Accenture, Cognizant, Wipro, Tech Mahindra"
+            },
+            {
+              "title": "Marketing Manager",
+              "companies": "Unilever, Procter & Gamble, ITC, Nestlé"
+            },
+            {
+              "title": "Finance Manager",
+              "companies": "ICICI Bank, HDFC Bank, Axis Bank, Goldman Sachs"
+            },
+            {
+              "title": "Operations Manager",
+              "companies": "Amazon, Flipkart, OYO, Ola"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What are the specializations?",
+              "a": "We offer specializations in Finance, Marketing, Operations, HR, and Business Analytics"
+            },
+            {
+              "q": "Is there industry exposure?",
+              "a": "Yes, we organize industry visits, guest lectures, and projects with real companies"
+            },
+            {
+              "q": "What is the average placement package?",
+              "a": "MBA graduates get average packages of 15-25 LPA with top companies like Google, Amazon, Goldman Sachs"
+            },
+            {
+              "q": "Are there exchange programs?",
+              "a": "Yes, we have international partnerships for semester abroad and student exchanges"
+            },
+            {
+              "q": "What are the admission requirements?",
+              "a": "For MBA: Bachelor's degree, GMAT/CAT scores, and work experience (preferred)"
+            },
+            {
+              "q": "Is there a startup incubation center?",
+              "a": "Yes, we support student startups with mentorship, funding, and resources"
+            }
+          ]
         }
       ],
       "hero": {
@@ -10146,7 +11154,20 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Commerce",
-          "overview": "Build a strong foundation in accounting, finance, taxation, and business management.",
+          "overview": [
+            {
+              "title": "Financial Acumen",
+              "description": "Master accounting, finance, taxation, and financial reporting standards."
+            },
+            {
+              "title": "Professional Credentials",
+              "description": "Pursue integrated professional certifications and industry-recognized qualifications."
+            },
+            {
+              "title": "Business Analysis",
+              "description": "Develop skills in financial analysis, auditing, and management accounting."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "B.Com",
@@ -10183,7 +11204,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Financial Accounting",
+            "Taxation",
+            "Investment Analysis",
+            "Auditing"
+          ],
+          "careers": [
+            {
+              "title": "Chartered Accountant",
+              "companies": "Big 4: Deloitte, EY, KPMG, PwC"
+            },
+            {
+              "title": "Tax Consultant",
+              "companies": "BDO, Grant Thornton, Crowe, Nexgen"
+            },
+            {
+              "title": "Audit Manager",
+              "companies": "Deloitte, EY, KPMG, PwC"
+            },
+            {
+              "title": "Financial Analyst",
+              "companies": "CRISIL, ICRA, CARE Ratings, MOODYS"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What professional certifications are offered?",
+              "a": "We offer integrated programs with CA, CMA, ACCA, and other professional qualifications"
+            },
+            {
+              "q": "What is the curriculum focus?",
+              "a": "Our curriculum covers Accounting, Finance, Taxation, Auditing, and Business Law"
+            },
+            {
+              "q": "Are internships part of the program?",
+              "a": "Yes, students complete internships with chartered accountant firms and corporate finance teams"
+            },
+            {
+              "q": "What are career options?",
+              "a": "Career paths include Chartered Accountant, Financial Analyst, Tax Consultant, Auditor"
+            },
+            {
+              "q": "What is the placement rate?",
+              "a": "Our placement rate is 90%+ with average packages of 6-12 LPA"
+            },
+            {
+              "q": "Is there practical training?",
+              "a": "Yes, we emphasize practical training with real-world financial cases and simulations"
+            }
+          ]
         },
         {
           "slug": "bcom-banking-finance",
@@ -11693,7 +12764,20 @@
           "duration": "Varies",
           "type": "PhD",
           "degree": "Doctor of Philosophy",
-          "overview": "Conduct advanced research in accounting, finance, taxation, and commerce-related fields.",
+          "overview": [
+            {
+              "title": "Financial Acumen",
+              "description": "Master accounting, finance, taxation, and financial reporting standards."
+            },
+            {
+              "title": "Professional Credentials",
+              "description": "Pursue integrated professional certifications and industry-recognized qualifications."
+            },
+            {
+              "title": "Business Analysis",
+              "description": "Develop skills in financial analysis, auditing, and management accounting."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "Ph.D in Commerce",
@@ -11730,7 +12814,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have a relevant Master's degree with strong academic record and research aptitude.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Financial Accounting",
+            "Taxation",
+            "Investment Analysis",
+            "Auditing"
+          ],
+          "careers": [
+            {
+              "title": "Chartered Accountant",
+              "companies": "Big 4: Deloitte, EY, KPMG, PwC"
+            },
+            {
+              "title": "Tax Consultant",
+              "companies": "BDO, Grant Thornton, Crowe, Nexgen"
+            },
+            {
+              "title": "Audit Manager",
+              "companies": "Deloitte, EY, KPMG, PwC"
+            },
+            {
+              "title": "Financial Analyst",
+              "companies": "CRISIL, ICRA, CARE Ratings, MOODYS"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What professional certifications are offered?",
+              "a": "We offer integrated programs with CA, CMA, ACCA, and other professional qualifications"
+            },
+            {
+              "q": "What is the curriculum focus?",
+              "a": "Our curriculum covers Accounting, Finance, Taxation, Auditing, and Business Law"
+            },
+            {
+              "q": "Are internships part of the program?",
+              "a": "Yes, students complete internships with chartered accountant firms and corporate finance teams"
+            },
+            {
+              "q": "What are career options?",
+              "a": "Career paths include Chartered Accountant, Financial Analyst, Tax Consultant, Auditor"
+            },
+            {
+              "q": "What is the placement rate?",
+              "a": "Our placement rate is 90%+ with average packages of 6-12 LPA"
+            },
+            {
+              "q": "Is there practical training?",
+              "a": "Yes, we emphasize practical training with real-world financial cases and simulations"
+            }
+          ]
         }
       ],
       "hero": {
@@ -13624,7 +14758,20 @@
           "duration": "Varies",
           "type": "PhD",
           "degree": "Doctor of Philosophy",
-          "overview": "Conduct advanced research in design, innovation, and creative technologies.",
+          "overview": [
+            {
+              "title": "Creative Skills",
+              "description": "Master design thinking, visual communication, and creative problem-solving."
+            },
+            {
+              "title": "Digital Tools",
+              "description": "Learn industry-standard software and emerging design technologies."
+            },
+            {
+              "title": "Portfolio Development",
+              "description": "Create professional work samples showcasing your design capabilities."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "Ph.D in Design",
@@ -13661,7 +14808,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have a relevant Master's degree with strong academic record and research aptitude.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Design Thinking",
+            "User Experience",
+            "Digital Tools",
+            "Industry Projects"
+          ],
+          "careers": [
+            {
+              "title": "UX/UI Designer",
+              "companies": "Google, Apple, Adobe, Figma"
+            },
+            {
+              "title": "Product Designer",
+              "companies": "Microsoft, Amazon, Atlassian, Airbnb"
+            },
+            {
+              "title": "Motion Graphics Designer",
+              "companies": "Netflix, Disney, Pixar, DreamWorks"
+            },
+            {
+              "title": "Creative Director",
+              "companies": "Ogilvy, DDB, Publicis, WPP"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What design tools are taught?",
+              "a": "We train in Adobe Creative Suite, Figma, Sketch, UI/UX design tools, and 3D modeling software"
+            },
+            {
+              "q": "Are there industry projects?",
+              "a": "Yes, students work on live projects with agencies, startups, and established design firms"
+            },
+            {
+              "q": "What are the specializations?",
+              "a": "We offer specializations in Communication Design, Fashion, Product Design, Game Design, and UX/UI"
+            },
+            {
+              "q": "Is there a portfolio development program?",
+              "a": "Yes, students build comprehensive portfolios throughout their course that help in placements"
+            },
+            {
+              "q": "What is the placement rate?",
+              "a": "Our graduates have 87%+ placement with opportunities in design studios, tech companies, and startups"
+            },
+            {
+              "q": "Are there international internships?",
+              "a": "Yes, we facilitate internships with international design agencies and studios"
+            }
+          ]
         }
       ],
       "hero": {
@@ -14534,7 +15731,20 @@
           "duration": "Varies",
           "type": "PhD",
           "degree": "Doctor of Philosophy",
-          "overview": "Conduct advanced legal research in areas such as constitutional law, corporate law, and international law.",
+          "overview": [
+            {
+              "title": "Legal Framework",
+              "description": "Comprehensive study of Indian and international legal systems and jurisprudence."
+            },
+            {
+              "title": "Practical Skills",
+              "description": "Develop advocacy skills through moot court, legal writing, and real-world case studies."
+            },
+            {
+              "title": "Professional Development",
+              "description": "Prepare for judiciary, legal practice, corporate law, and public interest litigation."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "Ph.D in Law",
@@ -14571,7 +15781,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have a relevant Master's degree with strong academic record and research aptitude.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Constitutional Law",
+            "Corporate Law",
+            "Intellectual Property",
+            "International Law"
+          ],
+          "careers": [
+            {
+              "title": "Corporate Lawyer",
+              "companies": "Amarchand Mangaldas, Shardul Amarchand, DSK Legal"
+            },
+            {
+              "title": "Legal Consultant",
+              "companies": "EY, Deloitte, KPMG, McKinsey"
+            },
+            {
+              "title": "Judicial Officer",
+              "companies": "High Court, District Court, Supreme Court"
+            },
+            {
+              "title": "In-House Counsel",
+              "companies": "TCS, Infosys, HCL, ICICI Bank"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What specializations are offered?",
+              "a": "We cover Constitutional Law, Criminal Law, Civil Law, Corporate Law, Intellectual Property, and International Law"
+            },
+            {
+              "q": "Is there a moot court?",
+              "a": "Yes, our state-of-the-art moot court conducts regular mooting and mock trials"
+            },
+            {
+              "q": "What are career options after graduation?",
+              "a": "Graduates work as lawyers, judges, corporate counsels, policy makers, and legal consultants"
+            },
+            {
+              "q": "What is the placement rate?",
+              "a": "Our placement rate is 88%+ with opportunities in law firms, corporations, and judiciary"
+            },
+            {
+              "q": "Are internships mandatory?",
+              "a": "Yes, students complete mandatory internships with courts and law firms"
+            },
+            {
+              "q": "What is the admission criteria?",
+              "a": "You need 60%+ in 12th. Merit-based admission with entrance test for some programs"
+            }
+          ]
         }
       ],
       "hero": {
@@ -14695,7 +15955,20 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
-          "overview": "Learn digital marketing strategies, branding, advertising, and social media management.",
+          "overview": [
+            {
+              "title": "Media Production",
+              "description": "Learn content creation, production techniques, and multimedia storytelling."
+            },
+            {
+              "title": "Digital Marketing",
+              "description": "Master digital content strategies, social media, and online campaigns."
+            },
+            {
+              "title": "Industry Experience",
+              "description": "Work with real media projects and industry professionals."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "BA Journalism & Mass Communication",
@@ -14732,7 +16005,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Content Creation",
+            "Digital Marketing",
+            "Media Production",
+            "Storytelling"
+          ],
+          "careers": [
+            {
+              "title": "Content Creator",
+              "companies": "Netflix, Amazon Prime, YouTube, Disney+"
+            },
+            {
+              "title": "Producer/Director",
+              "companies": "BBC, Sony Pictures, T-Series, Zee Entertainment"
+            },
+            {
+              "title": "Journalist",
+              "companies": "Times of India, The Hindu, NDTV, India Today"
+            },
+            {
+              "title": "Digital Marketer",
+              "companies": "Google, Facebook, Adobe, HubSpot"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What media production facilities are available?",
+              "a": "We have state-of-the-art studios, editing suites, camera equipment, and green screen facilities"
+            },
+            {
+              "q": "Are there live industry projects?",
+              "a": "Yes, students work on real projects with media houses, production companies, and digital platforms"
+            },
+            {
+              "q": "What specializations are offered?",
+              "a": "We offer Journalism, Film & TV Production, Digital Marketing, Content Creation, and AR/VR Media"
+            },
+            {
+              "q": "Is there internship guarantee?",
+              "a": "Yes, we ensure internships with major media outlets, production houses, and digital platforms"
+            },
+            {
+              "q": "What is the placement scenario?",
+              "a": "Our graduates work with Netflix, Amazon Prime, YouTube channels, news agencies, and digital startups"
+            },
+            {
+              "q": "Are there international connections?",
+              "a": "Yes, we have partnerships with international media organizations for exchanges and collaborations"
+            }
+          ]
         },
         {
           "slug": "ba-jmc-film",
@@ -14740,7 +16063,20 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
-          "overview": "Develop skills in filmmaking, video production, editing, and storytelling.",
+          "overview": [
+            {
+              "title": "Media Production",
+              "description": "Learn content creation, production techniques, and multimedia storytelling."
+            },
+            {
+              "title": "Digital Marketing",
+              "description": "Master digital content strategies, social media, and online campaigns."
+            },
+            {
+              "title": "Industry Experience",
+              "description": "Work with real media projects and industry professionals."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "BA Journalism & Mass Communication",
@@ -14777,7 +16113,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Content Creation",
+            "Digital Marketing",
+            "Media Production",
+            "Storytelling"
+          ],
+          "careers": [
+            {
+              "title": "Content Creator",
+              "companies": "Netflix, Amazon Prime, YouTube, Disney+"
+            },
+            {
+              "title": "Producer/Director",
+              "companies": "BBC, Sony Pictures, T-Series, Zee Entertainment"
+            },
+            {
+              "title": "Journalist",
+              "companies": "Times of India, The Hindu, NDTV, India Today"
+            },
+            {
+              "title": "Digital Marketer",
+              "companies": "Google, Facebook, Adobe, HubSpot"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What media production facilities are available?",
+              "a": "We have state-of-the-art studios, editing suites, camera equipment, and green screen facilities"
+            },
+            {
+              "q": "Are there live industry projects?",
+              "a": "Yes, students work on real projects with media houses, production companies, and digital platforms"
+            },
+            {
+              "q": "What specializations are offered?",
+              "a": "We offer Journalism, Film & TV Production, Digital Marketing, Content Creation, and AR/VR Media"
+            },
+            {
+              "q": "Is there internship guarantee?",
+              "a": "Yes, we ensure internships with major media outlets, production houses, and digital platforms"
+            },
+            {
+              "q": "What is the placement scenario?",
+              "a": "Our graduates work with Netflix, Amazon Prime, YouTube channels, news agencies, and digital startups"
+            },
+            {
+              "q": "Are there international connections?",
+              "a": "Yes, we have partnerships with international media organizations for exchanges and collaborations"
+            }
+          ]
         },
         {
           "slug": "ba-jmc-ar-vr",
@@ -14785,7 +16171,20 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
-          "overview": "Explore augmented reality, virtual reality, and immersive storytelling technologies.",
+          "overview": [
+            {
+              "title": "Media Production",
+              "description": "Learn content creation, production techniques, and multimedia storytelling."
+            },
+            {
+              "title": "Digital Marketing",
+              "description": "Master digital content strategies, social media, and online campaigns."
+            },
+            {
+              "title": "Industry Experience",
+              "description": "Work with real media projects and industry professionals."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "BA Journalism & Mass Communication",
@@ -14822,7 +16221,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Content Creation",
+            "Digital Marketing",
+            "Media Production",
+            "Storytelling"
+          ],
+          "careers": [
+            {
+              "title": "Content Creator",
+              "companies": "Netflix, Amazon Prime, YouTube, Disney+"
+            },
+            {
+              "title": "Producer/Director",
+              "companies": "BBC, Sony Pictures, T-Series, Zee Entertainment"
+            },
+            {
+              "title": "Journalist",
+              "companies": "Times of India, The Hindu, NDTV, India Today"
+            },
+            {
+              "title": "Digital Marketer",
+              "companies": "Google, Facebook, Adobe, HubSpot"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What media production facilities are available?",
+              "a": "We have state-of-the-art studios, editing suites, camera equipment, and green screen facilities"
+            },
+            {
+              "q": "Are there live industry projects?",
+              "a": "Yes, students work on real projects with media houses, production companies, and digital platforms"
+            },
+            {
+              "q": "What specializations are offered?",
+              "a": "We offer Journalism, Film & TV Production, Digital Marketing, Content Creation, and AR/VR Media"
+            },
+            {
+              "q": "Is there internship guarantee?",
+              "a": "Yes, we ensure internships with major media outlets, production houses, and digital platforms"
+            },
+            {
+              "q": "What is the placement scenario?",
+              "a": "Our graduates work with Netflix, Amazon Prime, YouTube channels, news agencies, and digital startups"
+            },
+            {
+              "q": "Are there international connections?",
+              "a": "Yes, we have partnerships with international media organizations for exchanges and collaborations"
+            }
+          ]
         },
         {
           "slug": "ba-jmc-content",
@@ -14830,7 +16279,20 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
-          "overview": "Create engaging content for digital platforms including blogs, video, and social media.",
+          "overview": [
+            {
+              "title": "Media Production",
+              "description": "Learn content creation, production techniques, and multimedia storytelling."
+            },
+            {
+              "title": "Digital Marketing",
+              "description": "Master digital content strategies, social media, and online campaigns."
+            },
+            {
+              "title": "Industry Experience",
+              "description": "Work with real media projects and industry professionals."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "BA Journalism & Mass Communication",
@@ -14867,7 +16329,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Content Creation",
+            "Digital Marketing",
+            "Media Production",
+            "Storytelling"
+          ],
+          "careers": [
+            {
+              "title": "Content Creator",
+              "companies": "Netflix, Amazon Prime, YouTube, Disney+"
+            },
+            {
+              "title": "Producer/Director",
+              "companies": "BBC, Sony Pictures, T-Series, Zee Entertainment"
+            },
+            {
+              "title": "Journalist",
+              "companies": "Times of India, The Hindu, NDTV, India Today"
+            },
+            {
+              "title": "Digital Marketer",
+              "companies": "Google, Facebook, Adobe, HubSpot"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What media production facilities are available?",
+              "a": "We have state-of-the-art studios, editing suites, camera equipment, and green screen facilities"
+            },
+            {
+              "q": "Are there live industry projects?",
+              "a": "Yes, students work on real projects with media houses, production companies, and digital platforms"
+            },
+            {
+              "q": "What specializations are offered?",
+              "a": "We offer Journalism, Film & TV Production, Digital Marketing, Content Creation, and AR/VR Media"
+            },
+            {
+              "q": "Is there internship guarantee?",
+              "a": "Yes, we ensure internships with major media outlets, production houses, and digital platforms"
+            },
+            {
+              "q": "What is the placement scenario?",
+              "a": "Our graduates work with Netflix, Amazon Prime, YouTube channels, news agencies, and digital startups"
+            },
+            {
+              "q": "Are there international connections?",
+              "a": "Yes, we have partnerships with international media organizations for exchanges and collaborations"
+            }
+          ]
         },
         {
           "slug": "ba-jmc-journalism",
@@ -14875,7 +16387,20 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
-          "overview": "Learn news reporting, media ethics, investigative journalism, and broadcasting.",
+          "overview": [
+            {
+              "title": "Media Production",
+              "description": "Learn content creation, production techniques, and multimedia storytelling."
+            },
+            {
+              "title": "Digital Marketing",
+              "description": "Master digital content strategies, social media, and online campaigns."
+            },
+            {
+              "title": "Industry Experience",
+              "description": "Work with real media projects and industry professionals."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "BA Journalism & Mass Communication",
@@ -14912,7 +16437,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Content Creation",
+            "Digital Marketing",
+            "Media Production",
+            "Storytelling"
+          ],
+          "careers": [
+            {
+              "title": "Content Creator",
+              "companies": "Netflix, Amazon Prime, YouTube, Disney+"
+            },
+            {
+              "title": "Producer/Director",
+              "companies": "BBC, Sony Pictures, T-Series, Zee Entertainment"
+            },
+            {
+              "title": "Journalist",
+              "companies": "Times of India, The Hindu, NDTV, India Today"
+            },
+            {
+              "title": "Digital Marketer",
+              "companies": "Google, Facebook, Adobe, HubSpot"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What media production facilities are available?",
+              "a": "We have state-of-the-art studios, editing suites, camera equipment, and green screen facilities"
+            },
+            {
+              "q": "Are there live industry projects?",
+              "a": "Yes, students work on real projects with media houses, production companies, and digital platforms"
+            },
+            {
+              "q": "What specializations are offered?",
+              "a": "We offer Journalism, Film & TV Production, Digital Marketing, Content Creation, and AR/VR Media"
+            },
+            {
+              "q": "Is there internship guarantee?",
+              "a": "Yes, we ensure internships with major media outlets, production houses, and digital platforms"
+            },
+            {
+              "q": "What is the placement scenario?",
+              "a": "Our graduates work with Netflix, Amazon Prime, YouTube channels, news agencies, and digital startups"
+            },
+            {
+              "q": "Are there international connections?",
+              "a": "Yes, we have partnerships with international media organizations for exchanges and collaborations"
+            }
+          ]
         },
         {
           "slug": "ma-jmc",
@@ -14920,7 +16495,20 @@
           "duration": "2 Years",
           "type": "PG",
           "degree": "Master of Arts",
-          "overview": "Advanced media studies focusing on journalism, digital media, and communication strategies.",
+          "overview": [
+            {
+              "title": "Media Production",
+              "description": "Learn content creation, production techniques, and multimedia storytelling."
+            },
+            {
+              "title": "Digital Marketing",
+              "description": "Master digital content strategies, social media, and online campaigns."
+            },
+            {
+              "title": "Industry Experience",
+              "description": "Work with real media projects and industry professionals."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "MA Journalism & Mass Communication",
@@ -14957,7 +16545,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Content Creation",
+            "Digital Marketing",
+            "Media Production",
+            "Storytelling"
+          ],
+          "careers": [
+            {
+              "title": "Content Creator",
+              "companies": "Netflix, Amazon Prime, YouTube, Disney+"
+            },
+            {
+              "title": "Producer/Director",
+              "companies": "BBC, Sony Pictures, T-Series, Zee Entertainment"
+            },
+            {
+              "title": "Journalist",
+              "companies": "Times of India, The Hindu, NDTV, India Today"
+            },
+            {
+              "title": "Digital Marketer",
+              "companies": "Google, Facebook, Adobe, HubSpot"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What media production facilities are available?",
+              "a": "We have state-of-the-art studios, editing suites, camera equipment, and green screen facilities"
+            },
+            {
+              "q": "Are there live industry projects?",
+              "a": "Yes, students work on real projects with media houses, production companies, and digital platforms"
+            },
+            {
+              "q": "What specializations are offered?",
+              "a": "We offer Journalism, Film & TV Production, Digital Marketing, Content Creation, and AR/VR Media"
+            },
+            {
+              "q": "Is there internship guarantee?",
+              "a": "Yes, we ensure internships with major media outlets, production houses, and digital platforms"
+            },
+            {
+              "q": "What is the placement scenario?",
+              "a": "Our graduates work with Netflix, Amazon Prime, YouTube channels, news agencies, and digital startups"
+            },
+            {
+              "q": "Are there international connections?",
+              "a": "Yes, we have partnerships with international media organizations for exchanges and collaborations"
+            }
+          ]
         },
         {
           "slug": "pg-diploma-film",
@@ -14965,7 +16603,20 @@
           "duration": "1 Year",
           "type": "Diploma",
           "degree": "Post Graduate Diploma",
-          "overview": "Specialised training in filmmaking, cinematography, editing, and production.",
+          "overview": [
+            {
+              "title": "Media Production",
+              "description": "Learn content creation, production techniques, and multimedia storytelling."
+            },
+            {
+              "title": "Digital Marketing",
+              "description": "Master digital content strategies, social media, and online campaigns."
+            },
+            {
+              "title": "Industry Experience",
+              "description": "Work with real media projects and industry professionals."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "PG Diploma in Film Making",
@@ -15002,7 +16653,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Content Creation",
+            "Digital Marketing",
+            "Media Production",
+            "Storytelling"
+          ],
+          "careers": [
+            {
+              "title": "Content Creator",
+              "companies": "Netflix, Amazon Prime, YouTube, Disney+"
+            },
+            {
+              "title": "Producer/Director",
+              "companies": "BBC, Sony Pictures, T-Series, Zee Entertainment"
+            },
+            {
+              "title": "Journalist",
+              "companies": "Times of India, The Hindu, NDTV, India Today"
+            },
+            {
+              "title": "Digital Marketer",
+              "companies": "Google, Facebook, Adobe, HubSpot"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What media production facilities are available?",
+              "a": "We have state-of-the-art studios, editing suites, camera equipment, and green screen facilities"
+            },
+            {
+              "q": "Are there live industry projects?",
+              "a": "Yes, students work on real projects with media houses, production companies, and digital platforms"
+            },
+            {
+              "q": "What specializations are offered?",
+              "a": "We offer Journalism, Film & TV Production, Digital Marketing, Content Creation, and AR/VR Media"
+            },
+            {
+              "q": "Is there internship guarantee?",
+              "a": "Yes, we ensure internships with major media outlets, production houses, and digital platforms"
+            },
+            {
+              "q": "What is the placement scenario?",
+              "a": "Our graduates work with Netflix, Amazon Prime, YouTube channels, news agencies, and digital startups"
+            },
+            {
+              "q": "Are there international connections?",
+              "a": "Yes, we have partnerships with international media organizations for exchanges and collaborations"
+            }
+          ]
         },
         {
           "slug": "phd-media",
@@ -15010,7 +16711,20 @@
           "duration": "Varies",
           "type": "PhD",
           "degree": "Doctor of Philosophy",
-          "overview": "Conduct advanced research in journalism, media technologies, and communication studies.",
+          "overview": [
+            {
+              "title": "Media Production",
+              "description": "Learn content creation, production techniques, and multimedia storytelling."
+            },
+            {
+              "title": "Digital Marketing",
+              "description": "Master digital content strategies, social media, and online campaigns."
+            },
+            {
+              "title": "Industry Experience",
+              "description": "Work with real media projects and industry professionals."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "Ph.D in Media Studies",
@@ -15047,7 +16761,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have a relevant Master's degree with strong academic record and research aptitude.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Content Creation",
+            "Digital Marketing",
+            "Media Production",
+            "Storytelling"
+          ],
+          "careers": [
+            {
+              "title": "Content Creator",
+              "companies": "Netflix, Amazon Prime, YouTube, Disney+"
+            },
+            {
+              "title": "Producer/Director",
+              "companies": "BBC, Sony Pictures, T-Series, Zee Entertainment"
+            },
+            {
+              "title": "Journalist",
+              "companies": "Times of India, The Hindu, NDTV, India Today"
+            },
+            {
+              "title": "Digital Marketer",
+              "companies": "Google, Facebook, Adobe, HubSpot"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What media production facilities are available?",
+              "a": "We have state-of-the-art studios, editing suites, camera equipment, and green screen facilities"
+            },
+            {
+              "q": "Are there live industry projects?",
+              "a": "Yes, students work on real projects with media houses, production companies, and digital platforms"
+            },
+            {
+              "q": "What specializations are offered?",
+              "a": "We offer Journalism, Film & TV Production, Digital Marketing, Content Creation, and AR/VR Media"
+            },
+            {
+              "q": "Is there internship guarantee?",
+              "a": "Yes, we ensure internships with major media outlets, production houses, and digital platforms"
+            },
+            {
+              "q": "What is the placement scenario?",
+              "a": "Our graduates work with Netflix, Amazon Prime, YouTube channels, news agencies, and digital startups"
+            },
+            {
+              "q": "Are there international connections?",
+              "a": "Yes, we have partnerships with international media organizations for exchanges and collaborations"
+            }
+          ]
         }
       ],
       "hero": {
@@ -15189,7 +16953,20 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
-          "overview": "Study human behaviour, cognitive processes, and mental health.",
+          "overview": [
+            {
+              "title": "Critical Thinking",
+              "description": "Develop analytical and problem-solving skills across disciplines."
+            },
+            {
+              "title": "Interdisciplinary Learning",
+              "description": "Explore connections between humanities, sciences, and social studies."
+            },
+            {
+              "title": "Global Citizenship",
+              "description": "Understand diverse perspectives and cultural, social, and environmental issues."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "BA Psychology",
@@ -15226,7 +17003,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Critical Thinking",
+            "Interdisciplinary Studies",
+            "Research Skills",
+            "Cultural Perspectives"
+          ],
+          "careers": [
+            {
+              "title": "Research Scholar",
+              "companies": "Universities, CSIR, UGC, Think Tanks"
+            },
+            {
+              "title": "Policy Analyst",
+              "companies": "Government Think Tanks, NGOs, International Organizations"
+            },
+            {
+              "title": "Consultant",
+              "companies": "McKinsey, Boston Consulting Group, Bain & Company"
+            },
+            {
+              "title": "Civil Service Officer",
+              "companies": "UPSC, State Civil Services, IAS/IFS/IPS"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What is the benefit of a liberal arts education?",
+              "a": "Liberal Arts develops critical thinking, communication, and analytical skills valued by employers globally"
+            },
+            {
+              "q": "Can I specialize in multiple disciplines?",
+              "a": "Yes, our flexible curriculum allows students to combine subjects from humanities, sciences, and social sciences"
+            },
+            {
+              "q": "What career options are available?",
+              "a": "Graduates pursue careers in research, policy, civil services, consulting, education, and international organizations"
+            },
+            {
+              "q": "Are there research opportunities?",
+              "a": "Yes, students engage in research projects and have access to our research centers"
+            },
+            {
+              "q": "What is the placement rate?",
+              "a": "Our placement rate is 85%+ with roles in government, NGOs, think tanks, and corporations"
+            },
+            {
+              "q": "Is there an exchange program?",
+              "a": "Yes, we have international partnerships for study abroad and cultural exchange programs"
+            }
+          ]
         },
         {
           "slug": "ba-english",
@@ -15234,7 +17061,20 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
-          "overview": "Explore literature, language, and communication across cultures.",
+          "overview": [
+            {
+              "title": "Critical Thinking",
+              "description": "Develop analytical and problem-solving skills across disciplines."
+            },
+            {
+              "title": "Interdisciplinary Learning",
+              "description": "Explore connections between humanities, sciences, and social studies."
+            },
+            {
+              "title": "Global Citizenship",
+              "description": "Understand diverse perspectives and cultural, social, and environmental issues."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "BA English",
@@ -15271,7 +17111,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Critical Thinking",
+            "Interdisciplinary Studies",
+            "Research Skills",
+            "Cultural Perspectives"
+          ],
+          "careers": [
+            {
+              "title": "Research Scholar",
+              "companies": "Universities, CSIR, UGC, Think Tanks"
+            },
+            {
+              "title": "Policy Analyst",
+              "companies": "Government Think Tanks, NGOs, International Organizations"
+            },
+            {
+              "title": "Consultant",
+              "companies": "McKinsey, Boston Consulting Group, Bain & Company"
+            },
+            {
+              "title": "Civil Service Officer",
+              "companies": "UPSC, State Civil Services, IAS/IFS/IPS"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What is the benefit of a liberal arts education?",
+              "a": "Liberal Arts develops critical thinking, communication, and analytical skills valued by employers globally"
+            },
+            {
+              "q": "Can I specialize in multiple disciplines?",
+              "a": "Yes, our flexible curriculum allows students to combine subjects from humanities, sciences, and social sciences"
+            },
+            {
+              "q": "What career options are available?",
+              "a": "Graduates pursue careers in research, policy, civil services, consulting, education, and international organizations"
+            },
+            {
+              "q": "Are there research opportunities?",
+              "a": "Yes, students engage in research projects and have access to our research centers"
+            },
+            {
+              "q": "What is the placement rate?",
+              "a": "Our placement rate is 85%+ with roles in government, NGOs, think tanks, and corporations"
+            },
+            {
+              "q": "Is there an exchange program?",
+              "a": "Yes, we have international partnerships for study abroad and cultural exchange programs"
+            }
+          ]
         },
         {
           "slug": "ba-political-science",
@@ -15279,7 +17169,20 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
-          "overview": "Understand political systems, governance, and international relations.",
+          "overview": [
+            {
+              "title": "Critical Thinking",
+              "description": "Develop analytical and problem-solving skills across disciplines."
+            },
+            {
+              "title": "Interdisciplinary Learning",
+              "description": "Explore connections between humanities, sciences, and social studies."
+            },
+            {
+              "title": "Global Citizenship",
+              "description": "Understand diverse perspectives and cultural, social, and environmental issues."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "BA Political Science",
@@ -15316,7 +17219,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Critical Thinking",
+            "Interdisciplinary Studies",
+            "Research Skills",
+            "Cultural Perspectives"
+          ],
+          "careers": [
+            {
+              "title": "Research Scholar",
+              "companies": "Universities, CSIR, UGC, Think Tanks"
+            },
+            {
+              "title": "Policy Analyst",
+              "companies": "Government Think Tanks, NGOs, International Organizations"
+            },
+            {
+              "title": "Consultant",
+              "companies": "McKinsey, Boston Consulting Group, Bain & Company"
+            },
+            {
+              "title": "Civil Service Officer",
+              "companies": "UPSC, State Civil Services, IAS/IFS/IPS"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What is the benefit of a liberal arts education?",
+              "a": "Liberal Arts develops critical thinking, communication, and analytical skills valued by employers globally"
+            },
+            {
+              "q": "Can I specialize in multiple disciplines?",
+              "a": "Yes, our flexible curriculum allows students to combine subjects from humanities, sciences, and social sciences"
+            },
+            {
+              "q": "What career options are available?",
+              "a": "Graduates pursue careers in research, policy, civil services, consulting, education, and international organizations"
+            },
+            {
+              "q": "Are there research opportunities?",
+              "a": "Yes, students engage in research projects and have access to our research centers"
+            },
+            {
+              "q": "What is the placement rate?",
+              "a": "Our placement rate is 85%+ with roles in government, NGOs, think tanks, and corporations"
+            },
+            {
+              "q": "Is there an exchange program?",
+              "a": "Yes, we have international partnerships for study abroad and cultural exchange programs"
+            }
+          ]
         },
         {
           "slug": "ba-economics",
@@ -15324,7 +17277,20 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
-          "overview": "Learn economic theory, policy-making, and global financial systems.",
+          "overview": [
+            {
+              "title": "Critical Thinking",
+              "description": "Develop analytical and problem-solving skills across disciplines."
+            },
+            {
+              "title": "Interdisciplinary Learning",
+              "description": "Explore connections between humanities, sciences, and social studies."
+            },
+            {
+              "title": "Global Citizenship",
+              "description": "Understand diverse perspectives and cultural, social, and environmental issues."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "BA Economics",
@@ -15361,7 +17327,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Critical Thinking",
+            "Interdisciplinary Studies",
+            "Research Skills",
+            "Cultural Perspectives"
+          ],
+          "careers": [
+            {
+              "title": "Research Scholar",
+              "companies": "Universities, CSIR, UGC, Think Tanks"
+            },
+            {
+              "title": "Policy Analyst",
+              "companies": "Government Think Tanks, NGOs, International Organizations"
+            },
+            {
+              "title": "Consultant",
+              "companies": "McKinsey, Boston Consulting Group, Bain & Company"
+            },
+            {
+              "title": "Civil Service Officer",
+              "companies": "UPSC, State Civil Services, IAS/IFS/IPS"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What is the benefit of a liberal arts education?",
+              "a": "Liberal Arts develops critical thinking, communication, and analytical skills valued by employers globally"
+            },
+            {
+              "q": "Can I specialize in multiple disciplines?",
+              "a": "Yes, our flexible curriculum allows students to combine subjects from humanities, sciences, and social sciences"
+            },
+            {
+              "q": "What career options are available?",
+              "a": "Graduates pursue careers in research, policy, civil services, consulting, education, and international organizations"
+            },
+            {
+              "q": "Are there research opportunities?",
+              "a": "Yes, students engage in research projects and have access to our research centers"
+            },
+            {
+              "q": "What is the placement rate?",
+              "a": "Our placement rate is 85%+ with roles in government, NGOs, think tanks, and corporations"
+            },
+            {
+              "q": "Is there an exchange program?",
+              "a": "Yes, we have international partnerships for study abroad and cultural exchange programs"
+            }
+          ]
         },
         {
           "slug": "ba-sociology",
@@ -15369,7 +17385,20 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
-          "overview": "Study society, culture, and social structures.",
+          "overview": [
+            {
+              "title": "Critical Thinking",
+              "description": "Develop analytical and problem-solving skills across disciplines."
+            },
+            {
+              "title": "Interdisciplinary Learning",
+              "description": "Explore connections between humanities, sciences, and social studies."
+            },
+            {
+              "title": "Global Citizenship",
+              "description": "Understand diverse perspectives and cultural, social, and environmental issues."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "BA Sociology",
@@ -15406,7 +17435,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Critical Thinking",
+            "Interdisciplinary Studies",
+            "Research Skills",
+            "Cultural Perspectives"
+          ],
+          "careers": [
+            {
+              "title": "Research Scholar",
+              "companies": "Universities, CSIR, UGC, Think Tanks"
+            },
+            {
+              "title": "Policy Analyst",
+              "companies": "Government Think Tanks, NGOs, International Organizations"
+            },
+            {
+              "title": "Consultant",
+              "companies": "McKinsey, Boston Consulting Group, Bain & Company"
+            },
+            {
+              "title": "Civil Service Officer",
+              "companies": "UPSC, State Civil Services, IAS/IFS/IPS"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What is the benefit of a liberal arts education?",
+              "a": "Liberal Arts develops critical thinking, communication, and analytical skills valued by employers globally"
+            },
+            {
+              "q": "Can I specialize in multiple disciplines?",
+              "a": "Yes, our flexible curriculum allows students to combine subjects from humanities, sciences, and social sciences"
+            },
+            {
+              "q": "What career options are available?",
+              "a": "Graduates pursue careers in research, policy, civil services, consulting, education, and international organizations"
+            },
+            {
+              "q": "Are there research opportunities?",
+              "a": "Yes, students engage in research projects and have access to our research centers"
+            },
+            {
+              "q": "What is the placement rate?",
+              "a": "Our placement rate is 85%+ with roles in government, NGOs, think tanks, and corporations"
+            },
+            {
+              "q": "Is there an exchange program?",
+              "a": "Yes, we have international partnerships for study abroad and cultural exchange programs"
+            }
+          ]
         },
         {
           "slug": "bsc-psychology",
@@ -15651,7 +17730,20 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
-          "overview": "Train in classical dance forms with cultural and theoretical foundations.",
+          "overview": [
+            {
+              "title": "Critical Thinking",
+              "description": "Develop analytical and problem-solving skills across disciplines."
+            },
+            {
+              "title": "Interdisciplinary Learning",
+              "description": "Explore connections between humanities, sciences, and social studies."
+            },
+            {
+              "title": "Global Citizenship",
+              "description": "Understand diverse perspectives and cultural, social, and environmental issues."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "BA Performing Arts",
@@ -15688,7 +17780,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Critical Thinking",
+            "Interdisciplinary Studies",
+            "Research Skills",
+            "Cultural Perspectives"
+          ],
+          "careers": [
+            {
+              "title": "Research Scholar",
+              "companies": "Universities, CSIR, UGC, Think Tanks"
+            },
+            {
+              "title": "Policy Analyst",
+              "companies": "Government Think Tanks, NGOs, International Organizations"
+            },
+            {
+              "title": "Consultant",
+              "companies": "McKinsey, Boston Consulting Group, Bain & Company"
+            },
+            {
+              "title": "Civil Service Officer",
+              "companies": "UPSC, State Civil Services, IAS/IFS/IPS"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What is the benefit of a liberal arts education?",
+              "a": "Liberal Arts develops critical thinking, communication, and analytical skills valued by employers globally"
+            },
+            {
+              "q": "Can I specialize in multiple disciplines?",
+              "a": "Yes, our flexible curriculum allows students to combine subjects from humanities, sciences, and social sciences"
+            },
+            {
+              "q": "What career options are available?",
+              "a": "Graduates pursue careers in research, policy, civil services, consulting, education, and international organizations"
+            },
+            {
+              "q": "Are there research opportunities?",
+              "a": "Yes, students engage in research projects and have access to our research centers"
+            },
+            {
+              "q": "What is the placement rate?",
+              "a": "Our placement rate is 85%+ with roles in government, NGOs, think tanks, and corporations"
+            },
+            {
+              "q": "Is there an exchange program?",
+              "a": "Yes, we have international partnerships for study abroad and cultural exchange programs"
+            }
+          ]
         },
         {
           "slug": "ba-performing-arts-music",
@@ -15696,7 +17838,20 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
-          "overview": "Develop skills in classical music performance and theory.",
+          "overview": [
+            {
+              "title": "Critical Thinking",
+              "description": "Develop analytical and problem-solving skills across disciplines."
+            },
+            {
+              "title": "Interdisciplinary Learning",
+              "description": "Explore connections between humanities, sciences, and social studies."
+            },
+            {
+              "title": "Global Citizenship",
+              "description": "Understand diverse perspectives and cultural, social, and environmental issues."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "BA Performing Arts",
@@ -15733,7 +17888,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Critical Thinking",
+            "Interdisciplinary Studies",
+            "Research Skills",
+            "Cultural Perspectives"
+          ],
+          "careers": [
+            {
+              "title": "Research Scholar",
+              "companies": "Universities, CSIR, UGC, Think Tanks"
+            },
+            {
+              "title": "Policy Analyst",
+              "companies": "Government Think Tanks, NGOs, International Organizations"
+            },
+            {
+              "title": "Consultant",
+              "companies": "McKinsey, Boston Consulting Group, Bain & Company"
+            },
+            {
+              "title": "Civil Service Officer",
+              "companies": "UPSC, State Civil Services, IAS/IFS/IPS"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What is the benefit of a liberal arts education?",
+              "a": "Liberal Arts develops critical thinking, communication, and analytical skills valued by employers globally"
+            },
+            {
+              "q": "Can I specialize in multiple disciplines?",
+              "a": "Yes, our flexible curriculum allows students to combine subjects from humanities, sciences, and social sciences"
+            },
+            {
+              "q": "What career options are available?",
+              "a": "Graduates pursue careers in research, policy, civil services, consulting, education, and international organizations"
+            },
+            {
+              "q": "Are there research opportunities?",
+              "a": "Yes, students engage in research projects and have access to our research centers"
+            },
+            {
+              "q": "What is the placement rate?",
+              "a": "Our placement rate is 85%+ with roles in government, NGOs, think tanks, and corporations"
+            },
+            {
+              "q": "Is there an exchange program?",
+              "a": "Yes, we have international partnerships for study abroad and cultural exchange programs"
+            }
+          ]
         },
         {
           "slug": "ba-performing-arts-western",
@@ -15741,7 +17946,20 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
-          "overview": "Learn western music theory, composition, and performance.",
+          "overview": [
+            {
+              "title": "Critical Thinking",
+              "description": "Develop analytical and problem-solving skills across disciplines."
+            },
+            {
+              "title": "Interdisciplinary Learning",
+              "description": "Explore connections between humanities, sciences, and social studies."
+            },
+            {
+              "title": "Global Citizenship",
+              "description": "Understand diverse perspectives and cultural, social, and environmental issues."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "BA Performing Arts",
@@ -15778,7 +17996,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Critical Thinking",
+            "Interdisciplinary Studies",
+            "Research Skills",
+            "Cultural Perspectives"
+          ],
+          "careers": [
+            {
+              "title": "Research Scholar",
+              "companies": "Universities, CSIR, UGC, Think Tanks"
+            },
+            {
+              "title": "Policy Analyst",
+              "companies": "Government Think Tanks, NGOs, International Organizations"
+            },
+            {
+              "title": "Consultant",
+              "companies": "McKinsey, Boston Consulting Group, Bain & Company"
+            },
+            {
+              "title": "Civil Service Officer",
+              "companies": "UPSC, State Civil Services, IAS/IFS/IPS"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What is the benefit of a liberal arts education?",
+              "a": "Liberal Arts develops critical thinking, communication, and analytical skills valued by employers globally"
+            },
+            {
+              "q": "Can I specialize in multiple disciplines?",
+              "a": "Yes, our flexible curriculum allows students to combine subjects from humanities, sciences, and social sciences"
+            },
+            {
+              "q": "What career options are available?",
+              "a": "Graduates pursue careers in research, policy, civil services, consulting, education, and international organizations"
+            },
+            {
+              "q": "Are there research opportunities?",
+              "a": "Yes, students engage in research projects and have access to our research centers"
+            },
+            {
+              "q": "What is the placement rate?",
+              "a": "Our placement rate is 85%+ with roles in government, NGOs, think tanks, and corporations"
+            },
+            {
+              "q": "Is there an exchange program?",
+              "a": "Yes, we have international partnerships for study abroad and cultural exchange programs"
+            }
+          ]
         },
         {
           "slug": "ba-performing-arts-theatre",
@@ -15786,7 +18054,20 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
-          "overview": "Explore acting, stagecraft, and theatre production.",
+          "overview": [
+            {
+              "title": "Critical Thinking",
+              "description": "Develop analytical and problem-solving skills across disciplines."
+            },
+            {
+              "title": "Interdisciplinary Learning",
+              "description": "Explore connections between humanities, sciences, and social studies."
+            },
+            {
+              "title": "Global Citizenship",
+              "description": "Understand diverse perspectives and cultural, social, and environmental issues."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "BA Performing Arts",
@@ -15823,7 +18104,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Critical Thinking",
+            "Interdisciplinary Studies",
+            "Research Skills",
+            "Cultural Perspectives"
+          ],
+          "careers": [
+            {
+              "title": "Research Scholar",
+              "companies": "Universities, CSIR, UGC, Think Tanks"
+            },
+            {
+              "title": "Policy Analyst",
+              "companies": "Government Think Tanks, NGOs, International Organizations"
+            },
+            {
+              "title": "Consultant",
+              "companies": "McKinsey, Boston Consulting Group, Bain & Company"
+            },
+            {
+              "title": "Civil Service Officer",
+              "companies": "UPSC, State Civil Services, IAS/IFS/IPS"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What is the benefit of a liberal arts education?",
+              "a": "Liberal Arts develops critical thinking, communication, and analytical skills valued by employers globally"
+            },
+            {
+              "q": "Can I specialize in multiple disciplines?",
+              "a": "Yes, our flexible curriculum allows students to combine subjects from humanities, sciences, and social sciences"
+            },
+            {
+              "q": "What career options are available?",
+              "a": "Graduates pursue careers in research, policy, civil services, consulting, education, and international organizations"
+            },
+            {
+              "q": "Are there research opportunities?",
+              "a": "Yes, students engage in research projects and have access to our research centers"
+            },
+            {
+              "q": "What is the placement rate?",
+              "a": "Our placement rate is 85%+ with roles in government, NGOs, think tanks, and corporations"
+            },
+            {
+              "q": "Is there an exchange program?",
+              "a": "Yes, we have international partnerships for study abroad and cultural exchange programs"
+            }
+          ]
         },
         {
           "slug": "msc-psychology",
@@ -16311,7 +18642,20 @@
           "duration": "Varies",
           "type": "PhD",
           "degree": "Doctor of Philosophy",
-          "overview": "Conduct interdisciplinary research across humanities, social sciences, and performing arts.",
+          "overview": [
+            {
+              "title": "Critical Thinking",
+              "description": "Develop analytical and problem-solving skills across disciplines."
+            },
+            {
+              "title": "Interdisciplinary Learning",
+              "description": "Explore connections between humanities, sciences, and social studies."
+            },
+            {
+              "title": "Global Citizenship",
+              "description": "Understand diverse perspectives and cultural, social, and environmental issues."
+            }
+          ],
           "hero": {
             "title": {
               "normal": "Ph.D in Liberal Arts & Sciences",
@@ -16348,7 +18692,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have a relevant Master's degree with strong academic record and research aptitude.",
             "note": "Eligibility may vary for international students."
-          }
+          },
+          "highlights": [
+            "Critical Thinking",
+            "Interdisciplinary Studies",
+            "Research Skills",
+            "Cultural Perspectives"
+          ],
+          "careers": [
+            {
+              "title": "Research Scholar",
+              "companies": "Universities, CSIR, UGC, Think Tanks"
+            },
+            {
+              "title": "Policy Analyst",
+              "companies": "Government Think Tanks, NGOs, International Organizations"
+            },
+            {
+              "title": "Consultant",
+              "companies": "McKinsey, Boston Consulting Group, Bain & Company"
+            },
+            {
+              "title": "Civil Service Officer",
+              "companies": "UPSC, State Civil Services, IAS/IFS/IPS"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What is the benefit of a liberal arts education?",
+              "a": "Liberal Arts develops critical thinking, communication, and analytical skills valued by employers globally"
+            },
+            {
+              "q": "Can I specialize in multiple disciplines?",
+              "a": "Yes, our flexible curriculum allows students to combine subjects from humanities, sciences, and social sciences"
+            },
+            {
+              "q": "What career options are available?",
+              "a": "Graduates pursue careers in research, policy, civil services, consulting, education, and international organizations"
+            },
+            {
+              "q": "Are there research opportunities?",
+              "a": "Yes, students engage in research projects and have access to our research centers"
+            },
+            {
+              "q": "What is the placement rate?",
+              "a": "Our placement rate is 85%+ with roles in government, NGOs, think tanks, and corporations"
+            },
+            {
+              "q": "Is there an exchange program?",
+              "a": "Yes, we have international partnerships for study abroad and cultural exchange programs"
+            }
+          ]
         }
       ],
       "hero": {
@@ -16682,7 +19076,57 @@
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics, Chemistry, and Biology. Merit-based selection through entrance examination. NEET qualification required as per regulatory standards.",
             "note": "Eligibility may vary for international students. Physical fitness is essential for this program."
-          }
+          },
+          "highlights": [
+            "Clinical Practice",
+            "Research Methods",
+            "Patient Care",
+            "Professional Ethics"
+          ],
+          "careers": [
+            {
+              "title": "Clinical Practitioner",
+              "companies": "Apollo Hospitals, Max Healthcare, Fortis, HCL Healthcare"
+            },
+            {
+              "title": "Hospital Manager",
+              "companies": "AIIMS, Delhi Hospital Authority, Private Hospital Chains"
+            },
+            {
+              "title": "Research Associate",
+              "companies": "ICMR, National Institute of Health, Medical Universities"
+            },
+            {
+              "title": "Healthcare Consultant",
+              "companies": "Accenture Health, Deloitte Health, Boston Consulting Group"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What clinical training is provided?",
+              "a": "Students get hands-on clinical training in affiliated hospitals with 100+ hours of practice"
+            },
+            {
+              "q": "What are the specialization options?",
+              "a": "We offer specializations in various health disciplines including clinical practice and research"
+            },
+            {
+              "q": "Is there research opportunity?",
+              "a": "Yes, we encourage research projects and have partnerships with medical research institutions"
+            },
+            {
+              "q": "What are career paths?",
+              "a": "Graduates work as healthcare practitioners, hospital managers, researchers, and consultants"
+            },
+            {
+              "q": "What is the placement rate?",
+              "a": "Our placement rate is 93%+ with government and private healthcare institutions"
+            },
+            {
+              "q": "Are there international opportunities?",
+              "a": "Yes, students can pursue further studies abroad with support from our international office"
+            }
+          ]
         },
         {
           "slug": "bsc-nursing",
@@ -16736,7 +19180,57 @@
             "title": "Eligibility Criteria",
             "description": "10+2 with Physics, Chemistry, and Biology (or equivalent). Qualifying score in NEET examination. Physical and mental fitness for nursing practice. Passing in English.",
             "note": "Applicants from across India and abroad welcome. Age criteria as per regulatory norms."
-          }
+          },
+          "highlights": [
+            "Clinical Practice",
+            "Research Methods",
+            "Patient Care",
+            "Professional Ethics"
+          ],
+          "careers": [
+            {
+              "title": "Clinical Practitioner",
+              "companies": "Apollo Hospitals, Max Healthcare, Fortis, HCL Healthcare"
+            },
+            {
+              "title": "Hospital Manager",
+              "companies": "AIIMS, Delhi Hospital Authority, Private Hospital Chains"
+            },
+            {
+              "title": "Research Associate",
+              "companies": "ICMR, National Institute of Health, Medical Universities"
+            },
+            {
+              "title": "Healthcare Consultant",
+              "companies": "Accenture Health, Deloitte Health, Boston Consulting Group"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What clinical training is provided?",
+              "a": "Students get hands-on clinical training in affiliated hospitals with 100+ hours of practice"
+            },
+            {
+              "q": "What are the specialization options?",
+              "a": "We offer specializations in various health disciplines including clinical practice and research"
+            },
+            {
+              "q": "Is there research opportunity?",
+              "a": "Yes, we encourage research projects and have partnerships with medical research institutions"
+            },
+            {
+              "q": "What are career paths?",
+              "a": "Graduates work as healthcare practitioners, hospital managers, researchers, and consultants"
+            },
+            {
+              "q": "What is the placement rate?",
+              "a": "Our placement rate is 93%+ with government and private healthcare institutions"
+            },
+            {
+              "q": "Are there international opportunities?",
+              "a": "Yes, students can pursue further studies abroad with support from our international office"
+            }
+          ]
         },
         {
           "slug": "bsc-occupational-therapy",
@@ -16790,7 +19284,57 @@
             "title": "Eligibility Criteria",
             "description": "10+2 with Physics, Chemistry, and Biology. NEET qualification required. Strong interest in healthcare and helping professions. Physical capability to perform therapeutic techniques.",
             "note": "This program develops professionals to work across healthcare, education, and community sectors."
-          }
+          },
+          "highlights": [
+            "Clinical Practice",
+            "Research Methods",
+            "Patient Care",
+            "Professional Ethics"
+          ],
+          "careers": [
+            {
+              "title": "Clinical Practitioner",
+              "companies": "Apollo Hospitals, Max Healthcare, Fortis, HCL Healthcare"
+            },
+            {
+              "title": "Hospital Manager",
+              "companies": "AIIMS, Delhi Hospital Authority, Private Hospital Chains"
+            },
+            {
+              "title": "Research Associate",
+              "companies": "ICMR, National Institute of Health, Medical Universities"
+            },
+            {
+              "title": "Healthcare Consultant",
+              "companies": "Accenture Health, Deloitte Health, Boston Consulting Group"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What clinical training is provided?",
+              "a": "Students get hands-on clinical training in affiliated hospitals with 100+ hours of practice"
+            },
+            {
+              "q": "What are the specialization options?",
+              "a": "We offer specializations in various health disciplines including clinical practice and research"
+            },
+            {
+              "q": "Is there research opportunity?",
+              "a": "Yes, we encourage research projects and have partnerships with medical research institutions"
+            },
+            {
+              "q": "What are career paths?",
+              "a": "Graduates work as healthcare practitioners, hospital managers, researchers, and consultants"
+            },
+            {
+              "q": "What is the placement rate?",
+              "a": "Our placement rate is 93%+ with government and private healthcare institutions"
+            },
+            {
+              "q": "Are there international opportunities?",
+              "a": "Yes, students can pursue further studies abroad with support from our international office"
+            }
+          ]
         },
         {
           "slug": "bsc-mlt",
@@ -16844,7 +19388,57 @@
             "title": "Eligibility Criteria",
             "description": "10+2 with Physics, Chemistry, and Biology. Merit-based selection through entrance examination. Strong aptitude for scientific work and laboratory procedures.",
             "note": "This is a 3-year program with excellent career prospects in hospitals, diagnostic labs, and research centers."
-          }
+          },
+          "highlights": [
+            "Clinical Practice",
+            "Research Methods",
+            "Patient Care",
+            "Professional Ethics"
+          ],
+          "careers": [
+            {
+              "title": "Clinical Practitioner",
+              "companies": "Apollo Hospitals, Max Healthcare, Fortis, HCL Healthcare"
+            },
+            {
+              "title": "Hospital Manager",
+              "companies": "AIIMS, Delhi Hospital Authority, Private Hospital Chains"
+            },
+            {
+              "title": "Research Associate",
+              "companies": "ICMR, National Institute of Health, Medical Universities"
+            },
+            {
+              "title": "Healthcare Consultant",
+              "companies": "Accenture Health, Deloitte Health, Boston Consulting Group"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What clinical training is provided?",
+              "a": "Students get hands-on clinical training in affiliated hospitals with 100+ hours of practice"
+            },
+            {
+              "q": "What are the specialization options?",
+              "a": "We offer specializations in various health disciplines including clinical practice and research"
+            },
+            {
+              "q": "Is there research opportunity?",
+              "a": "Yes, we encourage research projects and have partnerships with medical research institutions"
+            },
+            {
+              "q": "What are career paths?",
+              "a": "Graduates work as healthcare practitioners, hospital managers, researchers, and consultants"
+            },
+            {
+              "q": "What is the placement rate?",
+              "a": "Our placement rate is 93%+ with government and private healthcare institutions"
+            },
+            {
+              "q": "Are there international opportunities?",
+              "a": "Yes, students can pursue further studies abroad with support from our international office"
+            }
+          ]
         },
         {
           "slug": "msc-physiotherapy-musculoskeletal",
@@ -16898,7 +19492,57 @@
             "title": "Eligibility Criteria",
             "description": "Bachelor's degree in Physiotherapy or related field. Minimum 50% marks in undergraduate studies. Work experience as a physiotherapist is preferred. Entrance examination and interview selection.",
             "note": "Ideal for physiotherapists seeking specialization in orthopedics and sports medicine."
-          }
+          },
+          "highlights": [
+            "Clinical Practice",
+            "Research Methods",
+            "Patient Care",
+            "Professional Ethics"
+          ],
+          "careers": [
+            {
+              "title": "Clinical Practitioner",
+              "companies": "Apollo Hospitals, Max Healthcare, Fortis, HCL Healthcare"
+            },
+            {
+              "title": "Hospital Manager",
+              "companies": "AIIMS, Delhi Hospital Authority, Private Hospital Chains"
+            },
+            {
+              "title": "Research Associate",
+              "companies": "ICMR, National Institute of Health, Medical Universities"
+            },
+            {
+              "title": "Healthcare Consultant",
+              "companies": "Accenture Health, Deloitte Health, Boston Consulting Group"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What clinical training is provided?",
+              "a": "Students get hands-on clinical training in affiliated hospitals with 100+ hours of practice"
+            },
+            {
+              "q": "What are the specialization options?",
+              "a": "We offer specializations in various health disciplines including clinical practice and research"
+            },
+            {
+              "q": "Is there research opportunity?",
+              "a": "Yes, we encourage research projects and have partnerships with medical research institutions"
+            },
+            {
+              "q": "What are career paths?",
+              "a": "Graduates work as healthcare practitioners, hospital managers, researchers, and consultants"
+            },
+            {
+              "q": "What is the placement rate?",
+              "a": "Our placement rate is 93%+ with government and private healthcare institutions"
+            },
+            {
+              "q": "Are there international opportunities?",
+              "a": "Yes, students can pursue further studies abroad with support from our international office"
+            }
+          ]
         },
         {
           "slug": "msc-nursing-clinical",
@@ -16952,7 +19596,57 @@
             "title": "Eligibility Criteria",
             "description": "Bachelor's degree in Nursing (B.Sc or B.N). Minimum 55% marks in undergraduate studies. Clinical experience preferred. Selection through entrance examination and interview.",
             "note": "Excellent for nurses seeking career advancement in clinical leadership and specialization."
-          }
+          },
+          "highlights": [
+            "Clinical Practice",
+            "Research Methods",
+            "Patient Care",
+            "Professional Ethics"
+          ],
+          "careers": [
+            {
+              "title": "Clinical Practitioner",
+              "companies": "Apollo Hospitals, Max Healthcare, Fortis, HCL Healthcare"
+            },
+            {
+              "title": "Hospital Manager",
+              "companies": "AIIMS, Delhi Hospital Authority, Private Hospital Chains"
+            },
+            {
+              "title": "Research Associate",
+              "companies": "ICMR, National Institute of Health, Medical Universities"
+            },
+            {
+              "title": "Healthcare Consultant",
+              "companies": "Accenture Health, Deloitte Health, Boston Consulting Group"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What clinical training is provided?",
+              "a": "Students get hands-on clinical training in affiliated hospitals with 100+ hours of practice"
+            },
+            {
+              "q": "What are the specialization options?",
+              "a": "We offer specializations in various health disciplines including clinical practice and research"
+            },
+            {
+              "q": "Is there research opportunity?",
+              "a": "Yes, we encourage research projects and have partnerships with medical research institutions"
+            },
+            {
+              "q": "What are career paths?",
+              "a": "Graduates work as healthcare practitioners, hospital managers, researchers, and consultants"
+            },
+            {
+              "q": "What is the placement rate?",
+              "a": "Our placement rate is 93%+ with government and private healthcare institutions"
+            },
+            {
+              "q": "Are there international opportunities?",
+              "a": "Yes, students can pursue further studies abroad with support from our international office"
+            }
+          ]
         },
         {
           "slug": "phd-health-sciences",
@@ -17006,7 +19700,57 @@
             "title": "Eligibility Criteria",
             "description": "Master's degree in Health Sciences, Nursing, Physiotherapy, or related field. Minimum 55% marks in master's studies. Clear research interests and motivation. Selection through entrance examination, interview, and research proposal presentation.",
             "note": "This program is designed for healthcare professionals and scientists pursuing research careers."
-          }
+          },
+          "highlights": [
+            "Clinical Practice",
+            "Research Methods",
+            "Patient Care",
+            "Professional Ethics"
+          ],
+          "careers": [
+            {
+              "title": "Clinical Practitioner",
+              "companies": "Apollo Hospitals, Max Healthcare, Fortis, HCL Healthcare"
+            },
+            {
+              "title": "Hospital Manager",
+              "companies": "AIIMS, Delhi Hospital Authority, Private Hospital Chains"
+            },
+            {
+              "title": "Research Associate",
+              "companies": "ICMR, National Institute of Health, Medical Universities"
+            },
+            {
+              "title": "Healthcare Consultant",
+              "companies": "Accenture Health, Deloitte Health, Boston Consulting Group"
+            }
+          ],
+          "faq": [
+            {
+              "q": "What clinical training is provided?",
+              "a": "Students get hands-on clinical training in affiliated hospitals with 100+ hours of practice"
+            },
+            {
+              "q": "What are the specialization options?",
+              "a": "We offer specializations in various health disciplines including clinical practice and research"
+            },
+            {
+              "q": "Is there research opportunity?",
+              "a": "Yes, we encourage research projects and have partnerships with medical research institutions"
+            },
+            {
+              "q": "What are career paths?",
+              "a": "Graduates work as healthcare practitioners, hospital managers, researchers, and consultants"
+            },
+            {
+              "q": "What is the placement rate?",
+              "a": "Our placement rate is 93%+ with government and private healthcare institutions"
+            },
+            {
+              "q": "Are there international opportunities?",
+              "a": "Yes, students can pursue further studies abroad with support from our international office"
+            }
+          ]
         }
       ]
     }
