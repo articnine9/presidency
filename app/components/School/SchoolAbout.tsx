@@ -124,11 +124,10 @@ function HexFlower({
   features: Feature[];
   image: string;
 }) {
-  const S   = 158;                          // hex width (px)
-  const H   = Math.round(S * 0.866);        // hex height
-  const gap = 12;                           // even gap between every hexagon
-  const dH  = Math.round(S * 0.75) + gap;  // horizontal step to neighbor
-  const dV  = Math.round(H * 0.5)  + gap;  // vertical half-step to neighbor
+  const S  = 158;
+  const H  = Math.round(S * 0.866);
+  const dH = Math.round(S * 0.75);
+  const dV = Math.round(H * 0.5);
 
   /* origin offset so all coords are ≥ 0 */
   const ox = dH; // center x
