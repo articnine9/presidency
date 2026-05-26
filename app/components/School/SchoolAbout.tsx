@@ -305,7 +305,7 @@ export default function SchoolAbout({ data }: SchoolAboutProps) {
                     <div className="mb-3 text-[#0A8F96]">
                       {ICONS[i % ICONS.length]}
                     </div>
-                    <h3 className="text-[15px] font-semibold text-[#183153] mb-1">
+                    <h3 className="text-[20px] text-[#183153] mb-1">
                       {item.title}
                     </h3>
                     <p className="text-sm text-gray-500 leading-relaxed">

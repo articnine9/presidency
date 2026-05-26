@@ -111,7 +111,7 @@ export default function ShortCoursesSection({ data }: any) {
                   <h3
                     className="
                         text-sm
-                        font-semibold
+
                         leading-snug
                         text-[#183153]
                         md:text-lg
@@ -447,7 +447,7 @@ export default function ShortCoursesSection({ data }: any) {
                 <h3
                   className="
                     text-lg
-                    font-semibold
+
                     text-[#183153]
                   "
                 >
@@ -529,7 +529,7 @@ export default function ShortCoursesSection({ data }: any) {
                 <h3
                   className="
                     text-lg
-                    font-semibold
+
                     text-[#183153]
                   "
                 >

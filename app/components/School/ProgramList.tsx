@@ -195,7 +195,7 @@ function ProgramRow({ program, slug }: { program: Program; slug: string }) {
 
         {/* TEXT */}
         <div>
-          <h3 className="text-[15px] text-[#183153]">
+          <h3 className="text-[20px] text-[#183153]">
             {program.name}
           </h3>
 

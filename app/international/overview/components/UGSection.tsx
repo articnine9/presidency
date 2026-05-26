@@ -115,7 +115,7 @@ export default function UGSection({ data }: any) {
                   <h3
                     className="
                         text-lg
-                        font-semibold
+
                         leading-snug
                         text-[#183153]
                       "
