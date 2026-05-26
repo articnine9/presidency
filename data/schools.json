@@ -6734,7 +6734,44 @@
           "duration": "Research Programme",
           "type": "PhD",
           "degree": "Doctor of Philosophy",
-          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies."
+          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies.",
+          "hero": {
+            "title": {
+              "normal": "Ph.D. Electronics & Communications Engineering",
+              "italic": ""
+            },
+            "description": "Discover our comprehensive Ph.D. Electronics & Communications Engineering programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Engineering",
+              "Ph.D. Electronics & Communications Engineering"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Doctor of Philosophy"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "Research Programme",
+            "campus": "Bengaluru, India",
+            "school": "School of Engineering"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have a relevant Master's degree with strong academic record and research aptitude.",
+            "note": "Eligibility may vary for international students."
+          }
         },
         {
           "slug": "phd-mechanical-engineering",
@@ -6742,7 +6779,44 @@
           "duration": "Research Programme",
           "type": "PhD",
           "degree": "Doctor of Philosophy",
-          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies."
+          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies.",
+          "hero": {
+            "title": {
+              "normal": "Ph.D. Mechanical Engineering",
+              "italic": ""
+            },
+            "description": "Discover our comprehensive Ph.D. Mechanical Engineering programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Engineering",
+              "Ph.D. Mechanical Engineering"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Doctor of Philosophy"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "Research Programme",
+            "campus": "Bengaluru, India",
+            "school": "School of Engineering"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have a relevant Master's degree with strong academic record and research aptitude.",
+            "note": "Eligibility may vary for international students."
+          }
         },
         {
           "slug": "phd-civil-engineering",
@@ -6750,7 +6824,44 @@
           "duration": "Research Programme",
           "type": "PhD",
           "degree": "Doctor of Philosophy",
-          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies."
+          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies.",
+          "hero": {
+            "title": {
+              "normal": "Ph.D. Civil Engineering",
+              "italic": ""
+            },
+            "description": "Discover our comprehensive Ph.D. Civil Engineering programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Engineering",
+              "Ph.D. Civil Engineering"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Doctor of Philosophy"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "Research Programme",
+            "campus": "Bengaluru, India",
+            "school": "School of Engineering"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have a relevant Master's degree with strong academic record and research aptitude.",
+            "note": "Eligibility may vary for international students."
+          }
         },
         {
           "slug": "phd-ece",
@@ -6758,7 +6869,44 @@
           "duration": "Research Programme",
           "type": "PhD",
           "degree": "Doctor of Philosophy",
-          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies."
+          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies.",
+          "hero": {
+            "title": {
+              "normal": "Ph.D. Electrical & Electronics Engineering",
+              "italic": ""
+            },
+            "description": "Discover our comprehensive Ph.D. Electrical & Electronics Engineering programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Engineering",
+              "Ph.D. Electrical & Electronics Engineering"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Doctor of Philosophy"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "Research Programme",
+            "campus": "Bengaluru, India",
+            "school": "School of Engineering"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have a relevant Master's degree with strong academic record and research aptitude.",
+            "note": "Eligibility may vary for international students."
+          }
         },
         {
           "slug": "phd-petroleum-engineering",
@@ -6766,7 +6914,44 @@
           "duration": "Research Programme",
           "type": "PhD",
           "degree": "Doctor of Philosophy",
-          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies."
+          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies.",
+          "hero": {
+            "title": {
+              "normal": "Ph.D. Petroleum Engineering",
+              "italic": ""
+            },
+            "description": "Discover our comprehensive Ph.D. Petroleum Engineering programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Engineering",
+              "Ph.D. Petroleum Engineering"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Doctor of Philosophy"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "Research Programme",
+            "campus": "Bengaluru, India",
+            "school": "School of Engineering"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have a relevant Master's degree with strong academic record and research aptitude.",
+            "note": "Eligibility may vary for international students."
+          }
         },
         {
           "slug": "pg-diploma-drone-technology",
@@ -7499,7 +7684,44 @@
           "duration": "3 Years.Full-Time",
           "type": "UG",
           "degree": "Bachelor of Technology",
-          "overview": "Learn to process, analyse, and manage large-scale data using modern tools like Hadoop, Spark, and AI-driven analytics."
+          "overview": "Learn to process, analyse, and manage large-scale data using modern tools like Hadoop, Spark, and AI-driven analytics.",
+          "hero": {
+            "title": {
+              "normal": "B.C.A. Artificial Intelligence and Machine Learning",
+              "italic": ""
+            },
+            "description": "Discover our comprehensive B.C.A. Artificial Intelligence and Machine Learning programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Information Science",
+              "B.C.A. Artificial Intelligence and Machine Learning"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Bachelor of Technology"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years.Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Information Science"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
+            "note": "Eligibility may vary for international students."
+          }
         },
         {
           "slug": "bca-data-science",
@@ -7507,7 +7729,44 @@
           "duration": "3 Years.Full-Time",
           "type": "UG",
           "degree": "Bachelor of Technology",
-          "overview": "Master CI/CD pipelines, cloud infrastructure, and automation tools used in modern software delivery systems."
+          "overview": "Master CI/CD pipelines, cloud infrastructure, and automation tools used in modern software delivery systems.",
+          "hero": {
+            "title": {
+              "normal": "B.C.A. Data Science",
+              "italic": ""
+            },
+            "description": "Discover our comprehensive B.C.A. Data Science programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Information Science",
+              "B.C.A. Data Science"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Bachelor of Technology"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years.Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Information Science"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
+            "note": "Eligibility may vary for international students."
+          }
         },
         {
           "slug": "mca",
@@ -7515,7 +7774,44 @@
           "duration": "2 Years.Full-Time",
           "type": "PG",
           "degree": "Master of Technology",
-          "overview": "Build connected systems and smart devices using IoT technologies, sensors, and cloud platforms."
+          "overview": "Build connected systems and smart devices using IoT technologies, sensors, and cloud platforms.",
+          "hero": {
+            "title": {
+              "normal": "Master of Computer Applications",
+              "italic": "MCA"
+            },
+            "description": "Discover our comprehensive Master of Computer Applications (MCA) programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Information Science",
+              "Master of Computer Applications (MCA)"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Master of Technology"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "2 Years.Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Information Science"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
+            "note": "Eligibility may vary for international students."
+          }
         },
         {
           "slug": "phd-information-science",
@@ -7523,7 +7819,44 @@
           "duration": "Research Programme",
           "type": "PhD",
           "degree": "Doctor of Philosophy",
-          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies."
+          "overview": "Conduct advanced research in computing, AI, data science, and emerging technologies.",
+          "hero": {
+            "title": {
+              "normal": "Ph.D. Information Science",
+              "italic": ""
+            },
+            "description": "Discover our comprehensive Ph.D. Information Science programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Information Science",
+              "Ph.D. Information Science"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Doctor of Philosophy"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "Research Programme",
+            "campus": "Bengaluru, India",
+            "school": "School of Information Science"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have a relevant Master's degree with strong academic record and research aptitude.",
+            "note": "Eligibility may vary for international students."
+          }
         }
       ]
     },
@@ -9017,7 +9350,44 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
-          "overview": "Explore the art and craft of visual storytelling in film and television production."
+          "overview": "Explore the art and craft of visual storytelling in film and television production.",
+          "hero": {
+            "title": {
+              "normal": "BA Journalism & Mass Communication",
+              "italic": "Film & Television Production"
+            },
+            "description": "Discover our comprehensive BA Journalism & Mass Communication (Film & Television Production) programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Management",
+              "BA Journalism & Mass Communication (Film & Television Production)"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Bachelor of Arts"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years",
+            "campus": "Bengaluru, India",
+            "school": "School of Management"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
+            "note": "Eligibility may vary for international students."
+          }
         },
         {
           "slug": "ba-jmc-ar-vr",
@@ -9025,7 +9395,44 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Business Administration",
-          "overview": "Focus on hotel management, tourism, and customer experience in hospitality industries."
+          "overview": "Focus on hotel management, tourism, and customer experience in hospitality industries.",
+          "hero": {
+            "title": {
+              "normal": "BA Journalism & Mass Communication",
+              "italic": "AR/VR & Immersive Media"
+            },
+            "description": "Discover our comprehensive BA Journalism & Mass Communication (AR/VR & Immersive Media) programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Management",
+              "BA Journalism & Mass Communication (AR/VR & Immersive Media)"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Bachelor of Business Administration"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years",
+            "campus": "Bengaluru, India",
+            "school": "School of Management"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
+            "note": "Eligibility may vary for international students."
+          }
         },
         {
           "slug": "mba-finance",
@@ -9033,7 +9440,44 @@
           "duration": "2 Years",
           "type": "PG",
           "degree": "Master of Business Administration",
-          "overview": "Develop expertise in financial management, investment analysis, and corporate finance."
+          "overview": "Develop expertise in financial management, investment analysis, and corporate finance.",
+          "hero": {
+            "title": {
+              "normal": "MBA Finance",
+              "italic": ""
+            },
+            "description": "Discover our comprehensive MBA Finance programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Management",
+              "MBA Finance"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Master of Business Administration"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "2 Years",
+            "campus": "Bengaluru, India",
+            "school": "School of Management"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
+            "note": "Eligibility may vary for international students."
+          }
         },
         {
           "slug": "mba-marketing",
@@ -9041,7 +9485,44 @@
           "duration": "2 Years",
           "type": "PG",
           "degree": "Master of Business Administration",
-          "overview": "Learn branding, consumer behavior, digital marketing, and strategic marketing."
+          "overview": "Learn branding, consumer behavior, digital marketing, and strategic marketing.",
+          "hero": {
+            "title": {
+              "normal": "MBA Marketing",
+              "italic": ""
+            },
+            "description": "Discover our comprehensive MBA Marketing programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Management",
+              "MBA Marketing"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Master of Business Administration"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "2 Years",
+            "campus": "Bengaluru, India",
+            "school": "School of Management"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
+            "note": "Eligibility may vary for international students."
+          }
         },
         {
           "slug": "ba-jmc-content",
@@ -9049,7 +9530,44 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
-          "overview": "Create engaging content for digital platforms including blogs, video, and social media."
+          "overview": "Create engaging content for digital platforms including blogs, video, and social media.",
+          "hero": {
+            "title": {
+              "normal": "BA Journalism & Mass Communication",
+              "italic": "Digital Storytelling & Content Creation"
+            },
+            "description": "Discover our comprehensive BA Journalism & Mass Communication (Digital Storytelling & Content Creation) programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Management",
+              "BA Journalism & Mass Communication (Digital Storytelling & Content Creation)"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Bachelor of Arts"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years",
+            "campus": "Bengaluru, India",
+            "school": "School of Management"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
+            "note": "Eligibility may vary for international students."
+          }
         },
         {
           "slug": "ba-jmc-journalism",
@@ -9316,7 +9834,44 @@
           "duration": "2 Years",
           "type": "PG",
           "degree": "Master of Business Administration",
-          "overview": "Combine business strategy with data analytics to drive decision-making."
+          "overview": "Combine business strategy with data analytics to drive decision-making.",
+          "hero": {
+            "title": {
+              "normal": "MA Journalism & Mass Communication",
+              "italic": ""
+            },
+            "description": "Discover our comprehensive MA Journalism & Mass Communication programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Management",
+              "MA Journalism & Mass Communication"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Master of Business Administration"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "2 Years",
+            "campus": "Bengaluru, India",
+            "school": "School of Management"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
+            "note": "Eligibility may vary for international students."
+          }
         },
         {
           "slug": "phd-management",
@@ -9324,7 +9879,44 @@
           "duration": "Varies",
           "type": "PhD",
           "degree": "Doctor of Philosophy",
-          "overview": "Conduct advanced research in business, management, finance, and marketing."
+          "overview": "Conduct advanced research in business, management, finance, and marketing.",
+          "hero": {
+            "title": {
+              "normal": "Ph.D in Management",
+              "italic": ""
+            },
+            "description": "Discover our comprehensive Ph.D in Management programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Management",
+              "Ph.D in Management"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Doctor of Philosophy"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "Varies",
+            "campus": "Bengaluru, India",
+            "school": "School of Management"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have a relevant Master's degree with strong academic record and research aptitude.",
+            "note": "Eligibility may vary for international students."
+          }
         }
       ]
     },
@@ -9338,7 +9930,44 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Commerce",
-          "overview": "Build a strong foundation in accounting, finance, taxation, and business management."
+          "overview": "Build a strong foundation in accounting, finance, taxation, and business management.",
+          "hero": {
+            "title": {
+              "normal": "B.Com",
+              "italic": "Bachelor of Commerce"
+            },
+            "description": "Discover our comprehensive B.Com (Bachelor of Commerce) programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Commerce",
+              "B.Com (Bachelor of Commerce)"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Bachelor of Commerce"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years",
+            "campus": "Bengaluru, India",
+            "school": "School of Commerce"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
+            "note": "Eligibility may vary for international students."
+          }
         },
         {
           "slug": "bcom-banking-finance",
@@ -10848,7 +11477,44 @@
           "duration": "Varies",
           "type": "PhD",
           "degree": "Doctor of Philosophy",
-          "overview": "Conduct advanced research in accounting, finance, taxation, and commerce-related fields."
+          "overview": "Conduct advanced research in accounting, finance, taxation, and commerce-related fields.",
+          "hero": {
+            "title": {
+              "normal": "Ph.D in Commerce",
+              "italic": ""
+            },
+            "description": "Discover our comprehensive Ph.D in Commerce programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Commerce",
+              "Ph.D in Commerce"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Doctor of Philosophy"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "Varies",
+            "campus": "Bengaluru, India",
+            "school": "School of Commerce"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have a relevant Master's degree with strong academic record and research aptitude.",
+            "note": "Eligibility may vary for international students."
+          }
         }
       ]
     },
@@ -12614,7 +13280,44 @@
           "duration": "Varies",
           "type": "PhD",
           "degree": "Doctor of Philosophy",
-          "overview": "Conduct advanced research in design, innovation, and creative technologies."
+          "overview": "Conduct advanced research in design, innovation, and creative technologies.",
+          "hero": {
+            "title": {
+              "normal": "Ph.D in Design",
+              "italic": ""
+            },
+            "description": "Discover our comprehensive Ph.D in Design programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Design",
+              "Ph.D in Design"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Doctor of Philosophy"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "Varies",
+            "campus": "Bengaluru, India",
+            "school": "School of Design"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have a relevant Master's degree with strong academic record and research aptitude.",
+            "note": "Eligibility may vary for international students."
+          }
         }
       ]
     },
@@ -13359,7 +14062,44 @@
           "duration": "Varies",
           "type": "PhD",
           "degree": "Doctor of Philosophy",
-          "overview": "Conduct advanced legal research in areas such as constitutional law, corporate law, and international law."
+          "overview": "Conduct advanced legal research in areas such as constitutional law, corporate law, and international law.",
+          "hero": {
+            "title": {
+              "normal": "Ph.D in Law",
+              "italic": ""
+            },
+            "description": "Discover our comprehensive Ph.D in Law programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Law",
+              "Ph.D in Law"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Doctor of Philosophy"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "Varies",
+            "campus": "Bengaluru, India",
+            "school": "School of Law"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have a relevant Master's degree with strong academic record and research aptitude.",
+            "note": "Eligibility may vary for international students."
+          }
         }
       ]
     },
@@ -13373,7 +14113,44 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
-          "overview": "Learn digital marketing strategies, branding, advertising, and social media management."
+          "overview": "Learn digital marketing strategies, branding, advertising, and social media management.",
+          "hero": {
+            "title": {
+              "normal": "BA Journalism & Mass Communication",
+              "italic": "Digital Marketing & Advertising"
+            },
+            "description": "Discover our comprehensive BA Journalism & Mass Communication (Digital Marketing & Advertising) programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Media Studies",
+              "BA Journalism & Mass Communication (Digital Marketing & Advertising)"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Bachelor of Arts"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years",
+            "campus": "Bengaluru, India",
+            "school": "School of Media Studies"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
+            "note": "Eligibility may vary for international students."
+          }
         },
         {
           "slug": "ba-jmc-film",
@@ -13381,7 +14158,44 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
-          "overview": "Develop skills in filmmaking, video production, editing, and storytelling."
+          "overview": "Develop skills in filmmaking, video production, editing, and storytelling.",
+          "hero": {
+            "title": {
+              "normal": "BA Journalism & Mass Communication",
+              "italic": "Film & Television Production"
+            },
+            "description": "Discover our comprehensive BA Journalism & Mass Communication (Film & Television Production) programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Media Studies",
+              "BA Journalism & Mass Communication (Film & Television Production)"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Bachelor of Arts"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years",
+            "campus": "Bengaluru, India",
+            "school": "School of Media Studies"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
+            "note": "Eligibility may vary for international students."
+          }
         },
         {
           "slug": "ba-jmc-ar-vr",
@@ -13389,7 +14203,44 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
-          "overview": "Explore augmented reality, virtual reality, and immersive storytelling technologies."
+          "overview": "Explore augmented reality, virtual reality, and immersive storytelling technologies.",
+          "hero": {
+            "title": {
+              "normal": "BA Journalism & Mass Communication",
+              "italic": "AR/VR & Immersive Media"
+            },
+            "description": "Discover our comprehensive BA Journalism & Mass Communication (AR/VR & Immersive Media) programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Media Studies",
+              "BA Journalism & Mass Communication (AR/VR & Immersive Media)"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Bachelor of Arts"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years",
+            "campus": "Bengaluru, India",
+            "school": "School of Media Studies"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
+            "note": "Eligibility may vary for international students."
+          }
         },
         {
           "slug": "ba-jmc-content",
@@ -13397,7 +14248,44 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
-          "overview": "Create engaging content for digital platforms including blogs, video, and social media."
+          "overview": "Create engaging content for digital platforms including blogs, video, and social media.",
+          "hero": {
+            "title": {
+              "normal": "BA Journalism & Mass Communication",
+              "italic": "Digital Storytelling & Content Creation"
+            },
+            "description": "Discover our comprehensive BA Journalism & Mass Communication (Digital Storytelling & Content Creation) programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Media Studies",
+              "BA Journalism & Mass Communication (Digital Storytelling & Content Creation)"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Bachelor of Arts"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years",
+            "campus": "Bengaluru, India",
+            "school": "School of Media Studies"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
+            "note": "Eligibility may vary for international students."
+          }
         },
         {
           "slug": "ba-jmc-journalism",
@@ -13405,7 +14293,44 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
-          "overview": "Learn news reporting, media ethics, investigative journalism, and broadcasting."
+          "overview": "Learn news reporting, media ethics, investigative journalism, and broadcasting.",
+          "hero": {
+            "title": {
+              "normal": "BA Journalism & Mass Communication",
+              "italic": "Journalism"
+            },
+            "description": "Discover our comprehensive BA Journalism & Mass Communication (Journalism) programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Media Studies",
+              "BA Journalism & Mass Communication (Journalism)"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Bachelor of Arts"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years",
+            "campus": "Bengaluru, India",
+            "school": "School of Media Studies"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
+            "note": "Eligibility may vary for international students."
+          }
         },
         {
           "slug": "ma-jmc",
@@ -13413,7 +14338,44 @@
           "duration": "2 Years",
           "type": "PG",
           "degree": "Master of Arts",
-          "overview": "Advanced media studies focusing on journalism, digital media, and communication strategies."
+          "overview": "Advanced media studies focusing on journalism, digital media, and communication strategies.",
+          "hero": {
+            "title": {
+              "normal": "MA Journalism & Mass Communication",
+              "italic": ""
+            },
+            "description": "Discover our comprehensive MA Journalism & Mass Communication programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Media Studies",
+              "MA Journalism & Mass Communication"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Master of Arts"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "2 Years",
+            "campus": "Bengaluru, India",
+            "school": "School of Media Studies"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
+            "note": "Eligibility may vary for international students."
+          }
         },
         {
           "slug": "pg-diploma-film",
@@ -13421,7 +14383,44 @@
           "duration": "1 Year",
           "type": "Diploma",
           "degree": "Post Graduate Diploma",
-          "overview": "Specialised training in filmmaking, cinematography, editing, and production."
+          "overview": "Specialised training in filmmaking, cinematography, editing, and production.",
+          "hero": {
+            "title": {
+              "normal": "PG Diploma in Film Making",
+              "italic": ""
+            },
+            "description": "Discover our comprehensive PG Diploma in Film Making programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Media Studies",
+              "PG Diploma in Film Making"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Post Graduate Diploma"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "1 Year",
+            "campus": "Bengaluru, India",
+            "school": "School of Media Studies"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
+            "note": "Eligibility may vary for international students."
+          }
         },
         {
           "slug": "phd-media",
@@ -13429,7 +14428,44 @@
           "duration": "Varies",
           "type": "PhD",
           "degree": "Doctor of Philosophy",
-          "overview": "Conduct advanced research in journalism, media technologies, and communication studies."
+          "overview": "Conduct advanced research in journalism, media technologies, and communication studies.",
+          "hero": {
+            "title": {
+              "normal": "Ph.D in Media Studies",
+              "italic": ""
+            },
+            "description": "Discover our comprehensive Ph.D in Media Studies programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Media Studies",
+              "Ph.D in Media Studies"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Doctor of Philosophy"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "Varies",
+            "campus": "Bengaluru, India",
+            "school": "School of Media Studies"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have a relevant Master's degree with strong academic record and research aptitude.",
+            "note": "Eligibility may vary for international students."
+          }
         }
       ]
     },
@@ -13443,7 +14479,44 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
-          "overview": "Study human behaviour, cognitive processes, and mental health."
+          "overview": "Study human behaviour, cognitive processes, and mental health.",
+          "hero": {
+            "title": {
+              "normal": "BA Psychology",
+              "italic": ""
+            },
+            "description": "Discover our comprehensive BA Psychology programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Liberal Arts & Sciences",
+              "BA Psychology"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Bachelor of Arts"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years",
+            "campus": "Bengaluru, India",
+            "school": "School of Liberal Arts & Sciences"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
+            "note": "Eligibility may vary for international students."
+          }
         },
         {
           "slug": "ba-english",
@@ -13451,7 +14524,44 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
-          "overview": "Explore literature, language, and communication across cultures."
+          "overview": "Explore literature, language, and communication across cultures.",
+          "hero": {
+            "title": {
+              "normal": "BA English",
+              "italic": ""
+            },
+            "description": "Discover our comprehensive BA English programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Liberal Arts & Sciences",
+              "BA English"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Bachelor of Arts"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years",
+            "campus": "Bengaluru, India",
+            "school": "School of Liberal Arts & Sciences"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
+            "note": "Eligibility may vary for international students."
+          }
         },
         {
           "slug": "ba-political-science",
@@ -13459,7 +14569,44 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
-          "overview": "Understand political systems, governance, and international relations."
+          "overview": "Understand political systems, governance, and international relations.",
+          "hero": {
+            "title": {
+              "normal": "BA Political Science",
+              "italic": ""
+            },
+            "description": "Discover our comprehensive BA Political Science programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Liberal Arts & Sciences",
+              "BA Political Science"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Bachelor of Arts"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years",
+            "campus": "Bengaluru, India",
+            "school": "School of Liberal Arts & Sciences"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
+            "note": "Eligibility may vary for international students."
+          }
         },
         {
           "slug": "ba-economics",
@@ -13467,7 +14614,44 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
-          "overview": "Learn economic theory, policy-making, and global financial systems."
+          "overview": "Learn economic theory, policy-making, and global financial systems.",
+          "hero": {
+            "title": {
+              "normal": "BA Economics",
+              "italic": ""
+            },
+            "description": "Discover our comprehensive BA Economics programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Liberal Arts & Sciences",
+              "BA Economics"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Bachelor of Arts"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years",
+            "campus": "Bengaluru, India",
+            "school": "School of Liberal Arts & Sciences"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
+            "note": "Eligibility may vary for international students."
+          }
         },
         {
           "slug": "ba-sociology",
@@ -13475,7 +14659,44 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
-          "overview": "Study society, culture, and social structures."
+          "overview": "Study society, culture, and social structures.",
+          "hero": {
+            "title": {
+              "normal": "BA Sociology",
+              "italic": ""
+            },
+            "description": "Discover our comprehensive BA Sociology programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Liberal Arts & Sciences",
+              "BA Sociology"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Bachelor of Arts"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years",
+            "campus": "Bengaluru, India",
+            "school": "School of Liberal Arts & Sciences"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
+            "note": "Eligibility may vary for international students."
+          }
         },
         {
           "slug": "bsc-psychology",
@@ -13720,7 +14941,44 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
-          "overview": "Train in classical dance forms with cultural and theoretical foundations."
+          "overview": "Train in classical dance forms with cultural and theoretical foundations.",
+          "hero": {
+            "title": {
+              "normal": "BA Performing Arts",
+              "italic": "Classical Dance"
+            },
+            "description": "Discover our comprehensive BA Performing Arts (Classical Dance) programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Liberal Arts & Sciences",
+              "BA Performing Arts (Classical Dance)"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Bachelor of Arts"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years",
+            "campus": "Bengaluru, India",
+            "school": "School of Liberal Arts & Sciences"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
+            "note": "Eligibility may vary for international students."
+          }
         },
         {
           "slug": "ba-performing-arts-music",
@@ -13728,7 +14986,44 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
-          "overview": "Develop skills in classical music performance and theory."
+          "overview": "Develop skills in classical music performance and theory.",
+          "hero": {
+            "title": {
+              "normal": "BA Performing Arts",
+              "italic": "Classical Music"
+            },
+            "description": "Discover our comprehensive BA Performing Arts (Classical Music) programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Liberal Arts & Sciences",
+              "BA Performing Arts (Classical Music)"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Bachelor of Arts"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years",
+            "campus": "Bengaluru, India",
+            "school": "School of Liberal Arts & Sciences"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
+            "note": "Eligibility may vary for international students."
+          }
         },
         {
           "slug": "ba-performing-arts-western",
@@ -13736,7 +15031,44 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
-          "overview": "Learn western music theory, composition, and performance."
+          "overview": "Learn western music theory, composition, and performance.",
+          "hero": {
+            "title": {
+              "normal": "BA Performing Arts",
+              "italic": "Western Music"
+            },
+            "description": "Discover our comprehensive BA Performing Arts (Western Music) programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Liberal Arts & Sciences",
+              "BA Performing Arts (Western Music)"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Bachelor of Arts"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years",
+            "campus": "Bengaluru, India",
+            "school": "School of Liberal Arts & Sciences"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
+            "note": "Eligibility may vary for international students."
+          }
         },
         {
           "slug": "ba-performing-arts-theatre",
@@ -13744,7 +15076,44 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
-          "overview": "Explore acting, stagecraft, and theatre production."
+          "overview": "Explore acting, stagecraft, and theatre production.",
+          "hero": {
+            "title": {
+              "normal": "BA Performing Arts",
+              "italic": "Theatre Studies"
+            },
+            "description": "Discover our comprehensive BA Performing Arts (Theatre Studies) programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Liberal Arts & Sciences",
+              "BA Performing Arts (Theatre Studies)"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Bachelor of Arts"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years",
+            "campus": "Bengaluru, India",
+            "school": "School of Liberal Arts & Sciences"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
+            "note": "Eligibility may vary for international students."
+          }
         },
         {
           "slug": "msc-psychology",
@@ -14232,7 +15601,44 @@
           "duration": "Varies",
           "type": "PhD",
           "degree": "Doctor of Philosophy",
-          "overview": "Conduct interdisciplinary research across humanities, social sciences, and performing arts."
+          "overview": "Conduct interdisciplinary research across humanities, social sciences, and performing arts.",
+          "hero": {
+            "title": {
+              "normal": "Ph.D in Liberal Arts & Sciences",
+              "italic": ""
+            },
+            "description": "Discover our comprehensive Ph.D in Liberal Arts & Sciences programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Liberal Arts & Sciences",
+              "Ph.D in Liberal Arts & Sciences"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "Doctor of Philosophy"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "Varies",
+            "campus": "Bengaluru, India",
+            "school": "School of Liberal Arts & Sciences"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have a relevant Master's degree with strong academic record and research aptitude.",
+            "note": "Eligibility may vary for international students."
+          }
         }
       ]
     },
