@@ -777,11 +777,7 @@ export function Navigation() {
         <div className="mx-auto max-w-[1400px] px-4 sm:px-6">
           <div className="flex h-[64px] items-center justify-between sm:h-[70px]">
             {/* LOGO */}
-            <Link
-              href="/"
-              className="shrink-0"
-              onClick={closeMobileMenu}
-            >
+            <Link href="/" className="shrink-0" onClick={closeMobileMenu}>
               <img
                 src="/img/logo.webp"
                 alt="Presidency University"
@@ -794,7 +790,9 @@ export function Navigation() {
               {navItems.map((item, i) => (
                 <div
                   key={i}
-                  className={item.hasMegaMenu || item.hasDropdown ? "relative" : ""}
+                  className={
+                    item.hasMegaMenu || item.hasDropdown ? "relative" : ""
+                  }
                   onMouseEnter={() =>
                     (item.hasDropdown || item.hasMegaMenu) &&
                     handleMouseEnter(item.label)
@@ -823,17 +821,37 @@ export function Navigation() {
                       {item.customMega ? (
                         <div className="overflow-hidden rounded-2xl border border-gray-200/80 bg-white shadow-[0_24px_64px_rgba(15,30,61,0.14)]">
                           {/* Quick links */}
-                          {Array.isArray((item as { quickLinks?: { label: string; href: string }[] }).quickLinks) &&
-                            (item as { quickLinks: { label: string; href: string }[] }).quickLinks.length > 0 && (
+                          {Array.isArray(
+                            (
+                              item as {
+                                quickLinks?: { label: string; href: string }[];
+                              }
+                            ).quickLinks,
+                          ) &&
+                            (
+                              item as {
+                                quickLinks: { label: string; href: string }[];
+                              }
+                            ).quickLinks.length > 0 && (
                               <div className="flex flex-wrap gap-2 border-b border-white/10 bg-gradient-to-r from-[#0f1e3d] via-[#1a3050] to-[#0d4f55] px-5 py-4">
-                                {(item as { quickLinks: { label: string; href: string }[] }).quickLinks.map((ql, qi) => (
+                                {(
+                                  item as {
+                                    quickLinks: {
+                                      label: string;
+                                      href: string;
+                                    }[];
+                                  }
+                                ).quickLinks.map((ql, qi) => (
                                   <Link
                                     key={qi}
                                     href={ql.href}
                                     className="inline-flex items-center gap-1.5 rounded-full border border-white/15 bg-white/10 px-4 py-2 text-xs font-medium text-white backdrop-blur-sm transition hover:bg-white/20"
                                   >
                                     {ql.label}
-                                    <ArrowRight size={12} className="opacity-80" />
+                                    <ArrowRight
+                                      size={12}
+                                      className="opacity-80"
+                                    />
                                   </Link>
                                 ))}
                               </div>
@@ -850,7 +868,8 @@ export function Navigation() {
                                 </h3>
                               </div>
                               <p className="max-w-md text-xs text-gray-500 sm:text-sm">
-                                Select a school, then explore undergraduate, postgraduate, doctoral, and diploma offerings.
+                                Select a school, then explore undergraduate,
+                                postgraduate, doctoral, and diploma offerings.
                               </p>
                             </div>
 
@@ -861,53 +880,69 @@ export function Navigation() {
                                   Schools
                                 </p>
                                 <div className="max-h-[min(420px,55vh)] space-y-0.5 overflow-y-auto pr-1">
-                                  {Object.keys(programmesData).map((school, si) => (
-                                    <button
-                                      key={si}
-                                      type="button"
-                                      onMouseEnter={() => setActiveSchool(school)}
-                                      className={`w-full rounded-lg px-3 py-2.5 text-left text-sm transition ${
-                                        activeSchool === school
-                                          ? "bg-white font-semibold text-[#1e3a5f] shadow-sm ring-1 ring-[#0A8F96]/25"
-                                          : "text-gray-600 hover:bg-white/80 hover:text-[#0A8F96]"
-                                      }`}
-                                    >
-                                      <span className="line-clamp-2 leading-snug">
-                                        Presidency School of {school}
-                                      </span>
-                                    </button>
-                                  ))}
+                                  {Object.keys(programmesData).map(
+                                    (school, si) => (
+                                      <button
+                                        key={si}
+                                        type="button"
+                                        onMouseEnter={() =>
+                                          setActiveSchool(school)
+                                        }
+                                        className={`w-full rounded-lg px-3 py-2.5 text-left text-sm transition ${
+                                          activeSchool === school
+                                            ? "bg-white font-semibold text-[#1e3a5f] shadow-sm ring-1 ring-[#0A8F96]/25"
+                                            : "text-gray-600 hover:bg-white/80 hover:text-[#0A8F96]"
+                                        }`}
+                                      >
+                                        <span className="line-clamp-2 leading-snug">
+                                          Presidency School of {school}
+                                        </span>
+                                      </button>
+                                    ),
+                                  )}
                                 </div>
                               </aside>
 
                               {/* Level columns */}
                               <div className="grid min-h-0 grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-4 xl:gap-5">
-                                {programmesData[activeSchool]?.ug.length > 0 && (
+                                {programmesData[activeSchool]?.ug.length >
+                                  0 && (
                                   <ProgrammeMegaColumn
                                     title="Undergraduate"
                                     accent="bg-[#0A8F96]"
-                                    programmes={programmesData[activeSchool]?.ug}
+                                    programmes={
+                                      programmesData[activeSchool]?.ug
+                                    }
                                   />
                                 )}
-                                {programmesData[activeSchool]?.pg.length > 0 && (
+                                {programmesData[activeSchool]?.pg.length >
+                                  0 && (
                                   <ProgrammeMegaColumn
                                     title="Postgraduate"
                                     accent="bg-[#D4A843]"
-                                    programmes={programmesData[activeSchool]?.pg}
+                                    programmes={
+                                      programmesData[activeSchool]?.pg
+                                    }
                                   />
                                 )}
-                                {programmesData[activeSchool]?.phd.length > 0 && (
+                                {programmesData[activeSchool]?.phd.length >
+                                  0 && (
                                   <ProgrammeMegaColumn
                                     title="Doctoral"
                                     accent="bg-[#6b4f9a]"
-                                    programmes={programmesData[activeSchool]?.phd}
+                                    programmes={
+                                      programmesData[activeSchool]?.phd
+                                    }
                                   />
                                 )}
-                                {programmesData[activeSchool]?.diploma.length > 0 && (
+                                {programmesData[activeSchool]?.diploma.length >
+                                  0 && (
                                   <ProgrammeMegaColumn
                                     title="Diploma"
                                     accent="bg-[#c45c2d]"
-                                    programmes={programmesData[activeSchool]?.diploma}
+                                    programmes={
+                                      programmesData[activeSchool]?.diploma
+                                    }
                                   />
                                 )}
                               </div>
@@ -927,35 +962,39 @@ export function Navigation() {
                           </div>
                           <div className="px-4 py-6 sm:px-6 sm:py-8">
                             <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 lg:gap-4">
-                              {item.megaMenu?.map((section: any, idx: number) => (
-                                <div
-                                  key={idx}
-                                  className="flex min-h-0 min-w-0 flex-col rounded-xl border border-gray-100 bg-[#fafbfc] p-4 shadow-sm"
-                                >
-                                  <h4 className="mb-3 border-b border-gray-200 pb-2 text-sm font-bold leading-tight text-[#1e3a5f]">
-                                    {section.title}
-                                  </h4>
-                                  <div className="flex flex-col gap-2">
-                                    {section.items.map((sub: any, i: number) => {
-                                      const Icon = iconMap[sub.icon];
-                                      return (
-                                        <Link
-                                          key={i}
-                                          href={sub.href}
-                                          className="group flex items-start gap-2.5 rounded-lg p-1.5 transition hover:bg-white hover:shadow-sm"
-                                        >
-                                          <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-[#0A8F96]/10 text-[#1e3a5f] transition group-hover:bg-[#1e3a5f] group-hover:text-white">
-                                            {Icon && <Icon size={16} />}
-                                          </div>
-                                          <span className="min-w-0 text-sm leading-snug text-gray-700 group-hover:text-[#1e3a5f]">
-                                            {sub.label}
-                                          </span>
-                                        </Link>
-                                      );
-                                    })}
+                              {item.megaMenu?.map(
+                                (section: any, idx: number) => (
+                                  <div
+                                    key={idx}
+                                    className="flex min-h-0 min-w-0 flex-col rounded-xl border border-gray-100 bg-[#fafbfc] p-4 shadow-sm"
+                                  >
+                                    <h4 className="mb-3 border-b border-gray-200 pb-2 text-sm font-bold leading-tight text-[#1e3a5f]">
+                                      {section.title}
+                                    </h4>
+                                    <div className="flex flex-col gap-2">
+                                      {section.items.map(
+                                        (sub: any, i: number) => {
+                                          const Icon = iconMap[sub.icon];
+                                          return (
+                                            <Link
+                                              key={i}
+                                              href={sub.href}
+                                              className="group flex items-center gap-2.5 rounded-lg p-1.5 transition hover:bg-white hover:shadow-sm"
+                                            >
+                                              <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-[#0A8F96]/10 text-[#1e3a5f] transition group-hover:bg-[#1e3a5f] group-hover:text-white">
+                                                {Icon && <Icon size={16} />}
+                                              </div>
+                                              <span className="min-w-0 text-sm leading-snug text-gray-700 group-hover:text-[#1e3a5f]">
+                                                {sub.label}
+                                              </span>
+                                            </Link>
+                                          );
+                                        },
+                                      )}
+                                    </div>
                                   </div>
-                                </div>
-                              ))}
+                                ),
+                              )}
                             </div>
                           </div>
                         </div>
