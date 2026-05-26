@@ -4710,7 +4710,24 @@
           "description": "To provide comprehensive, industry-aligned education in computer science and engineering, cultivate innovation through research and projects, and develop professionals equipped to solve complex computational challenges.",
           "points": []
         }
-      }
+      },
+      "programSections": [
+        {
+          "type": "UG",
+          "title": "Undergraduate Programmes",
+          "subtitle": "Build strong foundations in your field of interest"
+        },
+        {
+          "type": "PG",
+          "title": "Postgraduate Programmes",
+          "subtitle": "Advance your expertise with specialized studies"
+        },
+        {
+          "type": "PhD",
+          "title": "Doctoral & Diploma Programmes",
+          "subtitle": "Pursue research and specialized professional training"
+        }
+      ]
     },
     {
       "slug": "engineering",
@@ -7594,7 +7611,24 @@
           "description": "To deliver comprehensive engineering education combining theoretical rigor with practical application, foster research and innovation, and develop engineers committed to sustainable development.",
           "points": []
         }
-      }
+      },
+      "programSections": [
+        {
+          "type": "UG",
+          "title": "Undergraduate Programmes",
+          "subtitle": "Build strong foundations in your field of interest"
+        },
+        {
+          "type": "PG",
+          "title": "Postgraduate Programmes",
+          "subtitle": "Advance your expertise with specialized studies"
+        },
+        {
+          "type": "PhD",
+          "title": "Doctoral & Diploma Programmes",
+          "subtitle": "Pursue research and specialized professional training"
+        }
+      ]
     },
     {
       "slug": "information-science",
@@ -11142,6 +11176,23 @@
           "question": "Are there any executive or part-time options?",
           "answer": "Yes, we offer executive programs designed for working professionals, with flexible schedules including weekend and online delivery options."
         }
+      ],
+      "programSections": [
+        {
+          "type": "UG",
+          "title": "Undergraduate Programmes",
+          "subtitle": "Build strong foundations in your field of interest"
+        },
+        {
+          "type": "PG",
+          "title": "Postgraduate Programmes",
+          "subtitle": "Advance your expertise with specialized studies"
+        },
+        {
+          "type": "PhD",
+          "title": "Doctoral & Diploma Programmes",
+          "subtitle": "Pursue research and specialized professional training"
+        }
       ]
     },
     {
@@ -12993,6 +13044,18 @@
         {
           "question": "Is mathematics a compulsory subject?",
           "answer": "For B.Com, mathematics is typically optional but recommended for accounting and finance specializations."
+        }
+      ],
+      "programSections": [
+        {
+          "type": "UG",
+          "title": "Undergraduate Programmes",
+          "subtitle": "Build strong foundations in your field of interest"
+        },
+        {
+          "type": "PhD",
+          "title": "Doctoral & Diploma Programmes",
+          "subtitle": "Pursue research and specialized professional training"
         }
       ]
     },
@@ -14988,6 +15051,18 @@
           "question": "What are the career prospects for designers?",
           "answer": "Strong demand across creative agencies, tech companies, startups, corporate design teams, and freelance opportunities with competitive compensation."
         }
+      ],
+      "programSections": [
+        {
+          "type": "UG",
+          "title": "Undergraduate Programmes",
+          "subtitle": "Build strong foundations in your field of interest"
+        },
+        {
+          "type": "PhD",
+          "title": "Doctoral & Diploma Programmes",
+          "subtitle": "Pursue research and specialized professional training"
+        }
       ]
     },
     {
@@ -15942,6 +16017,23 @@
         {
           "question": "What are placement opportunities for law graduates?",
           "answer": "Graduates pursue careers as advocates, corporate counsels, judges, legal consultants, and in government positions with law firms and corporations."
+        }
+      ],
+      "programSections": [
+        {
+          "type": "UG",
+          "title": "Undergraduate Programmes",
+          "subtitle": "Build strong foundations in your field of interest"
+        },
+        {
+          "type": "PG",
+          "title": "Postgraduate Programmes",
+          "subtitle": "Advance your expertise with specialized studies"
+        },
+        {
+          "type": "PhD",
+          "title": "Doctoral & Diploma Programmes",
+          "subtitle": "Pursue research and specialized professional training"
         }
       ]
     },
@@ -16940,6 +17032,23 @@
         {
           "question": "Is knowledge of multiple languages helpful?",
           "answer": "Yes, proficiency in English, Hindi, and regional languages is advantageous in India's diverse media landscape."
+        }
+      ],
+      "programSections": [
+        {
+          "type": "UG",
+          "title": "Undergraduate Programmes",
+          "subtitle": "Build strong foundations in your field of interest"
+        },
+        {
+          "type": "PG",
+          "title": "Postgraduate Programmes",
+          "subtitle": "Advance your expertise with specialized studies"
+        },
+        {
+          "type": "PhD",
+          "title": "Doctoral & Diploma Programmes",
+          "subtitle": "Pursue research and specialized professional training"
         }
       ]
     },
@@ -18881,6 +18990,23 @@
           "question": "Are there opportunities for research and internships?",
           "answer": "Yes, research opportunities, internships with NGOs, media organizations, government agencies, and corporate partners are integrated into our programs."
         }
+      ],
+      "programSections": [
+        {
+          "type": "UG",
+          "title": "Undergraduate Programmes",
+          "subtitle": "Build strong foundations in your field of interest"
+        },
+        {
+          "type": "PG",
+          "title": "Postgraduate Programmes",
+          "subtitle": "Advance your expertise with specialized studies"
+        },
+        {
+          "type": "PhD",
+          "title": "Doctoral & Diploma Programmes",
+          "subtitle": "Pursue research and specialized professional training"
+        }
       ]
     },
     {
@@ -19752,7 +19878,8 @@
             }
           ]
         }
-      ]
+      ],
+      "programSections": []
     }
   ]
 }
