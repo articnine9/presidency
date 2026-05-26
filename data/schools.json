@@ -4698,8 +4698,16 @@
         "description": "The School of Computer Science & Engineering is at the forefront of technology education. We combine cutting-edge curriculum with practical industry experience, preparing students for careers in software development, artificial intelligence, cloud computing, cybersecurity, and emerging technologies."
       },
       "visionMission": {
-        "vision": "To be a globally recognized center of excellence in computer science and engineering education, research, and innovation, fostering technologists who drive digital transformation.",
-        "mission": "To provide comprehensive, industry-aligned education in computer science and engineering, cultivate innovation through research and projects, and develop professionals equipped to solve complex computational challenges."
+        "vision": {
+          "title": "Vision",
+          "description": "To be a globally recognized center of excellence in computer science and engineering education, research, and innovation, fostering technologists who drive digital transformation.",
+          "points": []
+        },
+        "mission": {
+          "title": "Mission",
+          "description": "To provide comprehensive, industry-aligned education in computer science and engineering, cultivate innovation through research and projects, and develop professionals equipped to solve complex computational challenges.",
+          "points": []
+        }
       }
     },
     {
@@ -7257,8 +7265,16 @@
         "description": "The School of Engineering encompasses multiple disciplines including mechanical, civil, electrical, petroleum, and specialized engineering fields. We emphasize practical skills, hands-on laboratory experience, and collaboration with industry to prepare engineers for real-world challenges."
       },
       "visionMission": {
-        "vision": "To cultivate world-class engineers who drive innovation, sustainability, and progress through advanced technical knowledge and ethical practice.",
-        "mission": "To deliver comprehensive engineering education combining theoretical rigor with practical application, foster research and innovation, and develop engineers committed to sustainable development."
+        "vision": {
+          "title": "Vision",
+          "description": "To cultivate world-class engineers who drive innovation, sustainability, and progress through advanced technical knowledge and ethical practice.",
+          "points": []
+        },
+        "mission": {
+          "title": "Mission",
+          "description": "To deliver comprehensive engineering education combining theoretical rigor with practical application, foster research and innovation, and develop engineers committed to sustainable development.",
+          "points": []
+        }
       }
     },
     {
@@ -10018,8 +10034,16 @@
         "description": "The School of Management offers rigorous business education combining management theory, case study analysis, and real-world projects. Our programs develop leaders and managers equipped with strategic thinking, entrepreneurial mindset, and global business acumen."
       },
       "visionMission": {
-        "vision": "To develop ethical, visionary leaders who create sustainable value for organizations and society in an increasingly complex global business environment.",
-        "mission": "To provide comprehensive management education emphasizing strategic thinking, ethical leadership, and business innovation, fostering professionals who drive organizational excellence and social responsibility."
+        "vision": {
+          "title": "Vision",
+          "description": "To develop ethical, visionary leaders who create sustainable value for organizations and society in an increasingly complex global business environment.",
+          "points": []
+        },
+        "mission": {
+          "title": "Mission",
+          "description": "To provide comprehensive management education emphasizing strategic thinking, ethical leadership, and business innovation, fostering professionals who drive organizational excellence and social responsibility.",
+          "points": []
+        }
       },
       "programPreview": {
         "title": "Our Programs",
@@ -11734,8 +11758,16 @@
         "description": "The School of Commerce offers specialized education in accounting, finance, and business operations. Our curriculum is aligned with professional bodies like CA, ICWA, and ICSI, ensuring students are equipped for professional certifications and corporate careers."
       },
       "visionMission": {
-        "vision": "To nurture competent, ethical commerce professionals who contribute to sound financial decision-making and organizational excellence.",
-        "mission": "To provide comprehensive commerce education combining financial and accounting expertise with business acumen, fostering professionals prepared for CA, ICWA, ICSI, and corporate roles."
+        "vision": {
+          "title": "Vision",
+          "description": "To nurture competent, ethical commerce professionals who contribute to sound financial decision-making and organizational excellence.",
+          "points": []
+        },
+        "mission": {
+          "title": "Mission",
+          "description": "To provide comprehensive commerce education combining financial and accounting expertise with business acumen, fostering professionals prepared for CA, ICWA, ICSI, and corporate roles.",
+          "points": []
+        }
       },
       "programPreview": {
         "title": "Our Programs",
@@ -13655,8 +13687,16 @@
         "description": "The School of Design nurtures creative professionals skilled in graphic design, user experience design, product design, and visual communication. We emphasize design thinking, problem-solving, and industry-standard tools to prepare designers for global creative industries."
       },
       "visionMission": {
-        "vision": "To cultivate innovative designers who create meaningful, user-centered design solutions that improve lives and drive social impact.",
-        "mission": "To provide comprehensive design education combining artistic creativity with design methodology, foster design thinking and problem-solving, and develop professionals prepared for creative industries."
+        "vision": {
+          "title": "Vision",
+          "description": "To cultivate innovative designers who create meaningful, user-centered design solutions that improve lives and drive social impact.",
+          "points": []
+        },
+        "mission": {
+          "title": "Mission",
+          "description": "To provide comprehensive design education combining artistic creativity with design methodology, foster design thinking and problem-solving, and develop professionals prepared for creative industries.",
+          "points": []
+        }
       },
       "programPreview": {
         "title": "Our Programs",
@@ -14555,8 +14595,16 @@
         "description": "The School of Law offers rigorous legal education combining constitutional law, criminal law, civil law, corporate law, and contemporary legal issues. Our programs prepare advocates, judges, legal advisors, and corporate counselors through moot courts, legal clinics, and internships with courts and law firms."
       },
       "visionMission": {
-        "vision": "To develop ethical, competent legal professionals who uphold justice, advance rule of law, and serve society with integrity.",
-        "mission": "To provide comprehensive legal education emphasizing constitutional values, practical legal skills, and professional ethics, fostering advocates and legal professionals committed to justice."
+        "vision": {
+          "title": "Vision",
+          "description": "To develop ethical, competent legal professionals who uphold justice, advance rule of law, and serve society with integrity.",
+          "points": []
+        },
+        "mission": {
+          "title": "Mission",
+          "description": "To provide comprehensive legal education emphasizing constitutional values, practical legal skills, and professional ethics, fostering advocates and legal professionals committed to justice.",
+          "points": []
+        }
       },
       "programPreview": {
         "title": "Our Programs",
@@ -15021,8 +15069,16 @@
         "description": "The School of Media Studies offers comprehensive education in journalism, broadcasting, digital media, and mass communication. Our programs combine media theory, professional skills, and hands-on experience in state-of-the-art facilities, preparing students for evolving media landscapes."
       },
       "visionMission": {
-        "vision": "To develop responsible, skilled media professionals who uphold journalistic integrity and drive meaningful communication in society.",
-        "mission": "To provide comprehensive media education combining journalistic principles, digital innovation, and multimedia skills, fostering professionals committed to ethical, impactful storytelling."
+        "vision": {
+          "title": "Vision",
+          "description": "To develop responsible, skilled media professionals who uphold journalistic integrity and drive meaningful communication in society.",
+          "points": []
+        },
+        "mission": {
+          "title": "Mission",
+          "description": "To provide comprehensive media education combining journalistic principles, digital innovation, and multimedia skills, fostering professionals committed to ethical, impactful storytelling.",
+          "points": []
+        }
       },
       "programPreview": {
         "title": "Our Programs",
@@ -16312,8 +16368,16 @@
         "description": "The School of Liberal Arts & Sciences offers interdisciplinary education combining humanities, social sciences, natural sciences, and professional studies. Our programs develop critical thinkers and versatile professionals prepared for evolving careers and engaged global citizenship."
       },
       "visionMission": {
-        "vision": "To cultivate intellectually engaged citizens and professionals who think critically, communicate effectively, and contribute meaningfully to society.",
-        "mission": "To provide comprehensive liberal arts education emphasizing critical thinking, interdisciplinary learning, and global perspectives, developing versatile professionals prepared for diverse careers."
+        "vision": {
+          "title": "Vision",
+          "description": "To cultivate intellectually engaged citizens and professionals who think critically, communicate effectively, and contribute meaningfully to society.",
+          "points": []
+        },
+        "mission": {
+          "title": "Mission",
+          "description": "To provide comprehensive liberal arts education emphasizing critical thinking, interdisciplinary learning, and global perspectives, developing versatile professionals prepared for diverse careers.",
+          "points": []
+        }
       },
       "programPreview": {
         "title": "Our Programs",
@@ -16443,8 +16507,16 @@
         "description": "The School of Health Sciences is dedicated to developing compassionate, competent, and committed healthcare professionals. Our interdisciplinary approach combines theoretical knowledge with practical skills, ensuring graduates are prepared for the dynamic healthcare landscape."
       },
       "visionMission": {
-        "vision": "To be a leading institution in health sciences education, research, and service, contributing to improved health outcomes and advancement of global healthcare.",
-        "mission": "To provide comprehensive, evidence-based education in health sciences, foster innovation in healthcare practices, and develop professionals committed to community health and wellness."
+        "vision": {
+          "title": "Vision",
+          "description": "To be a leading institution in health sciences education, research, and service, contributing to improved health outcomes and advancement of global healthcare.",
+          "points": []
+        },
+        "mission": {
+          "title": "Mission",
+          "description": "To provide comprehensive, evidence-based education in health sciences, foster innovation in healthcare practices, and develop professionals committed to community health and wellness.",
+          "points": []
+        }
       },
       "programPreview": {
         "title": "Our Programs",
