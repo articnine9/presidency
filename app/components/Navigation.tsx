@@ -435,41 +435,41 @@ export function Navigation() {
       ug: [
         {
           label: "BA (Journalism & Mass Communication) — General",
-          href: "/schools/media-studies/ba-journalism-communication-general",
+          href: "/schools/media/ba-journalism-communication-general",
         },
         {
           label: "BA JMC (Digital Marketing & Advertising / PR & Corporate)",
-          href: "/schools/media-studies/ba-jmc-digital-marketing-advertising",
+          href: "/schools/media/ba-jmc-digital-marketing-advertising",
         },
         {
           label: "BA JMC (Film, Television & Digital Production)",
-          href: "/schools/media-studies/ba-jmc-film-television-digital-production",
+          href: "/schools/media/ba-jmc-film-television-digital-production",
         },
         {
           label: "BA JMC (Immersive Media, AR/VR & Interactive Storytelling)",
-          href: "/schools/media-studies/ba-jmc-immersivemedia-ar-vr-interactive-storytelling",
+          href: "/schools/media/ba-jmc-immersivemedia-ar-vr-interactive-storytelling",
         },
         {
           label: "BA JMC (Digital Storytelling & Content Creation)",
-          href: "/schools/media-studies/ba-jmc-digital-storytelling-content-creation",
+          href: "/schools/media/ba-jmc-digital-storytelling-content-creation",
         },
       ],
       pg: [
         {
           label: "MA Journalism & Mass Communication",
-          href: "/schools/media-studies/ma-journalism-mass-communication",
+          href: "/schools/media/ma-journalism-mass-communication",
         },
       ],
       phd: [
         {
           label: "Ph.D. Media Studies",
-          href: "/schools/media-studies/phd-media-studies",
+          href: "/schools/media/phd-media-studies",
         },
       ],
       diploma: [
         {
           label: "Post Graduate Diploma in Film Making",
-          href: "/schools/media-studies/post-graduate-diploma-film-making",
+          href: "/schools/media/post-graduate-diploma-film-making",
         },
       ],
     },
