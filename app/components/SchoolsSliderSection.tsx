@@ -14,35 +14,35 @@ const schools = [
     title: "School of Computer Science & Engineering",
     description:
       "Offers UG, PG and PhD programmes in Artificial Intelligence, Data Science, Cyber Security, Blockchain and Robotics.",
-    image: "img/cse.png",
+    image: "/img/cse.png",
     slug: "computer-science",
   },
   {
     title: "School of Engineering",
     description:
       "Engineering programmes in Electronics, Electrical, Civil, Mechanical, Petroleum and VLSI technologies.",
-    image: "img/school-eng.png",
+    image: "/img/school-eng.png",
     slug: "engineering",
   },
   {
     title: "School of Management",
     description:
       "Business education including BBA, MBA and doctoral research across finance, marketing and analytics.",
-    image: "img/mang.png",
+    image: "/img/mang.png",
     slug: "management",
   },
   {
     title: "School of Design",
     description:
       "Creative design programmes including product design, fashion design, game design and multimedia.",
-    image: "img/media.png",
+    image: "/img/media.png",
     slug: "design",
   },
   {
     title: "School of Law",
     description:
       "Integrated BA LLB, BBA LLB and LLM programmes with moot court training and legal research.",
-    image: "img/law.png",
+    image: "/img/law.png",
     slug: "law",
   },
 ];

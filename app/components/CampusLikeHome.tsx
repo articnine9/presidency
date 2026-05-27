@@ -15,29 +15,29 @@ export function CampusLikeHome() {
     {
       title: "Sports & Student Life",
       subtitle: "Athletics, wellness & recreation facilities",
-      image: "img/campus-like/sports.png",
+      image: "/img/campus-like/sports.png",
       large: true,
     },
     {
       title: "Smart Digital Campus",
       subtitle: "High-speed Wi-Fi & fully networked environment",
-      image: "img/campus-like/smart.jpeg",
+      image: "/img/campus-like/smart.jpeg",
     },
     {
       title: " Design & Media Studios",
       subtitle: "SOD labs, media labs & broadcasting studios",
-      image: "img/campus-like/design-media.jpeg",
+      image: "/img/campus-like/design-media.jpeg",
     },
     {
       title: "Library & Knowledge Hub",
       subtitle: "AI, ML, IoT, VLSI & Robotics facilities",
-      image: "img/campus-like/library.png",
+      image: "/img/campus-like/library.png",
       wide: true,
     },
     {
       title: "Advanced Learning Labs",
       subtitle: "Digital library, journals & Manupatra access",
-      image: "img/bang-life/innovation.png",
+      image: "/img/bang-life/innovation.png",
     },
   ];
 

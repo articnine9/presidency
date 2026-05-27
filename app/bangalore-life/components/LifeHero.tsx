@@ -53,12 +53,12 @@ export default function BangaloreLife() {
             {
               title: "TECHNOLOGY HUBS",
               desc: "Specific innovation labs",
-              img: "img/banglo/hubs.png",
+              img: "/img/banglo/hubs.png",
             },
             {
               title: "CULTURAL LANDMARKS",
               desc: "Modernised heritage-inspired sites",
-              img: "img/banglo/landmark.png",
+              img: "/img/banglo/landmark.png",
             },
             {
               title: "CUBBON PARK",

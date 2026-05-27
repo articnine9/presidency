@@ -216,7 +216,7 @@ export function ProgrammesSection() {
           >
             <div className="relative overflow-hidden rounded-2xl shadow-2xl">
               <img
-                src="img/perfect.jpeg"
+                src="/img/perfect.jpeg"
                 alt="Students"
                 className="
                   w-full

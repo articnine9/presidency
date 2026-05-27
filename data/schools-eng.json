@@ -4549,7 +4549,7 @@
         "content": [
           "The School of Computer Science & Engineering is at the forefront of technology education. We combine cutting-edge curriculum with practical industry experience, preparing students for careers in software development, artificial intelligence, cloud computing, cybersecurity, and emerging technologies."
         ],
-        "image": "img/cse.png",
+        "image": "/img/cse.png",
         "features": [
           {
             "title": "AI & Machine Learning",
@@ -6969,7 +6969,7 @@
         "content": [
           "The School of Engineering encompasses multiple disciplines including mechanical, civil, electrical, petroleum, and specialized engineering fields. We emphasize practical skills, hands-on laboratory experience, and collaboration with industry to prepare engineers for real-world challenges."
         ],
-        "image": "img/school-eng.png",
+        "image": "/img/school-eng.png",
         "features": [
           {
             "title": "Advanced Laboratories",
@@ -7082,7 +7082,7 @@
           "The Presidency School of Information Science offers application-centred computing education through three undergraduate programmes and a postgraduate programme, each designed to produce graduates with strong programming, analytical, and software development skills. The school focuses on fields that define the modern technology landscape — data science, artificial intelligence, machine learning, cybersecurity, cloud computing, and full-stack development. With a curriculum structured around the Choice Based Credit System (CBCS) and Outcome Based Education (OBE), students build both breadth and depth across information technology disciplines.",
           "The school has established collaborations with IITs and prominent industry partners for laboratory training, summer programmes, and industry-based certification. A partnership with a Switzerland-based organisation through the Global AI Hub has provided AI and data science certification training to over 2,800 students. Faculty members have been trained at IIT Madras in XR/AR and VR technologies, and the school is developing a Centre of Excellence in Extended Reality (XR). Over 100 research scholars currently pursue doctoral programmes within the school, and a Digital Forensics initiative is being developed in collaboration with the Criminal Investigation Department of Karnataka State. The school’s BCA programme has been ranked 27th nationally among the Top 100 BCA Colleges and Universities."
         ],
-        "image": "img/cse.png",
+        "image": "/img/cse.png",
         "hexagons": [
           {
             "type": "text",
@@ -10952,7 +10952,7 @@
         "content": [
           "The School of Management offers rigorous business education combining management theory, case study analysis, and real-world projects. Our programs develop leaders and managers equipped with strategic thinking, entrepreneurial mindset, and global business acumen."
         ],
-        "image": "img/mang.png",
+        "image": "/img/mang.png",
         "features": [
           {
             "title": "Case-Based Learning",
@@ -12790,7 +12790,7 @@
         "content": [
           "The School of Commerce offers specialized education in accounting, finance, and business operations. Our curriculum is aligned with professional bodies like CA, ICWA, and ICSI, ensuring students are equipped for professional certifications and corporate careers."
         ],
-        "image": "img/mang.png",
+        "image": "/img/mang.png",
         "features": [
           {
             "title": "CA Integration",
@@ -14731,7 +14731,7 @@
         "content": [
           "The School of Design nurtures creative professionals skilled in graphic design, user experience design, product design, and visual communication. We emphasize design thinking, problem-solving, and industry-standard tools to prepare designers for global creative industries."
         ],
-        "image": "img/media.png",
+        "image": "/img/media.png",
         "features": [
           {
             "title": "Design Studios",
@@ -16794,7 +16794,7 @@
         "content": [
           "The School of Media Studies offers comprehensive education in journalism, broadcasting, digital media, and mass communication. Our programs combine media theory, professional skills, and hands-on experience in state-of-the-art facilities, preparing students for evolving media landscapes."
         ],
-        "image": "img/media.png",
+        "image": "/img/media.png",
         "features": [
           {
             "title": "Production Studios",
@@ -19984,7 +19984,7 @@
         "content": [
           "The School of Health Sciences is dedicated to developing compassionate, competent, and committed healthcare professionals. Our interdisciplinary approach combines theoretical knowledge with practical skills, ensuring graduates are prepared for the dynamic healthcare landscape."
         ],
-        "image": "img/cse.png",
+        "image": "/img/cse.png",
         "features": [
           {
             "title": "Clinical Training",

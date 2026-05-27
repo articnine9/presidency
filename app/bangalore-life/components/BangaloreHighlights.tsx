@@ -21,12 +21,12 @@ export default function BangaloreHighlights() {
           <div className="grid grid-cols-2 gap-4">
             <div className="grid grid-cols-3 gap-4">
   {[
-    { img: "img/logos/ibm.png", title: "IBM" },
-    { img: "img/logos/microsoft.png", title: "MICROSOFT" },
-    { img: "img/logos/google.png", title: "google" },
-    { img: "img/logos/amazon.png", title: "amazon" },
-    { img: "img/logos/infosys.png", title: "infosys" },
-    { img: "img/logos/wipro.png", title: "wipro" },
+    { img: "/img/logos/ibm.png", title: "IBM" },
+    { img: "/img/logos/microsoft.png", title: "MICROSOFT" },
+    { img: "/img/logos/google.png", title: "google" },
+    { img: "/img/logos/amazon.png", title: "amazon" },
+    { img: "/img/logos/infosys.png", title: "infosys" },
+    { img: "/img/logos/wipro.png", title: "wipro" },
   ].map((item, i) => (
     <div
       key={i}
@@ -78,13 +78,13 @@ export default function BangaloreHighlights() {
           {/* IMAGE CARDS */}
           <div className="grid grid-cols-3 gap-4">
             {[
-              { img: "img/city-life/cafes.png", title: "Modern Cafes" },
+              { img: "/img/city-life/cafes.png", title: "Modern Cafes" },
               {
-                img: "img/city-life/Art.png",
+                img: "/img/city-life/Art.png",
                 title: "Art Galleries",
               },
               {
-                img: "img/city-life/Co-working.png",
+                img: "/img/city-life/Co-working.png",
                 title: "Co-working Spaces",
               },
             ].map((item, i) => (

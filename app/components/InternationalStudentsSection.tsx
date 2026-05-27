@@ -8,7 +8,7 @@ export function InternationalStudentsSection() {
       
       {/* BACKGROUND */}
       <img
-        src="img/international-students-bg.jpeg"
+        src="/img/international-students-bg.jpeg"
         alt="International Students"
         className="absolute inset-0 h-full w-full object-cover"
       />
