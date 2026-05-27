@@ -143,6 +143,7 @@
             "The B.Tech in Electronics & Communication Engineering explores the design, development, and deployment of electronic devices, circuits, and communication systems that underpin modern life. From mobile networks and satellite communications to embedded controllers and IoT devices, the programme builds expertise across analogue and digital electronics, signal processing, wireless systems, VLSI technology, and microcontroller-based design. Students gain fluency in both hardware and software aspects of electronic engineering through an integrated curriculum of theory, laboratory practice, and project work.",
             "Bengaluru’s position as a centre for semiconductor manufacturing, telecom R&D, and electronics innovation gives students proximity to major employers and research organisations. The programme incorporates industry-oriented certifications, collaborative projects, and internship placements that connect classroom learning to professional practice. Graduates emerge prepared for roles in telecommunications, semiconductor design, consumer electronics, aerospace, defence, and automation industries worldwide."
           ],
+          
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -4517,6 +4518,7 @@
         }
       ],
       "hero": {
+        "image": "/img/banner/socs.jpg",
         "title": {
           "normal": "School of",
           "italic": "Computer Science & Engineering"
@@ -6936,6 +6938,7 @@
         }
       ],
       "hero": {
+        "image": "/img/banner/soe.jpg",
         "title": {
           "normal": "School of",
           "italic": "Engineering"
@@ -7046,6 +7049,7 @@
       "slug": "information-science",
       "name": "School of Information Science",
       "hero": {
+        "image": "/img/banner/sois.jpg",
         "title": {
           "normal": "School of ",
           "italic": "Information Science"
@@ -7056,7 +7060,7 @@
           "Schools",
           "Engineering"
         ],
-        "image": "/img/classes/1.jpg",
+       
         "stats": [
           {
             "label": "UG Programmes",
@@ -7570,6 +7574,7 @@
                 "value": "Active"
               }
             ]
+
           },
           "details": {
             "duration": "3 Years.Full-Time",
@@ -10916,6 +10921,7 @@
         }
       ],
       "hero": {
+        "image": "/img/banner/som.jpg",
         "title": {
           "normal": "School of",
           "italic": "Management"
@@ -12753,6 +12759,7 @@
         }
       ],
       "hero": {
+       "image": "/img/banner/soc.jpg",
         "title": {
           "normal": "School of",
           "italic": "Commerce"
@@ -14693,6 +14700,7 @@
         }
       ],
       "hero": {
+        "image": "/img/banner/sod.jpg",
         "title": {
           "normal": "School of",
           "italic": "Design"
@@ -15614,6 +15622,7 @@
         }
       ],
       "hero": {
+        "image": "/img/banner/sol.jpg",
         "title": {
           "normal": "School of",
           "italic": "Law"
@@ -16754,6 +16763,7 @@
         }
       ],
       "hero": {
+        "image": "/img/banner/somedia.jpg",
         "title": {
           "normal": "School of",
           "italic": "Media Studies"
@@ -19743,6 +19753,7 @@
         }
       ],
       "hero": {
+        "image": "/img/banner/sola.jpg",
         "title": {
           "normal": "School of",
           "italic": "Liberal Arts & Sciences"
@@ -19942,6 +19953,7 @@
       "slug": "health",
       "name": "School of Health Sciences",
       "hero": {
+        "image": "/img/banner/soh.jpg",
         "title": {
           "normal": "School of",
           "italic": "Health Sciences"
