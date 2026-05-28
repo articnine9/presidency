@@ -4518,7 +4518,7 @@
         }
       ],
       "hero": {
-        "image": "/img/banner/socs.jpg",
+        "image": "/img/banner/socs.JPG",
         "title": {
           "normal": "School of",
           "italic": "Computer Science & Engineering"
@@ -6942,7 +6942,7 @@
         }
       ],
       "hero": {
-        "image": "/img/banner/soe.jpg",
+        "image": "/img/banner/soe.JPG",
         "title": {
           "normal": "School of",
           "italic": "Engineering"
@@ -7057,7 +7057,7 @@
       "slug": "information-science",
       "name": "School of Information Science",
       "hero": {
-        "image": "/img/banner/sois.jpg",
+        "image": "/img/banner/sois.JPG",
         "title": {
           "normal": "School of ",
           "italic": "Information Science"
@@ -10933,7 +10933,7 @@
         }
       ],
       "hero": {
-        "image": "/img/banner/som.jpg",
+        "image": "/img/banner/som.JPG",
         "title": {
           "normal": "School of",
           "italic": "Management"
@@ -12775,7 +12775,7 @@
         }
       ],
       "hero": {
-       "image": "/img/banner/soc.jpg",
+       "image": "/img/banner/soc.JPG",
         "title": {
           "normal": "School of",
           "italic": "Commerce"
@@ -14720,7 +14720,7 @@
         }
       ],
       "hero": {
-        "image": "/img/banner/sod.jpg",
+        "image": "/img/banner/sod.JPG",
         "title": {
           "normal": "School of",
           "italic": "Design"
@@ -15646,7 +15646,7 @@
         }
       ],
       "hero": {
-        "image": "/img/banner/sol.jpg",
+        "image": "/img/banner/sol.JPG",
         "title": {
           "normal": "School of",
           "italic": "Law"
@@ -16791,7 +16791,7 @@
         }
       ],
       "hero": {
-        "image": "/img/banner/somedia.jpg",
+        "image": "/img/banner/somedia.JPG",
         "title": {
           "normal": "School of",
           "italic": "Media Studies"
@@ -19785,7 +19785,7 @@
         }
       ],
       "hero": {
-        "image": "/img/banner/sola.jpg",
+        "image": "/img/banner/sola.JPG",
         "title": {
           "normal": "School of",
           "italic": "Liberal Arts & Sciences"
@@ -19989,7 +19989,7 @@
       "slug": "health",
       "name": "School of Health Sciences",
       "hero": {
-        "image": "/img/banner/soh.jpg",
+        "image": "/img/banner/soh.JPG",
         "title": {
           "normal": "School of",
           "italic": "Health Sciences"
