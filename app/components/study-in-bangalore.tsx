@@ -41,7 +41,7 @@ export default function StudyInBangalore() {
               "
             >
               <img
-                src="/images/bangalore-city.jpg"
+                src="/img/bang-life/bangalore-city.jpg"
                 alt="Bangalore City"
                 className="
                   w-full

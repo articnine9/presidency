@@ -224,13 +224,13 @@ export default function InternationalPrograms({ data }: any) {
             {/* MAP */}
             <div className="px-2 py-3">
               <img
-                src="/img/study-in-india/world-map.webp"
+                src="/img/study-in-india/global.jpg"
                 alt="Global Partner Institutions"
                 className="
                   h-full
                   w-full
                   rounded-xl
-                  object-cover
+                  object-contain
                 "
               />
             </div>
@@ -371,12 +371,12 @@ export default function InternationalPrograms({ data }: any) {
             {/* MAP */}
             <div className="relative h-[450px] lg:h-full">
               <img
-                src="/img/study-in-india/world-map.webp"
+                src="/img/study-in-india/global.jpg"
                 alt="Global Partner Institutions"
                 className="
                   h-full
                   w-full
-                  object-cover
+                  object-contain
                 "
               />
             </div>

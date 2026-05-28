@@ -9,7 +9,7 @@
 
     "breadcrumb": ["Home", "Campus Life"],
 
-    "image": "/img/campus_hero.png",
+    "image": "/img/campus-life.jpg",
 
     "stats": [
       {
@@ -42,7 +42,7 @@
     "intro": "Presidency University offers a modern campus equipped with advanced academic, recreational, and support facilities to enhance student learning and overall student experience.",
 
     "items": [
-      {
+       {
         "title": "High-Speed Wi-Fi",
         "desc": "Fully networked campus across academic and residential buildings.",
         "image": "/img/infrastructure/wifi.jpg"
@@ -60,7 +60,7 @@
       {
         "title": "Design Labs",
         "desc": "Specialised design studios for communication, fashion, product, and spatial design.",
-        "image": "/img/infrastructure/design-lab.jpg"
+        "image": "/img/infrastructure/design-lab.jpeg"
       },
       {
         "title": "Media Labs",

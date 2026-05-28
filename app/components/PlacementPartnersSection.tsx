@@ -17,29 +17,29 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 
 const companies = [
-  {
+   {
     name: "Amazon",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg",
+    logo: "/img/logos/amazon.png",
   },
   {
-    name: "Deloitte",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/5/56/Deloitte.svg",
+    name: "google",
+    logo: "/img/logos/google.png",
   },
   {
-    name: "Capgemini",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/9/9d/Capgemini_201x_logo.svg",
+    name: "microsoft",
+    logo: "/img/logos/microsoft.png",
   },
   {
     name: "KPMG",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/9/9a/KPMG_logo.svg",
+    logo: "/img/logos/kpmg.png",
   },
   {
     name: "Infosys",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/9/95/Infosys_logo.svg",
+    logo: "/img/logos/infosys.png",
   },
   {
     name: "Cognizant",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/4/43/Cognizant_logo_2022.svg",
+    logo: "/img/logos/cognizant.png",
   },
 ];
 
