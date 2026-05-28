@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import {
   GraduationCap,
   FileText,
@@ -202,7 +203,8 @@ export default function AdmissionProcessPage() {
 
         {/* 🔥 MOBILE BUTTON */}
         <div className="mt-8 md:hidden">
-          <button
+          <Link
+            href="/contact"
             className="
               w-full
               bg-[#0A8F96]
@@ -221,12 +223,13 @@ export default function AdmissionProcessPage() {
           >
             CONNECT WITH OUR TEAM
             <Headphones size={18} />
-          </button>
+          </Link>
         </div>
 
         {/* 🔥 DESKTOP BUTTON */}
         <div className="hidden md:block mt-10">
-          <button
+          <Link
+            href="/contact"
             className="
               inline-flex
               items-center
@@ -247,7 +250,7 @@ export default function AdmissionProcessPage() {
           >
             CONNECT WITH OUR TEAM
             <ArrowRight size={18} />
-          </button>
+          </Link>
         </div>
       </section>
     </div>

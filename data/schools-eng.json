@@ -143,6 +143,7 @@
             "The B.Tech in Electronics & Communication Engineering explores the design, development, and deployment of electronic devices, circuits, and communication systems that underpin modern life. From mobile networks and satellite communications to embedded controllers and IoT devices, the programme builds expertise across analogue and digital electronics, signal processing, wireless systems, VLSI technology, and microcontroller-based design. Students gain fluency in both hardware and software aspects of electronic engineering through an integrated curriculum of theory, laboratory practice, and project work.",
             "Bengaluru’s position as a centre for semiconductor manufacturing, telecom R&D, and electronics innovation gives students proximity to major employers and research organisations. The programme incorporates industry-oriented certifications, collaborative projects, and internship placements that connect classroom learning to professional practice. Graduates emerge prepared for roles in telecommunications, semiconductor design, consumer electronics, aerospace, defence, and automation industries worldwide."
           ],
+          
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -4517,6 +4518,7 @@
         }
       ],
       "hero": {
+        "image": "/img/banner/socs.jpg",
         "title": {
           "normal": "School of",
           "italic": "Computer Science & Engineering"
@@ -5737,7 +5739,7 @@
           }
         },
         {
-          "slug": "btech-mechanical-engineerin",
+          "slug": "btech-mechanical-engineering",
           "name": "B.Tech Mechanical Engineering",
           "duration": "4 Years.Full-Time",
           "type": "UG",
@@ -6463,7 +6465,7 @@
           }
         },
         {
-          "slug": "btech-buliding-construction-technology",
+          "slug": "mtech-buliding-construction-technology",
           "name": "M.Tech Building & Construction Technology",
           "duration": "2 Years.Full-Time",
           "type": "PG",
@@ -6940,6 +6942,7 @@
         }
       ],
       "hero": {
+        "image": "/img/banner/soe.jpg",
         "title": {
           "normal": "School of",
           "italic": "Engineering"
@@ -7054,6 +7057,7 @@
       "slug": "information-science",
       "name": "School of Information Science",
       "hero": {
+        "image": "/img/banner/sois.jpg",
         "title": {
           "normal": "School of ",
           "italic": "Information Science"
@@ -7064,7 +7068,7 @@
           "Schools",
           "Engineering"
         ],
-        "image": "/img/classes/1.jpg",
+       
         "stats": [
           {
             "label": "UG Programmes",
@@ -7582,6 +7586,7 @@
                 "value": "Active"
               }
             ]
+
           },
           "details": {
             "duration": "3 Years.Full-Time",
@@ -8237,7 +8242,7 @@
           }
         },
         {
-          "slug": "bba-aviation",
+          "slug": "bba-aviation-management",
           "name": "BBA Aviation Management",
           "duration": "3 Years",
           "type": "UG",
@@ -9225,7 +9230,7 @@
           }
         },
         {
-          "slug": "bba-hospitality",
+          "slug": "bba-hospitality-management",
           "name": "BBA Hospitality Management",
           "duration": "3 Years",
           "type": "UG",
@@ -9748,7 +9753,7 @@
           ]
         },
         {
-          "slug": "mba-finance",
+          "slug": "mba",
           "name": "MBA Finance",
           "duration": "2 Years",
           "type": "PG",
@@ -9886,7 +9891,7 @@
           ]
         },
         {
-          "slug": "mba-marketing",
+          "slug": "mba-marketing-finance",
           "name": "MBA Marketing",
           "duration": "2 Years",
           "type": "PG",
@@ -10553,9 +10558,382 @@
               "a": "Yes, we support student startups with mentorship, funding, and resources"
             }
           ]
+        },
+        {
+          "slug": "mba-banking-finance-management",
+          "name": "MBA (Banking and Finance Management)",
+          "duration": "2 Years",
+          "type": "PG",
+          "degree": "Master of Business Administration",
+          "hero": {
+            "title": {
+              "normal": "MBA Banking and",
+              "italic": "Finance Management"
+            },
+            "description": "Master banking operations and financial management with a specialised MBA designed for the modern financial industry.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Management",
+              "MBA Banking Finance Management"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "2 Yr"
+              },
+              {
+                "label": "Semesters",
+                "value": "4"
+              },
+              {
+                "label": "Core Programme",
+                "value": "MBA"
+              }
+            ]
+          },
+          "details": {
+            "duration": "2 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Management"
+          },
+          "overview": [
+            "The MBA in Banking and Finance Management prepares students for leadership roles in banking, financial services, and investment sectors.",
+            "The programme covers financial analysis, banking operations, risk management, corporate finance, and regulatory frameworks with strong industry engagement."
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have a bachelor's degree with minimum 50% marks from a recognised university.",
+            "note": "Eligibility may vary for international students."
+          },
+          "highlights": [
+            {
+              "title": "Banking & Finance Focus",
+              "description": "Specialised curriculum covering banking regulations, risk management, and financial instruments."
+            },
+            {
+              "title": "Industry Exposure",
+              "description": "Live projects and internships with leading banks and financial institutions."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Banking & Finance",
+              "roles": [
+                "Bank Manager",
+                "Financial Analyst",
+                "Investment Banker",
+                "Risk Manager",
+                "Credit Officer"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "What is the eligibility?",
+              "a": "A bachelor's degree with minimum 50% marks is required."
+            },
+            {
+              "q": "Are placements available?",
+              "a": "Yes, the university has strong ties with banking and financial institutions."
+            }
+          ],
+          "cta": {
+            "title": "Advance Your Finance Career",
+            "subtitle": "Join Presidency University's MBA in Banking and Finance Management.",
+            "button": "Apply Now"
+          },
+          "tabs": {
+            "curriculum": [],
+            "outcomes": {
+              "PEOs": [],
+              "POs": [],
+              "PSOs": []
+            }
+          }
+        },
+        {
+          "slug": "mba-digital-marketing",
+          "name": "MBA (Digital Marketing)",
+          "duration": "2 Years",
+          "type": "PG",
+          "degree": "Master of Business Administration",
+          "hero": {
+            "title": {
+              "normal": "MBA",
+              "italic": "Digital Marketing"
+            },
+            "description": "Lead digital marketing strategy with an MBA combining business fundamentals and cutting-edge digital marketing expertise.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Management",
+              "MBA Digital Marketing"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "2 Yr"
+              },
+              {
+                "label": "Semesters",
+                "value": "4"
+              },
+              {
+                "label": "Core Programme",
+                "value": "MBA"
+              }
+            ]
+          },
+          "details": {
+            "duration": "2 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Management"
+          },
+          "overview": [
+            "The MBA in Digital Marketing equips students with advanced skills in digital strategy, data-driven marketing, and brand management.",
+            "Students learn SEO, SEM, social media marketing, content strategy, and analytics tools to lead marketing functions in modern organisations."
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have a bachelor's degree with minimum 50% marks from a recognised university.",
+            "note": "Eligibility may vary for international students."
+          },
+          "highlights": [
+            {
+              "title": "Digital Strategy & Analytics",
+              "description": "Master digital marketing channels, campaign management, and data analytics for business growth."
+            },
+            {
+              "title": "Industry Tools",
+              "description": "Hands-on training with Google Ads, Meta Business Suite, HubSpot, and analytics platforms."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Digital Marketing",
+              "roles": [
+                "Digital Marketing Manager",
+                "SEO Specialist",
+                "Content Strategist",
+                "Brand Manager",
+                "Growth Hacker"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "What is the eligibility?",
+              "a": "A bachelor's degree with minimum 50% marks is required."
+            },
+            {
+              "q": "What tools will I learn?",
+              "a": "Google Analytics, SEMrush, HubSpot, Meta Ads Manager and more."
+            }
+          ],
+          "cta": {
+            "title": "Lead the Digital Revolution",
+            "subtitle": "Build your career in digital marketing with our specialised MBA.",
+            "button": "Apply Now"
+          },
+          "tabs": {
+            "curriculum": [],
+            "outcomes": {
+              "PEOs": [],
+              "POs": [],
+              "PSOs": []
+            }
+          }
+        },
+        {
+          "slug": "mba-business-analytics",
+          "name": "MBA (Business Analytics)",
+          "duration": "2 Years",
+          "type": "PG",
+          "degree": "Master of Business Administration",
+          "hero": {
+            "title": {
+              "normal": "MBA",
+              "italic": "Business Analytics"
+            },
+            "description": "Transform data into business insights with an MBA combining management expertise and advanced analytics skills.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Management",
+              "MBA Business Analytics"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "2 Yr"
+              },
+              {
+                "label": "Semesters",
+                "value": "4"
+              },
+              {
+                "label": "Core Programme",
+                "value": "MBA"
+              }
+            ]
+          },
+          "details": {
+            "duration": "2 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Management"
+          },
+          "overview": [
+            "The MBA in Business Analytics develops professionals who can harness data to drive strategic business decisions.",
+            "The programme combines MBA fundamentals with data science, statistical modelling, machine learning applications, and business intelligence tools."
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have a bachelor's degree with minimum 50% marks from a recognised university.",
+            "note": "Eligibility may vary for international students."
+          },
+          "highlights": [
+            {
+              "title": "Data-Driven Decision Making",
+              "description": "Learn to extract actionable insights from complex datasets using advanced analytical tools."
+            },
+            {
+              "title": "Business Intelligence Tools",
+              "description": "Hands-on experience with Tableau, Power BI, Python, R, and SQL for business analysis."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Analytics & Data",
+              "roles": [
+                "Business Analyst",
+                "Data Analyst",
+                "Analytics Manager",
+                "Strategy Consultant",
+                "BI Developer"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "What is the eligibility?",
+              "a": "A bachelor's degree with minimum 50% marks is required."
+            },
+            {
+              "q": "What programming skills are taught?",
+              "a": "Python, R, and SQL are core components of the analytics curriculum."
+            }
+          ],
+          "cta": {
+            "title": "Become a Data-Driven Leader",
+            "subtitle": "Master business analytics with our industry-aligned MBA programme.",
+            "button": "Apply Now"
+          },
+          "tabs": {
+            "curriculum": [],
+            "outcomes": {
+              "PEOs": [],
+              "POs": [],
+              "PSOs": []
+            }
+          }
+        },
+        {
+          "slug": "pg-diploma-public-administration",
+          "name": "Post Graduate Diploma in Public Administration",
+          "duration": "1 Year",
+          "type": "Diploma",
+          "degree": "Post Graduate Diploma",
+          "hero": {
+            "title": {
+              "normal": "PG Diploma in",
+              "italic": "Public Administration"
+            },
+            "description": "Build a career in governance and public service with our Post Graduate Diploma in Public Administration.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Management",
+              "PG Diploma Public Administration"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "1 Yr"
+              },
+              {
+                "label": "Semesters",
+                "value": "2"
+              },
+              {
+                "label": "Core Programme",
+                "value": "Diploma"
+              }
+            ]
+          },
+          "details": {
+            "duration": "1 Year Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Management"
+          },
+          "overview": [
+            "The Post Graduate Diploma in Public Administration provides a thorough grounding in governance, public policy, and administrative systems.",
+            "The programme prepares students for roles in government, public sector undertakings, NGOs, and international organisations."
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have a bachelor's degree with minimum 50% marks from a recognised university.",
+            "note": "Eligibility may vary for international students."
+          },
+          "highlights": [
+            {
+              "title": "Public Policy & Governance",
+              "description": "Comprehensive study of governance frameworks, public policy design, and administrative processes."
+            },
+            {
+              "title": "NGO & Government Exposure",
+              "description": "Industry interactions with government officials and NGO representatives."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Public Sector",
+              "roles": [
+                "Government Officer",
+                "Policy Analyst",
+                "NGO Programme Manager",
+                "Public Relations Officer",
+                "Administrative Officer"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "What is the eligibility?",
+              "a": "A bachelor's degree with minimum 50% marks is required."
+            },
+            {
+              "q": "Is this a recognised qualification?",
+              "a": "Yes, the diploma is awarded by Presidency University, a UGC-recognised institution."
+            }
+          ],
+          "cta": {
+            "title": "Serve the Public Good",
+            "subtitle": "Build a rewarding career in governance and public administration.",
+            "button": "Apply Now"
+          },
+          "tabs": {
+            "curriculum": [],
+            "outcomes": {
+              "PEOs": [],
+              "POs": [],
+              "PSOs": []
+            }
+          }
         }
       ],
       "hero": {
+        "image": "/img/banner/som.jpg",
         "title": {
           "normal": "School of",
           "italic": "Management"
@@ -10889,7 +11267,7 @@
           ]
         },
         {
-          "slug": "bcom-banking-finance",
+          "slug": "bcom-banking-and-finance",
           "name": "B.Com Banking & Finance",
           "duration": "3 Years",
           "type": "UG",
@@ -11385,7 +11763,7 @@
           }
         },
         {
-          "slug": "bcom-cma",
+          "slug": "bcom-corporate-accounting-integrated-cma-us",
           "name": "B.Com with CMA (US)",
           "duration": "3 Years",
           "type": "UG",
@@ -11889,7 +12267,7 @@
           }
         },
         {
-          "slug": "bcom-corporate-tax",
+          "slug": "bcom-corporate-accounting-and-taxation",
           "name": "B.Com Corporate Accounting & Taxation",
           "duration": "3 Years",
           "type": "UG",
@@ -12397,6 +12775,7 @@
         }
       ],
       "hero": {
+       "image": "/img/banner/soc.jpg",
         "title": {
           "normal": "School of",
           "italic": "Commerce"
@@ -12587,7 +12966,7 @@
       "name": "School of Design",
       "programs": [
         {
-          "slug": "bdes-communication",
+          "slug": "bdes-communication-design",
           "name": "B.Des Communication Design",
           "duration": "4 Years",
           "type": "UG",
@@ -12838,7 +13217,7 @@
           }
         },
         {
-          "slug": "bdes-fashion",
+          "slug": "bdes-fashion-design",
           "name": "B.Des Fashion Design",
           "duration": "4 Years",
           "type": "UG",
@@ -13089,7 +13468,7 @@
           }
         },
         {
-          "slug": "bdes-product",
+          "slug": "bdes-product-design",
           "name": "B.Des Product Design",
           "duration": "4 Years",
           "type": "UG",
@@ -13340,7 +13719,7 @@
           }
         },
         {
-          "slug": "bdes-space",
+          "slug": "bdes-space-design",
           "name": "B.Des Space Design",
           "duration": "4 Years",
           "type": "UG",
@@ -13591,7 +13970,7 @@
           }
         },
         {
-          "slug": "bdes-game",
+          "slug": "bdes-game-design",
           "name": "B.Des Game Design",
           "duration": "4 Years",
           "type": "UG",
@@ -13842,7 +14221,7 @@
           }
         },
         {
-          "slug": "bsc-multimedia",
+          "slug": "bsc-multimedia-and-animation",
           "name": "B.Sc Multimedia & Animation",
           "duration": "3 Years",
           "type": "UG",
@@ -14341,6 +14720,7 @@
         }
       ],
       "hero": {
+        "image": "/img/banner/sod.jpg",
         "title": {
           "normal": "School of",
           "italic": "Design"
@@ -15266,6 +15646,7 @@
         }
       ],
       "hero": {
+        "image": "/img/banner/sol.jpg",
         "title": {
           "normal": "School of",
           "italic": "Law"
@@ -15443,7 +15824,7 @@
       "name": "School of Media Studies",
       "programs": [
         {
-          "slug": "ba-jmc-digital-marketing",
+          "slug": "ba-jmc-digital-marketing-advertising",
           "name": "BA Journalism & Mass Communication (Digital Marketing & Advertising)",
           "duration": "3 Years",
           "type": "UG",
@@ -15581,7 +15962,7 @@
           ]
         },
         {
-          "slug": "ba-jmc-film",
+          "slug": "ba-jmc-film-television-digital-production",
           "name": "BA Journalism & Mass Communication (Film & Television Production)",
           "duration": "3 Years",
           "type": "UG",
@@ -15719,7 +16100,7 @@
           ]
         },
         {
-          "slug": "ba-jmc-ar-vr",
+          "slug": "ba-jmc-immersivemedia-ar-vr-interactive-storytelling",
           "name": "BA Journalism & Mass Communication (AR/VR & Immersive Media)",
           "duration": "3 Years",
           "type": "UG",
@@ -15857,7 +16238,7 @@
           ]
         },
         {
-          "slug": "ba-jmc-content",
+          "slug": "ba-jmc-digital-storytelling-content-creation",
           "name": "BA Journalism & Mass Communication (Digital Storytelling & Content Creation)",
           "duration": "3 Years",
           "type": "UG",
@@ -15995,7 +16376,7 @@
           ]
         },
         {
-          "slug": "ba-jmc-journalism",
+          "slug": "ba-journalism-communication-general",
           "name": "BA Journalism & Mass Communication (Journalism)",
           "duration": "3 Years",
           "type": "UG",
@@ -16133,7 +16514,7 @@
           ]
         },
         {
-          "slug": "ma-jmc",
+          "slug": "ma-journalism-mass-communication",
           "name": "MA Journalism & Mass Communication",
           "duration": "2 Years",
           "type": "PG",
@@ -16271,7 +16652,7 @@
           ]
         },
         {
-          "slug": "pg-diploma-film",
+          "slug": "post-graduate-diploma-film-making",
           "name": "PG Diploma in Film Making",
           "duration": "1 Year",
           "type": "Diploma",
@@ -16410,6 +16791,7 @@
         }
       ],
       "hero": {
+        "image": "/img/banner/somedia.jpg",
         "title": {
           "normal": "School of",
           "italic": "Media Studies"
@@ -16601,11 +16983,11 @@
       }
     },
     {
-      "slug": "liberal-arts",
+      "slug": "liberal-arts-science",
       "name": "School of Liberal Arts & Sciences",
       "programs": [
         {
-          "slug": "ba-psychology",
+          "slug": "ba-psychology-economics",
           "name": "BA Psychology",
           "duration": "3 Years",
           "type": "UG",
@@ -16743,7 +17125,7 @@
           ]
         },
         {
-          "slug": "ba-english",
+          "slug": "ba-english-history",
           "name": "BA English",
           "duration": "3 Years",
           "type": "UG",
@@ -16881,7 +17263,7 @@
           ]
         },
         {
-          "slug": "ba-political-science",
+          "slug": "ba-history-political-science",
           "name": "BA Political Science",
           "duration": "3 Years",
           "type": "UG",
@@ -17019,7 +17401,7 @@
           ]
         },
         {
-          "slug": "ba-economics",
+          "slug": "ba-political-science-economics",
           "name": "BA Economics",
           "duration": "3 Years",
           "type": "UG",
@@ -17157,7 +17539,7 @@
           ]
         },
         {
-          "slug": "ba-sociology",
+          "slug": "ba-communication-media",
           "name": "BA Sociology",
           "duration": "3 Years",
           "type": "UG",
@@ -17534,7 +17916,7 @@
           }
         },
         {
-          "slug": "ba-performing-arts-dance",
+          "slug": "ba-arts-classicaldance-psychology",
           "name": "BA Performing Arts (Classical Dance)",
           "duration": "3 Years",
           "type": "UG",
@@ -17672,7 +18054,7 @@
           ]
         },
         {
-          "slug": "ba-performing-arts-music",
+          "slug": "ba-arts-classicalmusic-psychology",
           "name": "BA Performing Arts (Classical Music)",
           "duration": "3 Years",
           "type": "UG",
@@ -17810,7 +18192,7 @@
           ]
         },
         {
-          "slug": "ba-performing-arts-western",
+          "slug": "ba-performing-arts-western-music-instrumental-english",
           "name": "BA Performing Arts (Western Music)",
           "duration": "3 Years",
           "type": "UG",
@@ -17948,7 +18330,7 @@
           ]
         },
         {
-          "slug": "ba-performing-arts-theatre",
+          "slug": "ba-theatre-studies-psychology",
           "name": "BA Performing Arts (Theatre Studies)",
           "duration": "3 Years",
           "type": "UG",
@@ -18086,7 +18468,7 @@
           ]
         },
         {
-          "slug": "msc-psychology",
+          "slug": "msc-psychology-child-clinical-counselling-industrial-psychology",
           "name": "M.Sc Psychology",
           "duration": "2 Years",
           "type": "PG",
@@ -18325,7 +18707,7 @@
           }
         },
         {
-          "slug": "ma-english",
+          "slug": "ma-english-digital-humanities-cultural-Studies-creative-writing-educational-leadership",
           "name": "MA English",
           "duration": "2 Years",
           "type": "PG",
@@ -18562,9 +18944,848 @@
             "subtitle": "Join Presidency University and build your career in technology.",
             "button": "Apply Now"
           }
+        },
+        {
+          "slug": "ba-psychology-english",
+          "name": "B.A. (Psychology, English)",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Arts",
+          "hero": {
+            "title": {
+              "normal": "B.A. Psychology,",
+              "italic": "English"
+            },
+            "description": "Explore the intersection of human behaviour and literary expression in this unique interdisciplinary programme.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Liberal Arts & Sciences",
+              "BA Psychology English"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "3 Yr"
+              },
+              {
+                "label": "Semesters",
+                "value": "6"
+              },
+              {
+                "label": "Core Programme",
+                "value": "BA"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Liberal Arts & Sciences"
+          },
+          "overview": [
+            "The B.A. in Psychology and English offers an interdisciplinary study of human behaviour, literary analysis, and communication.",
+            "Students develop strong analytical, writing, and critical thinking skills applicable across education, counselling, media, and corporate sectors."
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with any stream and minimum 45% marks.",
+            "note": "Eligibility may vary for international students."
+          },
+          "highlights": [
+            {
+              "title": "Interdisciplinary Learning",
+              "description": "Combines psychology principles with literary studies for a holistic arts education."
+            },
+            {
+              "title": "Communication Skills",
+              "description": "Develop advanced writing, analytical and verbal communication skills."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Arts & Education",
+              "roles": [
+                "Counsellor",
+                "Content Writer",
+                "Editor",
+                "Teacher",
+                "HR Executive"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "What is the eligibility?",
+              "a": "10+2 with any stream and minimum 45% marks."
+            },
+            {
+              "q": "What careers can I pursue?",
+              "a": "Counselling, content writing, education, HR, and media."
+            }
+          ],
+          "cta": {
+            "title": "Explore Arts & Psychology",
+            "subtitle": "Build a versatile career combining psychology and English studies.",
+            "button": "Apply Now"
+          },
+          "tabs": {
+            "curriculum": [],
+            "outcomes": {
+              "PEOs": [],
+              "POs": [],
+              "PSOs": []
+            }
+          }
+        },
+        {
+          "slug": "ba-english-political-science",
+          "name": "B.A. (English & Political Science)",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Arts",
+          "hero": {
+            "title": {
+              "normal": "B.A. English &",
+              "italic": "Political Science"
+            },
+            "description": "Combine the power of language and political thought in this dynamic arts programme.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Liberal Arts & Sciences",
+              "BA English Political Science"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "3 Yr"
+              },
+              {
+                "label": "Semesters",
+                "value": "6"
+              },
+              {
+                "label": "Core Programme",
+                "value": "BA"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Liberal Arts & Sciences"
+          },
+          "overview": [
+            "The B.A. in English and Political Science develops critical thinkers equipped for careers in journalism, policy, law, and public service.",
+            "Students gain expertise in political theory, governance, literary analysis, and communication."
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with any stream and minimum 45% marks.",
+            "note": "Eligibility may vary for international students."
+          },
+          "highlights": [
+            {
+              "title": "Political Theory & Literature",
+              "description": "Combined study of political systems and English literature for well-rounded arts graduates."
+            },
+            {
+              "title": "Communication & Analysis",
+              "description": "Strong emphasis on research, debate, and written communication skills."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Arts & Policy",
+              "roles": [
+                "Journalist",
+                "Policy Researcher",
+                "Teacher",
+                "Civil Servant",
+                "Content Creator"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "What is the eligibility?",
+              "a": "10+2 with any stream and minimum 45% marks."
+            },
+            {
+              "q": "Can I pursue law after this?",
+              "a": "Yes, graduates commonly pursue law programmes or civil services."
+            }
+          ],
+          "cta": {
+            "title": "Shape Policy Through Language",
+            "subtitle": "Develop critical thinking and communication skills for a career in public life.",
+            "button": "Apply Now"
+          },
+          "tabs": {
+            "curriculum": [],
+            "outcomes": {
+              "PEOs": [],
+              "POs": [],
+              "PSOs": []
+            }
+          }
+        },
+        {
+          "slug": "ba-arts-classicaldance-english",
+          "name": "B.A. (Performing Arts - Classical Dance, English)",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Arts",
+          "hero": {
+            "title": {
+              "normal": "B.A. Classical Dance",
+              "italic": "& English"
+            },
+            "description": "Blend the grace of classical dance with the richness of English literature in this distinctive performing arts programme.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Liberal Arts & Sciences",
+              "BA Classical Dance English"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "3 Yr"
+              },
+              {
+                "label": "Semesters",
+                "value": "6"
+              },
+              {
+                "label": "Core Programme",
+                "value": "BA"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Liberal Arts & Sciences"
+          },
+          "overview": [
+            "The B.A. in Performing Arts combining Classical Dance and English offers a unique blend of artistic training and literary scholarship.",
+            "Students develop performance skills in classical dance forms alongside English literature, cultural studies, and communication."
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with any stream and minimum 45% marks. Prior dance training is preferred.",
+            "note": "Eligibility may vary for international students."
+          },
+          "highlights": [
+            {
+              "title": "Classical Dance Training",
+              "description": "Structured training in Indian classical dance forms by experienced faculty and guest artists."
+            },
+            {
+              "title": "English & Cultural Studies",
+              "description": "Literary analysis and cultural studies complement the performing arts curriculum."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Performing Arts",
+              "roles": [
+                "Classical Dancer",
+                "Dance Teacher",
+                "Cultural Programme Manager",
+                "Content Creator",
+                "Arts Administrator"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "What is the eligibility?",
+              "a": "10+2 with any stream. Prior dance experience is preferred but not mandatory."
+            },
+            {
+              "q": "Which dance forms are taught?",
+              "a": "The programme covers major Indian classical dance traditions."
+            }
+          ],
+          "cta": {
+            "title": "Express Through Art & Language",
+            "subtitle": "Pursue a career in performing arts with a strong literary foundation.",
+            "button": "Apply Now"
+          },
+          "tabs": {
+            "curriculum": [],
+            "outcomes": {
+              "PEOs": [],
+              "POs": [],
+              "PSOs": []
+            }
+          }
+        },
+        {
+          "slug": "ba-performing-arts-western-music-instrumental-psychology",
+          "name": "B.A. (Performing Arts - Western Music - Instrumental, Psychology)",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Arts",
+          "hero": {
+            "title": {
+              "normal": "B.A. Western Music",
+              "italic": "& Psychology"
+            },
+            "description": "Explore the profound connection between music and the human mind in this unique interdisciplinary programme.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Liberal Arts & Sciences",
+              "BA Western Music Psychology"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "3 Yr"
+              },
+              {
+                "label": "Semesters",
+                "value": "6"
+              },
+              {
+                "label": "Core Programme",
+                "value": "BA"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Liberal Arts & Sciences"
+          },
+          "overview": [
+            "The B.A. in Performing Arts combining Western Music (Instrumental) with Psychology offers an interdisciplinary education in music and human behaviour.",
+            "Students develop instrumental performance skills alongside psychological insights into creativity, performance anxiety, and musical cognition."
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with any stream and minimum 45% marks. Prior music training is preferred.",
+            "note": "Eligibility may vary for international students."
+          },
+          "highlights": [
+            {
+              "title": "Western Music Training",
+              "description": "Instrumental music training in Western classical and contemporary styles with expert faculty."
+            },
+            {
+              "title": "Psychology of Music",
+              "description": "Study music cognition, performance psychology, and the therapeutic applications of music."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Music & Psychology",
+              "roles": [
+                "Music Therapist",
+                "Performer",
+                "Music Teacher",
+                "Music Producer",
+                "Arts Counsellor"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "What instruments are supported?",
+              "a": "Piano, guitar, violin, and other Western instruments are offered."
+            },
+            {
+              "q": "Can I pursue music therapy?",
+              "a": "Yes, the psychology component prepares students for music therapy and counselling careers."
+            }
+          ],
+          "cta": {
+            "title": "Unite Music & Mind",
+            "subtitle": "Build a unique career at the intersection of performing arts and psychology.",
+            "button": "Apply Now"
+          },
+          "tabs": {
+            "curriculum": [],
+            "outcomes": {
+              "PEOs": [],
+              "POs": [],
+              "PSOs": []
+            }
+          }
+        },
+        {
+          "slug": "ba-theatre-studies-english",
+          "name": "B.A. (Theatre Studies, English)",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Arts",
+          "hero": {
+            "title": {
+              "normal": "B.A. Theatre Studies",
+              "italic": "& English"
+            },
+            "description": "Combine the art of theatre with the depth of English literature in this dynamic performing arts programme.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Liberal Arts & Sciences",
+              "BA Theatre Studies English"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "3 Yr"
+              },
+              {
+                "label": "Semesters",
+                "value": "6"
+              },
+              {
+                "label": "Core Programme",
+                "value": "BA"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Liberal Arts & Sciences"
+          },
+          "overview": [
+            "The B.A. in Theatre Studies and English combines practical theatre training with the study of dramatic literature and literary theory.",
+            "Students develop skills in acting, directing, and dramatic writing while building deep literary knowledge through English studies."
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with any stream and minimum 45% marks.",
+            "note": "Eligibility may vary for international students."
+          },
+          "highlights": [
+            {
+              "title": "Theatre Practice & Theory",
+              "description": "Hands-on theatre production experience combined with study of dramatic literature across cultures."
+            },
+            {
+              "title": "Literary Analysis",
+              "description": "Deep engagement with English literary texts, playwrights, and performance criticism."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Theatre & Arts",
+              "roles": [
+                "Actor",
+                "Director",
+                "Playwright",
+                "Dramaturge",
+                "Arts Educator",
+                "Content Writer"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "What is the eligibility?",
+              "a": "10+2 with any stream and minimum 45% marks."
+            },
+            {
+              "q": "Will I get stage performance opportunities?",
+              "a": "Yes, regular productions, workshops, and performances are integral to the programme."
+            }
+          ],
+          "cta": {
+            "title": "Step onto the Stage",
+            "subtitle": "Build a creative career in theatre and literary arts.",
+            "button": "Apply Now"
+          },
+          "tabs": {
+            "curriculum": [],
+            "outcomes": {
+              "PEOs": [],
+              "POs": [],
+              "PSOs": []
+            }
+          }
+        },
+        {
+          "slug": "diploma-bharatanatyam",
+          "name": "Diploma in Bharatanatyam",
+          "duration": "1 Year",
+          "type": "Diploma",
+          "degree": "Diploma",
+          "hero": {
+            "title": {
+              "normal": "Diploma in",
+              "italic": "Bharatanatyam"
+            },
+            "description": "Master the ancient art of Bharatanatyam with structured classical dance training at Presidency University.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Liberal Arts & Sciences",
+              "Diploma Bharatanatyam"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "1 Yr"
+              },
+              {
+                "label": "Semesters",
+                "value": "2"
+              },
+              {
+                "label": "Core Programme",
+                "value": "Diploma"
+              }
+            ]
+          },
+          "details": {
+            "duration": "1 Year Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Liberal Arts & Sciences"
+          },
+          "overview": [
+            "The Diploma in Bharatanatyam provides structured training in one of India's oldest classical dance forms under expert faculty guidance.",
+            "Students learn adavus, abhinaya, jathis, and full compositions alongside the history and theory of the art form."
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10th standard. Prior dance experience is preferred.",
+            "note": "Eligibility may vary for international students."
+          },
+          "highlights": [
+            {
+              "title": "Classical Dance Foundation",
+              "description": "Comprehensive Bharatanatyam training from basics to advanced compositions with certified faculty."
+            },
+            {
+              "title": "Theory & History",
+              "description": "Study the history, mythology, and cultural context of Bharatanatyam."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Performing Arts",
+              "roles": [
+                "Classical Dancer",
+                "Dance Teacher",
+                "Choreographer",
+                "Cultural Ambassador",
+                "Arts Educator"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Do I need prior experience?",
+              "a": "Prior dance experience is preferred but motivated beginners are also considered."
+            },
+            {
+              "q": "Is the diploma recognised?",
+              "a": "Yes, awarded by Presidency University, a UGC-recognised institution."
+            }
+          ],
+          "cta": {
+            "title": "Embrace Classical Heritage",
+            "subtitle": "Begin your journey in Bharatanatyam with expert guidance.",
+            "button": "Apply Now"
+          },
+          "tabs": {
+            "curriculum": [],
+            "outcomes": {
+              "PEOs": [],
+              "POs": [],
+              "PSOs": []
+            }
+          }
+        },
+        {
+          "slug": "diploma-kathak",
+          "name": "Diploma in Kathak",
+          "duration": "1 Year",
+          "type": "Diploma",
+          "degree": "Diploma",
+          "hero": {
+            "title": {
+              "normal": "Diploma in",
+              "italic": "Kathak"
+            },
+            "description": "Immerse yourself in the graceful rhythms and storytelling of Kathak under expert classical dance faculty.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Liberal Arts & Sciences",
+              "Diploma Kathak"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "1 Yr"
+              },
+              {
+                "label": "Semesters",
+                "value": "2"
+              },
+              {
+                "label": "Core Programme",
+                "value": "Diploma"
+              }
+            ]
+          },
+          "details": {
+            "duration": "1 Year Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Liberal Arts & Sciences"
+          },
+          "overview": [
+            "The Diploma in Kathak offers training in this expressive North Indian classical dance form known for its intricate footwork, spins, and expressive storytelling.",
+            "Students learn tatkaar, chakkar, abhinaya, and compositions from authentic Lucknow and Jaipur gharanas."
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10th standard. Prior dance experience is preferred.",
+            "note": "Eligibility may vary for international students."
+          },
+          "highlights": [
+            {
+              "title": "Authentic Gharana Training",
+              "description": "Training rooted in authentic Lucknow and Jaipur Kathak traditions with certified practitioners."
+            },
+            {
+              "title": "Rhythmic & Expressive Training",
+              "description": "Develop mastery of complex taal structures, footwork, and expressive abhinaya."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Performing Arts",
+              "roles": [
+                "Kathak Dancer",
+                "Dance Teacher",
+                "Choreographer",
+                "Cultural Performer",
+                "Arts Educator"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Do I need prior experience?",
+              "a": "Prior dance experience is preferred but motivated beginners are considered."
+            },
+            {
+              "q": "Which gharana style is taught?",
+              "a": "Both Lucknow and Jaipur gharana styles are introduced."
+            }
+          ],
+          "cta": {
+            "title": "Dance to Ancient Rhythms",
+            "subtitle": "Master Kathak with structured classical training at Presidency University.",
+            "button": "Apply Now"
+          },
+          "tabs": {
+            "curriculum": [],
+            "outcomes": {
+              "PEOs": [],
+              "POs": [],
+              "PSOs": []
+            }
+          }
+        },
+        {
+          "slug": "diploma-kuchipudi",
+          "name": "Diploma in Kuchipudi",
+          "duration": "1 Year",
+          "type": "Diploma",
+          "degree": "Diploma",
+          "hero": {
+            "title": {
+              "normal": "Diploma in",
+              "italic": "Kuchipudi"
+            },
+            "description": "Discover the vibrant energy and expressiveness of Kuchipudi classical dance at Presidency University.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Liberal Arts & Sciences",
+              "Diploma Kuchipudi"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "1 Yr"
+              },
+              {
+                "label": "Semesters",
+                "value": "2"
+              },
+              {
+                "label": "Core Programme",
+                "value": "Diploma"
+              }
+            ]
+          },
+          "details": {
+            "duration": "1 Year Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Liberal Arts & Sciences"
+          },
+          "overview": [
+            "The Diploma in Kuchipudi introduces students to this dynamic classical dance-drama form from Andhra Pradesh, combining vigorous dance with expressive mime.",
+            "Students learn the characteristic techniques of Kuchipudi including jatis, shabdams, and the distinctive dance-drama tradition."
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10th standard. Prior dance experience is preferred.",
+            "note": "Eligibility may vary for international students."
+          },
+          "highlights": [
+            {
+              "title": "Dance-Drama Tradition",
+              "description": "Training in the unique Kuchipudi dance-drama tradition combining dance, music, and theatre."
+            },
+            {
+              "title": "Technical Proficiency",
+              "description": "Develop the characteristic vigour, expressiveness, and technical precision of Kuchipudi."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Performing Arts",
+              "roles": [
+                "Kuchipudi Dancer",
+                "Dance Teacher",
+                "Cultural Performer",
+                "Choreographer",
+                "Arts Administrator"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Do I need prior experience?",
+              "a": "Prior dance experience is preferred but motivated beginners are considered."
+            },
+            {
+              "q": "Is Kuchipudi difficult to learn?",
+              "a": "Like all classical dance forms, it requires dedication. The programme provides structured guidance."
+            }
+          ],
+          "cta": {
+            "title": "Embrace Classical Dance Drama",
+            "subtitle": "Learn Kuchipudi with expert guidance at Presidency University.",
+            "button": "Apply Now"
+          },
+          "tabs": {
+            "curriculum": [],
+            "outcomes": {
+              "PEOs": [],
+              "POs": [],
+              "PSOs": []
+            }
+          }
+        },
+        {
+          "slug": "diploma-mohiniyattam",
+          "name": "Diploma in Mohiniyattam",
+          "duration": "1 Year",
+          "type": "Diploma",
+          "degree": "Diploma",
+          "hero": {
+            "title": {
+              "normal": "Diploma in",
+              "italic": "Mohiniyattam"
+            },
+            "description": "Discover the lyrical grace and expressive beauty of Mohiniyattam, the dance of the enchantress, at Presidency University.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Liberal Arts & Sciences",
+              "Diploma Mohiniyattam"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "1 Yr"
+              },
+              {
+                "label": "Semesters",
+                "value": "2"
+              },
+              {
+                "label": "Core Programme",
+                "value": "Diploma"
+              }
+            ]
+          },
+          "details": {
+            "duration": "1 Year Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Liberal Arts & Sciences"
+          },
+          "overview": [
+            "The Diploma in Mohiniyattam introduces students to this lyrical classical dance form from Kerala, known for its graceful, swaying movements and feminine expressiveness.",
+            "Students learn the fundamental adavus, cholkettu, varnam, and padam of Mohiniyattam under qualified classical dance faculty."
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10th standard. Prior dance experience is preferred.",
+            "note": "Eligibility may vary for international students."
+          },
+          "highlights": [
+            {
+              "title": "Graceful Classical Tradition",
+              "description": "Training in Mohiniyattam's distinctive lyrical style, expressive abhinaya, and traditional repertoire."
+            },
+            {
+              "title": "Kerala Heritage",
+              "description": "Study the cultural and historical roots of Mohiniyattam within the Kerala performing arts tradition."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Performing Arts",
+              "roles": [
+                "Mohiniyattam Dancer",
+                "Dance Teacher",
+                "Cultural Performer",
+                "Choreographer",
+                "Arts Educator"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Do I need prior experience?",
+              "a": "Prior dance experience is preferred but motivated beginners are considered."
+            },
+            {
+              "q": "What makes Mohiniyattam unique?",
+              "a": "Its swaying, graceful movements and strong emphasis on facial expression and narrative distinguish it."
+            }
+          ],
+          "cta": {
+            "title": "Move with Graceful Elegance",
+            "subtitle": "Learn the art of Mohiniyattam at Presidency University.",
+            "button": "Apply Now"
+          },
+          "tabs": {
+            "curriculum": [],
+            "outcomes": {
+              "PEOs": [],
+              "POs": [],
+              "PSOs": []
+            }
+          }
         }
       ],
       "hero": {
+        "image": "/img/banner/sola.jpg",
         "title": {
           "normal": "School of",
           "italic": "Liberal Arts & Sciences"
@@ -18768,6 +19989,7 @@
       "slug": "health",
       "name": "School of Health Sciences",
       "hero": {
+        "image": "/img/banner/soh.jpg",
         "title": {
           "normal": "School of",
           "italic": "Health Sciences"

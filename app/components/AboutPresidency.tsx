@@ -26,7 +26,7 @@ export function AboutPresidency() {
           <div className="order-2 md:order-1">
             <div className="relative h-[260px] sm:h-[320px] md:h-[420px] lg:h-[600px] rounded-[24px] overflow-hidden shadow-xl group">
               <img
-                src="img/degree-program.jpeg"
+                src="/img/degree-program.jpeg"
                 alt="Students"
                 className="w-full h-full object-cover transition duration-500"
               />

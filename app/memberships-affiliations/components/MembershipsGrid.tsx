@@ -412,7 +412,7 @@ export default function MembershipsGrid() {
   };
 
   return (
-    <section className="py-16 md:py-24 bg-gray-50">
+    <section id="memberships" className="py-16 md:py-24 bg-gray-50">
       <div className="max-w-[1400px] mx-auto px-4 md:px-10">
         {/* Common Header Component */}
         <CommonHeader

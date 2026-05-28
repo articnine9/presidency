@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import {
   FileText,
   Globe,
@@ -468,7 +469,8 @@ export default function VisaSection({ data }: any) {
             </div>
 
             {/* BUTTON */}
-            <button
+            <Link
+              href="/contact"
               className="
                 mt-6
                 inline-flex
@@ -487,7 +489,7 @@ export default function VisaSection({ data }: any) {
               "
             >
               CONTACT NOW →
-            </button>
+            </Link>
           </div>
         </div>
       </div>

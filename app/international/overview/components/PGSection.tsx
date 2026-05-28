@@ -109,7 +109,7 @@ export default function PGSection({ data }: any) {
                   <h3
                     className="
                         text-lg
-                        font-semibold
+
                         leading-snug
                         text-[#183153]
                       "

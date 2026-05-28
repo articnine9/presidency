@@ -105,7 +105,7 @@ export default function PhDSection({ data }: any) {
                   <h3
                     className="
                         text-lg
-                        font-semibold
+
                         leading-snug
                         text-[#183153]
                       "
@@ -420,7 +420,6 @@ export default function PhDSection({ data }: any) {
               className="
                 mb-4
                 text-2xl
-                font-semibold
               "
             >
               {phd?.research?.title}

@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { motion } from "framer-motion";
 import { GraduationCap, BookOpen, Rocket, ArrowRight } from "lucide-react";
 import { H1, H4 } from "@/app/components/Headings";
@@ -140,36 +141,40 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
             </motion.p>
 
             {/* BUTTON */}
-            <motion.button
+            <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
-              className="
-                mt-7
-                flex
-                h-[52px]
-                w-full
-                items-center
-                justify-center
-                gap-2
-                rounded-xl
-                bg-[#0097A7]
-                text-sm
-                font-medium
-                text-white
-                transition-all
-                duration-300
-                hover:bg-[#00b7c9]
-
-                md:inline-flex
-                md:w-auto
-                md:rounded-md
-                md:px-6
-              "
+              className="mt-7"
             >
-              HOW TO APPLY
-              <ArrowRight size={16} />
-            </motion.button>
+              <Link
+                href="/international/apply"
+                className="
+                  flex
+                  h-[52px]
+                  w-full
+                  items-center
+                  justify-center
+                  gap-2
+                  rounded-xl
+                  bg-[#0097A7]
+                  text-sm
+                  font-medium
+                  text-white
+                  transition-all
+                  duration-300
+                  hover:bg-[#00b7c9]
+
+                  md:inline-flex
+                  md:w-auto
+                  md:rounded-md
+                  md:px-6
+                "
+              >
+                HOW TO APPLY
+                <ArrowRight size={16} />
+              </Link>
+            </motion.div>
           </div>
 
           {/* ================= MOBILE STATS ================= */}

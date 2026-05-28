@@ -34,14 +34,14 @@ export type ProgramLevel = "all" | "UG" | "PG" | "PhD" | "Diploma";
 export const POPULAR_PROGRAM_KEYS = [
   { schoolSlug: "computer-science", courseSlug: "btech-cse" },
   { schoolSlug: "computer-science", courseSlug: "btech-ai-ml" },
-  { schoolSlug: "management", courseSlug: "mba-finance" },
+  { schoolSlug: "management", courseSlug: "mba" },
   { schoolSlug: "management", courseSlug: "bba" },
   { schoolSlug: "law", courseSlug: "ba-llb" },
   { schoolSlug: "commerce", courseSlug: "bcom" },
   { schoolSlug: "engineering", courseSlug: "btech-ece" },
   { schoolSlug: "information-science", courseSlug: "bca" },
-  { schoolSlug: "design", courseSlug: "bdes-communication" },
-  { schoolSlug: "media-studies", courseSlug: "ba-jmc-digital-marketing" },
+  { schoolSlug: "design", courseSlug: "bdes-communication-design" },
+  { schoolSlug: "media", courseSlug: "ba-jmc-digital-marketing-advertising" },
 ] as const;
 
 export function getPopularCourses(courses: CourseSearchItem[]): CourseSearchItem[] {

@@ -108,6 +108,7 @@
           "type": "UG",
           "degree": "Bachelor of Technology",
           "hero": {
+            "image": "/img/banner/socs.jpg",
             "title": {
               "normal": "B.Tech Computer Science",
               "italic": " & Engineering"
@@ -139,10 +140,13 @@
             "campus": "Bengaluru, India",
             "school": "Computer Science & Engineering"
           },
+
           "overview": [
+            
             "The B.Tech in Electronics & Communication Engineering explores the design, development, and deployment of electronic devices, circuits, and communication systems that underpin modern life. From mobile networks and satellite communications to embedded controllers and IoT devices, the programme builds expertise across analogue and digital electronics, signal processing, wireless systems, VLSI technology, and microcontroller-based design. Students gain fluency in both hardware and software aspects of electronic engineering through an integrated curriculum of theory, laboratory practice, and project work.",
             "Bengaluru’s position as a centre for semiconductor manufacturing, telecom R&D, and electronics innovation gives students proximity to major employers and research organisations. The programme incorporates industry-oriented certifications, collaborative projects, and internship placements that connect classroom learning to professional practice. Graduates emerge prepared for roles in telecommunications, semiconductor design, consumer electronics, aerospace, defence, and automation industries worldwide."
           ],
+          "image": "/img/inner-about/cse.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -1337,6 +1341,7 @@
           "type": "UG",
           "degree": "Bachelor of Technology",
           "hero": {
+            "image": "/img/banner/socs.jpg",
             "title": {
               "normal": "B.Tech Computer Science",
               "italic": " & Engineering (Blockchain)"
@@ -1372,6 +1377,7 @@
             " Blockchain technology is a decentralised, distributed ledger system that securely records the provenance and transfer of digital assets. It has moved well beyond cryptocurrency to become a foundational technology across financial services, supply chain management, healthcare records, government services, and digital identity verification.",
             " This specialisation combines core domains of mathematics,computer programming, software design, and information security to prepare graduates for roles as blockchain developers and solution architects. The curriculum covers smart contracts, decentralised applications (DApps), cryptographic protocols, consensus mechanisms, peer-to-peer networking, and leading blockchain platforms including Ethereum, Hyperledger, and Corda. Graduates are positioned for careers in Web3, FinTech, cyber security, and enterprise blockchain solutions with multinational IT companies and emerging technology firms."
           ],
+          "image": "/img/inner-about/cse.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -1612,6 +1618,7 @@
           "type": "UG",
           "degree": "Bachelor of Technology",
           "hero": {
+            "image": "/img/banner/socs.jpg",
             "title": {
               "normal": "B.Tech Computer Science",
               "italic": " & Engineering (Cyber Security) "
@@ -1647,6 +1654,7 @@
             "  Cyber security is no longer optional — it is essential for every organisation, government, and institution operating in the digital age. This specialisation provides a comprehensive grounding in ethical hacking, digital forensics, penetration testing, cryptography, network security, and threat intelligence, equipping graduates with the skills to identify vulnerabilities, defend against attacks, and secure critical systems.",
             " The curriculum integrates core computer science with specialised security modules, providing hands-on experience with industry-standard tools including Kali Linux, Metasploit, Wireshark, and SIEM solutions. Students also develop proficiency in Python, C/C++, and SQL as applied to security contexts. With cybersecurity professionals in high demand across government agencies, financial institutions, technology companies, and defence organisations worldwide, this programme offers strong career prospects and global mobility."
           ],
+          "image": "/img/inner-about/cse.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -1887,6 +1895,7 @@
           "type": "UG",
           "degree": "Bachelor of Technology",
           "hero": {
+            "image": "/img/banner/socs.jpg",
             "title": {
               "normal": "B.Tech Computer Science",
               "italic": " & Engineering (Data Science) "
@@ -1922,6 +1931,7 @@
             " Data science is an interdisciplinary field focused on extracting knowledge and enabling discovery from complex data. It represents a fusion of principles from statistics and computer science, applied in domain-specific contexts across healthcare, finance, retail, manufacturing, and beyond. This specialisation combines mathematics, computer programming, and software design to equip graduates with the skills to manage and interpret digital data at scale.",
             " The curriculum covers the full data pipeline — from collection and preprocessing to analysis, modelling, and visualisation — using industry-standard tools including Python, R, TensorFlow, Hadoop, Apache Spark, and advanced analytics frameworks. Students build competencies in machine learning, AI, deep learning, cloud computing, feature engineering, and data visualisation that align directly with what global employers demand."
           ],
+          "image": "/img/inner-about/cse.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -2162,6 +2172,7 @@
           "type": "UG",
           "degree": "Bachelor of Technology",
           "hero": {
+            "image": "/img/banner/socs.jpg",
             "title": {
               "normal": "B.Tech Computer Science",
               "italic": " & Engineering (Internet of Things) "
@@ -2197,6 +2208,7 @@
             " Data science is an interdisciplinary field focused on extracting knowledge and enabling discovery from complex data. It represents a fusion of principles from statistics and computer science, applied in domain-specific contexts across healthcare, finance, retail, manufacturing, and beyond. This specialisation combines mathematics, computer programming, and software design to equip graduates with the skills to manage and interpret digital data at scale.",
             " The curriculum covers the full data pipeline — from collection and preprocessing to analysis, modelling, and visualisation — using industry-standard tools including Python, R, TensorFlow, Hadoop, Apache Spark, and advanced analytics frameworks. Students build competencies in machine learning, AI, deep learning, cloud computing, feature engineering, and data visualisation that align directly with what global employers demand."
           ],
+          "image": "/img/inner-about/cse.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -2437,6 +2449,7 @@
           "type": "UG",
           "degree": "Bachelor of Technology",
           "hero": {
+            "image": "/img/banner/socs.jpg",
             "title": {
               "normal": " B.Tech Information Science ",
               "italic": " & Technology "
@@ -2472,6 +2485,7 @@
             " The B.Tech in Information Science & Technology bridges computing, data management, and digital systems engineering with a strong foundation in communications, networks, cloud computing, and information technology. This programme produces graduates who can design, deploy, and manage the technology systems that organisations worldwide depend upon for their digital operations.",
             " The curriculum delivers comprehensive coverage of data science, artificial intelligence, cyber security, cloud computing, and software engineering. Students develop proficiency in cloud infrastructure, ethical hacking, forensic security, and secure computing equipping them with the diverse IT skill set that modern employers across all sectors actively seek."
           ],
+          "image": "/img/inner-about/cse.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -2712,6 +2726,7 @@
           "type": "UG",
           "degree": "Bachelor of Technology",
           "hero": {
+            "image": "/img/banner/socs.jpg",
             "title": {
               "normal": " : B.Tech Computer  ",
               "italic": " Engineering"
@@ -2747,6 +2762,7 @@
             " : The B.Tech in Computer Engineering sits at the intersection of computer science and electrical engineering, training students to work fluently across both hardware infrastructure and software intelligence. The programme covers embedded systems, processor architecture, software development, artificial intelligence, cybersecurity, and the Computer Engineering — producing engineers who understand computing from silicon to cloud.",
             " With the worldwide demand for professionals who can bridge hardware and software growing rapidly, this programme positions graduates for roles in semiconductor design, systems engineering, embedded development, and full-stack product creation. Hands-on laboratory work with microprocessors, FPGAs, and development boards ensures students graduate with practical, industry-ready competencies."
           ],
+          "image": "/img/inner-about/cse.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -2999,6 +3015,7 @@
           "type": "UG",
           "degree": "Bachelor of Technology",
           "hero": {
+            "image": "/img/banner/socs.jpg",
             "title": {
               "normal": " B.Tech Information Science ",
               "italic": " & Engineering"
@@ -3034,6 +3051,7 @@
             " The B.Tech in Information Science & Engineering prepares students to design, develop, and manage innovative software solutions and information systems. This programme delivers a balanced mix of theoretical foundations and practical training through industry-aligned laboratories, collaborative projects, and internship placements — ensuring graduates are work-ready from day one.",
             " The curriculum spans software engineering, data science, artificial intelligence, cyber security, cloud computing, and network management. Students gain proficiency in modern programming paradigms, database systems, system design, and IT governance — while developing the collaborative and ethical mindset required to lead technology initiatives in any sector worldwide."
           ],
+          "image": "/img/inner-about/cse.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -3286,6 +3304,7 @@
           "type": "UG",
           "degree": "Bachelor of Technology",
           "hero": {
+            "image": "/img/banner/socs.jpg",
             "title": {
               "normal": " B.Tech Robotics & ",
               "italic": " Artificial Intelligence "
@@ -3321,6 +3340,7 @@
             " AI-driven robotics is transforming healthcare, education, automotive manufacturing, agriculture, and industrial production at an unprecedented pace. The global demand for professionals who can design, programme, and deploy autonomous systems is accelerating across every sector. This programme positions students at the forefront of this transformation, combining core robotics engineering with cutting-edge artificial intelligence.",
             " The curriculum covers AI, machine learning, deep learning, autonomous navigation and vehicle systems, computer vision, IoT integration, and industrial automation. Students work in state-of-the-art robotics laboratories with industry-standard platforms, building complete autonomous systems from concept through prototype to deployment. The programme develops both the theoretical foundations and practical engineering skills required for careers in robotics and intelligent systems globally."
           ],
+          "image": "/img/inner-about/cse.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -3561,7 +3581,9 @@
           "type": "UG",
           "degree": "Bachelor of Technology",
           "hero": {
+            "image": "/img/banner/socs.jpg",
             "title": {
+              "image": "/img/banner/socs.jpg",
               "normal": " B.Tech Artificial Intelligence ",
               "italic": "  & Data Science "
             },
@@ -3596,6 +3618,7 @@
             " The B.Tech in Artificial Intelligence & Data Science develops expertise across four interconnected domains: data science, machine learning, deep learning, and artificial intelligence. Building on a core computer science foundation, the programme equips students to extract actionable insights from complex datasets and build intelligent systems that drive data-informed decision-making across sectors from finance and healthcare to retail and manufacturing.",
             " The curriculum covers AI algorithms, machine learning techniques, deep learning architectures, big data processing, cloud computing, feature engineering, data preprocessing, data visualisation, and natural language processing. Students gain proficiency with Python, R, TensorFlow, Hadoop, and Apache Spark through hands-on projects addressing real-world problems."
           ],
+          "image": "/img/inner-about/cse.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -3836,6 +3859,7 @@
           "type": "PG",
           "degree": "Master of Technology",
           "hero": {
+            "image": "/img/banner/socs.jpg",
             "title": {
               "normal": " M.Tech Computer Science & ",
               "italic": " Engineering (Artificial Intelligence) "
@@ -3871,6 +3895,7 @@
             " This two-year postgraduate degree offers an in-depth exploration of AI algorithms, methodologies, and their real-world deployment across sectors such as healthcare, agriculture, finance, retail, and industrial automation. The programme integrates core disciplines including advanced mathematics, statistical modelling, machine learning, deep learning, natural language processing, and computer vision into a cohesive academic framework",
             " Students engage with both foundational theory and contemporary research challenges, working on projects that address practical problems using state-of-the-art tools and platforms. The curriculum reflects competencies most sought by global employers, including proficiency in TensorFlow, PyTorch, cloud-based AI platforms, and end-to-end model deployment pipelines."
           ],
+          "image": "/img/inner-about/cse.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -4093,6 +4118,7 @@
           "type": "PG",
           "degree": "Master of Technology",
           "hero": {
+            "image": "/img/banner/socs.jpg",
             "title": {
               "normal": " M.Tech Computer Science & ",
               "italic": " Engineering (Data Science) "
@@ -4128,6 +4154,7 @@
             " Designed for engineers seeking advanced expertise in data analytics, machine learning, and AI-driven decision systems, this M.Tech programme combines rigorous academic coursework with research-oriented learning. Students develop the theoretical depth and practical skills needed to lead data science initiatives in technology companies, research organisations, and consulting firms worldwide.",
             " SThe curriculum encompasses big data analytics, machine learning, AI, deep learning, cloud computing, and statistical modelling. Students work with Python, R, TensorFlow, Hadoop, Apache Spark, and cloud-native data platforms. Research dissertations in Semesters III and IV address real-world data challenges, producing original contributions to the field."
           ],
+          "image": "/img/inner-about/cse.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -4350,6 +4377,7 @@
           "type": "Diploma",
           "degree": "Post Graduate Diploma",
           "hero": {
+            "image": "/img/banner/socs.jpg",
             "title": {
               "normal": " M.Tech Computer Science & ",
               "italic": " Engineering (Big Data) "
@@ -4385,6 +4413,7 @@
             " Designed for engineers seeking advanced expertise in data analytics, machine learning, and AI-driven decision systems, this M.Tech programme combines rigorous academic coursework with research-oriented learning. Students develop the theoretical depth and practical skills needed to lead data science initiatives in technology companies, research organisations, and consulting firms worldwide.",
             " SThe curriculum encompasses big data analytics, machine learning, AI, deep learning, cloud computing, and statistical modelling. Students work with Python, R, TensorFlow, Hadoop, Apache Spark, and cloud-native data platforms. Research dissertations in Semesters III and IV address real-world data challenges, producing original contributions to the field."
           ],
+          "image": "/img/inner-about/cse.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -4632,7 +4661,7 @@
         "content": [
           "The School of Computer Science & Engineering is at the forefront of technology education. We combine cutting-edge curriculum with practical industry experience, preparing students for careers in software development, artificial intelligence, cloud computing, cybersecurity, and emerging technologies."
         ],
-        "image": "img/cse.png",
+        "image": "/img/cse.png",
         "features": [
           {
             "title": "AI & Machine Learning",
@@ -4797,6 +4826,7 @@
           "type": "UG",
           "degree": "Bachelor of Technology",
           "hero": {
+            "image": "/img/banner/soe.jpg",
             "title": {
               "normal": "B.Tech Electronics & Communication",
               "italic": " Engineering"
@@ -4832,6 +4862,7 @@
             "The B.Tech in Electronics & Communication Engineering explores the design, development, and deployment of electronic devices, circuits, and communication systems that underpin modern life. From mobile networks and satellite communications to embedded controllers and IoT devices, the programme builds expertise across analogue and digital electronics, signal processing, wireless systems, VLSI technology, and microcontroller-based design. Students gain fluency in both hardware and software aspects of electronic engineering through an integrated curriculum of theory, laboratory practice, and project work.",
             "Bengaluru’s position as a centre for semiconductor manufacturing, telecom R&D, and electronics innovation gives students proximity to major employers and research organisations. The programme incorporates industry-oriented certifications, collaborative projects, and internship placements that connect classroom learning to professional practice. Graduates emerge prepared for roles in telecommunications, semiconductor design, consumer electronics, aerospace, defence, and automation industries worldwide."
           ],
+          "image": "/img/inner-about/eng.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -5077,6 +5108,7 @@
           "type": "UG",
           "degree": "Bachelor of Technology",
           "hero": {
+            "image": "/img/banner/soe.jpg",
             "title": {
               "normal": "B.Tech Electrical & Electronics",
               "italic": " Engineering"
@@ -5112,6 +5144,7 @@
             "The B.Tech in Electrical & Electronics Engineering offers a distinctive blend of electrical, electronics, and computer-related coursework that prepares graduates for careers across power systems, automation, renewable energy, and electronics. The curriculum covers foundation courses in electrical machines, control systems, power electronics, microprocessors, programming, and energy systems — equipping students with the versatility to work across both traditional electrical engineering and emerging technology domains. ",
             " India’s rapidly expanding power sector, its ambitious renewable energy targets, and the accelerating adoption of electric vehicles make this a programme with strong long-term career prospects. Students benefit from laboratory facilities that simulate real-world electrical systems, alongside internship opportunities with power utilities, automation firms, and electronics manufacturers. The programme builds graduates who can design, implement, and manage the electrical and electronic systems that underpin modern infrastructure, industry, and transportation."
           ],
+          "image": "/img/inner-about/eng.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -5329,6 +5362,7 @@
           "type": "UG",
           "degree": "Bachelor of Technology",
           "hero": {
+            "image": "/img/banner/soe.jpg",
             "title": {
               "normal": " B.Tech VLSI ",
               "italic": " Engineering"
@@ -5364,6 +5398,8 @@
             "The B.Tech in VLSI (Very Large Scale Integration) provides focused training in the design, verification, and fabrication of integrated circuits and electronic systems. The curriculum covers semiconductor device physics, microelectronics, IC fabrication technology, CMOS circuit design, ASIC design, design verification, and FPGA-based embedded systems — all taught using industry-leading EDA (Electronic Design Automation) tools. This programme directly addresses the growing global demand for chip designers and verification engineers as the semiconductor industry expands across consumer electronics, automotive, healthcare, telecommunications, and computing. ",
             " Students progress from foundational electronics and programming in early semesters to advanced topics including digital and analogue VLSI design, HDL-based system design, microcontroller architectures, and signal processing. Laboratory work with tools from Cadence, Synopsys, Xilinx, and Mentor Graphics provides hands-on experience with the same platforms used by professional chip design teams. Bengaluru’s established semiconductor ecosystem — home to design centres for major global chipmakers — gives students proximity to internship and employment opportunities in the industry. "
           ],
+          "image": "/img/inner-about/eng.jpeg",
+
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -5572,6 +5608,7 @@
           "type": "UG",
           "degree": "Bachelor of Technology",
           "hero": {
+            "image": "/img/banner/soe.jpg",
             "title": {
               "normal": "  B.Tech Civil  ",
               "italic": " Engineering"
@@ -5607,6 +5644,8 @@
             " The B.Tech in Civil Engineering provides comprehensive training in the planning, design, construction, and maintenance of physical infrastructure. The programme covers structural engineering, geotechnical engineering, transportation engineering, water resources, environmental engineering, and construction management. Students develop proficiency in mathematics, applied sciences, and engineering technology to analyse and design structures, systems, and processes that serve society. The curriculum combines classroom instruction with laboratory practice, site visits, and design projects that simulate professional civil engineering challenges.  ",
             " India’s massive infrastructure investment programme — spanning highways, railways, smart cities, metro systems, airports, and urban development — creates sustained demand for qualified civil engineers. International students gain exposure to large-scale construction practices, emerging sustainable building technologies, and project management methodologies. The programme prepares graduates for careers with construction firms, consulting practices, government agencies, infrastructure developers, and international engineering organisations.  "
           ],
+          "image": "/img/inner-about/eng.jpeg",
+
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -5818,12 +5857,13 @@
           }
         },
         {
-          "slug": "btech-mechanical-engineerin",
+          "slug": "btech-mechanical-engineering",
           "name": "B.Tech Mechanical Engineering",
           "duration": "4 Years.Full-Time",
           "type": "UG",
           "degree": "Bachelor of Technology",
           "hero": {
+            "image": "/img/banner/soe.jpg",
             "title": {
               "normal": "  B.Tech Mechanical  ",
               "italic": " Engineering"
@@ -5859,6 +5899,8 @@
             "  The B.Tech in Mechanical Engineering delivers a comprehensive foundation across the core domains of mechanical science — thermodynamics, fluid mechanics, machine design, manufacturing processes, materials science, and mechatronics. The curriculum blends fundamental theory with hands-on experience in product design, prototyping, computer-aided engineering, and industrial automation. Students develop the analytical, computational, and design skills needed to conceive, develop, and manufacture mechanical systems ranging from precision components to large-scale industrial machinery.   ",
             "Bengaluru’s diverse industrial landscape — spanning automotive manufacturing, aerospace, heavy engineering, robotics, and clean energy — provides students with direct access to internship and employment opportunities across multiple sectors. The programme includes laboratory work with CNC machines, 3D printers, CAD/CAM software, and simulation tools, along with industrial visits that connect classroom concepts to professional engineering practice. Graduates emerge as versatile engineers capable of contributing to manufacturing, product development, energy systems, and emerging technology domains worldwide.   "
           ],
+          "image": "/img/inner-about/eng.jpeg",
+
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -6063,6 +6105,7 @@
           "type": "UG",
           "degree": "Bachelor of Technology",
           "hero": {
+            "image": "/img/banner/soe.jpg",
             "title": {
               "normal": "  B.Tech Petroleum  ",
               "italic": " Engineering"
@@ -6098,6 +6141,8 @@
             "  The B.Tech in Petroleum Engineering is a specialised multidisciplinary programme encompassing both upstream and downstream sectors of the oil and gas industry. The curriculum covers petroleum exploration, drilling engineering, reservoir management, production operations, digital oil fields, pipeline systems, refining technology, and health and safety — providing comprehensive training across the full petroleum value chain. Students develop expertise in subsurface evaluation, well system design, drilling operations, fluid handling, and resource valuation using geoscientific and engineering methods.  ",
             "Presidency University is one of very few institutions in Bengaluru offering a dedicated petroleum engineering programme, giving students access to a distinctive academic experience alongside the city’s technology and industrial ecosystem. The department maintains specialised laboratory facilities including drilling simulation equipment, fluid mechanics testing apparatus, and reservoir modelling tools. Industry connections with major oil and gas companies including Shell and Schlumberger facilitate internship placements and graduate recruitment. The programme also incorporates project economics and resource valuation, equipping graduates with the technical and commercial skills demanded by the global energy sector.  "
           ],
+          "image": "/img/inner-about/eng.jpeg",
+
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -6310,6 +6355,7 @@
           "type": "PG",
           "degree": "Master of Technology",
           "hero": {
+            "image": "/img/banner/soe.jpg",
             "title": {
               "normal": " M.Tech Embedded System & VLSI   ",
               "italic": " Engineering"
@@ -6544,12 +6590,13 @@
           }
         },
         {
-          "slug": "btech-buliding-construction-technology",
+          "slug": "mtech-buliding-construction-technology",
           "name": "M.Tech Building & Construction Technology",
           "duration": "2 Years.Full-Time",
           "type": "PG",
           "degree": "Master of Technology",
           "hero": {
+            "image": "/img/banner/soe.jpg",
             "title": {
               "normal": " M.Tech Building & Construction Technology  ",
               "italic": " Engineering"
@@ -6585,6 +6632,7 @@
             "   This two-year postgraduate programme provides advanced knowledge in building and construction technology, covering structural systems, construction materials, project management, sustainability, and digital construction methodologies. The curriculum bridges the gap between traditional civil engineering education and the evolving demands of the modern construction industry, where Building Information Modelling (BIM), green building standards, and advanced materials are transforming how infrastructure is designed, built, and maintained.  ",
             "India’s construction sector is one of the largest globally, driven by massive government investment in smart cities, housing, transportation infrastructure, and industrial development. International students gain access to large-scale construction projects and emerging practices in sustainable building, alongside academic instruction grounded in both theory and professional application. The programme prepares graduates for senior roles in construction management, structural consulting, real estate development, and infrastructure project delivery.   "
           ],
+          
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -6786,6 +6834,7 @@
           "type": "Diploma",
           "degree": "Post Graduate Diploma",
           "hero": {
+            "image": "/img/banner/soe.jpg",
             "title": {
               "normal": " Post Graduate Diploma in Drone Technology  ",
               "italic": " Engineering"
@@ -7051,7 +7100,7 @@
         "content": [
           "The School of Engineering encompasses multiple disciplines including mechanical, civil, electrical, petroleum, and specialized engineering fields. We emphasize practical skills, hands-on laboratory experience, and collaboration with industry to prepare engineers for real-world challenges."
         ],
-        "image": "img/school-eng.png",
+        "image": "/img/school-eng.png",
         "features": [
           {
             "title": "Advanced Laboratories",
@@ -7163,7 +7212,7 @@
           "The Presidency School of Information Science offers application-centred computing education through three undergraduate programmes and a postgraduate programme, each designed to produce graduates with strong programming, analytical, and software development skills. The school focuses on fields that define the modern technology landscape — data science, artificial intelligence, machine learning, cybersecurity, cloud computing, and full-stack development. With a curriculum structured around the Choice Based Credit System (CBCS) and Outcome Based Education (OBE), students build both breadth and depth across information technology disciplines.",
           "The school has established collaborations with IITs and prominent industry partners for laboratory training, summer programmes, and industry-based certification. A partnership with a Switzerland-based organisation through the Global AI Hub has provided AI and data science certification training to over 2,800 students. Faculty members have been trained at IIT Madras in XR/AR and VR technologies, and the school is developing a Centre of Excellence in Extended Reality (XR). Over 100 research scholars currently pursue doctoral programmes within the school, and a Digital Forensics initiative is being developed in collaboration with the Criminal Investigation Department of Karnataka State. The school’s BCA programme has been ranked 27th nationally among the Top 100 BCA Colleges and Universities."
         ],
-        "image": "img/cse.png",
+        "image": "/img/cse.png",
         "hexagons": [
           {
             "type": "text",
@@ -7351,6 +7400,7 @@
           "type": "UG",
           "degree": "Bachelor of Technology",
           "hero": {
+            "image": "/img/banner/sois.jpg",
             "title": {
               "normal": "Bachelor of Computer Applications ",
               "italic": ""
@@ -7386,6 +7436,8 @@
             " The Bachelor of Computer Applications programme is designed to meet the skill requirements of the rapidly growing IT and ITES industries. The curriculum covers computer algorithms and programming, database management systems, computer networks, internet technologies, cloud computing, and mobile application development. Students progress from foundational topics in C programming, applied mathematics, and web development in the first year through Java, database administration, operating systems, and software engineering in the second year, culminating in cloud computing, machine learning, Android development, and a capstone project in the final year.",
             "The programme follows a practice-driven approach, with students introduced to business problem-solving through coding platforms such as CodeChef and HackerRank from the first year. Laboratory sessions, real-world projects, internships, and industry certification pathways ensure that graduates possess both theoretical knowledge and the applied skills that employers value. Bengaluru’s technology ecosystem provides direct access to internship and employment opportunities with software companies, IT services firms, start-ups, and digital agencies."
           ],
+          "image": "/img/inner-about/info-sci.jpeg",
+
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -7629,7 +7681,9 @@
             "The B.C.A. Artificial Intelligence and Machine Learning programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "Students gain expertise in database management, cloud technologies, and software architecture through project-based learning and industry partnerships with leading IT organizations."
           ],
+          "image": "/img/inner-about/info-sci.jpeg",
           "hero": {
+            "image": "/img/banner/sois.jpg",
             "title": {
               "normal": "B.C.A. Artificial Intelligence and Machine Learning",
               "italic": ""
@@ -7767,7 +7821,9 @@
             "The B.C.A. Data Science programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "Students gain expertise in database management, cloud technologies, and software architecture through project-based learning and industry partnerships with leading IT organizations."
           ],
+          "image": "/img/inner-about/info-sci.jpeg",
           "hero": {
+            "image": "/img/banner/sois.jpg",
             "title": {
               "normal": "B.C.A. Data Science",
               "italic": ""
@@ -7905,7 +7961,9 @@
             "The Master of Computer Applications (MCA) programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "Students gain expertise in database management, cloud technologies, and software architecture through project-based learning and industry partnerships with leading IT organizations."
           ],
+          "image": "/img/inner-about/info-sci.jpeg",
           "hero": {
+            "image": "/img/banner/sois.jpg",
             "title": {
               "normal": "Master of Computer Applications",
               "italic": "MCA"
@@ -8100,6 +8158,7 @@
             "The Bachelor of Business Administration programme covers the core disciplines of modern business — HR management, organisational behaviour, business communication, finance management, marketing, business law, accounting, strategic planning, international business, retail management, supply chain management, and operations management. The curriculum is designed to develop well-rounded business professionals who can identify management challenges, think strategically, and apply practical solutions across functional areas. Students gain exposure to both established management frameworks and emerging business practices through a blend of classroom instruction, case studies, business simulations, and corporate projects.",
             "The programme embeds industry engagement throughout, with corporate internships, live projects, industrial visits, and startup incubation support forming integral parts of the learning experience. Certification pathways in digital marketing, financial modelling, business analytics, and leadership development complement the academic curriculum. Bengaluru’s thriving corporate ecosystem — home to multinational headquarters, consulting firms, financial institutions, and a vibrant start-up scene — provides students with unparalleled proximity to professional opportunities and industry networks."
           ],
+          "image": "/img/inner-about/manag.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -8310,12 +8369,13 @@
           }
         },
         {
-          "slug": "bba-aviation",
+          "slug": "bba-aviation-management",
           "name": "BBA Aviation Management",
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Business Administration",
           "hero": {
+            "image": "/img/banner/som.jpg",
             "title": {
               "normal": "BBA (Aviation Management)",
               "italic": ""
@@ -8351,6 +8411,7 @@
             "The BBA in Aviation Management prepares students for the rapidly evolving aviation industry — a sector that has moved from government-controlled operations to a dynamic mix of full-service airlines, low-cost carriers, and private aviation services. The curriculum covers aviation fundamentals, airport operations, aviation safety and security, human resources in aviation, travel and tourism management, and airline business strategy. Unique features include personality development, foreign language training, first aid certification, and computer applications — ancillary skills that aviation employers specifically value.",
             "India’s aviation sector is experiencing significant growth, with new airports under construction, airline fleets expanding, and passenger traffic increasing annually. This creates sustained demand for professionally trained aviation management graduates who understand both the operational and business dimensions of the industry. The programme produces graduates equipped for roles across airlines, airports, ground handling companies, travel management firms, and aviation support services."
           ],
+          "image": "/img/inner-about/manag.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -8563,6 +8624,7 @@
           "type": "UG",
           "degree": "Bachelor of Business Administration",
           "hero": {
+            "image": "/img/banner/som.jpg",
             "title": {
               "normal": "BBA (Business Analytics)",
               "italic": ""
@@ -8598,6 +8660,7 @@
             "The BBA in Business Analytics combines core business management education with focused training in data analytics, statistical methods, and business intelligence tools. The programme recognises that successful modern businesses require professionals who can bridge the gap between data science and strategic decision-making. Students develop competencies in applied business analytics, data science with R, predictive analysis, programming for analytics, marketing analytics, financial analytics, and human resource analytics — gaining both the business acumen and technical skills that analytics-driven organisations demand.",
             "The curriculum equips students with the ability to use statistical tools to navigate large business datasets, extract structured information, and support evidence-based decision-making. Students work with industry-standard analytics platforms and develop practical skills through real-world case studies, business simulations, and data projects. Bengaluru’s concentration of analytics firms, consulting companies, and data-driven enterprises provides direct access to internship and career opportunities in one of India’s most active business analytics markets."
           ],
+          "image": "/img/inner-about/manag.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -8810,6 +8873,7 @@
           "type": "UG",
           "degree": "Bachelor of Business Administration",
           "hero": {
+            "image": "/img/banner/som.jpg",
             "title": {
               "normal": "BBA (Digital Marketing)",
               "italic": ""
@@ -8845,6 +8909,7 @@
             "The BBA in Digital Marketing provides comprehensive training in the strategies used to attract customers through digital channels. The programme covers search engine optimisation (SEO), search engine marketing (SEM), social media marketing, web analytics, the digital advertising landscape, and customer communication using new media techniques. Students develop a practical understanding of online marketing alongside insights into human and organisational dynamics — creating professionals who can plan, execute, and measure digital campaigns that drive measurable business results.",
             "The curriculum covers technology platforms, content marketing, influencer strategies, email marketing, paid advertising management, and analytics-driven optimisation. Students gain hands-on experience with industry-standard digital marketing platforms and develop professional portfolios through live campaign projects. Bengaluru’s vibrant digital economy — home to digital agencies, e-commerce companies, and technology startups — provides an ideal environment for building practical skills and professional networks in digital marketing."
           ],
+          "image": "/img/inner-about/manag.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -9056,6 +9121,7 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Business Administration",
+          "image": "/img/banner/som.jpg",
           "hero": {
             "title": {
               "normal": "BBA (Digital Business)",
@@ -9092,6 +9158,7 @@
             "The BBA in Digital Business prepares students to operate, manage, and grow businesses in an increasingly digital economy. The programme integrates core business management with specialised modules in digital marketing, e-commerce operations, digital analytics, social media strategy, and digital business model design. Students develop the skills to transform traditionally run businesses into digital enterprises, manage online operations, and leverage data-driven insights for strategic decision-making across industries.",
             "A distinctive feature of this programme is the dual certification advantage — students receive a BBA degree from Presidency University alongside industry-recognised certifications from IIDE (Indian Institute of Digital Education), Google, Meta, and HubSpot. This combination of academic credentials and professional certifications significantly enhances employability. Students gain hands-on experience managing PPC campaigns, social media platforms, content strategies, and e-commerce operations, building a practical portfolio that demonstrates their capabilities to employers and potential business partners."
           ],
+          "image": "/img/inner-about/manag.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -9298,12 +9365,13 @@
           }
         },
         {
-          "slug": "bba-hospitality",
+          "slug": "bba-hospitality-management",
           "name": "BBA Hospitality Management",
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Business Administration",
           "hero": {
+             "image": "/img/banner/som.jpg",
             "title": {
               "normal": "BBA (Hospitality Management)",
               "italic": ""
@@ -9339,6 +9407,7 @@
             "The BBA in Hospitality Management prepares students for careers in one of the world’s largest service industries. The curriculum covers hotel operations, food and beverage management, front office management, housekeeping, tourism and travel management, event planning, and hospitality marketing. Students develop the operational, communication, and guest-service skills that hospitality employers value, alongside core business management competencies in finance, HR, and strategic planning.",
             "India’s hospitality sector is experiencing rapid growth driven by rising domestic and international tourism, expansion of hotel chains, and the growing meetings, incentives, conferences, and exhibitions (MICE) industry. Bengaluru’s position as a major business travel destination adds local context to the programme. Students gain practical experience through industry placements, guest lectures from hospitality professionals, and exposure to operational environments. The programme produces graduates ready for management roles in hotels, resorts, restaurants, event companies, cruise lines, and tourism organisations."
           ],
+           "image": "/img/inner-about/manag.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -9554,7 +9623,9 @@
             "The BA Journalism & Mass Communication (Film & Television Production) programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "Through case studies, industry projects, and international exposure, students are equipped to lead organizations, drive innovation, and excel in competitive corporate environments."
           ],
+           "image": "/img/inner-about/manag.jpeg",
           "hero": {
+             "image": "/img/banner/som.jpg",
             "title": {
               "normal": "BA Journalism & Mass Communication",
               "italic": "Film & Television Production"
@@ -9692,7 +9763,9 @@
             "The BA Journalism & Mass Communication (AR/VR & Immersive Media) programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "Through case studies, industry projects, and international exposure, students are equipped to lead organizations, drive innovation, and excel in competitive corporate environments."
           ],
+           "image": "/img/inner-about/manag.jpeg",
           "hero": {
+             "image": "/img/banner/som.jpg",
             "title": {
               "normal": "BA Journalism & Mass Communication",
               "italic": "AR/VR & Immersive Media"
@@ -9821,7 +9894,7 @@
           ]
         },
         {
-          "slug": "mba-finance",
+          "slug": "mba",
           "name": "MBA Finance",
           "duration": "2 Years",
           "type": "PG",
@@ -9830,7 +9903,9 @@
             "The MBA Finance programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "Through case studies, industry projects, and international exposure, students are equipped to lead organizations, drive innovation, and excel in competitive corporate environments."
           ],
+           "image": "/img/inner-about/manag.jpeg",
           "hero": {
+             "image": "/img/banner/som.jpg",
             "title": {
               "normal": "MBA Finance",
               "italic": ""
@@ -9959,7 +10034,7 @@
           ]
         },
         {
-          "slug": "mba-marketing",
+          "slug": "mba-marketing-finance",
           "name": "MBA Marketing",
           "duration": "2 Years",
           "type": "PG",
@@ -9968,7 +10043,9 @@
             "The MBA Marketing programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "Through case studies, industry projects, and international exposure, students are equipped to lead organizations, drive innovation, and excel in competitive corporate environments."
           ],
+           "image": "/img/inner-about/manag.jpeg",
           "hero": {
+             "image": "/img/banner/som.jpg",
             "title": {
               "normal": "MBA Marketing",
               "italic": ""
@@ -10106,7 +10183,9 @@
             "The BA Journalism & Mass Communication (Digital Storytelling & Content Creation) programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "Through case studies, industry projects, and international exposure, students are equipped to lead organizations, drive innovation, and excel in competitive corporate environments."
           ],
+           "image": "/img/inner-about/manag.jpeg",
           "hero": {
+             "image": "/img/banner/som.jpg",
             "title": {
               "normal": "BA Journalism & Mass Communication",
               "italic": "Digital Storytelling & Content Creation"
@@ -10241,6 +10320,7 @@
           "type": "UG",
           "degree": "Bachelor of Arts",
           "hero": {
+             "image": "/img/banner/som.jpg",
             "title": {
               "normal": "  BA Journalism & Mass Communication  ",
               "italic": ""
@@ -10276,6 +10356,7 @@
             "The BA in Journalism and Mass Communication at Presidency School of Media Studies offers a cutting-edge curriculum that combines the core principles of traditional journalism with the latest advancements in media technology. Students engage in hands-on training across print, electronic, and digital media — mastering reporting, writing, editing, broadcasting, and real-time storytelling. The curriculum also integrates filmmaking, data journalism, mobile journalism, and social media management, equipping students to produce fact-based stories with impact across platforms.  ",
             "The programme features five specialisation tracks enabling students to develop expertise in their chosen area while maintaining a holistic understanding of the media landscape: Digital Marketing & Advertising / Public Relations & Corporate Communication; Film, Television & Digital Production; Immersive Media, AR/VR & Interactive Storytelling; and Digital Storytelling & Content Creation. Through workshops, internships, and live projects, the programme prepares students for real-world media careers with skills in research, ethical reporting, broadcast techniques, content strategy, and audience engagement. "
           ],
+           "image": "/img/inner-about/manag.jpeg",
           "eligibility": {
             "title": "Eligibility",
             "description": "Candidates must have passed 10+2 with 45% aggregate marks (with English) or equivalent. 40% for reserved category candidates. International applicants should confirm documentation requirements with the Office of International Affairs.",
@@ -10499,7 +10580,9 @@
             "The MA Journalism & Mass Communication programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "Through case studies, industry projects, and international exposure, students are equipped to lead organizations, drive innovation, and excel in competitive corporate environments."
           ],
+           "image": "/img/inner-about/manag.jpeg",
           "hero": {
+             "image": "/img/banner/som.jpg",
             "title": {
               "normal": "MA Journalism & Mass Communication",
               "italic": ""
@@ -10626,6 +10709,386 @@
               "a": "Yes, we support student startups with mentorship, funding, and resources"
             }
           ]
+        },
+        {
+          "slug": "mba-banking-finance-management",
+          "name": "MBA (Banking and Finance Management)",
+          "duration": "2 Years",
+          "type": "PG",
+          "degree": "Master of Business Administration",
+          "hero": {
+             "image": "/img/banner/som.jpg",
+            "title": {
+              "normal": "MBA Banking and",
+              "italic": "Finance Management"
+            },
+            "description": "Master banking operations and financial management with a specialised MBA designed for the modern financial industry.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Management",
+              "MBA Banking Finance Management"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "2 Yr"
+              },
+              {
+                "label": "Semesters",
+                "value": "4"
+              },
+              {
+                "label": "Core Programme",
+                "value": "MBA"
+              }
+            ]
+          },
+          "details": {
+            "duration": "2 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Management"
+          },
+          "overview": [
+            "The MBA in Banking and Finance Management prepares students for leadership roles in banking, financial services, and investment sectors.",
+            "The programme covers financial analysis, banking operations, risk management, corporate finance, and regulatory frameworks with strong industry engagement."
+          ],
+           "image": "/img/inner-about/manag.jpeg",
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have a bachelor's degree with minimum 50% marks from a recognised university.",
+            "note": "Eligibility may vary for international students."
+          },
+          "highlights": [
+            {
+              "title": "Banking & Finance Focus",
+              "description": "Specialised curriculum covering banking regulations, risk management, and financial instruments."
+            },
+            {
+              "title": "Industry Exposure",
+              "description": "Live projects and internships with leading banks and financial institutions."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Banking & Finance",
+              "roles": [
+                "Bank Manager",
+                "Financial Analyst",
+                "Investment Banker",
+                "Risk Manager",
+                "Credit Officer"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "What is the eligibility?",
+              "a": "A bachelor's degree with minimum 50% marks is required."
+            },
+            {
+              "q": "Are placements available?",
+              "a": "Yes, the university has strong ties with banking and financial institutions."
+            }
+          ],
+          "cta": {
+            "title": "Advance Your Finance Career",
+            "subtitle": "Join Presidency University's MBA in Banking and Finance Management.",
+            "button": "Apply Now"
+          },
+          "tabs": {
+            "curriculum": [],
+            "outcomes": {
+              "PEOs": [],
+              "POs": [],
+              "PSOs": []
+            }
+          }
+        },
+        {
+          "slug": "mba-digital-marketing",
+          "name": "MBA (Digital Marketing)",
+          "duration": "2 Years",
+          "type": "PG",
+          "degree": "Master of Business Administration",
+          "hero": {
+             "image": "/img/banner/som.jpg",
+            "title": {
+              "normal": "MBA",
+              "italic": "Digital Marketing"
+            },
+            "description": "Lead digital marketing strategy with an MBA combining business fundamentals and cutting-edge digital marketing expertise.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Management",
+              "MBA Digital Marketing"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "2 Yr"
+              },
+              {
+                "label": "Semesters",
+                "value": "4"
+              },
+              {
+                "label": "Core Programme",
+                "value": "MBA"
+              }
+            ]
+          },
+          "details": {
+            "duration": "2 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Management"
+          },
+          "overview": [
+            "The MBA in Digital Marketing equips students with advanced skills in digital strategy, data-driven marketing, and brand management.",
+            "Students learn SEO, SEM, social media marketing, content strategy, and analytics tools to lead marketing functions in modern organisations."
+          ],
+           "image": "/img/inner-about/manag.jpeg",
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have a bachelor's degree with minimum 50% marks from a recognised university.",
+            "note": "Eligibility may vary for international students."
+          },
+          "highlights": [
+            {
+              "title": "Digital Strategy & Analytics",
+              "description": "Master digital marketing channels, campaign management, and data analytics for business growth."
+            },
+            {
+              "title": "Industry Tools",
+              "description": "Hands-on training with Google Ads, Meta Business Suite, HubSpot, and analytics platforms."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Digital Marketing",
+              "roles": [
+                "Digital Marketing Manager",
+                "SEO Specialist",
+                "Content Strategist",
+                "Brand Manager",
+                "Growth Hacker"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "What is the eligibility?",
+              "a": "A bachelor's degree with minimum 50% marks is required."
+            },
+            {
+              "q": "What tools will I learn?",
+              "a": "Google Analytics, SEMrush, HubSpot, Meta Ads Manager and more."
+            }
+          ],
+          "cta": {
+            "title": "Lead the Digital Revolution",
+            "subtitle": "Build your career in digital marketing with our specialised MBA.",
+            "button": "Apply Now"
+          },
+          "tabs": {
+            "curriculum": [],
+            "outcomes": {
+              "PEOs": [],
+              "POs": [],
+              "PSOs": []
+            }
+          }
+        },
+        {
+          "slug": "mba-business-analytics",
+          "name": "MBA (Business Analytics)",
+          "duration": "2 Years",
+          "type": "PG",
+          "degree": "Master of Business Administration",
+          "hero": {
+             "image": "/img/banner/som.jpg",
+            "title": {
+              "normal": "MBA",
+              "italic": "Business Analytics"
+            },
+            "description": "Transform data into business insights with an MBA combining management expertise and advanced analytics skills.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Management",
+              "MBA Business Analytics"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "2 Yr"
+              },
+              {
+                "label": "Semesters",
+                "value": "4"
+              },
+              {
+                "label": "Core Programme",
+                "value": "MBA"
+              }
+            ]
+          },
+          "details": {
+            "duration": "2 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Management"
+          },
+          "overview": [
+            "The MBA in Business Analytics develops professionals who can harness data to drive strategic business decisions.",
+            "The programme combines MBA fundamentals with data science, statistical modelling, machine learning applications, and business intelligence tools."
+          ],
+           "image": "/img/inner-about/manag.jpeg",
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have a bachelor's degree with minimum 50% marks from a recognised university.",
+            "note": "Eligibility may vary for international students."
+          },
+          "highlights": [
+            {
+              "title": "Data-Driven Decision Making",
+              "description": "Learn to extract actionable insights from complex datasets using advanced analytical tools."
+            },
+            {
+              "title": "Business Intelligence Tools",
+              "description": "Hands-on experience with Tableau, Power BI, Python, R, and SQL for business analysis."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Analytics & Data",
+              "roles": [
+                "Business Analyst",
+                "Data Analyst",
+                "Analytics Manager",
+                "Strategy Consultant",
+                "BI Developer"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "What is the eligibility?",
+              "a": "A bachelor's degree with minimum 50% marks is required."
+            },
+            {
+              "q": "What programming skills are taught?",
+              "a": "Python, R, and SQL are core components of the analytics curriculum."
+            }
+          ],
+          "cta": {
+            "title": "Become a Data-Driven Leader",
+            "subtitle": "Master business analytics with our industry-aligned MBA programme.",
+            "button": "Apply Now"
+          },
+          "tabs": {
+            "curriculum": [],
+            "outcomes": {
+              "PEOs": [],
+              "POs": [],
+              "PSOs": []
+            }
+          }
+        },
+        {
+          "slug": "pg-diploma-public-administration",
+          "name": "Post Graduate Diploma in Public Administration",
+          "duration": "1 Year",
+          "type": "Diploma",
+          "degree": "Post Graduate Diploma",
+          "hero": {
+             "image": "/img/banner/som.jpg",
+            "title": {
+              "normal": "PG Diploma in",
+              "italic": "Public Administration"
+            },
+            "description": "Build a career in governance and public service with our Post Graduate Diploma in Public Administration.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Management",
+              "PG Diploma Public Administration"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "1 Yr"
+              },
+              {
+                "label": "Semesters",
+                "value": "2"
+              },
+              {
+                "label": "Core Programme",
+                "value": "Diploma"
+              }
+            ]
+          },
+          "details": {
+            "duration": "1 Year Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Management"
+          },
+          "overview": [
+            "The Post Graduate Diploma in Public Administration provides a thorough grounding in governance, public policy, and administrative systems.",
+            "The programme prepares students for roles in government, public sector undertakings, NGOs, and international organisations."
+          ],
+           "image": "/img/inner-about/manag.jpeg",
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have a bachelor's degree with minimum 50% marks from a recognised university.",
+            "note": "Eligibility may vary for international students."
+          },
+          "highlights": [
+            {
+              "title": "Public Policy & Governance",
+              "description": "Comprehensive study of governance frameworks, public policy design, and administrative processes."
+            },
+            {
+              "title": "NGO & Government Exposure",
+              "description": "Industry interactions with government officials and NGO representatives."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Public Sector",
+              "roles": [
+                "Government Officer",
+                "Policy Analyst",
+                "NGO Programme Manager",
+                "Public Relations Officer",
+                "Administrative Officer"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "What is the eligibility?",
+              "a": "A bachelor's degree with minimum 50% marks is required."
+            },
+            {
+              "q": "Is this a recognised qualification?",
+              "a": "Yes, the diploma is awarded by Presidency University, a UGC-recognised institution."
+            }
+          ],
+          "cta": {
+            "title": "Serve the Public Good",
+            "subtitle": "Build a rewarding career in governance and public administration.",
+            "button": "Apply Now"
+          },
+          "tabs": {
+            "curriculum": [],
+            "outcomes": {
+              "PEOs": [],
+              "POs": [],
+              "PSOs": []
+            }
+          }
         }
       ],
       "hero": {
@@ -10959,12 +11422,13 @@
           ]
         },
         {
-          "slug": "bcom-banking-finance",
+          "slug": "bcom-banking-and-finance",
           "name": "B.Com Banking & Finance",
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Commerce",
           "hero": {
+             "image": "/img/banner/soc.jpg",
             "title": {
               "normal": " B.Com. (Banking and Finance)  ",
               "italic": " Commerce "
@@ -11000,6 +11464,7 @@
             "   This programme equips students with the knowledge, skills, and professional attitude for a career in banking and finance. The curriculum covers financial accounting,cost accounting, banking law, financial markets, economics, risk management, securityanalysis, and derivatives. Students develop competencies across the full spectrum ofbanking and financial services — from retail banking and credit analysis to investment management and financial regulation. The programme includes an internship component to enhance practical skills and industry readiness. ",
             "Students also have the option to receive specialised coaching for the CAFoundation examination, providing a dual academic and professional development pathway. India’s expanding banking and financial services sector — driven by digital banking, fintech innovation, and growing capital markets — creates sustained demand for commerce graduates with specialised banking and finance expertise. Bengaluru’sconcentration of banking headquarters, financial services firms, and fintech startupsprovides direct access to internship and career opportunities.   "
           ],
+           "image": "/img/inner-about/commerce.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -11225,6 +11690,7 @@
           "type": "UG",
           "degree": "Bachelor of Commerce",
           "hero": {
+            "image": "/img/banner/soc.jpg",
             "title": {
               "normal": " B.Com. (ACCA) ",
               "italic": " Commerce "
@@ -11260,6 +11726,7 @@
             "The B.Com. ACCA programme integrates the university’s commerce syllabus with the ACCA (Association of Chartered Certified Accountants) curriculum — a globally recognised certification for professional accountants acknowledged in 180 countries. Students complete both their B.Com degree and a significant portion of the ACCA qualification simultaneously, earning exemptions from up to 9 ACCA papers.",
             "The curriculum covers financial accounting, management accounting, taxation, auditing, corporate governance, business law, and financial reporting aligned with international standards (IFRS). Students are mentored by faculty including ACCA-certified professionals who provide guidance on global accounting standards, exam preparation, and career planning."
           ],
+          "image": "/img/inner-about/commerce.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -11455,12 +11922,13 @@
           }
         },
         {
-          "slug": "bcom-cma",
+          "slug": "bcom-corporate-accounting-integrated-cma-us",
           "name": "B.Com with CMA (US)",
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Commerce",
           "hero": {
+            "image": "/img/banner/soc.jpg",
             "title": {
               "normal": " B.Com. (Banking and Finance)  ",
               "italic": " Commerce "
@@ -11496,6 +11964,7 @@
             "The B.Com. integrated with CMA-US equips students with skills in corporate accounting, including financial accounting, cost accounting, risk management, financial planning, and mergers and acquisitions. Students study the CMA-US (Certified Management Accountant) curriculum during the early semesters and prepare for its two examinations while completing their B.Com degree. This integration enables students to earn the CMA-US accreditation and qualify for prominent corporate finance roles upon graduation — combining an Indian undergraduate degree with a globally recognised professional credential.",
             "The CMA-US qualification, administered by the Institute of Management Accountants (IMA), is recognised internationally and valued by multinational corporations for roles in financial planning, analysis, cost management, and corporate strategy. The programme covers financial reporting, corporate governance, cost management, internal controls, and performance management aligned with US and international accounting standards. Graduates emerge with dual credentials that demonstrate both academic foundations and professional competence to employers across global markets."
           ],
+          "image": "/img/inner-about/commerce.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -11713,6 +12182,7 @@
           "type": "UG",
           "degree": "Bachelor of Commerce",
           "hero": {
+            "image": "/img/banner/soc.jpg",
             "title": {
               "normal": "B.Com. CA Foundation",
               "italic": "Commerce"
@@ -11748,6 +12218,7 @@
             "The B.Com. CA Foundation programme is designed for students aspiring to build a strong foundation in commerce, accounting, and finance with a specific focus on Chartered Accountancy preparation. The programme integrates core B.Com subjects with the CA Foundation syllabus, providing a structured pathway for students aiming to become Chartered Accountants. Students study accounting principles, business law, taxation, auditing, economics, and quantitative methods — aligned with both the academic requirements of a commerce degree and the examination requirements of the CA Foundation.",
             "The programme includes dedicated coaching for CA Foundation examination preparation alongside regular academic coursework, mock tests, and practice workshops. Faculty include seasoned professionals and practising chartered accountants who provide exam-oriented guidance alongside academic instruction. This integrated approach ensures that students complete their undergraduate degree with both academic qualifications and substantial progress toward their CA professional goal, saving time compared to pursuing the two pathways separately."
           ],
+          "image": "/img/inner-about/commerce.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -11959,12 +12430,13 @@
           }
         },
         {
-          "slug": "bcom-corporate-tax",
+          "slug": "bcom-corporate-accounting-and-taxation",
           "name": "B.Com Corporate Accounting & Taxation",
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Commerce",
           "hero": {
+            "image": "/img/banner/soc.jpg",
             "title": {
               "normal": "B.Com. (Corporate Accounting and Taxation)",
               "italic": "Commerce"
@@ -12000,6 +12472,7 @@
             "The B.Com. in Corporate Accounting and Taxation equips students with in-depth knowledge and skills in corporate accounting, taxation, and related financial disciplines. The curriculum blends contemporary subjects including accountancy, economics, management, banking, taxation, and law — preparing graduates to meet the challenges of modern business finance. The programme is specifically designed to train students for professional accountancy careers in chartered accountancy, company secretaryship, and cost management accountancy.",
             "Students develop expertise in personal and corporate taxation, financial markets, accounting standards, financial management, banking, risk management, and derivatives. The programme combines theoretical instruction with practical exercises in financial statement analysis, tax planning, audit procedures, and compliance reporting. Graduates emerge with the professional knowledge base and analytical skills valued by accounting firms, KPOs, corporate finance departments, and regulatory compliance organisations."
           ],
+          "image": "/img/inner-about/commerce.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -12225,6 +12698,7 @@
           "type": "UG",
           "degree": "Bachelor of Commerce",
           "hero": {
+            "image": "/img/banner/soc.jpg",
             "title": {
               "normal": "B.Com. (Business Analytics)",
               "italic": "Commerce"
@@ -12260,6 +12734,7 @@
             "The B.Com. in Business Analytics equips students with the skills to interpret business data using statistical tools and analytical frameworks. Recognising that modern businesses require professionals who can extract structured information from large datasets for efficient decision-making, the programme combines core commerce education with specialised analytics training. Students develop competencies in applied business analytics, data science with R, predictive analysis, programming for analytics, and domain-specific analytics across marketing, finance, and human resources.",
             "The curriculum covers comprehensive analytics tools alongside traditional commerce disciplines — accounting, economics, management, and business law — creating graduates who understand both the business context and the analytical techniques needed to support evidence-based decisions. Students gain proficiency with industry-standard platforms including Python, R, Tableau, Power BI, and SQL through hands-on project work and data analysis exercises. This programme is particularly suited for students who want to combine commerce knowledge with analytical capabilities valued across consulting, financial services, and corporate planning roles."
           ],
+          "image": "/img/inner-about/commerce.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -12497,7 +12972,7 @@
         "content": [
           "The School of Commerce offers specialized education in accounting, finance, and business operations. Our curriculum is aligned with professional bodies like CA, ICWA, and ICSI, ensuring students are equipped for professional certifications and corporate careers."
         ],
-        "image": "img/mang.png",
+        "image": "/img/mang.png",
         "features": [
           {
             "title": "CA Integration",
@@ -12653,12 +13128,13 @@
       "name": "School of Design",
       "programs": [
         {
-          "slug": "bdes-communication",
+          "slug": "bdes-communication-design",
           "name": "B.Des Communication Design",
           "duration": "4 Years",
           "type": "UG",
           "degree": "Bachelor of Design",
           "hero": {
+            "image": "/img/banner/sod.jpg",
             "title": {
               "normal": "B.Des Communication Design",
               "italic": "Design"
@@ -12694,6 +13170,7 @@
             "The B.Des in Communication Design focuses on the fundamentals of visual communication, enabling students to choose between graphic design and visual representation of information via electronic and new media. The programme provides an in-depth understanding of both pathways and their applications, including motion graphics, special effects, brand identity development, editorial design, and interactive digital experiences. Students develop proficiency with industry-standard tools including Adobe Creative Suite, Sketch, and prototyping platforms through studio-based projects, client briefs, and design competitions.",
             "The programme follows the school’s common first-year structure before specialising from the second year into communication design disciplines. Students build professional portfolios through live projects, design workshops, and industry internships. Certifications in UX/UI, motion design, digital storytelling, and interactive media complement the degree programme. Bengaluru’s vibrant advertising, digital media, and technology startup ecosystem provides direct access to internship and employment opportunities with agencies, studios, media houses, and corporate brands."
           ],
+            "image": "/img/inner-about/design.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -12904,12 +13381,13 @@
           }
         },
         {
-          "slug": "bdes-fashion",
+          "slug": "bdes-fashion-design",
           "name": "B.Des Fashion Design",
           "duration": "4 Years",
           "type": "UG",
           "degree": "Bachelor of Design",
           "hero": {
+            "image": "/img/banner/sod.jpg",
             "title": {
               "normal": "B.Des Fashion Design",
               "italic": "Design"
@@ -12945,6 +13423,7 @@
             "The B.Des in Fashion Design enables students to develop technical skills in garment, apparel, and accessory construction while cultivating the creative sensibility to produce aesthetically compelling and commercially viable designs. The curriculum covers design principles, fashion illustration, pattern making, draping, textile science, trend forecasting, sustainable fashion practices, and fashion business management. Students progress from foundational design skills in the common first year through increasingly advanced specialisation in fashion across subsequent semesters.",
             "The programme is supported by state-of-the-art design studios equipped with modern design software, digital printing tools, sewing and pattern-making facilities, and advanced textile labs. Students build professional portfolios through studio projects, fashion shows, design workshops, and internships with fashion houses and textile manufacturers. India’s thriving fashion and textile industry — one of the world’s largest — provides a rich context for study, with access to diverse traditional craft techniques, emerging sustainable practices, and a dynamic contemporary fashion market."
           ],
+           "image": "/img/inner-about/design.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -13155,12 +13634,13 @@
           }
         },
         {
-          "slug": "bdes-product",
+          "slug": "bdes-product-design",
           "name": "B.Des Product Design",
           "duration": "4 Years",
           "type": "UG",
           "degree": "Bachelor of Design",
           "hero": {
+            "image": "/img/banner/sod.jpg",
             "title": {
               "normal": "B.Des Product Design",
               "italic": "Design"
@@ -13196,6 +13676,7 @@
             "The B.Des in Product Design is a technology-driven industrial design programme focused on creating digitally and technologically integrated products, with optional specialisation in lifestyle and accessory design. Students develop core skills in design principles, concept development, sketching, digital modelling (CAD/CAM), prototyping, ergonomics, material science, and sustainable manufacturing. The programme integrates studio work, tool-based learning, elective modules, real-world projects, and internships — all culminating in a professional portfolio that demonstrates industry readiness.",
             "Students learn practical skills in 3D modelling, prototyping through 3D printing, laser cutting, and CNC machining, as well as material exploration across wood, metal, plastic, and textiles. The programme builds designers who understand the full product development cycle from initial concept through user research, iterative design, prototype testing, and production-ready specification. Bengaluru’s diverse industrial ecosystem — spanning electronics, automotive, consumer goods, and startup innovation — provides rich context for product design education and direct access to industry collaboration."
           ],
+           "image": "/img/inner-about/design.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -13406,12 +13887,13 @@
           }
         },
         {
-          "slug": "bdes-space",
+          "slug": "bdes-space-design",
           "name": "B.Des Space Design",
           "duration": "4 Years",
           "type": "UG",
           "degree": "Bachelor of Design",
           "hero": {
+            "image": "/img/banner/sod.jpg",
             "title": {
               "normal": "B.Des Space Design",
               "italic": "Design"
@@ -13447,6 +13929,7 @@
             "The B.Des in Space Design prepares students to create meaningful spatial experiences across residential, commercial, hospitality, retail, exhibition, and public environments. The curriculum covers spatial planning, interior architecture, material specification, lighting design, furniture design, environmental graphics, and design for human behaviour. Students develop the ability to conceptualise, plan, and execute three-dimensional environments that are functional, aesthetically compelling, and responsive to the needs of their occupants.",
             "The programme combines studio-based design projects with technical drawing, 3D modelling, rendering, and material exploration. Students progress from the common foundation year into increasingly complex spatial design challenges — from individual rooms and retail environments to large-scale hospitality and exhibition spaces. India’s booming real estate, hospitality, and retail sectors — combined with growing awareness of design-led spatial experiences — create strong demand for professionally trained space designers."
           ],
+          "image": "/img/inner-about/design.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -13657,12 +14140,13 @@
           }
         },
         {
-          "slug": "bdes-game",
+          "slug": "bdes-game-design",
           "name": "B.Des Game Design",
           "duration": "4 Years",
           "type": "UG",
           "degree": "Bachelor of Design",
           "hero": {
+            "image": "/img/banner/sod.jpg",
             "title": {
               "normal": "B.Des Game Design",
               "italic": "Design"
@@ -13698,6 +14182,7 @@
             "The B.Des in Game Design prepares students to conceptualise, design, and develop interactive gaming experiences across platforms — mobile, console, PC, and emerging platforms like AR/VR. The curriculum covers game mechanics, level design, interactive storytelling, game art, character design, world-building, user experience design, and game development using industry-standard engines. Students develop both the creative vision and technical skills needed to create games that are engaging, well-crafted, and commercially viable.",
             "India’s gaming industry is among the world’s fastest-growing, driven by mobile gaming, esports, and increasing investment in game development studios. The programme combines the school’s common design foundation year with progressive game design specialisation, producing graduates who understand design thinking, player psychology, and the technical production pipeline. Students build professional portfolios through game prototypes, jam projects, and industry collaborations — demonstrating their capabilities to studios, publishers, and technology companies worldwide."
           ],
+          "image": "/img/inner-about/design.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -13908,12 +14393,13 @@
           }
         },
         {
-          "slug": "bsc-multimedia",
+          "slug": "bsc-multimedia-and-animation",
           "name": "B.Sc Multimedia & Animation",
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Science",
           "hero": {
+            "image": "/img/banner/sod.jpg",
             "title": {
               "normal": "B.Sc. Multimedia and Animation",
               "italic": ""
@@ -13949,6 +14435,7 @@
             "The B.Sc. in Multimedia and Animation covers multimedia design fundamentals, visual effects (VFX), special effects (SFX), game design, digital animation, and interactive media. Students develop proficiency in industry-standard software and hardware including Adobe Creative Suite, Autodesk Maya, Unity and Unreal Engine, and advanced sound design tools. The curriculum spans 2D and 3D animation, character design and rigging, motion graphics, VFX compositing, and AI applications in multimedia — building the technical skills needed for professional content creation across film, television, gaming, and digital media.",
             "The programme is suitable for students without a design or arts background — it covers fundamentals from the ground up while progressing to advanced techniques in animation production, VFX workflows, and game art. Students create market-ready digital content through live projects, collaborative workshops, design challenges, and industry internships. India’s film, gaming, and digital content industries are growing rapidly, creating strong demand for skilled multimedia professionals who can deliver high-quality visual content for domestic and international markets."
           ],
+          "image": "/img/inner-about/design.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -14165,6 +14652,7 @@
           "type": "UG",
           "degree": "Bachelor of Fine Arts",
           "hero": {
+            "image": "/img/banner/sod.jpg",
             "title": {
               "normal": "Bachelor of Fine Arts",
               "italic": ""
@@ -14200,6 +14688,7 @@
             "The Bachelor of Fine Arts programme provides rigorous training in visual arts practice, developing students’ creative voice through sustained engagement with painting, sculpture, drawing, printmaking, and mixed media. The curriculum combines studio practice with art history, aesthetics, critical theory, and contemporary art discourse — producing graduates who can create, exhibit, and contextualise their work within the broader landscape of contemporary visual culture.",
             "The programme benefits from the School of Design’s creative infrastructure, faculty expertise, and collaborative environment. Students develop professional portfolios through studio work, exhibitions, and engagement with Bengaluru’s growing contemporary art scene. The BFA provides a foundation for careers in fine art practice, art education, gallery and museum work, community arts, and creative roles that value strong visual literacy and artistic thinking."
           ],
+          "image": "/img/inner-about/design.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -14437,7 +14926,7 @@
         "content": [
           "The School of Design nurtures creative professionals skilled in graphic design, user experience design, product design, and visual communication. We emphasize design thinking, problem-solving, and industry-standard tools to prepare designers for global creative industries."
         ],
-        "image": "img/media.png",
+        "image": "/img/media.png",
         "features": [
           {
             "title": "Design Studios",
@@ -14599,6 +15088,7 @@
           "type": "UG",
           "degree": "Bachelor of Arts + Bachelor of Laws",
           "hero": {
+            "image": "/img/banner/sol.jpg",
             "title": {
               "normal": "B.A. LL.B. (Hons.)",
               "italic": "Law"
@@ -14634,6 +15124,7 @@
             "The integrated five-year B.A. LL.B. (Hons.) programme provides a strong foundation in the political factors that influence policy and legislation, highlighting the intricate relationship between law and social problems. Aimed at creating socially sensitive sentinels of justice, this programme integrates courses in political science, sociology, and economics with comprehensive legal education for students who prefer to approach law from a humanities and social sciences perspective. The honours structure allows students to develop deep specialisation in one of five tracks: Corporate & Commercial Law, Criminal Law, Constitutional & Administrative Law, Technology & IP Law, or International Trade Law.",
             "The curriculum spans ten semesters covering constitutional law, criminal law, contract law, property law, family law, administrative law, international law, labour law, environmental law, and legal research methodology — alongside the humanities foundation. Clinical and practical skills are developed through moot courts, trial advocacy, legal aid clinics, client counselling, ADR (Alternative Dispute Resolution), and mandatory internships. Students develop competence in legal research, communication, and technology — formulating reasoned legal arguments, drafting professional documents, and presenting them effectively using contemporary digital tools and resources."
           ],
+          "image": "/img/inner-about/law.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -14845,6 +15336,7 @@
           "type": "UG",
           "degree": "Bachelor of Business Administration + Bachelor of Laws",
           "hero": {
+            "image": "/img/banner/sol.jpg",
             "title": {
               "normal": "B.B.A. LL.B. (Hons.)",
               "italic": "Law"
@@ -14880,6 +15372,7 @@
             "The integrated five-year B.B.A. LL.B. (Hons.) programme blends management sciences and legal education to create legal professionals for the increasing opportunities in corporate and business contexts. The core essentials of general management, coupled with a sound understanding of economics, accounting, strategic management, and human resource management, make this honours law curriculum an ideal choice for students who desire to make careers as legal professionals in the demanding context of global business. The programme spans ten semesters with the same five honours specialisation tracks available as in the B.A. LL.B. programme.",
             "Beyond traditional legal education, the programme develops competence in corporate negotiation, contract drafting, entrepreneurship clinics, startup legal support, arbitration practice, and management internships — integrating business strategy with legal expertise. Students gain practical experience through the same clinical programme of moot courts, legal aid, and mandatory internships, while the business management modules add a distinctive commercial dimension. Graduates emerge uniquely positioned for roles where legal knowledge and business understanding must converge — corporate legal departments, commercial law firms, investment banking compliance, startup advisory, and international trade law."
           ],
+          "image": "/img/inner-about/design.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -15091,6 +15584,7 @@
           "type": "PG",
           "degree": "Master of Laws",
           "hero": {
+            "image": "/img/banner/sol.jpg",
             "title": {
               "normal": "LL.M. (Master of Laws)",
               "italic": "Law"
@@ -15126,6 +15620,7 @@
             "The Master of Laws programme deepens legal knowledge across five specialisation tracks, emphasising advanced research, critical analysis, and scholarly writing. The programme prepares students for roles as legal scholars, senior practitioners, policy advisors, and academic leaders. IPR and Technology Law addresses the evolving interface between law and technology — including cloud computing, biotechnological inventions, big data, and traditional knowledge. International Law covers the laws of peace, war, refugees, humanitarian law, and conflict of laws. Criminal Law addresses cyber crime, digital forensics, evidence law, and sentencing reform. Corporate Law covers investment law, international commercial transactions, and commercial arbitration. Constitutional and Administrative Law covers writs, public services, national security, and environmental constitutionalism.",
             "The programme includes practical experience through internships, seminars, and research projects, helping students apply theory to real-world legal situations. Admission is based on merit in the qualifying degree and scores from relevant entrance examinations, combined with an interview conducted by Presidency University's Centre for Post-Graduate Legal Studies (CPGLS). Graduates are well-equipped for leadership roles in legal practice, academia, international organisations, and policy institutions — with expertise in navigating the most complex legal challenges of the contemporary world."
           ],
+          "image": "/img/inner-about/design.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -15501,7 +15996,7 @@
       "name": "School of Media Studies",
       "programs": [
         {
-          "slug": "ba-jmc-digital-marketing",
+          "slug": "ba-jmc-digital-marketing-advertising",
           "name": "BA Journalism & Mass Communication (Digital Marketing & Advertising)",
           "duration": "3 Years",
           "type": "UG",
@@ -15510,7 +16005,9 @@
             "The BA Journalism & Mass Communication (Digital Marketing & Advertising) programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "State-of-the-art production studios, digital editing suites, and partnerships with leading media houses provide students with hands-on experience and the professional network to launch their media careers."
           ],
+          "image": "/img/inner-about/media.jpeg",
           "hero": {
+            "image": "/img/banner/somedia.jpg",
             "title": {
               "normal": "BA Journalism & Mass Communication",
               "italic": "Digital Marketing & Advertising"
@@ -15639,7 +16136,7 @@
           ]
         },
         {
-          "slug": "ba-jmc-film",
+          "slug": "ba-jmc-film-television-digital-production",
           "name": "BA Journalism & Mass Communication (Film & Television Production)",
           "duration": "3 Years",
           "type": "UG",
@@ -15648,7 +16145,9 @@
             "The BA Journalism & Mass Communication (Film & Television Production) programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "State-of-the-art production studios, digital editing suites, and partnerships with leading media houses provide students with hands-on experience and the professional network to launch their media careers."
           ],
+          "image": "/img/inner-about/media.jpeg",
           "hero": {
+            "image": "/img/banner/somedia.jpg",
             "title": {
               "normal": "BA Journalism & Mass Communication",
               "italic": "Film & Television Production"
@@ -15777,7 +16276,7 @@
           ]
         },
         {
-          "slug": "ba-jmc-ar-vr",
+          "slug": "ba-jmc-immersivemedia-ar-vr-interactive-storytelling",
           "name": "BA Journalism & Mass Communication (AR/VR & Immersive Media)",
           "duration": "3 Years",
           "type": "UG",
@@ -15786,7 +16285,9 @@
             "The BA Journalism & Mass Communication (AR/VR & Immersive Media) programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "State-of-the-art production studios, digital editing suites, and partnerships with leading media houses provide students with hands-on experience and the professional network to launch their media careers."
           ],
+          "image": "/img/inner-about/media.jpeg",
           "hero": {
+            "image": "/img/banner/somedia.jpg",
             "title": {
               "normal": "BA Journalism & Mass Communication",
               "italic": "AR/VR & Immersive Media"
@@ -15915,7 +16416,7 @@
           ]
         },
         {
-          "slug": "ba-jmc-content",
+          "slug": "ba-jmc-digital-storytelling-content-creation",
           "name": "BA Journalism & Mass Communication (Digital Storytelling & Content Creation)",
           "duration": "3 Years",
           "type": "UG",
@@ -15924,7 +16425,9 @@
             "The BA Journalism & Mass Communication (Digital Storytelling & Content Creation) programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "State-of-the-art production studios, digital editing suites, and partnerships with leading media houses provide students with hands-on experience and the professional network to launch their media careers."
           ],
+          "image": "/img/inner-about/media.jpeg",
           "hero": {
+            "image": "/img/banner/somedia.jpg",
             "title": {
               "normal": "BA Journalism & Mass Communication",
               "italic": "Digital Storytelling & Content Creation"
@@ -16053,7 +16556,7 @@
           ]
         },
         {
-          "slug": "ba-jmc-journalism",
+          "slug": "ba-journalism-communication-general",
           "name": "BA Journalism & Mass Communication (Journalism)",
           "duration": "3 Years",
           "type": "UG",
@@ -16062,7 +16565,9 @@
             "The BA Journalism & Mass Communication (Journalism) programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "State-of-the-art production studios, digital editing suites, and partnerships with leading media houses provide students with hands-on experience and the professional network to launch their media careers."
           ],
+          "image": "/img/inner-about/media.jpeg",
           "hero": {
+            "image": "/img/banner/somedia.jpg",
             "title": {
               "normal": "BA Journalism & Mass Communication",
               "italic": "Journalism"
@@ -16191,7 +16696,7 @@
           ]
         },
         {
-          "slug": "ma-jmc",
+          "slug": "ma-journalism-mass-communication",
           "name": "MA Journalism & Mass Communication",
           "duration": "2 Years",
           "type": "PG",
@@ -16200,7 +16705,9 @@
             "The MA Journalism & Mass Communication programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "State-of-the-art production studios, digital editing suites, and partnerships with leading media houses provide students with hands-on experience and the professional network to launch their media careers."
           ],
+          "image": "/img/inner-about/media.jpeg",
           "hero": {
+            "image": "/img/banner/somedia.jpg",
             "title": {
               "normal": "MA Journalism & Mass Communication",
               "italic": ""
@@ -16329,7 +16836,7 @@
           ]
         },
         {
-          "slug": "pg-diploma-film",
+          "slug": "post-graduate-diploma-film-making",
           "name": "PG Diploma in Film Making",
           "duration": "1 Year",
           "type": "Diploma",
@@ -16338,7 +16845,9 @@
             "The PG Diploma in Film Making programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "State-of-the-art production studios, digital editing suites, and partnerships with leading media houses provide students with hands-on experience and the professional network to launch their media careers."
           ],
+          "image": "/img/inner-about/media.jpeg",
           "hero": {
+            "image": "/img/banner/somedia.jpg",
             "title": {
               "normal": "PG Diploma in Film Making",
               "italic": ""
@@ -16498,7 +17007,7 @@
         "content": [
           "The School of Media Studies offers comprehensive education in journalism, broadcasting, digital media, and mass communication. Our programs combine media theory, professional skills, and hands-on experience in state-of-the-art facilities, preparing students for evolving media landscapes."
         ],
-        "image": "img/media.png",
+        "image": "/img/media.png",
         "features": [
           {
             "title": "Production Studios",
@@ -16655,11 +17164,11 @@
       }
     },
     {
-      "slug": "liberal-arts",
+      "slug": "liberal-arts-science",
       "name": "School of Liberal Arts & Sciences",
       "programs": [
         {
-          "slug": "ba-psychology",
+          "slug": "ba-psychology-economics",
           "name": "BA Psychology",
           "duration": "3 Years",
           "type": "UG",
@@ -16668,7 +17177,9 @@
             "The BA Psychology programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "Graduates are well-positioned for careers in civil services, policy research, education, NGOs, and the corporate sector — fields that value the versatile, analytical mindset that a liberal arts education develops."
           ],
+         "image": "/img/inner-about/arts.jpeg",
           "hero": {
+            "image": "/img/banner/sola.jpg",
             "title": {
               "normal": "BA Psychology",
               "italic": ""
@@ -16797,7 +17308,7 @@
           ]
         },
         {
-          "slug": "ba-english",
+          "slug": "ba-english-history",
           "name": "BA English",
           "duration": "3 Years",
           "type": "UG",
@@ -16806,7 +17317,9 @@
             "The BA English programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "Graduates are well-positioned for careers in civil services, policy research, education, NGOs, and the corporate sector — fields that value the versatile, analytical mindset that a liberal arts education develops."
           ],
+          "image": "/img/inner-about/arts.jpeg",
           "hero": {
+            "image": "/img/banner/sola.jpg",
             "title": {
               "normal": "BA English",
               "italic": ""
@@ -16935,7 +17448,7 @@
           ]
         },
         {
-          "slug": "ba-political-science",
+          "slug": "ba-history-political-science",
           "name": "BA Political Science",
           "duration": "3 Years",
           "type": "UG",
@@ -16944,7 +17457,9 @@
             "The BA Political Science programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "Graduates are well-positioned for careers in civil services, policy research, education, NGOs, and the corporate sector — fields that value the versatile, analytical mindset that a liberal arts education develops."
           ],
+          "image": "/img/inner-about/arts.jpeg",
           "hero": {
+            "image": "/img/banner/sola.jpg",
             "title": {
               "normal": "BA Political Science",
               "italic": ""
@@ -17073,7 +17588,7 @@
           ]
         },
         {
-          "slug": "ba-economics",
+          "slug": "ba-political-science-economics",
           "name": "BA Economics",
           "duration": "3 Years",
           "type": "UG",
@@ -17082,7 +17597,9 @@
             "The BA Economics programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "Graduates are well-positioned for careers in civil services, policy research, education, NGOs, and the corporate sector — fields that value the versatile, analytical mindset that a liberal arts education develops."
           ],
+          "image": "/img/inner-about/arts.jpeg",
           "hero": {
+            "image": "/img/banner/sola.jpg",
             "title": {
               "normal": "BA Economics",
               "italic": ""
@@ -17211,7 +17728,7 @@
           ]
         },
         {
-          "slug": "ba-sociology",
+          "slug": "ba-communication-media",
           "name": "BA Sociology",
           "duration": "3 Years",
           "type": "UG",
@@ -17220,7 +17737,9 @@
             "The BA Sociology programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "Graduates are well-positioned for careers in civil services, policy research, education, NGOs, and the corporate sector — fields that value the versatile, analytical mindset that a liberal arts education develops."
           ],
+          "image": "/img/inner-about/arts.jpeg",
           "hero": {
+            "image": "/img/banner/sola.jpg",
             "title": {
               "normal": "BA Sociology",
               "italic": ""
@@ -17355,6 +17874,7 @@
           "type": "UG",
           "degree": "Bachelor of Science (Psychology) ",
           "hero": {
+            "image": "/img/banner/sola.jpg",
             "title": {
               "normal": " B.Sc. Psychology ",
               "italic": ""
@@ -17390,6 +17910,7 @@
             " The B.Sc. in Psychology provides a scientific foundation in the study of human behaviour, cognition, emotion, and mental processes. The curriculum covers core areas including developmental psychology, social psychology, abnormal psychology, cognitive psychology, research methodology, and statistical analysis. Students develop competencies in understanding human behaviour through both theoretical frameworks and empirical research methods — building the analytical and observational skills essential for careers across psychology, counselling, human resources, and social services. ",
             "The programme combines classroom instruction with laboratory work, case study analysis, and field exposure. Students engage with contemporary topics including mental health awareness, workplace psychology, child development, and psychological assessment. This standalone B.Sc. provides a comprehensive scientific grounding in psychology, distinct from the dual-discipline B.A. combinations that pair psychology with other humanities subjects. It serves as the primary pathway for students seeking to progress to the M.Sc. Psychology and professional practice in clinical, counselling, or industrial psychology.   "
           ],
+          "image": "/img/inner-about/arts.jpeg",
           "eligibility": {
             "title": "Eligibility",
             "description": "Candidates must have completed 10+2 or equivalent with at least 45% aggregate marks. International applicants should confirm requirements with the Office of International Affairs ",
@@ -17588,7 +18109,7 @@
           }
         },
         {
-          "slug": "ba-performing-arts-dance",
+          "slug": "ba-arts-classicaldance-psychology",
           "name": "BA Performing Arts (Classical Dance)",
           "duration": "3 Years",
           "type": "UG",
@@ -17597,7 +18118,9 @@
             "The BA Performing Arts (Classical Dance) programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "Graduates are well-positioned for careers in civil services, policy research, education, NGOs, and the corporate sector — fields that value the versatile, analytical mindset that a liberal arts education develops."
           ],
+          "image": "/img/inner-about/arts.jpeg",
           "hero": {
+            "image": "/img/banner/sola.jpg",
             "title": {
               "normal": "BA Performing Arts",
               "italic": "Classical Dance"
@@ -17726,7 +18249,7 @@
           ]
         },
         {
-          "slug": "ba-performing-arts-music",
+          "slug": "ba-arts-classicalmusic-psychology",
           "name": "BA Performing Arts (Classical Music)",
           "duration": "3 Years",
           "type": "UG",
@@ -17735,7 +18258,9 @@
             "The BA Performing Arts (Classical Music) programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "Graduates are well-positioned for careers in civil services, policy research, education, NGOs, and the corporate sector — fields that value the versatile, analytical mindset that a liberal arts education develops."
           ],
+          "image": "/img/inner-about/arts.jpeg",
           "hero": {
+            "image": "/img/banner/sola.jpg",
             "title": {
               "normal": "BA Performing Arts",
               "italic": "Classical Music"
@@ -17864,7 +18389,7 @@
           ]
         },
         {
-          "slug": "ba-performing-arts-western",
+          "slug": "ba-performing-arts-western-music-instrumental-english",
           "name": "BA Performing Arts (Western Music)",
           "duration": "3 Years",
           "type": "UG",
@@ -17873,7 +18398,9 @@
             "The BA Performing Arts (Western Music) programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "Graduates are well-positioned for careers in civil services, policy research, education, NGOs, and the corporate sector — fields that value the versatile, analytical mindset that a liberal arts education develops."
           ],
+          "image": "/img/inner-about/arts.jpeg",
           "hero": {
+            "image": "/img/banner/sola.jpg",
             "title": {
               "normal": "BA Performing Arts",
               "italic": "Western Music"
@@ -18002,7 +18529,7 @@
           ]
         },
         {
-          "slug": "ba-performing-arts-theatre",
+          "slug": "ba-theatre-studies-psychology",
           "name": "BA Performing Arts (Theatre Studies)",
           "duration": "3 Years",
           "type": "UG",
@@ -18011,7 +18538,9 @@
             "The BA Performing Arts (Theatre Studies) programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "Graduates are well-positioned for careers in civil services, policy research, education, NGOs, and the corporate sector — fields that value the versatile, analytical mindset that a liberal arts education develops."
           ],
+          "image": "/img/inner-about/arts.jpeg",
           "hero": {
+            "image": "/img/banner/sola.jpg",
             "title": {
               "normal": "BA Performing Arts",
               "italic": "Theatre Studies"
@@ -18140,12 +18669,13 @@
           ]
         },
         {
-          "slug": "msc-psychology",
+          "slug": "msc-psychology-child-clinical-counselling-industrial-psychology",
           "name": "M.Sc Psychology",
           "duration": "2 Years",
           "type": "PG",
           "degree": "Master of Science",
           "hero": {
+            "image": "/img/banner/sola.jpg",
             "title": {
               "normal": " M.Sc. Psychology",
               "italic": ""
@@ -18181,6 +18711,7 @@
             "  The M.Sc. in Psychology provides advanced postgraduate education across four specialisation tracks — Child, Clinical, Counselling, and Industrial Psychology. Each track develops deep expertise in the chosen domain while maintaining a strong foundation in psychological research methodology, advanced statistics, and ethical practice. Students engage with contemporary psychological theories, evidence-based assessment techniques, and therapeutic or organisational interventions relevant to their specialisation. ",
             "The programme combines academic instruction with supervised practical experience, case studies, and research projects. Clinical and counselling tracks include practicum components in therapeutic settings. The industrial psychology track connects with organisational practice through corporate projects and HR collaborations. Graduates are prepared for professional practice, research careers, and academic positions — and the programme provides a strong foundation for doctoral study in psychology.   "
           ],
+          "image": "/img/inner-about/arts.jpeg",
           "eligibility": {
             "title": "Eligibility",
             "description": "Candidates need a BA or B.Sc. degree with at least 50% marks and Psychology as a compulsory subject at the undergraduate level. International applicants should confirm requirements with the Office of International Affairs. ",
@@ -18379,12 +18910,13 @@
           }
         },
         {
-          "slug": "ma-english",
+          "slug": "ma-english-digital-humanities-cultural-Studies-creative-writing-educational-leadership",
           "name": "MA English",
           "duration": "2 Years",
           "type": "PG",
           "degree": "M.A. English ",
           "hero": {
+            "image": "/img/banner/sola.jpg",
             "title": {
               "normal": " M.A. English ",
               "italic": ""
@@ -18420,6 +18952,7 @@
             " The M.A. in English provides advanced postgraduate study in literature, language, and culture with four distinctive specialisation tracks. Digital Humanities explores the intersection of technology and literary scholarship. Cultural Studies engages with contemporary cultural theory, identity, and representation. Creative Writing develops professional authorial and editorial skills. Educational Leadership prepares graduates for leadership roles in educational institutions and policy development.",
             "All tracks share a foundation in advanced literary analysis, critical theory, research methodology, and academic writing. The programme prepares graduates for academic careers, doctoral research, publishing, media, cultural organisations, and educational leadership. The educational leadership track is particularly distinctive, combining English studies with institutional management and pedagogical innovation for careers in education administration. The M.A. English at Presidency University offers a rich interdisciplinary environment, connecting with performing arts, sociology, economics, and psychology across"
           ],
+          "image": "/img/inner-about/arts.jpeg",
           "eligibility": {
             "title": "Eligibility",
             "description": "Applicants typically need a recognised undergraduate degree with English as a subject. Specific eligibility and marks requirements should be confirmed with the school.  ",
@@ -18615,6 +19148,862 @@
             "title": "Your Future Starts Here",
             "subtitle": "Join Presidency University and build your career in technology.",
             "button": "Apply Now"
+          }
+        },
+        {
+          "slug": "ba-psychology-english",
+          "name": "B.A. (Psychology, English)",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Arts",
+          "hero": {
+            "image": "/img/banner/sola.jpg",
+            "title": {
+              "normal": "B.A. Psychology,",
+              "italic": "English"
+            },
+            "description": "Explore the intersection of human behaviour and literary expression in this unique interdisciplinary programme.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Liberal Arts & Sciences",
+              "BA Psychology English"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "3 Yr"
+              },
+              {
+                "label": "Semesters",
+                "value": "6"
+              },
+              {
+                "label": "Core Programme",
+                "value": "BA"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Liberal Arts & Sciences"
+          },
+          "overview": [
+            "The B.A. in Psychology and English offers an interdisciplinary study of human behaviour, literary analysis, and communication.",
+            "Students develop strong analytical, writing, and critical thinking skills applicable across education, counselling, media, and corporate sectors."
+          ],
+          "image": "/img/inner-about/arts.jpeg",
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with any stream and minimum 45% marks.",
+            "note": "Eligibility may vary for international students."
+          },
+          "highlights": [
+            {
+              "title": "Interdisciplinary Learning",
+              "description": "Combines psychology principles with literary studies for a holistic arts education."
+            },
+            {
+              "title": "Communication Skills",
+              "description": "Develop advanced writing, analytical and verbal communication skills."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Arts & Education",
+              "roles": [
+                "Counsellor",
+                "Content Writer",
+                "Editor",
+                "Teacher",
+                "HR Executive"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "What is the eligibility?",
+              "a": "10+2 with any stream and minimum 45% marks."
+            },
+            {
+              "q": "What careers can I pursue?",
+              "a": "Counselling, content writing, education, HR, and media."
+            }
+          ],
+          "cta": {
+            "title": "Explore Arts & Psychology",
+            "subtitle": "Build a versatile career combining psychology and English studies.",
+            "button": "Apply Now"
+          },
+          "tabs": {
+            "curriculum": [],
+            "outcomes": {
+              "PEOs": [],
+              "POs": [],
+              "PSOs": []
+            }
+          }
+        },
+        {
+          "slug": "ba-english-political-science",
+          "name": "B.A. (English & Political Science)",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Arts",
+          "hero": {
+            "image": "/img/banner/sola.jpg",
+            "title": {
+              "normal": "B.A. English &",
+              "italic": "Political Science"
+            },
+            "description": "Combine the power of language and political thought in this dynamic arts programme.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Liberal Arts & Sciences",
+              "BA English Political Science"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "3 Yr"
+              },
+              {
+                "label": "Semesters",
+                "value": "6"
+              },
+              {
+                "label": "Core Programme",
+                "value": "BA"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Liberal Arts & Sciences"
+          },
+          "overview": [
+            "The B.A. in English and Political Science develops critical thinkers equipped for careers in journalism, policy, law, and public service.",
+            "Students gain expertise in political theory, governance, literary analysis, and communication."
+          ],
+          "image": "/img/inner-about/arts.jpeg",
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with any stream and minimum 45% marks.",
+            "note": "Eligibility may vary for international students."
+          },
+          "highlights": [
+            {
+              "title": "Political Theory & Literature",
+              "description": "Combined study of political systems and English literature for well-rounded arts graduates."
+            },
+            {
+              "title": "Communication & Analysis",
+              "description": "Strong emphasis on research, debate, and written communication skills."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Arts & Policy",
+              "roles": [
+                "Journalist",
+                "Policy Researcher",
+                "Teacher",
+                "Civil Servant",
+                "Content Creator"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "What is the eligibility?",
+              "a": "10+2 with any stream and minimum 45% marks."
+            },
+            {
+              "q": "Can I pursue law after this?",
+              "a": "Yes, graduates commonly pursue law programmes or civil services."
+            }
+          ],
+          "cta": {
+            "title": "Shape Policy Through Language",
+            "subtitle": "Develop critical thinking and communication skills for a career in public life.",
+            "button": "Apply Now"
+          },
+          "tabs": {
+            "curriculum": [],
+            "outcomes": {
+              "PEOs": [],
+              "POs": [],
+              "PSOs": []
+            }
+          }
+        },
+        {
+          "slug": "ba-arts-classicaldance-english",
+          "name": "B.A. (Performing Arts - Classical Dance, English)",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Arts",
+          "hero": {
+            "image": "/img/banner/sola.jpg",
+            "title": {
+              "normal": "B.A. Classical Dance",
+              "italic": "& English"
+            },
+            "description": "Blend the grace of classical dance with the richness of English literature in this distinctive performing arts programme.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Liberal Arts & Sciences",
+              "BA Classical Dance English"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "3 Yr"
+              },
+              {
+                "label": "Semesters",
+                "value": "6"
+              },
+              {
+                "label": "Core Programme",
+                "value": "BA"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Liberal Arts & Sciences"
+          },
+          "overview": [
+            "The B.A. in Performing Arts combining Classical Dance and English offers a unique blend of artistic training and literary scholarship.",
+            "Students develop performance skills in classical dance forms alongside English literature, cultural studies, and communication."
+          ],
+          "image": "/img/inner-about/arts.jpeg",
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with any stream and minimum 45% marks. Prior dance training is preferred.",
+            "note": "Eligibility may vary for international students."
+          },
+          "highlights": [
+            {
+              "title": "Classical Dance Training",
+              "description": "Structured training in Indian classical dance forms by experienced faculty and guest artists."
+            },
+            {
+              "title": "English & Cultural Studies",
+              "description": "Literary analysis and cultural studies complement the performing arts curriculum."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Performing Arts",
+              "roles": [
+                "Classical Dancer",
+                "Dance Teacher",
+                "Cultural Programme Manager",
+                "Content Creator",
+                "Arts Administrator"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "What is the eligibility?",
+              "a": "10+2 with any stream. Prior dance experience is preferred but not mandatory."
+            },
+            {
+              "q": "Which dance forms are taught?",
+              "a": "The programme covers major Indian classical dance traditions."
+            }
+          ],
+          "cta": {
+            "title": "Express Through Art & Language",
+            "subtitle": "Pursue a career in performing arts with a strong literary foundation.",
+            "button": "Apply Now"
+          },
+          "tabs": {
+            "curriculum": [],
+            "outcomes": {
+              "PEOs": [],
+              "POs": [],
+              "PSOs": []
+            }
+          }
+        },
+        {
+          "slug": "ba-performing-arts-western-music-instrumental-psychology",
+          "name": "B.A. (Performing Arts - Western Music - Instrumental, Psychology)",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Arts",
+          "hero": {
+            "image": "/img/banner/sola.jpg",
+            "title": {
+              "normal": "B.A. Western Music",
+              "italic": "& Psychology"
+            },
+            "description": "Explore the profound connection between music and the human mind in this unique interdisciplinary programme.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Liberal Arts & Sciences",
+              "BA Western Music Psychology"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "3 Yr"
+              },
+              {
+                "label": "Semesters",
+                "value": "6"
+              },
+              {
+                "label": "Core Programme",
+                "value": "BA"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Liberal Arts & Sciences"
+          },
+          "overview": [
+            "The B.A. in Performing Arts combining Western Music (Instrumental) with Psychology offers an interdisciplinary education in music and human behaviour.",
+            "Students develop instrumental performance skills alongside psychological insights into creativity, performance anxiety, and musical cognition."
+          ],
+          "image": "/img/inner-about/arts.jpeg",
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with any stream and minimum 45% marks. Prior music training is preferred.",
+            "note": "Eligibility may vary for international students."
+          },
+          "highlights": [
+            {
+              "title": "Western Music Training",
+              "description": "Instrumental music training in Western classical and contemporary styles with expert faculty."
+            },
+            {
+              "title": "Psychology of Music",
+              "description": "Study music cognition, performance psychology, and the therapeutic applications of music."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Music & Psychology",
+              "roles": [
+                "Music Therapist",
+                "Performer",
+                "Music Teacher",
+                "Music Producer",
+                "Arts Counsellor"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "What instruments are supported?",
+              "a": "Piano, guitar, violin, and other Western instruments are offered."
+            },
+            {
+              "q": "Can I pursue music therapy?",
+              "a": "Yes, the psychology component prepares students for music therapy and counselling careers."
+            }
+          ],
+          "cta": {
+            "title": "Unite Music & Mind",
+            "subtitle": "Build a unique career at the intersection of performing arts and psychology.",
+            "button": "Apply Now"
+          },
+          "tabs": {
+            "curriculum": [],
+            "outcomes": {
+              "PEOs": [],
+              "POs": [],
+              "PSOs": []
+            }
+          }
+        },
+        {
+          "slug": "ba-theatre-studies-english",
+          "name": "B.A. (Theatre Studies, English)",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "Bachelor of Arts",
+          "hero": {
+            "image": "/img/banner/sola.jpg",
+            "title": {
+              "normal": "B.A. Theatre Studies",
+              "italic": "& English"
+            },
+            "description": "Combine the art of theatre with the depth of English literature in this dynamic performing arts programme.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Liberal Arts & Sciences",
+              "BA Theatre Studies English"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "3 Yr"
+              },
+              {
+                "label": "Semesters",
+                "value": "6"
+              },
+              {
+                "label": "Core Programme",
+                "value": "BA"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Liberal Arts & Sciences"
+          },
+          "overview": [
+            "The B.A. in Theatre Studies and English combines practical theatre training with the study of dramatic literature and literary theory.",
+            "Students develop skills in acting, directing, and dramatic writing while building deep literary knowledge through English studies."
+          ],
+          "image": "/img/inner-about/arts.jpeg",
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with any stream and minimum 45% marks.",
+            "note": "Eligibility may vary for international students."
+          },
+          "highlights": [
+            {
+              "title": "Theatre Practice & Theory",
+              "description": "Hands-on theatre production experience combined with study of dramatic literature across cultures."
+            },
+            {
+              "title": "Literary Analysis",
+              "description": "Deep engagement with English literary texts, playwrights, and performance criticism."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Theatre & Arts",
+              "roles": [
+                "Actor",
+                "Director",
+                "Playwright",
+                "Dramaturge",
+                "Arts Educator",
+                "Content Writer"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "What is the eligibility?",
+              "a": "10+2 with any stream and minimum 45% marks."
+            },
+            {
+              "q": "Will I get stage performance opportunities?",
+              "a": "Yes, regular productions, workshops, and performances are integral to the programme."
+            }
+          ],
+          "cta": {
+            "title": "Step onto the Stage",
+            "subtitle": "Build a creative career in theatre and literary arts.",
+            "button": "Apply Now"
+          },
+          "tabs": {
+            "curriculum": [],
+            "outcomes": {
+              "PEOs": [],
+              "POs": [],
+              "PSOs": []
+            }
+          }
+        },
+        {
+          "slug": "diploma-bharatanatyam",
+          "name": "Diploma in Bharatanatyam",
+          "duration": "1 Year",
+          "type": "Diploma",
+          "degree": "Diploma",
+          "hero": {
+            "image": "/img/banner/sola.jpg",
+            "title": {
+              "normal": "Diploma in",
+              "italic": "Bharatanatyam"
+            },
+            "description": "Master the ancient art of Bharatanatyam with structured classical dance training at Presidency University.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Liberal Arts & Sciences",
+              "Diploma Bharatanatyam"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "1 Yr"
+              },
+              {
+                "label": "Semesters",
+                "value": "2"
+              },
+              {
+                "label": "Core Programme",
+                "value": "Diploma"
+              }
+            ]
+          },
+          "details": {
+            "duration": "1 Year Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Liberal Arts & Sciences"
+          },
+          "overview": [
+            "The Diploma in Bharatanatyam provides structured training in one of India's oldest classical dance forms under expert faculty guidance.",
+            "Students learn adavus, abhinaya, jathis, and full compositions alongside the history and theory of the art form."
+          ],
+          "image": "/img/inner-about/arts.jpeg",
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10th standard. Prior dance experience is preferred.",
+            "note": "Eligibility may vary for international students."
+          },
+          "highlights": [
+            {
+              "title": "Classical Dance Foundation",
+              "description": "Comprehensive Bharatanatyam training from basics to advanced compositions with certified faculty."
+            },
+            {
+              "title": "Theory & History",
+              "description": "Study the history, mythology, and cultural context of Bharatanatyam."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Performing Arts",
+              "roles": [
+                "Classical Dancer",
+                "Dance Teacher",
+                "Choreographer",
+                "Cultural Ambassador",
+                "Arts Educator"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Do I need prior experience?",
+              "a": "Prior dance experience is preferred but motivated beginners are also considered."
+            },
+            {
+              "q": "Is the diploma recognised?",
+              "a": "Yes, awarded by Presidency University, a UGC-recognised institution."
+            }
+          ],
+          "cta": {
+            "title": "Embrace Classical Heritage",
+            "subtitle": "Begin your journey in Bharatanatyam with expert guidance.",
+            "button": "Apply Now"
+          },
+          "tabs": {
+            "curriculum": [],
+            "outcomes": {
+              "PEOs": [],
+              "POs": [],
+              "PSOs": []
+            }
+          }
+        },
+        {
+          "slug": "diploma-kathak",
+          "name": "Diploma in Kathak",
+          "duration": "1 Year",
+          "type": "Diploma",
+          "degree": "Diploma",
+          "hero": {
+            "image": "/img/banner/sola.jpg",
+            "title": {
+              "normal": "Diploma in",
+              "italic": "Kathak"
+            },
+            "description": "Immerse yourself in the graceful rhythms and storytelling of Kathak under expert classical dance faculty.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Liberal Arts & Sciences",
+              "Diploma Kathak"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "1 Yr"
+              },
+              {
+                "label": "Semesters",
+                "value": "2"
+              },
+              {
+                "label": "Core Programme",
+                "value": "Diploma"
+              }
+            ]
+          },
+          "details": {
+            "duration": "1 Year Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Liberal Arts & Sciences"
+          },
+          "overview": [
+            "The Diploma in Kathak offers training in this expressive North Indian classical dance form known for its intricate footwork, spins, and expressive storytelling.",
+            "Students learn tatkaar, chakkar, abhinaya, and compositions from authentic Lucknow and Jaipur gharanas."
+          ],
+          "image": "/img/inner-about/arts.jpeg",
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10th standard. Prior dance experience is preferred.",
+            "note": "Eligibility may vary for international students."
+          },
+          "highlights": [
+            {
+              "title": "Authentic Gharana Training",
+              "description": "Training rooted in authentic Lucknow and Jaipur Kathak traditions with certified practitioners."
+            },
+            {
+              "title": "Rhythmic & Expressive Training",
+              "description": "Develop mastery of complex taal structures, footwork, and expressive abhinaya."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Performing Arts",
+              "roles": [
+                "Kathak Dancer",
+                "Dance Teacher",
+                "Choreographer",
+                "Cultural Performer",
+                "Arts Educator"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Do I need prior experience?",
+              "a": "Prior dance experience is preferred but motivated beginners are considered."
+            },
+            {
+              "q": "Which gharana style is taught?",
+              "a": "Both Lucknow and Jaipur gharana styles are introduced."
+            }
+          ],
+          "cta": {
+            "title": "Dance to Ancient Rhythms",
+            "subtitle": "Master Kathak with structured classical training at Presidency University.",
+            "button": "Apply Now"
+          },
+          "tabs": {
+            "curriculum": [],
+            "outcomes": {
+              "PEOs": [],
+              "POs": [],
+              "PSOs": []
+            }
+          }
+        },
+        {
+          "slug": "diploma-kuchipudi",
+          "name": "Diploma in Kuchipudi",
+          "duration": "1 Year",
+          "type": "Diploma",
+          "degree": "Diploma",
+          "hero": {
+            "image": "/img/banner/sola.jpg",
+            "title": {
+              "normal": "Diploma in",
+              "italic": "Kuchipudi"
+            },
+            "description": "Discover the vibrant energy and expressiveness of Kuchipudi classical dance at Presidency University.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Liberal Arts & Sciences",
+              "Diploma Kuchipudi"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "1 Yr"
+              },
+              {
+                "label": "Semesters",
+                "value": "2"
+              },
+              {
+                "label": "Core Programme",
+                "value": "Diploma"
+              }
+            ]
+          },
+          "details": {
+            "duration": "1 Year Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Liberal Arts & Sciences"
+          },
+          "overview": [
+            "The Diploma in Kuchipudi introduces students to this dynamic classical dance-drama form from Andhra Pradesh, combining vigorous dance with expressive mime.",
+            "Students learn the characteristic techniques of Kuchipudi including jatis, shabdams, and the distinctive dance-drama tradition."
+          ],
+          "image": "/img/inner-about/arts.jpeg",
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10th standard. Prior dance experience is preferred.",
+            "note": "Eligibility may vary for international students."
+          },
+          "highlights": [
+            {
+              "title": "Dance-Drama Tradition",
+              "description": "Training in the unique Kuchipudi dance-drama tradition combining dance, music, and theatre."
+            },
+            {
+              "title": "Technical Proficiency",
+              "description": "Develop the characteristic vigour, expressiveness, and technical precision of Kuchipudi."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Performing Arts",
+              "roles": [
+                "Kuchipudi Dancer",
+                "Dance Teacher",
+                "Cultural Performer",
+                "Choreographer",
+                "Arts Administrator"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Do I need prior experience?",
+              "a": "Prior dance experience is preferred but motivated beginners are considered."
+            },
+            {
+              "q": "Is Kuchipudi difficult to learn?",
+              "a": "Like all classical dance forms, it requires dedication. The programme provides structured guidance."
+            }
+          ],
+          "cta": {
+            "title": "Embrace Classical Dance Drama",
+            "subtitle": "Learn Kuchipudi with expert guidance at Presidency University.",
+            "button": "Apply Now"
+          },
+          "tabs": {
+            "curriculum": [],
+            "outcomes": {
+              "PEOs": [],
+              "POs": [],
+              "PSOs": []
+            }
+          }
+        },
+        {
+          "slug": "diploma-mohiniyattam",
+          "name": "Diploma in Mohiniyattam",
+          "duration": "1 Year",
+          "type": "Diploma",
+          "degree": "Diploma",
+          "hero": {
+            "image": "/img/banner/sola.jpg",
+            "title": {
+              "normal": "Diploma in",
+              "italic": "Mohiniyattam"
+            },
+            "description": "Discover the lyrical grace and expressive beauty of Mohiniyattam, the dance of the enchantress, at Presidency University.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Liberal Arts & Sciences",
+              "Diploma Mohiniyattam"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "1 Yr"
+              },
+              {
+                "label": "Semesters",
+                "value": "2"
+              },
+              {
+                "label": "Core Programme",
+                "value": "Diploma"
+              }
+            ]
+          },
+          "details": {
+            "duration": "1 Year Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Liberal Arts & Sciences"
+          },
+          "overview": [
+            "The Diploma in Mohiniyattam introduces students to this lyrical classical dance form from Kerala, known for its graceful, swaying movements and feminine expressiveness.",
+            "Students learn the fundamental adavus, cholkettu, varnam, and padam of Mohiniyattam under qualified classical dance faculty."
+          ],
+          "image": "/img/inner-about/arts.jpeg",
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10th standard. Prior dance experience is preferred.",
+            "note": "Eligibility may vary for international students."
+          },
+          "highlights": [
+            {
+              "title": "Graceful Classical Tradition",
+              "description": "Training in Mohiniyattam's distinctive lyrical style, expressive abhinaya, and traditional repertoire."
+            },
+            {
+              "title": "Kerala Heritage",
+              "description": "Study the cultural and historical roots of Mohiniyattam within the Kerala performing arts tradition."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Performing Arts",
+              "roles": [
+                "Mohiniyattam Dancer",
+                "Dance Teacher",
+                "Cultural Performer",
+                "Choreographer",
+                "Arts Educator"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Do I need prior experience?",
+              "a": "Prior dance experience is preferred but motivated beginners are considered."
+            },
+            {
+              "q": "What makes Mohiniyattam unique?",
+              "a": "Its swaying, graceful movements and strong emphasis on facial expression and narrative distinguish it."
+            }
+          ],
+          "cta": {
+            "title": "Move with Graceful Elegance",
+            "subtitle": "Learn the art of Mohiniyattam at Presidency University.",
+            "button": "Apply Now"
+          },
+          "tabs": {
+            "curriculum": [],
+            "outcomes": {
+              "PEOs": [],
+              "POs": [],
+              "PSOs": []
+            }
           }
         }
       ],
@@ -18848,7 +20237,7 @@
         "content": [
           "The School of Health Sciences is dedicated to developing compassionate, competent, and committed healthcare professionals. Our interdisciplinary approach combines theoretical knowledge with practical skills, ensuring graduates are prepared for the dynamic healthcare landscape."
         ],
-        "image": "img/cse.png",
+        "image": "/img/cse.png",
         "features": [
           {
             "title": "Clinical Training",
@@ -18989,6 +20378,7 @@
           "type": "Undergraduate",
           "degree": "B.Pt",
           "hero": {
+            "image": "/img/banner/soh.jpg",
             "title": {
               "normal": "Bachelor of",
               "italic": "Physiotherapy (BPT)"
@@ -19024,6 +20414,7 @@
             "The Bachelor of Physiotherapy (BPT) programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "Students gain extensive hands-on experience at affiliated hospitals and healthcare facilities, developing the competency and compassion needed to provide high-quality patient care and advance health outcomes."
           ],
+          "image": "/img/inner-about/health.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics, Chemistry, and Biology. Merit-based selection through entrance examination. NEET qualification required as per regulatory standards.",
@@ -19127,6 +20518,7 @@
           "type": "Undergraduate",
           "degree": "B.Sc",
           "hero": {
+            "image": "/img/banner/soh.jpg",
             "title": {
               "normal": "B.Sc",
               "italic": "Nursing"
@@ -19162,6 +20554,7 @@
             "The B.Sc Nursing programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "Students gain extensive hands-on experience at affiliated hospitals and healthcare facilities, developing the competency and compassion needed to provide high-quality patient care and advance health outcomes."
           ],
+          "image": "/img/inner-about/health.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "10+2 with Physics, Chemistry, and Biology (or equivalent). Qualifying score in NEET examination. Physical and mental fitness for nursing practice. Passing in English.",
@@ -19265,6 +20658,7 @@
           "type": "Undergraduate",
           "degree": "B.Sc",
           "hero": {
+            "image": "/img/banner/soh.jpg",
             "title": {
               "normal": "B.Sc",
               "italic": "Occupational Therapy"
@@ -19300,6 +20694,7 @@
             "The B.Sc Occupational Therapy programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "Students gain extensive hands-on experience at affiliated hospitals and healthcare facilities, developing the competency and compassion needed to provide high-quality patient care and advance health outcomes."
           ],
+          "image": "/img/inner-about/health.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "10+2 with Physics, Chemistry, and Biology. NEET qualification required. Strong interest in healthcare and helping professions. Physical capability to perform therapeutic techniques.",
@@ -19403,6 +20798,7 @@
           "type": "Undergraduate",
           "degree": "B.Sc",
           "hero": {
+            "image": "/img/banner/soh.jpg",
             "title": {
               "normal": "B.Sc",
               "italic": "Medical Laboratory Technology"
@@ -19438,6 +20834,7 @@
             "The B.Sc Medical Laboratory Technology programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "Students gain extensive hands-on experience at affiliated hospitals and healthcare facilities, developing the competency and compassion needed to provide high-quality patient care and advance health outcomes."
           ],
+          "image": "/img/inner-about/health.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "10+2 with Physics, Chemistry, and Biology. Merit-based selection through entrance examination. Strong aptitude for scientific work and laboratory procedures.",
@@ -19541,6 +20938,7 @@
           "type": "Postgraduate",
           "degree": "M.Sc",
           "hero": {
+            "image": "/img/banner/soh.jpg",
             "title": {
               "normal": "M.Sc Physiotherapy",
               "italic": "(Musculoskeletal)"
@@ -19576,6 +20974,7 @@
             "The M.Sc Physiotherapy (Musculoskeletal) programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "Students gain extensive hands-on experience at affiliated hospitals and healthcare facilities, developing the competency and compassion needed to provide high-quality patient care and advance health outcomes."
           ],
+          "image": "/img/inner-about/health.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Bachelor's degree in Physiotherapy or related field. Minimum 50% marks in undergraduate studies. Work experience as a physiotherapist is preferred. Entrance examination and interview selection.",
@@ -19679,6 +21078,7 @@
           "type": "Postgraduate",
           "degree": "M.Sc",
           "hero": {
+            "image": "/img/banner/soh.jpg",
             "title": {
               "normal": "M.Sc Nursing",
               "italic": "(Clinical Specialization)"
@@ -19714,6 +21114,7 @@
             "The M.Sc Nursing (Clinical Specialization) programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "Students gain extensive hands-on experience at affiliated hospitals and healthcare facilities, developing the competency and compassion needed to provide high-quality patient care and advance health outcomes."
           ],
+          "image": "/img/inner-about/health.jpeg",
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Bachelor's degree in Nursing (B.Sc or B.N). Minimum 55% marks in undergraduate studies. Clinical experience preferred. Selection through entrance examination and interview.",

@@ -1,6 +1,7 @@
 "use client";
+import Link from "next/link";
 import { motion } from "motion/react";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Download } from "lucide-react";
 import "../../../styles/about.css";
 
 export default function MembershipsAffiliationsHero() {
@@ -95,19 +96,20 @@ export default function MembershipsAffiliationsHero() {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-4"
           >
-            <button
-              type="button"
+            <Link
+              href="#memberships"
               className="flex w-full items-center justify-center gap-2 rounded-lg bg-[#0A8F96] px-6 py-3.5 text-base text-white transition-all duration-300 hover:scale-105 hover:bg-[#0BB5B5] hover:shadow-xl sm:w-auto md:px-8 md:py-4 md:text-lg"
             >
               View All Memberships
               <ArrowRight size={18} />
-            </button>
-            <button
-              type="button"
-              className="w-full rounded-lg border-2 border-white px-6 py-3.5 text-base text-white backdrop-blur-sm transition-all duration-300 hover:scale-105 hover:bg-white/10 sm:w-auto md:px-8 md:py-4 md:text-lg"
+            </Link>
+            <Link
+              href="/contact"
+              className="w-full rounded-lg border-2 border-white px-6 py-3.5 text-base text-white backdrop-blur-sm transition-all duration-300 hover:scale-105 hover:bg-white/10 sm:w-auto md:px-8 md:py-4 md:text-lg flex items-center justify-center gap-2"
             >
               Download Affiliation Letter
-            </button>
+              <Download size={18} />
+            </Link>
           </motion.div>
         </div>
       </section>

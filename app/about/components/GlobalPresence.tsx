@@ -110,7 +110,7 @@ export default function GlobalPresence() {
             {/* Buttons */}
             <div className="mt-6 space-y-3">
               <Link
-                href="/apply-now"
+                href="/international/apply"
                 className="
                   flex
                   h-[54px]
@@ -132,7 +132,8 @@ export default function GlobalPresence() {
                 <ArrowRight size={18} />
               </Link>
 
-              <button
+              <Link
+                href="/contact"
                 className="
                   flex
                   h-[54px]
@@ -151,7 +152,7 @@ export default function GlobalPresence() {
               >
                 TALK TO COUNSELLOR
                 <Headphones size={18} />
-              </button>
+              </Link>
             </div>
           </motion.div>
         </div>
@@ -244,7 +245,7 @@ export default function GlobalPresence() {
             </div>
 
             <Link
-              href="/apply-now"
+              href="/international/apply"
               className="inline-flex items-center gap-2 rounded-md bg-[#0A8F96] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#08787e]"
             >
               APPLY NOW →

@@ -101,7 +101,7 @@ export default function InternationalPrograms({ data }: any) {
                   className="
                       mb-4
                       text-xl
-                      font-semibold
+
                       leading-snug
                       text-[#183153]
                     "
@@ -319,7 +319,6 @@ export default function InternationalPrograms({ data }: any) {
                 Partner institutions include universities in the{" "}
                 <span
                   className="
-                    font-semibold
                     text-[#0A8F96]
                   "
                 >
@@ -359,7 +358,7 @@ export default function InternationalPrograms({ data }: any) {
                   with institutions on{" "}
                   <span
                     className="
-                      font-semibold
+
                       text-[#0A8F96]
                     "
                   >

@@ -39,7 +39,7 @@ export default function ShortCoursesSection({ data }: any) {
                 </div>
 
                 {/* TITLE */}
-                <h3 className="text-sm md:text-base font-semibold text-[#0b2a4a] group-hover:text-[#0A8F96] transition">
+                <h3 className="text-sm md:text-base text-[#0b2a4a] group-hover:text-[#0A8F96] transition">
                   {course}
                 </h3>
 
@@ -57,7 +57,7 @@ export default function ShortCoursesSection({ data }: any) {
 
         {/* 🎭 ARTS SECTION */}
         <div className="mt-16 text-center">
-          <h4 className="text-lg font-semibold text-[#0b2a4a] mb-6">
+          <h4 className="text-lg text-[#0b2a4a] mb-6">
             Classical Performing Arts
           </h4>
 

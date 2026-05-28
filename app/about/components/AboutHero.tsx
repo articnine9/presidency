@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { motion } from "motion/react";
 import { ArrowRight } from "lucide-react";
 import { H1 } from "@/app/components/Headings";
@@ -121,8 +122,8 @@ export default function AboutHero() {
         sm:items-center
       "
             >
-              <button
-                type="button"
+              <Link
+                href="/campus-life"
                 className="
           flex
           h-[52px]
@@ -148,10 +149,10 @@ export default function AboutHero() {
               >
                 Explore Career Outcomes
                 <ArrowRight size={18} />
-              </button>
+              </Link>
 
-              <button
-                type="button"
+              <Link
+                href="/contact"
                 className="
     hidden
     sm:flex
@@ -173,7 +174,7 @@ export default function AboutHero() {
   "
               >
                 Request Information
-              </button>
+              </Link>
             </motion.div>
           </div>
         </div>
