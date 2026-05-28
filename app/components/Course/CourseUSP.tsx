@@ -21,11 +21,22 @@ const ICONS = [
 /* flat-top hexagon */
 const HEX_CLIP = "polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%)";
 
-const DEFAULT_IMG =
-  "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&q=80";
+const DEFAULT_IMAGES = [
+  "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&q=80",
+  "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&q=80",
+  "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80",
+];
 
 /* ── single image hexagon ── */
-function HexImg({ src, size, delay = 0 }: { src: string; size: number; delay?: number }) {
+function HexImg({
+  src,
+  size,
+  delay = 0,
+}: {
+  src: string;
+  size: number;
+  delay?: number;
+}) {
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.85 }}
@@ -42,8 +53,16 @@ function HexImg({ src, size, delay = 0 }: { src: string; size: number; delay?: n
 
 /* ── single teal content hexagon ── */
 function HexTile({
-  title, iconIdx, size, delay = 0,
-}: { title: string; iconIdx: number; size: number; delay?: number }) {
+  title,
+  iconIdx,
+  size,
+  delay = 0,
+}: {
+  title: string;
+  iconIdx: number;
+  size: number;
+  delay?: number;
+}) {
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.85 }}
@@ -61,35 +80,61 @@ function HexTile({
 }
 
 /* ────────────────────────────────────────────────────
-   HONEYCOMB — fixed positions matching screenshot:
+   HONEYCOMB — layout matching a tightly packed grid:
 
-        [hex0]    [img]
-   [img]    [hex1]    [hex2]
-        [hex3]    [img]
+   Row 0 (even cols): col0, col2         → y = row * rowStep
+   Row 1 (odd col):   col1               → y = row * rowStep + halfH (offset down)
 
-   Uses absolute positioning on a sized canvas.
+   Final visual arrangement (flat-top honeycomb):
+
+        [tile0]   [img1]
+   [img0]   [tile1]   [tile2]
+        [tile3]   [img2]
+
+   Using a 3-column flat-top honeycomb:
+   - col 0 & col 2 → no vertical offset
+   - col 1 → shifted down by halfH
 ──────────────────────────────────────────────────── */
-function Honeycomb({ highlights, image }: { highlights: { title: string }[]; image: string }) {
-  const S  = 160;                   // hex width
-  const H        = Math.round(S * 0.866);
-  const colStep  = Math.round(S * 0.76);   // tight flat-top honeycomb
-  const rowStep  = H;
-  const halfH    = Math.round(H * 0.5);    // offset for middle col
 
-  /* anchor positions (col, row) — col-2 is shifted down ½ step */
-  const layout = [
-    /* teal content tiles */
+interface HoneycombProps {
+  highlights: { title: string }[];
+  images: string[]; // expects exactly 3 images
+}
+
+function Honeycomb({ highlights, images }: HoneycombProps) {
+  const S = 160; // hex width
+  const H = Math.round(S * 0.866); // hex height
+  const colStep = Math.round(S * 0.76); // horizontal step between columns
+  const rowStep = H; // vertical step between rows
+  const halfH = Math.round(H * 0.5); // vertical offset for odd columns
+
+  /*
+    Layout grid (col index, row index):
+      col 0 (even) → no vertical shift
+      col 1 (odd)  → shifted down halfH
+      col 2 (even) → no vertical shift
+
+    Desired honeycomb:
+      [tile:0]  [img:0]          col0 row0 | col1 row-1  (img row-1 sits above middle)
+      [img:1]   [tile:1] [tile:2] col0 row2 | col1 row1  | col2 row0
+      [tile:3]  [img:2]           col0 row4 | col1 row3
+  */
+  const layout: Array<
+    | { col: number; row: number; type: "tile"; ti: number }
+    | { col: number; row: number; type: "img"; imgIdx: number }
+  > = [
+    // teal tiles
     { col: 0, row: 0, type: "tile", ti: 0 },
     { col: 1, row: 1, type: "tile", ti: 1 },
     { col: 2, row: 0, type: "tile", ti: 2 },
     { col: 1, row: 3, type: "tile", ti: 3 },
-    /* image hexagons */
-    { col: 1, row: -1, type: "img" },
-    { col: 0, row:  2, type: "img" },
-    { col: 2, row:  2, type: "img" },
-  ] as const;
+    // image hexagons — each gets its own image
+    { col: 1, row: -1, type: "img", imgIdx: 0 },
+    { col: 0, row: 2, type: "img", imgIdx: 1 },
+    { col: 2, row: 2, type: "img", imgIdx: 2 },
+  ];
 
-  /* convert (col, row) → pixel — tight flat-top honeycomb */
+  /* Convert (col, row) → pixel coordinates */
   function pos(col: number, row: number) {
     return {
       x: col * colStep,
@@ -97,20 +142,29 @@ function Honeycomb({ highlights, image }: { highlights: { title: string }[]; ima
     };
   }
 
-  /* canvas size */
-  const allX = layout.map(n => pos(n.col, n.row).x);
-  const allY = layout.map(n => pos(n.col, n.row).y);
-  const canW = Math.max(...allX) + S;
-  const canH = Math.max(...allY) + H;
+  /* Calculate canvas size from all positions */
+  const allPositions = layout.map((n) => pos(n.col, n.row));
+  const minY = Math.min(...allPositions.map((p) => p.y));
+  const offsetY = minY < 0 ? Math.abs(minY) : 0; // shift everything down if any y < 0
+
+  const canW = Math.max(...allPositions.map((p) => p.x)) + S;
+  const canH = Math.max(...allPositions.map((p) => p.y)) + H + offsetY;
 
   return (
-    <div className="relative flex-shrink-0 hidden lg:block" style={{ width: canW, height: canH }}>
+    <div
+      className="relative flex-shrink-0 hidden lg:block"
+      style={{ width: canW, height: canH }}
+    >
       {layout.map((cell, i) => {
         const { x, y } = pos(cell.col, cell.row);
         return (
-          <div key={i} className="absolute" style={{ left: x, top: y }}>
+          <div key={i} className="absolute" style={{ left: x, top: y + offsetY }}>
             {cell.type === "img" ? (
-              <HexImg src={image} size={S} delay={i * 0.07} />
+              <HexImg
+                src={images[cell.imgIdx] ?? images[0]}
+                size={S}
+                delay={i * 0.07}
+              />
             ) : (
               <HexTile
                 title={highlights[cell.ti]?.title ?? ""}
@@ -133,7 +187,21 @@ export default function CourseUSP({ data }: any) {
   const highlights: { title: string; description: string }[] = data?.highlights || [];
   if (!highlights.length) return null;
 
-  const image: string = data?.image || DEFAULT_IMG;
+  /*
+    Support three image formats from data:
+      1. data.images  → string[]  (preferred, supply 3 URLs)
+      2. data.image   → string    (single image, used for all 3 slots as fallback)
+      3. Nothing      → DEFAULT_IMAGES
+  */
+  const images: string[] = Array.isArray(data?.images)
+    ? [
+        data.images[0] ?? DEFAULT_IMAGES[0],
+        data.images[1] ?? DEFAULT_IMAGES[1],
+        data.images[2] ?? DEFAULT_IMAGES[2],
+      ]
+    : data?.image
+    ? [data.image, data.image, data.image]
+    : DEFAULT_IMAGES;
 
   return (
     <section className="bg-[#F0F9FA] py-20 overflow-hidden">
@@ -153,7 +221,7 @@ export default function CourseUSP({ data }: any) {
         <div className="flex flex-col lg:flex-row items-center gap-14">
 
           {/* LEFT — honeycomb (desktop only) */}
-          <Honeycomb highlights={highlights} image={image} />
+          <Honeycomb highlights={highlights} images={images} />
 
           {/* RIGHT — detail cards */}
           <div className="flex-1 grid sm:grid-cols-2 gap-5">
