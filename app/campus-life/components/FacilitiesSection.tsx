@@ -82,7 +82,7 @@ const FacilitiesSection = ({ data }: FacilitiesSectionProps) => {
                   : ""
               }`}
             >
-              <div
+               <div
                 className="
                   group
                   relative
@@ -106,11 +106,12 @@ const FacilitiesSection = ({ data }: FacilitiesSectionProps) => {
                     src={item.image}
                     alt={item.title}
                     className="
-                      h-[180px]
+                      h-[300px]
                       w-full
                       object-cover
                       transition
                       duration-500
+                       object-top 
                       group-hover:scale-105
                     "
                   />

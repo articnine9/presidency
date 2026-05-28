@@ -224,6 +224,7 @@ BASE STYLES
   h4,
   h5,
   h6 {
+     font-size: 18px;
     font-family: var(--font-body);
     font-weight: var(--font-weight-medium);
   }
@@ -231,7 +232,7 @@ BASE STYLES
   /* ---------- TEXT ---------- */
 
   p {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 1.6;
     color: var(--slate);
   }

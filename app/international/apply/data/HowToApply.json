@@ -171,7 +171,7 @@
     "intakes": [
       {
         "name": "July / August Intake",
-        "image": "/img/july-intake.jpg",
+        "image": "/img/intake1.jpg",
         "type": "Primary Intake",
         "highlight": true,
         "details": "The main academic intake begins in July/August. Applications typically open in January, with deadlines for international students between April and May.",
@@ -183,6 +183,7 @@
       },
       {
         "name": "January Intake",
+         "image": "/img/intake2.jpg",
         "type": "Secondary Intake",
         "highlight": false,
         "details": "A limited number of programmes offer a January intake. Availability varies by course, so check programme-specific details before applying.",

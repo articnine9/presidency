@@ -127,7 +127,7 @@ const WellbeingSection = () => {
           {/* RIGHT IMAGE */}
           <div className="overflow-hidden rounded-2xl shadow-sm">
             <img
-              src="/img/student-wellbeing.jpg"
+              src="/img/student-wellbeing.png"
               alt="Student Wellbeing"
               className="
                 h-full

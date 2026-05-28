@@ -41,7 +41,7 @@ export default function AboutHero() {
         {/* Video Background */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/img/mang.png"
+            src="img/management.jpg"
             alt="About Us"
             className="w-full h-full object-cover"
           />
