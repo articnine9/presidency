@@ -164,7 +164,7 @@ export function Navigation() {
       phd: [
         {
           label: "Ph.D. Research Programme",
-          href: "/schools/computer-science#phd-research",
+          href: "/schools/computer-science/phd-research",
         },
       ],
       diploma: [
@@ -505,36 +505,36 @@ export function Navigation() {
         {
           label:
             "M.Sc. Psychology (Child / Clinical / Counselling / Industrial Psychology)",
-          href: "/schools/liberal-arts-science/msc-psychology-child-clinical-counselling-industrial-psychology",
+          href: "/schools/liberal-arts/msc-psychology-child-clinical-counselling-industrial-psychology",
         },
         {
           label:
             "M.A. English (Digital Humanities / Cultural Studies / Creative Writing / Educational Leadership)",
-          href: "/schools/liberal-arts-science/ma-english-digital-humanities-cultural-Studies-creative-writing-educational-leadership",
+          href: "/schools/liberal-arts/ma-english-digital-humanities-cultural-Studies-creative-writing-educational-leadership",
         },
       ],
       phd: [
         {
           label: "Ph.D. Research Programme",
-          href: "/schools/liberal-arts-science#phd-research",
+          href: "/schools/liberal-arts/liberal-arts#phd-research",
         },
       ],
       diploma: [
         {
           label: "Diploma in Bharatanatyam",
-          href: "/schools/liberal-arts-science/diploma-bharatanatyam",
+          href: "/schools/liberal-arts/diploma-bharatanatyam",
         },
         {
           label: "Diploma in Kathak",
-          href: "/schools/liberal-arts-science/diploma-kathak",
+          href: "/schools/liberal-arts/diploma-kathak",
         },
         {
           label: "Diploma in Kuchipudi",
-          href: "/schools/liberal-arts-science/diploma-kuchipudi",
+          href: "/schools/liberal-arts/diploma-kuchipudi",
         },
         {
           label: "Diploma in Mohiniyattam",
-          href: "/schools/liberal-arts-science/diploma-mohiniyattam",
+          href: "/schools/liberal-arts/diploma-mohiniyattam",
         },
       ],
     },
