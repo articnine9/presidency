@@ -79,7 +79,7 @@ export default function GlobalPresence() {
             "
           >
             <img
-              src="/img/aboutus/global-presence.jpeg"
+              src="/img/aboutus/global-presence.jpg"
               alt="Global Presence"
               className="h-full w-full object-cover"
             />
@@ -217,7 +217,7 @@ export default function GlobalPresence() {
               className="overflow-hidden rounded-2xl"
             >
               <img
-                src="/img/aboutus/global-presence.jpeg"
+                src="/img/aboutus/global-presence.jpg"
                 alt="Global Presence"
                 className="h-full w-full object-cover"
               />

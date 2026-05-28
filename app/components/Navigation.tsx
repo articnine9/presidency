@@ -231,7 +231,7 @@ export function Navigation() {
         },
         {
           label: "B.C.A. Artificial Intelligence and Machine Learning",
-          href: "/schools/information-science/bca-AL-ML",
+          href: "/schools/information-science/bca-ai-ml",
         },
         {
           label: "B.C.A. Data Science",
@@ -397,7 +397,7 @@ export function Navigation() {
       ug: [
         {
           label: "BA (Journalism & Mass Communication) — General",
-          href: "/schools/media/ba-journalism-communication-general",
+          href: "/schools/media/ba-jmc-journalism",
         },
         {
           label: "BA JMC (Digital Marketing & Advertising / PR & Corporate)",
@@ -419,7 +419,7 @@ export function Navigation() {
       pg: [
         {
           label: "MA Journalism & Mass Communication",
-          href: "/schools/media/ma-journalism-mass-communication",
+          href: "/schools/media/ma-jmc",
         },
       ],
       phd: [
@@ -431,7 +431,7 @@ export function Navigation() {
       diploma: [
         {
           label: "Post Graduate Diploma in Film Making",
-          href: "/schools/media/post-graduate-diploma-film-making",
+          href: "/schools/media/pg-diploma-film",
         },
       ],
     },
@@ -440,65 +440,65 @@ export function Navigation() {
       ug: [
         {
           label: "B.Sc. Psychology",
-          href: "/schools/liberal-arts-science/bsc-psychology",
+          href: "/schools/liberal-arts/bsc-psychology",
         },
         {
           label: "B.A. (Psychology, Economics)",
-          href: "/schools/liberal-arts-science/ba-psychology-economics",
+          href: "/schools/liberal-arts/ba-psychology-economics",
         },
         {
           label: "B.A. (Communication and Media, Psychology)",
-          href: "/schools/liberal-arts-science/ba-communication-media",
+          href: "/schools/liberal-arts/ba-communication-media",
         },
         {
           label: "B.A. (Psychology, English)",
-          href: "/schools/liberal-arts-science/ba-psychology-english",
+          href: "/schools/liberal-arts/ba-psychology-english",
         },
         {
           label: "B.A. (History & Political Science)",
-          href: "/schools/liberal-arts-science/ba-history-political-science",
+          href: "/schools/liberal-arts/ba-history-political-science",
         },
         {
           label: "B.A. (Political Science & Economics)",
-          href: "/schools/liberal-arts-science/ba-political-science-economics",
+          href: "/schools/liberal-arts/ba-political-science-economics",
         },
         {
           label: "B.A. (English & History)",
-          href: "/schools/liberal-arts-science/ba-english-history",
+          href: "/schools/liberal-arts/ba-english-history",
         },
         {
           label: "B.A. (English & Political Science)",
-          href: "/schools/liberal-arts-science/ba-english-political-science",
+          href: "/schools/liberal-arts/ba-english-political-science",
         },
         {
           label: "B.A. (Performing Arts – Classical Music, Psychology)",
-          href: "/schools/liberal-arts-science/ba-arts-classicalmusic-psychology",
+          href: "/schools/liberal-arts/ba-arts-classicalmusic-psychology",
         },
         {
           label: "B.A. (Performing Arts – Classical Dance, Psychology)",
-          href: "/schools/liberal-arts-science/ba-arts-classicaldance-psychology",
+          href: "/schools/liberal-arts/ba-arts-classicaldance-psychology",
         },
         {
           label: "B.A. (Performing Arts – Classical Dance, English)",
-          href: "/schools/liberal-arts-science/ba-arts-classicaldance-english",
+          href: "/schools/liberal-arts/ba-arts-classicaldance-english",
         },
         {
           label:
             "B.A. (Performing Arts – Western Music – Instrumental, English)",
-          href: "/schools/liberal-arts-science/ba-performing-arts-western-music-instrumental-english",
+          href: "/schools/liberal-arts/ba-performing-arts-western-music-instrumental-english",
         },
         {
           label:
             "B.A. (Performing Arts – Western Music – Instrumental, Psychology)",
-          href: "/schools/liberal-arts-science/ba-performing-arts–western-music-instrumental-psychology",
+          href: "/schools/liberal-arts/ba-performing-arts–western-music-instrumental-psychology",
         },
         {
           label: "B.A. (Theatre Studies, Psychology)",
-          href: "/schools/liberal-arts-science/ba-theatre-studies-psychology",
+          href: "/schools/liberal-arts/ba-theatre-studies-psychology",
         },
         {
           label: "B.A. (Theatre Studies, English)",
-          href: "/schools/liberal-arts-science/ba-theatre-studies-english",
+          href: "/schools/liberal-arts/ba-theatre-studies-english",
         },
       ],
       pg: [

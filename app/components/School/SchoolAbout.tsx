@@ -21,7 +21,7 @@ type SchoolAboutProps = {
     title: string;
     subtitle?: string;
     content: string[];
-    image?: string;
+    images?: string[];
     features?: Feature[];
     hexagons?: any[];
   };
@@ -119,10 +119,10 @@ function HexTile({
 ────────────────────────────────────────────────────────────── */
 function HexFlower({
   features,
-  image,
+  images,
 }: {
   features: Feature[];
-  image: string;
+  images: string[];
 }) {
   const S  = 158;
   const H  = Math.round(S * 0.866);
@@ -135,18 +135,18 @@ function HexFlower({
 
   /* 7 hexagon positions */
   const cells = [
-    /* 0 — center */ { x: ox, y: oy, type: "img" as const },
+   /* 0 — center */ { x: ox, y: oy, type: "img" as const, img: 0 },
     /* 1 — top    */ { x: ox, y: oy - H, type: "tile" as const, ti: 0 },
     /* 2 — top-R  */ { x: ox + dH, y: oy - dV, type: "tile" as const, ti: 1 },
-    /* 3 — bot-R  */ { x: ox + dH, y: oy + dV, type: "img" as const },
+   /* 3 — bot-R */ { x: ox + dH, y: oy + dV, type: "img" as const, img: 1 },
     /* 4 — bottom */ { x: ox, y: oy + H, type: "tile" as const, ti: 2 },
-    /* 5 — bot-L  */ { x: ox - dH, y: oy + dV, type: "img" as const },
+    /* 5 — bot-L */ { x: ox - dH, y: oy + dV, type: "img" as const, img: 2 },
     /* 6 — top-L  */ { x: ox - dH, y: oy - dV, type: "tile" as const, ti: 3 },
   ];
 
   const canW = Math.max(...cells.map((c) => c.x)) + S;
   const canH = Math.max(...cells.map((c) => c.y)) + H;
-
+console.log(images);
   return (
     <div
       className="relative flex-shrink-0"
@@ -155,7 +155,11 @@ function HexFlower({
       {cells.map((cell, i) => (
         <div key={i} className="absolute" style={{ left: cell.x, top: cell.y }}>
           {cell.type === "img" ? (
-            <HexImg src={image} size={S} delay={i * 0.08} />
+            <HexImg
+  src={images?.[cell.img ?? 0] ?? DEFAULT_IMG}
+  size={S}
+  delay={i * 0.08}
+/>
           ) : (
             <HexTile
               title={features[cell.ti!]?.title ?? ""}
@@ -174,7 +178,7 @@ function HexFlower({
    MAIN EXPORT
 ───────────────────────────────────────────── */
 export default function SchoolAbout({ data }: SchoolAboutProps) {
-  const image = data.image || DEFAULT_IMG;
+  const images = data.images || Array(3).fill(DEFAULT_IMG);
   const features = data.features || [];
 
   return (
@@ -269,14 +273,14 @@ export default function SchoolAbout({ data }: SchoolAboutProps) {
             {/* RIGHT — 7-hex flower */}
             <div className="flex justify-center items-center">
               {features.length >= 4 ? (
-                <HexFlower features={features} image={image} />
+                <HexFlower features={features} images={images} />
               ) : (
                 <div
                   className="overflow-hidden shadow-xl"
                   style={{ width: 320, height: 277, clipPath: HEX }}
                 >
                   <img
-                    src={image}
+                    src={images[0]}
                     alt=""
                     className="w-full h-full object-cover"
                   />

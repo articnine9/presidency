@@ -9,7 +9,7 @@
 
     "breadcrumb": ["Home", "Campus Life"],
 
-    "image": "/img/campus-life/hero.jpg",
+    "image": "/img/campus-life.jpg",
 
     "stats": [
       {
@@ -42,70 +42,70 @@
     "intro": "Presidency University offers a modern campus equipped with advanced academic, recreational, and support facilities to enhance student learning and overall student experience.",
 
     "items": [
-      {
+       {
         "title": "High-Speed Wi-Fi",
         "desc": "Fully networked campus across academic and residential buildings.",
-        "image": "/img/facilities/wifi.jpg"
+        "image": "/img/infrastructure/wifi.jpg"
       },
       {
         "title": "Computer Labs",
         "desc": "Advanced labs equipped with modern hardware and licensed software tools.",
-        "image": "/img/facilities/computer-lab.jpg"
+        "image": "/img/infrastructure/computer-lab.jpg"
       },
       {
         "title": "AI & Robotics Labs",
         "desc": "Dedicated research labs for AI, Machine Learning, IoT, VLSI, and Robotics.",
-        "image": "/img/facilities/ai-robotics.jpg"
+        "image": "/img/infrastructure/ai-robotics.jpg"
       },
       {
         "title": "Design Labs",
         "desc": "Specialised design studios for communication, fashion, product, and spatial design.",
-        "image": "/img/facilities/design-lab.jpg"
+        "image": "/img/infrastructure/design-lab.jpeg"
       },
       {
         "title": "Media Labs",
         "desc": "Professional studios supporting journalism, media, and communication students.",
-        "image": "/img/facilities/media-lab.jpg"
+        "image": "/img/infrastructure/media-lab.jpg"
       },
       {
         "title": "Experience Centres",
         "desc": "Hands-on exposure to emerging technologies and innovation ecosystems.",
-        "image": "/img/facilities/experience-centre.jpg"
+        "image": "/img/infrastructure/experience-centre.jpg"
       },
       {
         "title": "Moot Court",
         "desc": "Practical legal training environment for law and justice studies.",
-        "image": "/img/facilities/moot-court.jpg"
+        "image": "/img/infrastructure/moot-court.jpg"
       },
       {
         "title": "Central Library",
         "desc": "Digital resources, research journals, study spaces, and searchable online archives.",
-        "image": "/img/facilities/library.jpg"
+        "image": "/img/infrastructure/library.jpg"
       },
       {
         "title": "Sports Complex",
         "desc": "Indoor and outdoor sports, athletics, and fitness facilities for students.",
-        "image": "/img/facilities/sports.jpg"
+        "image": "/img/infrastructure/sports.jpg"
       },
       {
         "title": "Auditoriums",
         "desc": "Modern seminar halls and large event spaces for conferences and performances.",
-        "image": "/img/facilities/auditorium.jpg"
+        "image": "/img/infrastructure/auditorium.jpg"
       },
       {
         "title": "Wellness Centre",
         "desc": "Student wellbeing, counselling, and healthcare support services.",
-        "image": "/img/facilities/wellness.jpg"
+        "image": "/img/infrastructure/wellness.jpg"
       },
       {
         "title": "Accessible Campus",
         "desc": "Inclusive facilities designed for students with disabilities (Divyangjan).",
-        "image": "/img/facilities/accessible-campus.jpg"
+        "image": "/img/infrastructure/accessible-campus.jpg"
       },
       {
         "title": "Virtual Tour",
         "desc": "Interactive 360-degree online campus exploration experience.",
-        "image": "/img/facilities/virtual-tour.jpg"
+        "image": "/img/infrastructure/virtual-tour.jpg"
       }
     ]
   },

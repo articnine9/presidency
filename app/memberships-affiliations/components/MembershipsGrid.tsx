@@ -10,25 +10,25 @@ const memberships = [
   {
     id: 1,
     name: "University Grants Commission (UGC)",
-    logo: "/img/memberships/ugc.png",
+    logo: "/img/memberships/ugc.jpeg",
     category: "Regulatory",
   },
   {
     id: 2,
     name: "National Assessment and Accreditation Council (NAAC)",
-    logo: "/img/memberships/naac.png",
+    logo: "/img/memberships/NAAC.png",
     category: "Accreditation",
   },
   {
     id: 3,
     name: "All India Council for Technical Education (AICTE)",
-    logo: "/img/memberships/aicte.png",
+    logo: "/img/memberships/AICTE.png",
     category: "Regulatory",
   },
   {
     id: 4,
     name: "Association of Indian Universities (AIU)",
-    logo: "/img/memberships/aiu.png",
+    logo: "/img/memberships/aiu.jpg",
     category: "Association",
   },
   {
@@ -46,13 +46,13 @@ const memberships = [
   {
     id: 7,
     name: "Times Higher Education (THE)",
-    logo: "/img/memberships/the.png",
+    logo: "/img/memberships/the.jpeg",
     category: "Ranking",
   },
   {
     id: 8,
     name: "National Board of Accreditation (NBA)",
-    logo: "/img/memberships/nba.png",
+    logo: "/img/memberships/NBA.png",
     category: "Accreditation",
   },
 
@@ -66,7 +66,7 @@ const memberships = [
   {
     id: 10,
     name: "Indian Society for Technical Education (ISTE)",
-    logo: "/img/memberships/iste.png",
+    logo: "/img/memberships/iste.jpeg",
     category: "Professional Body",
   },
   {
@@ -84,19 +84,19 @@ const memberships = [
   {
     id: 13,
     name: "ACM – Association for Computing Machinery",
-    logo: "/img/memberships/acm.png",
+    logo: "/img/memberships/acm.jpeg",
     category: "Professional Body",
   },
   {
     id: 14,
     name: "SAE India",
-    logo: "/img/memberships/sae.png",
+    logo: "/img/memberships/sae.jpeg",
     category: "Professional Body",
   },
   {
     id: 15,
     name: "Confederation of Indian Industry (CII)",
-    logo: "/img/memberships/cii.png",
+    logo: "/img/memberships/cii.jpeg",
     category: "Industry Body",
   },
   {
@@ -108,19 +108,19 @@ const memberships = [
   {
     id: 17,
     name: "ASSOCHAM",
-    logo: "/img/memberships/assocham.png",
+    logo: "/img/memberships/assocham.jpg",
     category: "Industry Body",
   },
   {
     id: 18,
     name: "British Council",
-    logo: "/img/memberships/british-council.png",
+    logo: "/img/memberships/british_council.png",
     category: "International",
   },
   {
     id: 19,
     name: "NASSCOM",
-    logo: "/img/memberships/nasscom.png",
+    logo: "/img/memberships/nasscom.jpg",
     category: "Industry Body",
   },
   {
@@ -134,7 +134,7 @@ const memberships = [
   {
     id: 21,
     name: "National Entrepreneurship Network (NEN)",
-    logo: "/img/memberships/nen.png",
+    logo: "/img/memberships/nen.jpeg",
     category: "Entrepreneurship",
   },
   {
@@ -146,31 +146,31 @@ const memberships = [
   {
     id: 23,
     name: "Ministry of Education Innovation Cell (MIC)",
-    logo: "/img/memberships/mic.png",
+    logo: "/img/memberships/mic.jpeg",
     category: "Innovation",
   },
   {
     id: 24,
     name: "Atal Innovation Mission (AIM)",
-    logo: "/img/memberships/aim.png",
+    logo: "/img/memberships/aim.jpeg",
     category: "Innovation",
   },
   {
     id: 25,
     name: "Startup India",
-    logo: "/img/memberships/startup-india.png",
+    logo: "/img/memberships/startupindia.jpeg",
     category: "Entrepreneurship",
   },
   {
     id: 26,
     name: "Skill India",
-    logo: "/img/memberships/skill-india.png",
+    logo: "/img/memberships/skillindia.png",
     category: "Government",
   },
   {
     id: 27,
     name: "All India Management Association (AIMA)",
-    logo: "/img/memberships/aima.png",
+    logo: "/img/memberships/aima.jpg",
     category: "Management",
   },
 
@@ -178,13 +178,13 @@ const memberships = [
   {
     id: 28,
     name: "Indian Institute of Materials Management (IIMM)",
-    logo: "/img/memberships/iimm.png",
+    logo: "/img/memberships/iimm.jpeg",
     category: "Management",
   },
   {
     id: 29,
     name: "Indian Accounting Association (IAA)",
-    logo: "/img/memberships/iaa.png",
+    logo: "/img/memberships/iaa.jpeg",
     category: "Accounting",
   },
   {
@@ -196,25 +196,25 @@ const memberships = [
   {
     id: 31,
     name: "Institute of Chartered Accountants of India (ICAI)",
-    logo: "/img/memberships/icai.png",
+    logo: "/img/memberships/ca.png",
     category: "Accounting",
   },
   {
     id: 32,
     name: "Institute of Cost Accountants of India (ICMAI)",
-    logo: "/img/memberships/icmai.png",
+    logo: "/img/memberships/icmai.jpeg",
     category: "Accounting",
   },
   {
     id: 33,
     name: "Project Management Institute (PMI)",
-    logo: "/img/memberships/pmi.png",
+    logo: "/img/memberships/pms.jpg",
     category: "Management",
   },
   {
     id: 34,
     name: "International Association of Engineers (IAENG)",
-    logo: "/img/memberships/iaeng.png",
+    logo: "/img/memberships/ia.png",
     category: "International",
   },
 
@@ -222,7 +222,7 @@ const memberships = [
   {
     id: 35,
     name: "International Accreditation Organization (IAO)",
-    logo: "/img/memberships/iao.png",
+    logo: "/img/memberships/iao.jpeg",
     category: "International",
   },
   {
@@ -234,7 +234,7 @@ const memberships = [
   {
     id: 37,
     name: "Association of Commonwealth Universities (ACU)",
-    logo: "/img/memberships/acu.png",
+    logo: "/img/memberships/Commonwealth.png",
     category: "International",
   },
   {
@@ -252,7 +252,7 @@ const memberships = [
   {
     id: 40,
     name: "Association of MBAs (AMBA)",
-    logo: "/img/memberships/amba.png",
+    logo: "/img/memberships/mba.png",
     category: "International",
   },
   {
@@ -266,7 +266,7 @@ const memberships = [
   {
     id: 42,
     name: "SAP University Alliances",
-    logo: "/img/memberships/sap.png",
+    logo: "/img/memberships/sap.jpeg",
     category: "Academic Alliance",
   },
   {
@@ -278,7 +278,7 @@ const memberships = [
   {
     id: 44,
     name: "Microsoft Learn / Microsoft Academic Alliance",
-    logo: "/img/memberships/microsoft.png",
+    logo: "/img/memberships/micro.jpeg",
     category: "Academic Alliance",
   },
   {
@@ -290,7 +290,7 @@ const memberships = [
   {
     id: 46,
     name: "Red Hat Academy",
-    logo: "/img/memberships/redhat.png",
+    logo: "/img/memberships/red.png",
     category: "Academic Alliance",
   },
   {
@@ -302,7 +302,7 @@ const memberships = [
   {
     id: 48,
     name: "Amazon Web Services (AWS) Academy",
-    logo: "/img/memberships/aws.png",
+    logo: "/img/memberships/aws.jpeg",
     category: "Academic Alliance",
   },
   {
@@ -314,7 +314,7 @@ const memberships = [
   {
     id: 50,
     name: "Salesforce Academic Alliance",
-    logo: "/img/memberships/salesforce.png",
+    logo: "/img/memberships/sales.png",
     category: "Academic Alliance",
   },
 
@@ -340,19 +340,19 @@ const memberships = [
   {
     id: 54,
     name: "National Digital Library of India (NDLI)",
-    logo: "/img/memberships/ndli.png",
+    logo: "/img/memberships/ndli.jpeg",
     category: "Government",
   },
   {
     id: 55,
     name: "Spoken Tutorial IIT Bombay",
-    logo: "/img/memberships/spoken-tutorial.png",
+    logo: "/img/memberships/st.jpeg",
     category: "Government",
   },
   {
     id: 56,
     name: "SWAYAM NPTEL",
-    logo: "/img/memberships/swayam.png",
+    logo: "/img/memberships/nptel.png",
     category: "Government",
   },
 
@@ -360,19 +360,19 @@ const memberships = [
   {
     id: 57,
     name: "AICTE Internship Portal",
-    logo: "/img/memberships/aicte-internship.png",
+    logo: "/img/memberships/AICTE.png",
     category: "Government",
   },
   {
     id: 58,
     name: "Unnat Bharat Abhiyan",
-    logo: "/img/memberships/unnat-bharat.png",
+    logo: "/img/memberships/unnat.jpeg",
     category: "Government",
   },
   {
     id: 59,
     name: "Smart India Hackathon (SIH)",
-    logo: "/img/memberships/sih.png",
+    logo: "/img/memberships/hack.png",
     category: "Government",
   },
   {
@@ -384,13 +384,13 @@ const memberships = [
   {
     id: 61,
     name: "TCS iON",
-    logo: "/img/memberships/tcs-ion.png",
+    logo: "/img/memberships/tcs.png",
     category: "Industry Body",
   },
   {
     id: 62,
     name: "Infosys Springboard",
-    logo: "/img/memberships/infosys.png",
+    logo: "/img/memberships/info.png",
     category: "Industry Body",
   },
 ];
