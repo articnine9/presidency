@@ -41,7 +41,7 @@ export default function FaqHero({ data }: FaqHeroProps) {
         <section className="relative min-h-[520px] overflow-hidden">
           {/* IMAGE */}
           <img
-            src={data.image || "/img/faq.jpg"}
+            src={data.image || "/img/banner/faq.JPG"}
             className="absolute inset-0 h-full w-full object-cover"
           />
 
@@ -112,7 +112,7 @@ export default function FaqHero({ data }: FaqHeroProps) {
         <section className="relative w-full min-h-[420px] overflow-hidden sm:min-h-[480px] md:h-[520px]">
           {/* IMAGE */}
           <img
-            src={data.image || "/img/faq.jpg"}
+            src={data.image || "/img/banner/faq.JPG"}
             className="absolute inset-0 w-full h-full object-cover"
           />
 

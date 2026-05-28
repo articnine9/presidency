@@ -40,7 +40,7 @@ const memberships = [
   {
     id: 6,
     name: "QS I-GAUGE",
-    logo: "/img/memberships/qs.png",
+    logo: "/img/memberships/QS.png",
     category: "Ranking",
   },
   {
@@ -114,7 +114,7 @@ const memberships = [
   {
     id: 18,
     name: "British Council",
-    logo: "/img/memberships/british_council.png",
+    logo: "/img/memberships/British_Council.png",
     category: "International",
   },
   {
@@ -228,13 +228,13 @@ const memberships = [
   {
     id: 36,
     name: "Accreditation Council for Business Schools and Programs (ACBSP)",
-    logo: "/img/memberships/acbsp.png",
+    logo: "/img/memberships/ACBSP.png",
     category: "International",
   },
   {
     id: 37,
     name: "Association of Commonwealth Universities (ACU)",
-    logo: "/img/memberships/Commonwealth.png",
+    logo: "/img/memberships/commonwealth.png",
     category: "International",
   },
   {
@@ -452,7 +452,7 @@ export default function MembershipsGrid() {
                     alt={item.name}
                     fill
                     className="object-contain p-2"
-                    sizes="(max-width: 768px) 96px, 112px"
+                    // sizes="(max-width: 768px) 96px, 112px"
                   />
                 ) : (
                   <div className="w-full h-full bg-gray-200 rounded-lg animate-pulse" />
