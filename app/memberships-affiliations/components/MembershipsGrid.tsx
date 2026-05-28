@@ -1,6 +1,5 @@
 "use client";
 import { motion } from "motion/react";
-import Image from "next/image";
 import { useState } from "react";
 import CommonHeader from "@/app/components/CommonHeader";
 
@@ -445,14 +444,13 @@ export default function MembershipsGrid() {
               className="bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 p-4 flex flex-col items-center text-center group cursor-pointer hover:-translate-y-1"
             >
               {/* Logo Container with consistent sizing */}
-              <div className="w-24 h-24 md:w-28 md:h-28 relative mb-4 p-2 bg-gray-50 rounded-lg group-hover:bg-[#0A8F96]/5 transition-colors duration-300 flex items-center justify-center">
+              <div className="w-24 h-24 md:w-28 md:h-28 mb-4 p-2 bg-gray-50 rounded-lg group-hover:bg-[#0A8F96]/5 transition-colors duration-300 flex items-center justify-center">
                 {item.logo ? (
-                  <Image
+                  <img
                     src={item.logo}
                     alt={item.name}
-                    fill
-                    className="object-contain p-2"
-                    // sizes="(max-width: 768px) 96px, 112px"
+                    className="w-full h-full object-contain p-1"
+                    loading="lazy"
                   />
                 ) : (
                   <div className="w-full h-full bg-gray-200 rounded-lg animate-pulse" />
