@@ -41,7 +41,7 @@ export default function FaqHero({ data }: FaqHeroProps) {
         <section className="relative min-h-[520px] overflow-hidden">
           {/* IMAGE */}
           <img
-            src={data.image || "/img/banner/faq.JPG"}
+            src={data.image || "/img/banner/faq.jpg"}
             className="absolute inset-0 h-full w-full object-cover"
           />
 

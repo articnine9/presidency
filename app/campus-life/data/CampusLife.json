@@ -42,7 +42,7 @@
     "intro": "Presidency University offers a modern campus equipped with advanced academic, recreational, and support facilities to enhance student learning and overall student experience.",
 
     "items": [
-       {
+      {
         "title": "High-Speed Wi-Fi",
         "desc": "Fully networked campus across academic and residential buildings.",
         "image": "/img/infrastructure/wifi.jpg"
@@ -80,7 +80,7 @@
       {
         "title": "Central Library",
         "desc": "Digital resources, research journals, study spaces, and searchable online archives.",
-        "image": "/img/infrastructure/library.jpg"
+        "image": "/img/infrastructure/library.JPG"
       },
       {
         "title": "Sports Complex",
