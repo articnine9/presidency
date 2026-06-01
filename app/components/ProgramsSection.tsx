@@ -30,22 +30,22 @@ export function ProgrammesSection() {
     {
       title: "Undergraduate",
       color: "border-b-[#0A8F96]",
-      link: "/undergraduate",
+      link: "/schools/ug",
     },
     {
       title: "Doctoral (PhD)",
       color: "border-b-[#D4A843]",
-      link: "/doctoral",
+      link: "/schools/phd",
     },
     {
       title: "Postgraduate",
       color: "border-b-[#0A8F96]",
-      link: "/postgraduate",
+      link: "/schools/pg",
     },
     {
       title: "International Pathways",
       color: "border-b-[#D4A843]",
-      link: "/international",
+      link: "/schools/international",
     },
   ];
 
@@ -293,33 +293,35 @@ export function ProgrammesSection() {
             {/* 🔥 PROGRAMME CARDS */}
             <div className="grid grid-cols-2 gap-4 md:gap-5 mb-8">
               {programmes.map((item, index) => (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, y: 40 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{
-                    duration: 0.5,
-                    delay: index * 0.1,
-                  }}
-                  viewport={{ once: true }}
-                  whileHover={{ y: -6 }}
-                  className={`
-                    bg-white
-                    rounded-2xl
-                    shadow-md
-                    border-b-4
-                    ${item.color}
-                    hover:shadow-xl
-                    transition-all
-                    duration-300
-                    p-5 md:p-7
-                    text-center
-                  `}
-                >
-                  <p className="text-[#1B4E8C] text-sm md:text-base font-semibold leading-tight">
-                    {item.title}
-                  </p>
-                </motion.div>
+                <Link key={index} href={item.link}>
+                  <motion.div
+                    initial={{ opacity: 0, y: 40 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{
+                      duration: 0.5,
+                      delay: index * 0.1,
+                    }}
+                    viewport={{ once: true }}
+                    whileHover={{ y: -6 }}
+                    className={`
+                      bg-white
+                      rounded-2xl
+                      shadow-md
+                      border-b-4
+                      ${item.color}
+                      hover:shadow-xl
+                      transition-all
+                      duration-300
+                      p-5 md:p-7
+                      text-center
+                      cursor-pointer
+                    `}
+                  >
+                    <p className="text-[#1B4E8C] text-sm md:text-base font-semibold leading-tight">
+                      {item.title}
+                    </p>
+                  </motion.div>
+                </Link>
               ))}
             </div>
 
@@ -411,25 +413,26 @@ export function ProgrammesSection() {
 
               {/* 🔥 DESKTOP BUTTON */}
               <div className="hidden md:block mt-6">
-                <Link href="/programmes">
-                  <button
-                    className="
-                      w-full
-                      bg-[#F58A3C]
-                      hover:bg-[#eb7a28]
-                      text-white
-                      py-4
-                      rounded-lg
-                      font-semibold
-                      text-sm
-                      md:text-base
-                      transition-all
-                      duration-300
-                      hover:shadow-lg
-                    "
-                  >
-                    Explore All Programmes
-                  </button>
+                <Link
+                  href="/schools/ug"
+                  className="
+                    block
+                    w-full
+                    bg-[#F58A3C]
+                    hover:bg-[#eb7a28]
+                    text-white
+                    py-4
+                    rounded-lg
+                    font-semibold
+                    text-sm
+                    md:text-base
+                    transition-all
+                    duration-300
+                    hover:shadow-lg
+                    text-center
+                  "
+                >
+                  Explore All Programmes
                 </Link>
               </div>
             </div>

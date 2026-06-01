@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowRight, Phone, GraduationCap } from "lucide-react";
 type SchoolHeroProps = {
@@ -146,7 +147,8 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
   "
               >
                 {/* BUTTON 1 */}
-                <button
+                <Link
+                  href="/schools/ug"
                   className="
       inline-flex
       items-center
@@ -165,10 +167,11 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
                   <GraduationCap size={16} />
                   EXPLORE PROGRAMMES
                   <ArrowRight size={16} />
-                </button>
+                </Link>
 
                 {/* BUTTON 2 */}
-                <button
+                <Link
+                  href="/contact"
                   className="
       inline-flex
       items-center
@@ -188,10 +191,11 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
                 >
                   <Phone size={16} />
                   CONTACT THE OIA
-                </button>
+                </Link>
 
                 {/* BUTTON 3 */}
-                <button
+                <Link
+                  href="/international/apply"
                   className="
       inline-flex
       items-center
@@ -209,7 +213,7 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
                 >
                   HOW TO APPLY
                   <ArrowRight size={16} />
-                </button>
+                </Link>
               </motion.div>
             </motion.div>
           </div>

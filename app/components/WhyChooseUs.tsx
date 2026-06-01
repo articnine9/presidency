@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import CommonHeader from "@/app/components/CommonHeader";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
@@ -186,28 +187,27 @@ export function WhyChooseUs() {
 
           {/* 🔥 MOBILE BUTTON */}
           <div className="mt-6">
-            <a href="/about">
-              <button
-                className="
-                  w-full
-                  bg-[#F58A3C]
-                  hover:bg-[#eb7a28]
-                  text-white
-                  py-4
-                  rounded-xl
-                  font-semibold
-                  text-sm
-                  flex
-                  items-center
-                  justify-center
-                  gap-2
-                  transition-all
-                "
-              >
-                KNOW MORE
-                <ArrowRight size={18} />
-              </button>
-            </a>
+            <Link
+              href="/about"
+              className="
+                w-full
+                bg-[#F58A3C]
+                hover:bg-[#eb7a28]
+                text-white
+                py-4
+                rounded-xl
+                font-semibold
+                text-sm
+                flex
+                items-center
+                justify-center
+                gap-2
+                transition-all
+              "
+            >
+              KNOW MORE
+              <ArrowRight size={18} />
+            </Link>
           </div>
         </div>
 
@@ -268,11 +268,9 @@ export function WhyChooseUs() {
           </div>
 
           <div className="flex justify-center mt-6 md:mt-10">
-            <a href="/about">
-              <button className="bg-[#0A8F96] text-white px-8 py-3 rounded-lg text-sm md:text-base font-semibold shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300">
-                Know More
-              </button>
-            </a>
+            <Link href="/about" className="bg-[#0A8F96] text-white px-8 py-3 rounded-lg text-sm md:text-base font-semibold shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300">
+              Know More
+            </Link>
           </div>
         </div>
       </div>

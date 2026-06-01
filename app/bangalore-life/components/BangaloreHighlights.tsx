@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export default function BangaloreHighlights() {
@@ -50,13 +51,13 @@ export default function BangaloreHighlights() {
                 students.
               </p>
 
-              <button className="text-[#c4a45b] font-semibold text-xs tracking-wide flex items-center gap-1 group">
+              <Link href="/campus-life" className="text-[#c4a45b] font-semibold text-xs tracking-wide flex items-center gap-1 group">
                 LEARN MORE
                 <ArrowRight
                   size={14}
                   className="transition group-hover:translate-x-1"
                 />
-              </button>
+              </Link>
             </div>
           </div>
           {/* LOGO GRID */}

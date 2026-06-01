@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { motion } from "motion/react";
 import CommonHeader from "@/app/components/CommonHeader";
@@ -110,37 +111,34 @@ export function AboutPresidency() {
 
             {/* 🔥 DESKTOP BUTTON */}
             <div className="hidden md:flex">
-              <a href="/about">
-                <button className="bg-[#0A8F96] text-white px-6 py-3 md:px-8 md:py-4 rounded-lg hover:bg-[#0BB5B5] transition-all duration-300 hover:shadow-xl hover:scale-105 flex items-center gap-2 text-base md:text-lg">
-                  Discover Presidency
-                </button>
-              </a>
+              <Link href="/about" className="bg-[#0A8F96] text-white px-6 py-3 md:px-8 md:py-4 rounded-lg hover:bg-[#0BB5B5] transition-all duration-300 hover:shadow-xl hover:scale-105 flex items-center gap-2 text-base md:text-lg">
+                Discover Presidency
+              </Link>
             </div>
 
             {/* 🔥 MOBILE BUTTON */}
             <div className="md:hidden">
-              <a href="/about">
-                <button
-                  className="
-                    w-full
-                    bg-[#F58A3C]
-                    hover:bg-[#eb7a28]
-                    text-white
-                    py-4
-                    rounded-xl
-                    font-semibold
-                    text-sm
-                    flex
-                    items-center
-                    justify-center
-                    gap-2
-                    transition-all
-                  "
-                >
-                  DISCOVER PRESIDENCY
-                  <ArrowRight size={18} />
-                </button>
-              </a>
+              <Link
+                href="/about"
+                className="
+                  w-full
+                  bg-[#F58A3C]
+                  hover:bg-[#eb7a28]
+                  text-white
+                  py-4
+                  rounded-xl
+                  font-semibold
+                  text-sm
+                  flex
+                  items-center
+                  justify-center
+                  gap-2
+                  transition-all
+                "
+              >
+                DISCOVER PRESIDENCY
+                <ArrowRight size={18} />
+              </Link>
             </div>
           </div>
         </div>

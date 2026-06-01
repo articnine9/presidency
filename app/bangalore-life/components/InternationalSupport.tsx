@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import CommonHeader from "@/app/components/CommonHeader";
 import { CheckCircle2, ArrowRight } from "lucide-react";
 
@@ -127,7 +128,8 @@ export default function InternationalSupport({ data }: any) {
             </div>
 
             {/* BUTTON */}
-            <button
+            <Link
+              href="/international/apply"
               className="
                 inline-flex
                 items-center
@@ -145,7 +147,7 @@ export default function InternationalSupport({ data }: any) {
             >
               APPLY NOW
               <ArrowRight size={16} />
-            </button>
+            </Link>
           </div>
         </div>
       </div>
