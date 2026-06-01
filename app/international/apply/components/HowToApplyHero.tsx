@@ -59,7 +59,7 @@ export default function HowToApplyHero({
       >
         {/* IMAGE */}
         <img
-          src={data.image || "/img/faq.jpg"}
+          src={data.image || "/img/faq.JPG"}
           alt="Hero"
           className="absolute inset-0 h-full w-full object-cover"
         />
