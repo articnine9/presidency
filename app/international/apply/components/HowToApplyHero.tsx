@@ -50,16 +50,14 @@ export default function HowToApplyHero({
           relative
           w-full
           overflow-hidden
-
-          min-h-[720px]
-
+          min-h-[520px]
           sm:min-h-[480px]
-          md:h-[520px]
+          md:min-h-[520px]
         "
       >
         {/* IMAGE */}
         <img
-          src={data.image || "/img/faq.jpg"}
+          src={data.image || "/img/international-students-bg.jpeg"}
           alt="Hero"
           className="absolute inset-0 h-full w-full object-cover"
         />
@@ -69,16 +67,14 @@ export default function HowToApplyHero({
           className="
             absolute
             inset-0
-
             bg-gradient-to-t
             from-[#0b2a4a]/95
             via-[#0b2a4a]/70
-            to-[#0b2a4a]/30
-
+            to-[#0b2a4a]/40
             md:bg-gradient-to-r
             md:from-[#0b2a4a]/95
-            md:via-[#0b2a4a]/85
-            md:to-transparent
+            md:via-[#0b2a4a]/80
+            md:to-[#0b2a4a]/20
           "
         />
 
@@ -88,20 +84,14 @@ export default function HowToApplyHero({
             relative
             mx-auto
             flex
-            min-h-[720px]
+            min-h-[520px]
             max-w-[1400px]
-            items-end
+            items-center
             px-4
-            pb-10
-            pt-24
-
-            sm:min-h-[480px]
-            sm:items-center
+            py-24
             sm:px-6
-            sm:py-10
-
-            md:min-h-0
-            md:py-0
+            md:px-10
+            md:py-28
           "
         >
           <div className="max-w-3xl text-white">
