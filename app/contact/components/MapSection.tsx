@@ -503,6 +503,31 @@ export default function MapSection() {
                   "
                 />
               </div>
+
+              {/* SUBMIT BUTTON */}
+              <button
+                type="submit"
+                className="
+                  mt-6
+                  flex
+                  h-[52px]
+                  w-full
+                  items-center
+                  justify-center
+                  gap-2
+                  rounded-lg
+                  bg-[#F2994A]
+                  text-sm
+                  font-medium
+                  text-white
+                  transition-all
+                  duration-300
+                  hover:bg-[#EB8B36]
+                "
+              >
+                SUBMIT MESSAGE
+                <Send size={15} />
+              </button>
             </form>
           </div>
         </div>

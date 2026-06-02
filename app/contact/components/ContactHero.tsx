@@ -160,7 +160,8 @@ export default function ContactHero({ data }: ContactHeroProps) {
               "
             >
               {/* EMAIL BUTTON */}
-              <button
+              <a
+                href="mailto:admission@presidency.international"
                 className="
                   flex
                   h-[58px]
@@ -177,18 +178,17 @@ export default function ContactHero({ data }: ContactHeroProps) {
                   transition-all
                   duration-300
                   hover:bg-[#0095A1]
-
                   sm:w-auto
-
                   md:rounded-md
                 "
               >
                 EMAIL US
                 <Mail size={17} />
-              </button>
+              </a>
 
               {/* CALL BUTTON */}
-              <button
+              <a
+                href="tel:+919022092222"
                 className="
                   flex
                   h-[58px]
@@ -208,15 +208,13 @@ export default function ContactHero({ data }: ContactHeroProps) {
                   transition-all
                   duration-300
                   hover:bg-white/10
-
                   sm:w-auto
-
                   md:rounded-md
                 "
               >
                 CALL NOW
                 <Phone size={17} />
-              </button>
+              </a>
             </motion.div>
           </div>
         </div>

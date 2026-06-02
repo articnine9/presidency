@@ -82,6 +82,7 @@ export default function ContactFormSection() {
             {/* BUTTON */}
             <div className="md:col-span-2">
               <motion.button
+                type="submit"
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.97 }}
                 className="bg-[#0A8F96] text-white px-8 py-3 rounded-lg font-medium hover:bg-[#0BB5B5] transition shadow-md"

@@ -1065,8 +1065,56 @@ export function Navigation() {
                     </div>
                   )}
 
-                  {/* MOBILE MEGA */}
-                  {item.hasMegaMenu && mobileOpenItem === item.label && (
+                  {/* MOBILE MEGA — Programmes (customMega) */}
+                  {item.hasMegaMenu && (item as any).customMega && mobileOpenItem === item.label && (
+                    <div className="pl-4 pb-2">
+                      {/* Quick Links */}
+                      <div className="space-y-1 border-b border-gray-100 pb-3">
+                        {((item as any).quickLinks as { label: string; href: string }[] | undefined)?.map((ql, qi) => (
+                          <Link
+                            key={qi}
+                            href={ql.href}
+                            className="flex items-center gap-2 py-1.5 text-sm font-medium text-[#0A8F96]"
+                            onClick={closeMobileMenu}
+                          >
+                            <ArrowRight size={12} className="shrink-0" />
+                            {ql.label}
+                          </Link>
+                        ))}
+                      </div>
+                      {/* Browse by School */}
+                      <p className="mt-3 mb-1 text-[10px] font-bold uppercase tracking-widest text-gray-400">
+                        Browse by School
+                      </p>
+                      {(Object.keys(programmesData) as string[]).map((school, si) => {
+                        const schoolHrefMap: Record<string, string> = {
+                          "Computer Science and Engineering": "/schools/computer-science",
+                          " Engineering": "/schools/engineering",
+                          "Information Science": "/schools/information-science",
+                          "Management": "/schools/management",
+                          "Commerce": "/schools/commerce",
+                          "Law": "/schools/law",
+                          "Design": "/schools/design",
+                          "Media Studies": "/schools/media",
+                          "Liberal Arts and Sciences": "/schools/liberal-arts-science",
+                          "Health Sciences": "/schools/health",
+                        };
+                        return (
+                          <Link
+                            key={si}
+                            href={schoolHrefMap[school] || "/schools"}
+                            className="block py-1.5 text-sm text-gray-700 hover:text-[#0A8F96] transition"
+                            onClick={closeMobileMenu}
+                          >
+                            › {school.trim()}
+                          </Link>
+                        );
+                      })}
+                    </div>
+                  )}
+
+                  {/* MOBILE MEGA — Schools (regular megaMenu) */}
+                  {item.hasMegaMenu && !(item as any).customMega && mobileOpenItem === item.label && (
                     <div className="pl-4 space-y-3">
                       {item.megaMenu?.map((section: any, idx: number) => (
                         <div key={idx}>

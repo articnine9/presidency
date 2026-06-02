@@ -121,11 +121,7 @@ export function WhyChooseUs() {
                     <img
                       src={item.img}
                       alt={item.title}
-                      className="
-                        w-full
-                        h-[260px]
-                        object-cover
-                      "
+                      className="w-full h-auto object-contain"
                     />
                   </div>
 
