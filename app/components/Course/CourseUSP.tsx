@@ -74,7 +74,7 @@ function HexTile({
                  flex flex-col items-center justify-center gap-2 text-white cursor-default"
     >
       <div className="opacity-80">{ICONS[iconIdx % ICONS.length]}</div>
-      <p className="text-[11px] font-semibold text-center px-5 leading-snug">{title}</p>
+      <p className="text-[11px] font-semibold text-center px-5 leading-snug text-white">{title}</p>
     </motion.div>
   );
 }

@@ -591,7 +591,7 @@ export function Navigation() {
         },
         {
           label: "Media rankings",
-          href: "/media-rankings",
+          href: "/Media-Rankings",
         },
       ],
     },
