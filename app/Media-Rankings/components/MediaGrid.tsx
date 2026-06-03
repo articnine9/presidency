@@ -903,11 +903,11 @@ function RankCard({ item, index }: { item: RankingEntry; index: number }) {
       className="bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 p-5 flex flex-col items-center text-center group cursor-pointer hover:-translate-y-1"
     >
       {/* Logo Container — membership style */}
-      <div className="w-full h-28 md:h-32 mb-4 p-3 bg-gray-50 rounded-lg group-hover:bg-[#0A8F96]/5 transition-colors duration-300 flex items-center justify-center">
+      <div className="w-full h-full md:h-32 mb-4 p-3 bg-gray-50 rounded-lg group-hover:bg-[#0A8F96]/5 transition-colors duration-300 flex items-center justify-center">
         <img
           src={item.logo}
           alt={item.source}
-          className="max-h-[70px] max-w-[120px] w-auto h-auto object-contain transition-transform duration-300 group-hover:scale-105"
+          className="max-h-[270px] max-w-[150px] w-auto h-auto object-contain transition-transform duration-300 group-hover:scale-105"
           loading="lazy"
           onError={(e) => {
             const t = e.target as HTMLImageElement;
