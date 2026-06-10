@@ -59,7 +59,7 @@ export default function CourseHero({ data, school }: any) {
             </motion.p>
 
             {/* STATS */}
-            <div className="mt-8 space-y-4">
+            <div className="mt-5 space-y-3  flex flex-col items-center">
               {hero?.stats?.map((stat: any, i: number) => (
                 <motion.div
                   key={i}
@@ -67,15 +67,16 @@ export default function CourseHero({ data, school }: any) {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.3 + i * 0.1 }}
                   className="
+              w-[300px]
               flex
               items-center
-              gap-4
+              gap-3
               rounded-2xl
               border
               border-white/40
               bg-white/5
-              px-5
-              py-4
+              px-4
+              py-2
               backdrop-blur-md
             "
                 >
@@ -83,8 +84,8 @@ export default function CourseHero({ data, school }: any) {
                   <div
                     className="
                 flex
-                h-12
-                w-12
+                h-9
+                w-9
                 items-center
                 justify-center
                 rounded-xl
@@ -101,7 +102,7 @@ export default function CourseHero({ data, school }: any) {
                   <div>
                     <h3
                       className="
-                  text-[30px]
+                  text-[22px]
                   font-semibold
                   leading-none
                   text-[#D4A843]
@@ -110,7 +111,7 @@ export default function CourseHero({ data, school }: any) {
                       {stat.value}
                     </h3>
 
-                    <p className="mt-1 text-[15px] text-white/90">
+                    <p className="mt-0.5 text-[13px] text-white/90">
                       {stat.label}
                     </p>
                   </div>

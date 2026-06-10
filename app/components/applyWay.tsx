@@ -221,7 +221,7 @@ export default function AdmissionProcessPage() {
               transition-all
             "
           >
-            CONNECT WITH OUR TEAM
+            Connect With Our Team
             <Headphones size={18} />
           </Link>
         </div>
@@ -248,7 +248,7 @@ export default function AdmissionProcessPage() {
               hover:scale-105
             "
           >
-            CONNECT WITH OUR TEAM
+            Connect With Our Team
             <ArrowRight size={18} />
           </Link>
         </div>

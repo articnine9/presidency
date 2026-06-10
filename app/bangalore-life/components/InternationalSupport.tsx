@@ -143,7 +143,7 @@ export default function InternationalSupport({ data }: any) {
                 hover:bg-[#11B8C0]
               "
             >
-              APPLY NOW
+              Apply Now
               <ArrowRight size={16} />
             </button>
           </div>

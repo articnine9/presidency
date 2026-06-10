@@ -230,7 +230,7 @@ export default function VisaSection({ data }: any) {
                 text-white/80
               "
             >
-              Apply now and take the first step toward studying at Presidency
+              Apply Now and take the first step toward studying at Presidency
               University. Our admissions team is here to support you at every
               stage.
             </p>
@@ -270,7 +270,7 @@ export default function VisaSection({ data }: any) {
                 text-white
               "
             >
-              APPLY NOW
+              Apply Now
               <ArrowRight size={16} />
             </button>
           </div>
@@ -488,7 +488,7 @@ export default function VisaSection({ data }: any) {
                 md:mt-0
               "
             >
-              CONTACT NOW →
+              Contact Now →
             </Link>
           </div>
         </div>

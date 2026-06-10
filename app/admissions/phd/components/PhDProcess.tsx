@@ -45,7 +45,7 @@ export default function PhDProcess() {
         {/* Header */}
         <div className="text-center mb-14">
           <span className="inline-block bg-[#E6F4F5] text-[#0A8F96] text-xs font-semibold tracking-widest uppercase px-4 py-2 rounded-md mb-4">
-            How to Apply
+            How To Apply
           </span>
           <h2 className="text-3xl md:text-4xl font-serif text-[#0F1E3D]">
             Application Process

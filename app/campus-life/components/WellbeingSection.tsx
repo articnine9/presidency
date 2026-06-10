@@ -294,7 +294,7 @@ const WellbeingSection = () => {
         hover:bg-[#0bb5b5]
       "
             >
-              APPLY NOW
+              Apply Now
               <ArrowRight className="h-4 w-4" />
             </button>
           </div>
@@ -353,7 +353,7 @@ const WellbeingSection = () => {
               hover:bg-[#0bb5b5]
             "
           >
-            APPLY NOW
+            Apply Now
             <ArrowRight className="h-4 w-4" />
           </button>
         </div>

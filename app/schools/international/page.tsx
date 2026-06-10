@@ -183,7 +183,7 @@ export default function InternationalProgrammesPage() {
                 href="/international/apply"
                 className="flex h-[52px] w-full items-center justify-center gap-2 rounded-xl bg-[#0097A7] text-sm font-medium text-white transition-all duration-300 hover:bg-[#00b7c9] sm:w-auto sm:px-7"
               >
-                HOW TO APPLY <ArrowRight size={16} />
+                How To Apply <ArrowRight size={16} />
               </Link>
               <Link
                 href="/international/overview"
@@ -279,7 +279,7 @@ export default function InternationalProgrammesPage() {
               { label: "PG Programmes", href: "/international/pg" },
               { label: "Research & PhD", href: "/international/phd" },
               { label: "Scholarships", href: "/international/scholarships" },
-              { label: "How to Apply", href: "/international/apply" },
+              { label: "How To Apply", href: "/international/apply" },
               { label: "Contact OIA", href: "/contact" },
               { label: "FAQ", href: "/international/faq" },
             ].map((l, i) => (

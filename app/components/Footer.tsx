@@ -133,7 +133,7 @@ export function FooterSection() {
             </li>
             <li>
               <Link href="/international/apply" className={linkClass}>
-                How to Apply
+                How To Apply
               </Link>
             </li>
             <li>

@@ -708,7 +708,7 @@ export function Navigation() {
         { label: "UG Programmes", href: "/international/ug" },
         { label: "PG Programmes", href: "/international/pg" },
         { label: "Research & PhD", href: "/international/phd" },
-        { label: "How to Apply", href: "/international/apply" },
+        { label: "How To Apply", href: "/international/apply" },
         { label: "Scholarships", href: "/international/scholarships" },
         { label: "Contact OIA", href: "/international/contact" },
         { label: "FAQ'S", href: "/international/faq" },
@@ -1000,7 +1000,7 @@ export function Navigation() {
                 onClick={openModal}
                 className="bg-[#0A8F96] text-white px-6 py-2 rounded-lg flex items-center gap-2 hover:bg-[#088b91] transition"
               >
-                APPLY NOW <ArrowRight size={16} />
+                Apply Now <ArrowRight size={16} />
               </button>
             </div>
 
@@ -1097,7 +1097,7 @@ export function Navigation() {
                 }}
                 className="w-full block bg-[#0A8F96] text-white py-3 text-center rounded-lg hover:bg-[#088b91] transition font-semibold"
               >
-                APPLY NOW
+                Apply Now
               </button>
             </div>
           </div>

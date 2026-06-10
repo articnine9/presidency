@@ -168,7 +168,7 @@ export default function SocialMediaSection() {
           md:mt-0
         "
           >
-            APPLY NOW →
+            Apply Now →
           </Link>
         </div>
       </div>

@@ -41,7 +41,7 @@ export default function IntakeSection({ data }: any) {
               md:text-5xl
             "
           >
-            How to Apply
+            How To Apply
           </h2>
 
           {/* DESCRIPTION */}

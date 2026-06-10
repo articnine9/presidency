@@ -163,7 +163,7 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
     "
                 >
                   <GraduationCap size={16} />
-                  EXPLORE PROGRAMMES
+                  Explore Programmes
                   <ArrowRight size={16} />
                 </button>
 
@@ -187,7 +187,7 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
     "
                 >
                   <Phone size={16} />
-                  CONTACT THE OIA
+                  Contact The Oia
                 </button>
 
                 {/* BUTTON 3 */}
@@ -207,7 +207,7 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
       hover:bg-gray-100
     "
                 >
-                  HOW TO APPLY
+                  How To Apply
                   <ArrowRight size={16} />
                 </button>
               </motion.div>

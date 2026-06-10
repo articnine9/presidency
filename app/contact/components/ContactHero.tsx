@@ -183,7 +183,7 @@ export default function ContactHero({ data }: ContactHeroProps) {
                   md:rounded-md
                 "
               >
-                EMAIL US
+                Email Us
                 <Mail size={17} />
               </button>
 
@@ -214,7 +214,7 @@ export default function ContactHero({ data }: ContactHeroProps) {
                   md:rounded-md
                 "
               >
-                CALL NOW
+                Call Now
                 <Phone size={17} />
               </button>
             </motion.div>

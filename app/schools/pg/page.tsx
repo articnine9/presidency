@@ -9,20 +9,20 @@ import { getAllCourses, applyUrlForCourse } from "@/lib/course-search";
 
 /* ─── school display names & order ─── */
 const SCHOOL_ORDER = [
-  { slug: "computer-science",      label: "Computer Science & Engineering" },
-  { slug: "engineering",           label: "Engineering" },
-  { slug: "information-science",   label: "Information Science" },
-  { slug: "management",            label: "Management" },
-  { slug: "commerce",              label: "Commerce" },
-  { slug: "design",                label: "Design" },
-  { slug: "law",                   label: "Law" },
-  { slug: "media",                 label: "Media Studies" },
-  { slug: "liberal-arts-science",  label: "Liberal Arts & Sciences" },
-  { slug: "health",                label: "Health Sciences" },
+  { slug: "computer-science", label: "Computer Science & Engineering" },
+  { slug: "engineering", label: "Engineering" },
+  { slug: "information-science", label: "Information Science" },
+  { slug: "management", label: "Management" },
+  { slug: "commerce", label: "Commerce" },
+  { slug: "design", label: "Design" },
+  { slug: "law", label: "Law" },
+  { slug: "media", label: "Media Studies" },
+  { slug: "liberal-arts-science", label: "Liberal Arts & Sciences" },
+  { slug: "health", label: "Health Sciences" },
 ];
 
 export default function PGProgrammesPage() {
-  const [query, setQuery]               = useState("");
+  const [query, setQuery] = useState("");
   const [activeSchool, setActiveSchool] = useState("all");
 
   /* ─── get only PG courses ─── */
@@ -88,7 +88,7 @@ export default function PGProgrammesPage() {
         <div className="absolute inset-0 bg-gradient-to-t from-[#081C33]/95 via-[#081C33]/55 to-black/20 md:hidden" />
 
         {/* Content */}
-        <div className="relative z-10 mx-auto flex min-h-[860px] max-w-[1400px] flex-col justify-end px-4 pb-8 pt-28 md:h-full md:min-h-screen md:justify-center md:px-14 md:pb-0">
+        <div className="relative z-10 mx-auto flex min-h-[860px] max-w-[1400px] flex-col justify-end px-4 pb-46 pt-28 md:h-full md:min-h-screen md:justify-center md:px-14 md:pb-0">
           <div className="max-w-[560px]">
             {/* Title */}
             <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }}>
@@ -116,7 +116,7 @@ export default function PGProgrammesPage() {
                 href="/international/apply"
                 className="flex h-[52px] w-full items-center justify-center gap-2 rounded-xl bg-[#0097A7] text-sm font-medium text-white transition-all duration-300 hover:bg-[#00b7c9] md:inline-flex md:w-auto md:rounded-md md:px-6"
               >
-                HOW TO APPLY <ArrowRight size={16} />
+                How To Apply <ArrowRight size={16} />
               </Link>
             </motion.div>
           </div>
@@ -125,7 +125,7 @@ export default function PGProgrammesPage() {
           <div className="mt-5 flex flex-col gap-3 md:hidden">
             {[
               { value: `${pgCourses.length}+`, label: "PG Programmes" },
-              { value: "10",   label: "Schools" },
+              { value: "10", label: "Schools" },
               { value: "2 Yr", label: "Avg. Duration" },
               { value: "100%", label: "Placement Support" },
             ].map((stat, index) => {
@@ -149,7 +149,7 @@ export default function PGProgrammesPage() {
           <div className="mt-16 hidden flex-wrap gap-5 md:flex">
             {[
               { value: `${pgCourses.length}+`, label: "PG Programmes" },
-              { value: "10",   label: "Schools" },
+              { value: "10", label: "Schools" },
               { value: "2 Yr", label: "Avg. Duration" },
               { value: "100%", label: "Placement Support" },
             ].map((stat, index) => (
@@ -190,11 +190,10 @@ export default function PGProgrammesPage() {
               <button
                 key={s.slug}
                 onClick={() => setActiveSchool(s.slug)}
-                className={`shrink-0 px-4 py-2 rounded-lg text-xs transition-all ${
-                  activeSchool === s.slug
+                className={`shrink-0 px-4 py-2 rounded-lg text-xs transition-all ${activeSchool === s.slug
                     ? "bg-[#0A8F96] text-white shadow-sm"
                     : "bg-gray-100 text-gray-600 hover:bg-gray-200"
-                }`}
+                  }`}
               >
                 {s.label}
               </button>
@@ -205,12 +204,30 @@ export default function PGProgrammesPage() {
 
       {/* ── RESULTS COUNT ── */}
       <div className="max-w-[1400px] mx-auto px-4 sm:px-6 md:px-10 pt-8 pb-2">
-        <p className="text-sm text-gray-500">
-          Showing <span className="text-[#0A8F96]">{filtered.length}</span> programme{filtered.length !== 1 ? "s" : ""}
+        <p className="text-sm text-gray-600">
+          Showing{" "}
+          <span className="font-bold text-[#6b4f9a]">
+            {filtered.length}
+          </span>{" "}
+          programme{filtered.length !== 1 ? "s" : ""}
+
           {activeSchool !== "all" && (
-            <span> in <span className="text-[#1e3a5f]">{schools.find((s) => s.slug === activeSchool)?.label}</span></span>
+            <span>
+              {" "}in{" "}
+              <span className="font-semibold text-[#1e3a5f] bg-blue-50 px-1.5 py-0.5 rounded">
+                {schools.find((s) => s.slug === activeSchool)?.label}
+              </span>
+            </span>
           )}
-          {query && <span> matching "<span className="text-[#1e3a5f]">{query}</span>"</span>}
+
+          {query && (
+            <span>
+              {" "}matching{" "}
+              <span className="font-semibold text-[#6b4f9a] bg-purple-50 px-1.5 py-0.5 rounded">
+                "{query}"
+              </span>
+            </span>
+          )}
         </p>
       </div>
 
@@ -236,9 +253,9 @@ export default function PGProgrammesPage() {
                     <h2 className="text-lg text-[#1e3a5f]">{label}</h2>
                     <span className="text-xs bg-[#D4A843]/10 text-[#D4A843] px-2.5 py-1 rounded-full">{courses.length}</span>
                   </div>
-                  <Link href={`/schools/${slug}`} className="text-xs text-[#0A8F96] hover:underline flex items-center gap-1">
+                  {/* <Link href={`/schools/${slug}`} className="text-xs text-[#0A8F96] hover:underline flex items-center gap-1">
                     View School <ArrowRight size={12} />
-                  </Link>
+                  </Link> */}
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
@@ -267,7 +284,7 @@ export default function PGProgrammesPage() {
             <span className="block text-[#0A8F96] italic">Postgraduate Degree</span>
           </h2>
           <p className="text-white/70 text-base mb-8 max-w-xl mx-auto">
-            Apply now or speak to our admissions team to find the right masters or MBA programme.
+            Apply Now or speak to our admissions team to find the right masters or MBA programme.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
