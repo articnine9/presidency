@@ -57,10 +57,10 @@ export default function SocialMediaSection() {
         {/* SOCIAL CARDS */}
         <div className="mt-12 flex flex-wrap justify-center gap-5">
           {[
-            { icon: <Facebook size={18} />, name: "Facebook", href: "https://www.facebook.com/presidencyuniversitybangalore" },
-            { icon: <Instagram size={18} />, name: "Instagram", href: "https://www.instagram.com/presidencyuniversitybangalore" },
-            { icon: <Youtube size={18} />, name: "YouTube", href: "https://www.youtube.com/@presidencyuniversity" },
-            { icon: <Twitter size={18} />, name: "Twitter/X", href: "https://twitter.com/presidency_univ" },
+            { icon: <Facebook size={18} />, name: "Facebook", href: "https://www.facebook.com/share/1916kDw6Gg/?mibextid=wwXIfr" },
+            { icon: <Instagram size={18} />, name: "Instagram", href: "https://www.instagram.com/presidency_university?igsh=MW54b3ZmZmo4cGltdQ==" },
+            { icon: <Youtube size={18} />, name: "YouTube", href: "https://youtube.com/@presidencyuniversityinblr?si=poP2tgbAVjiHCXG8" },
+            { icon: <Twitter size={18} />, name: "Twitter/X", href: "https://x.com/presidencyuniv3?s=21" },
             { icon: <Linkedin size={18} />, name: "LinkedIn", href: "https://www.linkedin.com/school/presidency-university-bangalore" },
           ].map((item, i) => (
             <a

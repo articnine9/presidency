@@ -40,10 +40,7 @@ export default function AboutSection({ data }: any) {
           className="relative w-full h-[300px] md:h-[450px] rounded-xl overflow-hidden shadow-lg"
         >
           <Image
-            src={
-              about?.image ||
-              "/img/inner-about/pg-about.JPG"
-            }
+            src={about?.image || "/img/inner-about/pg-about.jpg"}
             alt="About Programme"
             fill
             className="object-cover"

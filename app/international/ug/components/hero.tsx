@@ -11,7 +11,7 @@ export default function CourseHero({ data, school }: any) {
       {/* Video Background */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/img/banner/ug.JPG"
+          src="/img/banner/ug.jpg"
           alt="University Campus"
           className="w-full h-full object-cover"
         />

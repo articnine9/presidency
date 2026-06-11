@@ -3,6 +3,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 import "swiper/css";
 
@@ -25,9 +26,9 @@ export default function BangaloreLife() {
             DISCOVER BANGALORE
           </h1>
 
-          <button className="mt-6 bg-gradient-to-r from-[#0A8F96] to-[#0BB5B5] text-white px-6 py-3 rounded-lg font-semibold transition">
+          <Link href="/campus-life" className="mt-6 bg-gradient-to-r from-[#0A8F96] to-[#0BB5B5] text-white px-6 py-3 rounded-lg font-semibold transition">
             START EXPLORING
-          </button>
+          </Link>
         </div>
       </div>
 

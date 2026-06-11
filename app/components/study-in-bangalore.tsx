@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { motion } from "motion/react";
 import CommonHeader from "@/app/components/CommonHeader";
@@ -129,7 +130,8 @@ export default function StudyInBangalore() {
               viewport={{ once: true }}
               className="hidden md:block mt-8"
             >
-              <button
+              <Link
+                href="/bangalore-life"
                 className="
                   bg-[#F58A3C]
                   hover:bg-[#eb7a28]
@@ -139,7 +141,7 @@ export default function StudyInBangalore() {
                   rounded-lg
                   font-semibold
                   text-sm
-                  flex
+                  inline-flex
                   items-center
                   gap-2
                   transition-all
@@ -150,7 +152,7 @@ export default function StudyInBangalore() {
               >
                 Explore
                 <ArrowRight size={18} />
-              </button>
+              </Link>
             </motion.div>
 
             {/* 🔥 MOBILE BUTTON */}
@@ -161,7 +163,8 @@ export default function StudyInBangalore() {
               viewport={{ once: true }}
               className="md:hidden mt-7"
             >
-              <button
+              <Link
+                href="/bangalore-life"
                 className="
                   w-full
                   bg-[#F58A3C]
@@ -180,7 +183,7 @@ export default function StudyInBangalore() {
               >
                 EXPLORE
                 <ArrowRight size={18} />
-              </button>
+              </Link>
             </motion.div>
           </motion.div>
         </div>

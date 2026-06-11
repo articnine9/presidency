@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { H2 } from "@/app/components/Headings";
 
 export default function CourseCTA() {

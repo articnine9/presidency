@@ -136,75 +136,29 @@ export default function ContactInfoSection() {
             </div>
 
             {/* ADMISSIONS OFFICE */}
-            <div
-              className="
-                mt-5
-                rounded-2xl
-                bg-[#F7F8FA]
-                px-5
-                py-6
-              "
-            >
-              <H3
-                className="
-                  text-[#183153]
-                "
-              >
-                Admissions Office
-              </H3>
+            <div className="mt-5 rounded-2xl bg-[#F7F8FA] px-5 py-6">
+              <H3 className="text-[#183153]">Admissions Office</H3>
 
               <div className="mt-6 space-y-5">
-                <div
-                  className="
-                    flex
-                    items-center
-                    gap-3
-                    text-[13px]
-                    text-gray-600
-                  "
-                >
+                <a href="tel:+919022092222" className="flex items-center gap-3 text-[13px] text-gray-600 hover:text-[#00A8B5] transition">
                   <Phone size={16} className="text-[#00A8B5]" />
                   +91 9022092222
-                </div>
+                </a>
 
-                <div
-                  className="
-                    flex
-                    items-center
-                    gap-3
-                    text-[13px]
-                    text-gray-600
-                  "
-                >
+                <a href="tel:+919024060000" className="flex items-center gap-3 text-[13px] text-gray-600 hover:text-[#00A8B5] transition">
                   <Phone size={16} className="text-[#00A8B5]" />
                   +91 9024060000
-                </div>
+                </a>
 
-                <div
-                  className="
-                    flex
-                    items-center
-                    gap-3
-                    text-[13px]
-                    text-gray-600
-                  "
-                >
+                <a href="mailto:admission@presidency.international" className="flex items-center gap-3 text-[13px] text-gray-600 hover:text-[#00A8B5] transition">
                   <Mail size={16} className="text-[#00A8B5]" />
                   admission@presidency.international
-                </div>
+                </a>
 
-                <div
-                  className="
-                    flex
-                    items-center
-                    gap-3
-                    text-[13px]
-                    text-gray-600
-                  "
-                >
+                <a href="https://apply.presidency.international" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-[13px] text-gray-600 hover:text-[#00A8B5] transition">
                   <Globe size={16} className="text-[#00A8B5]" />
                   apply.presidency.international
-                </div>
+                </a>
               </div>
             </div>
 
@@ -326,39 +280,29 @@ export default function ContactInfoSection() {
             {/* RIGHT COLUMN */}
             <div className="flex flex-col gap-6">
               {/* ADMISSION OFFICE */}
-              <div
-                className="
-                  rounded-2xl
-                  border border-gray-200
-                  bg-white
-                  px-8 py-7
-                  shadow-md
-                "
-              >
-                <H3 className="text-[#183153]">
-                  Admissions Office
-                </H3>
+              <div className="rounded-2xl border border-gray-200 bg-white px-8 py-7 shadow-md">
+                <H3 className="text-[#183153]">Admissions Office</H3>
 
                 <div className="mt-6 space-y-5">
-                  <div className="flex items-center gap-3 text-sm text-gray-600">
+                  <a href="tel:+919022092222" className="flex items-center gap-3 text-sm text-gray-600 hover:text-[#F58233] transition">
                     <Phone size={16} className="text-[#F58233]" />
                     +91 9022092222
-                  </div>
+                  </a>
 
-                  <div className="flex items-center gap-3 text-sm text-gray-600">
+                  <a href="tel:+919024060000" className="flex items-center gap-3 text-sm text-gray-600 hover:text-[#F58233] transition">
                     <Phone size={16} className="text-[#F58233]" />
                     +91 9024060000
-                  </div>
+                  </a>
 
-                  <div className="flex items-center gap-3 text-sm text-gray-600">
+                  <a href="mailto:admission@presidency.international" className="flex items-center gap-3 text-sm text-gray-600 hover:text-[#F58233] transition">
                     <Mail size={16} className="text-[#F58233]" />
                     admission@presidency.international
-                  </div>
+                  </a>
 
-                  <div className="flex items-center gap-3 text-sm text-gray-600">
+                  <a href="https://apply.presidency.international" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-sm text-gray-600 hover:text-[#F58233] transition">
                     <Globe size={16} className="text-[#F58233]" />
                     apply.presidency.international
-                  </div>
+                  </a>
                 </div>
               </div>
 

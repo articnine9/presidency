@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowRight, Phone, GraduationCap } from "lucide-react";
 type SchoolHeroProps = {
@@ -60,20 +61,7 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
         />
 
         {/* CONTENT */}
-        <div
-          className="
-      relative z-10
-      mx-auto
-      flex
-      h-full
-      min-h-[720px]
-      max-w-[1400px]
-      flex-col
-      justify-center
-      px-6
-      md:px-10
-    "
-        >
+        <div className="relative z-10 mx-auto flex h-full min-h-[720px] max-w-[1400px] flex-col justify-center px-6 py-20 md:px-10 md:py-0">
           {/* LEFT CONTENT */}
           <div className="max-w-[750px]">
             {/* TITLE */}
@@ -81,25 +69,11 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7 }}
-              className="
-          text-5xl
-          md:text-7xl
-          leading-tight
-          font-semibold
-          text-white
-        "
+              className="text-4xl md:text-5xl lg:text-7xl leading-tight font-semibold text-white"
             >
               {data.title.normal}
-
               <br />
-
-              <span
-                className="
-            italic
-            font-light
-            text-[#00B8C4]
-          "
-              >
+              <span className="italic font-light text-[#00B8C4]">
                 {data.title.italic}
               </span>
             </motion.h1>
@@ -109,13 +83,7 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1 }}
-              className="
-          mt-6
-          max-w-[560px]
-          text-base
-          leading-7
-          text-white/80
-        "
+              className="mt-4 md:mt-6 max-w-[560px] text-sm md:text-base leading-7 text-white/80"
             >
               {data.description}
             </motion.p>
@@ -125,25 +93,11 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
-              className="
-          mt-10
-          flex
-          flex-wrap
-          gap-4
-        "
+              className="mt-6 md:mt-10 flex flex-wrap gap-3 md:gap-4"
             >
-              {/* BUTTON 1 */}
-              {/* BUTTONS */}
-              <motion.div
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.2 }}
-                className="
-    mt-10
-    flex
-    flex-wrap
-    gap-4
-  "
+              <Link
+                href="/schools/ug"
+                className="inline-flex items-center gap-2 rounded-md bg-[#00A8B5] px-5 py-2.5 md:px-6 md:py-3 text-sm font-medium text-white transition hover:bg-[#0095A1]"
               >
                 {/* BUTTON 1 */}
                 <button
@@ -220,46 +174,17 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
-              className="
-          mt-16
-          grid
-          gap-5
-          md:grid-cols-4
-        "
+              className="mt-8 md:mt-16 grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-5"
             >
               {data.stats.map((stat, index) => (
                 <div
                   key={index}
-                  className="
-              rounded-2xl
-              border border-white/15
-              bg-white/10
-              px-8
-              py-8
-              text-center
-              backdrop-blur-md
-              shadow-xl
-            "
+                  className="rounded-2xl border border-white/15 bg-white/10 px-4 py-4 md:px-8 md:py-8 text-center backdrop-blur-md shadow-xl"
                 >
-                  {/* VALUE */}
-                  <h3
-                    className="
-                text-4xl
-                font-semibold
-                text-[#D4A843]
-              "
-                  >
+                  <h3 className="text-2xl md:text-4xl font-semibold text-[#D4A843]">
                     {stat.value}
                   </h3>
-
-                  {/* LABEL */}
-                  <p
-                    className="
-                mt-3
-                text-sm
-                text-white/80
-              "
-                  >
+                  <p className="mt-2 md:mt-3 text-xs md:text-sm text-white/80">
                     {stat.label}
                   </p>
                 </div>

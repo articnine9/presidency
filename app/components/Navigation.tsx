@@ -164,7 +164,7 @@ export function Navigation() {
       phd: [
         {
           label: "Ph.D. Research Programme",
-          href: "/schools/computer-science#phd-research",
+          href: "/schools/computer-science/phd-research",
         },
       ],
       diploma: [
@@ -505,36 +505,36 @@ export function Navigation() {
         {
           label:
             "M.Sc. Psychology (Child / Clinical / Counselling / Industrial Psychology)",
-          href: "/schools/liberal-arts-science/msc-psychology-child-clinical-counselling-industrial-psychology",
+          href: "/schools/liberal-arts/msc-psychology-child-clinical-counselling-industrial-psychology",
         },
         {
           label:
             "M.A. English (Digital Humanities / Cultural Studies / Creative Writing / Educational Leadership)",
-          href: "/schools/liberal-arts-science/ma-english-digital-humanities-cultural-Studies-creative-writing-educational-leadership",
+          href: "/schools/liberal-arts/ma-english-digital-humanities-cultural-Studies-creative-writing-educational-leadership",
         },
       ],
       phd: [
         {
           label: "Ph.D. Research Programme",
-          href: "/schools/liberal-arts-science#phd-research",
+          href: "/schools/liberal-arts/liberal-arts#phd-research",
         },
       ],
       diploma: [
         {
           label: "Diploma in Bharatanatyam",
-          href: "/schools/liberal-arts-science/diploma-bharatanatyam",
+          href: "/schools/liberal-arts/diploma-bharatanatyam",
         },
         {
           label: "Diploma in Kathak",
-          href: "/schools/liberal-arts-science/diploma-kathak",
+          href: "/schools/liberal-arts/diploma-kathak",
         },
         {
           label: "Diploma in Kuchipudi",
-          href: "/schools/liberal-arts-science/diploma-kuchipudi",
+          href: "/schools/liberal-arts/diploma-kuchipudi",
         },
         {
           label: "Diploma in Mohiniyattam",
-          href: "/schools/liberal-arts-science/diploma-mohiniyattam",
+          href: "/schools/liberal-arts/diploma-mohiniyattam",
         },
       ],
     },
@@ -591,7 +591,7 @@ export function Navigation() {
         },
         {
           label: "Media rankings",
-          href: "/media-rankings",
+          href: "/Media-Rankings",
         },
       ],
     },
@@ -1065,8 +1065,56 @@ export function Navigation() {
                     </div>
                   )}
 
-                  {/* MOBILE MEGA */}
-                  {item.hasMegaMenu && mobileOpenItem === item.label && (
+                  {/* MOBILE MEGA — Programmes (customMega) */}
+                  {item.hasMegaMenu && (item as any).customMega && mobileOpenItem === item.label && (
+                    <div className="pl-4 pb-2">
+                      {/* Quick Links */}
+                      <div className="space-y-1 border-b border-gray-100 pb-3">
+                        {((item as any).quickLinks as { label: string; href: string }[] | undefined)?.map((ql, qi) => (
+                          <Link
+                            key={qi}
+                            href={ql.href}
+                            className="flex items-center gap-2 py-1.5 text-sm font-medium text-[#0A8F96]"
+                            onClick={closeMobileMenu}
+                          >
+                            <ArrowRight size={12} className="shrink-0" />
+                            {ql.label}
+                          </Link>
+                        ))}
+                      </div>
+                      {/* Browse by School */}
+                      <p className="mt-3 mb-1 text-[10px] font-bold uppercase tracking-widest text-gray-400">
+                        Browse by School
+                      </p>
+                      {(Object.keys(programmesData) as string[]).map((school, si) => {
+                        const schoolHrefMap: Record<string, string> = {
+                          "Computer Science and Engineering": "/schools/computer-science",
+                          " Engineering": "/schools/engineering",
+                          "Information Science": "/schools/information-science",
+                          "Management": "/schools/management",
+                          "Commerce": "/schools/commerce",
+                          "Law": "/schools/law",
+                          "Design": "/schools/design",
+                          "Media Studies": "/schools/media",
+                          "Liberal Arts and Sciences": "/schools/liberal-arts-science",
+                          "Health Sciences": "/schools/health",
+                        };
+                        return (
+                          <Link
+                            key={si}
+                            href={schoolHrefMap[school] || "/schools"}
+                            className="block py-1.5 text-sm text-gray-700 hover:text-[#0A8F96] transition"
+                            onClick={closeMobileMenu}
+                          >
+                            › {school.trim()}
+                          </Link>
+                        );
+                      })}
+                    </div>
+                  )}
+
+                  {/* MOBILE MEGA — Schools (regular megaMenu) */}
+                  {item.hasMegaMenu && !(item as any).customMega && mobileOpenItem === item.label && (
                     <div className="pl-4 space-y-3">
                       {item.megaMenu?.map((section: any, idx: number) => (
                         <div key={idx}>
