@@ -90,8 +90,10 @@ export default function HowToApplyHero({
             px-4
             py-24
             sm:px-6
-            md:px-10
-            md:py-28
+            sm:py-10
+
+            md:min-h-0
+            md:py-14
           "
         >
           <div className="max-w-3xl text-white">

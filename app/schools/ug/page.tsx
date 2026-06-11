@@ -116,7 +116,7 @@ export default function UGProgrammesPage() {
                 href="/international/apply"
                 className="flex h-[52px] w-full items-center justify-center gap-2 rounded-xl bg-[#0097A7] text-sm font-medium text-white transition-all duration-300 hover:bg-[#00b7c9] md:inline-flex md:w-auto md:rounded-md md:px-6"
               >
-                HOW TO APPLY <ArrowRight size={16} />
+                How To Apply <ArrowRight size={16} />
               </Link>
             </motion.div>
           </div>
@@ -269,7 +269,7 @@ export default function UGProgrammesPage() {
             <span className="block text-[#0A8F96] italic">Undergraduate Journey?</span>
           </h2>
           <p className="text-white/70 text-base mb-8 max-w-xl mx-auto">
-            Apply now or talk to our admissions team to find the right programme for you.
+            Apply Now or talk to our admissions team to find the right programme for you.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

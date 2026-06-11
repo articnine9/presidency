@@ -291,7 +291,7 @@ export default function ShortCoursesSection({ data }: any) {
                 text-white/80
               "
             >
-              Apply now and take the first step toward studying at Presidency
+              Apply Now and take the first step toward studying at Presidency
               University. Our admissions team is here to support you at every
               stage.
             </p>
@@ -378,7 +378,7 @@ export default function ShortCoursesSection({ data }: any) {
                 hover:bg-[#0c7f85]
               "
             >
-              APPLY NOW
+              Apply Now
               <ArrowRight className="h-4 w-4" />
             </a>
           </div>
@@ -633,7 +633,7 @@ export default function ShortCoursesSection({ data }: any) {
               hover:bg-[#0c7f85]
             "
           >
-            APPLY NOW
+            Apply Now
             <ArrowRight
               className="
                 h-5

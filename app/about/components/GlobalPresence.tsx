@@ -128,7 +128,7 @@ export default function GlobalPresence() {
                   hover:bg-[#08787e]
                 "
               >
-                APPLY NOW
+                Apply Now
                 <ArrowRight size={18} />
               </Link>
 
@@ -248,7 +248,7 @@ export default function GlobalPresence() {
               href="/international/apply"
               className="inline-flex items-center gap-2 rounded-md bg-[#0A8F96] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#08787e]"
             >
-              APPLY NOW →
+              Apply Now →
             </Link>
           </motion.div>
         </div>

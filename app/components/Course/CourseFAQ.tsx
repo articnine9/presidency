@@ -178,7 +178,7 @@ export default function CourseFAQ({ data }: any) {
               md:mt-0
             "
           >
-            APPLY NOW
+            Apply Now
             <ArrowRight size={16} />
           </button>
         </div>

@@ -64,7 +64,7 @@ export default function CourseCTA() {
             className="bg-teal-500 hover:bg-teal-600 text-white px-6 py-3 rounded-lg font-semibold transition flex items-center gap-2"
           >
             <Globe size={18} />
-            APPLY NOW
+            Apply Now
           </a>
         </div>
       </div>

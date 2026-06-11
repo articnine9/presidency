@@ -5,8 +5,8 @@
       "italic": "as an International Student"
     },
     "description": "Start your journey to study in India with a simple and guided application process. Our International Admissions Team supports you from enquiry to enrolment, ensuring a smooth and stress-free experience.",
-    "breadcrumb": ["Home", "Admissions", "How to Apply"],
-    "image": "/img/international-students-bg.jpeg",
+    "breadcrumb": ["Home", "Admissions", "How To Apply"],
+    "image": "/img/how-to-apply-hero.jpg",
     "buttons": [
       {
         "label": "Apply Now",
@@ -273,7 +273,7 @@
   },
   "ctaSection": {
     "title": "Ready to Start Your Journey?",
-    "description": "Apply now and take the first step toward studying at Presidency University. Our admissions team is here to support you at every stage.",
+    "description": "Apply Now and take the first step toward studying at Presidency University. Our admissions team is here to support you at every stage.",
     "email": "admissions@presidency.international",
     "phone": "+91 9022092222",
     "applyUrl": "https://apply.presidencyuniversity.in"

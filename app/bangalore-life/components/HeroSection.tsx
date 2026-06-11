@@ -99,26 +99,72 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
                 href="/schools/ug"
                 className="inline-flex items-center gap-2 rounded-md bg-[#00A8B5] px-5 py-2.5 md:px-6 md:py-3 text-sm font-medium text-white transition hover:bg-[#0095A1]"
               >
-                <GraduationCap size={16} />
-                EXPLORE PROGRAMMES
-                <ArrowRight size={16} />
-              </Link>
+                {/* BUTTON 1 */}
+                <button
+                  className="
+      inline-flex
+      items-center
+      gap-2
+      rounded-md
+      bg-[#00A8B5]
+      px-6
+      py-3
+      text-sm
+      font-medium
+      text-white
+      transition
+      hover:bg-[#0095A1]
+    "
+                >
+                  <GraduationCap size={16} />
+                  Explore Programmes
+                  <ArrowRight size={16} />
+                </button>
 
-              <Link
-                href="/contact"
-                className="inline-flex items-center gap-2 rounded-md border border-white bg-white/5 px-5 py-2.5 md:px-6 md:py-3 text-sm font-medium text-white backdrop-blur-sm transition hover:bg-white/10"
-              >
-                <Phone size={16} />
-                CONTACT THE OIA
-              </Link>
+                {/* BUTTON 2 */}
+                <button
+                  className="
+      inline-flex
+      items-center
+      gap-2
+      rounded-md
+      border border-white
+      bg-white/5
+      px-6
+      py-3
+      text-sm
+      font-medium
+      text-white
+      backdrop-blur-sm
+      transition
+      hover:bg-white/10
+    "
+                >
+                  <Phone size={16} />
+                  Contact The Oia
+                </button>
 
-              <Link
-                href="/international/apply"
-                className="inline-flex items-center gap-2 rounded-md bg-white px-5 py-2.5 md:px-6 md:py-3 text-sm font-medium text-[#183153] transition hover:bg-gray-100"
-              >
-                HOW TO APPLY
-                <ArrowRight size={16} />
-              </Link>
+                {/* BUTTON 3 */}
+                <button
+                  className="
+      inline-flex
+      items-center
+      gap-2
+      rounded-md
+      bg-white
+      px-6
+      py-3
+      text-sm
+      font-medium
+      text-[#183153]
+      transition
+      hover:bg-gray-100
+    "
+                >
+                  How To Apply
+                  <ArrowRight size={16} />
+                </button>
+              </motion.div>
             </motion.div>
           </div>
 

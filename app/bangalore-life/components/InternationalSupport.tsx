@@ -59,7 +59,7 @@ export default function InternationalSupport({ data }: any) {
               href="/international/apply"
               className="inline-flex items-center gap-2 rounded-lg bg-[#0A8F96] px-6 py-3 md:px-7 text-sm font-medium text-white transition hover:bg-[#11B8C0]"
             >
-              APPLY NOW
+              Apply Now
               <ArrowRight size={16} />
             </Link>
           </div>

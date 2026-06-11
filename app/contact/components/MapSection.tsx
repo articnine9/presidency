@@ -300,7 +300,7 @@ export default function MapSection() {
                   hover:bg-[#EB8B36]
                 "
               >
-                SUBMIT MESSAGE
+                Submit Message
                 <Send size={15} />
               </button>
             </form>
@@ -356,7 +356,7 @@ export default function MapSection() {
                   transition hover:bg-[#E98E43]
                 "
               >
-                VIEW MAP
+                View Map
                 <MapPin size={14} />
               </a>
             </div>

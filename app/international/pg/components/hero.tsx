@@ -77,7 +77,7 @@ export default function CourseHero({ data, school }: any) {
               </button>
             </a>
             <button className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white/10 transition-all duration-300 hover:scale-105 flex items-center gap-2 text-lg backdrop-blur-sm">
-              How to Apply
+              How To Apply
             </button>
             <button className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white/10 transition-all duration-300 hover:scale-105 flex items-center gap-2 text-lg backdrop-blur-sm">
               Contact

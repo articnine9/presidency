@@ -231,7 +231,7 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
                   hover:bg-[#11B8C0]
                 "
               >
-                EXPLORE PROGRAMMES
+                Explore Programmes
                 <ArrowRight size={16} />
               </button>
 
@@ -254,7 +254,7 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
                   hover:bg-white/10
                 "
               >
-                CONTACT THE OIA
+                Contact The Oia
                 <Phone size={15} />
               </button>
 
@@ -275,7 +275,7 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
                   hover:bg-gray-100
                 "
               >
-                HOW TO APPLY
+                How To Apply
                 <Download size={15} />
               </button>
             </motion.div>

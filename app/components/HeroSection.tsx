@@ -154,7 +154,7 @@ export function HeroSection() {
                 transition-all
               "
             >
-              Contact the OIA
+              Contact The Oia
               <Play size={16} />
             </Link>
 
@@ -177,7 +177,7 @@ export function HeroSection() {
                 transition-all
               "
             >
-              How to Apply
+              How To Apply
               <ArrowRight size={18} />
             </Link>
           </motion.div>

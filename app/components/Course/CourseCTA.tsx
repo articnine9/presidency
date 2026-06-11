@@ -21,7 +21,7 @@ export default function CourseCTA() {
 
           {/* Button */}
           <Link href="/international/apply" className="bg-teal-500 hover:bg-teal-600 text-white px-6 py-3 rounded-lg font-semibold transition">
-            APPLY NOW →
+            Apply Now →
           </Link>
         </div>
       </div>

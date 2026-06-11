@@ -74,7 +74,7 @@ export default function CourseCTA() {
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 rounded-lg bg-teal-500 px-6 py-3.5 font-semibold text-white shadow-lg transition hover:bg-teal-600 sm:px-8 sm:py-4"
             >
-              APPLY NOW
+              Apply Now
               <ArrowRight size={18} />
             </motion.a>
 

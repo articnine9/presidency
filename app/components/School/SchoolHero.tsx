@@ -95,7 +95,7 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
             flex-col
             justify-end
             px-4
-            pb-8
+            pb-46
             pt-28
 
             md:h-full
@@ -171,7 +171,7 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
                   md:px-6
                 "
               >
-                HOW TO APPLY
+                How To Apply
                 <ArrowRight size={16} />
               </Link>
             </motion.div>

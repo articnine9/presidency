@@ -126,7 +126,7 @@ export default function PhDProgrammesPage() {
                 href="/international/apply"
                 className="flex h-[52px] w-full items-center justify-center gap-2 rounded-xl bg-[#0097A7] text-sm font-medium text-white transition-all duration-300 hover:bg-[#00b7c9] md:inline-flex md:w-auto md:rounded-md md:px-6"
               >
-                HOW TO APPLY <ArrowRight size={16} />
+                How To Apply <ArrowRight size={16} />
               </Link>
             </motion.div>
           </div>
@@ -217,7 +217,7 @@ export default function PhDProgrammesPage() {
           {activeSchool !== "all" && (
             <span> in <span className="text-[#1e3a5f]">{schools.find((s) => s.slug === activeSchool)?.label}</span></span>
           )}
-          {query && <span> matching "<span className="text-[#1e3a5f]">{query}</span>"</span>}
+          {query && <span> matching "<span className="text-[#1e3a5f] font-bold">{query}</span>"</span>}
         </p>
       </div>
 
