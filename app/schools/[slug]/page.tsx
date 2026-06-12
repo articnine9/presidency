@@ -33,6 +33,9 @@ export default async function SchoolPage({
 
   return (
     <main className="bg-white">
+
+
+      
       {/* 🔥 HERO */}
       {school.hero && <SchoolHero data={school.hero as any} />}
 
