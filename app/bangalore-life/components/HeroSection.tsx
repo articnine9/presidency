@@ -1,7 +1,9 @@
 "use client";
+
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { ArrowRight, Phone, GraduationCap } from "lucide-react";
+
 type SchoolHeroProps = {
   data: {
     title: {
@@ -21,7 +23,7 @@ type SchoolHeroProps = {
 export default function SchoolHero({ data }: SchoolHeroProps) {
   return (
     <>
-      {/* 🔹 BREADCRUMB */}
+      {/* BREADCRUMB */}
       {data.breadcrumb && (
         <div className="bg-[#f5f7fa] py-3">
           <div className="max-w-[1400px] mx-auto px-4 md:px-6 text-xs md:text-sm text-gray-600 flex flex-wrap">
@@ -37,7 +39,7 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
         </div>
       )}
 
-      {/* 🔥 HERO */}
+      {/* HERO */}
       <section className="relative min-h-[720px] w-full overflow-hidden">
         {/* BACKGROUND IMAGE */}
         <img
@@ -45,20 +47,12 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
             data.image ||
             "https://images.unsplash.com/photo-1506744038136-46273834b3fb"
           }
-          alt=""
+          alt="Hero Background"
           className="absolute inset-0 h-full w-full object-cover"
         />
 
-        {/* DARK OVERLAY */}
-        <div
-          className="
-      absolute inset-0
-      bg-gradient-to-r
-      from-black/75
-      via-black/45
-      to-black/20
-    "
-        />
+        {/* OVERLAY */}
+        <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/45 to-black/20" />
 
         {/* CONTENT */}
         <div className="relative z-10 mx-auto flex h-full min-h-[720px] max-w-[1400px] flex-col justify-center px-6 py-20 md:px-10 md:py-0">
@@ -95,76 +89,33 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
               transition={{ delay: 0.2 }}
               className="mt-6 md:mt-10 flex flex-wrap gap-3 md:gap-4"
             >
+              {/* BUTTON 1 */}
               <Link
                 href="/schools/ug"
-                className="inline-flex items-center gap-2 rounded-md bg-[#00A8B5] px-5 py-2.5 md:px-6 md:py-3 text-sm font-medium text-white transition hover:bg-[#0095A1]"
+                className="inline-flex items-center gap-2 rounded-md bg-[#00A8B5] px-6 py-3 text-sm font-medium text-white transition hover:bg-[#0095A1]"
               >
-                {/* BUTTON 1 */}
-                <button
-                  className="
-      inline-flex
-      items-center
-      gap-2
-      rounded-md
-      bg-[#00A8B5]
-      px-6
-      py-3
-      text-sm
-      font-medium
-      text-white
-      transition
-      hover:bg-[#0095A1]
-    "
-                >
-                  <GraduationCap size={16} />
-                  Explore Programmes
-                  <ArrowRight size={16} />
-                </button>
+                <GraduationCap size={16} />
+                Explore Programmes
+                <ArrowRight size={16} />
+              </Link>
 
-                {/* BUTTON 2 */}
-                <button
-                  className="
-      inline-flex
-      items-center
-      gap-2
-      rounded-md
-      border border-white
-      bg-white/5
-      px-6
-      py-3
-      text-sm
-      font-medium
-      text-white
-      backdrop-blur-sm
-      transition
-      hover:bg-white/10
-    "
-                >
-                  <Phone size={16} />
-                  Contact The Oia
-                </button>
+              {/* BUTTON 2 */}
+              <Link
+                href="/contact"
+                className="inline-flex items-center gap-2 rounded-md border border-white bg-white/5 px-6 py-3 text-sm font-medium text-white backdrop-blur-sm transition hover:bg-white/10"
+              >
+                <Phone size={16} />
+                Contact The OIA
+              </Link>
 
-                {/* BUTTON 3 */}
-                <button
-                  className="
-      inline-flex
-      items-center
-      gap-2
-      rounded-md
-      bg-white
-      px-6
-      py-3
-      text-sm
-      font-medium
-      text-[#183153]
-      transition
-      hover:bg-gray-100
-    "
-                >
-                  How To Apply
-                  <ArrowRight size={16} />
-                </button>
-              </motion.div>
+              {/* BUTTON 3 */}
+              <Link
+                href="/apply"
+                className="inline-flex items-center gap-2 rounded-md bg-white px-6 py-3 text-sm font-medium text-[#183153] transition hover:bg-gray-100"
+              >
+                How To Apply
+                <ArrowRight size={16} />
+              </Link>
             </motion.div>
           </div>
 
