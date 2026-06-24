@@ -4909,6 +4909,8 @@
           "duration": "4 Years.Full-Time",
           "type": "UG",
           "degree": "Bachelor of Technology",
+          "overviewtitle": "Designing the Communication Systems",
+          "highlight": "of Tomorrow",
           "hero": {
             "image": "/img/banner/soe.jpg",
             "title": {
@@ -5448,12 +5450,14 @@
           "duration": "4 Years.Full-Time",
           "type": "UG",
           "degree": "Bachelor of Technology",
+          "overviewtitle": "Engineering the Power Systems That",
+          "highlight": "Drive Modern Life",
           "hero": {
             "title": {
               "normal": "B.Tech Electrical & Electronics",
               "italic": " Engineering"
             },
-            "description": "Power the world’s critical infrastructure. This four-year programme covers electrical machines, power systems, control engineering, and electronics — preparing you for careers in energy generation, distribution, automation, and the growing electric vehicle sector.",
+            "description": "Power the world’s critical infrastructure. This four-year programme covers electrical machines, power systems, control engineering, and electronics — preparing you for careers in energy generation, distribution, automation, and the growing electric vehicle sector.",
             "breadcrumb": [
               "Home",
               "Schools",
@@ -5987,13 +5991,15 @@
           "duration": "4 Years.Full-Time",
           "type": "UG",
           "degree": "Bachelor of Technology",
+          "overviewtitle": "Designing the Silicon That ",
+          "highlight": "Drives Innovation",
           "hero": {
             "image": "/img/banner/soe.jpg",
             "title": {
-              "normal": " B.Tech VLSI ",
-              "italic": " Engineering"
+              "normal": "B.Tech VLSI",
+              "italic": "Engineering"
             },
-            "description": " Design the chips powering tomorrow’s technology. This specialised four-year programme focuses on integrated circuit design, semiconductor physics, FPGA prototyping, and electronic system verification — preparing you for careers at the heart of the global semiconductor industry. ",
+            "description": "Design the chips powering tomorrow’s technology. This specialised four-year programme focuses on integrated circuit design, semiconductor physics, FPGA prototyping, and electronic system verification — preparing you for careers at the heart of the global semiconductor industry.",
             "breadcrumb": [
               "Home",
               "Schools",
@@ -6521,18 +6527,20 @@
           "duration": "4 Years.Full-Time",
           "type": "UG",
           "degree": "Bachelor of Technology",
+          "overviewtitle": "Building Infrastructure for a",
+          "highlight": "Growing World",
           "hero": {
             "image": "/img/banner/soe.jpg",
             "title": {
-              "normal": "  B.Tech Civil  ",
-              "italic": " Engineering"
+              "normal": "B.Tech Civil",
+              "italic": "Engineering"
             },
-            "description": " Shape the built environment. This four-year programme covers structural design, geotechnical engineering, transportation systems, and sustainable construction — preparing you to plan and build the infrastructure that connects communities and drives economic development.  ",
+            "description": "Shape the built environment. This four-year programme covers structural design, geotechnical engineering, transportation systems, and sustainable construction — preparing you to plan and build the infrastructure that connects communities and drives economic development.",
             "breadcrumb": [
               "Home",
               "Schools",
               "Engineering",
-              " B.Tech Civil  "
+              " B.Tech Civil"
             ],
             "stats": [
               {
@@ -6555,8 +6563,8 @@
             "school": "  Engineering   "
           },
           "overview": [
-            " The B.Tech in Civil Engineering provides comprehensive training in the planning, design, construction, and maintenance of physical infrastructure. The programme covers structural engineering, geotechnical engineering, transportation engineering, water resources, environmental engineering, and construction management. Students develop proficiency in mathematics, applied sciences, and engineering technology to analyse and design structures, systems, and processes that serve society. The curriculum combines classroom instruction with laboratory practice, site visits, and design projects that simulate professional civil engineering challenges.  ",
-            " India’s massive infrastructure investment programme — spanning highways, railways, smart cities, metro systems, airports, and urban development — creates sustained demand for qualified civil engineers. International students gain exposure to large-scale construction practices, emerging sustainable building technologies, and project management methodologies. The programme prepares graduates for careers with construction firms, consulting practices, government agencies, infrastructure developers, and international engineering organisations.  "
+            "The B.Tech in Civil Engineering provides comprehensive training in the planning, design, construction, and maintenance of physical infrastructure. The programme covers structural engineering, geotechnical engineering, transportation engineering, water resources, environmental engineering, and construction management. Students develop proficiency in mathematics, applied sciences, and engineering technology to analyse and design structures, systems, and processes that serve society. The curriculum combines classroom instruction with laboratory practice, site visits, and design projects that simulate professional civil engineering challenges.",
+            "India’s massive infrastructure investment programme — spanning highways, railways, smart cities, metro systems, airports, and urban development — creates sustained demand for qualified civil engineers. International students gain exposure to large-scale construction practices, emerging sustainable building technologies, and project management methodologies. The programme prepares graduates for careers with construction firms, consulting practices, government agencies, infrastructure developers, and international engineering organisations."
           ],
           "image": "/img/programme/eng/eng2.jpg",
           "images": [
@@ -6575,16 +6583,44 @@
                 "semester": "Semester 1",
                 "modules": [
                   {
-                    "name": "Mathematics I",
-                    "code": "MAT101"
+                    "name": "English for Technical Communication",
+                    "code": "ENG1900"
                   },
                   {
-                    "name": "Programming in C",
-                    "code": "CSE101"
+                    "name": "Calculus and Differential Equations",
+                    "code": "MAT2301"
                   },
                   {
-                    "name": "Physics",
-                    "code": "PHY101"
+                    "name": "Materials Chemistry for Engineers",
+                    "code": "CHE2505"
+                  },
+                  {
+                    "name": "Basics of Electrical and Electronics Engineering",
+                    "code": "EEE1200"
+                  },
+                  {
+                    "name": "Foundations of Integrated Engineering",
+                    "code": "CIV1200"
+                  },
+                  {
+                    "name": "Elements of Engineering Mechanics",
+                    "code": "CIV1501"
+                  },
+                  {
+                    "name": "Materials Chemistry Lab",
+                    "code": "CHE2506"
+                  },
+                  {
+                    "name": "Basics of Electrical and Electronics Engineering Lab",
+                    "code": "EEE1250"
+                  },
+                  {
+                    "name": "Indian Constitution",
+                    "code": "LAW7601"
+                  },
+                  {
+                    "name": "Industry Readiness Program – I",
+                    "code": "PPS1025"
                   }
                 ]
               },
@@ -6592,16 +6628,274 @@
                 "semester": "Semester 2",
                 "modules": [
                   {
-                    "name": "Data Structures",
-                    "code": "CSE201"
+                    "name": "Advanced English",
+                    "code": "ENG2501"
                   },
                   {
-                    "name": "Discrete Mathematics",
-                    "code": "MAT201"
+                    "name": "Introduction to Design Thinking",
+                    "code": "DES1146"
                   },
                   {
-                    "name": "Digital Logic",
-                    "code": "CSE202"
+                    "name": "Transform Techniques, PDEs, and Complex Variables",
+                    "code": "MAT2302"
+                  },
+                  {
+                    "name": "Fundamentals of Materials Physics",
+                    "code": "PHY2503"
+                  },
+                  {
+                    "name": "Engineering Graphics",
+                    "code": "MEC1006"
+                  },
+                  {
+                    "name": "Building Materials and Concrete Technology",
+                    "code": "CIV2100"
+                  },
+                  {
+                    "name": "Fundamentals of Materials Physics Lab",
+                    "code": "PHY2506"
+                  },
+                  {
+                    "name": "Design Workshop",
+                    "code": "ECE1511"
+                  },
+                  {
+                    "name": "Environmental Studies",
+                    "code": "CHE7601"
+                  },
+                  {
+                    "name": "Industry Readiness Program – II",
+                    "code": "PPS1026"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Essentials of Finance",
+                    "code": "FIN1002"
+                  },
+                  {
+                    "name": "Linear Algebra and Vector Calculus",
+                    "code": "MAT2303"
+                  },
+                  {
+                    "name": "Strength of Materials",
+                    "code": "CIV2500"
+                  },
+                  {
+                    "name": "Transportation Engineering",
+                    "code": "CIV2501"
+                  },
+                  {
+                    "name": "Fluid Mechanics",
+                    "code": "CIV2503"
+                  },
+                  {
+                    "name": "Surveying",
+                    "code": "CIV2101"
+                  },
+                  {
+                    "name": "Surveying Lab",
+                    "code": "CIV2102"
+                  },
+                  {
+                    "name": "Engineering Geology Lab",
+                    "code": "CIV1201"
+                  },
+                  {
+                    "name": "Introduction to Aptitude",
+                    "code": "APT4002"
+                  },
+                  {
+                    "name": "Universal Human Values and Ethics",
+                    "code": "CIV7601"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "Numerical Methods, Probability, and Sampling",
+                    "code": "MAT2304"
+                  },
+                  {
+                    "name": "Computational Thinking and AI Programming",
+                    "code": "CSE2282"
+                  },
+                  {
+                    "name": "Analysis of Determinate Structures",
+                    "code": "CIV2506"
+                  },
+                  {
+                    "name": "Geotechnical Engineering",
+                    "code": "CIV2512"
+                  },
+                  {
+                    "name": "Hydrology and Irrigation Systems",
+                    "code": "CIV2505"
+                  },
+                  {
+                    "name": "Water Infrastructure Systems",
+                    "code": "CIV2515"
+                  },
+                  {
+                    "name": "Computational Thinking and AI Programming Lab",
+                    "code": "CSE2283"
+                  },
+                  {
+                    "name": "Construction Materials Testing Lab",
+                    "code": "CIV2511"
+                  },
+                  {
+                    "name": "Fluid Mechanics Lab",
+                    "code": "CIV2504"
+                  },
+                  {
+                    "name": "Aptitude Training – Intermediate",
+                    "code": "APT4004"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 5",
+                "modules": [
+                  {
+                    "name": "Analysis of Indeterminate Structures",
+                    "code": "CIV2507"
+                  },
+                  {
+                    "name": "Design of RCC Structural Elements",
+                    "code": "CIV2508"
+                  },
+                  {
+                    "name": "Foundation Engineering",
+                    "code": "CIV2514"
+                  },
+                  {
+                    "name": "Waste Water Treatment and Disposal Systems",
+                    "code": "CIV2516"
+                  },
+                  {
+                    "name": "Professional Elective – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Professional Elective – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Geotechnical Engineering Lab",
+                    "code": "CIV2513"
+                  },
+                  {
+                    "name": "Building Planning and Drawing",
+                    "code": "CIV2103"
+                  },
+                  {
+                    "name": "Logical and Critical Thinking",
+                    "code": "APT4006"
+                  },
+                  {
+                    "name": "Minor Project (Extensive Survey Project)",
+                    "code": "CIV7100"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 6",
+                "modules": [
+                  {
+                    "name": "Design of Structural Steel Elements",
+                    "code": "CIV2510"
+                  },
+                  {
+                    "name": "Quantity Surveying, Cost Estimation, and Valuation",
+                    "code": "CIV2518"
+                  },
+                  {
+                    "name": "Analysis and Design of Pre-Stressed Concrete",
+                    "code": "CIV2509"
+                  },
+                  {
+                    "name": "Professional Elective – III",
+                    "code": ""
+                  },
+                  {
+                    "name": "Professional Elective – IV",
+                    "code": ""
+                  },
+                  {
+                    "name": "Open Elective – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Environmental Engineering Lab",
+                    "code": "CIV2517"
+                  },
+                  {
+                    "name": "Infrastructure Materials Testing Lab",
+                    "code": "CIV2502"
+                  },
+                  {
+                    "name": "Building Information Modelling Lab",
+                    "code": "CIV2521"
+                  },
+                  {
+                    "name": "Aptitude for Employability",
+                    "code": "APT4005"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 7",
+                "modules": [
+                  {
+                    "name": "Design of Irrigation Water Resources Systems",
+                    "code": "CIV2523"
+                  },
+                  {
+                    "name": "Construction Project Management",
+                    "code": "CIV2519"
+                  },
+                  {
+                    "name": "Professional Elective – V",
+                    "code": ""
+                  },
+                  {
+                    "name": "Professional Elective – VI",
+                    "code": ""
+                  },
+                  {
+                    "name": "Open Elective – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Construction Project Management Lab",
+                    "code": "CIV2520"
+                  },
+                  {
+                    "name": "Computer Aided Analysis and Detailing Lab",
+                    "code": "CIV2522"
+                  },
+                  {
+                    "name": "Preparedness for Interview",
+                    "code": "PPS3018"
+                  },
+                  {
+                    "name": "Internship",
+                    "code": "CIV7000"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 8",
+                "modules": [
+                  {
+                    "name": "Capstone Project",
+                    "code": "CIV7300"
                   }
                 ]
               }
@@ -6706,39 +7000,39 @@
           ],
           "careers": [
             {
-              "category": "Core Engineering & Design",
+              "category": "Structural & Construction",
               "roles": [
-                "Design Engineer at Siemens, Bosch, Honeywell",
-                "R&D Engineer at ISRO, DRDO, HAL",
-                "Structural Engineer at L&T, Shapoorji Pallonji",
-                "Electrical Systems Engineer at ABB, Schneider Electric"
+                "Structural Engineer",
+                "Construction Manager",
+                "Site Engineer",
+                "Project Manager",
+                "Quantity Surveyor"
               ]
             },
             {
-              "category": "Project Management & Consulting",
+              "category": "Transportation & Urban",
               "roles": [
-                "Project Manager at Larsen & Toubro, Tata Projects",
-                "Construction Manager at Gammon India, DLF",
-                "Operations Manager at NTPC, BHEL, ONGC",
-                "Technical Consultant at McKinsey, Bain"
+                "Transportation Engineer",
+                "Urban Planner",
+                "Highway Design Engineer",
+                "Traffic Systems Engineer"
               ]
             },
             {
-              "category": "Manufacturing & Quality",
+              "category": "Geotechnical & Environmental",
               "roles": [
-                "Quality Assurance Engineer at Maruti Suzuki, Bajaj",
-                "Production Engineer at TVS Motors, Hero MotoCorp",
-                "Process Engineer at Reliance Industries, IOCL",
-                "Automation Engineer at Rockwell, Mitsubishi Electric"
+                "Geotechnical Engineer",
+                "Environmental Engineer",
+                "Water Resources Engineer",
+                "Foundation Design Specialist"
               ]
             },
             {
-              "category": "Government & Public Sector",
+              "category": "Consulting & Public Sector",
               "roles": [
-                "GATE-qualified roles at PSUs like ONGC, IOCL, NTPC",
-                "IES (Indian Engineering Services) officer",
-                "Defense Research at DRDO, ADE, DRDL",
-                "Civil Services with engineering background"
+                "Civil Engineering Consultant",
+                "Government Infrastructure Planner",
+                "Smart City Project Engineer"
               ]
             }
           ],
@@ -6780,13 +7074,15 @@
           "duration": "4 Years.Full-Time",
           "type": "UG",
           "degree": "Bachelor of Technology",
+          "overviewtitle": "Engineering Solutions Across",
+          "highlight": "Every Industry",
           "hero": {
             "image": "/img/banner/soe.jpg",
             "title": {
-              "normal": "  B.Tech Mechanical  ",
-              "italic": " Engineering"
+              "normal": "B.Tech Mechanical",
+              "italic": "Engineering"
             },
-            "description": " Engineer the machines and systems that drive industry. This four-year programme covers thermodynamics, fluid mechanics, machine design, manufacturing, and automation — preparing you for careers across automotive, aerospace, energy, robotics, and advanced manufacturing sectors.",
+            "description": "Engineer the machines and systems that drive industry. This four-year programme covers thermodynamics, fluid mechanics, machine design, manufacturing, and automation — preparing you for careers across automotive, aerospace, energy, robotics, and advanced manufacturing sectors.",
             "breadcrumb": [
               "Home",
               "Schools",
@@ -6814,8 +7110,8 @@
             "school": "  Engineering   "
           },
           "overview": [
-            "  The B.Tech in Mechanical Engineering delivers a comprehensive foundation across the core domains of mechanical science — thermodynamics, fluid mechanics, machine design, manufacturing processes, materials science, and mechatronics. The curriculum blends fundamental theory with hands-on experience in product design, prototyping, computer-aided engineering, and industrial automation. Students develop the analytical, computational, and design skills needed to conceive, develop, and manufacture mechanical systems ranging from precision components to large-scale industrial machinery.   ",
-            "Bengaluru’s diverse industrial landscape — spanning automotive manufacturing, aerospace, heavy engineering, robotics, and clean energy — provides students with direct access to internship and employment opportunities across multiple sectors. The programme includes laboratory work with CNC machines, 3D printers, CAD/CAM software, and simulation tools, along with industrial visits that connect classroom concepts to professional engineering practice. Graduates emerge as versatile engineers capable of contributing to manufacturing, product development, energy systems, and emerging technology domains worldwide.   "
+            "The B.Tech in Mechanical Engineering delivers a comprehensive foundation across the core domains of mechanical science — thermodynamics, fluid mechanics, machine design, manufacturing processes, materials science, and mechatronics. The curriculum blends fundamental theory with hands-on experience in product design, prototyping, computer-aided engineering, and industrial automation. Students develop the analytical, computational, and design skills needed to conceive, develop, and manufacture mechanical systems ranging from precision components to large-scale industrial machinery.",
+            "Bengaluru’s diverse industrial landscape — spanning automotive manufacturing, aerospace, heavy engineering, robotics, and clean energy — provides students with direct access to internship and employment opportunities across multiple sectors. The programme includes laboratory work with CNC machines, 3D printers, CAD/CAM software, and simulation tools, along with industrial visits that connect classroom concepts to professional engineering practice. Graduates emerge as versatile engineers capable of contributing to manufacturing, product development, energy systems, and emerging technology domains worldwide."
           ],
           "image": "/img/programme/eng/eng2.jpg",
           "images": [
@@ -6834,16 +7130,44 @@
                 "semester": "Semester 1",
                 "modules": [
                   {
-                    "name": "Mathematics I",
-                    "code": "MAT101"
+                    "name": "Calculus and Differential Equations",
+                    "code": "MAT2301"
                   },
                   {
-                    "name": "Programming in C",
-                    "code": "CSE101"
+                    "name": "Foundations of Integrated Engineering",
+                    "code": "CIV1200"
                   },
                   {
-                    "name": "Physics",
-                    "code": "PHY101"
+                    "name": "Workshop Practice",
+                    "code": "MEC1000"
+                  },
+                  {
+                    "name": "Material Chemistry for Engineers",
+                    "code": "CHE2505"
+                  },
+                  {
+                    "name": "Material Chemistry Lab",
+                    "code": "CHE2506"
+                  },
+                  {
+                    "name": "Basics of Electrical and Electronics Engineering",
+                    "code": "EEE1200"
+                  },
+                  {
+                    "name": "Basics of Electrical and Electronics Engineering Lab",
+                    "code": "EEE1250"
+                  },
+                  {
+                    "name": "English for Technical Communication",
+                    "code": "ENG1900"
+                  },
+                  {
+                    "name": "Industry Readiness Program – I",
+                    "code": "PPS1025"
+                  },
+                  {
+                    "name": "Indian Constitution",
+                    "code": "LAW7601"
                   }
                 ]
               },
@@ -6851,16 +7175,274 @@
                 "semester": "Semester 2",
                 "modules": [
                   {
-                    "name": "Data Structures",
-                    "code": "CSE201"
+                    "name": "Transform Techniques, Partial Differential Equations and Complex Variables",
+                    "code": "MAT2302"
                   },
                   {
-                    "name": "Discrete Mathematics",
-                    "code": "MAT201"
+                    "name": "Fundamentals of Materials Physics",
+                    "code": "PHY2503"
                   },
                   {
-                    "name": "Digital Logic",
-                    "code": "CSE202"
+                    "name": "Fundamentals of Materials Physics Lab",
+                    "code": "PHY2506"
+                  },
+                  {
+                    "name": "Engineering Mechanics",
+                    "code": "MEC2500"
+                  },
+                  {
+                    "name": "Engineering Graphics",
+                    "code": "MEC1006"
+                  },
+                  {
+                    "name": "Design Workshop",
+                    "code": "ECE1511"
+                  },
+                  {
+                    "name": "Advanced English",
+                    "code": "ENG2501"
+                  },
+                  {
+                    "name": "Introduction to Design Thinking",
+                    "code": "DES1146"
+                  },
+                  {
+                    "name": "Industry Readiness Program – II",
+                    "code": "PPS1026"
+                  },
+                  {
+                    "name": "Environmental Studies",
+                    "code": "CHE7601"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Linear Algebra and Vector Calculus",
+                    "code": "MAT2303"
+                  },
+                  {
+                    "name": "Basic Thermodynamics",
+                    "code": "MEC2501"
+                  },
+                  {
+                    "name": "Fluid Mechanics and Machinery",
+                    "code": "MEC2502"
+                  },
+                  {
+                    "name": "Fluid Mechanics and Machinery Lab",
+                    "code": "MEC2503"
+                  },
+                  {
+                    "name": "Production Technology",
+                    "code": "MEC2022"
+                  },
+                  {
+                    "name": "Foundry Forging and Welding Lab",
+                    "code": "MEC2023"
+                  },
+                  {
+                    "name": "Material Science and Metallurgy",
+                    "code": "MEC2020"
+                  },
+                  {
+                    "name": "Material Science and Material Testing Lab",
+                    "code": "MEC2021"
+                  },
+                  {
+                    "name": "Essentials of Finance",
+                    "code": "FIN1002"
+                  },
+                  {
+                    "name": "Universal Human Values and Ethics",
+                    "code": "CIV7601"
+                  },
+                  {
+                    "name": "Introduction to Aptitude",
+                    "code": "APT4002"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "Numerical Methods, Probability Distributions and Sampling Techniques",
+                    "code": "MAT2304"
+                  },
+                  {
+                    "name": "Production and Operations Management",
+                    "code": "MEC2033"
+                  },
+                  {
+                    "name": "Mechanics of Solids",
+                    "code": "MEC2505"
+                  },
+                  {
+                    "name": "Applied Thermodynamics",
+                    "code": "MEC2506"
+                  },
+                  {
+                    "name": "Metrology and Measurements",
+                    "code": "MEC2024"
+                  },
+                  {
+                    "name": "Metrology and Measurements Lab",
+                    "code": "MEC2025"
+                  },
+                  {
+                    "name": "Computational Thinking and AI Programming",
+                    "code": "CSE2282"
+                  },
+                  {
+                    "name": "Computational Thinking and AI Programming Lab",
+                    "code": "CSE2283"
+                  },
+                  {
+                    "name": "Computer Aided Engineering Drawing",
+                    "code": "MEC2507"
+                  },
+                  {
+                    "name": "Machine Shop Practice Lab",
+                    "code": "MEC2028"
+                  },
+                  {
+                    "name": "Aptitude Training – Intermediate",
+                    "code": "APT4004"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 5",
+                "modules": [
+                  {
+                    "name": "Design of Machine Elements – I",
+                    "code": "MEC2508"
+                  },
+                  {
+                    "name": "Theory of Machines",
+                    "code": "MEC2504"
+                  },
+                  {
+                    "name": "Heat and Mass Transfer",
+                    "code": "MEC2509"
+                  },
+                  {
+                    "name": "Heat and Mass Transfer Lab",
+                    "code": "MEC2510"
+                  },
+                  {
+                    "name": "Professional Elective – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Professional Elective – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Computer Aided Machine Drawing",
+                    "code": "MEC2511"
+                  },
+                  {
+                    "name": "Logical and Critical Thinking",
+                    "code": "APT4006"
+                  },
+                  {
+                    "name": "Minor Project",
+                    "code": "MEC7100"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 6",
+                "modules": [
+                  {
+                    "name": "Finite Element Analysis",
+                    "code": "MEC2512"
+                  },
+                  {
+                    "name": "Finite Element Analysis Lab",
+                    "code": "MEC2513"
+                  },
+                  {
+                    "name": "IC Engines and Fuels",
+                    "code": "MEC2516"
+                  },
+                  {
+                    "name": "Design of Machine Elements – II",
+                    "code": "MEC2514"
+                  },
+                  {
+                    "name": "Mechanisms, Machines and Design Lab",
+                    "code": "MEC2031"
+                  },
+                  {
+                    "name": "Energy Conversion Lab",
+                    "code": "MEC2032"
+                  },
+                  {
+                    "name": "Professional Elective – III",
+                    "code": ""
+                  },
+                  {
+                    "name": "Professional Elective – IV",
+                    "code": ""
+                  },
+                  {
+                    "name": "Aptitude for Employability",
+                    "code": "APT4005"
+                  },
+                  {
+                    "name": "Open Elective – I",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 7",
+                "modules": [
+                  {
+                    "name": "Mechatronics",
+                    "code": "MEC2026"
+                  },
+                  {
+                    "name": "Mechatronics Lab",
+                    "code": "MEC2027"
+                  },
+                  {
+                    "name": "Hydraulics and Pneumatics",
+                    "code": "MEC2029"
+                  },
+                  {
+                    "name": "Professional Elective – V",
+                    "code": ""
+                  },
+                  {
+                    "name": "Professional Elective – VI",
+                    "code": ""
+                  },
+                  {
+                    "name": "Open Elective – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Internship",
+                    "code": "MEC7000"
+                  },
+                  {
+                    "name": "Preparedness for Interview",
+                    "code": "PPS3018"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 8",
+                "modules": [
+                  {
+                    "name": "Capstone Project",
+                    "code": "MEC7300"
                   }
                 ]
               }
@@ -6930,61 +7512,69 @@
               "description": "Covers robotics, automation, thermal engineering, fluid mechanics, advanced manufacturing, materials science, and mechatronics. "
             },
             {
-              "title": "Advanced Manufacturing Labs Industry-Standard Software Training  ",
-              "description": "CNC machines, 3D printers, CAD/CAM workstations, and rapid prototyping facilities for hands-on manufacturing experience. Proficiency in SolidWorks, ANSYS, AutoCAD, and CATIA — tools used by professional mechanical engineers across all sectors.   "
+              "title": "Advanced Manufacturing Labs",
+              "description": "CNC machines, 3D printers, CAD/CAM workstations, and rapid prototyping facilities for hands-on manufacturing experience."
             },
             {
-              "title": "Mechatronics Specialisation ",
-              "description": "Elective pathway combining mechanical engineering with electronics, control systems, and automation for Industry 4.0 readiness.  "
+              "title": "Industry-Standard Software Training",
+              "description": "Proficiency in SolidWorks, ANSYS, AutoCAD, and CATIA — tools used by professional mechanical engineers across all sectors."
+            },
+            {
+              "title": "Mechatronics Specialisation",
+              "description": "Elective pathway combining mechanical engineering with electronics, control systems, and automation for Industry 4.0 readiness."
             },
             {
               "title": "Industrial Visits & Internships ",
-              "description": "Regular visits to manufacturing plants, automotive factories, and aerospace facilities alongside structured internship placements.   "
+              "description": "Regular visits to manufacturing plants, automotive factories, and aerospace facilities alongside structured internship placements."
             },
             {
               "title": "Interdisciplinary Project Work ",
-              "description": "Collaborative projects integrating mechanical design with electronics, computing, and materials science for real-world problem solving.  "
+              "description": "Collaborative projects integrating mechanical design with electronics, computing, and materials science for real-world problem solving."
             },
             {
-              "title": "International Exchange Programmes Cross-Sector Employment Demand   ",
-              "description": "Study-abroad partnerships and international internship placements for global academic and professional experience. Mechanical engineering graduates are recruited across automotive, aerospace, energy, manufacturing, robotics, and consulting sectors.  "
+              "title": "International Exchange Programmes Cross-Sector Employment Demand",
+              "description": "Study-abroad partnerships and international internship placements for global academic and professional experience."
+            },
+            {
+              "title": "Cross-Sector Employment Demand",
+              "description": "Mechanical engineering graduates are recruited across automotive, aerospace, energy, manufacturing, robotics, and consulting sectors."
             }
           ],
           "careers": [
             {
-              "category": "Core Engineering & Design",
+              "category": "Automotive & Aerospace",
               "roles": [
-                "Design Engineer at Siemens, Bosch, Honeywell",
-                "R&D Engineer at ISRO, DRDO, HAL",
-                "Structural Engineer at L&T, Shapoorji Pallonji",
-                "Electrical Systems Engineer at ABB, Schneider Electric"
+                "Automotive Design Engineer",
+                "Aerospace Engineer",
+                "Vehicle Dynamics Engineer",
+                "Propulsion Systems Engineer"
               ]
             },
             {
-              "category": "Project Management & Consulting",
+              "category": "Manufacturing & Production",
               "roles": [
-                "Project Manager at Larsen & Toubro, Tata Projects",
-                "Construction Manager at Gammon India, DLF",
-                "Operations Manager at NTPC, BHEL, ONGC",
-                "Technical Consultant at McKinsey, Bain"
+                "Manufacturing Engineer",
+                "Production Manager",
+                "Quality Control Engineer",
+                "Process Engineer"
               ]
             },
             {
-              "category": "Manufacturing & Quality",
+              "category": "Energy & Thermal",
               "roles": [
-                "Quality Assurance Engineer at Maruti Suzuki, Bajaj",
-                "Production Engineer at TVS Motors, Hero MotoCorp",
-                "Process Engineer at Reliance Industries, IOCL",
-                "Automation Engineer at Rockwell, Mitsubishi Electric"
+                "Thermal Engineer",
+                "HVAC Engineer",
+                "Renewable Energy Engineer",
+                "Power Plant Engineer"
               ]
             },
             {
-              "category": "Government & Public Sector",
+              "category": "Emerging Roles",
               "roles": [
-                "GATE-qualified roles at PSUs like ONGC, IOCL, NTPC",
-                "IES (Indian Engineering Services) officer",
-                "Defense Research at DRDO, ADE, DRDL",
-                "Civil Services with engineering background"
+                "Robotics Engineer",
+                "3D Printing Specialist",
+                "Mechatronics Engineer",
+                "Additive Manufacturing Specialist"
               ]
             }
           ],
@@ -7026,13 +7616,15 @@
           "duration": "4 Years.Full-Time",
           "type": "UG",
           "degree": "Bachelor of Technology",
+          "overviewtitle": "Mastering the Science of ",
+          "highlight": "Energy Resources",
           "hero": {
             "image": "/img/banner/soe.jpg",
             "title": {
-              "normal": "  B.Tech Petroleum  ",
-              "italic": " Engineering"
+              "normal": "B.Tech Petroleum",
+              "italic": "Engineering"
             },
-            "description": " Engineer the machines and systems that drive industry. This four-year programme covers thermodynamics, fluid mechanics, machine design, manufacturing, and automation — preparing you for careers across automotive, aerospace, energy, robotics, and advanced manufacturing sectors.",
+            "description": "Explore the science of energy extraction. This specialised four-year programme covers petroleum exploration, drilling operations, reservoir management, and refining technology — preparing you for careers in one of India’s most distinctive engineering disciplines, offered exclusively in Bengaluru by Presidency University.",
             "breadcrumb": [
               "Home",
               "Schools",
@@ -7060,8 +7652,8 @@
             "school": "  Engineering   "
           },
           "overview": [
-            "  The B.Tech in Petroleum Engineering is a specialised multidisciplinary programme encompassing both upstream and downstream sectors of the oil and gas industry. The curriculum covers petroleum exploration, drilling engineering, reservoir management, production operations, digital oil fields, pipeline systems, refining technology, and health and safety — providing comprehensive training across the full petroleum value chain. Students develop expertise in subsurface evaluation, well system design, drilling operations, fluid handling, and resource valuation using geoscientific and engineering methods.  ",
-            "Presidency University is one of very few institutions in Bengaluru offering a dedicated petroleum engineering programme, giving students access to a distinctive academic experience alongside the city’s technology and industrial ecosystem. The department maintains specialised laboratory facilities including drilling simulation equipment, fluid mechanics testing apparatus, and reservoir modelling tools. Industry connections with major oil and gas companies including Shell and Schlumberger facilitate internship placements and graduate recruitment. The programme also incorporates project economics and resource valuation, equipping graduates with the technical and commercial skills demanded by the global energy sector.  "
+            "The B.Tech in Petroleum Engineering is a specialised multidisciplinary programme encompassing both upstream and downstream sectors of the oil and gas industry. The curriculum covers petroleum exploration, drilling engineering, reservoir management, production operations, digital oil fields, pipeline systems, refining technology, and health and safety — providing comprehensive training across the full petroleum value chain. Students develop expertise in subsurface evaluation, well system design, drilling operations, fluid handling, and resource valuation using geoscientific and engineering methods.",
+            "Presidency University is one of very few institutions in Bengaluru offering a dedicated petroleum engineering programme, giving students access to a distinctive academic experience alongside the city’s technology and industrial ecosystem. The department maintains specialised laboratory facilities including drilling simulation equipment, fluid mechanics testing apparatus, and reservoir modelling tools. Industry connections with major oil and gas companies including Shell and Schlumberger facilitate internship placements and graduate recruitment. The programme also incorporates project economics and resource valuation, equipping graduates with the technical and commercial skills demanded by the global energy sector."
           ],
           "image": "/img/programme/eng/eng2.jpg",
           "images": [
@@ -7173,72 +7765,71 @@
           "highlights": [
             {
               "title": "Distinctive Programme Offering ",
-              "description": "One of very few petroleum engineering programmes available in Bengaluru — a unique specialisation within the School of Engineering.  "
+              "description": "One of very few petroleum engineering programmes available in Bengaluru — a unique specialisation within the School of Engineering."
             },
             {
-              "title": "Comprehensive Curriculum   ",
-              "description": "Covers drilling engineering, reservoir management, petroleum refining, pipeline systems, and sustainable energy solutions across eight semesters.   "
+              "title": "Comprehensive Curriculum",
+              "description": "Covers drilling engineering, reservoir management, petroleum refining, pipeline systems, and sustainable energy solutions across eight semesters."
             },
             {
               "title": "Specialised Laboratory Facilities  ",
-              "description": "Advanced simulation tools, drilling rig models, fluid mechanics testing equipment, and reservoir modelling platforms not commonly found at other institutions.  "
+              "description": "Advanced simulation tools, drilling rig models, fluid mechanics testing equipment, and reservoir modelling platforms not commonly found at other institutions."
             },
             {
               "title": "Industry Partnerships with Major Oil Companies ",
-              "description": "Connections with organisations including Shell, Schlumberger, ONGC, and IOC for internships, placements, and industry exposure.   "
+              "description": "Connections with organisations including Shell, Schlumberger, ONGC, and IOC for internships, placements, and industry exposure."
             },
             {
               "title": "HSE & Sustainability Training  ",
-              "description": "Dedicated coursework in Health, Safety & Environment standards and well control procedures aligned with global industry requirements.  "
+              "description": "Dedicated coursework in Health, Safety & Environment standards and well control procedures aligned with global industry requirements."
             },
             {
-              "title": "GATE-Aligned Curriculum  ",
-              "description": "Programme content aligned with GATE Petroleum Engineering syllabus, supporting students pursuing postgraduate education at premier institutions.   "
+              "title": "GATE-Aligned Curriculum ",
+              "description": "Programme content aligned with GATE Petroleum Engineering syllabus, supporting students pursuing postgraduate education at premier institutions."
             },
             {
-              "title": "Energy Transition Readiness  ",
-              "description": "Coverage of digital oil fields, enhanced recovery techniques, and sustainable energy practices positions graduates for an evolving energy landscape.  "
+              "title": "Energy Transition Readiness",
+              "description": "Coverage of digital oil fields, enhanced recovery techniques, and sustainable energy practices positions graduates for an evolving energy landscape."
             },
             {
-              "title": "International Career Mobility   ",
-              "description": "Petroleum engineering qualifications are valued globally, opening career pathways with international energy companies and service providers.    "
+              "title": "International Career Mobility",
+              "description": "Petroleum engineering qualifications are valued globally, opening career pathways with international energy companies and service providers."
             }
           ],
           "careers": [
             {
-              "category": "Core Engineering & Design",
+              "category": "Upstream Oil & Gas",
               "roles": [
-                "Design Engineer at Siemens, Bosch, Honeywell",
-                "R&D Engineer at ISRO, DRDO, HAL",
-                "Structural Engineer at L&T, Shapoorji Pallonji",
-                "Electrical Systems Engineer at ABB, Schneider Electric"
+                "Drilling Engineer",
+                "Reservoir Engineer",
+                "Production Engineer",
+                "Petroleum Geologist",
+                "Well Completion Engineer"
               ]
             },
             {
-              "category": "Project Management & Consulting",
+              "category": "Downstream & Refining",
               "roles": [
-                "Project Manager at Larsen & Toubro, Tata Projects",
-                "Construction Manager at Gammon India, DLF",
-                "Operations Manager at NTPC, BHEL, ONGC",
-                "Technical Consultant at McKinsey, Bain"
+                "Refinery Process Engineer",
+                "Pipeline Engineer",
+                "Quality Control Engineer",
+                "Petrochemical Process Engineer"
               ]
             },
             {
-              "category": "Manufacturing & Quality",
+              "category": "Energy Services",
               "roles": [
-                "Quality Assurance Engineer at Maruti Suzuki, Bajaj",
-                "Production Engineer at TVS Motors, Hero MotoCorp",
-                "Process Engineer at Reliance Industries, IOCL",
-                "Automation Engineer at Rockwell, Mitsubishi Electric"
+                "Field Service Engineer (Schlumberger, Halliburton)",
+                "Mud Engineer",
+                "Wireline Engineer"
               ]
             },
             {
-              "category": "Government & Public Sector",
+              "category": "Emerging & Transition",
               "roles": [
-                "GATE-qualified roles at PSUs like ONGC, IOCL, NTPC",
-                "IES (Indian Engineering Services) officer",
-                "Defense Research at DRDO, ADE, DRDL",
-                "Civil Services with engineering background"
+                "Digital Oilfield Engineer",
+                "Carbon Capture Specialist",
+                "Renewable Energy Transition Consultant"
               ]
             }
           ],
@@ -7280,13 +7871,15 @@
           "duration": "2 Years.Full-Time",
           "type": "PG",
           "degree": "Master of Technology",
+          "overviewtitle": "Mastering Chip Design and ",
+          "highlight": "Embedded Intelligence",
           "hero": {
             "image": "/img/banner/soe.jpg",
             "title": {
-              "normal": " M.Tech Embedded System & VLSI   ",
-              "italic": " Engineering"
+              "normal": "M.Tech Embedded System & VLSI   ",
+              "italic": "Engineering"
             },
-            "description": " Advance your expertise in semiconductor design and embedded computing. This two-year postgraduate programme provides specialised training in VLSI design methodology, FPGA development, SoC architecture, and embedded systems — preparing you for senior roles in the global semiconductor industry. ",
+            "description": "Advance your expertise in semiconductor design and embedded computing. This two-year postgraduate programme provides specialised training in VLSI design methodology, FPGA development, SoC architecture, and embedded systems — preparing you for senior roles in the global semiconductor industry.",
             "breadcrumb": [
               "Home",
               "Schools",
@@ -7314,8 +7907,8 @@
             "school": "Engineering"
           },
           "overview": [
-            "  This two-year postgraduate programme focuses on the advances and applications of VLSI design methodology from a systems perspective. The curriculum covers EDA tool development, library design, analogue and mixed-signal design, semiconductor chip design, IC design and verification, FPGA development, and System-onChip (SoC) architecture. Students learn to analyse, design, and implement integrated circuits using industry-standard tools, developing the practical skills that make them immediately productive in professional chip design environments. The programme also enables students to formulate research problems and develop solutions in VLSI design and embedded systems.  ",
-            "The programme integrates core VLSI design principles with emerging trends in IoT, AI, and power-efficient electronics to meet current industry demands. Students access advanced laboratories equipped with tools for VLSI design, FPGA prototyping, circuit simulation, and embedded system testing. Faculty members bring deep experience in semiconductor design and embedded systems, providing both academic rigour and practical industry insight. Bengaluru’s concentration of semiconductor design centres — for companies ranging from Intel and Qualcomm to Indian design houses — creates a rich environment for internship placements and post-graduation employment.   "
+            "This two-year postgraduate programme focuses on the advances and applications of VLSI design methodology from a systems perspective. The curriculum covers EDA tool development, library design, analogue and mixed-signal design, semiconductor chip design, IC design and verification, FPGA development, and System-on-Chip (SoC) architecture. Students learn to analyse, design, and implement integrated circuits using industry-standard tools, developing the practical skills that make them immediately productive in professional chip design environments. The programme also enables students to formulate research problems and develop solutions in VLSI design and embedded systems.",
+            "The programme integrates core VLSI design principles with emerging trends in IoT, AI, and power-efficient electronics to meet current industry demands. Students access advanced laboratories equipped with tools for VLSI design, FPGA prototyping, circuit simulation, and embedded system testing. Faculty members bring deep experience in semiconductor design and embedded systems, providing both academic rigour and practical industry insight. Bengaluru’s concentration of semiconductor design centres — for companies ranging from Intel and Qualcomm to Indian design houses — creates a rich environment for internship placements and post-graduation employment."
           ],
           "image": "/img/programme/eng/eng2.jpg",
           "images": [
@@ -7334,16 +7927,36 @@
                 "semester": "Semester 1",
                 "modules": [
                   {
-                    "name": "Mathematics I",
-                    "code": "MAT101"
+                    "name": "Advanced Engineering Mathematics",
+                    "code": "MAT6001"
                   },
                   {
-                    "name": "Programming in C",
-                    "code": "CSE101"
+                    "name": "English for Employability",
+                    "code": "ENG5001"
                   },
                   {
-                    "name": "Physics",
-                    "code": "PHY101"
+                    "name": "Embedded System Design",
+                    "code": "ECE6001"
+                  },
+                  {
+                    "name": "CMOS VLSI Design",
+                    "code": "ECE6002"
+                  },
+                  {
+                    "name": "Advanced Digital System Design",
+                    "code": "ECE5005"
+                  },
+                  {
+                    "name": "Discipline Elective – I",
+                    "code": "ECEXXXX"
+                  },
+                  {
+                    "name": "Discipline Elective – II",
+                    "code": "ECEXXXX"
+                  },
+                  {
+                    "name": "Seminar – I",
+                    "code": "SEM5001"
                   }
                 ]
               },
@@ -7351,16 +7964,54 @@
                 "semester": "Semester 2",
                 "modules": [
                   {
-                    "name": "Data Structures",
-                    "code": "CSE201"
+                    "name": "Hardware Software Co-Design",
+                    "code": "ECE5006"
                   },
                   {
-                    "name": "Discrete Mathematics",
-                    "code": "MAT201"
+                    "name": "Embedded Real Time Operating System",
+                    "code": "ECE5007"
                   },
                   {
-                    "name": "Digital Logic",
-                    "code": "CSE202"
+                    "name": "Discipline Elective – III",
+                    "code": "ECEXXXX"
+                  },
+                  {
+                    "name": "Discipline Elective – IV",
+                    "code": "ECEXXXX"
+                  },
+                  {
+                    "name": "Discipline Elective – V",
+                    "code": "ECEXXXX"
+                  },
+                  {
+                    "name": "Open Elective – I",
+                    "code": "XXXXXX"
+                  },
+                  {
+                    "name": "Open Elective – II",
+                    "code": "XXXXXX"
+                  },
+                  {
+                    "name": "Seminar – II",
+                    "code": "SEM5002"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Dissertation / Internship – I",
+                    "code": "PIP6001"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "Dissertation / Internship – II",
+                    "code": "PIP6002"
                   }
                 ]
               }
@@ -7431,61 +8082,73 @@
           },
           "highlights": [
             {
-              "title": "Industry-Aligned Curriculum Advanced Design Laboratories ",
-              "description": "Integrates core VLSI design principles with emerging trends in IoT, AI-driven hardware, and power-efficient electronics. VLSI design workstations, FPGA prototyping boards, circuit simulation tools, and embedded system testing platforms for extensive hands-on training.   "
+              "title": "Industry-Aligned Curriculum",
+              "description": "Integrates core VLSI design principles with emerging trends in IoT, AI-driven hardware, and power-efficient electronics."
             },
             {
-              "title": "Expert Faculty & Mentorship ",
-              "description": "Academics with deep specialisation in semiconductor design and embedded systems providing research guidance and industry insight.    "
+              "title": "Advanced Design Laboratories",
+              "description": "VLSI design workstations, FPGA prototyping boards, circuit simulation tools, and embedded system testing platforms for extensive hands-on training."
             },
             {
-              "title": "Practical Industry Experience Bengaluru’s Semiconductor Hub ",
-              "description": "Real-world projects, industry collaborations, and internship opportunities building professional portfolios. Proximity to design centres for Intel, Qualcomm, Texas Instruments, and Indian semiconductor companies for internship and employment.  "
+              "title": "Expert Faculty & Mentorship",
+              "description": "Academics with deep specialisation in semiconductor design and embedded systems providing research guidance and industry insight."
             },
             {
-              "title": "Research & Publication Pathways Strong Placement Track Record ",
-              "description": "Faculty-guided research with opportunities for peer-reviewed publication and conference presentation. Graduates recruited by semiconductor firms, electronics companies, and research organisations for design and verification roles.   "
+              "title": "Practical Industry Experience",
+              "description": "Real-world projects, industry collaborations, and internship opportunities building professional portfolios."
             },
             {
-              "title": "Global Career Mobility   ",
-              "description": "VLSI and embedded systems skills are valued globally, enabling international career pathways in semiconductor design and technology.   "
+              "title": "Bengaluru’s Semiconductor Hub",
+              "description": "Proximity to design centres for Intel, Qualcomm, Texas Instruments, and Indian semiconductor companies for internship and employment."
+            },
+            {
+              "title": "Research & Publication Pathways",
+              "description": "Faculty-guided research with opportunities for peer-reviewed publication and conference presentation."
+            },
+            {
+              "title": "Strong Placement Track Record",
+              "description": "Graduates recruited by semiconductor firms, electronics companies, and research organisations for design and verification roles."
+            },
+            {
+              "title": "Global Career Mobility",
+              "description": "VLSI and embedded systems skills are valued globally, enabling international career pathways in semiconductor design and technology."
             }
           ],
           "careers": [
             {
-              "category": "Core Engineering & Design",
+              "category": "VLSI Design",
               "roles": [
-                "Design Engineer at Siemens, Bosch, Honeywell",
-                "R&D Engineer at ISRO, DRDO, HAL",
-                "Structural Engineer at L&T, Shapoorji Pallonji",
-                "Electrical Systems Engineer at ABB, Schneider Electric"
+                "VLSI Design Engineer",
+                "Analogue IC Designer",
+                "Physical Design Engineer",
+                "Digital Design Engineer"
               ]
             },
             {
-              "category": "Project Management & Consulting",
+              "category": "Verification & Test",
               "roles": [
-                "Project Manager at Larsen & Toubro, Tata Projects",
-                "Construction Manager at Gammon India, DLF",
-                "Operations Manager at NTPC, BHEL, ONGC",
-                "Technical Consultant at McKinsey, Bain"
+                "Design Verification Engineer",
+                "DFT Engineer",
+                "Static Timing Analyser",
+                "Silicon Validation Engineer"
               ]
             },
             {
-              "category": "Manufacturing & Quality",
+              "category": "Embedded Systems",
               "roles": [
-                "Quality Assurance Engineer at Maruti Suzuki, Bajaj",
-                "Production Engineer at TVS Motors, Hero MotoCorp",
-                "Process Engineer at Reliance Industries, IOCL",
-                "Automation Engineer at Rockwell, Mitsubishi Electric"
+                "Embedded Systems Developer",
+                "FPGA Engineer",
+                "SoC Integration Engineer",
+                "Embedded OS Developer"
               ]
             },
             {
-              "category": "Government & Public Sector",
+              "category": "Senior & Research",
               "roles": [
-                "GATE-qualified roles at PSUs like ONGC, IOCL, NTPC",
-                "IES (Indian Engineering Services) officer",
-                "Defense Research at DRDO, ADE, DRDL",
-                "Civil Services with engineering background"
+                "Principal Engineer",
+                "System Analyst",
+                "Research Scientist (Semiconductor)",
+                "Technology Consultant"
               ]
             }
           ],

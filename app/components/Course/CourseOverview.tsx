@@ -18,8 +18,8 @@ export default function CourseOverview({ data }: any) {
         >
           <CommonHeader
             tag="Programme Overview"
-            title="Designing the Communication Systems"
-            highlight="of Tomorrow"
+            title={data?.overviewtitle || "Designing the Communication Systems"}
+            highlight={data?.highlight || "of Tomorrow"}
             primaryColor="#ff7a2f"
             align="left"
           />
