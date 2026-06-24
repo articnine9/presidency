@@ -5882,40 +5882,40 @@
               ]
             }
           },
-          "highlights": [
-            {
-              "title": "Versatile Curriculum",
-              "description": "Covers electrical machines, power systems, control engineering, electronics, microprocessors, and programming — opening careers across multiple sectors.  "
-            },
-            {
-              "title": "Advanced Power & Electronics Labs ",
-              "description": "Laboratories with electrical machines, power electronics equipment, control systems simulators, and microprocessor development platforms.  "
-            },
-            {
-              "title": "Renewable Energy Focus ",
-              "description": "Coursework and projects addressing solar, wind, and energy storage technologies aligned with India’s ambitious clean energy targets. "
-            },
-            {
-              "title": "Industry-Connected Learning ",
-              "description": "Internships and collaborative projects with power utilities, automation companies, and electronics manufacturers in the Bengaluru region. "
-            },
-            {
-              "title": "Electric Vehicle Specialisation  ",
-              "description": "Exposure to automotive electronics, EV drivetrain systems, and smart grid technologies through elective modules and project work. "
-            },
-            {
-              "title": "Professional Certification Pathways  ",
-              "description": "Preparation for certifications in AutoCAD Electrical, PLC programming, SCADA systems, and renewable energy technologies. "
-            },
-            {
-              "title": "Study-Abroad Partnerships  ",
-              "description": "International exchange programmes and internship placements providing global academic and professional experience. "
-            },
-            {
-              "title": "Diverse Career Outcomes ",
-              "description": "Graduates enter roles in power generation, distribution, automation, robotics, renewable energy, electric vehicles, and public sector undertakings. "
-            }
-          ],
+         "highlights": [
+  {
+    "title": "Versatile Curriculum",
+    "description": "Covers electrical machines, power systems, control engineering, electronics, microprocessors, and programming — opening careers across multiple sectors."
+  },
+  {
+    "title": "Advanced Power & Electronics Labs",
+    "description": "Laboratories with electrical machines, power electronics equipment, control systems simulators, and microprocessor development platforms."
+  },
+  {
+    "title": "Renewable Energy Focus",
+    "description": "Coursework and projects addressing solar, wind, and energy storage technologies aligned with India’s ambitious clean energy targets."
+  },
+  {
+    "title": "Industry-Connected Learning",
+    "description": "Internships and collaborative projects with power utilities, automation companies, and electronics manufacturers in the Bengaluru region."
+  },
+  {
+    "title": "Electric Vehicle Specialisation",
+    "description": "Exposure to automotive electronics, EV drivetrain systems, and smart grid technologies through elective modules and project work."
+  },
+  {
+    "title": "Professional Certification Pathways",
+    "description": "Preparation for certifications in AutoCAD Electrical, PLC programming, SCADA systems, and renewable energy technologies."
+  },
+  {
+    "title": "Study-Abroad Partnerships",
+    "description": "International exchange programmes and internship placements providing global academic and professional experience."
+  },
+  {
+    "title": "Diverse Career Outcomes",
+    "description": "Graduates enter roles in power generation, distribution, automation, robotics, renewable energy, electric vehicles, and public sector undertakings."
+  }
+],
           "careers": [
             {
               "category": "Power & Energy",
@@ -6423,36 +6423,40 @@
               ]
             }
           },
-          "highlights": [
-            {
-              "title": "Specialised VLSI Curriculum ",
-              "description": "Dedicated focus on digital and analogue VLSI design, semiconductor physics, FPGA prototyping, ASIC design, and embedded systems throughout the programme. "
-            },
-            {
-              "title": "Industry-Standard EDA Tools  ",
-              "description": "Hands-on training with Cadence, Synopsys, Xilinx, and Mentor Graphics platforms used by professional chip design teams worldwide. "
-            },
-            {
-              "title": "Bengaluru’s Semiconductor Ecosystem",
-              "description": "Direct access to design centres for major global semiconductor companies located in and around Bengaluru.  "
-            },
-            {
-              "title": "Expert Faculty Mentorship Silicon Prototyping Experience  ",
-              "description": "Academics with specialised expertise in VLSI design, semiconductor technology, and electronic systems verification. Laboratory exercises progress from circuit simulation through RTL design to silicon prototyping, providing end-to-end design experience.  "
-            },
-            {
-              "title": "Growing Industry Demand  ",
-              "description": "Global chip shortage and expanding semiconductor manufacturing in India create strong long-term demand for VLSI engineers.  "
-            },
-            {
-              "title": "Research & Innovation Pathways  ",
-              "description": "Opportunities for undergraduate research projects, conference participation, and publication in collaboration with faculty mentors. "
-            },
-            {
-              "title": "Cross-Sector Career Flexibility  ",
-              "description": "VLSI skills are applicable across consumer electronics, automotive, telecommunications, healthcare devices, computing, and defence.  "
-            }
-          ],
+        "highlights": [
+  {
+    "title": "Specialised VLSI Curriculum",
+    "description": "Dedicated focus on digital and analogue VLSI design, semiconductor physics, FPGA prototyping, ASIC design, and embedded systems throughout the programme."
+  },
+  {
+    "title": "Industry-Standard EDA Tools",
+    "description": "Hands-on training with Cadence, Synopsys, Xilinx, and Mentor Graphics platforms used by professional chip design teams worldwide."
+  },
+  {
+    "title": "Bengaluru’s Semiconductor Ecosystem",
+    "description": "Direct access to design centres for major global semiconductor companies located in and around Bengaluru."
+  },
+  {
+    "title": "Expert Faculty Mentorship",
+    "description": "Academics with specialised expertise in VLSI design, semiconductor technology, and electronic systems verification."
+  },
+  {
+    "title": "Silicon Prototyping Experience",
+    "description": "Laboratory exercises progress from circuit simulation through RTL design to silicon prototyping, providing end-to-end design experience."
+  },
+  {
+    "title": "Growing Industry Demand",
+    "description": "Global chip shortage and expanding semiconductor manufacturing in India create strong long-term demand for VLSI engineers."
+  },
+  {
+    "title": "Research & Innovation Pathways",
+    "description": "Opportunities for undergraduate research projects, conference participation, and publication in collaboration with faculty mentors."
+  },
+  {
+    "title": "Cross-Sector Career Flexibility",
+    "description": "VLSI skills are applicable across consumer electronics, automotive, telecommunications, healthcare devices, computing, and defence."
+  }
+],
           "careers": [
             {
               "category": "Chip Design",
@@ -6964,40 +6968,40 @@
               ]
             }
           },
-          "highlights": [
-            {
-              "title": "Comprehensive Curriculum ",
-              "description": "Covers structural engineering, geotechnical engineering, transportation engineering, water resources, and environmental sustainability across eight semesters. "
-            },
-            {
-              "title": "Modern Laboratory Facilities   ",
-              "description": "Laboratories equipped with materials testing equipment, surveying instruments, soil mechanics apparatus, and structural analysis software.  "
-            },
-            {
-              "title": "Industry-Driven Coursework ",
-              "description": "Curriculum aligned with current construction industry practices, building codes, and project management methodologies.   "
-            },
-            {
-              "title": "Site Visit & Field Training  ",
-              "description": "Regular industrial visits, site inspections, and field training provide practical understanding of construction processes and project execution.  "
-            },
-            {
-              "title": "Software Proficiency ",
-              "description": "Training in AutoCAD, STAAD.Pro, ETABS, Revit BIM, and other industry-standard design and analysis software.  "
-            },
-            {
-              "title": "Sustainable Engineering Focus   ",
-              "description": "Coursework addressing green building technologies, environmental impact assessment, and sustainable infrastructure design.  "
-            },
-            {
-              "title": "International Exchange Opportunities ",
-              "description": "Study-abroad partnerships including exchange programmes at institutions such as the University of Manchester and others.   "
-            },
-            {
-              "title": "Infrastructure Boom Career Advantage  ",
-              "description": "India’s massive infrastructure investment programme creates strong and sustained demand for qualified civil engineers.   "
-            }
-          ],
+        "highlights": [
+  {
+    "title": "Comprehensive Curriculum",
+    "description": "Covers structural engineering, geotechnical engineering, transportation engineering, water resources, and environmental sustainability across eight semesters."
+  },
+  {
+    "title": "Modern Laboratory Facilities",
+    "description": "Laboratories equipped with materials testing equipment, surveying instruments, soil mechanics apparatus, and structural analysis software."
+  },
+  {
+    "title": "Industry-Driven Coursework",
+    "description": "Curriculum aligned with current construction industry practices, building codes, and project management methodologies."
+  },
+  {
+    "title": "Site Visit & Field Training",
+    "description": "Regular industrial visits, site inspections, and field training provide practical understanding of construction processes and project execution."
+  },
+  {
+    "title": "Software Proficiency",
+    "description": "Training in AutoCAD, STAAD.Pro, ETABS, Revit BIM, and other industry-standard design and analysis software."
+  },
+  {
+    "title": "Sustainable Engineering Focus",
+    "description": "Coursework addressing green building technologies, environmental impact assessment, and sustainable infrastructure design."
+  },
+  {
+    "title": "International Exchange Opportunities",
+    "description": "Study-abroad partnerships including exchange programmes at institutions such as the University of Manchester and others."
+  },
+  {
+    "title": "Infrastructure Boom Career Advantage",
+    "description": "India’s massive infrastructure investment programme creates strong and sustained demand for qualified civil engineers."
+  }
+],
           "careers": [
             {
               "category": "Structural & Construction",
@@ -8080,78 +8084,78 @@
               ]
             }
           },
-          "highlights": [
-            {
-              "title": "Industry-Aligned Curriculum",
-              "description": "Integrates core VLSI design principles with emerging trends in IoT, AI-driven hardware, and power-efficient electronics."
-            },
-            {
-              "title": "Advanced Design Laboratories",
-              "description": "VLSI design workstations, FPGA prototyping boards, circuit simulation tools, and embedded system testing platforms for extensive hands-on training."
-            },
-            {
-              "title": "Expert Faculty & Mentorship",
-              "description": "Academics with deep specialisation in semiconductor design and embedded systems providing research guidance and industry insight."
-            },
-            {
-              "title": "Practical Industry Experience",
-              "description": "Real-world projects, industry collaborations, and internship opportunities building professional portfolios."
-            },
-            {
-              "title": "Bengaluru’s Semiconductor Hub",
-              "description": "Proximity to design centres for Intel, Qualcomm, Texas Instruments, and Indian semiconductor companies for internship and employment."
-            },
-            {
-              "title": "Research & Publication Pathways",
-              "description": "Faculty-guided research with opportunities for peer-reviewed publication and conference presentation."
-            },
-            {
-              "title": "Strong Placement Track Record",
-              "description": "Graduates recruited by semiconductor firms, electronics companies, and research organisations for design and verification roles."
-            },
-            {
-              "title": "Global Career Mobility",
-              "description": "VLSI and embedded systems skills are valued globally, enabling international career pathways in semiconductor design and technology."
-            }
-          ],
-          "careers": [
-            {
-              "category": "VLSI Design",
-              "roles": [
-                "VLSI Design Engineer",
-                "Analogue IC Designer",
-                "Physical Design Engineer",
-                "Digital Design Engineer"
-              ]
-            },
-            {
-              "category": "Verification & Test",
-              "roles": [
-                "Design Verification Engineer",
-                "DFT Engineer",
-                "Static Timing Analyser",
-                "Silicon Validation Engineer"
-              ]
-            },
-            {
-              "category": "Embedded Systems",
-              "roles": [
-                "Embedded Systems Developer",
-                "FPGA Engineer",
-                "SoC Integration Engineer",
-                "Embedded OS Developer"
-              ]
-            },
-            {
-              "category": "Senior & Research",
-              "roles": [
-                "Principal Engineer",
-                "System Analyst",
-                "Research Scientist (Semiconductor)",
-                "Technology Consultant"
-              ]
-            }
-          ],
+         "highlights": [
+  {
+    "title": "Industry-Aligned Curriculum",
+    "description": "Integrates core VLSI design principles with emerging trends in IoT, AI-driven hardware, and power-efficient electronics."
+  },
+  {
+    "title": "Advanced Design Laboratories",
+    "description": "VLSI design workstations, FPGA prototyping boards, circuit simulation tools, and embedded system testing platforms for extensive hands-on training."
+  },
+  {
+    "title": "Expert Faculty & Mentorship",
+    "description": "Academics with deep specialisation in semiconductor design and embedded systems providing research guidance and industry insight."
+  },
+  {
+    "title": "Practical Industry Experience",
+    "description": "Real-world projects, industry collaborations, and internship opportunities building professional portfolios."
+  },
+  {
+    "title": "Bengaluru’s Semiconductor Hub",
+    "description": "Proximity to design centres for Intel, Qualcomm, Texas Instruments, and Indian semiconductor companies for internship and employment."
+  },
+  {
+    "title": "Research & Publication Pathways",
+    "description": "Faculty-guided research with opportunities for peer-reviewed publication and conference presentation."
+  },
+  {
+    "title": "Strong Placement Track Record",
+    "description": "Graduates recruited by semiconductor firms, electronics companies, and research organisations for design and verification roles."
+  },
+  {
+    "title": "Global Career Mobility",
+    "description": "VLSI and embedded systems skills are valued globally, enabling international career pathways in semiconductor design and technology."
+  }
+],
+        "careers": [
+  {
+    "category": "VLSI Design",
+    "roles": [
+      "VLSI Design Engineer",
+      "Analogue IC Designer",
+      "Physical Design Engineer",
+      "Digital Design Engineer"
+    ]
+  },
+  {
+    "category": "Verification & Test",
+    "roles": [
+      "Design Verification Engineer",
+      "DFT Engineer",
+      "Static Timing Analyser",
+      "Silicon Validation Engineer"
+    ]
+  },
+  {
+    "category": "Embedded Systems",
+    "roles": [
+      "Embedded Systems Developer",
+      "FPGA Engineer",
+      "SoC Integration Engineer",
+      "Embedded OS Developer"
+    ]
+  },
+  {
+    "category": "Senior & Research",
+    "roles": [
+      "Principal Engineer",
+      "System Analyst",
+      "Research Scientist (Semiconductor)",
+      "Technology Consultant"
+    ]
+  }
+],
           "faq": [
             {
               "q": "  What are the eligibility requirements for international applicants? ",
