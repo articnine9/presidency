@@ -5882,40 +5882,40 @@
               ]
             }
           },
-         "highlights": [
-  {
-    "title": "Versatile Curriculum",
-    "description": "Covers electrical machines, power systems, control engineering, electronics, microprocessors, and programming — opening careers across multiple sectors."
-  },
-  {
-    "title": "Advanced Power & Electronics Labs",
-    "description": "Laboratories with electrical machines, power electronics equipment, control systems simulators, and microprocessor development platforms."
-  },
-  {
-    "title": "Renewable Energy Focus",
-    "description": "Coursework and projects addressing solar, wind, and energy storage technologies aligned with India’s ambitious clean energy targets."
-  },
-  {
-    "title": "Industry-Connected Learning",
-    "description": "Internships and collaborative projects with power utilities, automation companies, and electronics manufacturers in the Bengaluru region."
-  },
-  {
-    "title": "Electric Vehicle Specialisation",
-    "description": "Exposure to automotive electronics, EV drivetrain systems, and smart grid technologies through elective modules and project work."
-  },
-  {
-    "title": "Professional Certification Pathways",
-    "description": "Preparation for certifications in AutoCAD Electrical, PLC programming, SCADA systems, and renewable energy technologies."
-  },
-  {
-    "title": "Study-Abroad Partnerships",
-    "description": "International exchange programmes and internship placements providing global academic and professional experience."
-  },
-  {
-    "title": "Diverse Career Outcomes",
-    "description": "Graduates enter roles in power generation, distribution, automation, robotics, renewable energy, electric vehicles, and public sector undertakings."
-  }
-],
+          "highlights": [
+            {
+              "title": "Versatile Curriculum",
+              "description": "Covers electrical machines, power systems, control engineering, electronics, microprocessors, and programming — opening careers across multiple sectors."
+            },
+            {
+              "title": "Advanced Power & Electronics Labs",
+              "description": "Laboratories with electrical machines, power electronics equipment, control systems simulators, and microprocessor development platforms."
+            },
+            {
+              "title": "Renewable Energy Focus",
+              "description": "Coursework and projects addressing solar, wind, and energy storage technologies aligned with India’s ambitious clean energy targets."
+            },
+            {
+              "title": "Industry-Connected Learning",
+              "description": "Internships and collaborative projects with power utilities, automation companies, and electronics manufacturers in the Bengaluru region."
+            },
+            {
+              "title": "Electric Vehicle Specialisation",
+              "description": "Exposure to automotive electronics, EV drivetrain systems, and smart grid technologies through elective modules and project work."
+            },
+            {
+              "title": "Professional Certification Pathways",
+              "description": "Preparation for certifications in AutoCAD Electrical, PLC programming, SCADA systems, and renewable energy technologies."
+            },
+            {
+              "title": "Study-Abroad Partnerships",
+              "description": "International exchange programmes and internship placements providing global academic and professional experience."
+            },
+            {
+              "title": "Diverse Career Outcomes",
+              "description": "Graduates enter roles in power generation, distribution, automation, robotics, renewable energy, electric vehicles, and public sector undertakings."
+            }
+          ],
           "careers": [
             {
               "category": "Power & Energy",
@@ -6423,40 +6423,40 @@
               ]
             }
           },
-        "highlights": [
-  {
-    "title": "Specialised VLSI Curriculum",
-    "description": "Dedicated focus on digital and analogue VLSI design, semiconductor physics, FPGA prototyping, ASIC design, and embedded systems throughout the programme."
-  },
-  {
-    "title": "Industry-Standard EDA Tools",
-    "description": "Hands-on training with Cadence, Synopsys, Xilinx, and Mentor Graphics platforms used by professional chip design teams worldwide."
-  },
-  {
-    "title": "Bengaluru’s Semiconductor Ecosystem",
-    "description": "Direct access to design centres for major global semiconductor companies located in and around Bengaluru."
-  },
-  {
-    "title": "Expert Faculty Mentorship",
-    "description": "Academics with specialised expertise in VLSI design, semiconductor technology, and electronic systems verification."
-  },
-  {
-    "title": "Silicon Prototyping Experience",
-    "description": "Laboratory exercises progress from circuit simulation through RTL design to silicon prototyping, providing end-to-end design experience."
-  },
-  {
-    "title": "Growing Industry Demand",
-    "description": "Global chip shortage and expanding semiconductor manufacturing in India create strong long-term demand for VLSI engineers."
-  },
-  {
-    "title": "Research & Innovation Pathways",
-    "description": "Opportunities for undergraduate research projects, conference participation, and publication in collaboration with faculty mentors."
-  },
-  {
-    "title": "Cross-Sector Career Flexibility",
-    "description": "VLSI skills are applicable across consumer electronics, automotive, telecommunications, healthcare devices, computing, and defence."
-  }
-],
+          "highlights": [
+            {
+              "title": "Specialised VLSI Curriculum",
+              "description": "Dedicated focus on digital and analogue VLSI design, semiconductor physics, FPGA prototyping, ASIC design, and embedded systems throughout the programme."
+            },
+            {
+              "title": "Industry-Standard EDA Tools",
+              "description": "Hands-on training with Cadence, Synopsys, Xilinx, and Mentor Graphics platforms used by professional chip design teams worldwide."
+            },
+            {
+              "title": "Bengaluru’s Semiconductor Ecosystem",
+              "description": "Direct access to design centres for major global semiconductor companies located in and around Bengaluru."
+            },
+            {
+              "title": "Expert Faculty Mentorship",
+              "description": "Academics with specialised expertise in VLSI design, semiconductor technology, and electronic systems verification."
+            },
+            {
+              "title": "Silicon Prototyping Experience",
+              "description": "Laboratory exercises progress from circuit simulation through RTL design to silicon prototyping, providing end-to-end design experience."
+            },
+            {
+              "title": "Growing Industry Demand",
+              "description": "Global chip shortage and expanding semiconductor manufacturing in India create strong long-term demand for VLSI engineers."
+            },
+            {
+              "title": "Research & Innovation Pathways",
+              "description": "Opportunities for undergraduate research projects, conference participation, and publication in collaboration with faculty mentors."
+            },
+            {
+              "title": "Cross-Sector Career Flexibility",
+              "description": "VLSI skills are applicable across consumer electronics, automotive, telecommunications, healthcare devices, computing, and defence."
+            }
+          ],
           "careers": [
             {
               "category": "Chip Design",
@@ -6968,40 +6968,40 @@
               ]
             }
           },
-        "highlights": [
-  {
-    "title": "Comprehensive Curriculum",
-    "description": "Covers structural engineering, geotechnical engineering, transportation engineering, water resources, and environmental sustainability across eight semesters."
-  },
-  {
-    "title": "Modern Laboratory Facilities",
-    "description": "Laboratories equipped with materials testing equipment, surveying instruments, soil mechanics apparatus, and structural analysis software."
-  },
-  {
-    "title": "Industry-Driven Coursework",
-    "description": "Curriculum aligned with current construction industry practices, building codes, and project management methodologies."
-  },
-  {
-    "title": "Site Visit & Field Training",
-    "description": "Regular industrial visits, site inspections, and field training provide practical understanding of construction processes and project execution."
-  },
-  {
-    "title": "Software Proficiency",
-    "description": "Training in AutoCAD, STAAD.Pro, ETABS, Revit BIM, and other industry-standard design and analysis software."
-  },
-  {
-    "title": "Sustainable Engineering Focus",
-    "description": "Coursework addressing green building technologies, environmental impact assessment, and sustainable infrastructure design."
-  },
-  {
-    "title": "International Exchange Opportunities",
-    "description": "Study-abroad partnerships including exchange programmes at institutions such as the University of Manchester and others."
-  },
-  {
-    "title": "Infrastructure Boom Career Advantage",
-    "description": "India’s massive infrastructure investment programme creates strong and sustained demand for qualified civil engineers."
-  }
-],
+          "highlights": [
+            {
+              "title": "Comprehensive Curriculum",
+              "description": "Covers structural engineering, geotechnical engineering, transportation engineering, water resources, and environmental sustainability across eight semesters."
+            },
+            {
+              "title": "Modern Laboratory Facilities",
+              "description": "Laboratories equipped with materials testing equipment, surveying instruments, soil mechanics apparatus, and structural analysis software."
+            },
+            {
+              "title": "Industry-Driven Coursework",
+              "description": "Curriculum aligned with current construction industry practices, building codes, and project management methodologies."
+            },
+            {
+              "title": "Site Visit & Field Training",
+              "description": "Regular industrial visits, site inspections, and field training provide practical understanding of construction processes and project execution."
+            },
+            {
+              "title": "Software Proficiency",
+              "description": "Training in AutoCAD, STAAD.Pro, ETABS, Revit BIM, and other industry-standard design and analysis software."
+            },
+            {
+              "title": "Sustainable Engineering Focus",
+              "description": "Coursework addressing green building technologies, environmental impact assessment, and sustainable infrastructure design."
+            },
+            {
+              "title": "International Exchange Opportunities",
+              "description": "Study-abroad partnerships including exchange programmes at institutions such as the University of Manchester and others."
+            },
+            {
+              "title": "Infrastructure Boom Career Advantage",
+              "description": "India’s massive infrastructure investment programme creates strong and sustained demand for qualified civil engineers."
+            }
+          ],
           "careers": [
             {
               "category": "Structural & Construction",
@@ -8084,78 +8084,78 @@
               ]
             }
           },
-         "highlights": [
-  {
-    "title": "Industry-Aligned Curriculum",
-    "description": "Integrates core VLSI design principles with emerging trends in IoT, AI-driven hardware, and power-efficient electronics."
-  },
-  {
-    "title": "Advanced Design Laboratories",
-    "description": "VLSI design workstations, FPGA prototyping boards, circuit simulation tools, and embedded system testing platforms for extensive hands-on training."
-  },
-  {
-    "title": "Expert Faculty & Mentorship",
-    "description": "Academics with deep specialisation in semiconductor design and embedded systems providing research guidance and industry insight."
-  },
-  {
-    "title": "Practical Industry Experience",
-    "description": "Real-world projects, industry collaborations, and internship opportunities building professional portfolios."
-  },
-  {
-    "title": "Bengaluru’s Semiconductor Hub",
-    "description": "Proximity to design centres for Intel, Qualcomm, Texas Instruments, and Indian semiconductor companies for internship and employment."
-  },
-  {
-    "title": "Research & Publication Pathways",
-    "description": "Faculty-guided research with opportunities for peer-reviewed publication and conference presentation."
-  },
-  {
-    "title": "Strong Placement Track Record",
-    "description": "Graduates recruited by semiconductor firms, electronics companies, and research organisations for design and verification roles."
-  },
-  {
-    "title": "Global Career Mobility",
-    "description": "VLSI and embedded systems skills are valued globally, enabling international career pathways in semiconductor design and technology."
-  }
-],
-        "careers": [
-  {
-    "category": "VLSI Design",
-    "roles": [
-      "VLSI Design Engineer",
-      "Analogue IC Designer",
-      "Physical Design Engineer",
-      "Digital Design Engineer"
-    ]
-  },
-  {
-    "category": "Verification & Test",
-    "roles": [
-      "Design Verification Engineer",
-      "DFT Engineer",
-      "Static Timing Analyser",
-      "Silicon Validation Engineer"
-    ]
-  },
-  {
-    "category": "Embedded Systems",
-    "roles": [
-      "Embedded Systems Developer",
-      "FPGA Engineer",
-      "SoC Integration Engineer",
-      "Embedded OS Developer"
-    ]
-  },
-  {
-    "category": "Senior & Research",
-    "roles": [
-      "Principal Engineer",
-      "System Analyst",
-      "Research Scientist (Semiconductor)",
-      "Technology Consultant"
-    ]
-  }
-],
+          "highlights": [
+            {
+              "title": "Industry-Aligned Curriculum",
+              "description": "Integrates core VLSI design principles with emerging trends in IoT, AI-driven hardware, and power-efficient electronics."
+            },
+            {
+              "title": "Advanced Design Laboratories",
+              "description": "VLSI design workstations, FPGA prototyping boards, circuit simulation tools, and embedded system testing platforms for extensive hands-on training."
+            },
+            {
+              "title": "Expert Faculty & Mentorship",
+              "description": "Academics with deep specialisation in semiconductor design and embedded systems providing research guidance and industry insight."
+            },
+            {
+              "title": "Practical Industry Experience",
+              "description": "Real-world projects, industry collaborations, and internship opportunities building professional portfolios."
+            },
+            {
+              "title": "Bengaluru’s Semiconductor Hub",
+              "description": "Proximity to design centres for Intel, Qualcomm, Texas Instruments, and Indian semiconductor companies for internship and employment."
+            },
+            {
+              "title": "Research & Publication Pathways",
+              "description": "Faculty-guided research with opportunities for peer-reviewed publication and conference presentation."
+            },
+            {
+              "title": "Strong Placement Track Record",
+              "description": "Graduates recruited by semiconductor firms, electronics companies, and research organisations for design and verification roles."
+            },
+            {
+              "title": "Global Career Mobility",
+              "description": "VLSI and embedded systems skills are valued globally, enabling international career pathways in semiconductor design and technology."
+            }
+          ],
+          "careers": [
+            {
+              "category": "VLSI Design",
+              "roles": [
+                "VLSI Design Engineer",
+                "Analogue IC Designer",
+                "Physical Design Engineer",
+                "Digital Design Engineer"
+              ]
+            },
+            {
+              "category": "Verification & Test",
+              "roles": [
+                "Design Verification Engineer",
+                "DFT Engineer",
+                "Static Timing Analyser",
+                "Silicon Validation Engineer"
+              ]
+            },
+            {
+              "category": "Embedded Systems",
+              "roles": [
+                "Embedded Systems Developer",
+                "FPGA Engineer",
+                "SoC Integration Engineer",
+                "Embedded OS Developer"
+              ]
+            },
+            {
+              "category": "Senior & Research",
+              "roles": [
+                "Principal Engineer",
+                "System Analyst",
+                "Research Scientist (Semiconductor)",
+                "Technology Consultant"
+              ]
+            }
+          ],
           "faq": [
             {
               "q": "  What are the eligibility requirements for international applicants? ",
@@ -8194,18 +8194,20 @@
           "duration": "2 Years.Full-Time",
           "type": "PG",
           "degree": "Master of Technology",
+          "overviewtitle": "Leading the Future of ",
+          "highlight": "Construction Practice",
           "hero": {
             "image": "/img/banner/soe.jpg",
             "title": {
-              "normal": " M.Tech Building & Construction Technology  ",
-              "italic": " Engineering"
+              "normal": "M.Tech Building & Construction Technology",
+              "italic": "Engineering"
             },
-            "description": " Advance your expertise in semiconductor design and embedded computing. This two-year postgraduate programme provides specialised training in VLSI design methodology, FPGA development, SoC architecture, and embedded systems — preparing you for senior roles in the global semiconductor industry. ",
+            "description": "Advance your expertise in modern construction practices. This two-year postgraduate programme covers advanced structural systems, construction management, green building technologies, and building information modelling — preparing you for leadership roles in India’s rapidly growing infrastructure sector.",
             "breadcrumb": [
               "Home",
               "Schools",
               "Engineering",
-              " M.Tech BCT  "
+              "M.Tech BCT"
             ],
             "stats": [
               {
@@ -8228,8 +8230,8 @@
             "school": "Engineering"
           },
           "overview": [
-            "   This two-year postgraduate programme provides advanced knowledge in building and construction technology, covering structural systems, construction materials, project management, sustainability, and digital construction methodologies. The curriculum bridges the gap between traditional civil engineering education and the evolving demands of the modern construction industry, where Building Information Modelling (BIM), green building standards, and advanced materials are transforming how infrastructure is designed, built, and maintained.  ",
-            "India’s construction sector is one of the largest globally, driven by massive government investment in smart cities, housing, transportation infrastructure, and industrial development. International students gain access to large-scale construction projects and emerging practices in sustainable building, alongside academic instruction grounded in both theory and professional application. The programme prepares graduates for senior roles in construction management, structural consulting, real estate development, and infrastructure project delivery.   "
+            "This two-year postgraduate programme provides advanced knowledge in building and construction technology, covering structural systems, construction materials, project management, sustainability, and digital construction methodologies. The curriculum bridges the gap between traditional civil engineering education and the evolving demands of the modern construction industry, where Building Information Modelling (BIM), green building standards, and advanced materials are transforming how infrastructure is designed, built, and maintained.",
+            "India’s construction sector is one of the largest globally, driven by massive government investment in smart cities, housing, transportation infrastructure, and industrial development. International students gain access to large-scale construction projects and emerging practices in sustainable building, alongside academic instruction grounded in both theory and professional application. The programme prepares graduates for senior roles in construction management, structural consulting, real estate development, and infrastructure project delivery."
           ],
           "image": "/img/programme/eng/eng2.jpg",
           "images": [
@@ -8248,16 +8250,36 @@
                 "semester": "Semester 1",
                 "modules": [
                   {
-                    "name": "Mathematics I",
-                    "code": "MAT101"
+                    "name": "Advanced Engineering Mathematics",
+                    "code": "MAT4004"
                   },
                   {
-                    "name": "Programming in C",
-                    "code": "CSE101"
+                    "name": "English for Employability",
+                    "code": "ENG5001"
                   },
                   {
-                    "name": "Physics",
-                    "code": "PHY101"
+                    "name": "Advanced Construction Materials and Technology",
+                    "code": "CIV6001"
+                  },
+                  {
+                    "name": "Quality, Risk and Safety in Construction",
+                    "code": "CIV5005"
+                  },
+                  {
+                    "name": "Construction Planning, Schedule and Control",
+                    "code": "CIV5006"
+                  },
+                  {
+                    "name": "Discipline Elective – I",
+                    "code": "CIVXXXX"
+                  },
+                  {
+                    "name": "Discipline Elective – II",
+                    "code": "CIVXXXX"
+                  },
+                  {
+                    "name": "Seminar – I",
+                    "code": "SEM5001"
                   }
                 ]
               },
@@ -8265,16 +8287,54 @@
                 "semester": "Semester 2",
                 "modules": [
                   {
-                    "name": "Data Structures",
-                    "code": "CSE201"
+                    "name": "Construction Economics and Contract Specifications",
+                    "code": "CIV5007"
                   },
                   {
-                    "name": "Discrete Mathematics",
-                    "code": "MAT201"
+                    "name": "Building Services and Building Information Modelling",
+                    "code": "CIV6002"
                   },
                   {
-                    "name": "Digital Logic",
-                    "code": "CSE202"
+                    "name": "Discipline Elective – III",
+                    "code": "CIVXXXX"
+                  },
+                  {
+                    "name": "Discipline Elective – IV",
+                    "code": "CIVXXXX"
+                  },
+                  {
+                    "name": "Discipline Elective – V",
+                    "code": "CIVXXXX"
+                  },
+                  {
+                    "name": "Open Elective – I",
+                    "code": "XXXXXX"
+                  },
+                  {
+                    "name": "Open Elective – II",
+                    "code": "XXXXXX"
+                  },
+                  {
+                    "name": "Seminar – II",
+                    "code": "SEM5002"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Dissertation / Internship – I",
+                    "code": "PIP6001"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "Dissertation / Internship – II",
+                    "code": "PIP6002"
                   }
                 ]
               }
@@ -8345,57 +8405,70 @@
           },
           "highlights": [
             {
-              "title": "Advanced Construction Curriculum  ",
-              "description": "Covers structural systems, construction materials, project management, BIM, and green building technologies. .   "
+              "title": "Advanced Construction Curriculum",
+              "description": "Covers structural systems, construction materials, project management, BIM, and green building technologies."
             },
             {
-              "title": "India’s Construction Sector Growth BIM & Digital Construction Training Green Building & Sustainability Focus ",
-              "description": "Direct access to one of the world’s largest and fastest-growing construction markets with massive infrastructure investment. Hands-on experience with Building Information Modelling, computational design, and digital project delivery tools. Coursework addressing sustainable construction practices, energy-efficient building design, and environmental certification standards.   "
+              "title": "India’s Construction Sector Growth",
+              "description": "Direct access to one of the world’s largest and fastest-growing construction markets with massive infrastructure investment."
             },
             {
-              "title": "Research-Oriented Programme Industry-Connected Faculty Smart City Development Exposure ",
-              "description": "Dissertation component enabling original research contributions to building and construction technology. Academics with experience in construction consulting, structural analysis, and project delivery. Proximity to India’s smart city initiatives and urban development projects providing real-world context for academic study.  "
+              "title": "BIM & Digital Construction Training",
+              "description": "Hands-on experience with Building Information Modelling, computational design, and digital project delivery tools."
             },
             {
-              "title": "International Qualification Recognition ",
-              "description": "M.Tech degree recognised for professional practice and further study globally.    "
+              "title": "Green Building & Sustainability Focus",
+              "description": "Coursework addressing sustainable construction practices, energy-efficient building design, and environmental certification standards."
+            },
+            {
+              "title": "Research-Oriented Programme",
+              "description": "Dissertation component enabling original research contributions to building and construction technology."
+            },
+            {
+              "title": "Industry-Connected Faculty",
+              "description": "Academics with experience in construction consulting, structural analysis, and project delivery."
+            },
+            {
+              "title": "Smart City Development Exposure",
+              "description": "Proximity to India’s smart city initiatives and urban development projects providing real-world context for academic study."
+            },
+            {
+              "title": "International Qualification Recognition",
+              "description": "M.Tech degree recognised for professional practice and further study globally."
             }
           ],
           "careers": [
             {
-              "category": "Core Engineering & Design",
+              "category": "Construction Management",
               "roles": [
-                "Design Engineer at Siemens, Bosch, Honeywell",
-                "R&D Engineer at ISRO, DRDO, HAL",
-                "Structural Engineer at L&T, Shapoorji Pallonji",
-                "Electrical Systems Engineer at ABB, Schneider Electric"
+                "Senior Construction Manager",
+                "Project Director",
+                "Construction Technology Specialist",
+                "Quality Assurance Manager"
               ]
             },
             {
-              "category": "Project Management & Consulting",
+              "category": "Structural Consulting",
               "roles": [
-                "Project Manager at Larsen & Toubro, Tata Projects",
-                "Construction Manager at Gammon India, DLF",
-                "Operations Manager at NTPC, BHEL, ONGC",
-                "Technical Consultant at McKinsey, Bain"
+                "Structural Consultant",
+                "Building Systems Analyst",
+                "Construction Materials Specialist"
               ]
             },
             {
-              "category": "Manufacturing & Quality",
+              "category": "Green Building & Sustainability",
               "roles": [
-                "Quality Assurance Engineer at Maruti Suzuki, Bajaj",
-                "Production Engineer at TVS Motors, Hero MotoCorp",
-                "Process Engineer at Reliance Industries, IOCL",
-                "Automation Engineer at Rockwell, Mitsubishi Electric"
+                "Green Building Consultant",
+                "LEED/GRIHA Specialist",
+                "Energy Efficiency Engineer"
               ]
             },
             {
-              "category": "Government & Public Sector",
+              "category": "Academic & Research",
               "roles": [
-                "GATE-qualified roles at PSUs like ONGC, IOCL, NTPC",
-                "IES (Indian Engineering Services) officer",
-                "Defense Research at DRDO, ADE, DRDL",
-                "Civil Services with engineering background"
+                "University Lecturer",
+                "Construction Research Scientist",
+                "Building Technology Researcher"
               ]
             }
           ],
@@ -8437,18 +8510,20 @@
           "duration": "Diploma Programme",
           "type": "Diploma",
           "degree": "Post Graduate Diploma",
+          "overviewtitle": "Entering the Future of Unmanned",
+          "highlight": "Aerial Technology",
           "hero": {
             "image": "/img/banner/soe.jpg",
             "title": {
-              "normal": " Post Graduate Diploma in Drone Technology  ",
-              "italic": " Engineering"
+              "normal": "Post Graduate Diploma in Drone Technology",
+              "italic": "Engineering"
             },
-            "description": " Launch your career in unmanned aerial systems. This one-year programme — developed in partnership with Garuda Aerospace — covers drone design, operation, AI-driven data analysis, and regulatory compliance, preparing you for one of the fastest-growing technology sectors in aviation, agriculture, infrastructure, and environmental monitoring. ",
+            "description": "Launch your career in unmanned aerial systems. This one-year programme — developed in partnership with Garuda Aerospace — covers drone design, operation, AI-driven data analysis, and regulatory compliance, preparing you for one of the fastest-growing technology sectors in aviation, agriculture, infrastructure, and environmental monitoring.",
             "breadcrumb": [
               "Home",
               "Schools",
               "Engineering",
-              "PGD Drone Technology  "
+              "PGD Drone Technology"
             ],
             "stats": [
               {
@@ -8471,8 +8546,8 @@
             "school": "Engineering"
           },
           "overview": [
-            "   This innovative one-year postgraduate diploma opens doors to the rapidly growing unmanned aerial vehicle (UAV) industry. Developed in collaboration with Garuda Aerospace — a leading Indian drone company — the programme provides industry-grade training covering drone system design, aerodynamics, flight control, sensor integration, aerial surveying, AI-driven data processing, and regulatory compliance. Students train at a dedicated Centre of Excellence in Drone Technologies established through the university’s partnership with Garuda Aerospace, gaining access to real-world R&D opportunities and advanced prototyping facilities. ",
-            "The programme addresses a growing skills gap as drone technology transforms industries including agriculture, logistics, infrastructure inspection, environmental monitoring, defence, and entertainment. Students progress from fundamental principles of UAV design through to advanced applications including photogrammetry, GIS-based analysis, 3D modelling, and autonomous flight systems. The curriculum incorporates hands-on field training in aerial surveying and asset inspection, alongside theoretical coursework in drone regulations, safety protocols, and commercial deployment strategies. Whether you are a professional looking to transition into UAV technology or a graduate seeking a career in emerging aerospace applications, this diploma provides focused, industry-ready skills.   "
+            "This innovative one-year postgraduate diploma opens doors to the rapidly growing unmanned aerial vehicle (UAV) industry. Developed in collaboration with Garuda Aerospace — a leading Indian drone company — the programme provides industry-grade training covering drone system design, aerodynamics, flight control, sensor integration, aerial surveying, AI-driven data processing, and regulatory compliance. Students train at a dedicated Centre of Excellence in Drone Technologies established through the university’s partnership with Garuda Aerospace, gaining access to real-world R&D opportunities and advanced prototyping facilities.",
+            "The programme addresses a growing skills gap as drone technology transforms industries including agriculture, logistics, infrastructure inspection, environmental monitoring, defence, and entertainment. Students progress from fundamental principles of UAV design through to advanced applications including photogrammetry, GIS-based analysis, 3D modelling, and autonomous flight systems. The curriculum incorporates hands-on field training in aerial surveying and asset inspection, alongside theoretical coursework in drone regulations, safety protocols, and commercial deployment strategies. Whether you are a professional looking to transition into UAV technology or a graduate seeking a career in emerging aerospace applications, this diploma provides focused, industry-ready skills."
           ],
           "image": "/img/programme/eng/eng2.jpg",
           "images": [
@@ -8491,16 +8566,32 @@
                 "semester": "Semester 1",
                 "modules": [
                   {
-                    "name": "Mathematics I",
-                    "code": "MAT101"
+                    "name": "Fundamentals of UAV Technology",
+                    "code": "PGEDT5001"
                   },
                   {
-                    "name": "Programming in C",
-                    "code": "CSE101"
+                    "name": "Drone Regulations, Safety, Ethics and Compliance",
+                    "code": "PGEDT5002"
                   },
                   {
-                    "name": "Physics",
-                    "code": "PHY101"
+                    "name": "Fundamentals of GIS and Remote Sensing",
+                    "code": "PGEDT5003"
+                  },
+                  {
+                    "name": "Autonomous Flight and Drone Programming",
+                    "code": "PGEDT5004"
+                  },
+                  {
+                    "name": "Drone Based Delivery and Logistics Management",
+                    "code": "PGEDT5005"
+                  },
+                  {
+                    "name": "Fundamental Principles for Drone Design and Prototyping: Microcontrollers, Sensors and Wireless Protocols",
+                    "code": "PGEDT5006"
+                  },
+                  {
+                    "name": "Field Training: Aerial Survey and Asset Inspection Methods",
+                    "code": "PGEDT7001"
                   }
                 ]
               },
@@ -8508,16 +8599,32 @@
                 "semester": "Semester 2",
                 "modules": [
                   {
-                    "name": "Data Structures",
-                    "code": "CSE201"
+                    "name": "Aerial Survey and Photogrammetry",
+                    "code": "PGEDT5007"
                   },
                   {
-                    "name": "Discrete Mathematics",
-                    "code": "MAT201"
+                    "name": "Drones in Disaster Management and Mitigation",
+                    "code": "PGEDT5008"
                   },
                   {
-                    "name": "Digital Logic",
-                    "code": "CSE202"
+                    "name": "Drones in Urban and Regional Studies",
+                    "code": "PGEDT5009"
+                  },
+                  {
+                    "name": "Drone Data Processing using AI and ML",
+                    "code": "PGEDT5010"
+                  },
+                  {
+                    "name": "Advanced UAV Applications in Infrastructure, Energy, and Environmental Monitoring",
+                    "code": "PGEDT5011"
+                  },
+                  {
+                    "name": "Entrepreneurship Opportunities for Drone Pilots",
+                    "code": "PGEDT5012"
+                  },
+                  {
+                    "name": "Industry-Based Project OR Internship",
+                    "code": "PGEDT7002"
                   }
                 ]
               }
@@ -8588,61 +8695,71 @@
           },
           "highlights": [
             {
-              "title": "Garuda Aerospace Partnership  ",
-              "description": "Centre of Excellence established through strategic MoU provides access to expert mentorship, real-world R&D, and industry-grade drone training.    "
+              "title": "Garuda Aerospace Partnership",
+              "description": "Centre of Excellence established through strategic MoU provides access to expert mentorship, real-world R&D, and industry-grade drone training."
             },
             {
-              "title": "Industry-Integrated Curriculum 3D Printing & Prototyping Lab  ",
-              "description": "Courses co-developed with leading UAV companies ensuring relevance to market demands and immediate job readiness. Hands-on prototyping of custom drones and components fostering creativity, innovation, and technical expertise.  "
+              "title": "Industry-Integrated Curriculum",
+              "description": "Courses co-developed with leading UAV companies ensuring relevance to market demands and immediate job readiness."
             },
             {
-              "title": "AI & Data Analytics Training Field Training Component  ",
-              "description": "Modules covering AI-driven image processing, 3D modelling, and geospatial analytics for drone-acquired data. Practical aerial survey and asset inspection training using professional-grade drone equipment in real-world environments."
+              "title": "3D Printing & Prototyping Lab",
+              "description": "Hands-on prototyping of custom drones and components fostering creativity, innovation, and technical expertise."
             },
             {
-              "title": "Regulatory & Safety Compliance Rapidly Growing Industry ",
-              "description": "Comprehensive coverage of DGCA regulations, international UAV standards, and flight safety protocols. India’s drone market is projected to grow substantially, driven by applications in agriculture, logistics, defence, and infrastructure.    "
+              "title": "AI & Data Analytics Training",
+              "description": "Modules covering AI-driven image processing, 3D modelling, and geospatial analytics for drone-acquired data."
             },
             {
-              "title": "Entrepreneurship Pathway  ",
-              "description": "Skills and knowledge to launch ventures in drone delivery, environmental inspection, smart infrastructure, and aerial services.  "
+              "title": "Field Training Component",
+              "description": "Practical aerial survey and asset inspection training using professional-grade drone equipment in real-world environments."
+            },
+            {
+              "title": "Regulatory & Safety Compliance",
+              "description": "Comprehensive coverage of DGCA regulations, international UAV standards, and flight safety protocols."
+            },
+            {
+              "title": "Rapidly Growing Industry",
+              "description": "India’s drone market is projected to grow substantially, driven by applications in agriculture, logistics, defence, and infrastructure."
+            },
+            {
+              "title": "Entrepreneurship Pathway",
+              "description": "Skills and knowledge to launch ventures in drone delivery, environmental inspection, smart infrastructure, and aerial services."
             }
           ],
           "careers": [
             {
-              "category": "Core Engineering & Design",
+              "category": "Drone Operations",
               "roles": [
-                "Design Engineer at Siemens, Bosch, Honeywell",
-                "R&D Engineer at ISRO, DRDO, HAL",
-                "Structural Engineer at L&T, Shapoorji Pallonji",
-                "Electrical Systems Engineer at ABB, Schneider Electric"
+                "Drone Pilot",
+                "UAV Operator",
+                "Aerial Survey Specialist",
+                "Flight Operations Manager"
               ]
             },
             {
-              "category": "Project Management & Consulting",
+              "category": "Engineering & Design",
               "roles": [
-                "Project Manager at Larsen & Toubro, Tata Projects",
-                "Construction Manager at Gammon India, DLF",
-                "Operations Manager at NTPC, BHEL, ONGC",
-                "Technical Consultant at McKinsey, Bain"
+                "Drone Design Engineer",
+                "UAV Systems Engineer",
+                "Payload Integration Specialist"
               ]
             },
             {
-              "category": "Manufacturing & Quality",
+              "category": "Data & Analytics",
               "roles": [
-                "Quality Assurance Engineer at Maruti Suzuki, Bajaj",
-                "Production Engineer at TVS Motors, Hero MotoCorp",
-                "Process Engineer at Reliance Industries, IOCL",
-                "Automation Engineer at Rockwell, Mitsubishi Electric"
+                "GIS Analyst (Drone Data)",
+                "Photogrammetry Specialist",
+                "Remote Sensing Analyst",
+                "AI/ML Drone Data Engineer"
               ]
             },
             {
-              "category": "Government & Public Sector",
+              "category": "Entrepreneurship & Consulting",
               "roles": [
-                "GATE-qualified roles at PSUs like ONGC, IOCL, NTPC",
-                "IES (Indian Engineering Services) officer",
-                "Defense Research at DRDO, ADE, DRDL",
-                "Civil Services with engineering background"
+                "UAV Services Entrepreneur",
+                "Drone Technology Consultant",
+                "Agricultural Drone Specialist"
               ]
             }
           ],
@@ -22313,16 +22430,18 @@
         {
           "slug": "bpt",
           "name": "Bachelor of Physiotherapy (BPT)",
-          "duration": "4 Years",
+          "duration": "4 Years + 6 Months Internship",
           "type": "Undergraduate",
-          "degree": "B.Pt",
+          "degree": "Bachelor of Physiotherapy",
+          "overviewtitle": "Healing Through Movement ",
+          "highlight": "and Rehabilitation",
           "hero": {
             "image": "/img/banner/soh.JPG",
             "title": {
               "normal": "Bachelor of",
               "italic": "Physiotherapy (BPT)"
             },
-            "description": "Master the art and science of rehabilitation. Our BPT program prepares you to diagnose and treat movement disorders, helping patients recover from injuries and improve their quality of life.",
+            "description": "Restore movement, relieve pain, and improve quality of life. This four-and-a-half-year programme (including internship) covers musculoskeletal, neurological, cardiovascular, and sports rehabilitation — preparing you for a rewarding clinical career as a physiotherapy professional in hospitals, clinics, and rehabilitation centres worldwide.",
             "breadcrumb": [
               "Home",
               "Schools",
@@ -22332,7 +22451,7 @@
             "stats": [
               {
                 "label": "Duration",
-                "value": "4 Years"
+                "value": "4.5 Yr | Full-Time"
               },
               {
                 "label": "Campus",
@@ -22345,13 +22464,13 @@
             ]
           },
           "details": {
-            "duration": "4 Years Full-Time",
+            "duration": "4 Years + 6 Months Internship",
             "campus": "Bengaluru, India",
-            "school": "School of Health Sciences"
+            "school": "Allied Health Sciences"
           },
           "overview": [
-            "The Bachelor of Physiotherapy (BPT) programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
-            "Students gain extensive hands-on experience at affiliated hospitals and healthcare facilities, developing the competency and compassion needed to provide high-quality patient care and advance health outcomes."
+            "The Bachelor of Physiotherapy is a comprehensive clinical programme covering the assessment, diagnosis, and treatment of physical dysfunction through movement, exercise, and manual therapy. The curriculum spans anatomy, physiology, biomechanics, exercise therapy, electrotherapy, musculoskeletal rehabilitation, neurological rehabilitation, cardiovascular and respiratory physiotherapy, paediatric physiotherapy, and sports rehabilitation. Students develop clinical reasoning skills alongside hands-on therapeutic techniques through progressive clinical rotations in hospitals and rehabilitation centres.",
+            "The programme includes a mandatory six-month internship providing intensive supervised clinical practice across physiotherapy specialisations. Physiotherapy is a globally recognised and portable healthcare profession — graduates can practise in hospitals, rehabilitation centres, sports clinics, community health settings, and private practice across international markets. India’s growing awareness of rehabilitation and preventive healthcare, combined with its expanding hospital infrastructure, creates strong domestic demand alongside international career mobility for qualified physiotherapists."
           ],
           "image": "/img/programme/h/h2.jpg",
           "images": [
@@ -22364,115 +22483,442 @@
             "description": "Candidates must have completed 10+2 with Physics, Chemistry, and Biology. Merit-based selection through entrance examination. NEET qualification required as per regulatory standards.",
             "note": "Eligibility may vary for international students. Physical fitness is essential for this program."
           },
+          "tabs": {
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Calculus and Differential Equations",
+                    "code": "MAT2301"
+                  },
+                  {
+                    "name": "Foundations of Integrated Engineering",
+                    "code": "CIV1200"
+                  },
+                  {
+                    "name": "Computational Thinking with Python",
+                    "code": "CSE1500"
+                  },
+                  {
+                    "name": "Basics of Electrical and Electronics Engineering",
+                    "code": "EEE1200"
+                  },
+                  {
+                    "name": "Basics of Electrical and Electronics Engineering Lab",
+                    "code": "EEE1250"
+                  },
+                  {
+                    "name": "English for Technical Communication",
+                    "code": "ENG1900"
+                  },
+                  {
+                    "name": "Industry Readiness Program – I",
+                    "code": "PPS1025"
+                  },
+                  {
+                    "name": "Applied Chemistry for Engineers",
+                    "code": "CHE2503"
+                  },
+                  {
+                    "name": "Applied Chemistry for Engineers Lab",
+                    "code": "CHE2504"
+                  },
+                  {
+                    "name": "Indian Constitution and Professional Ethics for Engineers",
+                    "code": "LAW7601"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Transform Techniques, Partial Differential Equations and Complex Variables",
+                    "code": "MAT2302"
+                  },
+                  {
+                    "name": "Advanced English",
+                    "code": "ENG2501"
+                  },
+                  {
+                    "name": "Digital Electronics",
+                    "code": "ECE2021"
+                  },
+                  {
+                    "name": "Digital Electronics Lab",
+                    "code": "ECE2051"
+                  },
+                  {
+                    "name": "Advanced Materials and Quantum Physics for Engineers",
+                    "code": "PHY1202"
+                  },
+                  {
+                    "name": "Advanced Materials and Quantum Physics for Engineers Lab",
+                    "code": "PHY1205"
+                  },
+                  {
+                    "name": "Engineering Graphics",
+                    "code": "MEC1006"
+                  },
+                  {
+                    "name": "Design Workshop",
+                    "code": "ECE1511"
+                  },
+                  {
+                    "name": "Industry Readiness Program – II",
+                    "code": "PPS1026"
+                  },
+                  {
+                    "name": "Environmental Studies",
+                    "code": "CHE7601"
+                  },
+                  {
+                    "name": "Introduction to Design Thinking",
+                    "code": "DES1146"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Linear Algebra and Vector Calculus",
+                    "code": "MAT2303"
+                  },
+                  {
+                    "name": "C Programming and Data Structures",
+                    "code": "CSE2280"
+                  },
+                  {
+                    "name": "C Programming and Data Structures Lab",
+                    "code": "CSE2281"
+                  },
+                  {
+                    "name": "Network Theory",
+                    "code": "EEE2500"
+                  },
+                  {
+                    "name": "Signals and Systems",
+                    "code": "ECE2500"
+                  },
+                  {
+                    "name": "Signals and Systems Lab",
+                    "code": "ECE2550"
+                  },
+                  {
+                    "name": "Electrical Power Generation and Economics",
+                    "code": "EEE2507"
+                  },
+                  {
+                    "name": "Essentials of Finance",
+                    "code": "FIN1002"
+                  },
+                  {
+                    "name": "Universal Human Values",
+                    "code": "CIV7601"
+                  },
+                  {
+                    "name": "Introduction to Aptitude",
+                    "code": "APT4002"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "Numerical Methods, Probability Distributions and Sampling Techniques",
+                    "code": "MAT2304"
+                  },
+                  {
+                    "name": "DC Machines and Special Machines",
+                    "code": "EEE2502"
+                  },
+                  {
+                    "name": "DC Machines and Special Machines Lab",
+                    "code": "EEE2560"
+                  },
+                  {
+                    "name": "Embedded System Design using Microcontrollers",
+                    "code": "ECE2521"
+                  },
+                  {
+                    "name": "Embedded System Design using Microcontrollers Lab",
+                    "code": "ECE2571"
+                  },
+                  {
+                    "name": "Electromagnetic Field Theory",
+                    "code": "EEE2501"
+                  },
+                  {
+                    "name": "Linear Integrated Circuits",
+                    "code": "ECE2501"
+                  },
+                  {
+                    "name": "Linear Integrated Circuits Lab",
+                    "code": "ECE2551"
+                  },
+                  {
+                    "name": "Aptitude Training – Intermediate",
+                    "code": "APT4004"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 5",
+                "modules": [
+                  {
+                    "name": "AC Machines",
+                    "code": "EEE2503"
+                  },
+                  {
+                    "name": "AC Machines Lab",
+                    "code": "EEE2561"
+                  },
+                  {
+                    "name": "Control Systems Engineering",
+                    "code": "EEE2504"
+                  },
+                  {
+                    "name": "Control Systems Engineering Lab",
+                    "code": "EEE2563"
+                  },
+                  {
+                    "name": "Electrical and Electronics Measurements and Instrumentation",
+                    "code": "EEE2505"
+                  },
+                  {
+                    "name": "Measurements and Instrumentation Lab",
+                    "code": "EEE2562"
+                  },
+                  {
+                    "name": "Professional Elective – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Professional Elective – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Essentials of AI",
+                    "code": "CSE2264"
+                  },
+                  {
+                    "name": "Essentials of AI Lab",
+                    "code": "CSE2265"
+                  },
+                  {
+                    "name": "Logical and Critical Thinking",
+                    "code": "APT4006"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 6",
+                "modules": [
+                  {
+                    "name": "Power Electronics",
+                    "code": "EEE2508"
+                  },
+                  {
+                    "name": "Power Electronics Lab",
+                    "code": "EEE2565"
+                  },
+                  {
+                    "name": "Transmission and Distribution",
+                    "code": "EEE2506"
+                  },
+                  {
+                    "name": "Professional Elective – III",
+                    "code": ""
+                  },
+                  {
+                    "name": "Professional Elective – IV",
+                    "code": ""
+                  },
+                  {
+                    "name": "Electrical CAD Lab",
+                    "code": "EEE2564"
+                  },
+                  {
+                    "name": "Open Elective – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Minor Project",
+                    "code": "EEE7100"
+                  },
+                  {
+                    "name": "Aptitude for Employability",
+                    "code": "APT4005"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 7",
+                "modules": [
+                  {
+                    "name": "Power System Analysis",
+                    "code": "EEE3057"
+                  },
+                  {
+                    "name": "Power System Simulation Lab",
+                    "code": "EEE3566"
+                  },
+                  {
+                    "name": "Electrical Drives",
+                    "code": "EEE3058"
+                  },
+                  {
+                    "name": "Professional Elective – V",
+                    "code": ""
+                  },
+                  {
+                    "name": "Professional Elective – VI",
+                    "code": ""
+                  },
+                  {
+                    "name": "Open Elective – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Internship",
+                    "code": "EEE7000"
+                  },
+                  {
+                    "name": "Preparedness for Interview",
+                    "code": "PPS3018"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 8",
+                "modules": [
+                  {
+                    "name": "Capstone Project",
+                    "code": "EEE7300"
+                  }
+                ]
+              }
+            ]
+          },
           "highlights": [
             {
-              "title": "Extensive Clinical Training",
-              "description": "Hundreds of supervised clinical hours at affiliated hospitals and healthcare facilities ensure students are practice-ready long before they graduate."
+              "title": "Comprehensive Clinical Curriculum",
+              "description": "Covers musculoskeletal, neurological, cardiovascular, respiratory, paediatric, and sports physiotherapy across four years."
             },
             {
-              "title": "Evidence-Based Healthcare Education",
-              "description": "Curriculum grounded in the latest clinical research, treatment protocols, and healthcare technologies keeps students aligned with global standards of patient care."
+              "title": "Mandatory Clinical Internship",
+              "description": "Six-month supervised internship in hospitals and rehabilitation centres providing intensive hands-on clinical experience."
             },
             {
-              "title": "Empathetic, Patient-Centred Approach",
-              "description": "Training in communication, empathy, and ethical healthcare practice prepares students to build trust with patients and work compassionately in diverse healthcare settings."
+              "title": "Globally Portable Qualification",
+              "description": "Physiotherapy is a recognised profession worldwide — graduates can pursue careers across international healthcare markets."
             },
             {
-              "title": "Experienced Clinical Faculty",
-              "description": "Faculty with active clinical practice bring current, real-world medical knowledge into every lecture, ensuring education remains grounded in what actually happens in the field."
+              "title": "Growing Rehabilitation Demand",
+              "description": "India’s expanding healthcare sector and increasing awareness of rehabilitation creating strong demand for physiotherapists."
             },
             {
-              "title": "High Employability in Growing Sector",
-              "description": "Healthcare is among the fastest-growing global sectors. Our graduates are consistently placed at leading hospitals, rehabilitation centres, and research institutions."
+              "title": "Evidence-Based Practice",
+              "description": "Training in clinical reasoning, outcome measurement, and evidence-based physiotherapy reflecting contemporary professional standards."
             },
             {
-              "title": "Pathway to International Healthcare Careers",
-              "description": "Recognised qualifications and strong clinical training open pathways to healthcare roles and further studies in the UK, Canada, Australia, and the Middle East."
+              "title": "Sports Rehabilitation Exposure",
+              "description": "Coverage of sports physiotherapy and athletic rehabilitation — a growing specialisation with diverse career opportunities."
+            },
+            {
+              "title": "Interdisciplinary Clinical Training",
+              "description": "Clinical rotations working alongside physicians, surgeons, and other healthcare professionals in hospital settings."
+            },
+            {
+              "title": "Private Practice Pathway",
+              "description": "Skills and qualification enabling independent physiotherapy practice and clinic establishment."
             }
           ],
           "careers": [
             {
-              "category": "Clinical Practice",
+              "category": "Hospital & Clinical",
               "roles": [
-                "Physiotherapist at Apollo, Fortis, Max Healthcare",
-                "Nurse Practitioner at government and private hospitals",
-                "Occupational Therapist at rehabilitation centers",
-                "Medical Laboratory Technologist at diagnostic labs"
+                "Hospital Physiotherapist",
+                "Outpatient Rehabilitation Therapist",
+                "ICU Physiotherapist"
               ]
             },
             {
-              "category": "Hospital Administration & Management",
+              "category": "Specialist Rehabilitation",
               "roles": [
-                "Hospital Manager at large hospital chains",
-                "Healthcare Operations Manager at clinic networks",
-                "Clinical Quality Manager at accredited hospitals",
-                "Health Services Administrator at insurance companies"
+                "Sports Physiotherapist",
+                "Neurological Rehabilitation Specialist",
+                "Paediatric Physiotherapist",
+                "Orthopaedic Physiotherapist"
               ]
             },
             {
-              "category": "Research & Academia",
+              "category": "Community & Education",
               "roles": [
-                "Clinical Researcher at ICMR, AIIMS, NIH",
-                "Health Sciences Lecturer at nursing and allied health colleges",
-                "Clinical Trial Coordinator at pharma companies",
-                "Public Health Researcher at WHO, UNICEF"
+                "Community Health Physiotherapist",
+                "Physiotherapy Lecturer",
+                "Rehabilitation Programme Coordinator"
               ]
             },
             {
-              "category": "Allied Health & Specialty",
+              "category": "Private Practice",
               "roles": [
-                "Sports Physiotherapist at sports teams and academies",
-                "Pediatric Nurse Specialist at children's hospitals",
-                "Geriatric Occupational Therapist at elder care centers",
-                "Healthcare Consultant at Deloitte, Accenture Health"
+                "Private Practice Physiotherapist",
+                "Home Visit Physiotherapist",
+                "Wellness Centre Consultant"
               ]
             }
           ],
           "faq": [
             {
-              "q": "What clinical training is provided?",
-              "a": "Students get hands-on clinical training in affiliated hospitals with 100+ hours of practice"
+              "q": "What is the total programme duration?",
+              "a": "Four years of academic study plus a mandatory six-month clinical internship, totalling approximately four and a half years."
             },
             {
-              "q": "What are the specialization options?",
-              "a": "We offer specializations in various health disciplines including clinical practice and research"
+              "q": "Is physiotherapy a globally recognised profession?",
+              "a": "Yes. Physiotherapy is practised and regulated worldwide. Specific registration and licensure requirements vary by country, but the profession is well-established in healthcare systems globally."
             },
             {
-              "q": "Is there research opportunity?",
-              "a": "Yes, we encourage research projects and have partnerships with medical research institutions"
+              "q": "Can I specialise in sports physiotherapy?",
+              "a": "The BPT covers sports rehabilitation as part of the curriculum. Further specialisation is available through postgraduate study (MPT in Sports Physiotherapy) after completing the BPT."
             },
             {
-              "q": "What are career paths?",
-              "a": "Graduates work as healthcare practitioners, hospital managers, researchers, and consultants"
+              "q": "What clinical settings are included in the internship?",
+              "a": "Students rotate through hospital departments including orthopaedics, neurology, cardiopulmonary, paediatrics, and outpatient rehabilitation under supervised clinical practice."
             },
             {
-              "q": "What is the placement rate?",
-              "a": "Our placement rate is 93%+ with government and private healthcare institutions"
+              "q": "Can I open my own practice?",
+              "a": "Yes. Qualified physiotherapists can establish independent clinical practices after gaining appropriate registration and supervised experience."
             },
             {
-              "q": "Are there international opportunities?",
-              "a": "Yes, students can pursue further studies abroad with support from our international office"
+              "q": "Is on-campus accommodation available?",
+              "a": "Presidency University provides student housing. Contact the Office of International Affairs for details."
             }
           ]
         },
         {
-          "slug": "bsc-nursing",
-          "name": "B.Sc Nursing",
+          "slug": "bsc-aott",
+          "name": "B.Sc. Anaesthesia & Operation Theatre Technology (AOTT)",
           "duration": "4 Years",
           "type": "Undergraduate",
           "degree": "B.Sc",
+          "overviewtitle": "Advancing Precision in",
+"highlight": "Operation Theatre Technology",
           "hero": {
             "image": "/img/banner/soh.JPG",
             "title": {
-              "normal": "B.Sc",
-              "italic": "Nursing"
+              "normal": "B.Sc. Anaesthesia &",
+              "italic": "Operation Theatre Technology (AOTT)"
             },
-            "description": "Shape the future of patient care. Our nursing program develops compassionate, skilled nurses who provide quality healthcare across diverse settings and populations.",
+            "description": "Become the technical specialist that healthcare teams rely on. Choose from five three-year programmes — Anaesthesia & OT Technology, Medical Laboratory Technology, Cardiac Care Technology, Respiratory Care Technology, or Medical Radiology & Imaging Technology — each preparing you for essential clinical roles in hospitals and diagnostic centres.",
             "breadcrumb": [
               "Home",
               "Schools",
               "School of Health Sciences",
-              "B.Sc Nursing"
+              "AOTT"
             ],
             "stats": [
               {
@@ -22490,13 +22936,12 @@
             ]
           },
           "details": {
-            "duration": "4 Years Full-Time",
+            "duration": "4 Years (Including 1 Year Internship / On-the-Job Training)",
             "campus": "Bengaluru, India",
             "school": "School of Health Sciences"
           },
           "overview": [
-            "The B.Sc Nursing programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
-            "Students gain extensive hands-on experience at affiliated hospitals and healthcare facilities, developing the competency and compassion needed to provide high-quality patient care and advance health outcomes."
+            "The B.Sc. Anaesthesia & Operation Theatre Technology (AOTT) programme provides comprehensive knowledge of anaesthesia techniques, operation theatre management, patient safety, surgical procedures, emergency response, and advanced medical technologies. Students gain practical exposure to perioperative care, OT protocols, anaesthesia administration, and healthcare ethics through classroom learning and clinical training."
           ],
           "image": "/img/programme/h/h2.jpg",
           "images": [
@@ -22506,248 +22951,812 @@
           ],
           "eligibility": {
             "title": "Eligibility Criteria",
-            "description": "10+2 with Physics, Chemistry, and Biology (or equivalent). Qualifying score in NEET examination. Physical and mental fitness for nursing practice. Passing in English.",
+            "description": "10+2 Science (PCB/PCMB) with minimum 50% marks and pass in English.",
             "note": "Applicants from across India and abroad welcome. Age criteria as per regulatory norms."
           },
           "highlights": [
             {
-              "title": "Extensive Clinical Training",
-              "description": "Hundreds of supervised clinical hours at affiliated hospitals and healthcare facilities ensure students are practice-ready long before they graduate."
+              "title": "Industry-Oriented Curriculum",
+              "description": "Curriculum aligned with current healthcare practices, integrating theoretical knowledge with practical skills required in operation theatre and anaesthesia technology."
             },
             {
-              "title": "Evidence-Based Healthcare Education",
-              "description": "Curriculum grounded in the latest clinical research, treatment protocols, and healthcare technologies keeps students aligned with global standards of patient care."
+              "title": "Early Clinical Exposure",
+              "description": "Students gain hands-on clinical experience from the early stages of the programme through supervised hospital postings and practical training."
             },
             {
-              "title": "Empathetic, Patient-Centred Approach",
-              "description": "Training in communication, empathy, and ethical healthcare practice prepares students to build trust with patients and work compassionately in diverse healthcare settings."
+              "title": "Advanced Simulation Laboratories",
+              "description": "Modern simulation labs equipped with operation theatre and anaesthesia equipment provide realistic training in clinical procedures and emergency response."
             },
             {
-              "title": "Experienced Clinical Faculty",
-              "description": "Faculty with active clinical practice bring current, real-world medical knowledge into every lecture, ensuring education remains grounded in what actually happens in the field."
+              "title": "Experienced Faculty & Clinical Mentors",
+              "description": "Learn from qualified faculty members and experienced healthcare professionals who provide academic guidance and clinical mentorship."
             },
             {
-              "title": "High Employability in Growing Sector",
-              "description": "Healthcare is among the fastest-growing global sectors. Our graduates are consistently placed at leading hospitals, rehabilitation centres, and research institutions."
+              "title": "Compulsory Internship with Placement Support",
+              "description": "A structured internship in affiliated hospitals offers practical experience, supported by placement assistance for career opportunities."
             },
             {
-              "title": "Pathway to International Healthcare Careers",
-              "description": "Recognised qualifications and strong clinical training open pathways to healthcare roles and further studies in the UK, Canada, Australia, and the Middle East."
+              "title": "Interdisciplinary Team-Based Learning",
+              "description": "Collaborative learning alongside medical, nursing, and allied health professionals prepares students for multidisciplinary healthcare environments."
+            },
+            {
+              "title": "Skill-Based Certifications (CPR, BLS/ACLS, Infection Control)",
+              "description": "Opportunities to earn industry-relevant certifications that enhance emergency response, patient care, and infection prevention competencies."
+            },
+            {
+              "title": "Research & Innovation Opportunities",
+              "description": "Students are encouraged to participate in research projects, clinical studies, and innovation initiatives under faculty guidance."
+            },
+            {
+              "title": "Digital Learning Ecosystem",
+              "description": "Technology-enabled learning through digital resources, simulation software, online modules, and interactive educational platforms."
+            },
+            {
+              "title": "Global Career Readiness",
+              "description": "The programme develops technical, clinical, and professional competencies that prepare graduates for healthcare careers in India and abroad."
             }
           ],
-          "careers": [
-            {
-              "category": "Clinical Practice",
-              "roles": [
-                "Physiotherapist at Apollo, Fortis, Max Healthcare",
-                "Nurse Practitioner at government and private hospitals",
-                "Occupational Therapist at rehabilitation centers",
-                "Medical Laboratory Technologist at diagnostic labs"
-              ]
-            },
-            {
-              "category": "Hospital Administration & Management",
-              "roles": [
-                "Hospital Manager at large hospital chains",
-                "Healthcare Operations Manager at clinic networks",
-                "Clinical Quality Manager at accredited hospitals",
-                "Health Services Administrator at insurance companies"
-              ]
-            },
-            {
-              "category": "Research & Academia",
-              "roles": [
-                "Clinical Researcher at ICMR, AIIMS, NIH",
-                "Health Sciences Lecturer at nursing and allied health colleges",
-                "Clinical Trial Coordinator at pharma companies",
-                "Public Health Researcher at WHO, UNICEF"
-              ]
-            },
-            {
-              "category": "Allied Health & Specialty",
-              "roles": [
-                "Sports Physiotherapist at sports teams and academies",
-                "Pediatric Nurse Specialist at children's hospitals",
-                "Geriatric Occupational Therapist at elder care centers",
-                "Healthcare Consultant at Deloitte, Accenture Health"
-              ]
-            }
-          ],
-          "faq": [
-            {
-              "q": "What clinical training is provided?",
-              "a": "Students get hands-on clinical training in affiliated hospitals with 100+ hours of practice"
-            },
-            {
-              "q": "What are the specialization options?",
-              "a": "We offer specializations in various health disciplines including clinical practice and research"
-            },
-            {
-              "q": "Is there research opportunity?",
-              "a": "Yes, we encourage research projects and have partnerships with medical research institutions"
-            },
-            {
-              "q": "What are career paths?",
-              "a": "Graduates work as healthcare practitioners, hospital managers, researchers, and consultants"
-            },
-            {
-              "q": "What is the placement rate?",
-              "a": "Our placement rate is 93%+ with government and private healthcare institutions"
-            },
-            {
-              "q": "Are there international opportunities?",
-              "a": "Yes, students can pursue further studies abroad with support from our international office"
-            }
-          ]
-        },
-        {
-          "slug": "bsc-occupational-therapy",
-          "name": "B.Sc Occupational Therapy",
-          "duration": "4 Years",
-          "type": "Undergraduate",
-          "degree": "B.Sc",
-          "hero": {
-            "image": "/img/banner/soh.JPG",
-            "title": {
-              "normal": "B.Sc",
-              "italic": "Occupational Therapy"
-            },
-            "description": "Empower individuals to achieve independence. Our OT program trains therapists to help clients overcome physical, cognitive, and emotional challenges through meaningful activities.",
-            "breadcrumb": [
-              "Home",
-              "Schools",
-              "School of Health Sciences",
-              "B.Sc Occupational Therapy"
-            ],
-            "stats": [
+          "tabs": {
+            "curriculum": [
               {
-                "label": "Duration",
-                "value": "4 Years"
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Introduction to Healthcare Delivery System in India",
+                    "code": "BAOTT001"
+                  },
+                  {
+                    "name": "Medical Terminology & Record Keeping",
+                    "code": "BAOTT002"
+                  },
+                  {
+                    "name": "Anatomy",
+                    "code": "BAOTT003"
+                  },
+                  {
+                    "name": "Physiology",
+                    "code": "BAOTT004"
+                  },
+                  {
+                    "name": "Healthcare Quality & Patient Safety",
+                    "code": "BAOTT005"
+                  }
+                ]
               },
               {
-                "label": "Campus",
-                "value": "Bengaluru, India"
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Medical Law and Ethics, Professionalism & Values, Principles of Management",
+                    "code": "BAOTT006"
+                  },
+                  {
+                    "name": "Basics of Biomedical Sciences in Surgery and Anaesthesia",
+                    "code": "BAOTT007"
+                  },
+                  {
+                    "name": "Biochemistry & Haematology",
+                    "code": "BAOTT008"
+                  },
+                  {
+                    "name": "Pathology & Microbiology",
+                    "code": "BAOTT009"
+                  },
+                  {
+                    "name": "Basic Concepts in Pharmacology",
+                    "code": "BAOTT010"
+                  },
+                  {
+                    "name": "Basic Computers and Information Science, Communication and Soft Skills",
+                    "code": "BAOTT011"
+                  }
+                ]
               },
               {
-                "label": "Status",
-                "value": "Active"
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Basic Techniques of Anaesthesia",
+                    "code": "BAOTT012"
+                  },
+                  {
+                    "name": "Basics of Surgical Procedures",
+                    "code": "BAOTT013"
+                  },
+                  {
+                    "name": "CSSD & Manifold Area",
+                    "code": "BAOTT014"
+                  },
+                  {
+                    "name": "Industrial Orientation & Industrial Visit",
+                    "code": "BAOTT015"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "Advanced Anaesthesia Techniques",
+                    "code": "BAOTT016"
+                  },
+                  {
+                    "name": "Advanced Surgical Procedures",
+                    "code": "BAOTT017"
+                  },
+                  {
+                    "name": "Basic Intensive Care",
+                    "code": "BAOTT018"
+                  },
+                  {
+                    "name": "Clinical Medicine & Management",
+                    "code": "BAOTT019"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 5",
+                "modules": [
+                  {
+                    "name": "Specialized Anaesthesia I",
+                    "code": "BAOTT020"
+                  },
+                  {
+                    "name": "Specialized Surgery I",
+                    "code": "BAOTT021"
+                  },
+                  {
+                    "name": "Recent Advances in Anaesthesia & Surgical Field",
+                    "code": "BAOTT022"
+                  },
+                  {
+                    "name": "Disaster Management & Environmental Science",
+                    "code": "BAOTT023"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 6",
+                "modules": [
+                  {
+                    "name": "Specialized Anaesthesia II",
+                    "code": "BAOTT024"
+                  },
+                  {
+                    "name": "Specialized Surgery II",
+                    "code": "BAOTT025"
+                  },
+                  {
+                    "name": "Specialized Anaesthesia & Surgery III",
+                    "code": "BAOTT026"
+                  },
+                  {
+                    "name": "Research Methodology and Biostatistics",
+                    "code": "BAOTT027"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 7",
+                "modules": [
+                  {
+                    "name": "Internship / Clinical Training",
+                    "code": ""
+                  },
+                  {
+                    "name": "AOTT Internship (Anaesthesia & Surgery Rotations)",
+                    "code": "BAOTT028"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 8",
+                "modules": [
+                  {
+                    "name": "Internship / Clinical Training",
+                    "code": ""
+                  },
+                  {
+                    "name": "AOTT Internship (Anaesthesia & Surgery Rotations)",
+                    "code": "BAOTT028"
+                  }
+                ]
               }
-            ]
-          },
-          "details": {
-            "duration": "4 Years Full-Time",
-            "campus": "Bengaluru, India",
-            "school": "School of Health Sciences"
-          },
-          "overview": [
-            "The B.Sc Occupational Therapy programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
-            "Students gain extensive hands-on experience at affiliated hospitals and healthcare facilities, developing the competency and compassion needed to provide high-quality patient care and advance health outcomes."
-          ],
-          "image": "/img/programme/h/h2.jpg",
-          "images": [
-            "/img/programme/h/h1.jpg",
-            "/img/programme/h/h2.jpg",
-            "/img/programme/h/h3.jpg"
-          ],
-          "eligibility": {
-            "title": "Eligibility Criteria",
-            "description": "10+2 with Physics, Chemistry, and Biology. NEET qualification required. Strong interest in healthcare and helping professions. Physical capability to perform therapeutic techniques.",
-            "note": "This program develops professionals to work across healthcare, education, and community sectors."
-          },
-          "highlights": [
-            {
-              "title": "Extensive Clinical Training",
-              "description": "Hundreds of supervised clinical hours at affiliated hospitals and healthcare facilities ensure students are practice-ready long before they graduate."
-            },
-            {
-              "title": "Evidence-Based Healthcare Education",
-              "description": "Curriculum grounded in the latest clinical research, treatment protocols, and healthcare technologies keeps students aligned with global standards of patient care."
-            },
-            {
-              "title": "Empathetic, Patient-Centred Approach",
-              "description": "Training in communication, empathy, and ethical healthcare practice prepares students to build trust with patients and work compassionately in diverse healthcare settings."
-            },
-            {
-              "title": "Experienced Clinical Faculty",
-              "description": "Faculty with active clinical practice bring current, real-world medical knowledge into every lecture, ensuring education remains grounded in what actually happens in the field."
-            },
-            {
-              "title": "High Employability in Growing Sector",
-              "description": "Healthcare is among the fastest-growing global sectors. Our graduates are consistently placed at leading hospitals, rehabilitation centres, and research institutions."
-            },
-            {
-              "title": "Pathway to International Healthcare Careers",
-              "description": "Recognised qualifications and strong clinical training open pathways to healthcare roles and further studies in the UK, Canada, Australia, and the Middle East."
+            ],
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Professional Competence",
+                  "text": "Develop comprehensive knowledge and practical skills required for allied healthcare professions."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Research and Innovation",
+                  "text": "Participate in clinical research and contribute to evidence-based healthcare practices."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Ethical and Responsible Practice",
+                  "text": "Uphold professional ethics, patient confidentiality, and safety standards"
+                },
+                {
+                  "id": "PEO 4",
+                  "title": "Teamwork and Leadership",
+                  "text": "Work effectively in multidisciplinary healthcare teams and demonstrate leadership abilities."
+                },
+                {
+                  "id": "PEO 5",
+                  "title": "Lifelong Learning and Career Advancement",
+                  "text": "Engage in continuous professional development and adapt to evolving healthcare technologies."
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Perioperative Patient Care",
+                  "text": "Assist in surgical procedures, patient positioning, operation theatre preparation, and maintenance of sterile environments to ensure safe and effective perioperative patient care."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Anaesthesia Equipment & Drug Management",
+                  "text": "Operate, maintain, and troubleshoot anaesthesia equipment while assisting in the safe preparation, handling, and administration of anaesthetic drugs under professional supervision."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Emergency Response & Critical Care Support",
+                  "text": "Provide support during perioperative emergencies and critical care situations by assisting the surgical and anaesthesia team in emergency protocols and life-support procedures."
+                },
+                {
+                  "id": "PSO 4",
+                  "title": "Documentation & Safety Protocols",
+                  "text": "Maintain accurate clinical records and adhere to infection control practices, biomedical waste management guidelines, and patient safety protocols in healthcare settings."
+                }
+              ]
             }
-          ],
+          },
           "careers": [
             {
-              "category": "Clinical Practice",
-              "roles": [
-                "Physiotherapist at Apollo, Fortis, Max Healthcare",
-                "Nurse Practitioner at government and private hospitals",
-                "Occupational Therapist at rehabilitation centers",
-                "Medical Laboratory Technologist at diagnostic labs"
-              ]
+              "category": "Trainee Anaesthesia Technologist",
+              "roles": []
             },
             {
-              "category": "Hospital Administration & Management",
-              "roles": [
-                "Hospital Manager at large hospital chains",
-                "Healthcare Operations Manager at clinic networks",
-                "Clinical Quality Manager at accredited hospitals",
-                "Health Services Administrator at insurance companies"
-              ]
+              "category": "Operation Theatre Assistant",
+              "roles": []
             },
             {
-              "category": "Research & Academia",
-              "roles": [
-                "Clinical Researcher at ICMR, AIIMS, NIH",
-                "Health Sciences Lecturer at nursing and allied health colleges",
-                "Clinical Trial Coordinator at pharma companies",
-                "Public Health Researcher at WHO, UNICEF"
-              ]
+              "category": "Team Leader – Operation Theatre",
+              "roles": []
             },
             {
-              "category": "Allied Health & Specialty",
-              "roles": [
-                "Sports Physiotherapist at sports teams and academies",
-                "Pediatric Nurse Specialist at children's hospitals",
-                "Geriatric Occupational Therapist at elder care centers",
-                "Healthcare Consultant at Deloitte, Accenture Health"
-              ]
+              "category": "Operation Theatre Manager",
+              "roles": []
+            },
+            {
+              "category": "Anaesthesia Technician",
+              "roles": []
+            },
+            {
+              "category": "Critical Care Support Professional",
+              "roles": []
+            },
+            {
+              "category": "Surgical Care Technologist",
+              "roles": []
             }
           ],
           "faq": [
             {
-              "q": "What clinical training is provided?",
-              "a": "Students get hands-on clinical training in affiliated hospitals with 100+ hours of practice"
+              "q": "What is the admission process for the B.Sc. Anaesthesia and Operation Theatre Technology programme?",
+              "a": "Admissions follow the university's enrolment process. Candidates should review the official admission guidelines to understand the application procedure, eligibility requirements, document submission, and important dates."
             },
             {
-              "q": "What are the specialization options?",
-              "a": "We offer specializations in various health disciplines including clinical practice and research"
+              "q": "Do I need to appear for an entrance exam to apply for the B.Sc. Anaesthesia and Operation Theatre Technology programme?",
+              "a": "No. Admission is generally based on your Class 12 Science (PCB/PCMB) marks and meeting the prescribed eligibility criteria. An entrance examination is not required for this programme."
             },
             {
-              "q": "Is there research opportunity?",
-              "a": "Yes, we encourage research projects and have partnerships with medical research institutions"
+              "q": "Does the programme include hands-on clinical training?",
+              "a": "Yes. Students receive extensive practical training through simulation laboratories, clinical skill sessions, and supervised hospital postings, ensuring strong real-world exposure throughout the programme."
             },
             {
-              "q": "What are career paths?",
-              "a": "Graduates work as healthcare practitioners, hospital managers, researchers, and consultants"
+              "q": "What is the average starting salary after completing the programme?",
+              "a": "Graduates typically earn an average starting salary of ₹2.5–₹4.5 LPA. With experience, advanced skills, and the right employer, salary packages can grow to ₹5–₹8 LPA or higher."
             },
             {
-              "q": "What is the placement rate?",
-              "a": "Our placement rate is 93%+ with government and private healthcare institutions"
-            },
-            {
-              "q": "Are there international opportunities?",
-              "a": "Yes, students can pursue further studies abroad with support from our international office"
+              "q": "Is the degree recognised for higher studies in India and abroad?",
+              "a": "Yes. The degree is nationally recognised through Presidency University's UGC approval and AIU membership. It also supports applications for higher studies overseas, subject to the admission requirements of individual universities."
             }
           ]
         },
         {
           "slug": "bsc-mlt",
-          "name": "B.Sc Medical Laboratory Technology",
+          "name": "B.Sc. Medical Laboratory Technology (MLT)",
+          "duration": "4 Years",
+          "type": "Undergraduate",
+          "degree": "B.Sc",
+          "overviewtitle": "Building Expertise in",
+          "highlight": "Laboratory Science",
+          "hero": {
+            "image": "/img/banner/soh.JPG",
+            "title": {
+              "normal": "B.Sc",
+              "italic": "Medical Laboratory Technology (MLT)"
+            },
+            "description": "",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Health Sciences",
+              "Medical Laboratory Technology"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "4 Years"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "4 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Health Sciences"
+          },
+          "overview": [
+            
+          ],
+          "image": "/img/programme/h/h2.jpg",
+          "images": [
+            "/img/programme/h/h1.jpg",
+            "/img/programme/h/h2.jpg",
+            "/img/programme/h/h3.jpg"
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "",
+            "note": ""
+          },
+          "highlights": [
+           
+          ],
+          "careers": [
+          
+          ],
+          "faq": [
+          
+          ]
+        },
+        {
+          "slug": "bsc-cct",
+          "name": "B.Sc. Cardiac Care Technology (CCT)",
+          "duration": "4 Years",
+          "type": "Undergraduate",
+          "degree": "B.Sc",
+          "overviewtitle": "Empowering the Future of",
+          "highlight": "Heart Healthcare",
+          "hero": {
+            "image": "/img/banner/soh.JPG",
+            "title": {
+              "normal": "B.Sc",
+              "italic": "Cardiac Care Technology (CCT)"
+            },
+            "description": "Unlock the secrets of disease diagnosis. Our MLT program trains technologists to perform complex laboratory tests that inform clinical decisions and patient treatment.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Health Sciences",
+              "Cardiac Care Technology"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "4 Years"
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "4 Years (Including 1 Year Internship / On-the-Job Training)",
+            "campus": "Bengaluru, India",
+            "school": "School of Health Sciences"
+          },
+          "overview": [
+            "The B.Sc. in Cardiac Care Technology (CCT) program prepares students to assist cardiologists in diagnosing, treating, and managing heart-related conditions. The curriculum provides in-depth knowledge of Electrocardiography (ECG), Echocardiography, Cardiac Catheterization, cardiac electrical conduction systems, diagnostic imaging techniques, and advanced monitoring technologies used in intensive cardiac care units.",
+            "Students gain extensive hands-on clinical experience in operating advanced cardiac diagnostic equipment, capturing and analyzing diagnostic images, monitoring patients in critical care settings, and supporting cardiologists in delivering accurate diagnosis and quality cardiovascular care."
+          ],
+          "image": "/img/programme/h/h2.jpg",
+          "images": [
+            "/img/programme/h/h1.jpg",
+            "/img/programme/h/h2.jpg",
+            "/img/programme/h/h3.jpg"
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "The minimum qualification for admission to the B.Sc. Cardiac Care Technology program is a pass in 12th Standard/PUC in the Science stream (CBSE/ISC or any equivalent board) with a minimum of 50% in PCMB and a pass in English.",
+            "note": ""
+          },
+          "tabs": {
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Human Anatomy",
+                    "code": ""
+                  },
+                  {
+                    "name": "Human Physiology",
+                    "code": ""
+                  },
+                  {
+                    "name": "Biochemistry",
+                    "code": ""
+                  },
+                  {
+                    "name": "Introduction to Quality and Patient Safety",
+                    "code": ""
+                  },
+                  {
+                    "name": "Introduction to Computing",
+                    "code": ""
+                  },
+                  {
+                    "name": "Accounting and Finance",
+                    "code": ""
+                  },
+                  {
+                    "name": "Communication Skills for Healthcare Professionals",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Basic Electrocardiography",
+                    "code": ""
+                  },
+                  {
+                    "name": "General Microbiology",
+                    "code": ""
+                  },
+                  {
+                    "name": "Basic Intensive Care (BLS, Vital Signs, Basic ECG Interpretation)",
+                    "code": ""
+                  },
+                  {
+                    "name": "Applied Anatomy, Physiology & Pharmacology in Cardiac Care",
+                    "code": ""
+                  },
+                  {
+                    "name": "Healthcare Informatics and Data Analytics",
+                    "code": ""
+                  },
+                  {
+                    "name": "Environmental Sciences",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Cardiovascular Diseases Pertinent to Cardiac Care Technology",
+                    "code": ""
+                  },
+                  {
+                    "name": "Medical Instrumentation Relevant to Cardiac Care",
+                    "code": ""
+                  },
+                  {
+                    "name": "Preventive and Social Medicine",
+                    "code": ""
+                  },
+                  {
+                    "name": "Basic Echocardiography",
+                    "code": ""
+                  },
+                  {
+                    "name": "Cultural Diversity in Indian Society",
+                    "code": ""
+                  },
+                  {
+                    "name": "Medical Documentation and Record Keeping",
+                    "code": ""
+                  },
+                  {
+                    "name": "Mental Health & Emotional Intelligence",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "Paediatric Interventions",
+                    "code": ""
+                  },
+                  {
+                    "name": "Advanced Electrocardiography",
+                    "code": ""
+                  },
+                  {
+                    "name": "Advanced Echocardiography",
+                    "code": ""
+                  },
+                  {
+                    "name": "Development of Cardiovascular System (Fetal & Neonatal)",
+                    "code": ""
+                  },
+                  {
+                    "name": "Disaster Management",
+                    "code": ""
+                  },
+                  {
+                    "name": "Medical Ethics & Legal Aspects",
+                    "code": ""
+                  },
+                  {
+                    "name": "Campus to Corporate (Bedside Manners & PoSH)",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 5",
+                "modules": [
+                  {
+                    "name": "Advanced Intensive Care (ACLS, PALS & NALS)",
+                    "code": ""
+                  },
+                  {
+                    "name": "Cardiac Catheterization",
+                    "code": ""
+                  },
+                  {
+                    "name": "Invasive Cardiology",
+                    "code": ""
+                  },
+                  {
+                    "name": "Treadmill Exercise Stress Testing & 24-hour Recording",
+                    "code": ""
+                  },
+                  {
+                    "name": "Internship Evaluation",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 6",
+                "modules": [
+                  {
+                    "name": "Perfusion Technology",
+                    "code": ""
+                  },
+                  {
+                    "name": "Principles of Ultrasonography",
+                    "code": ""
+                  },
+                  {
+                    "name": "Advanced Cardiac Catheterization Laboratory",
+                    "code": ""
+                  },
+                  {
+                    "name": "Hospital Administration",
+                    "code": ""
+                  },
+                  {
+                    "name": "Research Methodology & Biostatistics",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 7",
+                "modules": [
+                  {
+                    "name": "Clinical Internship",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 8",
+                "modules": [
+                  {
+                    "name": "Clinical Internship",
+                    "code": ""
+                  }
+                ]
+              }
+            ],
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Clinical Competence",
+                  "text": "Train graduates to assist in a wide range of cardiac diagnostic and therapeutic procedures while ensuring accurate patient monitoring and quality cardiac care."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Professional Practice",
+                  "text": "Prepare students for employment in specialised cardiac units, enabling them to contribute effectively to cardiac care, emergency interventions, and multidisciplinary healthcare teams."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Lifelong Learning & Professional Growth",
+                  "text": "Promote continuous learning and career advancement through exposure to emerging cardiology technologies, interventional techniques, and evidence-based clinical practice."
+                }
+              ],
+              "POs": [
+                {
+                  "id": "PO 1",
+                  "text": "Understand cardiovascular anatomy, physiology, pathology, and the principles of cardiac care in clinical practice."
+                },
+                {
+                  "id": "PO 2",
+                  "text": "Assist in performing ECG, echocardiography, stress testing, cardiac catheterization, and other diagnostic cardiac procedures."
+                },
+                {
+                  "id": "PO 3",
+                  "text": "Monitor patients in coronary care units and critical care settings while analysing cardiac diagnostic data under professional supervision."
+                },
+                {
+                  "id": "PO 4",
+                  "text": "Operate, maintain, and troubleshoot cardiac diagnostic and monitoring equipment while assisting cardiologists during invasive and non-invasive procedures."
+                },
+                {
+                  "id": "PO 5",
+                  "text": "Communicate effectively with patients and multidisciplinary healthcare teams while adhering to ethical standards, patient confidentiality, and hospital protocols."
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Cardiac Diagnostic & Therapeutic Support",
+                  "text": "Support diagnostic and therapeutic cardiac procedures including ECG, echocardiography, stress testing, and cardiac catheterization."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Cardiac Monitoring & Critical Care",
+                  "text": "Monitor patients using cardiac telemetry systems and provide technical support in coronary care units and critical care environments."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Cath Lab & Cardiac Care Assistance",
+                  "text": "Assist cardiologists in acute and chronic cardiac care settings, including intensive care units and cardiac catheterization laboratories."
+                }
+              ]
+            }
+          },
+          "highlights": [
+            {
+              "title": "Industry-Oriented Curriculum",
+              "description": "Curriculum designed in collaboration with hospitals and healthcare experts to meet current clinical practices and industry standards."
+            },
+            {
+              "title": "Early Clinical Exposure",
+              "description": "Students receive supervised clinical exposure from the early semesters, helping them develop practical skills and patient-care confidence."
+            },
+            {
+              "title": "State-of-the-Art Simulation Laboratories",
+              "description": "Modern simulation laboratories provide hands-on training in clinical procedures, emergency care, and diagnostic techniques using advanced healthcare equipment."
+            },
+            {
+              "title": "Experienced Faculty & Clinical Mentors",
+              "description": "Learn from qualified faculty members and experienced clinicians who provide academic guidance, practical training, and professional mentorship."
+            },
+            {
+              "title": "One-Year Compulsory Internship with Placement Support",
+              "description": "A structured one-year internship in affiliated hospitals provides extensive clinical experience, complemented by dedicated placement assistance."
+            },
+            {
+              "title": "Interdisciplinary Team-Based Healthcare Training",
+              "description": "Collaborative learning alongside doctors, nurses, and allied healthcare professionals prepares students for multidisciplinary clinical environments."
+            },
+            {
+              "title": "Skill-Based Certifications",
+              "description": "Opportunities to earn certifications in CPR, BLS/ACLS, Infection Control, and Medical Software to strengthen professional competencies."
+            },
+            {
+              "title": "Strong Research & Innovation Culture",
+              "description": "Students are encouraged to participate in research projects, clinical studies, and healthcare innovation under expert faculty guidance."
+            },
+            {
+              "title": "Digital Learning Ecosystem",
+              "description": "Smart classrooms, online case libraries, simulation software, and digital learning resources enhance classroom and clinical education."
+            },
+            {
+              "title": "Global Healthcare Career Readiness",
+              "description": "A globally aligned curriculum equips graduates with the knowledge and skills required for healthcare careers and higher studies in India and abroad."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Cardiac Technologist / Technician",
+              "roles": []
+            },
+            {
+              "category": "Cardiac Sonographer",
+              "roles": []
+            },
+            {
+              "category": "Cardiac Rehabilitation Specialist",
+              "roles": []
+            },
+            {
+              "category": "Healthcare Administrator",
+              "roles": []
+            },
+            {
+              "category": "Clinical Research Assistant",
+              "roles": []
+            },
+            {
+              "category": "Medical Sales Representative",
+              "roles": []
+            },
+            {
+              "category": "Public Health Specialist",
+              "roles": []
+            },
+            {
+              "category": "Healthcare Educator & Trainer",
+              "roles": []
+            },
+            {
+              "category": "Cardiovascular Researcher",
+              "roles": []
+            },
+            {
+              "category": "Home Healthcare Provider",
+              "roles": []
+            }
+          ],
+          "faq": [
+            {
+              "q": "What is the admission process for the B.Sc. Cardiac Care Technology programme?",
+              "a": "Candidates can apply by following the university's admission and enrolment process. Please refer to the official admission guidelines for eligibility criteria, required documents, and important application dates."
+            },
+            {
+              "q": "Do I need to appear for an entrance exam to apply for Cardiac Care Technology?",
+              "a": "No. Admission is generally based on Class 12 Science (PCM/PCB) marks and meeting the prescribed eligibility criteria. An entrance examination is not required."
+            },
+            {
+              "q": "Does the B.Sc. Cardiac Care Technology programme include hands-on clinical training?",
+              "a": "Yes. The programme provides extensive practical training through well-equipped laboratories, cardiac diagnostic equipment, simulation-based learning, and supervised clinical internships in healthcare settings."
+            },
+            {
+              "q": "What is the average starting salary after completing a B.Sc. in Cardiac Care Technology?",
+              "a": "Fresh graduates typically earn an average starting salary of ₹3–6 LPA. Salary packages generally increase with experience, specialised skills, and the healthcare organisation."
+            },
+            {
+              "q": "Is this degree recognised nationally and internationally for further studies?",
+              "a": "Yes. The degree is nationally recognised as Presidency University is UGC-approved and an AIU member. It also supports eligibility for higher studies in India and abroad, subject to the admission requirements of individual universities."
+            }
+          ]
+        },
+        {
+          "slug": "bsc-rct",
+          "name": "B.Sc. Respiratory Care Technology (RCT)",
           "duration": "3 Years",
           "type": "Undergraduate",
           "degree": "B.Sc",
@@ -22755,14 +23764,14 @@
             "image": "/img/banner/soh.JPG",
             "title": {
               "normal": "B.Sc",
-              "italic": "Medical Laboratory Technology"
+              "italic": "Respiratory Care Technology"
             },
-            "description": "Unlock the secrets of disease diagnosis. Our MLT program trains technologists to perform complex laboratory tests that inform clinical decisions and patient treatment.",
+            "description": "",
             "breadcrumb": [
               "Home",
               "Schools",
               "School of Health Sciences",
-              "B.Sc Medical Laboratory Technology"
+              "B.Sc Respiratory Care Technology"
             ],
             "stats": [
               {
@@ -22784,10 +23793,7 @@
             "campus": "Bengaluru, India",
             "school": "School of Health Sciences"
           },
-          "overview": [
-            "The B.Sc Medical Laboratory Technology programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
-            "Students gain extensive hands-on experience at affiliated hospitals and healthcare facilities, developing the competency and compassion needed to provide high-quality patient care and advance health outcomes."
-          ],
+          "overview": [],
           "image": "/img/programme/h/h2.jpg",
           "images": [
             "/img/programme/h/h1.jpg",
@@ -22796,123 +23802,38 @@
           ],
           "eligibility": {
             "title": "Eligibility Criteria",
-            "description": "10+2 with Physics, Chemistry, and Biology. Merit-based selection through entrance examination. Strong aptitude for scientific work and laboratory procedures.",
-            "note": "This is a 3-year program with excellent career prospects in hospitals, diagnostic labs, and research centers."
+            "description": "",
+            "note": ""
           },
-          "highlights": [
-            {
-              "title": "Extensive Clinical Training",
-              "description": "Hundreds of supervised clinical hours at affiliated hospitals and healthcare facilities ensure students are practice-ready long before they graduate."
-            },
-            {
-              "title": "Evidence-Based Healthcare Education",
-              "description": "Curriculum grounded in the latest clinical research, treatment protocols, and healthcare technologies keeps students aligned with global standards of patient care."
-            },
-            {
-              "title": "Empathetic, Patient-Centred Approach",
-              "description": "Training in communication, empathy, and ethical healthcare practice prepares students to build trust with patients and work compassionately in diverse healthcare settings."
-            },
-            {
-              "title": "Experienced Clinical Faculty",
-              "description": "Faculty with active clinical practice bring current, real-world medical knowledge into every lecture, ensuring education remains grounded in what actually happens in the field."
-            },
-            {
-              "title": "High Employability in Growing Sector",
-              "description": "Healthcare is among the fastest-growing global sectors. Our graduates are consistently placed at leading hospitals, rehabilitation centres, and research institutions."
-            },
-            {
-              "title": "Pathway to International Healthcare Careers",
-              "description": "Recognised qualifications and strong clinical training open pathways to healthcare roles and further studies in the UK, Canada, Australia, and the Middle East."
-            }
-          ],
-          "careers": [
-            {
-              "category": "Clinical Practice",
-              "roles": [
-                "Physiotherapist at Apollo, Fortis, Max Healthcare",
-                "Nurse Practitioner at government and private hospitals",
-                "Occupational Therapist at rehabilitation centers",
-                "Medical Laboratory Technologist at diagnostic labs"
-              ]
-            },
-            {
-              "category": "Hospital Administration & Management",
-              "roles": [
-                "Hospital Manager at large hospital chains",
-                "Healthcare Operations Manager at clinic networks",
-                "Clinical Quality Manager at accredited hospitals",
-                "Health Services Administrator at insurance companies"
-              ]
-            },
-            {
-              "category": "Research & Academia",
-              "roles": [
-                "Clinical Researcher at ICMR, AIIMS, NIH",
-                "Health Sciences Lecturer at nursing and allied health colleges",
-                "Clinical Trial Coordinator at pharma companies",
-                "Public Health Researcher at WHO, UNICEF"
-              ]
-            },
-            {
-              "category": "Allied Health & Specialty",
-              "roles": [
-                "Sports Physiotherapist at sports teams and academies",
-                "Pediatric Nurse Specialist at children's hospitals",
-                "Geriatric Occupational Therapist at elder care centers",
-                "Healthcare Consultant at Deloitte, Accenture Health"
-              ]
-            }
-          ],
-          "faq": [
-            {
-              "q": "What clinical training is provided?",
-              "a": "Students get hands-on clinical training in affiliated hospitals with 100+ hours of practice"
-            },
-            {
-              "q": "What are the specialization options?",
-              "a": "We offer specializations in various health disciplines including clinical practice and research"
-            },
-            {
-              "q": "Is there research opportunity?",
-              "a": "Yes, we encourage research projects and have partnerships with medical research institutions"
-            },
-            {
-              "q": "What are career paths?",
-              "a": "Graduates work as healthcare practitioners, hospital managers, researchers, and consultants"
-            },
-            {
-              "q": "What is the placement rate?",
-              "a": "Our placement rate is 93%+ with government and private healthcare institutions"
-            },
-            {
-              "q": "Are there international opportunities?",
-              "a": "Yes, students can pursue further studies abroad with support from our international office"
-            }
-          ]
+          "highlights": [],
+          "careers": [],
+          "faq": []
         },
         {
-          "slug": "msc-physiotherapy-musculoskeletal",
-          "name": "M.Sc Physiotherapy (Musculoskeletal)",
-          "duration": "2 Years",
-          "type": "Postgraduate",
-          "degree": "M.Sc",
+          "slug": "bsc-mrit",
+          "name": "B.Sc. Medical Radiology & Imaging Technology (MRIT)",
+          "duration": "4 Years (Including Clinical Internship)",
+          "type": "Undergraduate",
+          "degree": "B.Sc",
+          "overviewtitle": "Advancing Precision in",
+          "highlight": "Medical Imaging",
           "hero": {
             "image": "/img/banner/soh.JPG",
             "title": {
-              "normal": "M.Sc Physiotherapy",
-              "italic": "(Musculoskeletal)"
+              "normal": "B.Sc",
+              "italic": "Medical Radiology & Imaging Technology (MRIT)"
             },
-            "description": "Specialize in orthopedic rehabilitation and sports physiotherapy. Develop advanced clinical skills to treat complex musculoskeletal conditions and enhance athletic performance.",
+            "description": "Unlock the secrets of disease diagnosis. Our MLT program trains technologists to perform complex laboratory tests that inform clinical decisions and patient treatment.",
             "breadcrumb": [
               "Home",
               "Schools",
               "School of Health Sciences",
-              "M.Sc Physiotherapy (Musculoskeletal)"
+              "B.Sc Medical Radiology & Imaging Technology"
             ],
             "stats": [
               {
                 "label": "Duration",
-                "value": "2 Years"
+                "value": "4 Years"
               },
               {
                 "label": "Campus",
@@ -22925,13 +23846,12 @@
             ]
           },
           "details": {
-            "duration": "2 Years Full-Time",
+            "duration": "4 Years (Including Clinical Internship)",
             "campus": "Bengaluru, India",
             "school": "School of Health Sciences"
           },
           "overview": [
-            "The M.Sc Physiotherapy (Musculoskeletal) programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
-            "Students gain extensive hands-on experience at affiliated hospitals and healthcare facilities, developing the competency and compassion needed to provide high-quality patient care and advance health outcomes."
+            "The B.Sc. Medical Radiology & Imaging Technology (MRIT) programme is designed to develop expertise in diagnostic imaging modalities such as X-Ray, CT, MRI, Ultrasound, and Nuclear Medicine. Students gain hands-on training in radiographic positioning, imaging protocols, radiation safety, image acquisition, and patient care. The curriculum combines anatomy, physiology, pathology, imaging sciences, and clinical education to prepare students for modern diagnostic imaging environments.Students gain extensive hands-on experience at affiliated hospitals and healthcare facilities, developing the competency and compassion needed to provide high-quality patient care and advance health outcomes."
           ],
           "image": "/img/programme/h/h2.jpg",
           "images": [
@@ -22941,244 +23861,567 @@
           ],
           "eligibility": {
             "title": "Eligibility Criteria",
-            "description": "Bachelor's degree in Physiotherapy or related field. Minimum 50% marks in undergraduate studies. Work experience as a physiotherapist is preferred. Entrance examination and interview selection.",
-            "note": "Ideal for physiotherapists seeking specialization in orthopedics and sports medicine."
+            "description": "10+2 with Physics, Chemistry, Biology and English with minimum 50% marks.",
+            "note": ""
           },
-          "highlights": [
-            {
-              "title": "Extensive Clinical Training",
-              "description": "Hundreds of supervised clinical hours at affiliated hospitals and healthcare facilities ensure students are practice-ready long before they graduate."
-            },
-            {
-              "title": "Evidence-Based Healthcare Education",
-              "description": "Curriculum grounded in the latest clinical research, treatment protocols, and healthcare technologies keeps students aligned with global standards of patient care."
-            },
-            {
-              "title": "Empathetic, Patient-Centred Approach",
-              "description": "Training in communication, empathy, and ethical healthcare practice prepares students to build trust with patients and work compassionately in diverse healthcare settings."
-            },
-            {
-              "title": "Experienced Clinical Faculty",
-              "description": "Faculty with active clinical practice bring current, real-world medical knowledge into every lecture, ensuring education remains grounded in what actually happens in the field."
-            },
-            {
-              "title": "High Employability in Growing Sector",
-              "description": "Healthcare is among the fastest-growing global sectors. Our graduates are consistently placed at leading hospitals, rehabilitation centres, and research institutions."
-            },
-            {
-              "title": "Pathway to International Healthcare Careers",
-              "description": "Recognised qualifications and strong clinical training open pathways to healthcare roles and further studies in the UK, Canada, Australia, and the Middle East."
-            }
-          ],
-          "careers": [
-            {
-              "category": "Clinical Practice",
-              "roles": [
-                "Physiotherapist at Apollo, Fortis, Max Healthcare",
-                "Nurse Practitioner at government and private hospitals",
-                "Occupational Therapist at rehabilitation centers",
-                "Medical Laboratory Technologist at diagnostic labs"
-              ]
-            },
-            {
-              "category": "Hospital Administration & Management",
-              "roles": [
-                "Hospital Manager at large hospital chains",
-                "Healthcare Operations Manager at clinic networks",
-                "Clinical Quality Manager at accredited hospitals",
-                "Health Services Administrator at insurance companies"
-              ]
-            },
-            {
-              "category": "Research & Academia",
-              "roles": [
-                "Clinical Researcher at ICMR, AIIMS, NIH",
-                "Health Sciences Lecturer at nursing and allied health colleges",
-                "Clinical Trial Coordinator at pharma companies",
-                "Public Health Researcher at WHO, UNICEF"
-              ]
-            },
-            {
-              "category": "Allied Health & Specialty",
-              "roles": [
-                "Sports Physiotherapist at sports teams and academies",
-                "Pediatric Nurse Specialist at children's hospitals",
-                "Geriatric Occupational Therapist at elder care centers",
-                "Healthcare Consultant at Deloitte, Accenture Health"
-              ]
-            }
-          ],
-          "faq": [
-            {
-              "q": "What clinical training is provided?",
-              "a": "Students get hands-on clinical training in affiliated hospitals with 100+ hours of practice"
-            },
-            {
-              "q": "What are the specialization options?",
-              "a": "We offer specializations in various health disciplines including clinical practice and research"
-            },
-            {
-              "q": "Is there research opportunity?",
-              "a": "Yes, we encourage research projects and have partnerships with medical research institutions"
-            },
-            {
-              "q": "What are career paths?",
-              "a": "Graduates work as healthcare practitioners, hospital managers, researchers, and consultants"
-            },
-            {
-              "q": "What is the placement rate?",
-              "a": "Our placement rate is 93%+ with government and private healthcare institutions"
-            },
-            {
-              "q": "Are there international opportunities?",
-              "a": "Yes, students can pursue further studies abroad with support from our international office"
-            }
-          ]
-        },
-        {
-          "slug": "msc-nursing-clinical",
-          "name": "M.Sc Nursing (Clinical Specialization)",
-          "duration": "2 Years",
-          "type": "Postgraduate",
-          "degree": "M.Sc",
-          "hero": {
-            "image": "/img/banner/soh.JPG",
-            "title": {
-              "normal": "M.Sc Nursing",
-              "italic": "(Clinical Specialization)"
-            },
-            "description": "Advance your nursing career with specialized clinical expertise. Our master's program develops nurse leaders and specialists in critical care, medical-surgical, and community health nursing.",
-            "breadcrumb": [
-              "Home",
-              "Schools",
-              "School of Health Sciences",
-              "M.Sc Nursing (Clinical Specialization)"
-            ],
-            "stats": [
+          "tabs": {
+            "curriculum": [
               {
-                "label": "Duration",
-                "value": "2 Years"
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Human Anatomy",
+                    "code": ""
+                  },
+                  {
+                    "name": "Physiology",
+                    "code": ""
+                  },
+                  {
+                    "name": "Basics of Radiation Physics",
+                    "code": ""
+                  },
+                  {
+                    "name": "Introduction to Healthcare",
+                    "code": ""
+                  },
+                  {
+                    "name": "Medical Terminology and Record Keeping",
+                    "code": ""
+                  },
+                  {
+                    "name": "Basic Computers and Information Science",
+                    "code": ""
+                  },
+                  {
+                    "name": "Medical Law and Ethics",
+                    "code": ""
+                  },
+                  {
+                    "name": "Professionalism and Values",
+                    "code": ""
+                  },
+                  {
+                    "name": "Principles of Management",
+                    "code": ""
+                  },
+                  {
+                    "name": "English and Communication Skills",
+                    "code": ""
+                  },
+                  {
+                    "name": "Radiology Clinical Education – Part I",
+                    "code": ""
+                  }
+                ]
               },
               {
-                "label": "Campus",
-                "value": "Bengaluru, India"
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Basics of Microbiology",
+                    "code": ""
+                  },
+                  {
+                    "name": "Basics of Biochemistry",
+                    "code": ""
+                  },
+                  {
+                    "name": "Conventional Radiography and Equipment",
+                    "code": ""
+                  },
+                  {
+                    "name": "Clinical Radiography Positioning (Part I)",
+                    "code": ""
+                  },
+                  {
+                    "name": "Radiology Clinical Education – Part II",
+                    "code": ""
+                  }
+                ]
               },
               {
-                "label": "Status",
-                "value": "Active"
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Pathology",
+                    "code": ""
+                  },
+                  {
+                    "name": "Clinical Radiography Positioning (Part II)",
+                    "code": ""
+                  },
+                  {
+                    "name": "Radiography and Image Processing Techniques",
+                    "code": ""
+                  },
+                  {
+                    "name": "Contrast Media and Special Radiological Procedures",
+                    "code": ""
+                  },
+                  {
+                    "name": "Radiology Clinical Education – Part III",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "Cross-Sectional Anatomy",
+                    "code": ""
+                  },
+                  {
+                    "name": "Modern Radiological Imaging Equipment and Physics",
+                    "code": ""
+                  },
+                  {
+                    "name": "Interventional Radiology Techniques",
+                    "code": ""
+                  },
+                  {
+                    "name": "Patient Care in Radiology",
+                    "code": ""
+                  },
+                  {
+                    "name": "Radiology Clinical Education – Part IV",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 5",
+                "modules": [
+                  {
+                    "name": "Basic Techniques in CT Technology",
+                    "code": ""
+                  },
+                  {
+                    "name": "Radiation Safety in Diagnostic Radiology",
+                    "code": ""
+                  },
+                  {
+                    "name": "Quality Assurance in Diagnostic Radiology and Regulatory Requirements",
+                    "code": ""
+                  },
+                  {
+                    "name": "Radiology Clinical Education – Part V",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 6",
+                "modules": [
+                  {
+                    "name": "Basic Techniques in MRI Technology",
+                    "code": ""
+                  },
+                  {
+                    "name": "Introduction to Nuclear Medicine Techniques",
+                    "code": ""
+                  },
+                  {
+                    "name": "Ultrasound Techniques",
+                    "code": ""
+                  },
+                  {
+                    "name": "Biostatistics and Research Methodology",
+                    "code": ""
+                  },
+                  {
+                    "name": "Radiology Clinical Education – Part VI",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 7",
+                "modules": [
+                  {
+                    "name": "Clinical Internship",
+                    "code": ""
+                  },
+                  {
+                    "name": "Clinical Internship in Medical Imaging and Radiology Departments",
+                    "code": ""
+                  },
+                  {
+                    "name": "CT Imaging Training",
+                    "code": ""
+                  },
+                  {
+                    "name": "MRI Imaging Training",
+                    "code": ""
+                  },
+                  {
+                    "name": "Ultrasound Exposure",
+                    "code": ""
+                  },
+                  {
+                    "name": "Nuclear Medicine Exposure",
+                    "code": ""
+                  },
+                  {
+                    "name": "Radiographic Procedures & Patient Care",
+                    "code": ""
+                  },
+                  {
+                    "name": "Radiation Safety Practices",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 8",
+                "modules": [
+                  {
+                    "name": "Clinical Internship",
+                    "code": ""
+                  },
+                  {
+                    "name": "Clinical Internship in Medical Imaging and Radiology Departments",
+                    "code": ""
+                  },
+                  {
+                    "name": "CT Imaging Training",
+                    "code": ""
+                  },
+                  {
+                    "name": "MRI Imaging Training",
+                    "code": ""
+                  },
+                  {
+                    "name": "Ultrasound Exposure",
+                    "code": ""
+                  },
+                  {
+                    "name": "Nuclear Medicine Exposure",
+                    "code": ""
+                  },
+                  {
+                    "name": "Radiographic Procedures & Patient Care",
+                    "code": ""
+                  },
+                  {
+                    "name": "Radiation Safety Practices",
+                    "code": ""
+                  }
+                ]
               }
-            ]
-          },
-          "details": {
-            "duration": "2 Years Full-Time",
-            "campus": "Bengaluru, India",
-            "school": "School of Health Sciences"
-          },
-          "overview": [
-            "The M.Sc Nursing (Clinical Specialization) programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
-            "Students gain extensive hands-on experience at affiliated hospitals and healthcare facilities, developing the competency and compassion needed to provide high-quality patient care and advance health outcomes."
-          ],
-          "image": "/img/programme/h/h2.jpg",
-          "images": [
-            "/img/programme/h/h1.jpg",
-            "/img/programme/h/h2.jpg",
-            "/img/programme/h/h3.jpg"
-          ],
-          "eligibility": {
-            "title": "Eligibility Criteria",
-            "description": "Bachelor's degree in Nursing (B.Sc or B.N). Minimum 55% marks in undergraduate studies. Clinical experience preferred. Selection through entrance examination and interview.",
-            "note": "Excellent for nurses seeking career advancement in clinical leadership and specialization."
+            ],
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Diagnostic Imaging Competence",
+                  "text": "Prepare graduates to effectively operate diagnostic imaging equipment and support accurate medical diagnosis through high-quality image acquisition."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Patient Safety & Professional Practice",
+                  "text": "Instill a commitment to patient safety, radiation protection, imaging protocols, and adherence to healthcare standards in clinical practice."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Continuous Learning & Innovation",
+                  "text": "Promote lifelong learning, innovation, and the integration of emerging medical imaging technologies to enhance diagnostic excellence."
+                }
+              ],
+              "POs": [
+                {
+                  "id": "PO 1",
+                  "text": "Understand radiographic physics, anatomy, pathology, and the principles of image formation for accurate diagnostic imaging."
+                },
+                {
+                  "id": "PO 2",
+                  "text": "Perform diagnostic imaging procedures using X-Ray, CT, MRI, and Ultrasound systems while selecting appropriate imaging protocols."
+                },
+                {
+                  "id": "PO 3",
+                  "text": "Ensure patient safety by implementing radiation protection measures, proper patient positioning, and adherence to regulatory standards."
+                },
+                {
+                  "id": "PO 4",
+                  "text": "Operate, maintain, and calibrate imaging equipment while utilizing PACS and digital imaging systems to support efficient clinical workflows."
+                },
+                {
+                  "id": "PO 5",
+                  "text": "Collaborate effectively with radiologists and multidisciplinary healthcare teams while demonstrating professionalism, ethics, patient sensitivity, and adaptability to emerging imaging technologies."
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Diagnostic Imaging Operations",
+                  "text": "Operate diagnostic imaging equipment including X-Ray, CT, MRI, and Ultrasound systems to produce high-quality diagnostic images."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Radiation Safety & Compliance",
+                  "text": "Ensure radiation safety by following established protection practices while complying with ethical, legal, and regulatory standards."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Clinical Imaging Support",
+                  "text": "Produce high-quality diagnostic images and assist radiologists in image acquisition, preliminary image assessment, and patient care during imaging procedures."
+                }
+              ]
+            }
           },
           "highlights": [
             {
-              "title": "Extensive Clinical Training",
-              "description": "Hundreds of supervised clinical hours at affiliated hospitals and healthcare facilities ensure students are practice-ready long before they graduate."
+              "title": "Conventional Radiography",
+              "description": ""
             },
             {
-              "title": "Evidence-Based Healthcare Education",
-              "description": "Curriculum grounded in the latest clinical research, treatment protocols, and healthcare technologies keeps students aligned with global standards of patient care."
+              "title": "CT Technology",
+              "description": ""
             },
             {
-              "title": "Empathetic, Patient-Centred Approach",
-              "description": "Training in communication, empathy, and ethical healthcare practice prepares students to build trust with patients and work compassionately in diverse healthcare settings."
+              "title": "MRI Technology",
+              "description": ""
             },
             {
-              "title": "Experienced Clinical Faculty",
-              "description": "Faculty with active clinical practice bring current, real-world medical knowledge into every lecture, ensuring education remains grounded in what actually happens in the field."
+              "title": "Ultrasound Imaging",
+              "description": ""
             },
             {
-              "title": "High Employability in Growing Sector",
-              "description": "Healthcare is among the fastest-growing global sectors. Our graduates are consistently placed at leading hospitals, rehabilitation centres, and research institutions."
+              "title": "Nuclear Medicine",
+              "description": ""
             },
             {
-              "title": "Pathway to International Healthcare Careers",
-              "description": "Recognised qualifications and strong clinical training open pathways to healthcare roles and further studies in the UK, Canada, Australia, and the Middle East."
+              "title": "Human Anatomy",
+              "description": ""
+            },
+            {
+              "title": "Physiology",
+              "description": ""
+            },
+            {
+              "title": "Pathology",
+              "description": ""
+            },
+            {
+              "title": "Microbiology",
+              "description": ""
+            },
+            {
+              "title": "Biochemistry",
+              "description": ""
+            },
+            {
+              "title": "Radiation Protection",
+              "description": ""
+            },
+            {
+              "title": "Patient Care in Radiology",
+              "description": ""
+            },
+            {
+              "title": "Medical Ethics",
+              "description": ""
+            },
+            {
+              "title": "Healthcare Management",
+              "description": ""
+            },
+            {
+              "title": "Biostatistics",
+              "description": ""
+            },
+            {
+              "title": "Research Methodology",
+              "description": ""
+            },
+            {
+              "title": "Quality Assurance in Radiology",
+              "description": ""
+            },
+            {
+              "title": "Six Levels of Clinical Education",
+              "description": ""
+            },
+            {
+              "title": "Hospital-Based Internship",
+              "description": ""
+            },
+            {
+              "title": "Diagnostic Imaging Exposure",
+              "description": ""
+            },
+            {
+              "title": "Industry-Oriented Curriculum",
+              "description": ""
+            },
+            {
+              "title": "Clinical Integration from Early Semesters",
+              "description": ""
+            },
+            {
+              "title": "State-of-the-Art Simulation Labs",
+              "description": ""
+            },
+            {
+              "title": "Experienced Faculty and Clinical Mentors",
+              "description": ""
+            },
+            {
+              "title": "Compulsory Internship with Placement Support",
+              "description": ""
+            },
+            {
+              "title": "Interdisciplinary Team-Based Care",
+              "description": ""
+            },
+            {
+              "title": "Skill-Based Certifications (CPR, BLS/ACLS, Infection Control, Medical Software Training)",
+              "description": ""
+            },
+            {
+              "title": "Strong Research & Innovation Culture",
+              "description": ""
+            },
+            {
+              "title": "Digital Learning Ecosystem",
+              "description": ""
+            },
+            {
+              "title": "Global Career Readiness",
+              "description": ""
             }
           ],
           "careers": [
             {
-              "category": "Clinical Practice",
-              "roles": [
-                "Physiotherapist at Apollo, Fortis, Max Healthcare",
-                "Nurse Practitioner at government and private hospitals",
-                "Occupational Therapist at rehabilitation centers",
-                "Medical Laboratory Technologist at diagnostic labs"
-              ]
+              "category": "Radiologic Technologist",
+              "roles": []
             },
             {
-              "category": "Hospital Administration & Management",
-              "roles": [
-                "Hospital Manager at large hospital chains",
-                "Healthcare Operations Manager at clinic networks",
-                "Clinical Quality Manager at accredited hospitals",
-                "Health Services Administrator at insurance companies"
-              ]
+              "category": "MRI Technologist",
+              "roles": []
             },
             {
-              "category": "Research & Academia",
-              "roles": [
-                "Clinical Researcher at ICMR, AIIMS, NIH",
-                "Health Sciences Lecturer at nursing and allied health colleges",
-                "Clinical Trial Coordinator at pharma companies",
-                "Public Health Researcher at WHO, UNICEF"
-              ]
+              "category": "CT Technologist",
+              "roles": []
             },
             {
-              "category": "Allied Health & Specialty",
-              "roles": [
-                "Sports Physiotherapist at sports teams and academies",
-                "Pediatric Nurse Specialist at children's hospitals",
-                "Geriatric Occupational Therapist at elder care centers",
-                "Healthcare Consultant at Deloitte, Accenture Health"
-              ]
+              "category": "Ultrasound Technologist",
+              "roles": []
+            },
+            {
+              "category": "Nuclear Medicine Technologist",
+              "roles": []
+            },
+            {
+              "category": "Radiation Therapist",
+              "roles": []
+            },
+            {
+              "category": "Healthcare Educator",
+              "roles": []
+            },
+            {
+              "category": "Imaging Specialist",
+              "roles": []
+            },
+            {
+              "category": "Diagnostic Imaging Executive",
+              "roles": []
+            },
+            {
+              "category": "PACS Administrator",
+              "roles": []
+            },
+            {
+              "category": "Radiology Department Coordinator",
+              "roles": []
             }
           ],
-          "faq": [
-            {
-              "q": "What clinical training is provided?",
-              "a": "Students get hands-on clinical training in affiliated hospitals with 100+ hours of practice"
-            },
-            {
-              "q": "What are the specialization options?",
-              "a": "We offer specializations in various health disciplines including clinical practice and research"
-            },
-            {
-              "q": "Is there research opportunity?",
-              "a": "Yes, we encourage research projects and have partnerships with medical research institutions"
-            },
-            {
-              "q": "What are career paths?",
-              "a": "Graduates work as healthcare practitioners, hospital managers, researchers, and consultants"
-            },
-            {
-              "q": "What is the placement rate?",
-              "a": "Our placement rate is 93%+ with government and private healthcare institutions"
-            },
-            {
-              "q": "Are there international opportunities?",
-              "a": "Yes, students can pursue further studies abroad with support from our international office"
-            }
-          ]
+         
+"faq": [
+  {
+    "q": "What is B.Sc. Medical Radiology & Imaging Technology (MRIT)?",
+    "a": "B.Sc. MRIT is a four-year undergraduate programme that prepares students to work with diagnostic imaging technologies such as X-Ray, CT, MRI, Ultrasound, and Nuclear Medicine through a combination of classroom learning and clinical training."
+  },
+  {
+    "q": "What is the duration of the programme?",
+    "a": "The programme is four years in duration, including academic coursework and compulsory clinical internship training."
+  },
+  {
+    "q": "What are the eligibility criteria for admission?",
+    "a": "Candidates must have completed 10+2 or an equivalent qualification with Physics, Chemistry, and Biology as compulsory subjects, secured at least 50% marks, and passed English."
+  },
+  {
+    "q": "Which imaging technologies will I learn during the course?",
+    "a": "Students receive theoretical and practical training in X-Ray, CT Scan, MRI, Ultrasound, Nuclear Medicine, and Interventional Radiology techniques."
+  },
+  {
+    "q": "Does the programme include clinical training?",
+    "a": "Yes. Students undergo supervised clinical postings from the early semesters along with a compulsory internship to gain practical experience in diagnostic imaging."
+  },
+  {
+    "q": "What skills will I develop during the programme?",
+    "a": "The programme develops skills in patient positioning, radiographic imaging, radiation safety, equipment operation, image processing, medical documentation, and clinical communication."
+  },
+  {
+    "q": "What career opportunities are available after graduation?",
+    "a": "Graduates can work as Radiologic Technologists, MRI Technologists, CT Technologists, Ultrasound Technologists, Nuclear Medicine Technologists, Radiation Therapists, Imaging Specialists, PACS Administrators, Healthcare Educators, and Radiology Department Coordinators."
+  },
+  {
+    "q": "Can I work in hospitals after completing this course?",
+    "a": "Yes. Graduates are eligible to work in hospitals, diagnostic centres, imaging laboratories, specialty clinics, research institutions, and healthcare technology organisations."
+  },
+  {
+    "q": "Is radiation safety covered in the curriculum?",
+    "a": "Yes. The curriculum includes dedicated training in radiation physics, radiation safety, quality assurance, and regulatory guidelines to promote safe imaging practices."
+  },
+  {
+    "q": "Are internships mandatory?",
+    "a": "Yes. A clinical internship is a compulsory part of the programme, providing hands-on experience with diagnostic imaging procedures."
+  },
+  {
+    "q": "What higher education options are available after B.Sc. MRIT?",
+    "a": "Graduates can pursue M.Sc. programmes in Medical Radiology & Imaging Technology, Radiology, Radiation Physics, specialised certifications in CT, MRI, and Interventional Radiology, or research and academic programmes."
+  },
+  {
+    "q": "What makes this programme unique?",
+    "a": "The programme offers an industry-oriented curriculum, early clinical exposure, advanced simulation laboratories, experienced faculty, internship opportunities, research exposure, skill-based certifications, and global career readiness."
+  },
+  {
+    "q": "Is this course suitable for students interested in healthcare technology?",
+    "a": "Yes. It is ideal for students interested in medical technology, diagnostic sciences, patient care, and advanced healthcare equipment."
+  },
+  {
+    "q": "What facilities are available for practical learning?",
+    "a": "Students have access to simulation laboratories, radiology equipment training, hospital-based clinical exposure, digital imaging systems, and modern healthcare learning facilities."
+  },
+  {
+    "q": "Does the programme offer placement support?",
+    "a": "Yes. Students receive internship opportunities and placement assistance through collaborations with hospitals, diagnostic centres, and healthcare organisations."
+  },
+  {
+    "q": "Can I pursue international career opportunities after this course?",
+    "a": "Yes. Medical Imaging Technology is recognised globally, and graduates can explore international opportunities after meeting the certification and licensing requirements of the respective country."
+  },
+  {
+    "q": "What is the role of a Medical Imaging Technologist?",
+    "a": "Medical Imaging Technologists operate diagnostic imaging equipment, produce high-quality medical images, ensure patient safety, follow radiation protection protocols, and assist radiologists during diagnostic procedures."
+  },
+  {
+    "q": "Will I learn both theory and practical applications?",
+    "a": "Yes. The curriculum combines classroom teaching with laboratory sessions, clinical training, case-based learning, and internship experience for comprehensive professional development."
+  },
+  {
+    "q": "Is research included in the programme?",
+    "a": "Yes. Students study Biostatistics and Research Methodology and are encouraged to participate in research projects, case studies, and healthcare innovation activities."
+  },
+  {
+    "q": "Why should I choose Presidency University for MRIT?",
+    "a": "Presidency University offers a comprehensive curriculum, early clinical exposure, modern laboratories, experienced faculty, strong industry partnerships, internship opportunities, placement support, and a focus on career readiness."
+  }
+]
+
         }
       ],
       "programSections": [],

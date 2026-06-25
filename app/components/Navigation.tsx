@@ -210,10 +210,10 @@ export function Navigation() {
         },
       ],
       phd: [
-        {
-          label: "Ph.D. Research Programme",
-          href: "/schools/engineering#phd-research",
-        },
+        // {
+        //   label: "Ph.D. Research Programme",
+        //   href: "/schools/engineering#phd-research",
+        // },
       ],
       diploma: [
         {
@@ -546,33 +546,31 @@ export function Navigation() {
           href: "/schools/health/bpt",
         },
         {
-          label: "B.Sc Nursing",
-          href: "/schools/health/bsc-nursing",
+          label: "B.Sc. Anaesthesia & Operation Theatre Technology (AOTT)",
+          href: "/schools/health/bsc-aott",
         },
         {
-          label: "B.Sc Occupational Therapy",
-          href: "/schools/health/bsc-occupational-therapy",
-        },
-        {
-          label: "B.Sc Medical Laboratory Technology",
+          label: "B.Sc. Medical Laboratory Technology (MLT)",
           href: "/schools/health/bsc-mlt",
+        },
+        {
+          label: "B.Sc. Cardiac Care Technology (CCT)",
+          href: "/schools/health/bsc-cct",
+        },
+         {
+          label: "B.Sc. Respiratory Care Technology (RCT)",
+          href: "/schools/health/bsc-rct",
+        },
+         {
+          label: "B.Sc. Medical Radiology & Imaging Technology (MRIT)",
+          href: "/schools/health/bsc-mrit",
         },
       ],
       pg: [
-        {
-          label: "M.Sc Physiotherapy (Musculoskeletal)",
-          href: "/schools/health/msc-physiotherapy-musculoskeletal",
-        },
-        {
-          label: "M.Sc Nursing (Clinical Specialization)",
-          href: "/schools/health/msc-nursing-clinical",
-        },
+       
       ],
       phd: [
-        {
-          label: "Ph.D. Research Programme",
-          href: "/schools/health#phd-research",
-        },
+       
       ],
       diploma: [],
     },

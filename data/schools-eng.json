@@ -7152,6 +7152,7 @@
           ]
         }
       },
+     
       "programPreview": {
         "title": "About the School of Law",
         "subtitle": "Building Future Legal Professionals",
@@ -19906,6 +19907,7 @@
           "points": []
         }
       },
+
       "programPreview": {
         "title": "Our Programs",
         "subtitle": "Comprehensive healthcare education across multiple disciplines",
@@ -19915,66 +19917,58 @@
             "icon": "🏥"
           },
           {
-            "name": "B.Sc Nursing",
+            "name": "B.Sc. Anaesthesia & Operation Theatre Technology (AOTT)",
             "icon": "👨‍⚕️"
           },
           {
-            "name": "B.Sc Occupational Therapy",
+            "name": "B.Sc. Medical Laboratory Technology (MLT)",
             "icon": "🤝"
           },
           {
-            "name": "B.Sc Medical Laboratory Technology",
+            "name": "B.Sc. Cardiac Care Technology (CCT)",
             "icon": "🔬"
           },
           {
-            "name": "M.Sc Physiotherapy (Musculoskeletal)",
+            "name": "B.Sc. Respiratory Care Technology (RCT)",
             "icon": "💪"
           },
           {
-            "name": "M.Sc Nursing (Clinical Specialization)",
+            "name": "B.Sc. Medical Radiology & Imaging Technology (MRIT)",
             "icon": "📚"
-          },
-          {
-            "name": "Ph.D. Health Sciences",
-            "icon": "🎓"
           }
+         
         ]
       },
       "programTable": [
         {
           "degree": "Bachelor of Physiotherapy",
-          "duration": "4 Years",
+          "duration": "4 Years + 6 Months Internship",
           "intake": "60"
         },
         {
-          "degree": "B.Sc Nursing",
-          "duration": "4 Years",
+          "degree": "B.Sc. Anaesthesia & Operation Theatre Technology (AOTT)",
+          "duration": "3 Years Full-Time",
           "intake": "80"
         },
         {
-          "degree": "B.Sc Occupational Therapy",
-          "duration": "4 Years",
+          "degree": "B.Sc. Medical Laboratory Technology (MLT)",
+          "duration": "3 Years Full-Time",
           "intake": "40"
         },
         {
-          "degree": "B.Sc Medical Laboratory Technology",
-          "duration": "3 Years",
+          "degree": "B.Sc. Cardiac Care Technology (CCT)",
+          "duration": "3 Years Full-Time",
           "intake": "50"
         },
         {
-          "degree": "M.Sc Physiotherapy",
-          "duration": "2 Years",
+          "degree": "B.Sc. Respiratory Care Technology (RCT)",
+          "duration": "3 Years Full-Time",
           "intake": "30"
         },
         {
-          "degree": "M.Sc Nursing",
-          "duration": "2 Years",
+          "degree": "B.Sc. Medical Radiology & Imaging Technology (MRIT)",
+          "duration": "3 Years Full-Time",
           "intake": "35"
-        },
-        {
-          "degree": "Ph.D. Health Sciences",
-          "duration": "3-5 Years",
-          "intake": "15"
         }
       ],
       "faq": [
@@ -20003,9 +19997,9 @@
         {
           "slug": "bpt",
           "name": "Bachelor of Physiotherapy (BPT)",
-          "duration": "4 Years",
-          "type": "Undergraduate",
-          "degree": "B.Pt",
+          "duration": "4 Years + 6 Months Internship",
+          "type": "UG",
+          "degree": "Bachelor of Physiotherapy (BPT)",
           "hero": {
             "title": {
               "normal": "Bachelor of",
@@ -20021,7 +20015,7 @@
             "stats": [
               {
                 "label": "Duration",
-                "value": "4 Years"
+                "value": "4 Years + 6 Months Internship"
               },
               {
                 "label": "Campus",
@@ -20034,7 +20028,7 @@
             ]
           },
           "details": {
-            "duration": "4 Years Full-Time",
+            "duration": "4 Years + 6 Months Internship",
             "campus": "Bengaluru, India",
             "school": "School of Health Sciences"
           },
@@ -20139,27 +20133,27 @@
           ]
         },
         {
-          "slug": "bsc-nursing",
-          "name": "B.Sc Nursing",
-          "duration": "4 Years",
-          "type": "Undergraduate",
+          "slug": "bsc-aott",
+          "name": "B.Sc. Anaesthesia & Operation Theatre Technology (AOTT)",
+          "duration": "3 Years Full-Time",
+          "type": "UG",
           "degree": "B.Sc",
           "hero": {
             "title": {
               "normal": "B.Sc",
-              "italic": "Nursing"
+              "italic": "Anaesthesia & Operation Theatre Technology (AOTT)"
             },
             "description": "Shape the future of patient care. Our nursing program develops compassionate, skilled nurses who provide quality healthcare across diverse settings and populations.",
             "breadcrumb": [
               "Home",
               "Schools",
               "School of Health Sciences",
-              "B.Sc Nursing"
+              "B.Sc Anaesthesia & Operation Theatre Technology"
             ],
             "stats": [
               {
                 "label": "Duration",
-                "value": "4 Years"
+                "value": "3 Years Full-Time"
               },
               {
                 "label": "Campus",
@@ -20172,7 +20166,7 @@
             ]
           },
           "details": {
-            "duration": "4 Years Full-Time",
+            "duration": "3 Years Full-Time",
             "campus": "Bengaluru, India",
             "school": "School of Health Sciences"
           },
@@ -20277,27 +20271,27 @@
           ]
         },
         {
-          "slug": "bsc-occupational-therapy",
-          "name": "B.Sc Occupational Therapy",
-          "duration": "4 Years",
-          "type": "Undergraduate",
+          "slug": "bsc-mlt",
+          "name": "B.Sc. Medical Laboratory Technology (MLT)",
+          "duration": "3 Years Full-Time",
+          "type": "UG",
           "degree": "B.Sc",
           "hero": {
             "title": {
               "normal": "B.Sc",
-              "italic": "Occupational Therapy"
+              "italic": "Medical Laboratory Technology (MLT)"
             },
             "description": "Empower individuals to achieve independence. Our OT program trains therapists to help clients overcome physical, cognitive, and emotional challenges through meaningful activities.",
             "breadcrumb": [
               "Home",
               "Schools",
               "School of Health Sciences",
-              "B.Sc Occupational Therapy"
+              "B.Sc Medical Laboratory Technology (MLT)"
             ],
             "stats": [
               {
                 "label": "Duration",
-                "value": "4 Years"
+                "value": "3 Years Full-Time"
               },
               {
                 "label": "Campus",
@@ -20310,7 +20304,7 @@
             ]
           },
           "details": {
-            "duration": "4 Years Full-Time",
+            "duration": "3 Years Full-Time",
             "campus": "Bengaluru, India",
             "school": "School of Health Sciences"
           },
@@ -20415,27 +20409,27 @@
           ]
         },
         {
-          "slug": "bsc-mlt",
-          "name": "B.Sc Medical Laboratory Technology",
-          "duration": "3 Years",
-          "type": "Undergraduate",
+          "slug": "bsc-cct",
+          "name": "B.Sc. Cardiac Care Technology (CCT)",
+          "duration": "3 Years Full-Time",
+          "type": "UG",
           "degree": "B.Sc",
           "hero": {
             "title": {
               "normal": "B.Sc",
-              "italic": "Medical Laboratory Technology"
+              "italic": "B.Sc. Cardiac Care Technology (CCT)"
             },
             "description": "Unlock the secrets of disease diagnosis. Our MLT program trains technologists to perform complex laboratory tests that inform clinical decisions and patient treatment.",
             "breadcrumb": [
               "Home",
               "Schools",
               "School of Health Sciences",
-              "B.Sc Medical Laboratory Technology"
+              "B.Sc. Cardiac Care Technology (CCT)"
             ],
             "stats": [
               {
                 "label": "Duration",
-                "value": "3 Years"
+                "value": "3 Years Full-Time"
               },
               {
                 "label": "Campus",
@@ -20553,27 +20547,27 @@
           ]
         },
         {
-          "slug": "msc-physiotherapy-musculoskeletal",
-          "name": "M.Sc Physiotherapy (Musculoskeletal)",
-          "duration": "2 Years",
-          "type": "Postgraduate",
-          "degree": "M.Sc",
+          "slug": "bsc-rct",
+          "name": "B.Sc. Respiratory Care Technology (RCT)",
+          "duration": "3 Years Full-Time",
+          "type": "UG",
+          "degree": "B.Sc",
           "hero": {
             "title": {
-              "normal": "M.Sc Physiotherapy",
-              "italic": "(Musculoskeletal)"
+              "normal": "B.Sc",
+              "italic": "Respiratory Care Technology (RCT)"
             },
             "description": "Specialize in orthopedic rehabilitation and sports physiotherapy. Develop advanced clinical skills to treat complex musculoskeletal conditions and enhance athletic performance.",
             "breadcrumb": [
               "Home",
               "Schools",
               "School of Health Sciences",
-              "M.Sc Physiotherapy (Musculoskeletal)"
+              "B.Sc. Respiratory Care Technology (RCT)"
             ],
             "stats": [
               {
                 "label": "Duration",
-                "value": "2 Years"
+                "value": "3 Years Full-Time"
               },
               {
                 "label": "Campus",
@@ -20586,7 +20580,7 @@
             ]
           },
           "details": {
-            "duration": "2 Years Full-Time",
+            "duration": "3 Years Full-Time",
             "campus": "Bengaluru, India",
             "school": "School of Health Sciences"
           },
@@ -20691,27 +20685,27 @@
           ]
         },
         {
-          "slug": "msc-nursing-clinical",
-          "name": "M.Sc Nursing (Clinical Specialization)",
-          "duration": "2 Years",
-          "type": "Postgraduate",
-          "degree": "M.Sc",
+          "slug": "bsc-mrit",
+          "name": "B.Sc. Medical Radiology & Imaging Technology (MRIT)",
+          "duration": "3 Years Full-Time",
+          "type": "UG",
+          "degree": "B.Sc",
           "hero": {
             "title": {
-              "normal": "M.Sc Nursing",
-              "italic": "(Clinical Specialization)"
+              "normal": "B.Sc.",
+              "italic": "Medical Radiology & Imaging Technology (MRIT)"
             },
             "description": "Advance your nursing career with specialized clinical expertise. Our master's program develops nurse leaders and specialists in critical care, medical-surgical, and community health nursing.",
             "breadcrumb": [
               "Home",
               "Schools",
               "School of Health Sciences",
-              "M.Sc Nursing (Clinical Specialization)"
+              "B.Sc. Medical Radiology & Imaging Technology (MRIT)"
             ],
             "stats": [
               {
                 "label": "Duration",
-                "value": "2 Years"
+                "value": "3 Years Full-Time"
               },
               {
                 "label": "Campus",
@@ -20724,7 +20718,7 @@
             ]
           },
           "details": {
-            "duration": "2 Years Full-Time",
+            "duration": "3 Years Full-Time",
             "campus": "Bengaluru, India",
             "school": "School of Health Sciences"
           },
@@ -20829,7 +20823,13 @@
           ]
         }
       ],
-      "programSections": [],
+      "programSections": [
+         {
+          "type": "UG",
+          "title": "Undergraduate Programmes",
+          "subtitle": "Build strong foundations in your field of interest"
+        }
+      ],
       "phdSummary": {
         "title": "Ph.D. Research Programme",
         "degree": "Doctor of Philosophy",
