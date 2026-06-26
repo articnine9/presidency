@@ -440,101 +440,101 @@ export function Navigation() {
       ug: [
         {
           label: "B.Sc. Psychology",
-          href: "/schools/liberal-arts/bsc-psychology",
+          href: "/schools/liberal-arts-science/bsc-psychology",
         },
         {
           label: "B.A. (Psychology, Economics)",
-          href: "/schools/liberal-arts/ba-psychology-economics",
+          href: "/schools/liberal-arts-science/ba-psychology-economics",
         },
         {
           label: "B.A. (Communication and Media, Psychology)",
-          href: "/schools/liberal-arts/ba-communication-media",
+          href: "/schools/liberal-arts-science/ba-communication-media",
         },
         {
           label: "B.A. (Psychology, English)",
-          href: "/schools/liberal-arts/ba-psychology-english",
+          href: "/schools/liberal-arts-science/ba-psychology-english",
         },
         {
           label: "B.A. (History & Political Science)",
-          href: "/schools/liberal-arts/ba-history-political-science",
+          href: "/schools/liberal-arts-science/ba-history-political-science",
         },
         {
           label: "B.A. (Political Science & Economics)",
-          href: "/schools/liberal-arts/ba-political-science-economics",
+          href: "/schools/liberal-arts-science/ba-political-science-economics",
         },
         {
           label: "B.A. (English & History)",
-          href: "/schools/liberal-arts/ba-english-history",
+          href: "/schools/liberal-arts-science/ba-english-history",
         },
         {
           label: "B.A. (English & Political Science)",
-          href: "/schools/liberal-arts/ba-english-political-science",
+          href: "/schools/liberal-arts-science/ba-english-political-science",
         },
         {
           label: "B.A. (Performing Arts – Classical Music, Psychology)",
-          href: "/schools/liberal-arts/ba-arts-classicalmusic-psychology",
+          href: "/schools/liberal-arts-science/ba-arts-classicalmusic-psychology",
         },
         {
           label: "B.A. (Performing Arts – Classical Dance, Psychology)",
-          href: "/schools/liberal-arts/ba-arts-classicaldance-psychology",
+          href: "/schools/liberal-arts-science/ba-arts-classicaldance-psychology",
         },
         {
           label: "B.A. (Performing Arts – Classical Dance, English)",
-          href: "/schools/liberal-arts/ba-arts-classicaldance-english",
+          href: "/schools/liberal-arts-science/ba-arts-classicaldance-english",
         },
         {
           label:
             "B.A. (Performing Arts – Western Music – Instrumental, English)",
-          href: "/schools/liberal-arts/ba-performing-arts-western-music-instrumental-english",
+          href: "/schools/liberal-arts-science/ba-performing-arts-western-music-instrumental-english",
         },
         {
           label:
             "B.A. (Performing Arts – Western Music – Instrumental, Psychology)",
-          href: "/schools/liberal-arts/ba-performing-arts–western-music-instrumental-psychology",
+          href: "/schools/liberal-arts-science/ba-performing-arts–western-music-instrumental-psychology",
         },
         {
           label: "B.A. (Theatre Studies, Psychology)",
-          href: "/schools/liberal-arts/ba-theatre-studies-psychology",
+          href: "/schools/liberal-arts-science/ba-theatre-studies-psychology",
         },
         {
           label: "B.A. (Theatre Studies, English)",
-          href: "/schools/liberal-arts/ba-theatre-studies-english",
+          href: "/schools/liberal-arts-science/ba-theatre-studies-english",
         },
       ],
       pg: [
         {
           label:
             "M.Sc. Psychology (Child / Clinical / Counselling / Industrial Psychology)",
-          href: "/schools/liberal-arts/msc-psychology-child-clinical-counselling-industrial-psychology",
+          href: "/schools/liberal-arts-science/msc-psychology-child-clinical-counselling-industrial-psychology",
         },
         {
           label:
             "M.A. English (Digital Humanities / Cultural Studies / Creative Writing / Educational Leadership)",
-          href: "/schools/liberal-arts/ma-english-digital-humanities-cultural-Studies-creative-writing-educational-leadership",
+          href: "/schools/liberal-arts-science/ma-english-digital-humanities-cultural-Studies-creative-writing-educational-leadership",
         },
       ],
       phd: [
         {
           label: "Ph.D. Research Programme",
-          href: "/schools/liberal-arts/liberal-arts#phd-research",
+          href: "/schools/liberal-arts-science/liberal-arts#phd-research",
         },
       ],
       diploma: [
         {
           label: "Diploma in Bharatanatyam",
-          href: "/schools/liberal-arts/diploma-bharatanatyam",
+          href: "/schools/liberal-arts-science/diploma-bharatanatyam",
         },
         {
           label: "Diploma in Kathak",
-          href: "/schools/liberal-arts/diploma-kathak",
+          href: "/schools/liberal-arts-science/diploma-kathak",
         },
         {
           label: "Diploma in Kuchipudi",
-          href: "/schools/liberal-arts/diploma-kuchipudi",
+          href: "/schools/liberal-arts-science/diploma-kuchipudi",
         },
         {
           label: "Diploma in Mohiniyattam",
-          href: "/schools/liberal-arts/diploma-mohiniyattam",
+          href: "/schools/liberal-arts-science/diploma-mohiniyattam",
         },
       ],
     },
