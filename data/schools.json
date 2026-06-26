@@ -19115,12 +19115,12 @@
       }
     },
     {
-      "slug": "liberal-arts",
+      "slug": "liberal-arts-science",
       "name": "School of Liberal Arts & Sciences",
       "programs": [
         {
           "slug": "ba-psychology-economics",
-          "name": "BA Psychology",
+          "name": "B.A. (Psychology, Economics)",
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
@@ -19265,7 +19265,7 @@
         },
         {
           "slug": "ba-english-history",
-          "name": "BA English",
+          "name": "B.A. (English & History)",
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
@@ -19410,7 +19410,7 @@
         },
         {
           "slug": "ba-history-political-science",
-          "name": "BA Political Science",
+          "name": "B.A. (History & Political Science)",
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
@@ -19555,7 +19555,7 @@
         },
         {
           "slug": "ba-political-science-economics",
-          "name": "BA Economics",
+          "name": "B.A. (Political Science & Economics)",
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
@@ -19700,7 +19700,7 @@
         },
         {
           "slug": "ba-communication-media",
-          "name": "BA Sociology",
+          "name": "B.A. (Communication and Media, Psychology)",
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
@@ -20091,7 +20091,7 @@
         },
         {
           "slug": "ba-arts-classicaldance-psychology",
-          "name": "BA Performing Arts (Classical Dance)",
+          "name": "B.A. (Performing Arts – Classical Dance, Psychology)",
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
@@ -20236,7 +20236,7 @@
         },
         {
           "slug": "ba-arts-classicalmusic-psychology",
-          "name": "BA Performing Arts (Classical Music)",
+          "name": "B.A. (Performing Arts – Classical Music, Psychology)",
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
@@ -20381,7 +20381,7 @@
         },
         {
           "slug": "ba-performing-arts-western-music-instrumental-english",
-          "name": "BA Performing Arts (Western Music)",
+          "name": "B.A. (Performing Arts – Western Music – Instrumental, English)",
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
@@ -20526,7 +20526,7 @@
         },
         {
           "slug": "ba-theatre-studies-psychology",
-          "name": "BA Performing Arts (Theatre Studies)",
+          "name": "B.A. (Theatre Studies, Psychology)",
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
@@ -22374,12 +22374,12 @@
           "intake": "60"
         },
         {
-          "degree": "B.Sc Nursing",
+          "degree": "B.Sc Occupational Therapy",
           "duration": "4 Years",
           "intake": "80"
         },
         {
-          "degree": "B.Sc Occupational Therapy",
+          "degree": "B.Sc Medical Laboratory Technology",
           "duration": "4 Years",
           "intake": "40"
         },

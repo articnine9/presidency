@@ -143,7 +143,6 @@
             "The B.Tech in Electronics & Communication Engineering explores the design, development, and deployment of electronic devices, circuits, and communication systems that underpin modern life. From mobile networks and satellite communications to embedded controllers and IoT devices, the programme builds expertise across analogue and digital electronics, signal processing, wireless systems, VLSI technology, and microcontroller-based design. Students gain fluency in both hardware and software aspects of electronic engineering through an integrated curriculum of theory, laboratory practice, and project work.",
             "Bengaluru’s position as a centre for semiconductor manufacturing, telecom R&D, and electronics innovation gives students proximity to major employers and research organisations. The programme incorporates industry-oriented certifications, collaborative projects, and internship placements that connect classroom learning to professional practice. Graduates emerge prepared for roles in telecommunications, semiconductor design, consumer electronics, aerospace, defence, and automation industries worldwide."
           ],
-
           "eligibility": {
             "title": "Eligibility Criteria",
             "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
@@ -4610,7 +4609,9 @@
         "degree": "Doctor of Philosophy",
         "duration": "3–5 Years",
         "description": "Conduct original research at the frontiers of computing. This doctoral programme provides the academic framework, faculty mentorship, and research infrastructure to produce knowledge that advances the field and shapes the future of technology.",
-        "programmes": ["Ph.D in Computer Science Engineering"],
+        "programmes": [
+          "Ph.D in Computer Science Engineering"
+        ],
         "researchAreas": [
           "Expert Faculty Supervision",
           "Advanced Research Infrastructure",
@@ -5001,7 +5002,12 @@
               "italic": " Engineering"
             },
             "description": "Power the world’s critical infrastructure. This four-year programme covers electrical machines, power systems, control engineering, and electronics — preparing you for careers in energy generation, distribution, automation, and the growing electric vehicle sector.",
-            "breadcrumb": ["Home", "Schools", "Engineering", "B.Tech EEE "],
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Engineering",
+              "B.Tech EEE "
+            ],
             "stats": [
               {
                 "label": "Duration",
@@ -5248,7 +5254,12 @@
               "italic": " Engineering"
             },
             "description": " Design the chips powering tomorrow’s technology. This specialised four-year programme focuses on integrated circuit design, semiconductor physics, FPGA prototyping, and electronic system verification — preparing you for careers at the heart of the global semiconductor industry. ",
-            "breadcrumb": ["Home", "Schools", "Engineering", "B.Tech VLSI "],
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Engineering",
+              "B.Tech VLSI "
+            ],
             "stats": [
               {
                 "label": "Duration",
@@ -5486,7 +5497,12 @@
               "italic": " Engineering"
             },
             "description": " Shape the built environment. This four-year programme covers structural design, geotechnical engineering, transportation systems, and sustainable construction — preparing you to plan and build the infrastructure that connects communities and drives economic development.  ",
-            "breadcrumb": ["Home", "Schools", "Engineering", " B.Tech Civil  "],
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Engineering",
+              " B.Tech Civil  "
+            ],
             "stats": [
               {
                 "label": "Duration",
@@ -6459,7 +6475,12 @@
               "italic": " Engineering"
             },
             "description": " Advance your expertise in semiconductor design and embedded computing. This two-year postgraduate programme provides specialised training in VLSI design methodology, FPGA development, SoC architecture, and embedded systems — preparing you for senior roles in the global semiconductor industry. ",
-            "breadcrumb": ["Home", "Schools", "Engineering", " M.Tech BCT  "],
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Engineering",
+              " M.Tech BCT  "
+            ],
             "stats": [
               {
                 "label": "Duration",
@@ -6926,7 +6947,11 @@
           "italic": "Engineering"
         },
         "description": "Engineer Solutions for Tomorrow. Our engineering programs develop skilled professionals capable of designing, building, and innovating solutions to complex technical and societal challenges.",
-        "breadcrumb": ["Home", "Schools", "School of Engineering"],
+        "breadcrumb": [
+          "Home",
+          "Schools",
+          "School of Engineering"
+        ],
         "stats": [
           {
             "label": "Programs",
@@ -7037,8 +7062,11 @@
           "italic": "Information Science"
         },
         "description": "Step into the digital future with application-focused computing programmes. From software development and data science to artificial intelligence and cybersecurity, our school prepares international students with the practical skills and industry-ready expertise that technology employers seek worldwide.",
-        "breadcrumb": ["Home", "Schools", "Engineering"],
-
+        "breadcrumb": [
+          "Home",
+          "Schools",
+          "Engineering"
+        ],
         "stats": [
           {
             "label": "UG Programmes",
@@ -7152,7 +7180,6 @@
           ]
         }
       },
-     
       "programPreview": {
         "title": "About the School of Law",
         "subtitle": "Building Future Legal Professionals",
@@ -7258,7 +7285,12 @@
               "italic": ""
             },
             "description": "Launch your career in software and technology. This three-year programme builds strong foundations in programming, databases, networking, and software development — equipping you with the practical application skills sought by the IT and ITES industries across India and internationally.",
-            "breadcrumb": ["Home", "Schools", "Information Science", "BCA"],
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Information Science",
+              "BCA"
+            ],
             "stats": [
               {
                 "label": "Duration",
@@ -7936,7 +7968,9 @@
         "degree": "Doctor of Philosophy",
         "duration": "3–5 Years",
         "description": "Discover our comprehensive Ph.D. Information Science programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
-        "programmes": ["Ph.D. Information Science"],
+        "programmes": [
+          "Ph.D. Information Science"
+        ],
         "researchAreas": [
           "Future-Ready Data Science Skills",
           "Cloud & Platform Certifications",
@@ -7965,7 +7999,12 @@
               "italic": ""
             },
             "description": "Build the management foundations for a versatile career in business. This three-year programme covers finance, marketing, human resource management, operations, and entrepreneurship — developing the analytical, communication, and leadership skills that organisations seek in tomorrow’s business professionals.",
-            "breadcrumb": ["Home", "Schools", "Management", "BBA"],
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Management",
+              "BBA"
+            ],
             "stats": [
               {
                 "label": "Duration",
@@ -8211,7 +8250,12 @@
               "italic": ""
             },
             "description": "Prepare for a career in one of the world’s fastest-growing transport sectors. This three-year programme covers aviation operations, airport management, travel and tourism, and airline business strategy — equipping you with the specialised management skills demanded by the global aviation industry.",
-            "breadcrumb": ["Home", "Schools", "Management", "BBA Aviation"],
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Management",
+              "BBA Aviation"
+            ],
             "stats": [
               {
                 "label": "Duration",
@@ -9194,7 +9238,12 @@
               "italic": ""
             },
             "description": "Enter one of the world’s largest and fastest-growing service sectors. This three-year programme covers hotel operations, food and beverage management, tourism, event management, and guest services — preparing you for a career in an industry that values people skills, operational excellence, and cultural fluency.",
-            "breadcrumb": ["Home", "Schools", "Management", "BBA Hospitality"],
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Management",
+              "BBA Hospitality"
+            ],
             "stats": [
               {
                 "label": "Duration",
@@ -10126,7 +10175,12 @@
               "italic": ""
             },
             "description": " Master the skills to inform, engage, and influence audiences across every media platform. This three-year programme combines traditional journalism principles with cutting-edge media technology — offering five specialisation tracks that prepare you for careers across news, advertising, PR, film, immersive media, and digital content creation. ",
-            "breadcrumb": ["Home", "Schools", " Media Studies", "  BA JMC "],
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              " Media Studies",
+              "  BA JMC "
+            ],
             "stats": [
               {
                 "label": "Duration",
@@ -10882,7 +10936,11 @@
           "italic": "Management"
         },
         "description": "Lead with Excellence. Our management programs prepare strategic leaders and business professionals to navigate complex organizational challenges and drive sustainable business growth.",
-        "breadcrumb": ["Home", "Schools", "School of Management"],
+        "breadcrumb": [
+          "Home",
+          "Schools",
+          "School of Management"
+        ],
         "stats": [
           {
             "label": "Programs",
@@ -11048,7 +11106,9 @@
         "degree": "Doctor of Philosophy",
         "duration": "3–5 Years",
         "description": "Discover our comprehensive Ph.D in Management programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
-        "programmes": ["Ph.D in Management"],
+        "programmes": [
+          "Ph.D in Management"
+        ],
         "researchAreas": [
           "Case-Based & Experiential Learning",
           "Leadership Development Programme",
@@ -11475,7 +11535,12 @@
               "italic": " Commerce "
             },
             "description": "Earn a globally recognised professional accounting qualification alongside your commerce degree. This three-year programme integrates the B.Com curriculum with the ACCA (Association of Chartered Certified Accountants) syllabus — offering exemptions from up to 9 ACCA papers and opening career pathways in 180 countries worldwide.",
-            "breadcrumb": ["Home", "Schools", "Commerce", "B.Com ACCA"],
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Commerce",
+              "B.Com ACCA"
+            ],
             "stats": [
               {
                 "label": "Duration",
@@ -11706,7 +11771,12 @@
               "italic": " Commerce "
             },
             "description": "Earn a globally recognised management accounting qualification alongside your commerce degree. This three-year programme integrates the B.Com curriculum with the CMA-US (Certified Management Accountant) programme — preparing you for prominent roles in corporate finance, cost management, and financial planning worldwide.",
-            "breadcrumb": ["Home", "Schools", "Commerce", "B.Com CMA-US"],
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Commerce",
+              "B.Com CMA-US"
+            ],
             "stats": [
               {
                 "label": "Duration",
@@ -12708,7 +12778,11 @@
           "italic": "Commerce"
         },
         "description": "Master Financial Markets and Business Operations. Our commerce programs prepare professionals for careers in accounting, finance, taxation, and corporate management.",
-        "breadcrumb": ["Home", "Schools", "School of Commerce"],
+        "breadcrumb": [
+          "Home",
+          "Schools",
+          "School of Commerce"
+        ],
         "stats": [
           {
             "label": "Programs",
@@ -12869,7 +12943,9 @@
         "degree": "Doctor of Philosophy",
         "duration": "3–5 Years",
         "description": "Discover our comprehensive Ph.D in Commerce programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
-        "programmes": ["Ph.D in Commerce"],
+        "programmes": [
+          "Ph.D in Commerce"
+        ],
         "researchAreas": [
           "Professional Qualification Integration",
           "Expert Chartered Accountant Faculty",
@@ -12898,7 +12974,12 @@
               "italic": "Design"
             },
             "description": "Shape how the world sees, reads, and interacts with information. This four-year programme covers graphic design, branding, typography, motion graphics, UI/UX, and interactive media — preparing you for careers at the creative heart of advertising, publishing, digital media, and brand communication.",
-            "breadcrumb": ["Home", "Schools", "Design", "Communication Design"],
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Design",
+              "Communication Design"
+            ],
             "stats": [
               {
                 "label": "Duration",
@@ -13144,7 +13225,12 @@
               "italic": "Design"
             },
             "description": "Create the garments and accessories that define contemporary style. This four-year programme covers fashion illustration, garment construction, textile innovation, trend forecasting, and sustainable fashion — preparing you for careers in one of the world’s most dynamic and expressive creative industries.",
-            "breadcrumb": ["Home", "Schools", "Design", "Fashion Design"],
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Design",
+              "Fashion Design"
+            ],
             "stats": [
               {
                 "label": "Duration",
@@ -13390,7 +13476,12 @@
               "italic": "Design"
             },
             "description": "Design the objects and experiences that shape everyday life. This four-year technology-driven programme covers concept development, CAD/CAM, prototyping, ergonomics, material science, and sustainable manufacturing — preparing you for careers in industrial design across electronics, furniture, consumer goods, automotive, and lifestyle products.",
-            "breadcrumb": ["Home", "Schools", "Design", "Product Design"],
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Design",
+              "Product Design"
+            ],
             "stats": [
               {
                 "label": "Duration",
@@ -13636,7 +13727,12 @@
               "italic": "Design"
             },
             "description": "Design the environments where people live, work, and experience the world. This four-year programme covers interior architecture, spatial planning, exhibition design, hospitality environments, and retail experiences — preparing you for careers in one of design’s most immersive and impactful disciplines.",
-            "breadcrumb": ["Home", "Schools", "Design", "Space Design"],
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Design",
+              "Space Design"
+            ],
             "stats": [
               {
                 "label": "Duration",
@@ -13882,7 +13978,12 @@
               "italic": "Design"
             },
             "description": "Design the games that captivate and engage millions. This four-year programme covers game mechanics, level design, interactive storytelling, game art, and game development — preparing you for careers in one of the world’s fastest-growing entertainment and technology sectors.",
-            "breadcrumb": ["Home", "Schools", "Design", "Game Design"],
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Design",
+              "Game Design"
+            ],
             "stats": [
               {
                 "label": "Duration",
@@ -14128,7 +14229,12 @@
               "italic": ""
             },
             "description": "Bring stories and ideas to life through digital media. This four-year programme covers visual effects (VFX), special effects (SFX), game art, 3D animation, character design, and interactive media — preparing you for careers in film, television, gaming, advertising, and the booming digital content industry.",
-            "breadcrumb": ["Home", "Schools", "Design", "B.Sc Multimedia"],
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Design",
+              "B.Sc Multimedia"
+            ],
             "stats": [
               {
                 "label": "Duration",
@@ -14374,7 +14480,12 @@
               "italic": ""
             },
             "description": "Develop your artistic voice through rigorous creative practice. This four-year programme covers painting, sculpture, printmaking, drawing, art history, and contemporary art practice — preparing you for careers as exhibiting artists, art educators, curators, and creative professionals in galleries, studios, and cultural institutions worldwide.",
-            "breadcrumb": ["Home", "Schools", "Design", "BFA"],
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Design",
+              "BFA"
+            ],
             "stats": [
               {
                 "label": "Duration",
@@ -14612,7 +14723,11 @@
           "italic": "Design"
         },
         "description": "Create Impactful Design Solutions. Our design programs blend creativity with strategy, preparing designers to shape user experiences and visual communication across digital and physical spaces.",
-        "breadcrumb": ["Home", "Schools", "School of Design"],
+        "breadcrumb": [
+          "Home",
+          "Schools",
+          "School of Design"
+        ],
         "stats": [
           {
             "label": "Programs",
@@ -14773,7 +14888,9 @@
         "degree": "Doctor of Philosophy",
         "duration": "3–5 Years",
         "description": "Discover our comprehensive Ph.D in Design programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
-        "programmes": ["Ph.D in Design"],
+        "programmes": [
+          "Ph.D in Design"
+        ],
         "researchAreas": [
           "Industry-Standard Design Studios",
           "Portfolio-First Education",
@@ -14802,7 +14919,12 @@
               "italic": "Law"
             },
             "description": "Combine legal expertise with a deep understanding of society and governance. This five-year BCI-approved integrated honours programme blends political science, sociology, and economics with comprehensive legal education — creating socially sensitive legal professionals equipped for careers in litigation, judiciary, corporate law, and public service.",
-            "breadcrumb": ["Home", "Schools", "Law", "B.A. LL.B. (Hons.)"],
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Law",
+              "B.A. LL.B. (Hons.)"
+            ],
             "stats": [
               {
                 "label": "Duration",
@@ -15043,7 +15165,12 @@
               "italic": "Law"
             },
             "description": "Where business acumen meets legal expertise. This five-year BCI-approved integrated honours programme blends management sciences with legal education — creating legal professionals for the growing opportunities in corporate law, business advisory, and commercial legal practice across global markets.",
-            "breadcrumb": ["Home", "Schools", "Law", "B.B.A. LL.B. (Hons.)"],
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Law",
+              "B.B.A. LL.B. (Hons.)"
+            ],
             "stats": [
               {
                 "label": "Duration",
@@ -15284,7 +15411,12 @@
               "italic": "Law"
             },
             "description": "Deepen your legal expertise and advance your career through postgraduate specialisation. This one-year programme offers advanced study across five specialisation tracks — IPR & Technology Law, International Law, Criminal Law, Corporate Law, and Constitutional & Administrative Law — preparing you for leadership in legal practice, academia, and policy.",
-            "breadcrumb": ["Home", "Schools", "Law", "LL.M."],
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Law",
+              "LL.M."
+            ],
             "stats": [
               {
                 "label": "Duration",
@@ -15517,7 +15649,11 @@
           "italic": "Law"
         },
         "description": "Justice Through Excellence. Our law programs develop skilled legal professionals committed to justice, ethical practice, and advancing the rule of law in society.",
-        "breadcrumb": ["Home", "Schools", "School of Law"],
+        "breadcrumb": [
+          "Home",
+          "Schools",
+          "School of Law"
+        ],
         "stats": [
           {
             "label": "Programs",
@@ -15665,7 +15801,9 @@
         "degree": "Doctor of Philosophy",
         "duration": "3–5 Years",
         "description": "Discover our comprehensive Ph.D in Law programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
-        "programmes": ["Ph.D in Law"],
+        "programmes": [
+          "Ph.D in Law"
+        ],
         "researchAreas": [
           "State-of-the-Art Moot Court",
           "Experienced Legal Faculty",
@@ -16656,7 +16794,11 @@
           "italic": "Media Studies"
         },
         "description": "Tell Stories That Matter. Our media programs prepare journalists, broadcasters, and media professionals to inform, inspire, and influence through ethical, impactful communication.",
-        "breadcrumb": ["Home", "Schools", "School of Media Studies"],
+        "breadcrumb": [
+          "Home",
+          "Schools",
+          "School of Media Studies"
+        ],
         "stats": [
           {
             "label": "Programs",
@@ -16822,7 +16964,9 @@
         "degree": "Doctor of Philosophy",
         "duration": "3–5 Years",
         "description": "Discover our comprehensive Ph.D in Media Studies programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
-        "programmes": ["Ph.D in Media Studies"],
+        "programmes": [
+          "Ph.D in Media Studies"
+        ],
         "researchAreas": [
           "Professional-Grade Production Studios",
           "Live Media Projects",
@@ -16841,7 +16985,7 @@
       "programs": [
         {
           "slug": "ba-psychology-economics",
-          "name": "BA Psychology",
+          "name": "B.A. (Psychology, Economics)",
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
@@ -16979,7 +17123,7 @@
         },
         {
           "slug": "ba-english-history",
-          "name": "BA English",
+          "name": "B.A. (English & History)",
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
@@ -17117,7 +17261,7 @@
         },
         {
           "slug": "ba-history-political-science",
-          "name": "BA Political Science",
+          "name": "B.A. (History & Political Science)",
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
@@ -17255,7 +17399,7 @@
         },
         {
           "slug": "ba-political-science-economics",
-          "name": "BA Economics",
+          "name": "B.A. (Political Science & Economics)",
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
@@ -17393,7 +17537,7 @@
         },
         {
           "slug": "ba-communication-media",
-          "name": "BA Sociology",
+          "name": "B.A. (Communication and Media, Psychology)",
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
@@ -17770,7 +17914,7 @@
         },
         {
           "slug": "ba-arts-classicaldance-psychology",
-          "name": "BA Performing Arts (Classical Dance)",
+          "name": ".A. (Performing Arts – Classical Dance, Psychology)",
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
@@ -17908,7 +18052,7 @@
         },
         {
           "slug": "ba-arts-classicalmusic-psychology",
-          "name": "BA Performing Arts (Classical Music)",
+          "name": "B.A. (Performing Arts – Classical Music, Psychology)",
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
@@ -18046,7 +18190,7 @@
         },
         {
           "slug": "ba-performing-arts-western-music-instrumental-english",
-          "name": "BA Performing Arts (Western Music)",
+          "name": "B.A. (Performing Arts – Western Music – Instrumental, English)",
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
@@ -18184,7 +18328,7 @@
         },
         {
           "slug": "ba-theatre-studies-psychology",
-          "name": "BA Performing Arts (Theatre Studies)",
+          "name": "B.A. (Theatre Studies, Psychology)",
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Arts",
@@ -19643,27 +19787,36 @@
           "normal": "School of",
           "italic": "Liberal Arts & Sciences"
         },
-        "description": "Think Critically, Act Responsibly. Our liberal arts programs develop intellectually versatile professionals who approach complex problems from multiple perspectives and drive meaningful change.",
-        "breadcrumb": ["Home", "Schools", "School of Liberal Arts & Sciences"],
+        "description": "Explore the intersections of human thought, expression, and experience. From psychology and political science to English literature, performing arts, and theatre — our school offers interdisciplinary programmes that develop critical thinkers, creative practitioners, and culturally aware professionals ready to engage with the complexities of the modern world.",
+        "breadcrumb": [
+          "Home",
+          "Schools",
+          "School of Liberal Arts & Sciences"
+        ],
         "stats": [
           {
-            "label": "Programs",
-            "value": "13"
+            "label": "UG Programmes ",
+            "value": "17"
           },
           {
-            "label": "Faculty",
-            "value": "50+"
+            "label": "PG Programmes ",
+            "value": "2"
           },
           {
-            "label": "Students",
-            "value": "350+"
+            "label": "Doctoral Research ",
+            "value": "Ph.D."
+          },
+          {
+            "label": "Diploma Programmes",
+            "value": "4"
           }
         ]
       },
       "about": {
-        "title": "About the School",
+        "title": "Cultivating Intellectual Curiosity Across Disciplines",
         "content": [
-          "The School of Liberal Arts & Sciences offers interdisciplinary education combining humanities, social sciences, natural sciences, and professional studies. Our programs develop critical thinkers and versatile professionals prepared for evolving careers and engaged global citizenship."
+          "The Presidency School of Liberal Arts & Sciences (SOLAS) offers a distinctive portfolio of interdisciplinary undergraduate programmes that combine two academic disciplines into a single integrated degree. Students choose from combinations spanning psychology, English, economics, political science, sociology, history, communication and media studies, performing arts, and theatre studies. This dual-discipline structure reflects the school’s belief that the most profound understanding comes from exploring connections between fields — developing graduates with the intellectual breadth, analytical depth, and creative capacity to navigate complex contemporary challenges.",
+          "The school also offers standalone B.Sc. Psychology and postgraduate programmes including M.Sc. Psychology (with specialisations in child, clinical, counselling, and industrial psychology) and M.A. English (with specialisations in digital humanities, cultural studies, creative writing, and educational leadership). A doctoral programme in English and four diploma programmes in classical and traditional performing arts complete the portfolio. The school fosters critical interpretation, analytical rigour, and creative exploration — empowering students through transformative educational experiences that develop their intellectual, creative, and analytical potential across liberal arts disciplines."
         ],
         "images": [
           "/img/management/lr1.jpg",
@@ -19672,40 +19825,28 @@
         ],
         "features": [
           {
-            "title": "Interdisciplinary Learning",
-            "description": "Combine humanities, social sciences, and sciences into a unique degree."
+            "title": "Dual-Discipline Degree Structure",
+            "description": "Most programmes combine two academic disciplines—such as Psychology with Economics, English with Political Science, or Performing Arts with Psychology—creating versatile graduates with multidisciplinary expertise."
           },
           {
-            "title": "Critical Thinking",
-            "description": "Debate, seminar, and writing-intensive courses build analytical depth."
+            "title": "Performing Arts & Theatre",
+            "description": "Explore Bharatanatyam, Kathak, Kuchipudi, Western Music, and Theatre Studies through integrated liberal arts degree programmes and specialised diploma courses."
           },
           {
-            "title": "Civil Services Prep",
-            "description": "Strong foundation for UPSC and state civil service examinations."
-          },
-          {
-            "title": "Research Pathways",
-            "description": "Mentored research projects and opportunities for publication."
-          },
-          {
-            "title": "Global Citizenship",
-            "description": "Coursework on international relations and cross-cultural communication."
-          },
-          {
-            "title": "Diverse Careers",
-            "description": "Graduates enter policy, NGOs, education, media, and corporate sectors."
+            "title": "Psychology Specialisation Depth",
+            "description": "Progress from B.Sc. Psychology to M.Sc. with specialised tracks in Child, Clinical, Counselling, and Industrial Psychology for comprehensive professional development."
           }
         ]
       },
       "visionMission": {
         "vision": {
           "title": "Vision",
-          "description": "To cultivate intellectually engaged citizens and professionals who think critically, communicate effectively, and contribute meaningfully to society.",
+          "description": "To become a value-based centre of academic excellence that cultivates a dynamic learning environment where liberal arts inquiry, psychological understanding, and creative exploration empower students to excel in scholarly discourse and human development.",
           "points": []
         },
         "mission": {
           "title": "Mission",
-          "description": "To provide comprehensive liberal arts education emphasizing critical thinking, interdisciplinary learning, and global perspectives, developing versatile professionals prepared for diverse careers.",
+          "description": "Foster the ability to critically interpret, analyse, and articulate complex texts, human behaviour, and theoretical ideas within broader cultural, social, and historical frameworks - Strengthen analytical abilities for understanding various forms of human expression, communication, and psychological processes - Prepare students for advancement in higher education, professional careers in humanities and behavioural sciences, and scholarly research - Empower individuals through transformative educational experiences developing intellectual, creative, and analytical potential",
           "points": []
         }
       },
@@ -19819,7 +19960,9 @@
         "degree": "Doctor of Philosophy",
         "duration": "3–5 Years",
         "description": "Discover our comprehensive Ph.D in Liberal Arts & Sciences programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
-        "programmes": ["Ph.D in Liberal Arts & Sciences"],
+        "programmes": [
+          "Ph.D in Liberal Arts & Sciences"
+        ],
         "researchAreas": [
           "Interdisciplinary Flexibility",
           "Critical Thinking & Analytical Skills",
@@ -19842,26 +19985,23 @@
           "italic": "Health Sciences"
         },
         "description": "Advancing healthcare through education, research, and clinical excellence. Our programs prepare healthcare professionals to make a meaningful impact on global health.",
-        "breadcrumb": ["Home", "Schools", "School of Health Sciences"],
+        "breadcrumb": [
+          "Home",
+          "Schools",
+          "School of Health Sciences"
+        ],
         "stats": [
           {
-            "label": "Programs",
-            "value": "7"
-          },
-          {
-            "label": "Faculty",
-            "value": "50+"
-          },
-          {
-            "label": "Students",
-            "value": "400+"
+            "label": "UG Programmes - Healthcare - Clinical Training",
+            "value": "6 "
           }
         ]
       },
       "about": {
-        "title": "About the School",
+        "title": "Training the Clinical Professionals Healthcare Depends On",
         "content": [
-          "The School of Health Sciences is dedicated to developing compassionate, competent, and committed healthcare professionals. Our interdisciplinary approach combines theoretical knowledge with practical skills, ensuring graduates are prepared for the dynamic healthcare landscape."
+          "The Presidency School of Allied Health Sciences offers six undergraduate programmes across the allied health professions — healthcare disciplines that support and complement the work of physicians and surgeons. These include physiotherapy, medical laboratory technology, cardiac care technology, respiratory care technology, medical imaging technology, and anaesthesia and operation theatre technology. Each programme combines scientific foundations with extensive clinical training, producing graduates who are technically proficient, ethically grounded, and immediately productive in clinical healthcare settings.",
+          "Allied health professionals are essential to the functioning of modern healthcare systems — from the laboratory technologists who process diagnostic tests to the physiotherapists who restore patient mobility, the cardiac technologists who monitor heart function, and the imaging technologists who operate diagnostic equipment. India’s expanding healthcare sector — driven by hospital construction, diagnostic centre growth, and increasing health awareness — creates sustained demand for qualified allied health professionals. International students gain clinical training in a healthcare context that is both technologically advancing and serving one of the world’s largest patient populations."
         ],
         "images": [
           "/img/management/hs1.jpg",
@@ -19870,44 +20010,31 @@
         ],
         "features": [
           {
-            "title": "Clinical Training",
-            "description": "Hundreds of hours at affiliated hospitals and rehabilitation centres."
+            "title": "Clinical Training Integration ",
+            "description": "All programmes incorporate extensive clinical rotations in hospitals and diagnostic centres, ensuring graduates develop hands-on professional competence alongside theoretical knowledge."
           },
           {
-            "title": "Evidence-Based Practice",
-            "description": "Curriculum aligned with the latest global healthcare protocols."
+            "title": "Essential Healthcare Roles ",
+            "description": "Allied health professionals perform critical functions in diagnosis, treatment, rehabilitation, and patient monitoring — roles that are indispensable to modern healthcare delivery."
           },
           {
-            "title": "Expert Clinicians",
-            "description": "Faculty with active clinical practice bring real-world insight."
-          },
-          {
-            "title": "Patient Care Skills",
-            "description": "Hands-on training in patient communication and compassionate care."
-          },
-          {
-            "title": "Global Opportunities",
-            "description": "Qualifications recognised for healthcare roles in UK, Canada, Australia."
-          },
-          {
-            "title": "Research Partnerships",
-            "description": "Collaborations with ICMR, AIIMS, and medical research institutes."
+            "title": "Growing Healthcare Demand ",
+            "description": "India’s rapidly expanding healthcare sector — new hospitals, diagnostic chains, and medical tourism — creates strong and sustained demand for qualified allied health professionals."
           }
         ]
       },
       "visionMission": {
         "vision": {
           "title": "Vision",
-          "description": "To be a leading institution in health sciences education, research, and service, contributing to improved health outcomes and advancement of global healthcare.",
+          "description": "To develop skilled, compassionate, and ethically responsible allied health professionals who contribute to the delivery of quality healthcare and the improvement of patient outcomes across communities.",
           "points": []
         },
         "mission": {
           "title": "Mission",
-          "description": "To provide comprehensive, evidence-based education in health sciences, foster innovation in healthcare practices, and develop professionals committed to community health and wellness.",
+          "description": "Equip students with the scientific knowledge and clinical skills required for competent allied health practice - Provide extensive clinical training in hospital and diagnostic settings to develop practical professional competence - Foster ethical responsibility, patient-centred care, and commitment to healthcare quality improvement - Prepare graduates for professional certification, licensure, and career advancement in allied health fields - Instil a commitment to lifelong learning in response to evolving healthcare technologies and practices",
           "points": []
         }
       },
-
       "programPreview": {
         "title": "Our Programs",
         "subtitle": "Comprehensive healthcare education across multiple disciplines",
@@ -19936,7 +20063,6 @@
             "name": "B.Sc. Medical Radiology & Imaging Technology (MRIT)",
             "icon": "📚"
           }
-         
         ]
       },
       "programTable": [
@@ -19947,52 +20073,31 @@
         },
         {
           "degree": "B.Sc. Anaesthesia & Operation Theatre Technology (AOTT)",
-          "duration": "3 Years Full-Time",
+          "duration": "4 Years Full-Time",
           "intake": "80"
         },
         {
           "degree": "B.Sc. Medical Laboratory Technology (MLT)",
-          "duration": "3 Years Full-Time",
+          "duration": "4 Years Full-Time",
           "intake": "40"
         },
         {
           "degree": "B.Sc. Cardiac Care Technology (CCT)",
-          "duration": "3 Years Full-Time",
+          "duration": "4 Years Full-Time",
           "intake": "50"
         },
         {
           "degree": "B.Sc. Respiratory Care Technology (RCT)",
-          "duration": "3 Years Full-Time",
+          "duration": "4 Years Full-Time",
           "intake": "30"
         },
         {
           "degree": "B.Sc. Medical Radiology & Imaging Technology (MRIT)",
-          "duration": "3 Years Full-Time",
+          "duration": "4 Years Full-Time",
           "intake": "35"
         }
       ],
-      "faq": [
-        {
-          "question": "What are the career prospects after completing a health sciences degree?",
-          "answer": "Graduates have diverse career opportunities including clinical practice, research, teaching, hospital administration, public health, and healthcare consulting. Our programs are designed to meet national and international healthcare standards."
-        },
-        {
-          "question": "Are there internship and clinical placement opportunities?",
-          "answer": "Yes, all our programs include mandatory clinical rotations and internships with affiliated hospitals and healthcare centers. This provides hands-on experience with real patient care and healthcare systems."
-        },
-        {
-          "question": "What makes Presidency's health sciences programs unique?",
-          "answer": "We combine cutting-edge curriculum with practical training, experienced faculty from clinical backgrounds, state-of-the-art laboratories and simulation centers, and strong partnerships with leading healthcare institutions."
-        },
-        {
-          "question": "Can I pursue further studies after my bachelor's degree?",
-          "answer": "Absolutely. Our bachelor's graduates can pursue master's programs, PhD studies, or specialized certifications in various healthcare disciplines. We offer clear pathways for continuous professional development."
-        },
-        {
-          "question": "What are the admission requirements?",
-          "answer": "Requirements vary by program. Generally, bachelor's programs require 10+2 with Science. Master's programs require relevant bachelor's degrees. PhD programs require master's degrees with research aptitude. Contact admissions for specific requirements."
-        }
-      ],
+      "faq": [],
       "programs": [
         {
           "slug": "bpt",
@@ -20824,7 +20929,7 @@
         }
       ],
       "programSections": [
-         {
+        {
           "type": "UG",
           "title": "Undergraduate Programmes",
           "subtitle": "Build strong foundations in your field of interest"
@@ -20835,7 +20940,9 @@
         "degree": "Doctor of Philosophy",
         "duration": "3–5 Years",
         "description": "Conduct groundbreaking research to advance healthcare. Our doctoral program develops researchers who contribute original knowledge to improve health outcomes and healthcare systems.",
-        "programmes": ["Ph.D. Health Sciences"],
+        "programmes": [
+          "Ph.D. Health Sciences"
+        ],
         "researchAreas": [
           "Physiotherapy & Rehabilitation",
           "Nursing Sciences",
