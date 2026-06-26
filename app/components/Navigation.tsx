@@ -448,7 +448,7 @@ export function Navigation() {
         },
         {
           label: "B.A. (Communication and Media, Psychology)",
-          href: "/schools/liberal-arts-science/ba-communication-media",
+          href: "/schools/liberal-arts-science/ba-communication-media-psychology",
         },
         {
           label: "B.A. (Psychology, English)",
@@ -461,6 +461,10 @@ export function Navigation() {
         {
           label: "B.A. (Political Science & Economics)",
           href: "/schools/liberal-arts-science/ba-political-science-economics",
+        },
+         {
+          label: "B.A. (Political Science & Sociology)",
+          href: "/schools/liberal-arts-science/ba-political-science-sociology",
         },
         {
           label: "B.A. (English & History)",
@@ -499,6 +503,10 @@ export function Navigation() {
         {
           label: "B.A. (Theatre Studies, English)",
           href: "/schools/liberal-arts-science/ba-theatre-studies-english",
+        },
+        {
+          label: "B.A. (Communication and Media Studies, English)",
+          href: "/schools/liberal-arts-science/ba-communication-and-media-english",
         },
       ],
       pg: [

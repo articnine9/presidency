@@ -15825,7 +15825,7 @@
           "name": "BA Journalism & Mass Communication (Digital Marketing & Advertising)",
           "duration": "3 Years",
           "type": "UG",
-          "degree": "Bachelor of Arts",
+          "degree": "B.A.",
           "overview": [
             "The BA Journalism & Mass Communication (Digital Marketing & Advertising) programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "State-of-the-art production studios, digital editing suites, and partnerships with leading media houses provide students with hands-on experience and the professional network to launch their media careers."
@@ -15845,7 +15845,7 @@
             "stats": [
               {
                 "label": "Programme",
-                "value": "Bachelor of Arts"
+                "value": "B.A."
               },
               {
                 "label": "Campus",
@@ -15963,7 +15963,7 @@
           "name": "BA Journalism & Mass Communication (Film & Television Production)",
           "duration": "3 Years",
           "type": "UG",
-          "degree": "Bachelor of Arts",
+          "degree": "B.A.",
           "overview": [
             "The BA Journalism & Mass Communication (Film & Television Production) programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "State-of-the-art production studios, digital editing suites, and partnerships with leading media houses provide students with hands-on experience and the professional network to launch their media careers."
@@ -15983,7 +15983,7 @@
             "stats": [
               {
                 "label": "Programme",
-                "value": "Bachelor of Arts"
+                "value": "B.A."
               },
               {
                 "label": "Campus",
@@ -16101,7 +16101,7 @@
           "name": "BA Journalism & Mass Communication (AR/VR & Immersive Media)",
           "duration": "3 Years",
           "type": "UG",
-          "degree": "Bachelor of Arts",
+          "degree": "B.A.",
           "overview": [
             "The BA Journalism & Mass Communication (AR/VR & Immersive Media) programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "State-of-the-art production studios, digital editing suites, and partnerships with leading media houses provide students with hands-on experience and the professional network to launch their media careers."
@@ -16121,7 +16121,7 @@
             "stats": [
               {
                 "label": "Programme",
-                "value": "Bachelor of Arts"
+                "value": "B.A."
               },
               {
                 "label": "Campus",
@@ -16239,7 +16239,7 @@
           "name": "BA Journalism & Mass Communication (Digital Storytelling & Content Creation)",
           "duration": "3 Years",
           "type": "UG",
-          "degree": "Bachelor of Arts",
+          "degree": "B.A.",
           "overview": [
             "The BA Journalism & Mass Communication (Digital Storytelling & Content Creation) programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "State-of-the-art production studios, digital editing suites, and partnerships with leading media houses provide students with hands-on experience and the professional network to launch their media careers."
@@ -16259,7 +16259,7 @@
             "stats": [
               {
                 "label": "Programme",
-                "value": "Bachelor of Arts"
+                "value": "B.A."
               },
               {
                 "label": "Campus",
@@ -16377,7 +16377,7 @@
           "name": "BA Journalism & Mass Communication (Journalism)",
           "duration": "3 Years",
           "type": "UG",
-          "degree": "Bachelor of Arts",
+          "degree": "B.A.",
           "overview": [
             "The BA Journalism & Mass Communication (Journalism) programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "State-of-the-art production studios, digital editing suites, and partnerships with leading media houses provide students with hands-on experience and the professional network to launch their media careers."
@@ -16397,7 +16397,7 @@
             "stats": [
               {
                 "label": "Programme",
-                "value": "Bachelor of Arts"
+                "value": "B.A."
               },
               {
                 "label": "Campus",
@@ -16988,14 +16988,14 @@
           "name": "B.A. (Psychology, Economics)",
           "duration": "3 Years",
           "type": "UG",
-          "degree": "Bachelor of Arts",
+          "degree": "B.A.",
           "overview": [
-            "The BA Psychology programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
-            "Graduates are well-positioned for careers in civil services, policy research, education, NGOs, and the corporate sector — fields that value the versatile, analytical mindset that a liberal arts education develops."
+            "The B.A. (Psychology, Economics) programme integrates the study of human behaviour with economic theories, social analysis, and analytical tools. It enables students to understand individuals, institutions, markets, and society through an interdisciplinary liberal arts framework.",
+            "The curriculum combines psychology and economics with broader humanities and social science perspectives. Students engage with human behaviour, social phenomena, economic thinking, research methods, critical analysis, communication, and applied learning through internships and capstone work."
           ],
           "hero": {
             "title": {
-              "normal": "BA Psychology",
+              "normal": "B.A. (Psychology, Economics)",
               "italic": ""
             },
             "description": "Discover our comprehensive BA Psychology programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
@@ -17003,12 +17003,12 @@
               "Home",
               "Schools",
               "School of Liberal Arts & Sciences",
-              "BA Psychology"
+              "B.A. (Psychology, Economics)"
             ],
             "stats": [
               {
                 "label": "Programme",
-                "value": "Bachelor of Arts"
+                "value": "B.A."
               },
               {
                 "label": "Campus",
@@ -17027,7 +17027,7 @@
           },
           "eligibility": {
             "title": "Eligibility Criteria",
-            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
+            "description": "Completed Class 12 / 10+2 or equivalent from a recognised board.",
             "note": "Eligibility may vary for international students."
           },
           "highlights": [
@@ -17126,14 +17126,16 @@
           "name": "B.A. (English & History)",
           "duration": "3 Years",
           "type": "UG",
-          "degree": "Bachelor of Arts",
+          "degree": "B.A.",
+          "overviewtitle": "Exploring Stories Through",
+          "highlight": "Literature & History",
           "overview": [
-            "The BA English programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
-            "Graduates are well-positioned for careers in civil services, policy research, education, NGOs, and the corporate sector — fields that value the versatile, analytical mindset that a liberal arts education develops."
+            "The B.A. (English & History) programme offers an interdisciplinary study of English language, literature, and historical inquiry. Students explore literary texts, historical events, cultural traditions, and social contexts while developing strong analytical, communication, research, and critical thinking skills.",
+            "The curriculum integrates English literary studies with historical analysis, academic writing, research methodology, internships, and a Capstone Project, preparing students for careers in education, publishing, journalism, research, cultural management, and public service."
           ],
           "hero": {
             "title": {
-              "normal": "BA English",
+              "normal": "B.A. (English & History)",
               "italic": ""
             },
             "description": "Discover our comprehensive BA English programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
@@ -17141,12 +17143,12 @@
               "Home",
               "Schools",
               "School of Liberal Arts & Sciences",
-              "BA English"
+              "B.A. (English & History)"
             ],
             "stats": [
               {
                 "label": "Programme",
-                "value": "Bachelor of Arts"
+                "value": "B.A."
               },
               {
                 "label": "Campus",
@@ -17165,71 +17167,79 @@
           },
           "eligibility": {
             "title": "Eligibility Criteria",
-            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
-            "note": "Eligibility may vary for international students."
+            "description": "Candidates must have completed Class 12 / 10+2 or equivalent from a recognized board.",
+            "note": ""
           },
           "highlights": [
             {
-              "title": "Interdisciplinary Flexibility",
-              "description": "Design your own intellectual journey by combining subjects from humanities, social sciences, and natural sciences — building a uniquely versatile skill set."
+              "title": "English Studies & Historical Inquiry",
+              "description": ""
             },
             {
-              "title": "Critical Thinking & Analytical Skills",
-              "description": "Rigorous seminars, debates, research projects, and writing-intensive courses develop the analytical depth and clarity of expression valued by global employers."
+              "title": "Literary Interpretation & Historical Analysis",
+              "description": ""
             },
             {
-              "title": "Research & Publication Opportunities",
-              "description": "Faculty-mentored research projects, journal publications, and conference presentations provide students with early exposure to academic and applied research."
+              "title": "Career-Focused Humanities Education",
+              "description": ""
             },
             {
-              "title": "Civil Services Preparation",
-              "description": "A broad foundation in history, polity, economics, and social science provides an outstanding preparation for UPSC and state civil service examinations."
+              "title": "Internship & Capstone Project",
+              "description": ""
             },
             {
-              "title": "Global Citizenship & Cultural Awareness",
-              "description": "Coursework on world history, cross-cultural communication, and international relations develops the perspectives essential for careers in global organisations and diplomacy."
-            },
-            {
-              "title": "Diverse & High-Impact Career Outcomes",
-              "description": "Graduates pursue careers in civil services, NGOs, research institutions, media, education, consulting, and international organisations — sectors that value depth of thinking."
+              "title": "Foundation for Higher Studies",
+              "description": ""
             }
           ],
           "careers": [
             {
-              "category": "Civil Services & Policy",
-              "roles": [
-                "IAS/IPS/IFS Officer via UPSC Civil Services Exam",
-                "Policy Analyst at government ministries",
-                "Research Associate at think tanks: ORF, CPR, IDFC",
-                "Foreign Affairs Specialist at Ministry of External Affairs"
-              ]
+              "category": "Teacher / Educator",
+              "roles": []
             },
             {
-              "category": "Education & Research",
-              "roles": [
-                "Lecturer/Professor at universities and colleges",
-                "Academic Researcher at UGC-funded institutions",
-                "Curriculum Developer at education organizations",
-                "Education Consultant at international schools"
-              ]
+              "category": "Content Writer",
+              "roles": []
             },
             {
-              "category": "Social Sector & NGOs",
-              "roles": [
-                "Program Manager at national and international NGOs",
-                "Development Sector Professional at UNDP, World Bank",
-                "CSR Manager at large corporations",
-                "Community Outreach Specialist at foundations"
-              ]
+              "category": "Editor",
+              "roles": []
             },
             {
-              "category": "Corporate & Consulting",
-              "roles": [
-                "Management Consultant at McKinsey, BCG (Liberal Arts track)",
-                "HR Manager leveraging psychology background",
-                "Communications Specialist at PR firms",
-                "Market Researcher at consumer goods companies"
-              ]
+              "category": "Publishing Professional",
+              "roles": []
+            },
+            {
+              "category": "Journalist",
+              "roles": []
+            },
+            {
+              "category": "Research Associate",
+              "roles": []
+            },
+            {
+              "category": "Archivist",
+              "roles": []
+            },
+            {
+              "category": "Museum and Heritage Professional",
+              "roles": []
+            },
+            {
+              "category": "Cultural Management Executive",
+              "roles": []
+            },
+            {
+              "category": "Communication Specialist",
+              "roles": []
+            },
+            {
+              "category": "Civil Services Aspirant",
+              "roles": []
+            },
+            {
+              "category": "Higher Studies in English, History, or Related Humanities Disciplines",
+              "roles": []
             }
           ],
           "faq": [
@@ -17264,14 +17274,14 @@
           "name": "B.A. (History & Political Science)",
           "duration": "3 Years",
           "type": "UG",
-          "degree": "Bachelor of Arts",
+          "degree": "B.A.",
           "overview": [
             "The BA Political Science programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "Graduates are well-positioned for careers in civil services, policy research, education, NGOs, and the corporate sector — fields that value the versatile, analytical mindset that a liberal arts education develops."
           ],
           "hero": {
             "title": {
-              "normal": "BA Political Science",
+              "normal": "B.A. (History & Political Science)",
               "italic": ""
             },
             "description": "Discover our comprehensive BA Political Science programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
@@ -17279,12 +17289,12 @@
               "Home",
               "Schools",
               "School of Liberal Arts & Sciences",
-              "BA Political Science"
+              "B.A. (History & Political Science)"
             ],
             "stats": [
               {
                 "label": "Programme",
-                "value": "Bachelor of Arts"
+                "value": "B.A."
               },
               {
                 "label": "Campus",
@@ -17402,14 +17412,14 @@
           "name": "B.A. (Political Science & Economics)",
           "duration": "3 Years",
           "type": "UG",
-          "degree": "Bachelor of Arts",
+          "degree": "B.A.",
           "overview": [
             "The BA Economics programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "Graduates are well-positioned for careers in civil services, policy research, education, NGOs, and the corporate sector — fields that value the versatile, analytical mindset that a liberal arts education develops."
           ],
           "hero": {
             "title": {
-              "normal": "BA Economics",
+              "normal": "B.A. (Political Science & Economics)",
               "italic": ""
             },
             "description": "Discover our comprehensive BA Economics programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
@@ -17417,12 +17427,12 @@
               "Home",
               "Schools",
               "School of Liberal Arts & Sciences",
-              "BA Economics"
+              "B.A. (Political Science & Economics)"
             ],
             "stats": [
               {
                 "label": "Programme",
-                "value": "Bachelor of Arts"
+                "value": "B.A."
               },
               {
                 "label": "Campus",
@@ -17536,18 +17546,18 @@
           ]
         },
         {
-          "slug": "ba-communication-media",
+          "slug": "ba-communication-media-psychology",
           "name": "B.A. (Communication and Media, Psychology)",
           "duration": "3 Years",
           "type": "UG",
-          "degree": "Bachelor of Arts",
+          "degree": "B.A.",
           "overview": [
-            "The BA Sociology programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
-            "Graduates are well-positioned for careers in civil services, policy research, education, NGOs, and the corporate sector — fields that value the versatile, analytical mindset that a liberal arts education develops."
+            "The B.A. (Communication and Media, Psychology) programme combines communication and media studies with core psychological concepts. Students gain an understanding of human behaviour, media systems, communication practices, audience psychology, and the social and cultural impact of media.",
+            "The curriculum integrates journalism, media writing, digital media communication, biopsychology, social psychology, and audio-visual production with practical exposure through internships, media projects, and portfolio development."
           ],
           "hero": {
             "title": {
-              "normal": "BA Sociology",
+              "normal": "B.A. (Communication and Media, Psychology)",
               "italic": ""
             },
             "description": "Discover our comprehensive BA Sociology programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
@@ -17555,12 +17565,12 @@
               "Home",
               "Schools",
               "School of Liberal Arts & Sciences",
-              "BA Sociology"
+              "B.A. (Communication and Media, Psychology)"
             ],
             "stats": [
               {
                 "label": "Programme",
-                "value": "Bachelor of Arts"
+                "value": "B.A."
               },
               {
                 "label": "Campus",
@@ -17678,18 +17688,18 @@
           "name": "B.Sc Psychology",
           "duration": "3 Years",
           "type": "UG",
-          "degree": "Bachelor of Science (Psychology) ",
+          "degree": "B.A.",
           "hero": {
             "title": {
-              "normal": " B.Sc. Psychology ",
+              "normal": "B.Sc. Psychology ",
               "italic": ""
             },
             "description": "   Understand the science of human behaviour, cognition, and emotion. This three-year programme covers psychological theory, research methods, developmental psychology, abnormal psychology, and applied practice — preparing you for careers in counselling, clinical practice, organisational psychology, and research. ",
             "breadcrumb": [
               "Home",
               "Schools",
-              " Liberal Arts & Sciences",
-              "  B.Sc. Psychology "
+              "Liberal Arts & Sciences",
+              "B.Sc. Psychology "
             ],
             "stats": [
               {
@@ -17702,7 +17712,7 @@
               },
               {
                 "label": "Core Programme",
-                "value": "Psychology  "
+                "value": "B.A."
               }
             ]
           },
@@ -17917,7 +17927,7 @@
           "name": ".A. (Performing Arts – Classical Dance, Psychology)",
           "duration": "3 Years",
           "type": "UG",
-          "degree": "Bachelor of Arts",
+          "degree": "B.A.",
           "overview": [
             "The BA Performing Arts (Classical Dance) programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "Graduates are well-positioned for careers in civil services, policy research, education, NGOs, and the corporate sector — fields that value the versatile, analytical mindset that a liberal arts education develops."
@@ -17937,7 +17947,7 @@
             "stats": [
               {
                 "label": "Programme",
-                "value": "Bachelor of Arts"
+                "value": "B.A."
               },
               {
                 "label": "Campus",
@@ -18055,27 +18065,27 @@
           "name": "B.A. (Performing Arts – Classical Music, Psychology)",
           "duration": "3 Years",
           "type": "UG",
-          "degree": "Bachelor of Arts",
+          "degree": "B.A.",
           "overview": [
             "The BA Performing Arts (Classical Music) programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "Graduates are well-positioned for careers in civil services, policy research, education, NGOs, and the corporate sector — fields that value the versatile, analytical mindset that a liberal arts education develops."
           ],
           "hero": {
             "title": {
-              "normal": "BA Performing Arts",
-              "italic": "Classical Music"
+              "normal": "B.A. (Performing Arts – Classical Music, Psychology)",
+              "italic": ""
             },
             "description": "Discover our comprehensive BA Performing Arts (Classical Music) programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
             "breadcrumb": [
               "Home",
               "Schools",
               "School of Liberal Arts & Sciences",
-              "BA Performing Arts (Classical Music)"
+              "B.A. (Performing Arts – Classical Music, Psychology)"
             ],
             "stats": [
               {
                 "label": "Programme",
-                "value": "Bachelor of Arts"
+                "value": "B.A."
               },
               {
                 "label": "Campus",
@@ -18193,7 +18203,7 @@
           "name": "B.A. (Performing Arts – Western Music – Instrumental, English)",
           "duration": "3 Years",
           "type": "UG",
-          "degree": "Bachelor of Arts",
+          "degree": "B.A.",
           "overview": [
             "The BA Performing Arts (Western Music) programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "Graduates are well-positioned for careers in civil services, policy research, education, NGOs, and the corporate sector — fields that value the versatile, analytical mindset that a liberal arts education develops."
@@ -18213,7 +18223,7 @@
             "stats": [
               {
                 "label": "Programme",
-                "value": "Bachelor of Arts"
+                "value": "B.A."
               },
               {
                 "label": "Campus",
@@ -18331,7 +18341,7 @@
           "name": "B.A. (Theatre Studies, Psychology)",
           "duration": "3 Years",
           "type": "UG",
-          "degree": "Bachelor of Arts",
+          "degree": "B.A.",
           "overview": [
             "The BA Performing Arts (Theatre Studies) programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
             "Graduates are well-positioned for careers in civil services, policy research, education, NGOs, and the corporate sector — fields that value the versatile, analytical mindset that a liberal arts education develops."
@@ -18351,7 +18361,7 @@
             "stats": [
               {
                 "label": "Programme",
-                "value": "Bachelor of Arts"
+                "value": "B.A."
               },
               {
                 "label": "Campus",
@@ -18947,10 +18957,10 @@
           "name": "B.A. (Psychology, English)",
           "duration": "3 Years",
           "type": "UG",
-          "degree": "Bachelor of Arts",
+          "degree": "B.A.",
           "hero": {
             "title": {
-              "normal": "B.A. Psychology,",
+              "normal": "B.A. Psychology, ",
               "italic": "English"
             },
             "description": "Explore the intersection of human behaviour and literary expression in this unique interdisciplinary programme.",
@@ -18958,7 +18968,7 @@
               "Home",
               "Schools",
               "School of Liberal Arts & Sciences",
-              "BA Psychology English"
+              "BA (Psychology, English)"
             ],
             "stats": [
               {
@@ -18970,8 +18980,8 @@
                 "value": "6"
               },
               {
-                "label": "Core Programme",
-                "value": "BA"
+                "label": "Programme",
+                "value": "B.A."
               }
             ]
           },
@@ -19040,7 +19050,7 @@
           "name": "B.A. (English & Political Science)",
           "duration": "3 Years",
           "type": "UG",
-          "degree": "Bachelor of Arts",
+          "degree": "B.A.",
           "hero": {
             "title": {
               "normal": "B.A. English &",
@@ -19051,7 +19061,7 @@
               "Home",
               "Schools",
               "School of Liberal Arts & Sciences",
-              "BA English Political Science"
+              "B.A. (English & Political Science)"
             ],
             "stats": [
               {
@@ -19133,7 +19143,7 @@
           "name": "B.A. (Performing Arts - Classical Dance, English)",
           "duration": "3 Years",
           "type": "UG",
-          "degree": "Bachelor of Arts",
+          "degree": "B.A.",
           "hero": {
             "title": {
               "normal": "B.A. Classical Dance",
@@ -19226,7 +19236,7 @@
           "name": "B.A. (Performing Arts - Western Music - Instrumental, Psychology)",
           "duration": "3 Years",
           "type": "UG",
-          "degree": "Bachelor of Arts",
+          "degree": "B.A.",
           "hero": {
             "title": {
               "normal": "B.A. Western Music",
@@ -19319,7 +19329,7 @@
           "name": "B.A. (Theatre Studies, English)",
           "duration": "3 Years",
           "type": "UG",
-          "degree": "Bachelor of Arts",
+          "degree": "B.A.",
           "hero": {
             "title": {
               "normal": "B.A. Theatre Studies",
@@ -19779,6 +19789,282 @@
               "PSOs": []
             }
           }
+        },
+        {
+          "slug": "ba-communication-and-media-english",
+          "name": "B.A. (Communication and Media Studies, English)",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "B.A.",
+          "overview": [
+            "The BA Psychology programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
+            "Graduates are well-positioned for careers in civil services, policy research, education, NGOs, and the corporate sector — fields that value the versatile, analytical mindset that a liberal arts education develops."
+          ],
+          "hero": {
+            "title": {
+              "normal": "BA Psychology",
+              "italic": ""
+            },
+            "description": "Discover our comprehensive BA Psychology programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Liberal Arts & Sciences",
+              "BA Psychology"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "B.A."
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years",
+            "campus": "Bengaluru, India",
+            "school": "School of Liberal Arts & Sciences"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
+            "note": "Eligibility may vary for international students."
+          },
+          "highlights": [
+            {
+              "title": "Interdisciplinary Flexibility",
+              "description": "Design your own intellectual journey by combining subjects from humanities, social sciences, and natural sciences — building a uniquely versatile skill set."
+            },
+            {
+              "title": "Critical Thinking & Analytical Skills",
+              "description": "Rigorous seminars, debates, research projects, and writing-intensive courses develop the analytical depth and clarity of expression valued by global employers."
+            },
+            {
+              "title": "Research & Publication Opportunities",
+              "description": "Faculty-mentored research projects, journal publications, and conference presentations provide students with early exposure to academic and applied research."
+            },
+            {
+              "title": "Civil Services Preparation",
+              "description": "A broad foundation in history, polity, economics, and social science provides an outstanding preparation for UPSC and state civil service examinations."
+            },
+            {
+              "title": "Global Citizenship & Cultural Awareness",
+              "description": "Coursework on world history, cross-cultural communication, and international relations develops the perspectives essential for careers in global organisations and diplomacy."
+            },
+            {
+              "title": "Diverse & High-Impact Career Outcomes",
+              "description": "Graduates pursue careers in civil services, NGOs, research institutions, media, education, consulting, and international organisations — sectors that value depth of thinking."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Civil Services & Policy",
+              "roles": [
+                "IAS/IPS/IFS Officer via UPSC Civil Services Exam",
+                "Policy Analyst at government ministries",
+                "Research Associate at think tanks: ORF, CPR, IDFC",
+                "Foreign Affairs Specialist at Ministry of External Affairs"
+              ]
+            },
+            {
+              "category": "Education & Research",
+              "roles": [
+                "Lecturer/Professor at universities and colleges",
+                "Academic Researcher at UGC-funded institutions",
+                "Curriculum Developer at education organizations",
+                "Education Consultant at international schools"
+              ]
+            },
+            {
+              "category": "Social Sector & NGOs",
+              "roles": [
+                "Program Manager at national and international NGOs",
+                "Development Sector Professional at UNDP, World Bank",
+                "CSR Manager at large corporations",
+                "Community Outreach Specialist at foundations"
+              ]
+            },
+            {
+              "category": "Corporate & Consulting",
+              "roles": [
+                "Management Consultant at McKinsey, BCG (Liberal Arts track)",
+                "HR Manager leveraging psychology background",
+                "Communications Specialist at PR firms",
+                "Market Researcher at consumer goods companies"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "What is the benefit of a liberal arts education?",
+              "a": "Liberal Arts develops critical thinking, communication, and analytical skills valued by employers globally"
+            },
+            {
+              "q": "Can I specialize in multiple disciplines?",
+              "a": "Yes, our flexible curriculum allows students to combine subjects from humanities, sciences, and social sciences"
+            },
+            {
+              "q": "What career options are available?",
+              "a": "Graduates pursue careers in research, policy, civil services, consulting, education, and international organizations"
+            },
+            {
+              "q": "Are there research opportunities?",
+              "a": "Yes, students engage in research projects and have access to our research centers"
+            },
+            {
+              "q": "What is the placement rate?",
+              "a": "Our placement rate is 85%+ with roles in government, NGOs, think tanks, and corporations"
+            },
+            {
+              "q": "Is there an exchange program?",
+              "a": "Yes, we have international partnerships for study abroad and cultural exchange programs"
+            }
+          ]
+        },
+        {
+          "slug": "ba-political-science-sociology",
+          "name": "B.A. (Political Science & Sociology)",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "B.A.",
+          "overview": [
+            "The BA Psychology programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
+            "Graduates are well-positioned for careers in civil services, policy research, education, NGOs, and the corporate sector — fields that value the versatile, analytical mindset that a liberal arts education develops."
+          ],
+          "hero": {
+            "title": {
+              "normal": "B.A. (Political Science & Sociology)",
+              "italic": ""
+            },
+            "description": "Discover our comprehensive BA Psychology programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Liberal Arts & Sciences",
+              "B.A. (Political Science & Sociology)"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "B.A."
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years",
+            "campus": "Bengaluru, India",
+            "school": "School of Liberal Arts & Sciences"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
+            "note": "Eligibility may vary for international students."
+          },
+          "highlights": [
+            {
+              "title": "Interdisciplinary Flexibility",
+              "description": "Design your own intellectual journey by combining subjects from humanities, social sciences, and natural sciences — building a uniquely versatile skill set."
+            },
+            {
+              "title": "Critical Thinking & Analytical Skills",
+              "description": "Rigorous seminars, debates, research projects, and writing-intensive courses develop the analytical depth and clarity of expression valued by global employers."
+            },
+            {
+              "title": "Research & Publication Opportunities",
+              "description": "Faculty-mentored research projects, journal publications, and conference presentations provide students with early exposure to academic and applied research."
+            },
+            {
+              "title": "Civil Services Preparation",
+              "description": "A broad foundation in history, polity, economics, and social science provides an outstanding preparation for UPSC and state civil service examinations."
+            },
+            {
+              "title": "Global Citizenship & Cultural Awareness",
+              "description": "Coursework on world history, cross-cultural communication, and international relations develops the perspectives essential for careers in global organisations and diplomacy."
+            },
+            {
+              "title": "Diverse & High-Impact Career Outcomes",
+              "description": "Graduates pursue careers in civil services, NGOs, research institutions, media, education, consulting, and international organisations — sectors that value depth of thinking."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Civil Services & Policy",
+              "roles": [
+                "IAS/IPS/IFS Officer via UPSC Civil Services Exam",
+                "Policy Analyst at government ministries",
+                "Research Associate at think tanks: ORF, CPR, IDFC",
+                "Foreign Affairs Specialist at Ministry of External Affairs"
+              ]
+            },
+            {
+              "category": "Education & Research",
+              "roles": [
+                "Lecturer/Professor at universities and colleges",
+                "Academic Researcher at UGC-funded institutions",
+                "Curriculum Developer at education organizations",
+                "Education Consultant at international schools"
+              ]
+            },
+            {
+              "category": "Social Sector & NGOs",
+              "roles": [
+                "Program Manager at national and international NGOs",
+                "Development Sector Professional at UNDP, World Bank",
+                "CSR Manager at large corporations",
+                "Community Outreach Specialist at foundations"
+              ]
+            },
+            {
+              "category": "Corporate & Consulting",
+              "roles": [
+                "Management Consultant at McKinsey, BCG (Liberal Arts track)",
+                "HR Manager leveraging psychology background",
+                "Communications Specialist at PR firms",
+                "Market Researcher at consumer goods companies"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "What is the benefit of a liberal arts education?",
+              "a": "Liberal Arts develops critical thinking, communication, and analytical skills valued by employers globally"
+            },
+            {
+              "q": "Can I specialize in multiple disciplines?",
+              "a": "Yes, our flexible curriculum allows students to combine subjects from humanities, sciences, and social sciences"
+            },
+            {
+              "q": "What career options are available?",
+              "a": "Graduates pursue careers in research, policy, civil services, consulting, education, and international organizations"
+            },
+            {
+              "q": "Are there research opportunities?",
+              "a": "Yes, students engage in research projects and have access to our research centers"
+            },
+            {
+              "q": "What is the placement rate?",
+              "a": "Our placement rate is 85%+ with roles in government, NGOs, think tanks, and corporations"
+            },
+            {
+              "q": "Is there an exchange program?",
+              "a": "Yes, we have international partnerships for study abroad and cultural exchange programs"
+            }
+          ]
         }
       ],
       "hero": {
