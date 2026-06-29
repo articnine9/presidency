@@ -17733,35 +17733,171 @@
           "tabs": {
             "curriculum": [
               {
-                "semester": "semester1",
+                "semester": "Semester 1",
                 "modules": [
                   {
-                    "name": "",
+                    "name": "Popular Culture and Literature",
                     "code": ""
                   },
                   {
-                    "name": "",
+                    "name": "Personality and Individual Differences",
                     "code": ""
                   },
                   {
-                    "name": "",
+                    "name": "Economic Perspectives",
+                    "code": ""
+                  },
+                  {
+                    "name": "Understanding the Past",
+                    "code": ""
+                  },
+                  {
+                    "name": "Understanding Society",
+                    "code": ""
+                  },
+                  {
+                    "name": "Introduction to Media Information and Literacy",
+                    "code": ""
+                  },
+                  {
+                    "name": "Foreign Language (French / German / Spanish)",
                     "code": ""
                   }
                 ]
               },
               {
-                "semester": "semester2",
+                "semester": "Semester 2",
                 "modules": [
                   {
-                    "name": "",
+                    "name": "Society, Culture and Change",
                     "code": ""
                   },
                   {
-                    "name": "",
+                    "name": "Understanding the Past",
                     "code": ""
                   },
                   {
-                    "name": "",
+                    "name": "Introduction to Performance Culture",
+                    "code": ""
+                  },
+                  {
+                    "name": "Critical Thinking",
+                    "code": ""
+                  },
+                  {
+                    "name": "Social Constructs of Gender",
+                    "code": ""
+                  },
+                  {
+                    "name": "Academic Writing for Beginners",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Discipline 1 – Course 1",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 1 – Course 2",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 1 – Course 3",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 1",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 2",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "Discipline 1 – Course 4",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 1 – Course 5",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 3",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 4",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 5",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 5",
+                "modules": [
+                  {
+                    "name": "Discipline 1 – Course 6",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 1 – Course 7",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 1 – Course 8",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 6",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 7",
+                    "code": ""
+                  },
+                  {
+                    "name": "Internship",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 6",
+                "modules": [
+                  {
+                    "name": "Discipline 1 – Course 9",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 1 – Course 10",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 8",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 9",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 10",
+                    "code": ""
+                  },
+                  {
+                    "name": "Capstone Project",
                     "code": ""
                   }
                 ]
@@ -17771,57 +17907,74 @@
               "PEOs": [
                 {
                   "id": "PEO 1",
-                  "title": " Scientific Psychology Knowledge   ",
-                  "text": "Prepare graduates with comprehensive scientific understanding of human behaviour, cognition, and psychological processes. "
+                  "title": "Critical Thinking & Analytical Skills",
+                  "text": "Develop strong critical thinking, analytical, and interpretive skills to examine texts, human behaviour, and social phenomena within cultural, historical, and theoretical frameworks."
                 },
                 {
                   "id": "PEO 2",
-                  "title": "Research Competence   ",
-                  "text": "Develop graduates who can design, conduct, and interpret psychological research using appropriate methodologies. "
+                  "title": "Research & Ethical Communication",
+                  "text": "Apply research methodologies, effective communication, and ethical reasoning in academic, professional, and societal contexts."
                 },
                 {
                   "id": "PEO 3",
-                  "title": "Professional & Applied Practice   ",
-                  "text": "Foster graduates ready for professional careers in psychology, counselling, HR, education, and social services. "
+                  "title": "Interdisciplinary Problem Solving",
+                  "text": "Integrate interdisciplinary perspectives from liberal arts and behavioural sciences to address complex human, organisational, and societal challenges."
+                },
+                {
+                  "id": "PEO 4",
+                  "title": "Career Readiness & Global Citizenship",
+                  "text": "Prepare graduates for higher education, research, and diverse career pathways as globally aware, socially responsible, and adaptable professionals."
                 }
               ],
               "POs": [
                 {
                   "id": "PO 1",
-                  "text": "Demonstrate comprehensive knowledge of major psychological theories, perspectives, and findings.   "
+                  "text": "Apply foundational and advanced knowledge of liberal arts, psychology, social sciences, and performing arts."
                 },
                 {
                   "id": "PO 2",
-                  "text": "Apply research methods and statistical techniques to investigate psychological questions.    "
+                  "text": "Critically evaluate texts, theories, and social phenomena using evidence-based reasoning."
                 },
                 {
                   "id": "PO 3",
-                  "text": "Analyse human behaviour, cognition, and emotion using established psychological frameworks. "
+                  "text": "Design and conduct qualitative and quantitative research."
                 },
                 {
                   "id": "PO 4",
-                  "text": "Communicate psychological knowledge effectively through written reports and professional presentations. "
+                  "text": "Communicate effectively through written, oral, and digital formats."
                 },
                 {
                   "id": "PO 5",
-                  "text": "Apply ethical principles in psychological research, assessment, and professional interactions. "
+                  "text": "Demonstrate ethical reasoning and social responsibility."
+                },
+                {
+                  "id": "PO 6",
+                  "text": "Integrate interdisciplinary knowledge to solve cultural and societal challenges."
+                },
+                {
+                  "id": "PO 7",
+                  "text": "Develop global and cultural competence."
+                },
+                {
+                  "id": "PO 8",
+                  "text": "Engage in lifelong learning and continuous professional development."
                 }
               ],
               "PSOs": [
                 {
                   "id": "PSO 1",
-                  "title": "Psychological Assessment   ",
-                  "text": "Ability to administer, interpret, and apply basic psychological assessment tools in educational, clinical, and organisational contexts.  "
+                  "title": "Interdisciplinary Knowledge",
+                  "text": "Integrate concepts, theories, and perspectives from the humanities and social sciences."
                 },
                 {
                   "id": "PSO 2",
-                  "title": "Research & Analysis ",
-                  "text": "Competence in designing and conducting psychological research, analysing data, and drawing evidence-based conclusions.    "
+                  "title": "Cultural & Social Analysis",
+                  "text": "Analyse information, texts, and cultural contexts using appropriate conceptual and methodological approaches."
                 },
                 {
                   "id": "PSO 3",
-                  "title": "Applied Psychology   ",
-                  "text": "Skill in applying psychological principles to real-world challenges in counselling, education, organisational behaviour, and community settings.  "
+                  "title": "Applied Research & Professional Skills",
+                  "text": "Apply interdisciplinary knowledge and transferable skills to solve real-world professional and societal challenges."
                 }
               ]
             }
@@ -17924,25 +18077,25 @@
         },
         {
           "slug": "ba-arts-classicaldance-psychology",
-          "name": ".A. (Performing Arts – Classical Dance, Psychology)",
+          "name": "B.A. (Performing Arts – Classical Dance, Psychology)",
           "duration": "3 Years",
           "type": "UG",
           "degree": "B.A.",
           "overview": [
-            "The BA Performing Arts (Classical Dance) programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
-            "Graduates are well-positioned for careers in civil services, policy research, education, NGOs, and the corporate sector — fields that value the versatile, analytical mindset that a liberal arts education develops."
+            "The B.A. (Performing Arts – Classical Dance, Psychology) programme combines rigorous training in Classical Dance with the scientific study of Psychology. It is designed for students passionate about dance, artistic expression, creativity, and understanding human behaviour.",
+            "The programme enables students to explore the relationship between movement, emotion, cognition, culture, and performance while developing creative, analytical, communication, and research skills. Through interdisciplinary learning, students gain practical performance experience alongside psychological knowledge, preparing them for careers in performing arts, education, research, and psychology-related fields."
           ],
           "hero": {
             "title": {
-              "normal": "BA Performing Arts",
-              "italic": "Classical Dance"
+              "normal": "B.A. (Performing Arts – Classical Dance, Psychology)",
+              "italic": ""
             },
             "description": "Discover our comprehensive BA Performing Arts (Classical Dance) programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
             "breadcrumb": [
               "Home",
               "Schools",
               "School of Liberal Arts & Sciences",
-              "BA Performing Arts (Classical Dance)"
+              "B.A. (Performing Arts – Classical Dance, Psychology)"
             ],
             "stats": [
               {
@@ -17966,97 +18119,113 @@
           },
           "eligibility": {
             "title": "Eligibility Criteria",
-            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
-            "note": "Eligibility may vary for international students."
+            "description": "Candidates must have completed Class 12 / 10+2 or equivalent from a recognized board.",
+            "note": ""
           },
           "highlights": [
             {
-              "title": "Interdisciplinary Flexibility",
-              "description": "Design your own intellectual journey by combining subjects from humanities, social sciences, and natural sciences — building a uniquely versatile skill set."
+              "title": "Classical Dance & Psychology",
+              "description": ""
             },
             {
-              "title": "Critical Thinking & Analytical Skills",
-              "description": "Rigorous seminars, debates, research projects, and writing-intensive courses develop the analytical depth and clarity of expression valued by global employers."
+              "title": "Movement, Expression & Human Behaviour",
+              "description": ""
             },
             {
-              "title": "Research & Publication Opportunities",
-              "description": "Faculty-mentored research projects, journal publications, and conference presentations provide students with early exposure to academic and applied research."
+              "title": "Practical Dance Performance Training",
+              "description": ""
             },
             {
-              "title": "Civil Services Preparation",
-              "description": "A broad foundation in history, polity, economics, and social science provides an outstanding preparation for UPSC and state civil service examinations."
+              "title": "Arts, Education & Psychology Career Pathways",
+              "description": ""
             },
             {
-              "title": "Global Citizenship & Cultural Awareness",
-              "description": "Coursework on world history, cross-cultural communication, and international relations develops the perspectives essential for careers in global organisations and diplomacy."
-            },
-            {
-              "title": "Diverse & High-Impact Career Outcomes",
-              "description": "Graduates pursue careers in civil services, NGOs, research institutions, media, education, consulting, and international organisations — sectors that value depth of thinking."
+              "title": "Creative, Analytical & Performance Skills",
+              "description": ""
             }
           ],
           "careers": [
             {
-              "category": "Civil Services & Policy",
-              "roles": [
-                "IAS/IPS/IFS Officer via UPSC Civil Services Exam",
-                "Policy Analyst at government ministries",
-                "Research Associate at think tanks: ORF, CPR, IDFC",
-                "Foreign Affairs Specialist at Ministry of External Affairs"
-              ]
+              "category": "Classical Dance Performer",
+              "roles": []
             },
             {
-              "category": "Education & Research",
-              "roles": [
-                "Lecturer/Professor at universities and colleges",
-                "Academic Researcher at UGC-funded institutions",
-                "Curriculum Developer at education organizations",
-                "Education Consultant at international schools"
-              ]
+              "category": "Dance Educator",
+              "roles": []
             },
             {
-              "category": "Social Sector & NGOs",
-              "roles": [
-                "Program Manager at national and international NGOs",
-                "Development Sector Professional at UNDP, World Bank",
-                "CSR Manager at large corporations",
-                "Community Outreach Specialist at foundations"
-              ]
+              "category": "Choreographer",
+              "roles": []
             },
             {
-              "category": "Corporate & Consulting",
-              "roles": [
-                "Management Consultant at McKinsey, BCG (Liberal Arts track)",
-                "HR Manager leveraging psychology background",
-                "Communications Specialist at PR firms",
-                "Market Researcher at consumer goods companies"
-              ]
+              "category": "Arts Facilitator",
+              "roles": []
+            },
+            {
+              "category": "Cultural Programme Coordinator",
+              "roles": []
+            },
+            {
+              "category": "Community Arts Professional",
+              "roles": []
+            },
+            {
+              "category": "Performing Arts Research Assistant",
+              "roles": []
+            },
+            {
+              "category": "Arts Management Professional",
+              "roles": []
+            },
+            {
+              "category": "Psychology-related Higher Studies",
+              "roles": []
+            },
+            {
+              "category": "Performance-based Education Specialist",
+              "roles": []
             }
           ],
           "faq": [
             {
-              "q": "What is the benefit of a liberal arts education?",
-              "a": "Liberal Arts develops critical thinking, communication, and analytical skills valued by employers globally"
+              "q": "What is the duration of the B.A. (Performing Arts – Classical Dance, Psychology) programme?",
+              "a": "The programme is a three-year full-time undergraduate degree that combines Classical Dance with Psychology."
             },
             {
-              "q": "Can I specialize in multiple disciplines?",
-              "a": "Yes, our flexible curriculum allows students to combine subjects from humanities, sciences, and social sciences"
+              "q": "What subjects are included in this programme?",
+              "a": "The curriculum combines Classical Dance training with Psychology, covering human behaviour, cognition, emotion, creativity, communication, and interdisciplinary liberal arts courses."
             },
             {
-              "q": "What career options are available?",
-              "a": "Graduates pursue careers in research, policy, civil services, consulting, education, and international organizations"
+              "q": "Does the programme include practical performance opportunities?",
+              "a": "Yes. Students participate in dance practice, workshops, rehearsals, stage performances, and creative projects, making practical training an integral part of the programme."
             },
             {
-              "q": "Are there research opportunities?",
-              "a": "Yes, students engage in research projects and have access to our research centers"
+              "q": "What are the eligibility criteria?",
+              "a": "Candidates must have completed Class 12 (10+2) or an equivalent qualification from a recognised board. Applicants should also refer to the university for any additional audition or admission requirements, if applicable."
             },
             {
-              "q": "What is the placement rate?",
-              "a": "Our placement rate is 85%+ with roles in government, NGOs, think tanks, and corporations"
+              "q": "Does the programme include internships?",
+              "a": "Yes. Students complete an internship in Semester 5 and a Capstone Project in Semester 6, providing practical experience and research-based learning."
             },
             {
-              "q": "Is there an exchange program?",
-              "a": "Yes, we have international partnerships for study abroad and cultural exchange programs"
+              "q": "What career opportunities are available after graduation?",
+              "a": "Graduates can pursue careers in classical dance performance, choreography, dance education, arts facilitation, cultural programming, arts management, community arts, or continue with higher studies in Psychology or Performing Arts."
+            },
+            {
+              "q": "Can I pursue higher studies after this programme?",
+              "a": "Yes. Graduates can pursue postgraduate programmes in Psychology, Performing Arts, Dance, Dance Education, Arts Management, Counselling, and other interdisciplinary fields."
+            },
+            {
+              "q": "What skills will I develop during the programme?",
+              "a": "Students develop classical dance performance skills, creative expression, communication skills, psychological understanding, critical thinking, research methodology, cultural awareness, leadership, teamwork, and analytical reasoning."
+            },
+            {
+              "q": "What makes this programme unique?",
+              "a": "The programme combines Classical Dance with Psychology, helping students understand the relationship between artistic performance, human behaviour, emotion, and culture while developing creative and analytical abilities."
+            },
+            {
+              "q": "Is this programme suitable for careers in dance and psychology?",
+              "a": "Yes. The curriculum prepares students for careers in dance performance, choreography, education, cultural organisations, and creative industries, while providing a strong foundation for higher studies in Psychology, Dance, Performing Arts, and arts-based therapy."
             }
           ]
         },
@@ -18336,27 +18505,36 @@
             }
           ]
         },
-        {
-          "slug": "ba-theatre-studies-psychology",
-          "name": "B.A. (Theatre Studies, Psychology)",
+          {
+          "slug": "ba-performing-arts-western-music-instrumental-psychology",
+          "name": "B.A. (Performing Arts – Western Music – Instrumental, Psychology)",
           "duration": "3 Years",
           "type": "UG",
           "degree": "B.A.",
+         "overviewtitle": "Exploring Human Expression Through",
+          "highlight": "Music & Psychology",
           "overview": [
-            "The BA Performing Arts (Theatre Studies) programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
-            "Graduates are well-positioned for careers in civil services, policy research, education, NGOs, and the corporate sector — fields that value the versatile, analytical mindset that a liberal arts education develops."
+            "The B.A. (Performing Arts – Western Music – Instrumental, English) programme combines Western instrumental music training with English language, literature, communication, and cultural studies.",
+            "Designed for students passionate about instrumental music, performance, literature, and creative expression, the programme develops artistic ability, language proficiency, interpretive thinking, and communication skills. Through an interdisciplinary curriculum, students gain practical performance experience while building analytical and research capabilities for careers in music, education, media, arts communication, and cultural industries."
+          ],
+          "image": "/img/programme/la/la1.jpg",
+          "images": [
+            "/img/programme/la/la1.jpg",
+            "/img/programme/la/la2.jpg",
+            "/img/programme/la/la3.jpg"
           ],
           "hero": {
+            "image": "/img/banner/sola.jpg",
             "title": {
-              "normal": "BA Performing Arts",
-              "italic": "Theatre Studies"
+              "normal": "B.A. (Performing Arts – Western Music ",
+              "italic": "– Instrumental, English)"
             },
-            "description": "Discover our comprehensive BA Performing Arts (Theatre Studies) programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "description": "Discover our comprehensive BA Performing Arts (Western Music) programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
             "breadcrumb": [
               "Home",
               "Schools",
               "School of Liberal Arts & Sciences",
-              "BA Performing Arts (Theatre Studies)"
+              "B.A. (Performing Arts – Western Music – Instrumental, English)"
             ],
             "stats": [
               {
@@ -18380,179 +18558,177 @@
           },
           "eligibility": {
             "title": "Eligibility Criteria",
-            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
-            "note": "Eligibility may vary for international students."
-          },
-          "highlights": [
-            {
-              "title": "Interdisciplinary Flexibility",
-              "description": "Design your own intellectual journey by combining subjects from humanities, social sciences, and natural sciences — building a uniquely versatile skill set."
-            },
-            {
-              "title": "Critical Thinking & Analytical Skills",
-              "description": "Rigorous seminars, debates, research projects, and writing-intensive courses develop the analytical depth and clarity of expression valued by global employers."
-            },
-            {
-              "title": "Research & Publication Opportunities",
-              "description": "Faculty-mentored research projects, journal publications, and conference presentations provide students with early exposure to academic and applied research."
-            },
-            {
-              "title": "Civil Services Preparation",
-              "description": "A broad foundation in history, polity, economics, and social science provides an outstanding preparation for UPSC and state civil service examinations."
-            },
-            {
-              "title": "Global Citizenship & Cultural Awareness",
-              "description": "Coursework on world history, cross-cultural communication, and international relations develops the perspectives essential for careers in global organisations and diplomacy."
-            },
-            {
-              "title": "Diverse & High-Impact Career Outcomes",
-              "description": "Graduates pursue careers in civil services, NGOs, research institutions, media, education, consulting, and international organisations — sectors that value depth of thinking."
-            }
-          ],
-          "careers": [
-            {
-              "category": "Civil Services & Policy",
-              "roles": [
-                "IAS/IPS/IFS Officer via UPSC Civil Services Exam",
-                "Policy Analyst at government ministries",
-                "Research Associate at think tanks: ORF, CPR, IDFC",
-                "Foreign Affairs Specialist at Ministry of External Affairs"
-              ]
-            },
-            {
-              "category": "Education & Research",
-              "roles": [
-                "Lecturer/Professor at universities and colleges",
-                "Academic Researcher at UGC-funded institutions",
-                "Curriculum Developer at education organizations",
-                "Education Consultant at international schools"
-              ]
-            },
-            {
-              "category": "Social Sector & NGOs",
-              "roles": [
-                "Program Manager at national and international NGOs",
-                "Development Sector Professional at UNDP, World Bank",
-                "CSR Manager at large corporations",
-                "Community Outreach Specialist at foundations"
-              ]
-            },
-            {
-              "category": "Corporate & Consulting",
-              "roles": [
-                "Management Consultant at McKinsey, BCG (Liberal Arts track)",
-                "HR Manager leveraging psychology background",
-                "Communications Specialist at PR firms",
-                "Market Researcher at consumer goods companies"
-              ]
-            }
-          ],
-          "faq": [
-            {
-              "q": "What is the benefit of a liberal arts education?",
-              "a": "Liberal Arts develops critical thinking, communication, and analytical skills valued by employers globally"
-            },
-            {
-              "q": "Can I specialize in multiple disciplines?",
-              "a": "Yes, our flexible curriculum allows students to combine subjects from humanities, sciences, and social sciences"
-            },
-            {
-              "q": "What career options are available?",
-              "a": "Graduates pursue careers in research, policy, civil services, consulting, education, and international organizations"
-            },
-            {
-              "q": "Are there research opportunities?",
-              "a": "Yes, students engage in research projects and have access to our research centers"
-            },
-            {
-              "q": "What is the placement rate?",
-              "a": "Our placement rate is 85%+ with roles in government, NGOs, think tanks, and corporations"
-            },
-            {
-              "q": "Is there an exchange program?",
-              "a": "Yes, we have international partnerships for study abroad and cultural exchange programs"
-            }
-          ]
-        },
-        {
-          "slug": "msc-psychology-child-clinical-counselling-industrial-psychology",
-          "name": "M.Sc Psychology",
-          "duration": "2 Years",
-          "type": "PG",
-          "degree": "Master of Science",
-          "hero": {
-            "title": {
-              "normal": " M.Sc. Psychology",
-              "italic": ""
-            },
-            "description": " Advance your understanding of human behaviour through postgraduate specialisation. Choose from four tracks — Child Psychology, Clinical Psychology, Counselling Psychology, or Industrial Psychology — and develop the advanced competencies needed for professional psychological practice, research, and academic careers. ",
-            "breadcrumb": [
-              "Home",
-              "Schools",
-              "  Liberal Arts & Sciences",
-              "  M.Sc. Psychology"
-            ],
-            "stats": [
-              {
-                "label": "Duration",
-                "value": "3 Yr"
-              },
-              {
-                "label": "Semesters",
-                "value": "5"
-              },
-              {
-                "label": "Core Programme",
-                "value": "Psychology  "
-              }
-            ]
-          },
-          "details": {
-            "duration": "1 Years Full-Time",
-            "campus": "Bengaluru, India",
-            "school": " Liberal Arts & Sciences "
-          },
-          "overview": [
-            "  The M.Sc. in Psychology provides advanced postgraduate education across four specialisation tracks — Child, Clinical, Counselling, and Industrial Psychology. Each track develops deep expertise in the chosen domain while maintaining a strong foundation in psychological research methodology, advanced statistics, and ethical practice. Students engage with contemporary psychological theories, evidence-based assessment techniques, and therapeutic or organisational interventions relevant to their specialisation. ",
-            "The programme combines academic instruction with supervised practical experience, case studies, and research projects. Clinical and counselling tracks include practicum components in therapeutic settings. The industrial psychology track connects with organisational practice through corporate projects and HR collaborations. Graduates are prepared for professional practice, research careers, and academic positions — and the programme provides a strong foundation for doctoral study in psychology.   "
-          ],
-          "eligibility": {
-            "title": "Eligibility",
-            "description": "Candidates need a BA or B.Sc. degree with at least 50% marks and Psychology as a compulsory subject at the undergraduate level. International applicants should confirm requirements with the Office of International Affairs. ",
-            "note": " "
+            "description": "Candidates must have completed Class 12 / 10+2 or equivalent from a recognized board.",
+            "note": ""
           },
           "tabs": {
             "curriculum": [
               {
-                "semester": "semester1",
+                "semester": "Semester 1",
                 "modules": [
                   {
-                    "name": "",
+                    "name": "Popular Culture and Literature",
                     "code": ""
                   },
                   {
-                    "name": "",
+                    "name": "Personality and Individual Differences",
                     "code": ""
                   },
                   {
-                    "name": "",
+                    "name": "Economic Perspectives",
+                    "code": ""
+                  },
+                  {
+                    "name": "Understanding the Past",
+                    "code": ""
+                  },
+                  {
+                    "name": "Understanding Society",
+                    "code": ""
+                  },
+                  {
+                    "name": "Introduction to Media Information and Literacy",
+                    "code": ""
+                  },
+                  {
+                    "name": "Foreign Language (French / German / Spanish)",
                     "code": ""
                   }
                 ]
               },
               {
-                "semester": "semester2",
+                "semester": "Semester 2",
                 "modules": [
                   {
-                    "name": "",
+                    "name": "Society, Culture and Change",
                     "code": ""
                   },
                   {
-                    "name": "",
+                    "name": "Understanding the Past",
                     "code": ""
                   },
                   {
-                    "name": "",
+                    "name": "Introduction to Performance Culture",
+                    "code": ""
+                  },
+                  {
+                    "name": "Critical Thinking",
+                    "code": ""
+                  },
+                  {
+                    "name": "Social Constructs of Gender",
+                    "code": ""
+                  },
+                  {
+                    "name": "Academic Writing for Beginners",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Discipline 1 – Course 1",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 1 – Course 2",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 1 – Course 3",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 1",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 2",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "Discipline 1 – Course 4",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 1 – Course 5",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 3",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 4",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 5",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 5",
+                "modules": [
+                  {
+                    "name": "Discipline 1 – Course 6",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 1 – Course 7",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 1 – Course 8",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 6",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 7",
+                    "code": ""
+                  },
+                  {
+                    "name": "Internship",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 6",
+                "modules": [
+                  {
+                    "name": "Discipline 1 – Course 9",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 1 – Course 10",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 8",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 9",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 10",
+                    "code": ""
+                  },
+                  {
+                    "name": "Capstone Project",
                     "code": ""
                   }
                 ]
@@ -18562,7 +18738,325 @@
               "PEOs": [
                 {
                   "id": "PEO 1",
-                  "title": " Scientific Psychology Knowledge   ",
+                  "title": "Critical Thinking & Analytical Skills",
+                  "text": "Develop strong critical thinking, analytical, and interpretive skills to examine texts, human behaviour, and social phenomena within appropriate cultural, historical, and theoretical frameworks."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Research & Ethical Communication",
+                  "text": "Apply research methodologies, effective communication, and ethical reasoning in academic, professional, and societal contexts."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Interdisciplinary Problem Solving",
+                  "text": "Integrate interdisciplinary perspectives from liberal arts and behavioural sciences to address complex human, organisational, and societal challenges."
+                },
+                {
+                  "id": "PEO 4",
+                  "title": "Higher Education & Career Readiness",
+                  "text": "Pursue higher education, research, and diverse career pathways as globally aware, socially responsible, and adaptable professionals committed to integrity and social impact."
+                }
+              ],
+              "POs": [
+                {
+                  "id": "PO 1",
+                  "text": "Apply foundational and advanced knowledge of liberal arts disciplines, literature, performing arts, and related fields."
+                },
+                {
+                  "id": "PO 2",
+                  "text": "Critically evaluate texts, theories, and social phenomena using logical reasoning and evidence-based analysis."
+                },
+                {
+                  "id": "PO 3",
+                  "text": "Design and conduct qualitative and quantitative research using appropriate methodologies."
+                },
+                {
+                  "id": "PO 4",
+                  "text": "Communicate ideas and research findings effectively through written, oral, and digital formats."
+                },
+                {
+                  "id": "PO 5",
+                  "text": "Demonstrate ethical reasoning, integrity, and social responsibility."
+                },
+                {
+                  "id": "PO 6",
+                  "text": "Integrate interdisciplinary perspectives to solve complex human, cultural, and societal challenges."
+                },
+                {
+                  "id": "PO 7",
+                  "text": "Analyse global issues with cultural sensitivity and inclusivity."
+                },
+                {
+                  "id": "PO 8",
+                  "text": "Engage in lifelong learning and continuous professional development."
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Interdisciplinary Knowledge",
+                  "text": "Integrate concepts, theories, and perspectives from the humanities and social sciences."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Contextual & Cultural Analysis",
+                  "text": "Analyse information, texts, and cultural contexts using appropriate conceptual and methodological approaches."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Applied Research & Professional Skills",
+                  "text": "Demonstrate interdisciplinary knowledge and transferable skills to address real-world professional and societal challenges."
+                }
+              ]
+            }
+          },
+          "highlights": [
+            {
+              "title": "Western Instrumental Music & English",
+              "description": ""
+            },
+            {
+              "title": "Performance, Communication & Interpretation",
+              "description": ""
+            },
+            {
+              "title": "Interdisciplinary Learning",
+              "description": ""
+            },
+            {
+              "title": "Careers in Music & Creative Industries",
+              "description": ""
+            }
+          ],
+          "careers": [
+            {
+              "category": "Instrumental Music Performer",
+              "roles": []
+            },
+            {
+              "category": "Music Educator",
+              "roles": []
+            },
+            {
+              "category": "Arts and Culture Communication Professional",
+              "roles": []
+            },
+            {
+              "category": "Content Creator",
+              "roles": []
+            },
+            {
+              "category": "Creative Production Support Executive",
+              "roles": []
+            },
+            {
+              "category": "Event Performer",
+              "roles": []
+            },
+            {
+              "category": "Arts Programme Coordinator",
+              "roles": []
+            },
+            {
+              "category": "Creative Writer",
+              "roles": []
+            },
+            {
+              "category": "Music Industry Professional",
+              "roles": []
+            },
+            {
+              "category": "Higher Studies in Music, English, or Cultural Studies",
+              "roles": []
+            }
+          ],
+          "faq": [
+            {
+              "q": "What is the duration of the B.A. (Performing Arts – Western Music – Instrumental, English) programme?",
+              "a": "The programme is a three-year full-time undergraduate degree that combines practical training in Western Instrumental Music with English language and literature."
+            },
+            {
+              "q": "What will I study in this programme?",
+              "a": "The curriculum includes Western Instrumental Music, performance techniques, English language and literature, communication, cultural studies, interdisciplinary liberal arts courses, and practical performance training."
+            },
+            {
+              "q": "Does the programme include practical performance opportunities?",
+              "a": "Yes. Students participate in hands-on instrumental training, rehearsals, live performances, workshops, and creative projects to develop professional musical skills."
+            },
+            {
+              "q": "What are the eligibility criteria?",
+              "a": "Candidates must have completed Class 12 (10+2) or an equivalent qualification from a recognised board. Applicants should also check with the university regarding any audition or instrument-specific admission requirements, if applicable."
+            },
+            {
+              "q": "Does the programme include internships?",
+              "a": "Yes. Students complete an internship in Semester 5 and a Capstone Project in Semester 6, providing practical industry exposure and research experience."
+            },
+            {
+              "q": "What career opportunities are available after graduation?",
+              "a": "Graduates can pursue careers in instrumental performance, music education, arts communication, content creation, event performance, creative production support, cultural management, or continue with higher studies in Music, English, or Cultural Studies."
+            },
+            {
+              "q": "Can I pursue higher studies after this programme?",
+              "a": "Yes. Graduates can pursue postgraduate programmes in Music, English, Cultural Studies, Performing Arts, Arts Management, Communication, and related disciplines."
+            },
+            {
+              "q": "What skills will I develop during the programme?",
+              "a": "Students develop Western instrumental performance skills, English communication and writing, creative expression, literary interpretation, critical thinking, research methodology, cultural awareness, leadership, teamwork, and analytical reasoning."
+            },
+            {
+              "q": "What makes this programme unique?",
+              "a": "The programme combines Western Instrumental Music with English Studies, enabling students to connect musical performance with language, literature, storytelling, and cultural understanding while developing creative and professional competencies."
+            },
+            {
+              "q": "Is this programme suitable for careers in music and communication?",
+              "a": "Yes. The curriculum prepares students for careers in music performance, music education, arts communication, publishing, creative media, event management, and cultural organisations, while providing a strong foundation for higher studies in Music, English, Performing Arts, and Cultural Studies."
+            }
+          ]
+        },
+        {
+          "slug": "ba-theatre-studies-psychology",
+          "name": "B.A. (Theatre Studies, Psychology)",
+          "duration": "3 Years",
+          "type": "UG",
+          "degree": "B.A.",
+          "overviewtitle": "Exploring Human Expression Through",
+          "highlight": "Theatre & Psychology",
+          "overview": [
+            
+          ],
+          "image": "/img/programme/la/la1.jpg",
+          "images": [
+            "/img/programme/la/la1.jpg",
+            "/img/programme/la/la2.jpg",
+            "/img/programme/la/la3.jpg"
+          ],
+          "hero": {
+            "image": "/img/banner/sola.jpg",
+            "title": {
+              "normal": "B.A. (Theatre Studies, Psychology)",
+              "italic": ""
+            },
+            "description": "Discover our comprehensive BA Performing Arts (Theatre Studies) programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Liberal Arts & Sciences",
+              "B.A. (Theatre Studies, Psychology)"
+            ],
+            "stats": [
+              {
+                "label": "Programme",
+                "value": "B.A."
+              },
+              {
+                "label": "Campus",
+                "value": "Bengaluru, India"
+              },
+              {
+                "label": "Status",
+                "value": "Active"
+              }
+            ]
+          },
+          "details": {
+            "duration": "3 Years",
+            "campus": "Bengaluru, India",
+            "school": "School of Liberal Arts & Sciences"
+          },
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "Candidates must have completed Class 12 / 10+2 or equivalent from a recognized board.",
+            "note": ""
+          },
+          "tabs": {
+            "curriculum": [
+             
+            ],
+            "outcomes": {
+              "PEOs": [
+                
+              ],
+              "POs": [
+               
+              ],
+              "PSOs": [
+                
+              ]
+            }
+          },
+          "highlights": [
+          
+          ],
+          "careers": [
+           
+          ],
+          "faq": [
+          
+          ]
+        },
+        {
+          "slug": "msc-psychology-child-clinical-counselling-industrial-psychology",
+          "name": "M.Sc Psychology",
+          "duration": "2 Years",
+          "type": "PG",
+          "degree": "Master of Science",
+          "overviewtitle": "Professional Psychology for",
+          "highlight": "Practice and Research",
+          "hero": {
+            "image": "/img/banner/sola.jpg",
+            "title": {
+              "normal": "M.Sc. Psychology",
+              "italic": ""
+            },
+            "description": "Advance your understanding of human behaviour through postgraduate specialisation. Choose from four tracks — Child Psychology, Clinical Psychology, Counselling Psychology, or Industrial Psychology — and develop the advanced competencies needed for professional psychological practice, research, and academic careers. ",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "Liberal Arts & Sciences",
+              "M.Sc. Psychology"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "2 Yrs"
+              },
+              {
+                "label": "Specialisations",
+                "value": "4"
+              },
+              {
+                "label": "Core Programme",
+                "value": "M.Sc"
+              }
+            ]
+          },
+          "details": {
+            "duration": "2 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "Liberal Arts & Sciences "
+          },
+          "overview": [
+            "The M.Sc. in Psychology provides advanced postgraduate education across four specialisation tracks — Child, Clinical, Counselling, and Industrial Psychology. Each track develops deep expertise in the chosen domain while maintaining a strong foundation in psychological research methodology, advanced statistics, and ethical practice. Students engage with contemporary psychological theories, evidence-based assessment techniques, and therapeutic or organisational interventions relevant to their specialisation. ",
+            "The programme combines academic instruction with supervised practical experience, case studies, and research projects. Clinical and counselling tracks include practicum components in therapeutic settings. The industrial psychology track connects with organisational practice through corporate projects and HR collaborations. Graduates are prepared for professional practice, research careers, and academic positions — and the programme provides a strong foundation for doctoral study in psychology.   "
+          ],
+          "image": "/img/programme/la/la1.jpg",
+          "images": [
+            "/img/programme/la/la1.jpg",
+            "/img/programme/la/la2.jpg",
+            "/img/programme/la/la3.jpg"
+          ],
+          "eligibility": {
+            "title": "Eligibility",
+            "description": "Candidates need a BA or B.Sc. degree with at least 50% marks and Psychology as a compulsory subject at the undergraduate level. International applicants should confirm requirements with the Office of International Affairs. ",
+            "note": " "
+          },
+          "tabs": {
+           "curriculum": [ { "semester": "Semester 1", "modules": [ { "name": "Fundamental Theories in Psychology", "code": "" }, { "name": "Psychobiology", "code": "" }, { "name": "Developmental Theories", "code": "" }, { "name": "Quantitative Research Methods in Psychology", "code": "" }, { "name": "Psychology of Social Behaviour", "code": "" }, { "name": "Perception & Memory Experiments / Cognitive Assessments", "code": "" } ] }, { "semester": "Semester 2", "modules": [ { "name": "Advanced Cognitive Psychology", "code": "" }, { "name": "Theories of Personality", "code": "" }, { "name": "Interpersonal Communication", "code": "" }, { "name": "Qualitative Research Methods", "code": "" }, { "name": "Psychopathology", "code": "" }, { "name": "Assessment of Personality and Intelligence", "code": "" } ] }, { "semester": "Semester 3", "modules": [ { "name": "Psychometrics", "code": "" }, { "name": "Forensic Psychology", "code": "" }, { "name": "Therapeutic Communication", "code": "" }, { "name": "Track 1 – Clinical Psychology", "code": "" }, { "name": "Track 2 – Organisational Psychology", "code": "" }, { "name": "Track 3 – Child and Adolescent Psychology", "code": "" }, { "name": "Gender and Society: Understanding Identities and Inequalities", "code": "" } ] }, { "semester": "Semester 4", "modules": [ { "name": "Track 4 – Counselling Psychology", "code": "" }, { "name": "Specialization Track 5", "code": "" }, { "name": "Dissertation / Major Research Project", "code": "" }, { "name": "Internship", "code": "" } ] } ],
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Scientific Psychology Knowledge   ",
                   "text": "Prepare graduates with comprehensive scientific understanding of human behaviour, cognition, and psychological processes. "
                 },
                 {
@@ -18720,16 +19214,17 @@
           "type": "PG",
           "degree": "M.A. English ",
           "hero": {
+            "image": "/img/banner/sola.jpg",
             "title": {
-              "normal": " M.A. English ",
+              "normal": "M.A. English ",
               "italic": ""
             },
             "description": " Deepen your engagement with literature, language, and culture through postgraduate specialisation. Choose from Digital Humanities, Cultural Studies, Creative Writing, or Educational Leadership — and develop advanced competencies for careers in academia, publishing, media, education, and cultural institutions.  ",
             "breadcrumb": [
               "Home",
               "Schools",
-              "   Liberal Arts & Sciences",
-              "  M.A. English "
+              "Liberal Arts & Sciences",
+              "M.A. English "
             ],
             "stats": [
               {
@@ -18737,12 +19232,12 @@
                 "value": "2 Yr"
               },
               {
-                "label": "Semesters",
+                "label": "Specialisations",
                 "value": "4"
               },
               {
                 "label": "Core Programme",
-                "value": "English "
+                "value": "MA"
               }
             ]
           },
@@ -18752,51 +19247,22 @@
             "school": " Liberal Arts & Sciences "
           },
           "overview": [
-            " The M.A. in English provides advanced postgraduate study in literature, language, and culture with four distinctive specialisation tracks. Digital Humanities explores the intersection of technology and literary scholarship. Cultural Studies engages with contemporary cultural theory, identity, and representation. Creative Writing develops professional authorial and editorial skills. Educational Leadership prepares graduates for leadership roles in educational institutions and policy development.",
+            "The M.A. in English provides advanced postgraduate study in literature, language, and culture with four distinctive specialisation tracks. Digital Humanities explores the intersection of technology and literary scholarship. Cultural Studies engages with contemporary cultural theory, identity, and representation. Creative Writing develops professional authorial and editorial skills. Educational Leadership prepares graduates for leadership roles in educational institutions and policy development.",
             "All tracks share a foundation in advanced literary analysis, critical theory, research methodology, and academic writing. The programme prepares graduates for academic careers, doctoral research, publishing, media, cultural organisations, and educational leadership. The educational leadership track is particularly distinctive, combining English studies with institutional management and pedagogical innovation for careers in education administration. The M.A. English at Presidency University offers a rich interdisciplinary environment, connecting with performing arts, sociology, economics, and psychology across"
+          ],
+          "image": "/img/programme/la/la1.jpg",
+          "images": [
+            "/img/programme/la/la1.jpg",
+            "/img/programme/la/la2.jpg",
+            "/img/programme/la/la3.jpg"
           ],
           "eligibility": {
             "title": "Eligibility",
-            "description": "Applicants typically need a recognised undergraduate degree with English as a subject. Specific eligibility and marks requirements should be confirmed with the school.  ",
+            "description": "Candidates must have completed a Bachelor's degree in English or a related discipline from a recognised university with a minimum of 45% marks. Candidates from Humanities, Liberal Arts, Social Sciences, Media, Communication, or allied disciplines may also be considered as per university norms.",
             "note": " "
           },
           "tabs": {
-            "curriculum": [
-              {
-                "semester": "semester1",
-                "modules": [
-                  {
-                    "name": "",
-                    "code": ""
-                  },
-                  {
-                    "name": "",
-                    "code": ""
-                  },
-                  {
-                    "name": "",
-                    "code": ""
-                  }
-                ]
-              },
-              {
-                "semester": "semester2",
-                "modules": [
-                  {
-                    "name": "",
-                    "code": ""
-                  },
-                  {
-                    "name": "",
-                    "code": ""
-                  },
-                  {
-                    "name": "",
-                    "code": ""
-                  }
-                ]
-              }
-            ],
+           "curriculum": [ { "semester": "Semester 1", "modules": [ { "name": "Introduction to Literary Theory and Criticism", "code": "" }, { "name": "Introduction to Linguistics", "code": "" }, { "name": "Indian Writings in English", "code": "" }, { "name": "English Language: Pedagogy and Practice", "code": "" }, { "name": "AI Tools for Academic & Professional Writing", "code": "" } ] }, { "semester": "Semester 2", "modules": [ { "name": "Contemporary Theory and Criticism", "code": "" }, { "name": "South Asian Literature", "code": "" }, { "name": "Gender Studies", "code": "" }, { "name": "World Literatures", "code": "" }, { "name": "Research Methods for English Studies", "code": "" }, { "name": "Podcasting and Audio Narratives", "code": "" } ] }, { "semester": "Semester 3", "modules": [ { "name": "Marginality, Resistance and Representation", "code": "" }, { "name": "Reading Cinema: Theory and Narrative", "code": "" }, { "name": "Specialization Track Course 1", "code": "" }, { "name": "Specialization Track Course 2", "code": "" }, { "name": "Multidisciplinary I", "code": "" }, { "name": "Internship", "code": "" } ] }, { "semester": "Semester 4", "modules": [ { "name": "Indian Literatures in English Translations", "code": "" }, { "name": "Reimagining Ability: Disability, Representation, and Power", "code": "" }, { "name": "Specialization Track Course 3", "code": "" }, { "name": "Specialization Track Course 4", "code": "" }, { "name": "Dissertation / Major Research Project", "code": "" } ] } ],
             "outcomes": {
               "PEOs": [
                 {
@@ -18930,15 +19396,15 @@
           ],
           "faq": [
             {
-              "q": " What are the eligibility requirements? ",
-              "a": "  Applicants typically need a recognised undergraduate degree with English as a subject. Specific eligibility and marks requirements should be confirmed with the school "
+              "q": "What are the eligibility requirements? ",
+              "a": "Applicants typically need a recognised undergraduate degree with English as a subject. Specific eligibility and marks requirements should be confirmed with the school "
             },
             {
               "q": "Can the M.A. English lead to doctoral research?",
-              "a": " Yes. The Ph.D. in English is available at Presidency, and the M.A. provides strong preparation for doctoral study at Presidency and other institutions.   "
+              "a": "Yes. The Ph.D. in English is available at Presidency, and the M.A. provides strong preparation for doctoral study at Presidency and other institutions.   "
             },
             {
-              "q": " Is the Creative Writing track suitable for aspiring authors? ",
+              "q": "Is the Creative Writing track suitable for aspiring authors? ",
               "a": "Yes. The track develops professional writing skills in fiction, poetry, non-fiction, and screenwriting alongside critical and editorial competencies valued in publishing. "
             },
             {
@@ -19146,15 +19612,15 @@
           "degree": "B.A.",
           "hero": {
             "title": {
-              "normal": "B.A. Classical Dance",
-              "italic": "& English"
+              "normal": "B.A. (Performing Arts - Classical Dance, English)",
+              "italic": ""
             },
             "description": "Blend the grace of classical dance with the richness of English literature in this distinctive performing arts programme.",
             "breadcrumb": [
               "Home",
               "Schools",
               "School of Liberal Arts & Sciences",
-              "BA Classical Dance English"
+              "B.A. (Performing Arts - Classical Dance, English)"
             ],
             "stats": [
               {
@@ -19232,97 +19698,412 @@
           }
         },
         {
-          "slug": "ba-performing-arts-western-music-instrumental-psychology",
-          "name": "B.A. (Performing Arts - Western Music - Instrumental, Psychology)",
+          "slug": "ba-performing-arts-western-music-instrumental-english",
+          "name": "B.A. (Performing Arts – Western Music – Instrumental, English)",
           "duration": "3 Years",
           "type": "UG",
           "degree": "B.A.",
+          "overviewtitle": "Mastering Music Through",
+          "highlight": "Performance & Language",
+          "overview": [
+            "The B.A. (Performing Arts – Western Music – Instrumental, English) programme combines Western instrumental music training with English language, literature, communication, and cultural studies.",
+            "Designed for students passionate about instrumental music, performance, literature, and creative expression, the programme develops artistic ability, language proficiency, interpretive thinking, and communication skills. Through an interdisciplinary curriculum, students gain practical performance experience while building analytical and research capabilities for careers in music, education, media, arts communication, and cultural industries."
+          ],
+          "image": "/img/programme/la/la1.jpg",
+          "images": [
+            "/img/programme/la/la1.jpg",
+            "/img/programme/la/la2.jpg",
+            "/img/programme/la/la3.jpg"
+          ],
           "hero": {
+            "image": "/img/banner/sola.jpg",
             "title": {
-              "normal": "B.A. Western Music",
-              "italic": "& Psychology"
+              "normal": "B.A. (Performing Arts – Western Music ",
+              "italic": "– Instrumental, English)"
             },
-            "description": "Explore the profound connection between music and the human mind in this unique interdisciplinary programme.",
+            "description": "Discover our comprehensive BA Performing Arts (Western Music) programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
             "breadcrumb": [
               "Home",
               "Schools",
               "School of Liberal Arts & Sciences",
-              "BA Western Music Psychology"
+              "B.A. (Performing Arts – Western Music – Instrumental, English)"
             ],
             "stats": [
               {
-                "label": "Duration",
-                "value": "3 Yr"
+                "label": "Programme",
+                "value": "B.A."
               },
               {
-                "label": "Semesters",
-                "value": "6"
+                "label": "Campus",
+                "value": "Bengaluru, India"
               },
               {
-                "label": "Core Programme",
-                "value": "BA"
+                "label": "Status",
+                "value": "Active"
               }
             ]
           },
           "details": {
-            "duration": "3 Years Full-Time",
+            "duration": "3 Years",
             "campus": "Bengaluru, India",
             "school": "School of Liberal Arts & Sciences"
           },
-          "overview": [
-            "The B.A. in Performing Arts combining Western Music (Instrumental) with Psychology offers an interdisciplinary education in music and human behaviour.",
-            "Students develop instrumental performance skills alongside psychological insights into creativity, performance anxiety, and musical cognition."
-          ],
           "eligibility": {
             "title": "Eligibility Criteria",
-            "description": "Candidates must have completed 10+2 with any stream and minimum 45% marks. Prior music training is preferred.",
-            "note": "Eligibility may vary for international students."
+            "description": "Candidates must have completed Class 12 / 10+2 or equivalent from a recognized board.",
+            "note": ""
+          },
+          "tabs": {
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Popular Culture and Literature",
+                    "code": ""
+                  },
+                  {
+                    "name": "Personality and Individual Differences",
+                    "code": ""
+                  },
+                  {
+                    "name": "Economic Perspectives",
+                    "code": ""
+                  },
+                  {
+                    "name": "Understanding the Past",
+                    "code": ""
+                  },
+                  {
+                    "name": "Understanding Society",
+                    "code": ""
+                  },
+                  {
+                    "name": "Introduction to Media Information and Literacy",
+                    "code": ""
+                  },
+                  {
+                    "name": "Foreign Language (French / German / Spanish)",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Society, Culture and Change",
+                    "code": ""
+                  },
+                  {
+                    "name": "Understanding the Past",
+                    "code": ""
+                  },
+                  {
+                    "name": "Introduction to Performance Culture",
+                    "code": ""
+                  },
+                  {
+                    "name": "Critical Thinking",
+                    "code": ""
+                  },
+                  {
+                    "name": "Social Constructs of Gender",
+                    "code": ""
+                  },
+                  {
+                    "name": "Academic Writing for Beginners",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Discipline 1 – Course 1",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 1 – Course 2",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 1 – Course 3",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 1",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 2",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "Discipline 1 – Course 4",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 1 – Course 5",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 3",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 4",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 5",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 5",
+                "modules": [
+                  {
+                    "name": "Discipline 1 – Course 6",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 1 – Course 7",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 1 – Course 8",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 6",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 7",
+                    "code": ""
+                  },
+                  {
+                    "name": "Internship",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 6",
+                "modules": [
+                  {
+                    "name": "Discipline 1 – Course 9",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 1 – Course 10",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 8",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 9",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 10",
+                    "code": ""
+                  },
+                  {
+                    "name": "Capstone Project",
+                    "code": ""
+                  }
+                ]
+              }
+            ],
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Critical Thinking & Analytical Skills",
+                  "text": "Develop strong critical thinking, analytical, and interpretive skills to examine texts, human behaviour, and social phenomena within appropriate cultural, historical, and theoretical frameworks."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Research & Ethical Communication",
+                  "text": "Apply research methodologies, effective communication, and ethical reasoning in academic, professional, and societal contexts."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Interdisciplinary Problem Solving",
+                  "text": "Integrate interdisciplinary perspectives from liberal arts and behavioural sciences to address complex human, organisational, and societal challenges."
+                },
+                {
+                  "id": "PEO 4",
+                  "title": "Higher Education & Career Readiness",
+                  "text": "Pursue higher education, research, and diverse career pathways as globally aware, socially responsible, and adaptable professionals committed to integrity and social impact."
+                }
+              ],
+              "POs": [
+                {
+                  "id": "PO 1",
+                  "text": "Apply foundational and advanced knowledge of liberal arts disciplines, literature, performing arts, and related fields."
+                },
+                {
+                  "id": "PO 2",
+                  "text": "Critically evaluate texts, theories, and social phenomena using logical reasoning and evidence-based analysis."
+                },
+                {
+                  "id": "PO 3",
+                  "text": "Design and conduct qualitative and quantitative research using appropriate methodologies."
+                },
+                {
+                  "id": "PO 4",
+                  "text": "Communicate ideas and research findings effectively through written, oral, and digital formats."
+                },
+                {
+                  "id": "PO 5",
+                  "text": "Demonstrate ethical reasoning, integrity, and social responsibility."
+                },
+                {
+                  "id": "PO 6",
+                  "text": "Integrate interdisciplinary perspectives to solve complex human, cultural, and societal challenges."
+                },
+                {
+                  "id": "PO 7",
+                  "text": "Analyse global issues with cultural sensitivity and inclusivity."
+                },
+                {
+                  "id": "PO 8",
+                  "text": "Engage in lifelong learning and continuous professional development."
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Interdisciplinary Knowledge",
+                  "text": "Integrate concepts, theories, and perspectives from the humanities and social sciences."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Contextual & Cultural Analysis",
+                  "text": "Analyse information, texts, and cultural contexts using appropriate conceptual and methodological approaches."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Applied Research & Professional Skills",
+                  "text": "Demonstrate interdisciplinary knowledge and transferable skills to address real-world professional and societal challenges."
+                }
+              ]
+            }
           },
           "highlights": [
             {
-              "title": "Western Music Training",
-              "description": "Instrumental music training in Western classical and contemporary styles with expert faculty."
+              "title": "Western Instrumental Music & English",
+              "description": ""
             },
             {
-              "title": "Psychology of Music",
-              "description": "Study music cognition, performance psychology, and the therapeutic applications of music."
+              "title": "Performance, Communication & Interpretation",
+              "description": ""
+            },
+            {
+              "title": "Interdisciplinary Learning",
+              "description": ""
+            },
+            {
+              "title": "Careers in Music & Creative Industries",
+              "description": ""
             }
           ],
           "careers": [
             {
-              "category": "Music & Psychology",
-              "roles": [
-                "Music Therapist",
-                "Performer",
-                "Music Teacher",
-                "Music Producer",
-                "Arts Counsellor"
-              ]
+              "category": "Instrumental Music Performer",
+              "roles": []
+            },
+            {
+              "category": "Music Educator",
+              "roles": []
+            },
+            {
+              "category": "Arts and Culture Communication Professional",
+              "roles": []
+            },
+            {
+              "category": "Content Creator",
+              "roles": []
+            },
+            {
+              "category": "Creative Production Support Executive",
+              "roles": []
+            },
+            {
+              "category": "Event Performer",
+              "roles": []
+            },
+            {
+              "category": "Arts Programme Coordinator",
+              "roles": []
+            },
+            {
+              "category": "Creative Writer",
+              "roles": []
+            },
+            {
+              "category": "Music Industry Professional",
+              "roles": []
+            },
+            {
+              "category": "Higher Studies in Music, English, or Cultural Studies",
+              "roles": []
             }
           ],
           "faq": [
             {
-              "q": "What instruments are supported?",
-              "a": "Piano, guitar, violin, and other Western instruments are offered."
+              "q": "What is the duration of the B.A. (Performing Arts – Western Music – Instrumental, English) programme?",
+              "a": "The programme is a three-year full-time undergraduate degree that combines practical training in Western Instrumental Music with English language and literature."
             },
             {
-              "q": "Can I pursue music therapy?",
-              "a": "Yes, the psychology component prepares students for music therapy and counselling careers."
+              "q": "What will I study in this programme?",
+              "a": "The curriculum includes Western Instrumental Music, performance techniques, English language and literature, communication, cultural studies, interdisciplinary liberal arts courses, and practical performance training."
+            },
+            {
+              "q": "Does the programme include practical performance opportunities?",
+              "a": "Yes. Students participate in hands-on instrumental training, rehearsals, live performances, workshops, and creative projects to develop professional musical skills."
+            },
+            {
+              "q": "What are the eligibility criteria?",
+              "a": "Candidates must have completed Class 12 (10+2) or an equivalent qualification from a recognised board. Applicants should also check with the university regarding any audition or instrument-specific admission requirements, if applicable."
+            },
+            {
+              "q": "Does the programme include internships?",
+              "a": "Yes. Students complete an internship in Semester 5 and a Capstone Project in Semester 6, providing practical industry exposure and research experience."
+            },
+            {
+              "q": "What career opportunities are available after graduation?",
+              "a": "Graduates can pursue careers in instrumental performance, music education, arts communication, content creation, event performance, creative production support, cultural management, or continue with higher studies in Music, English, or Cultural Studies."
+            },
+            {
+              "q": "Can I pursue higher studies after this programme?",
+              "a": "Yes. Graduates can pursue postgraduate programmes in Music, English, Cultural Studies, Performing Arts, Arts Management, Communication, and related disciplines."
+            },
+            {
+              "q": "What skills will I develop during the programme?",
+              "a": "Students develop Western instrumental performance skills, English communication and writing, creative expression, literary interpretation, critical thinking, research methodology, cultural awareness, leadership, teamwork, and analytical reasoning."
+            },
+            {
+              "q": "What makes this programme unique?",
+              "a": "The programme combines Western Instrumental Music with English Studies, enabling students to connect musical performance with language, literature, storytelling, and cultural understanding while developing creative and professional competencies."
+            },
+            {
+              "q": "Is this programme suitable for careers in music and communication?",
+              "a": "Yes. The curriculum prepares students for careers in music performance, music education, arts communication, publishing, creative media, event management, and cultural organisations, while providing a strong foundation for higher studies in Music, English, Performing Arts, and Cultural Studies."
             }
-          ],
-          "cta": {
-            "title": "Unite Music & Mind",
-            "subtitle": "Build a unique career at the intersection of performing arts and psychology.",
-            "button": "Apply Now"
-          },
-          "tabs": {
-            "curriculum": [],
-            "outcomes": {
-              "PEOs": [],
-              "POs": [],
-              "PSOs": []
-            }
-          }
+          ]
         },
         {
           "slug": "ba-theatre-studies-english",
@@ -19790,143 +20571,410 @@
             }
           }
         },
-        {
+       {
           "slug": "ba-communication-and-media-english",
           "name": "B.A. (Communication and Media Studies, English)",
           "duration": "3 Years",
           "type": "UG",
           "degree": "B.A.",
-          "overview": [
-            "The BA Psychology programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
-            "Graduates are well-positioned for careers in civil services, policy research, education, NGOs, and the corporate sector — fields that value the versatile, analytical mindset that a liberal arts education develops."
-          ],
+          "overviewtitle": "Shaping Stories Through",
+          "highlight": "Media & Language",
           "hero": {
+            "image": "/img/banner/sola.jpg",
             "title": {
-              "normal": "BA Psychology",
+              "normal": "B.A. (Communication and Media Studies, English)",
               "italic": ""
             },
-            "description": "Discover our comprehensive BA Psychology programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
+            "description": "Discover the lyrical grace and expressive beauty of Mohiniyattam, the dance of the enchantress, at Presidency University.",
             "breadcrumb": [
               "Home",
               "Schools",
               "School of Liberal Arts & Sciences",
-              "BA Psychology"
+              "B.A. (Communication and Media Studies, English)"
             ],
             "stats": [
               {
-                "label": "Programme",
+                "label": "Duration",
+                "value": "3 Yrs"
+              },
+              {
+                "label": "Semesters",
+                "value": "6"
+              },
+              {
+                "label": "Core Programme",
                 "value": "B.A."
-              },
-              {
-                "label": "Campus",
-                "value": "Bengaluru, India"
-              },
-              {
-                "label": "Status",
-                "value": "Active"
               }
             ]
           },
           "details": {
-            "duration": "3 Years",
+            "duration": "3 Year Full-Time",
             "campus": "Bengaluru, India",
             "school": "School of Liberal Arts & Sciences"
           },
+          "overview": [
+            "The B.A. (Communication and Media Studies, English) programme combines Media Studies, Communication, English language, Literature, Writing, and Cultural Analysis.",
+            "The programme introduces students to communication, media, language, literature, society, and culture. It develops strong skills in writing, media analysis, public communication, interpretation, critical thinking, and creative expression, preparing graduates for careers in journalism, digital media, publishing, corporate communication, and higher education."
+          ],
+          "image": "/img/programme/la/la1.jpg",
+          "images": [
+            "/img/programme/la/la1.jpg",
+            "/img/programme/la/la2.jpg",
+            "/img/programme/la/la3.jpg"
+          ],
           "eligibility": {
             "title": "Eligibility Criteria",
-            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
-            "note": "Eligibility may vary for international students."
+            "description": "Candidates must have completed Class 12 / 10+2 or equivalent from a recognized board.",
+            "note": ""
           },
           "highlights": [
             {
-              "title": "Interdisciplinary Flexibility",
-              "description": "Design your own intellectual journey by combining subjects from humanities, social sciences, and natural sciences — building a uniquely versatile skill set."
+              "title": "Communication, Media Studies & English",
+              "description": ""
             },
             {
-              "title": "Critical Thinking & Analytical Skills",
-              "description": "Rigorous seminars, debates, research projects, and writing-intensive courses develop the analytical depth and clarity of expression valued by global employers."
+              "title": "Writing, Editing & Media Literacy",
+              "description": ""
             },
             {
-              "title": "Research & Publication Opportunities",
-              "description": "Faculty-mentored research projects, journal publications, and conference presentations provide students with early exposure to academic and applied research."
+              "title": "Careers in Journalism & Corporate Communication",
+              "description": ""
             },
             {
-              "title": "Civil Services Preparation",
-              "description": "A broad foundation in history, polity, economics, and social science provides an outstanding preparation for UPSC and state civil service examinations."
-            },
-            {
-              "title": "Global Citizenship & Cultural Awareness",
-              "description": "Coursework on world history, cross-cultural communication, and international relations develops the perspectives essential for careers in global organisations and diplomacy."
-            },
-            {
-              "title": "Diverse & High-Impact Career Outcomes",
-              "description": "Graduates pursue careers in civil services, NGOs, research institutions, media, education, consulting, and international organisations — sectors that value depth of thinking."
+              "title": "Language, Media, Culture & Society",
+              "description": ""
             }
           ],
           "careers": [
             {
-              "category": "Civil Services & Policy",
-              "roles": [
-                "IAS/IPS/IFS Officer via UPSC Civil Services Exam",
-                "Policy Analyst at government ministries",
-                "Research Associate at think tanks: ORF, CPR, IDFC",
-                "Foreign Affairs Specialist at Ministry of External Affairs"
-              ]
+              "category": "Journalist",
+              "roles": []
             },
             {
-              "category": "Education & Research",
-              "roles": [
-                "Lecturer/Professor at universities and colleges",
-                "Academic Researcher at UGC-funded institutions",
-                "Curriculum Developer at education organizations",
-                "Education Consultant at international schools"
-              ]
+              "category": "Digital Content Creator",
+              "roles": []
             },
             {
-              "category": "Social Sector & NGOs",
-              "roles": [
-                "Program Manager at national and international NGOs",
-                "Development Sector Professional at UNDP, World Bank",
-                "CSR Manager at large corporations",
-                "Community Outreach Specialist at foundations"
-              ]
+              "category": "Public Relations Executive",
+              "roles": []
             },
             {
-              "category": "Corporate & Consulting",
-              "roles": [
-                "Management Consultant at McKinsey, BCG (Liberal Arts track)",
-                "HR Manager leveraging psychology background",
-                "Communications Specialist at PR firms",
-                "Market Researcher at consumer goods companies"
-              ]
+              "category": "Corporate Communication Executive",
+              "roles": []
+            },
+            {
+              "category": "Editor",
+              "roles": []
+            },
+            {
+              "category": "Publishing Professional",
+              "roles": []
+            },
+            {
+              "category": "Media Researcher",
+              "roles": []
+            },
+            {
+              "category": "Content Writer",
+              "roles": []
+            },
+            {
+              "category": "Higher Studies in Media, Communication, English, or Cultural Studies",
+              "roles": []
             }
           ],
           "faq": [
             {
-              "q": "What is the benefit of a liberal arts education?",
-              "a": "Liberal Arts develops critical thinking, communication, and analytical skills valued by employers globally"
+              "q": "What is the duration of the B.A. (Communication and Media Studies, English) programme?",
+              "a": "The programme is a three-year full-time undergraduate degree offered by Presidency University."
             },
             {
-              "q": "Can I specialize in multiple disciplines?",
-              "a": "Yes, our flexible curriculum allows students to combine subjects from humanities, sciences, and social sciences"
+              "q": "What subjects will I study in this programme?",
+              "a": "The curriculum combines Communication and Media Studies with English language and literature. Students study subjects such as Introduction to Communication Studies, Fundamentals of Journalism, Media Writing and Editing, Audio-Visual Production, Digital Media Communication, British Literature, Postcolonial Literature, and Academic Writing."
             },
             {
-              "q": "What career options are available?",
-              "a": "Graduates pursue careers in research, policy, civil services, consulting, education, and international organizations"
+              "q": "Does the programme include practical learning?",
+              "a": "Yes. Students gain practical exposure through audio-visual production, media projects, professional portfolio development, internships, and a Capstone Project, helping them build industry-ready skills."
             },
             {
-              "q": "Are there research opportunities?",
-              "a": "Yes, students engage in research projects and have access to our research centers"
+              "q": "What are the eligibility criteria?",
+              "a": "Candidates must have completed Class 12 (10+2) or an equivalent qualification from a recognised board. For detailed admission requirements, applicants should refer to the university's admission guidelines."
             },
             {
-              "q": "What is the placement rate?",
-              "a": "Our placement rate is 85%+ with roles in government, NGOs, think tanks, and corporations"
+              "q": "What career opportunities are available after graduation?",
+              "a": "Graduates can pursue careers in journalism, digital content creation, social media, public relations, corporate communication, advertising, publishing, media research, content writing, and creative communication."
             },
             {
-              "q": "Is there an exchange program?",
-              "a": "Yes, we have international partnerships for study abroad and cultural exchange programs"
+              "q": "Can I pursue higher studies after this programme?",
+              "a": "Yes. Graduates can pursue postgraduate programmes in Media Studies, Mass Communication, English, Journalism, Cultural Studies, Communication, and related disciplines."
+            },
+            {
+              "q": "What skills will I develop during the programme?",
+              "a": "Students develop communication skills, media literacy, journalism fundamentals, writing and editing, critical thinking, research methodology, public speaking, digital communication, creative storytelling, and analytical reasoning."
+            },
+            {
+              "q": "What makes this programme unique?",
+              "a": "The programme combines Communication and Media Studies with English, enabling students to build strong media expertise alongside advanced language, writing, analytical, and communication skills for today's evolving media landscape."
+            },
+            {
+              "q": "Is this programme suitable for careers in media and communication?",
+              "a": "Yes. The curriculum prepares students for careers in journalism, broadcasting, digital media, corporate communication, advertising, publishing, public relations, and content creation, while providing a strong academic foundation for higher studies."
             }
-          ]
+          ],
+          "cta": {
+            "title": "Move with Graceful Elegance",
+            "subtitle": "Learn the art of Mohiniyattam at Presidency University.",
+            "button": "Apply Now"
+          },
+          "tabs": {
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Popular Culture and Literature",
+                    "code": ""
+                  },
+                  {
+                    "name": "Personality and Individual Differences",
+                    "code": ""
+                  },
+                  {
+                    "name": "Economic Perspectives",
+                    "code": ""
+                  },
+                  {
+                    "name": "Understanding the Past",
+                    "code": ""
+                  },
+                  {
+                    "name": "Understanding Society",
+                    "code": ""
+                  },
+                  {
+                    "name": "Introduction to Media Information and Literacy",
+                    "code": ""
+                  },
+                  {
+                    "name": "Foreign Language (French / German / Spanish)",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Society, Culture and Change",
+                    "code": ""
+                  },
+                  {
+                    "name": "Understanding the Past",
+                    "code": ""
+                  },
+                  {
+                    "name": "Introduction to Performance Culture",
+                    "code": ""
+                  },
+                  {
+                    "name": "Critical Thinking",
+                    "code": ""
+                  },
+                  {
+                    "name": "Social Constructs of Gender",
+                    "code": ""
+                  },
+                  {
+                    "name": "Academic Writing for Beginners",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Discipline 1 – Course 1",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 1 – Course 2",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 1 – Course 3",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 1",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 2",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "Discipline 1 – Course 4",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 1 – Course 5",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 3",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 4",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 5",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 5",
+                "modules": [
+                  {
+                    "name": "Discipline 1 – Course 6",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 1 – Course 7",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 1 – Course 8",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 6",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 7",
+                    "code": ""
+                  },
+                  {
+                    "name": "Internship",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 6",
+                "modules": [
+                  {
+                    "name": "Discipline 1 – Course 9",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 1 – Course 10",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 8",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 9",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline 2 – Course 10",
+                    "code": ""
+                  },
+                  {
+                    "name": "Capstone Project",
+                    "code": ""
+                  }
+                ]
+              }
+            ],
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Critical Thinking & Analytical Skills",
+                  "text": "Develop strong critical thinking, analytical, and interpretive skills to examine texts, human behaviour, and social phenomena within appropriate cultural, historical, and theoretical frameworks."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Research & Ethical Communication",
+                  "text": "Apply research methodologies, effective communication, and ethical reasoning in academic, professional, and societal contexts."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Interdisciplinary Problem Solving",
+                  "text": "Integrate interdisciplinary perspectives from liberal arts and behavioural sciences to address complex human, organisational, and societal challenges."
+                },
+                {
+                  "id": "PEO 4",
+                  "title": "Higher Education & Career Readiness",
+                  "text": "Pursue higher education, research, and diverse career pathways as globally aware, socially responsible, and adaptable professionals committed to integrity and social impact."
+                }
+              ],
+              "POs": [
+                {
+                  "id": "PO 1",
+                  "text": "Apply foundational and advanced knowledge of liberal arts disciplines, including literature, psychology, social sciences, and related fields."
+                },
+                {
+                  "id": "PO 2",
+                  "text": "Critically evaluate texts, data, theories, and social phenomena using logical reasoning and evidence-based analysis."
+                },
+                {
+                  "id": "PO 3",
+                  "text": "Design and conduct qualitative and quantitative research using appropriate methodologies and ethical standards."
+                },
+                {
+                  "id": "PO 4",
+                  "text": "Communicate ideas and research findings effectively through written, oral, and digital formats."
+                },
+                {
+                  "id": "PO 5",
+                  "text": "Demonstrate ethical reasoning, integrity, and social responsibility."
+                },
+                {
+                  "id": "PO 6",
+                  "text": "Integrate interdisciplinary perspectives to develop holistic approaches to complex human, cultural, and societal issues."
+                },
+                {
+                  "id": "PO 7",
+                  "text": "Analyse global issues with sensitivity to cultural diversity and inclusivity."
+                },
+                {
+                  "id": "PO 8",
+                  "text": "Engage in lifelong learning and continuous professional development."
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Interdisciplinary Knowledge",
+                  "text": "Integrate concepts, theories, and perspectives from the humanities and social sciences to interpret complex social, cultural, and institutional issues."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Contextual Analysis",
+                  "text": "Analyse information, texts, and contexts using appropriate conceptual and methodological approaches."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Applied Research & Professional Skills",
+                  "text": "Demonstrate interdisciplinary knowledge and transferable skills to address real-world professional and societal challenges."
+                }
+              ]
+            }
+          }
         },
         {
           "slug": "ba-political-science-sociology",

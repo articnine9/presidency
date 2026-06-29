@@ -61,12 +61,11 @@ export default function CourseOverview({ data }: any) {
                 </H5>
 
                 <p className="mt-1 text-sm leading-relaxed text-[#4B5563]">
-                  Bachelor’s in relevant engineering technology with 50%
-                  minimum.
+                  {data.eligibility?.description}
                 </p>
 
                 <p className="mt-1 text-xs text-[#C89B2B]">
-                  International criteria may differ — Confirm with OIA
+                   {data.eligibility?.note}
                 </p>
               </div>
             </div>

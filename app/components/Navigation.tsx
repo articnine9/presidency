@@ -494,7 +494,7 @@ export function Navigation() {
         {
           label:
             "B.A. (Performing Arts – Western Music – Instrumental, Psychology)",
-          href: "/schools/liberal-arts-science/ba-performing-arts–western-music-instrumental-psychology",
+          href: "/schools/liberal-arts-science/ba-performing-arts-western-music-instrumental-psychology",
         },
         {
           label: "B.A. (Theatre Studies, Psychology)",
@@ -522,10 +522,10 @@ export function Navigation() {
         },
       ],
       phd: [
-        {
-          label: "Ph.D. Research Programme",
-          href: "/schools/liberal-arts-science/liberal-arts#phd-research",
-        },
+        // {
+        //   label: "Ph.D. Research Programme",
+        //   href: "/schools/liberal-arts-science/liberal-arts#phd-research",
+        // },
       ],
       diploma: [
         {

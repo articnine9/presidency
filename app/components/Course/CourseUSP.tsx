@@ -224,7 +224,7 @@ export default function CourseUSP({ data }: any) {
           <Honeycomb highlights={highlights} images={images} />
 
           {/* RIGHT — detail cards */}
-          <div className="flex-1 grid sm:grid-cols-2 gap-5">
+          <div className="hidden flex-1 sm:grid sm:grid-cols-2 gap-5">
             {highlights.map((item, index) => (
               <motion.div
                 key={index}
@@ -251,7 +251,7 @@ export default function CourseUSP({ data }: any) {
         </div>
 
         {/* MOBILE teal tiles grid */}
-        <div className="lg:hidden grid grid-cols-2 sm:grid-cols-3 gap-4 mt-10">
+        <div className="sm:hidden grid grid-cols-2  gap-4 mt-10">
           {highlights.slice(0, 6).map((item, index) => (
             <div
               key={index}

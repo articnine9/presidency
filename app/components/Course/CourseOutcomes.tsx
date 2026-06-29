@@ -113,7 +113,7 @@ export default function CourseOutcomes({ data }: any) {
                 </div>
 
                 {/* RIGHT CONTENT */}
-                <div className="col-span-12 md:col-span-10">
+                <div className="col-span-12 md:col-span-10  min-w-0">
                   <H4 className="text-[#183153]">
                     {item.title}
                   </H4>
@@ -123,7 +123,7 @@ export default function CourseOutcomes({ data }: any) {
                       mt-2
                       text-sm
                       leading-7
-                      text-gray-600
+                      text-gray-600  
                     "
                   >
                     {item.text}
