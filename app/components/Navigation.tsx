@@ -397,7 +397,7 @@ export function Navigation() {
       ug: [
         {
           label: "BA (Journalism & Mass Communication) — General",
-          href: "/schools/media/ba-jmc-journalism",
+          href: "/schools/media/ba-journalism-communication-general",
         },
         {
           label: "BA JMC (Digital Marketing & Advertising / PR & Corporate)",
@@ -419,19 +419,16 @@ export function Navigation() {
       pg: [
         {
           label: "MA Journalism & Mass Communication",
-          href: "/schools/media/ma-jmc",
+          href: "/schools/media/ma-journalism-mass-communication",
         },
       ],
       phd: [
-        {
-          label: "Ph.D. Research Programme",
-          href: "/schools/media#phd-research",
-        },
+       
       ],
       diploma: [
         {
           label: "Post Graduate Diploma in Film Making",
-          href: "/schools/media/pg-diploma-film",
+          href: "/schools/media/post-graduate-diploma-film-making",
         },
       ],
     },
