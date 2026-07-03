@@ -12133,13 +12133,15 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Commerce",
+          "overviewtitle": "Navigating the World of ",
+          "highlight": "Banking and Financial Services",
           "hero": {
-            "image": "/img/banner/soc.jpg",
+            "image": "/img/banner/socs.jpg",
             "title": {
-              "normal": " B.Com. (Banking and Finance)  ",
-              "italic": " Commerce "
+              "normal": "B.Com. (Banking and Finance)",
+              "italic": ""
             },
-            "description": " Prepare for a career at the intersection of banking, financial markets,and commerce. Thi three-year programme covers financial accounting, banking law, cost accounting, risk management, and security analysis equipping you with the knowledge and practical skills for roles in banking, insurance, and financial services. ",
+            "description": "Prepare for a career at the intersection of banking, financial markets, and commerce. This three-year programme covers financial accounting, banking law, cost accounting, risk management, and security analysis — equipping you with the knowledge and practical skills for roles in banking, insurance, and financial services.",
             "breadcrumb": [
               "Home",
               "Schools",
@@ -12152,12 +12154,12 @@
                 "value": "3 Yr "
               },
               {
-                "label": "Semesters",
-                "value": "6"
+                "label": "Core Programme",
+                "value": "B.Com"
               },
               {
-                "label": "Core Programme",
-                "value": "Banking & Finance  "
+                "label": "Specialisation",
+                "value": "Banking & Finance"
               }
             ]
           },
@@ -12167,7 +12169,7 @@
             "school": "Commerce"
           },
           "overview": [
-            "   This programme equips students with the knowledge, skills, and professional attitude for a career in banking and finance. The curriculum covers financial accounting,cost accounting, banking law, financial markets, economics, risk management, securityanalysis, and derivatives. Students develop competencies across the full spectrum ofbanking and financial services — from retail banking and credit analysis to investment management and financial regulation. The programme includes an internship component to enhance practical skills and industry readiness. ",
+            "This programme equips students with the knowledge, skills, and professional attitude for a career in banking and finance. The curriculum covers financial accounting,cost accounting, banking law, financial markets, economics, risk management, securityanalysis, and derivatives. Students develop competencies across the full spectrum ofbanking and financial services — from retail banking and credit analysis to investment management and financial regulation. The programme includes an internship component to enhance practical skills and industry readiness. ",
             "Students also have the option to receive specialised coaching for the CAFoundation examination, providing a dual academic and professional development pathway. India’s expanding banking and financial services sector — driven by digital banking, fintech innovation, and growing capital markets — creates sustained demand for commerce graduates with specialised banking and finance expertise. Bengaluru’sconcentration of banking headquarters, financial services firms, and fintech startupsprovides direct access to internship and career opportunities.   "
           ],
           "image": "/img/programme/c/c3.jpg",
@@ -12178,8 +12180,8 @@
           ],
           "eligibility": {
             "title": "Eligibility Criteria",
-            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
-            "note": "Eligibility may vary for international students."
+            "description": "andidates who have passed 10+2 / Pre-University Course / Equivalent with a minimum aggregate of 40% are eligible to apply. The programme is aligned with and supported by the Indian Institute of Banking and Finance (IIBF).",
+            "note": ""
           },
           "tabs": {
             "curriculum": [
@@ -12187,16 +12189,36 @@
                 "semester": "Semester 1",
                 "modules": [
                   {
-                    "name": "Mathematics I",
-                    "code": "MAT101"
+                    "name": "Fundamentals of Financial Accounting",
+                    "code": "CBS1021"
                   },
                   {
-                    "name": "Programming in C",
-                    "code": "CSE101"
+                    "name": "Principles of Management",
+                    "code": "CBS1014"
                   },
                   {
-                    "name": "Physics",
-                    "code": "PHY101"
+                    "name": "Microeconomics",
+                    "code": "CBS1015"
+                  },
+                  {
+                    "name": "Legal Aspects of Business",
+                    "code": "CBS1022"
+                  },
+                  {
+                    "name": "Introduction to Marketing",
+                    "code": "CBS1018"
+                  },
+                  {
+                    "name": "Human Resource Management",
+                    "code": "CBS1019"
+                  },
+                  {
+                    "name": "Essentials of Communication",
+                    "code": "ENG1901"
+                  },
+                  {
+                    "name": "Industry Readiness Program – I",
+                    "code": "PPS1025"
                   }
                 ]
               },
@@ -12204,16 +12226,160 @@
                 "semester": "Semester 2",
                 "modules": [
                   {
-                    "name": "Data Structures",
-                    "code": "CSE201"
+                    "name": "Cost Accounting",
+                    "code": "CBS2012"
                   },
                   {
-                    "name": "Discrete Mathematics",
-                    "code": "MAT201"
+                    "name": "Introduction to Banking",
+                    "code": "CBS1020"
                   },
                   {
-                    "name": "Digital Logic",
-                    "code": "CSE202"
+                    "name": "Business Statistics",
+                    "code": "CBS1017"
+                  },
+                  {
+                    "name": "Macroeconomics",
+                    "code": "CBS2016"
+                  },
+                  {
+                    "name": "Business English",
+                    "code": "ENG2020"
+                  },
+                  {
+                    "name": "Sarala Kannada / Savi Kannada / Introduction to French Language / Foreign Language",
+                    "code": ""
+                  },
+                  {
+                    "name": "Spreadsheets for Business",
+                    "code": "CBS1023"
+                  },
+                  {
+                    "name": "Industry Readiness Program – II",
+                    "code": "PPS1026"
+                  },
+                  {
+                    "name": "Indian Constitution",
+                    "code": "LAW7601"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Financial Management",
+                    "code": "CBS2029"
+                  },
+                  {
+                    "name": "Financial Decision Making",
+                    "code": "CBS2033"
+                  },
+                  {
+                    "name": "AI for Managers",
+                    "code": "CBS2028"
+                  },
+                  {
+                    "name": "Income Tax Law – I",
+                    "code": "CBS2030"
+                  },
+                  {
+                    "name": "Open Elective – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Advanced Spreadsheets",
+                    "code": "CBS2035"
+                  },
+                  {
+                    "name": "Preparedness for Interview",
+                    "code": "PPS3018"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "Income Tax Law – II",
+                    "code": "CBS2031"
+                  },
+                  {
+                    "name": "Corporate Accounting",
+                    "code": "CBS2027"
+                  },
+                  {
+                    "name": "Company Law and Practices",
+                    "code": "CBS2032"
+                  },
+                  {
+                    "name": "Open Elective – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Environmental Studies and Sustainable Development",
+                    "code": "CHE1020"
+                  },
+                  {
+                    "name": "Financial Data Modelling",
+                    "code": "CBS2036"
+                  },
+                  {
+                    "name": "Aptitude Training",
+                    "code": "PPS4002"
+                  },
+                  {
+                    "name": "Principles and Practices of Auditing",
+                    "code": "CBS2047"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 5",
+                "modules": [
+                  {
+                    "name": "Entrepreneurship and Business Ethics",
+                    "code": "CBS3035"
+                  },
+                  {
+                    "name": "GST and Customs Duty",
+                    "code": "CBS3054"
+                  },
+                  {
+                    "name": "Specialization Core Course – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Core Course – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Core Course – III",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Core Course – IV",
+                    "code": ""
+                  },
+                  {
+                    "name": "Summer Internship",
+                    "code": "CBS7000"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 6",
+                "modules": [
+                  {
+                    "name": "Project",
+                    "code": "CBS7001"
+                  },
+                  {
+                    "name": "Specialization Elective Course – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Elective Course – II",
+                    "code": ""
                   }
                 ]
               }
@@ -12326,65 +12492,66 @@
           ],
           "careers": [
             {
-              "category": "Accounting & Taxation",
+              "category": "Banking",
               "roles": [
-                "Chartered Accountant at Big 4: Deloitte, EY, KPMG, PwC",
-                "Tax Consultant at BDO, Grant Thornton",
-                "GST Specialist at mid-size firms",
-                "Internal Auditor at corporate companies"
+                "Bank Officer",
+                "Credit Analyst",
+                "Relationship Manager",
+                "Retail Banking Executive",
+                "Treasury Associate"
               ]
             },
             {
-              "category": "Finance & Investment",
+              "category": "Financial Services",
               "roles": [
-                "Financial Analyst at CRISIL, ICRA, CARE Ratings",
-                "Investment Analyst at mutual funds, hedge funds",
-                "Equity Research Analyst at brokerage firms",
-                "Treasury Manager at banks and NBFCs"
+                "Financial Analyst",
+                "Investment Associate",
+                "Insurance Underwriter",
+                "Wealth Management Associate"
               ]
             },
             {
-              "category": "Banking & Financial Services",
+              "category": "Accounting & Audit",
               "roles": [
-                "Branch Manager at public and private sector banks",
-                "Credit Analyst at ICICI, Axis, Kotak Mahindra",
-                "Risk Manager at RBI-regulated institutions",
-                "Relationship Manager at wealth management firms"
+                "Chartered Accountant (Articleship)",
+                "Audit Associate",
+                "Tax Consultant",
+                "Compliance Officer"
               ]
             },
             {
-              "category": "Corporate & Entrepreneurship",
+              "category": "Corporate Finance",
               "roles": [
-                "CFO or Finance Director at growing companies",
-                "Business Controller at MNC subsidiaries",
-                "Cost Accountant at manufacturing firms",
-                "Entrepreneur in financial advisory services"
+                "Corporate Finance Analyst",
+                "Budget Analyst",
+                "Financial Controller",
+                "Accounts Manager"
               ]
             }
           ],
           "faq": [
             {
-              "q": " What is the eligibility for international applicants? ",
-              "a": ": Candidates must have passed 10+2 or equivalent with a minimum of 40% marks in aggregate. International applicants should confirm documentation requirements with the Office of International Affairs.   "
+              "q": "What is the eligibility for international applicants? ",
+              "a": "Candidates must have passed 10+2 or equivalent with a minimum of 40% marks in aggregate. International applicants should confirm documentation requirements with the Office of International Affairs.   "
             },
             {
-              "q": " Is CA Foundation coaching included? ",
-              "a": " The programme offers optional CA Foundation coaching as an additional pathway. Students interested in pursuing Chartered Accountancy can access specialised preparation alongside their regular coursework  "
+              "q": "Is CA Foundation coaching included? ",
+              "a": "The programme offers optional CA Foundation coaching as an additional pathway. Students interested in pursuing Chartered Accountancy can access specialised preparation alongside their regular coursework  "
             },
             {
               "q": "What is the starting salary for Banking S Finance graduates?",
-              "a": "   Starting compensation varies by role and employer. Banking and finance roles in India typically start from INR 3–6 LPA, with growth potential linked to professional certifications and experience. "
+              "a": "Starting compensation varies by role and employer. Banking and finance roles in India typically start from INR 3–6 LPA, with growth potential linked to professional certifications and experience. "
             },
             {
-              "q": " Can I pursue an MBA after B.Com Banking S Finance?  ",
-              "a": "    Yes. The programme provides an excellent foundation for MBA programmes in finance, banking, or general management at Presidency and other institutions.     "
+              "q": "Can I pursue an MBA after B.Com Banking S Finance?  ",
+              "a": "Yes. The programme provides an excellent foundation for MBA programmes in finance, banking, or general management at Presidency and other institutions.     "
             },
             {
-              "q": "  Is the programme recognised internationally?",
-              "a": " : The B.Com degree from Presidency University is a recognised undergraduate qualification. Students pursuing ACCA, CMA-US, or CA certifications alongside the degree gain additional internationally recognised credentials.   "
+              "q": "Is the programme recognised internationally?",
+              "a": "The B.Com degree from Presidency University is a recognised undergraduate qualification. Students pursuing ACCA, CMA-US, or CA certifications alongside the degree gain additional internationally recognised credentials.   "
             },
             {
-              "q": " : Is on-campus accommodation available for international students?",
+              "q": "Is on-campus accommodation available for international students?",
               "a": "Presidency University provides student housing. Contact the Office of International Affairs for details.  "
             }
           ],
@@ -12400,11 +12567,13 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Commerce",
+          "overviewtitle": "A Global Accounting Qualification ",
+          "highlight": "From Day One",
           "hero": {
-            "image": "/img/banner/soc.jpg",
+            "image": "/img/banner/socs.jpg",
             "title": {
-              "normal": " B.Com. (ACCA) ",
-              "italic": " Commerce "
+              "normal": "B.Com. (ACCA) ",
+              "italic": ""
             },
             "description": "Earn a globally recognised professional accounting qualification alongside your commerce degree. This three-year programme integrates the B.Com curriculum with the ACCA (Association of Chartered Certified Accountants) syllabus — offering exemptions from up to 9 ACCA papers and opening career pathways in 180 countries worldwide.",
             "breadcrumb": [
@@ -12445,8 +12614,8 @@
           ],
           "eligibility": {
             "title": "Eligibility Criteria",
-            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
-            "note": "Eligibility may vary for international students."
+            "description": "Candidates who have passed 10+2 / Pre-University Course / Equivalent with a minimum aggregate of 40% are eligible to apply.",
+            "note": ""
           },
           "tabs": {
             "curriculum": [
@@ -12454,16 +12623,36 @@
                 "semester": "Semester 1",
                 "modules": [
                   {
-                    "name": "Mathematics I",
-                    "code": "MAT101"
+                    "name": "Financial Accounting",
+                    "code": "CBS1021"
                   },
                   {
-                    "name": "Programming in C",
-                    "code": "CSE101"
+                    "name": "Principles of Management",
+                    "code": "CBS1014"
                   },
                   {
-                    "name": "Physics",
-                    "code": "PHY101"
+                    "name": "Microeconomics",
+                    "code": "CBS1015"
+                  },
+                  {
+                    "name": "Business and Technology",
+                    "code": "CBS1026"
+                  },
+                  {
+                    "name": "Introduction to Marketing",
+                    "code": "CBS1018"
+                  },
+                  {
+                    "name": "Human Resource Management",
+                    "code": "CBS1019"
+                  },
+                  {
+                    "name": "Essentials of Communication",
+                    "code": "ENG1901"
+                  },
+                  {
+                    "name": "Industry Readiness Program – I",
+                    "code": "PPS1025"
                   }
                 ]
               },
@@ -12471,16 +12660,160 @@
                 "semester": "Semester 2",
                 "modules": [
                   {
-                    "name": "Data Structures",
-                    "code": "CSE201"
+                    "name": "Financial Management",
+                    "code": "CBS1027"
                   },
                   {
-                    "name": "Discrete Mathematics",
-                    "code": "MAT201"
+                    "name": "Introduction to Banking",
+                    "code": "CBS1020"
                   },
                   {
-                    "name": "Digital Logic",
-                    "code": "CSE202"
+                    "name": "Corporate and Business Law",
+                    "code": "CBS1028"
+                  },
+                  {
+                    "name": "Macroeconomics",
+                    "code": "CBS2016"
+                  },
+                  {
+                    "name": "Business English",
+                    "code": "ENG2020"
+                  },
+                  {
+                    "name": "Sarala Kannada / Savi Kannada / Introduction to French Language / Foreign Language",
+                    "code": ""
+                  },
+                  {
+                    "name": "Spreadsheets for Business",
+                    "code": "CBS1023"
+                  },
+                  {
+                    "name": "Indian Constitution",
+                    "code": "LAW7601"
+                  },
+                  {
+                    "name": "Industry Readiness Program – II",
+                    "code": "PPS1026"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Business Statistics",
+                    "code": "CBS1017"
+                  },
+                  {
+                    "name": "Management Accounting",
+                    "code": "CBS2038"
+                  },
+                  {
+                    "name": "AI for Managers",
+                    "code": "CBS2028"
+                  },
+                  {
+                    "name": "Income Tax Law and Practice",
+                    "code": "CBS2039"
+                  },
+                  {
+                    "name": "Open Elective – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Advanced Spreadsheets",
+                    "code": "CBS2035"
+                  },
+                  {
+                    "name": "Preparedness for Interview",
+                    "code": "PPS3018"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "Financial Reporting",
+                    "code": "CBS2040"
+                  },
+                  {
+                    "name": "Performance Management",
+                    "code": "CBS2042"
+                  },
+                  {
+                    "name": "Audit and Assurance",
+                    "code": "CBS2041"
+                  },
+                  {
+                    "name": "Open Elective – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Environmental Studies and Sustainable Development",
+                    "code": "CHE1020"
+                  },
+                  {
+                    "name": "Financial Data Modelling",
+                    "code": "CBS2036"
+                  },
+                  {
+                    "name": "Aptitude Training",
+                    "code": "PPS4002"
+                  },
+                  {
+                    "name": "Corporate Accounting",
+                    "code": "CBS2027"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 5",
+                "modules": [
+                  {
+                    "name": "Entrepreneurship and Business Ethics",
+                    "code": "CBS3035"
+                  },
+                  {
+                    "name": "GST and Customs Duty",
+                    "code": "CBS3054"
+                  },
+                  {
+                    "name": "Specialization Elective – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Elective – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Strategic Business Reporting",
+                    "code": "CBS3069"
+                  },
+                  {
+                    "name": "Advanced Audit and Assurance",
+                    "code": "CBS3071"
+                  },
+                  {
+                    "name": "Summer Internship",
+                    "code": "CBS7000"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 6",
+                "modules": [
+                  {
+                    "name": "Project",
+                    "code": "CBS7001"
+                  },
+                  {
+                    "name": "Advanced Financial Management",
+                    "code": "CBS3072"
+                  },
+                  {
+                    "name": "Strategic Business Leader",
+                    "code": "CBS3070"
                   }
                 ]
               }
@@ -12577,39 +12910,38 @@
           ],
           "careers": [
             {
-              "category": "Accounting & Taxation",
+              "category": "Professional Accounting",
               "roles": [
-                "Chartered Accountant at Big 4: Deloitte, EY, KPMG, PwC",
-                "Tax Consultant at BDO, Grant Thornton",
-                "GST Specialist at mid-size firms",
-                "Internal Auditor at corporate companies"
+                "ACCA Professional",
+                "Chartered Accountant",
+                "External Auditor",
+                "Tax Advisor"
               ]
             },
             {
-              "category": "Finance & Investment",
+              "category": "Corporate Finance",
               "roles": [
-                "Financial Analyst at CRISIL, ICRA, CARE Ratings",
-                "Investment Analyst at mutual funds, hedge funds",
-                "Equity Research Analyst at brokerage firms",
-                "Treasury Manager at banks and NBFCs"
+                "Financial Controller",
+                "Management Accountant",
+                "Corporate Finance Analyst",
+                "Treasury Manager"
               ]
             },
             {
-              "category": "Banking & Financial Services",
+              "category": "Big Four & Consulting",
               "roles": [
-                "Branch Manager at public and private sector banks",
-                "Credit Analyst at ICICI, Axis, Kotak Mahindra",
-                "Risk Manager at RBI-regulated institutions",
-                "Relationship Manager at wealth management firms"
+                "Audit Associate (Big Four)",
+                "Tax Consultant",
+                "Advisory Services Associate",
+                "Forensic Accountant"
               ]
             },
             {
-              "category": "Corporate & Entrepreneurship",
+              "category": "International Roles",
               "roles": [
-                "CFO or Finance Director at growing companies",
-                "Business Controller at MNC subsidiaries",
-                "Cost Accountant at manufacturing firms",
-                "Entrepreneur in financial advisory services"
+                "International Financial Reporting Specialist",
+                "Multinational Compliance Officer",
+                "Global Finance Manager"
               ]
             }
           ],
@@ -12627,8 +12959,16 @@
               "a": "The programme provides exemptions from the Applied Knowledge and Applied Skills levels."
             },
             {
-              "q": "Which organisations recruit B.Com ACCA graduates?",
+              "q": "Is the ACCA qualification recognised in India? ",
               "a": "Big Four firms (Deloitte, PwC, EY, KPMG), multinational corporations, financial institutions, and accounting firms recruit ACCA graduates."
+            },
+            {
+              "q": "Which organisations recruit B.Com ACCA graduates?",
+              "a": "Yes. ACCA is recognised in India and is valued by employers in accounting, auditing, taxation, and financial management roles. It is also recognised for further professional development alongside Indian qualifications such as CA."
+            },
+            {
+              "q": "Is on-campus accommodation available for international students? ",
+              "a": "Presidency University provides student housing. Contact the Office of International Affairs for details."
             }
           ],
           "cta": {
@@ -12639,15 +12979,17 @@
         },
         {
           "slug": "bcom-corporate-accounting-integrated-cma-us",
-          "name": "B.Com with CMA (US)",
+          "name": "B.Com. (Corporate Accounting Integrated with CMA-US)",
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Commerce",
+          "overviewtitle": "A Global Management ",
+"highlight": "Accounting Credential",
           "hero": {
-            "image": "/img/banner/soc.jpg",
+            "image": "/img/banner/socs.jpg",
             "title": {
-              "normal": " B.Com. (Banking and Finance)  ",
-              "italic": " Commerce "
+              "normal": "B.Com. (Corporate Accounting Integrated with CMA-US)",
+              "italic": ""
             },
             "description": "Earn a globally recognised management accounting qualification alongside your commerce degree. This three-year programme integrates the B.Com curriculum with the CMA-US (Certified Management Accountant) programme — preparing you for prominent roles in corporate finance, cost management, and financial planning worldwide.",
             "breadcrumb": [
@@ -12688,46 +13030,11 @@
           ],
           "eligibility": {
             "title": "Eligibility Criteria",
-            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
-            "note": "Eligibility may vary for international students."
+            "description": "Candidates who have passed 10+2 / Pre-University Course / Equivalent with a minimum aggregate of 40% are eligible to apply.Admission is based on the Presidency University Entrance Test (PU Entrance Test).",
+            "note": ""
           },
           "tabs": {
-            "curriculum": [
-              {
-                "semester": "Semester 1",
-                "modules": [
-                  {
-                    "name": "Mathematics I",
-                    "code": "MAT101"
-                  },
-                  {
-                    "name": "Programming in C",
-                    "code": "CSE101"
-                  },
-                  {
-                    "name": "Physics",
-                    "code": "PHY101"
-                  }
-                ]
-              },
-              {
-                "semester": "Semester 2",
-                "modules": [
-                  {
-                    "name": "Data Structures",
-                    "code": "CSE201"
-                  },
-                  {
-                    "name": "Discrete Mathematics",
-                    "code": "MAT201"
-                  },
-                  {
-                    "name": "Digital Logic",
-                    "code": "CSE202"
-                  }
-                ]
-              }
-            ],
+           "curriculum": [ { "semester": "Semester 1", "modules": [ { "name": "Basics of Accounting", "code": "CBS1034" }, { "name": "Principles of Management", "code": "CBS1014" }, { "name": "Microeconomics", "code": "CBS1015" }, { "name": "Human Resource Management", "code": "CBS1019" }, { "name": "Introduction to Marketing", "code": "CBS1018" }, { "name": "Financial Planning and Performance", "code": "CBS1035" }, { "name": "Essentials of Communication", "code": "ENG1901" }, { "name": "Industry Readiness Program – I", "code": "PPS1025" } ] }, { "semester": "Semester 2", "modules": [ { "name": "International Financial Reporting", "code": "CBS1036" }, { "name": "Financial Analytics and Control", "code": "CBS2048" }, { "name": "Introduction to Banking", "code": "CBS1020" }, { "name": "Macroeconomics", "code": "CBS2016" }, { "name": "Business English", "code": "ENG2020" }, { "name": "Sarala Kannada / Savi Kannada / Introduction to French Language / Foreign Language", "code": "" }, { "name": "Spreadsheets for Business", "code": "CBS1023" }, { "name": "Indian Constitution", "code": "LAW7601" }, { "name": "Industry Readiness Program – II", "code": "PPS1026" } ] }, { "semester": "Semester 3", "modules": [ { "name": "Strategic Financial Management – I", "code": "CBS2049" }, { "name": "AI for Managers", "code": "CBS2028" }, { "name": "Business Statistics", "code": "CBS1017" }, { "name": "Income Tax Law – I", "code": "CBS2030" }, { "name": "Open Elective – I", "code": "" }, { "name": "Advanced Spreadsheets", "code": "CBS2035" }, { "name": "Preparedness for Interview", "code": "PPS3018" } ] }, { "semester": "Semester 4", "modules": [ { "name": "Income Tax Law – II", "code": "CBS2031" }, { "name": "Strategic Financial Management – II", "code": "CBS2050" }, { "name": "Corporate Accounting", "code": "CBS2027" }, { "name": "Open Elective – II", "code": "" }, { "name": "Environmental Studies and Sustainable Development", "code": "CHE1020" }, { "name": "Financial Data Modelling", "code": "CBS2036" }, { "name": "Aptitude Training", "code": "PPS4002" }, { "name": "Principles and Practices of Auditing", "code": "CBS2047" } ] }, { "semester": "Semester 5", "modules": [ { "name": "Entrepreneurship and Business Ethics", "code": "CBS3035" }, { "name": "GST and Customs Duty", "code": "CBS3054" }, { "name": "Specialization Core Course – I", "code": "" }, { "name": "Specialization Core Course – II", "code": "" }, { "name": "Specialization Core Course – III", "code": "" }, { "name": "Specialization Core Course – IV", "code": "" }, { "name": "Summer Internship", "code": "CBS7000" } ] }, { "semester": "Semester 6", "modules": [ { "name": "Project", "code": "CBS7001" }, { "name": "Specialization Elective Course – I", "code": "" }, { "name": "Specialization Elective Course – II", "code": "" } ] } ],
             "outcomes": {
               "PEOs": [
                 {
@@ -12826,44 +13133,45 @@
               "description": "Academics and practitioners providing insights into corporate finance, cost management, and US accounting standards."
             }
           ],
-          "careers": [
-            {
-              "category": "Accounting & Taxation",
-              "roles": [
-                "Chartered Accountant at Big 4: Deloitte, EY, KPMG, PwC",
-                "Tax Consultant at BDO, Grant Thornton",
-                "GST Specialist at mid-size firms",
-                "Internal Auditor at corporate companies"
-              ]
-            },
-            {
-              "category": "Finance & Investment",
-              "roles": [
-                "Financial Analyst at CRISIL, ICRA, CARE Ratings",
-                "Investment Analyst at mutual funds, hedge funds",
-                "Equity Research Analyst at brokerage firms",
-                "Treasury Manager at banks and NBFCs"
-              ]
-            },
-            {
-              "category": "Banking & Financial Services",
-              "roles": [
-                "Branch Manager at public and private sector banks",
-                "Credit Analyst at ICICI, Axis, Kotak Mahindra",
-                "Risk Manager at RBI-regulated institutions",
-                "Relationship Manager at wealth management firms"
-              ]
-            },
-            {
-              "category": "Corporate & Entrepreneurship",
-              "roles": [
-                "CFO or Finance Director at growing companies",
-                "Business Controller at MNC subsidiaries",
-                "Cost Accountant at manufacturing firms",
-                "Entrepreneur in financial advisory services"
-              ]
-            }
-          ],
+        
+"careers": [
+  {
+    "category": "Management Accounting",
+    "roles": [
+      "Certified Management Accountant",
+      "Cost Analyst",
+      "Management Reporting Specialist",
+      "Performance Analyst"
+    ]
+  },
+  {
+    "category": "Corporate Finance",
+    "roles": [
+      "Financial Planning Analyst",
+      "Corporate Finance Manager",
+      "Budget Director",
+      "M&A Analyst"
+    ]
+  },
+  {
+    "category": "Strategy & Consulting",
+    "roles": [
+      "Management Consultant (Finance)",
+      "Internal Audit Manager",
+      "Financial Strategy Advisor"
+    ]
+  },
+  {
+    "category": "International Roles",
+    "roles": [
+      "Multinational Finance Manager",
+      "International Financial Controller",
+      "Global Cost Management Director"
+    ]
+  }
+]
+
+,
           "faq": [
             {
               "q": "What is CMA-US?",
@@ -13161,11 +13469,13 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Commerce",
+          "overviewtitle": "Mastering the Fundamentals of",
+          "highlight": "Corporate Finance",
           "hero": {
-            "image": "/img/banner/soc.jpg",
+            "image": "/img/banner/socs.jpg",
             "title": {
               "normal": "B.Com. (Corporate Accounting and Taxation)",
-              "italic": "Commerce"
+              "italic": ""
             },
             "description": "Develop professional expertise in corporate financial management. This three-year programme covers accountancy, taxation, financial markets, risk management, and corporate reporting — preparing you for careers in accounting firms, corporate finance departments, and professional practice.",
             "breadcrumb": [
@@ -13206,7 +13516,7 @@
           ],
           "eligibility": {
             "title": "Eligibility Criteria",
-            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "description": "Candidates who have passed 10+2 / Pre-University Course / Equivalent with a minimum aggregate of 40% are eligible to apply. Admission is based on the Presidency University Entrance Test (PU Entrance Test).",
             "note": "Eligibility may vary for international students."
           },
           "tabs": {
@@ -13215,16 +13525,32 @@
                 "semester": "Semester 1",
                 "modules": [
                   {
-                    "name": "Mathematics I",
-                    "code": "MAT101"
+                    "name": "Accounting",
+                    "code": ""
                   },
                   {
-                    "name": "Programming in C",
-                    "code": "CSE101"
+                    "name": "Principles of Management",
+                    "code": ""
                   },
                   {
-                    "name": "Physics",
-                    "code": "PHY101"
+                    "name": "Business Economics",
+                    "code": ""
+                  },
+                  {
+                    "name": "Corporate Governance and Business Ethics",
+                    "code": ""
+                  },
+                  {
+                    "name": "Human Resources Management",
+                    "code": ""
+                  },
+                  {
+                    "name": "Mastering English Communication",
+                    "code": ""
+                  },
+                  {
+                    "name": "Introduction to Soft Skills",
+                    "code": ""
                   }
                 ]
               },
@@ -13232,16 +13558,168 @@
                 "semester": "Semester 2",
                 "modules": [
                   {
-                    "name": "Data Structures",
-                    "code": "CSE201"
+                    "name": "Corporate Accounting",
+                    "code": ""
                   },
                   {
-                    "name": "Discrete Mathematics",
-                    "code": "MAT201"
+                    "name": "Business Law",
+                    "code": ""
                   },
                   {
-                    "name": "Digital Logic",
-                    "code": "CSE202"
+                    "name": "Quantitative Aptitude",
+                    "code": ""
+                  },
+                  {
+                    "name": "Multidisciplinary – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Business English",
+                    "code": ""
+                  },
+                  {
+                    "name": "Language Elective",
+                    "code": ""
+                  },
+                  {
+                    "name": "Basics of Excel",
+                    "code": ""
+                  },
+                  {
+                    "name": "Employability for Young Professionals",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Financial Management",
+                    "code": ""
+                  },
+                  {
+                    "name": "Advanced Corporate Accounting",
+                    "code": ""
+                  },
+                  {
+                    "name": "Business Information System",
+                    "code": ""
+                  },
+                  {
+                    "name": "Income Tax",
+                    "code": ""
+                  },
+                  {
+                    "name": "Multidisciplinary – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Advanced Excel",
+                    "code": ""
+                  },
+                  {
+                    "name": "Corporate Communication",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "Cost Accounting",
+                    "code": ""
+                  },
+                  {
+                    "name": "Corporate Taxation and GST",
+                    "code": ""
+                  },
+                  {
+                    "name": "Research Methodology",
+                    "code": ""
+                  },
+                  {
+                    "name": "Multidisciplinary – III",
+                    "code": ""
+                  },
+                  {
+                    "name": "Environmental Studies and Sustainable Development",
+                    "code": ""
+                  },
+                  {
+                    "name": "Data Analysis using Software",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Introduction to Aptitude",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 5",
+                "modules": [
+                  {
+                    "name": "Management Accounting",
+                    "code": ""
+                  },
+                  {
+                    "name": "Marketing Management",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective – III",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective – IV",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective – V",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective – VI",
+                    "code": ""
+                  },
+                  {
+                    "name": "Preparedness for Interview",
+                    "code": ""
+                  },
+                  {
+                    "name": "Internship",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 6",
+                "modules": [
+                  {
+                    "name": "Functional Area Project",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective – VII",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective – VIII",
+                    "code": ""
+                  },
+                  {
+                    "name": "Social Immersion Project",
+                    "code": ""
                   }
                 ]
               }
@@ -13354,39 +13832,39 @@
           ],
           "careers": [
             {
-              "category": "Accounting & Taxation",
+              "category": "Accounting & Audit",
               "roles": [
-                "Chartered Accountant at Big 4: Deloitte, EY, KPMG, PwC",
-                "Tax Consultant at BDO, Grant Thornton",
-                "GST Specialist at mid-size firms",
-                "Internal Auditor at corporate companies"
+                "Chartered Accountant (Articleship)",
+                "Tax Consultant",
+                "Audit Associate",
+                "Cost Accountant"
               ]
             },
             {
-              "category": "Finance & Investment",
+              "category": "Corporate Finance",
               "roles": [
-                "Financial Analyst at CRISIL, ICRA, CARE Ratings",
-                "Investment Analyst at mutual funds, hedge funds",
-                "Equity Research Analyst at brokerage firms",
-                "Treasury Manager at banks and NBFCs"
+                "Corporate Accountant",
+                "Financial Analyst",
+                "Budget Analyst",
+                "Financial Controller"
               ]
             },
             {
-              "category": "Banking & Financial Services",
+              "category": "Banking & Insurance",
               "roles": [
-                "Branch Manager at public and private sector banks",
-                "Credit Analyst at ICICI, Axis, Kotak Mahindra",
-                "Risk Manager at RBI-regulated institutions",
-                "Relationship Manager at wealth management firms"
+                "Bank Officer",
+                "Insurance Analyst",
+                "Credit Officer",
+                "Financial Compliance Specialist"
               ]
             },
             {
-              "category": "Corporate & Entrepreneurship",
+              "category": "Professional Practice",
               "roles": [
-                "CFO or Finance Director at growing companies",
-                "Business Controller at MNC subsidiaries",
-                "Cost Accountant at manufacturing firms",
-                "Entrepreneur in financial advisory services"
+                "Tax Practitioner",
+                "Company Secretary",
+                "Accounting Firm Associate",
+                "KPO Analyst"
               ]
             }
           ],
@@ -13428,11 +13906,13 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Commerce",
+          "overviewtitle": "Where Commerce Meets ",
+          "highlight": "Data Intelligence",
           "hero": {
-            "image": "/img/banner/soc.jpg",
+            "image": "/img/banner/socs.jpg",
             "title": {
               "normal": "B.Com. (Business Analytics)",
-              "italic": "Commerce"
+              "italic": ""
             },
             "description": "Combine commerce expertise with data-driven decision-making. This three-year programme integrates core commerce subjects with applied analytics, data science with R, and predictive analysis — equipping you to navigate data-rich business environments where analytical skills drive organisational success.",
             "breadcrumb": [
@@ -13473,46 +13953,11 @@
           ],
           "eligibility": {
             "title": "Eligibility Criteria",
-            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
-            "note": "Eligibility may vary for international students."
+            "description": "Candidates who have passed 10+2 / Pre-University Course / Equivalent with a minimum aggregate of 40% are eligible to apply..",
+            "note": ""
           },
           "tabs": {
-            "curriculum": [
-              {
-                "semester": "Semester 1",
-                "modules": [
-                  {
-                    "name": "Mathematics I",
-                    "code": "MAT101"
-                  },
-                  {
-                    "name": "Programming in C",
-                    "code": "CSE101"
-                  },
-                  {
-                    "name": "Physics",
-                    "code": "PHY101"
-                  }
-                ]
-              },
-              {
-                "semester": "Semester 2",
-                "modules": [
-                  {
-                    "name": "Data Structures",
-                    "code": "CSE201"
-                  },
-                  {
-                    "name": "Discrete Mathematics",
-                    "code": "MAT201"
-                  },
-                  {
-                    "name": "Digital Logic",
-                    "code": "CSE202"
-                  }
-                ]
-              }
-            ],
+            "curriculum": [ { "semester": "Semester 1", "modules": [ { "name": "Fundamentals of Financial Accounting", "code": "CBS1021" }, { "name": "Principles of Management", "code": "CBS1014" }, { "name": "Microeconomics", "code": "CBS1015" }, { "name": "Introduction to Marketing", "code": "CBS1018" }, { "name": "Fundamentals of Business Analytics", "code": "CBS1029" }, { "name": "Business Statistics", "code": "CBS1017" }, { "name": "Essentials of Communication", "code": "ENG1901" }, { "name": "Industry Readiness Program – I", "code": "PPS1025" } ] }, { "semester": "Semester 2", "modules": [ { "name": "Human Resource Management", "code": "CBS1019" }, { "name": "Application of Business Analytics", "code": "CBS2043" }, { "name": "Introduction to Banking", "code": "CBS1020" }, { "name": "Macroeconomics", "code": "CBS2016" }, { "name": "AI for Managers", "code": "CBS2028" }, { "name": "Business English", "code": "ENG2020" }, { "name": "Sarala Kannada / Savi Kannada / Introduction to French / Foreign Language", "code": "" }, { "name": "Spreadsheets for Business", "code": "CBS1023" }, { "name": "Indian Constitution", "code": "LAW7601" }, { "name": "Industry Readiness Program – II", "code": "PPS1026" } ] }, { "semester": "Semester 3", "modules": [ { "name": "Financial Management", "code": "CBS2029" }, { "name": "Corporate Accounting", "code": "CBS2027" }, { "name": "Data Visualization and Storytelling", "code": "CBS2044" }, { "name": "Income Tax Law – I", "code": "CBS2030" }, { "name": "Open Elective – I", "code": "" }, { "name": "Advanced Spreadsheets", "code": "CBS2035" }, { "name": "Preparedness for Interview", "code": "PPS3018" } ] }, { "semester": "Semester 4", "modules": [ { "name": "Income Tax Law – II", "code": "CBS2031" }, { "name": "Entrepreneurship and Business Ethics", "code": "CBS3035" }, { "name": "Financial Data Modelling", "code": "CBS2036" }, { "name": "Open Elective – II", "code": "" }, { "name": "Environmental Studies and Sustainable Development", "code": "CHE1020" }, { "name": "GST and Customs Duty", "code": "CBS3054" }, { "name": "Aptitude Training", "code": "PPS4002" }, { "name": "Principles and Practices of Auditing", "code": "CBS2047" } ] }, { "semester": "Semester 5", "modules": [ { "name": "Storing, Processing and Querying Business Data", "code": "CBS3080" }, { "name": "AI–ML and its Business Applications", "code": "CBS3081" }, { "name": "Blockchain Analytics", "code": "CBS3079" }, { "name": "Specialization Core Course – I", "code": "" }, { "name": "Specialization Core Course – II", "code": "" }, { "name": "Specialization Core Course – III", "code": "" }, { "name": "Specialization Core Course – IV", "code": "" }, { "name": "Summer Internship", "code": "CBS7000" } ] }, { "semester": "Semester 6", "modules": [ { "name": "Project", "code": "CBS7001" }, { "name": "Specialization Elective Course – I", "code": "" }, { "name": "Specialization Elective Course – II", "code": "" } ] } ],
             "outcomes": {
               "PEOs": [
                 {
@@ -13606,44 +14051,45 @@
               "description": "Proximity to analytics firms, consulting companies, and data-driven enterprises actively hiring analytics talent."
             }
           ],
-          "careers": [
-            {
-              "category": "Accounting & Taxation",
-              "roles": [
-                "Chartered Accountant at Big 4: Deloitte, EY, KPMG, PwC",
-                "Tax Consultant at BDO, Grant Thornton",
-                "GST Specialist at mid-size firms",
-                "Internal Auditor at corporate companies"
-              ]
-            },
-            {
-              "category": "Finance & Investment",
-              "roles": [
-                "Financial Analyst at CRISIL, ICRA, CARE Ratings",
-                "Investment Analyst at mutual funds, hedge funds",
-                "Equity Research Analyst at brokerage firms",
-                "Treasury Manager at banks and NBFCs"
-              ]
-            },
-            {
-              "category": "Banking & Financial Services",
-              "roles": [
-                "Branch Manager at public and private sector banks",
-                "Credit Analyst at ICICI, Axis, Kotak Mahindra",
-                "Risk Manager at RBI-regulated institutions",
-                "Relationship Manager at wealth management firms"
-              ]
-            },
-            {
-              "category": "Corporate & Entrepreneurship",
-              "roles": [
-                "CFO or Finance Director at growing companies",
-                "Business Controller at MNC subsidiaries",
-                "Cost Accountant at manufacturing firms",
-                "Entrepreneur in financial advisory services"
-              ]
-            }
-          ],
+        
+"careers": [
+  {
+    "category": "Business Analytics",
+    "roles": [
+      "Business Analyst",
+      "Business Intelligence Analyst",
+      "Data Analyst",
+      "Operations Analyst"
+    ]
+  },
+  {
+    "category": "Financial Analytics",
+    "roles": [
+      "Financial Data Analyst",
+      "Risk Analytics Associate",
+      "Credit Analytics Specialist"
+    ]
+  },
+  {
+    "category": "Marketing & HR Analytics",
+    "roles": [
+      "Marketing Analyst",
+      "Customer Insights Analyst",
+      "HR Analytics Associate",
+      "Compensation Analyst"
+    ]
+  },
+  {
+    "category": "Consulting",
+    "roles": [
+      "Analytics Consultant",
+      "Management Consulting Associate",
+      "Decision Support Analyst"
+    ]
+  }
+]
+
+,
           "faq": [
             {
               "q": "How does B.Com Business Analytics differ from BBA Business Analytics?",
@@ -15858,6 +16304,8 @@
           "duration": "5 Years",
           "type": "UG",
           "degree": "Bachelor of Arts + Bachelor of Laws",
+          "overviewtitle": "Law Through the Lens of ",
+          "highlight": "Society and Governance",
           "hero": {
             "image": "/img/banner/sol.JPG",
             "title": {
@@ -15873,7 +16321,7 @@
             ],
             "stats": [
               {
-                "label": "Duration",
+                "label": "Full-Time",
                 "value": "5 Yr"
               },
               {
@@ -15903,8 +16351,8 @@
           ],
           "eligibility": {
             "title": "Eligibility Criteria",
-            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
-            "note": "Eligibility may vary for international students."
+            "description": "Have passed 10+2 or an equivalent examination from a recognised board. Have secured a minimum of 45% aggregate marks.If an age limit is prescribed by the regulatory authority, it will be applicable.Candidates above 20 years of age (as on July 1 of the admission year) must submit an undertaking to the university.Admission is based on CLAT, LSAT, or Presidency Admission Test (PAT).",
+            "note": ""
           },
           "tabs": {
             "curriculum": [
@@ -15912,16 +16360,32 @@
                 "semester": "Semester 1",
                 "modules": [
                   {
-                    "name": "Mathematics I",
-                    "code": "MAT101"
+                    "name": "Introduction to Political Science",
+                    "code": ""
                   },
                   {
-                    "name": "Programming in C",
-                    "code": "CSE101"
+                    "name": "Microeconomics",
+                    "code": ""
                   },
                   {
-                    "name": "Physics",
-                    "code": "PHY101"
+                    "name": "Legal Methods and Indian Legal System",
+                    "code": ""
+                  },
+                  {
+                    "name": "Law of Contract – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Legal Language and Legal Writing",
+                    "code": ""
+                  },
+                  {
+                    "name": "Foundations of Mooting and Legal Advocacy",
+                    "code": ""
+                  },
+                  {
+                    "name": "Foundations of Digital Competency in Law",
+                    "code": ""
                   }
                 ]
               },
@@ -15929,16 +16393,240 @@
                 "semester": "Semester 2",
                 "modules": [
                   {
-                    "name": "Data Structures",
-                    "code": "CSE201"
+                    "name": "Ancient and Medieval Political Thinkers",
+                    "code": ""
                   },
                   {
-                    "name": "Discrete Mathematics",
-                    "code": "MAT201"
+                    "name": "Macroeconomics",
+                    "code": ""
                   },
                   {
-                    "name": "Digital Logic",
-                    "code": "CSE202"
+                    "name": "Law of Torts including Motor Vehicles Accidents and Consumer Protection Laws",
+                    "code": ""
+                  },
+                  {
+                    "name": "Law of Contract – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Foundation of Legal Rhetoric and Persuasion",
+                    "code": ""
+                  },
+                  {
+                    "name": "Open Elective – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Introduction to Soft Skills",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Modern Political Thinkers",
+                    "code": ""
+                  },
+                  {
+                    "name": "Indian Economy",
+                    "code": ""
+                  },
+                  {
+                    "name": "Introduction to Sociology",
+                    "code": ""
+                  },
+                  {
+                    "name": "Family Law – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Constitutional Law – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Bharatiya Nyaya Sanhita – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Open Elective – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Problem Solving through Aptitude",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "Public Administration: Core Concepts",
+                    "code": ""
+                  },
+                  {
+                    "name": "Indian Government and Politics",
+                    "code": ""
+                  },
+                  {
+                    "name": "Structure of Indian Society",
+                    "code": ""
+                  },
+                  {
+                    "name": "Family Law – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Constitutional Law – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Bharatiya Nyaya Sanhita – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective I (Choose One)",
+                    "code": ""
+                  },
+                  {
+                    "name": "Environmental Studies and Sustainable Development",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 5",
+                "modules": [
+                  {
+                    "name": "International Relations",
+                    "code": ""
+                  },
+                  {
+                    "name": "Society and Law",
+                    "code": ""
+                  },
+                  {
+                    "name": "Company Law",
+                    "code": ""
+                  },
+                  {
+                    "name": "Intellectual Property Rights Law",
+                    "code": ""
+                  },
+                  {
+                    "name": "Bharatiya Sakshya Adhiniyam",
+                    "code": ""
+                  },
+                  {
+                    "name": "Civil Procedure Code and Limitation Act – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective II (Choose One)",
+                    "code": ""
+                  },
+                  {
+                    "name": "Technology for Lawyers",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 6",
+                "modules": [
+                  {
+                    "name": "Jurisprudence",
+                    "code": ""
+                  },
+                  {
+                    "name": "Administrative Law",
+                    "code": ""
+                  },
+                  {
+                    "name": "Civil Procedure Code and Limitation Act – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Bharatiya Nagrik Suraksha Sanhita – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Honours Specialisations (Choose One)",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 7",
+                "modules": [
+                  {
+                    "name": "Public International Law",
+                    "code": ""
+                  },
+                  {
+                    "name": "Labour and Industrial Law – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Bharatiya Nagrik Suraksha Sanhita – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Interpretation of Statutes",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective IV (Choose One)",
+                    "code": ""
+                  },
+                  {
+                    "name": "Honours Courses",
+                    "code": ""
+                  },
+                  {
+                    "name": "Being Corporate Ready",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 8",
+                "modules": [
+                  {
+                    "name": "Mediation and Negotiation",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 9",
+                "modules": [
+                  {
+                    "name": "Clinical Courses",
+                    "code": ""
+                  },
+                  {
+                    "name": "Professional Ethics and Professional Accounting System",
+                    "code": ""
+                  },
+                  {
+                    "name": "Drafting, Pleading and Conveyance",
+                    "code": ""
+                  },
+                  {
+                    "name": "Moot Court and Internship",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 10",
+                "modules": [
+                  {
+                    "name": "Dissertation",
+                    "code": ""
                   }
                 ]
               }
@@ -16012,7 +16700,7 @@
             },
             {
               "title": "Five Honours Tracks",
-              "description": "Choose from Corporate, Criminal, Constitutional, Technology & IP, or International Trade law for focused specialisation."
+              "description": "Choose from Corporate, Criminal, Constitutional, Technology & IP, or International Trade Law for focused specialisation."
             },
             {
               "title": "Moot Court & Trial Advocacy",
@@ -16037,66 +16725,66 @@
           ],
           "careers": [
             {
-              "category": "Legal Practice & Advocacy",
+              "category": "Litigation & Judiciary",
               "roles": [
-                "Advocate at High Courts and Supreme Court",
-                "Partner at top law firms: AZB, Shardul Amarchand",
-                "Criminal Defense Lawyer at district courts",
-                "Civil Litigation Specialist"
+                "Advocate",
+                "Public Prosecutor",
+                "Judicial Services Aspirant",
+                "Legal Aid Lawyer"
               ]
             },
             {
-              "category": "Corporate & In-House Law",
+              "category": "Corporate & Commercial",
               "roles": [
-                "In-House Counsel at TCS, Infosys, HDFC Bank",
-                "Corporate Lawyer at EY, Deloitte, KPMG",
-                "M&A Legal Advisor at investment banks",
-                "Compliance Officer at financial institutions"
+                "Corporate Counsel",
+                "Legal Advisor",
+                "Compliance Officer",
+                "M&A Legal Specialist"
               ]
             },
             {
-              "category": "Judiciary & Public Sector",
+              "category": "Public Service & Policy",
               "roles": [
-                "Civil Judge (Junior Division) via judicial exams",
-                "District Judge after experience",
-                "Public Prosecutor for state or central government",
-                "Legal Advisor at government ministries"
+                "Government Legal Officer",
+                "Policy Analyst",
+                "Human Rights Advocate",
+                "Legislative Drafter"
               ]
             },
             {
-              "category": "Policy, Research & Academia",
+              "category": "Academia & Research",
               "roles": [
-                "Policy Analyst at think tanks and NGOs",
-                "Legal Researcher at law schools and institutes",
-                "Professor/Lecturer in Law colleges",
-                "International Law Specialist at UN or embassies"
+                "Law Lecturer",
+                "Legal Researcher",
+                "Think Tank Analyst",
+                "International Law Specialist"
               ]
             }
           ],
           "faq": [
             {
               "q": "What is the difference between B.A. LL.B. and B.B.A. LL.B. at Presidency?",
-              "a": "B.A. LL.B. integrates law with humanities — political science, sociology, and economics — suited for students interested in litigation, public service, and social justice advocacy. B.B.A. LL.B. integrates law with business management — economics, accounting, and corporate strategy — suited for students interested in corporate law, business advisory, and commercial legal practice."
+              "a": "B.A. LL.B. integrates law with humanities such as Political Science, Sociology, and Economics, making it suitable for students interested in litigation, public service, and social justice. B.B.A. LL.B. combines law with business management, including Economics, Accounting, and Corporate Strategy, making it ideal for careers in corporate law, business advisory, and commercial legal practice."
             },
             {
               "q": "What are the eligibility requirements for international applicants?",
-              "a": "Candidates must have passed 10+2 or equivalent with a minimum of 45% marks. Admission is based on CLAT, LSAT-India, or the Presidency University Law Admission Test (PULAT). Candidates above 20 years of age must furnish an undertaking."
+              "a": "Candidates must have passed Class 12 (10+2) or an equivalent qualification with a minimum of 45% marks. Admission is based on CLAT, LSAT–India, or the Presidency University Law Admission Test (PULAT). Candidates above 20 years of age must furnish an undertaking. International applicants should confirm specific requirements with the Office of International Affairs."
             },
             {
               "q": "Can graduates practise law in India?",
-              "a": "Yes. Upon completing the programme and passing the All India Bar Examination (AIBE) conducted by the Bar Council of India, graduates are eligible to enrol as advocates and practise in Indian courts."
+              "a": "Yes. After completing the programme and qualifying the All India Bar Examination (AIBE) conducted by the Bar Council of India, graduates are eligible to enrol as advocates and practise law in Indian courts."
             },
             {
               "q": "What honours specialisation tracks are available?",
-              "a": "Five tracks: Corporate & Commercial Law, Criminal Law, Constitutional & Administrative Law, Technology & Intellectual Property Law, and International Trade Law."
+              "a": "Students can choose from five honours tracks: Corporate & Commercial Law, Criminal Law, Constitutional & Administrative Law, Technology & Intellectual Property Law, and International Trade Law."
             },
             {
               "q": "Are moot court and internship opportunities mandatory?",
-              "a": "Yes. Both are mandated by the Bar Council of India and are integral parts of the curriculum. Students participate in moot courts and complete internships with law firms, courts, corporate legal departments, and NGOs."
+              "a": "Yes. Moot court participation and internships are mandatory under the Bar Council of India guidelines. Students gain practical experience through moot courts and internships with law firms, courts, corporate legal departments, and NGOs."
             },
             {
               "q": "Is on-campus accommodation available for international students?",
-              "a": "Presidency University provides student housing. Contact the Office of International Affairs for details."
+              "a": "Yes. Presidency University provides student housing. International students should contact the Office of International Affairs for accommodation details."
             }
           ],
           "cta": {
@@ -16111,6 +16799,8 @@
           "duration": "5 Years",
           "type": "UG",
           "degree": "Bachelor of Business Administration + Bachelor of Laws",
+          "overviewtitle": "Legal Professionals for ",
+          "highlight": "the Corporate World",
           "hero": {
             "image": "/img/banner/sol.JPG",
             "title": {
@@ -16126,7 +16816,7 @@
             ],
             "stats": [
               {
-                "label": "Duration",
+                "label": "5 Yr | Full-Time",
                 "value": "5 Yr"
               },
               {
@@ -16156,8 +16846,8 @@
           ],
           "eligibility": {
             "title": "Eligibility Criteria",
-            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
-            "note": "Eligibility may vary for international students."
+            "description": "Have passed 10+2 or an equivalent examination from a recognised board.Have secured a minimum of 45% aggregate marks.If an age limit is prescribed by the regulatory authority, it will be applicable.Candidates above 20 years of age (as on July 1 of the admission year) must submit an undertaking to the university.Admission is based on CLAT, LSAT, or Presidency Admission Test (PAT).",
+            "note": ""
           },
           "tabs": {
             "curriculum": [
@@ -16165,16 +16855,32 @@
                 "semester": "Semester 1",
                 "modules": [
                   {
-                    "name": "Mathematics I",
-                    "code": "MAT101"
+                    "name": "Management and Behavioural Practices",
+                    "code": ""
                   },
                   {
-                    "name": "Programming in C",
-                    "code": "CSE101"
+                    "name": "Managerial Economics",
+                    "code": ""
                   },
                   {
-                    "name": "Physics",
-                    "code": "PHY101"
+                    "name": "Legal Methods and Indian Legal System",
+                    "code": ""
+                  },
+                  {
+                    "name": "Law of Contract – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Legal Language and Legal Writing",
+                    "code": ""
+                  },
+                  {
+                    "name": "Foundations of Mooting and Legal Advocacy",
+                    "code": ""
+                  },
+                  {
+                    "name": "Foundations of Digital Competency in Law",
+                    "code": ""
                   }
                 ]
               },
@@ -16182,16 +16888,256 @@
                 "semester": "Semester 2",
                 "modules": [
                   {
-                    "name": "Data Structures",
-                    "code": "CSE201"
+                    "name": "Marketing Management",
+                    "code": ""
                   },
                   {
-                    "name": "Discrete Mathematics",
-                    "code": "MAT201"
+                    "name": "Business Accounting",
+                    "code": ""
                   },
                   {
-                    "name": "Digital Logic",
-                    "code": "CSE202"
+                    "name": "Law of Torts including Motor Vehicles Accidents and Consumer Protection Laws",
+                    "code": ""
+                  },
+                  {
+                    "name": "Law of Contract – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Foundation of Legal Rhetoric and Persuasion",
+                    "code": ""
+                  },
+                  {
+                    "name": "Introduction to Soft Skills",
+                    "code": ""
+                  },
+                  {
+                    "name": "Open Elective – I",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Financial Management",
+                    "code": ""
+                  },
+                  {
+                    "name": "Indian Economy",
+                    "code": ""
+                  },
+                  {
+                    "name": "Indian Financial System",
+                    "code": ""
+                  },
+                  {
+                    "name": "Family Law – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Constitutional Law – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Bharatiya Nyaya Sanhita – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Open Elective – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Problem Solving through Aptitude",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "Technology and Entrepreneurship",
+                    "code": ""
+                  },
+                  {
+                    "name": "Strategic Management",
+                    "code": ""
+                  },
+                  {
+                    "name": "Human Resource Management",
+                    "code": ""
+                  },
+                  {
+                    "name": "Family Law – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Constitutional Law – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Bharatiya Nyaya Sanhita – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective I (Choose One)",
+                    "code": ""
+                  },
+                  {
+                    "name": "Environmental Studies and Sustainable Development",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 5",
+                "modules": [
+                  {
+                    "name": "Investment Management",
+                    "code": ""
+                  },
+                  {
+                    "name": "Business Statistics",
+                    "code": ""
+                  },
+                  {
+                    "name": "Company Law",
+                    "code": ""
+                  },
+                  {
+                    "name": "Intellectual Property Rights Law",
+                    "code": ""
+                  },
+                  {
+                    "name": "Bharatiya Sakshya Adhiniyam",
+                    "code": ""
+                  },
+                  {
+                    "name": "Civil Procedure Code and Limitation Act – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective II (Choose One)",
+                    "code": ""
+                  },
+                  {
+                    "name": "Technology for Lawyers",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 6",
+                "modules": [
+                  {
+                    "name": "Jurisprudence",
+                    "code": ""
+                  },
+                  {
+                    "name": "Administrative Law",
+                    "code": ""
+                  },
+                  {
+                    "name": "Civil Procedure Code and Limitation Act – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Bharatiya Nagrik Suraksha Sanhita – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective III (Choose One)",
+                    "code": ""
+                  },
+                  {
+                    "name": "Honours Specialisations (Choose One)",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 7",
+                "modules": [
+                  {
+                    "name": "Public International Law",
+                    "code": ""
+                  },
+                  {
+                    "name": "Labour and Industrial Law – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Bharatiya Nagrik Suraksha Sanhita – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Interpretation of Statutes",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective IV (Choose One)",
+                    "code": ""
+                  },
+                  {
+                    "name": "Honours Courses",
+                    "code": ""
+                  },
+                  {
+                    "name": "Being Corporate Ready",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 8",
+                "modules": [
+                  {
+                    "name": "Property Law",
+                    "code": ""
+                  },
+                  {
+                    "name": "Law of Taxation",
+                    "code": ""
+                  },
+                  {
+                    "name": "Labour and Industrial Law – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective V (Choose One)",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 9",
+                "modules": [
+                  {
+                    "name": "Clinical Courses",
+                    "code": ""
+                  },
+                  {
+                    "name": "Professional Ethics and Professional Accounting System",
+                    "code": ""
+                  },
+                  {
+                    "name": "Drafting, Pleading and Conveyance",
+                    "code": ""
+                  },
+                  {
+                    "name": "Moot Court and Internship",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 10",
+                "modules": [
+                  {
+                    "name": "Dissertation",
+                    "code": ""
                   }
                 ]
               }
@@ -16261,95 +17207,94 @@
             },
             {
               "title": "Business-Law Integration",
-              "description": "Distinctive blend of management sciences — economics, accounting, strategy, HRM — with comprehensive legal education."
+              "description": "Distinctive blend of management sciences, including economics, accounting, strategy, and human resource management, with comprehensive legal education."
             },
             {
               "title": "Five Honours Tracks",
-              "description": "Choose from Corporate, Criminal, Constitutional, Technology & IP, or International Trade law specialisations."
+              "description": "Choose from Corporate, Criminal, Constitutional, Technology & Intellectual Property, or International Trade Law specialisations."
             },
             {
               "title": "Corporate Legal Skills",
-              "description": "Training in corporate negotiation, contract drafting, M&A legal practice, and commercial arbitration."
+              "description": "Training in corporate negotiation, contract drafting, mergers and acquisitions (M&A) legal practice, and commercial arbitration."
             },
             {
               "title": "Startup & Entrepreneurship Law",
-              "description": "Entrepreneurship clinics and startup legal support developing skills for the growing legal-tech and startup advisory sector."
+              "description": "Entrepreneurship clinics and startup legal support that develop skills for the growing legal-tech and startup advisory sector."
             },
             {
               "title": "Moot Court & Clinical Programme",
-              "description": "Full clinical programme including moot courts, trial advocacy, legal aid, and mandatory internships as per BCI requirements."
+              "description": "Comprehensive clinical programme including moot courts, trial advocacy, legal aid clinics, and mandatory internships as required by the Bar Council of India."
             },
             {
               "title": "Global Business Law Perspective",
-              "description": "Curriculum addressing international commercial law, cross-border transactions, and global corporate governance frameworks."
+              "description": "Curriculum covering international commercial law, cross-border transactions, and global corporate governance frameworks."
             },
             {
               "title": "Dual-Skill Career Advantage",
-              "description": "Graduates combine legal qualification with business management skills — a combination highly valued in corporate legal markets."
+              "description": "Graduates combine professional legal qualifications with business management expertise, creating strong career opportunities in corporate legal markets."
             }
           ],
           "careers": [
             {
-              "category": "Legal Practice & Advocacy",
+              "category": "Corporate Law",
               "roles": [
-                "Advocate at High Courts and Supreme Court",
-                "Partner at top law firms: AZB, Shardul Amarchand",
-                "Criminal Defense Lawyer at district courts",
-                "Civil Litigation Specialist"
+                "Corporate Counsel",
+                "In-House Legal Advisor",
+                "Contract Manager",
+                "Compliance Director"
               ]
             },
             {
-              "category": "Corporate & In-House Law",
+              "category": "Commercial Practice",
               "roles": [
-                "In-House Counsel at TCS, Infosys, HDFC Bank",
-                "Corporate Lawyer at EY, Deloitte, KPMG",
-                "M&A Legal Advisor at investment banks",
-                "Compliance Officer at financial institutions"
+                "Commercial Lawyer",
+                "M&A Legal Specialist",
+                "Banking & Finance Legal Advisor",
+                "Securities Law Specialist"
               ]
             },
             {
-              "category": "Judiciary & Public Sector",
+              "category": "Startup & Technology",
               "roles": [
-                "Civil Judge (Junior Division) via judicial exams",
-                "District Judge after experience",
-                "Public Prosecutor for state or central government",
-                "Legal Advisor at government ministries"
+                "Startup Legal Advisor",
+                "Legal-Tech Entrepreneur",
+                "Venture Capital Legal Analyst",
+                "IP Commercialisation Specialist"
               ]
             },
             {
-              "category": "Policy, Research & Academia",
+              "category": "International Business",
               "roles": [
-                "Policy Analyst at think tanks and NGOs",
-                "Legal Researcher at law schools and institutes",
-                "Professor/Lecturer in Law colleges",
-                "International Law Specialist at UN or embassies"
+                "International Trade Lawyer",
+                "Cross-Border Transaction Specialist",
+                "Foreign Investment Legal Consultant"
               ]
             }
           ],
           "faq": [
             {
               "q": "How does B.B.A. LL.B. differ from B.A. LL.B.?",
-              "a": "B.B.A. LL.B. integrates business management with law — ideal for corporate law, business advisory, and commercial practice. B.A. LL.B. integrates humanities with law — ideal for litigation, public service, and social justice advocacy. Both share the same legal core and honours tracks."
+              "a": "B.B.A. LL.B. integrates business management with law, making it ideal for careers in corporate law, business advisory, and commercial practice. B.A. LL.B. combines humanities with law and is better suited for litigation, public service, and social justice advocacy. Both programmes share the same legal core curriculum and honours specialisation tracks."
             },
             {
               "q": "Is the B.B.A. LL.B. suitable for students interested in corporate careers?",
-              "a": "Yes. The programme is specifically designed for students who want to combine legal expertise with business understanding — particularly relevant for roles in corporate legal departments, commercial law firms, investment banking compliance, and startup advisory."
+              "a": "Yes. The programme is designed for students who want to combine legal expertise with business knowledge, preparing them for roles in corporate legal departments, commercial law firms, investment banking compliance, and startup advisory."
             },
             {
               "q": "What entrance examinations are accepted?",
-              "a": "CLAT, LSAT-India, and the Presidency University Law Admission Test (PULAT). International applicants should confirm specific requirements with the Office of International Affairs."
+              "a": "Admissions are based on CLAT, LSAT–India, or the Presidency University Law Admission Test (PULAT). International applicants should confirm specific admission requirements with the Office of International Affairs."
             },
             {
               "q": "Can graduates practise as advocates in India?",
-              "a": "Yes. Upon completing the programme and passing the AIBE, graduates are eligible to enrol as advocates and practise in Indian courts, just as with the B.A. LL.B. programme."
+              "a": "Yes. After completing the programme and qualifying the All India Bar Examination (AIBE), graduates are eligible to enrol as advocates and practise law in Indian courts."
             },
             {
               "q": "What management subjects are included?",
-              "a": "The programme includes modules in economics, financial accounting, strategic management, human resource management, technology and entrepreneurship, and organisational behaviour alongside the full legal curriculum."
+              "a": "The curriculum includes Economics, Financial Accounting, Strategic Management, Human Resource Management, Technology and Entrepreneurship, and Organisational Behaviour, alongside the complete legal curriculum."
             },
             {
               "q": "Is on-campus accommodation available for international students?",
-              "a": "Presidency University provides student housing. Contact the Office of International Affairs for details."
+              "a": "Yes. Presidency University provides student housing. International students should contact the Office of International Affairs for accommodation details."
             }
           ],
           "cta": {
@@ -16364,6 +17309,8 @@
           "duration": "1 Year",
           "type": "PG",
           "degree": "Master of Laws",
+          "overviewtitle": "Advanced Legal Scholarship for ",
+          "highlight": "Tomorrow’s Legal Leaders",
           "hero": {
             "image": "/img/banner/sol.JPG",
             "title": {
@@ -19785,96 +20732,9 @@
             "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
             "note": "Eligibility may vary for international students."
           },
-          "highlights": [
-            {
-              "title": "Professional-Grade Production Studios",
-              "description": "Fully equipped TV studios, digital editing suites, radio stations, photography darkrooms, and green screen facilities offer a real media production environment."
-            },
-            {
-              "title": "Live Media Projects",
-              "description": "Students produce actual news bulletins, short films, digital campaigns, and editorial content — building professional-grade portfolios while still studying."
-            },
-            {
-              "title": "Industry Mentors & Guest Lecturers",
-              "description": "Practising journalists, filmmakers, media executives, and digital creators regularly engage with students, offering insights from the front lines of the media industry."
-            },
-            {
-              "title": "Digital & Emerging Media Focus",
-              "description": "Curriculum covering AR/VR storytelling, podcast production, social media strategy, and OTT content creation ensures students are ready for the evolving media landscape."
-            },
-            {
-              "title": "National & International Media Internships",
-              "description": "Partnership placements at leading news organisations, production houses, advertising agencies, and digital platforms across India and internationally."
-            },
-            {
-              "title": "Journalism Ethics & Media Law",
-              "description": "Strong emphasis on responsible journalism, media law, editorial standards, and ethical content creation — preparing students to be credible and principled media professionals."
-            }
-          ],
-          "careers": [
-            {
-              "category": "Journalism & News Media",
-              "roles": [
-                "Journalist/Reporter at Times of India, The Hindu, NDTV",
-                "News Anchor at TV channels like CNN-News18, Republic",
-                "Content Editor at online news platforms",
-                "Investigative Journalist at national publications"
-              ]
-            },
-            {
-              "category": "Film, TV & Digital Production",
-              "roles": [
-                "Film Director/Producer at production houses",
-                "Content Creator at Netflix, Amazon Prime, Hotstar",
-                "Video Producer at YouTube channels and OTT platforms",
-                "Cinematographer at advertising and documentary studios"
-              ]
-            },
-            {
-              "category": "Digital Marketing & Content",
-              "roles": [
-                "Social Media Manager at brands and agencies",
-                "Digital Marketing Strategist at Google, Meta, HubSpot",
-                "Content Writer/Blogger at media companies",
-                "SEO Specialist at digital marketing firms"
-              ]
-            },
-            {
-              "category": "Advertising & PR",
-              "roles": [
-                "Advertising Copywriter at Ogilvy, DDB, Leo Burnett",
-                "Public Relations Manager at corporate companies",
-                "Brand Strategist at integrated communications agencies",
-                "Media Planner at advertising networks"
-              ]
-            }
-          ],
-          "faq": [
-            {
-              "q": "What media production facilities are available?",
-              "a": "We have state-of-the-art studios, editing suites, camera equipment, and green screen facilities"
-            },
-            {
-              "q": "Are there live industry projects?",
-              "a": "Yes, students work on real projects with media houses, production companies, and digital platforms"
-            },
-            {
-              "q": "What specializations are offered?",
-              "a": "We offer Journalism, Film & TV Production, Digital Marketing, Content Creation, and AR/VR Media"
-            },
-            {
-              "q": "Is there internship guarantee?",
-              "a": "Yes, we ensure internships with major media outlets, production houses, and digital platforms"
-            },
-            {
-              "q": "What is the placement scenario?",
-              "a": "Our graduates work with Netflix, Amazon Prime, YouTube channels, news agencies, and digital startups"
-            },
-            {
-              "q": "Are there international connections?",
-              "a": "Yes, we have partnerships with international media organizations for exchanges and collaborations"
-            }
-          ]
+          "highlights": [],
+          "careers": [],
+          "faq": []
         }
       ],
       "hero": {

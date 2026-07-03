@@ -342,7 +342,7 @@ export function Navigation() {
       ],
       pg: [],
       phd: [
-        { label: "Ph.D. Research Programme", href: "/schools/commerce#phd-research" },
+        // { label: "Ph.D. Research Programme", href: "/schools/commerce#phd-research" },
       ],
       diploma: [],
     },
@@ -353,7 +353,7 @@ export function Navigation() {
         { label: "B.B.A. LL.B. (Hons.)", href: "/schools/law/bba-llb" },
       ],
       pg: [{ label: "LL.M. (Master of Laws)", href: "/schools/law/llm" }],
-      phd: [{ label: "Ph.D. Research Programme", href: "/schools/law#phd-research" }],
+      phd: [],
       diploma: [],
     },
 
