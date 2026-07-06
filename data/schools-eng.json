@@ -4522,7 +4522,7 @@
           "normal": "School of",
           "italic": "Computer Science & Engineering"
         },
-        "description": "Innovate, Code, Transform. Our CS&E programs prepare developers, engineers, and innovators to build tomorrow's digital solutions and lead technological advancement globally.",
+        "description": "Discover cutting-edge computing programmes in India’s technology capital. From artificial intelligence to blockchain, our school prepares international students for careers at the forefront of global innovation.",
         "breadcrumb": [
           "Home",
           "Schools",
@@ -4530,23 +4530,23 @@
         ],
         "stats": [
           {
-            "label": "Programs",
-            "value": "17"
+            "label": "UG Programmes ",
+            "value": "13+"
           },
           {
-            "label": "Faculty",
-            "value": "60+"
+            "label": "PG Programmes ",
+            "value": "2"
           },
           {
-            "label": "Students",
-            "value": "600+"
+            "label": "Doctoral Research",
+            "value": "Ph.D."
           }
         ]
       },
       "about": {
-        "title": "About the School",
+        "title": "A Gateway to India’s Tech Ecosystem",
         "content": [
-          "The School of Computer Science & Engineering is at the forefront of technology education. We combine cutting-edge curriculum with practical industry experience, preparing students for careers in software development, artificial intelligence, cloud computing, cybersecurity, and emerging technologies."
+          "The Presidency School of Computer Science & Engineering is one of the university’s flagship academic divisions, offering a comprehensive portfolio of undergraduate, postgraduate, and doctoral programmes in computing, software development, and emerging technologies. Situated on the Presidency University campus in Bengaluru — widely regarded as India’s technology capital — the school provides international students with direct access to one of the world’s most dynamic tech ecosystems."
         ],
         "images": [
           "/img/management/cse1.jpg",
@@ -4555,40 +4555,29 @@
         ],
         "features": [
           {
-            "title": "AI & Machine Learning",
-            "description": "Cutting-edge specialisations in AI, deep learning, and intelligent systems."
+            "title": "Advanced AI & Computing Labs ",
+            "description": "Access dedicated laboratories with high-performance GPU clusters and industry-standard AI/ML platforms including TensorFlow, PyTorch, and cloud-based AI services."
           },
           {
-            "title": "Cloud Computing",
-            "description": "AWS, Azure, and GCP integrated into coursework with hands-on labs."
+            "title": "Global Faculty Mentorship ",
+            "description": "Learn from researchers with international academic credentials and active industry consulting experience who bring real-world insights beyond the textbook."
           },
           {
-            "title": "Industry Mentorship",
-            "description": "Mentors from Google, Microsoft, and Amazon guide students year-round."
-          },
-          {
-            "title": "Research Ecosystem",
-            "description": "Active research groups publishing in top-tier international conferences."
-          },
-          {
-            "title": "Newest Research",
-            "description": "Access to cutting-edge journals, R&D labs, and live project environments."
-          },
-          {
-            "title": "Global Exposure",
-            "description": "Study abroad opportunities and international hackathon participation."
+            "title": "Industry Partnerships ",
+            "description": "Collaborations with leading technology companies facilitate internships, globally recognised certifications (AWS, Google Cloud, Microsoft Azure), and placement opportunities."
           }
+         
         ]
       },
       "visionMission": {
         "vision": {
           "title": "Vision",
-          "description": "To be a globally recognized center of excellence in computer science and engineering education, research, and innovation, fostering technologists who drive digital transformation.",
+          "description": "To be a value-based, practice-driven school committed to developing globally competent engineers, dedicated to building cutting-edge technology that enhances the quality of life.",
           "points": []
         },
         "mission": {
           "title": "Mission",
-          "description": "To provide comprehensive, industry-aligned education in computer science and engineering, cultivate innovation through research and projects, and develop professionals equipped to solve complex computational challenges.",
+          "description": "Cultivate a practice-driven environment integrating theory and hands-on computing - Attract and nurture world-class faculty excelling in teaching and research - Establish state-of-the-art computing facilities for effective learning - Promote interdisciplinary studies to nurture talent for global impact - Instil entrepreneurial and leadership skills to address social, environmental, and community needs",
           "points": []
         }
       },
@@ -4602,7 +4591,12 @@
           "type": "PG",
           "title": "Postgraduate Programmes",
           "subtitle": "Advance your expertise with specialized studies"
-        }
+        },
+        {
+  "type": "Diploma",
+  "title": "Post Graduate Diploma Programmes",
+  "subtitle": "Gain industry-focused expertise with advanced professional programmes."
+}
       ],
       "phdSummary": {
         "title": "Ph.D. Research Programme",
@@ -7026,7 +7020,12 @@
           "type": "PG",
           "title": "Postgraduate Programmes",
           "subtitle": "Advance your expertise with specialized studies"
-        }
+        },
+        {
+  "type": "Diploma",
+  "title": "Post Graduate Diploma Programmes",
+  "subtitle": "Gain industry-focused expertise with advanced professional programmes."
+}
       ],
       "phdSummary": {
         "title": "Ph.D. Research Programme",
@@ -7270,7 +7269,12 @@
           "type": "PG",
           "title": "Postgraduate Programmes",
           "subtitle": "MCA — 2-Year Full-Time"
-        }
+        },
+        {
+  "type": "Diploma",
+  "title": "Post Graduate Diploma Programmes",
+  "subtitle": "Gain industry-focused expertise with advanced professional programmes."
+}
       ],
       "programs": [
         {
@@ -9473,282 +9477,8 @@
             "button": "Apply Now"
           }
         },
-        {
-          "slug": "ba-jmc-film",
-          "name": "BA Journalism & Mass Communication (Film & Television Production)",
-          "duration": "3 Years",
-          "type": "UG",
-          "degree": "Bachelor of Arts",
-          "overview": [
-            "The BA Journalism & Mass Communication (Film & Television Production) programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
-            "Through case studies, industry projects, and international exposure, students are equipped to lead organizations, drive innovation, and excel in competitive corporate environments."
-          ],
-          "hero": {
-            "title": {
-              "normal": "BA Journalism & Mass Communication",
-              "italic": "Film & Television Production"
-            },
-            "description": "Discover our comprehensive BA Journalism & Mass Communication (Film & Television Production) programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
-            "breadcrumb": [
-              "Home",
-              "Schools",
-              "School of Management",
-              "BA Journalism & Mass Communication (Film & Television Production)"
-            ],
-            "stats": [
-              {
-                "label": "Programme",
-                "value": "Bachelor of Arts"
-              },
-              {
-                "label": "Campus",
-                "value": "Bengaluru, India"
-              },
-              {
-                "label": "Status",
-                "value": "Active"
-              }
-            ]
-          },
-          "details": {
-            "duration": "3 Years",
-            "campus": "Bengaluru, India",
-            "school": "School of Management"
-          },
-          "eligibility": {
-            "title": "Eligibility Criteria",
-            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
-            "note": "Eligibility may vary for international students."
-          },
-          "highlights": [
-            {
-              "title": "Case-Based & Experiential Learning",
-              "description": "Curriculum built around real business cases, simulations, and live projects ensures students develop practical problem-solving and decision-making skills."
-            },
-            {
-              "title": "Leadership Development Programme",
-              "description": "Structured leadership training, personality development sessions, and executive mentoring prepare students to confidently lead teams and organisations."
-            },
-            {
-              "title": "Industry Immersion",
-              "description": "Regular industry visits, corporate guest lectures, and live consulting assignments keep students connected to real business environments throughout the programme."
-            },
-            {
-              "title": "Strong MBA Placement Network",
-              "description": "A wide alumni network and active placement cell connects students with top recruiters in consulting, finance, marketing, and operations from day one."
-            },
-            {
-              "title": "International Business Exposure",
-              "description": "Global case studies, international faculty collaborations, and optional study-abroad exchanges develop a truly global business perspective."
-            },
-            {
-              "title": "Entrepreneurship & Start-Up Support",
-              "description": "An on-campus incubator with mentorship, funding guidance, and networking events supports students who aspire to build their own ventures."
-            }
-          ],
-          "careers": [
-            {
-              "category": "Business Strategy & Consulting",
-              "roles": [
-                "Management Consultant at McKinsey, BCG, Bain",
-                "Business Analyst at Accenture, Deloitte, EY",
-                "Strategy Manager at Tata Group, Mahindra",
-                "Corporate Planning Manager at MNCs"
-              ]
-            },
-            {
-              "category": "Marketing & Brand Management",
-              "roles": [
-                "Marketing Manager at Unilever, P&G, ITC",
-                "Brand Manager at Nestlé, HUL, Dabur",
-                "Digital Marketing Head at startups",
-                "Product Marketing Manager at tech companies"
-              ]
-            },
-            {
-              "category": "Finance & Banking",
-              "roles": [
-                "Investment Banker at Goldman Sachs, Morgan Stanley",
-                "Finance Manager at ICICI Bank, HDFC Bank",
-                "Portfolio Manager at mutual fund companies",
-                "CFO track at mid to large enterprises"
-              ]
-            },
-            {
-              "category": "Operations & Entrepreneurship",
-              "roles": [
-                "Operations Manager at Amazon, Flipkart, Zomato",
-                "Supply Chain Manager at Tata Motors, Maruti",
-                "Startup Founder with MBA background",
-                "General Manager at hotel or hospitality chains"
-              ]
-            }
-          ],
-          "faq": [
-            {
-              "q": "What are the specializations?",
-              "a": "We offer specializations in Finance, Marketing, Operations, HR, and Business Analytics"
-            },
-            {
-              "q": "Is there industry exposure?",
-              "a": "Yes, we organize industry visits, guest lectures, and projects with real companies"
-            },
-            {
-              "q": "What is the average placement package?",
-              "a": "MBA graduates get average packages of 15-25 LPA with top companies like Google, Amazon, Goldman Sachs"
-            },
-            {
-              "q": "Are there exchange programs?",
-              "a": "Yes, we have international partnerships for semester abroad and student exchanges"
-            },
-            {
-              "q": "What are the admission requirements?",
-              "a": "For MBA: Bachelor's degree, GMAT/CAT scores, and work experience (preferred)"
-            },
-            {
-              "q": "Is there a startup incubation center?",
-              "a": "Yes, we support student startups with mentorship, funding, and resources"
-            }
-          ]
-        },
-        {
-          "slug": "ba-jmc-ar-vr",
-          "name": "BA Journalism & Mass Communication (AR/VR & Immersive Media)",
-          "duration": "3 Years",
-          "type": "UG",
-          "degree": "Bachelor of Business Administration",
-          "overview": [
-            "The BA Journalism & Mass Communication (AR/VR & Immersive Media) programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
-            "Through case studies, industry projects, and international exposure, students are equipped to lead organizations, drive innovation, and excel in competitive corporate environments."
-          ],
-          "hero": {
-            "title": {
-              "normal": "BA Journalism & Mass Communication",
-              "italic": "AR/VR & Immersive Media"
-            },
-            "description": "Discover our comprehensive BA Journalism & Mass Communication (AR/VR & Immersive Media) programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
-            "breadcrumb": [
-              "Home",
-              "Schools",
-              "School of Management",
-              "BA Journalism & Mass Communication (AR/VR & Immersive Media)"
-            ],
-            "stats": [
-              {
-                "label": "Programme",
-                "value": "Bachelor of Business Administration"
-              },
-              {
-                "label": "Campus",
-                "value": "Bengaluru, India"
-              },
-              {
-                "label": "Status",
-                "value": "Active"
-              }
-            ]
-          },
-          "details": {
-            "duration": "3 Years",
-            "campus": "Bengaluru, India",
-            "school": "School of Management"
-          },
-          "eligibility": {
-            "title": "Eligibility Criteria",
-            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
-            "note": "Eligibility may vary for international students."
-          },
-          "highlights": [
-            {
-              "title": "Case-Based & Experiential Learning",
-              "description": "Curriculum built around real business cases, simulations, and live projects ensures students develop practical problem-solving and decision-making skills."
-            },
-            {
-              "title": "Leadership Development Programme",
-              "description": "Structured leadership training, personality development sessions, and executive mentoring prepare students to confidently lead teams and organisations."
-            },
-            {
-              "title": "Industry Immersion",
-              "description": "Regular industry visits, corporate guest lectures, and live consulting assignments keep students connected to real business environments throughout the programme."
-            },
-            {
-              "title": "Strong MBA Placement Network",
-              "description": "A wide alumni network and active placement cell connects students with top recruiters in consulting, finance, marketing, and operations from day one."
-            },
-            {
-              "title": "International Business Exposure",
-              "description": "Global case studies, international faculty collaborations, and optional study-abroad exchanges develop a truly global business perspective."
-            },
-            {
-              "title": "Entrepreneurship & Start-Up Support",
-              "description": "An on-campus incubator with mentorship, funding guidance, and networking events supports students who aspire to build their own ventures."
-            }
-          ],
-          "careers": [
-            {
-              "category": "Business Strategy & Consulting",
-              "roles": [
-                "Management Consultant at McKinsey, BCG, Bain",
-                "Business Analyst at Accenture, Deloitte, EY",
-                "Strategy Manager at Tata Group, Mahindra",
-                "Corporate Planning Manager at MNCs"
-              ]
-            },
-            {
-              "category": "Marketing & Brand Management",
-              "roles": [
-                "Marketing Manager at Unilever, P&G, ITC",
-                "Brand Manager at Nestlé, HUL, Dabur",
-                "Digital Marketing Head at startups",
-                "Product Marketing Manager at tech companies"
-              ]
-            },
-            {
-              "category": "Finance & Banking",
-              "roles": [
-                "Investment Banker at Goldman Sachs, Morgan Stanley",
-                "Finance Manager at ICICI Bank, HDFC Bank",
-                "Portfolio Manager at mutual fund companies",
-                "CFO track at mid to large enterprises"
-              ]
-            },
-            {
-              "category": "Operations & Entrepreneurship",
-              "roles": [
-                "Operations Manager at Amazon, Flipkart, Zomato",
-                "Supply Chain Manager at Tata Motors, Maruti",
-                "Startup Founder with MBA background",
-                "General Manager at hotel or hospitality chains"
-              ]
-            }
-          ],
-          "faq": [
-            {
-              "q": "What are the specializations?",
-              "a": "We offer specializations in Finance, Marketing, Operations, HR, and Business Analytics"
-            },
-            {
-              "q": "Is there industry exposure?",
-              "a": "Yes, we organize industry visits, guest lectures, and projects with real companies"
-            },
-            {
-              "q": "What is the average placement package?",
-              "a": "MBA graduates get average packages of 15-25 LPA with top companies like Google, Amazon, Goldman Sachs"
-            },
-            {
-              "q": "Are there exchange programs?",
-              "a": "Yes, we have international partnerships for semester abroad and student exchanges"
-            },
-            {
-              "q": "What are the admission requirements?",
-              "a": "For MBA: Bachelor's degree, GMAT/CAT scores, and work experience (preferred)"
-            },
-            {
-              "q": "Is there a startup incubation center?",
-              "a": "Yes, we support student startups with mentorship, funding, and resources"
-            }
-          ]
-        },
+        
+       
         {
           "slug": "mba",
           "name": "MBA Finance",
@@ -10025,537 +9755,9 @@
             }
           ]
         },
-        {
-          "slug": "ba-jmc-content",
-          "name": "BA Journalism & Mass Communication (Digital Storytelling & Content Creation)",
-          "duration": "3 Years",
-          "type": "UG",
-          "degree": "Bachelor of Arts",
-          "overview": [
-            "The BA Journalism & Mass Communication (Digital Storytelling & Content Creation) programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
-            "Through case studies, industry projects, and international exposure, students are equipped to lead organizations, drive innovation, and excel in competitive corporate environments."
-          ],
-          "hero": {
-            "title": {
-              "normal": "BA Journalism & Mass Communication",
-              "italic": "Digital Storytelling & Content Creation"
-            },
-            "description": "Discover our comprehensive BA Journalism & Mass Communication (Digital Storytelling & Content Creation) programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
-            "breadcrumb": [
-              "Home",
-              "Schools",
-              "School of Management",
-              "BA Journalism & Mass Communication (Digital Storytelling & Content Creation)"
-            ],
-            "stats": [
-              {
-                "label": "Programme",
-                "value": "Bachelor of Arts"
-              },
-              {
-                "label": "Campus",
-                "value": "Bengaluru, India"
-              },
-              {
-                "label": "Status",
-                "value": "Active"
-              }
-            ]
-          },
-          "details": {
-            "duration": "3 Years",
-            "campus": "Bengaluru, India",
-            "school": "School of Management"
-          },
-          "eligibility": {
-            "title": "Eligibility Criteria",
-            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
-            "note": "Eligibility may vary for international students."
-          },
-          "highlights": [
-            {
-              "title": "Case-Based & Experiential Learning",
-              "description": "Curriculum built around real business cases, simulations, and live projects ensures students develop practical problem-solving and decision-making skills."
-            },
-            {
-              "title": "Leadership Development Programme",
-              "description": "Structured leadership training, personality development sessions, and executive mentoring prepare students to confidently lead teams and organisations."
-            },
-            {
-              "title": "Industry Immersion",
-              "description": "Regular industry visits, corporate guest lectures, and live consulting assignments keep students connected to real business environments throughout the programme."
-            },
-            {
-              "title": "Strong MBA Placement Network",
-              "description": "A wide alumni network and active placement cell connects students with top recruiters in consulting, finance, marketing, and operations from day one."
-            },
-            {
-              "title": "International Business Exposure",
-              "description": "Global case studies, international faculty collaborations, and optional study-abroad exchanges develop a truly global business perspective."
-            },
-            {
-              "title": "Entrepreneurship & Start-Up Support",
-              "description": "An on-campus incubator with mentorship, funding guidance, and networking events supports students who aspire to build their own ventures."
-            }
-          ],
-          "careers": [
-            {
-              "category": "Business Strategy & Consulting",
-              "roles": [
-                "Management Consultant at McKinsey, BCG, Bain",
-                "Business Analyst at Accenture, Deloitte, EY",
-                "Strategy Manager at Tata Group, Mahindra",
-                "Corporate Planning Manager at MNCs"
-              ]
-            },
-            {
-              "category": "Marketing & Brand Management",
-              "roles": [
-                "Marketing Manager at Unilever, P&G, ITC",
-                "Brand Manager at Nestlé, HUL, Dabur",
-                "Digital Marketing Head at startups",
-                "Product Marketing Manager at tech companies"
-              ]
-            },
-            {
-              "category": "Finance & Banking",
-              "roles": [
-                "Investment Banker at Goldman Sachs, Morgan Stanley",
-                "Finance Manager at ICICI Bank, HDFC Bank",
-                "Portfolio Manager at mutual fund companies",
-                "CFO track at mid to large enterprises"
-              ]
-            },
-            {
-              "category": "Operations & Entrepreneurship",
-              "roles": [
-                "Operations Manager at Amazon, Flipkart, Zomato",
-                "Supply Chain Manager at Tata Motors, Maruti",
-                "Startup Founder with MBA background",
-                "General Manager at hotel or hospitality chains"
-              ]
-            }
-          ],
-          "faq": [
-            {
-              "q": "What are the specializations?",
-              "a": "We offer specializations in Finance, Marketing, Operations, HR, and Business Analytics"
-            },
-            {
-              "q": "Is there industry exposure?",
-              "a": "Yes, we organize industry visits, guest lectures, and projects with real companies"
-            },
-            {
-              "q": "What is the average placement package?",
-              "a": "MBA graduates get average packages of 15-25 LPA with top companies like Google, Amazon, Goldman Sachs"
-            },
-            {
-              "q": "Are there exchange programs?",
-              "a": "Yes, we have international partnerships for semester abroad and student exchanges"
-            },
-            {
-              "q": "What are the admission requirements?",
-              "a": "For MBA: Bachelor's degree, GMAT/CAT scores, and work experience (preferred)"
-            },
-            {
-              "q": "Is there a startup incubation center?",
-              "a": "Yes, we support student startups with mentorship, funding, and resources"
-            }
-          ]
-        },
-        {
-          "slug": "ba-jmc-journalism",
-          "name": "BA Journalism & Mass Communication (Journalism)",
-          "duration": "3 Years",
-          "type": "UG",
-          "degree": "Bachelor of Arts",
-          "hero": {
-            "title": {
-              "normal": "  BA Journalism & Mass Communication  ",
-              "italic": ""
-            },
-            "description": " Master the skills to inform, engage, and influence audiences across every media platform. This three-year programme combines traditional journalism principles with cutting-edge media technology — offering five specialisation tracks that prepare you for careers across news, advertising, PR, film, immersive media, and digital content creation. ",
-            "breadcrumb": [
-              "Home",
-              "Schools",
-              " Media Studies",
-              "  BA JMC "
-            ],
-            "stats": [
-              {
-                "label": "Duration",
-                "value": "3 Yr"
-              },
-              {
-                "label": "Semesters",
-                "value": "5"
-              },
-              {
-                "label": "Core Programme",
-                "value": "BA JMC  "
-              }
-            ]
-          },
-          "details": {
-            "duration": "3 Years Full-Time",
-            "campus": "Bengaluru, India",
-            "school": "Media Studies  "
-          },
-          "overview": [
-            "The BA in Journalism and Mass Communication at Presidency School of Media Studies offers a cutting-edge curriculum that combines the core principles of traditional journalism with the latest advancements in media technology. Students engage in hands-on training across print, electronic, and digital media — mastering reporting, writing, editing, broadcasting, and real-time storytelling. The curriculum also integrates filmmaking, data journalism, mobile journalism, and social media management, equipping students to produce fact-based stories with impact across platforms.  ",
-            "The programme features five specialisation tracks enabling students to develop expertise in their chosen area while maintaining a holistic understanding of the media landscape: Digital Marketing & Advertising / Public Relations & Corporate Communication; Film, Television & Digital Production; Immersive Media, AR/VR & Interactive Storytelling; and Digital Storytelling & Content Creation. Through workshops, internships, and live projects, the programme prepares students for real-world media careers with skills in research, ethical reporting, broadcast techniques, content strategy, and audience engagement. "
-          ],
-          "eligibility": {
-            "title": "Eligibility",
-            "description": "Candidates must have passed 10+2 with 45% aggregate marks (with English) or equivalent. 40% for reserved category candidates. International applicants should confirm documentation requirements with the Office of International Affairs.",
-            "note": ""
-          },
-          "tabs": {
-            "curriculum": [
-              {
-                "semester": "semester1",
-                "modules": [
-                  {
-                    "name": "",
-                    "code": ""
-                  },
-                  {
-                    "name": "",
-                    "code": ""
-                  },
-                  {
-                    "name": "",
-                    "code": ""
-                  }
-                ]
-              },
-              {
-                "semester": "semester2",
-                "modules": [
-                  {
-                    "name": "",
-                    "code": ""
-                  },
-                  {
-                    "name": "",
-                    "code": ""
-                  },
-                  {
-                    "name": "",
-                    "code": ""
-                  }
-                ]
-              }
-            ],
-            "outcomes": {
-              "PEOs": [
-                {
-                  "id": "PEO 1",
-                  "title": "Media Foundations ",
-                  "text": "Prepare graduates who understand the nature and core concepts of communication, journalism, advertising, corporate communication, electronic media, new media, and communication research.  "
-                },
-                {
-                  "id": "PEO 2",
-                  "title": "Contextual Analysis   ",
-                  "text": "Develop graduates who can analyse contemporary media in the context of India’s socio-political environment and its relationships with other nations.  "
-                },
-                {
-                  "id": "PEO 3",
-                  "title": "Production Skills ",
-                  "text": "Foster graduates who can perform professional activities in audio-visual programme production, print media software, web design, reporting, editing, and journal design. "
-                }
-              ],
-              "POs": [
-                {
-                  "id": "PO 1",
-                  "text": "Demonstrate comprehensive knowledge of journalism, mass communication, and media studies theory and practice.  "
-                },
-                {
-                  "id": "PO 2",
-                  "text": "Apply ethical standards and media law principles in professional journalism and content creation.  "
-                },
-                {
-                  "id": "PO 3",
-                  "text": "Produce professional-quality content across print, broadcast, digital, and social media platforms.  "
-                },
-                {
-                  "id": "PO 4",
-                  "text": "Apply research methodology and data analysis skills to media and communication projects.  "
-                },
-                {
-                  "id": "PO 5",
-                  "text": "Demonstrate effective interpersonal and professional communication across media contexts "
-                },
-                {
-                  "id": "PO 6",
-                  "text": "Exhibit leadership qualities and visionary thinking to inspire media teams and organisations.  "
-                },
-                {
-                  "id": "PO 7",
-                  "text": "Engage in continuous learning, updating knowledge, skills, and technologies throughout career.  "
-                }
-              ],
-              "PSOs": [
-                {
-                  "id": "PSO 1",
-                  "title": "Journalism Knowledge  ",
-                  "text": "Ability to exhibit sound understanding and knowledge of journalism and mass communication theory, history, and practice  "
-                },
-                {
-                  "id": "PSO 2",
-                  "title": "Industry Competence ",
-                  "text": "Competence to explore career opportunities aligned with the demands and requirements of the media industry across platforms.   "
-                },
-                {
-                  "id": "PSO 3",
-                  "title": "Research & InnovationCreative & Critical Thinking  ",
-                  "text": "Ability to think critically and creatively, demonstrating curiosity to discover new horizons in journalism and mass communication.  "
-                }
-              ]
-            }
-          },
-          "highlights": [
-            {
-              "title": "Five Specialisation Tracks ",
-              "description": "Choose from general journalism, digital marketing/PR, film/TV production, immersive media (AR/VR), or digital storytelling."
-            },
-            {
-              "title": "Professional Media Studios   ",
-              "description": "TV, radio, and digital editing studios with professional-grade equipment for broadcast and multimedia production training.   "
-            },
-            {
-              "title": "Professional Media Studios  ",
-              "description": "Training across print, electronic, digital, and mobile journalism — mastering multi-platform storytelling and content delivery. "
-            },
-            {
-              "title": "Data & Mobile Journalism  ",
-              "description": "Modules covering data journalism techniques and mobile journalism (MoJo) reflecting contemporary newsroom practices. "
-            },
-            {
-              "title": "Filmmaking Integration    ",
-              "description": "Film production skills including screenwriting, cinematography, editing, and post-production integrated into the curriculum."
-            },
-            {
-              "title": "AR/VR & Immersive Media Track ",
-              "description": "Cutting-edge specialisation in augmented reality, virtual reality, and interactive storytelling — a distinctive and future-oriented offering.   "
-            },
-            {
-              "title": "Industry Internships & Live Projects   ",
-              "description": "Hands-on experience through media internships, live reporting assignments, and professional content production. "
-            },
-            {
-              "title": "Ethical Media Practice  ",
-              "description": "Strong emphasis on media ethics, responsible reporting, fact checking, and audience-centric journalism throughout the programme.  "
-            }
-          ],
-          "careers": [
-            {
-              "category": "Business Strategy & Consulting",
-              "roles": [
-                "Management Consultant at McKinsey, BCG, Bain",
-                "Business Analyst at Accenture, Deloitte, EY",
-                "Strategy Manager at Tata Group, Mahindra",
-                "Corporate Planning Manager at MNCs"
-              ]
-            },
-            {
-              "category": "Marketing & Brand Management",
-              "roles": [
-                "Marketing Manager at Unilever, P&G, ITC",
-                "Brand Manager at Nestlé, HUL, Dabur",
-                "Digital Marketing Head at startups",
-                "Product Marketing Manager at tech companies"
-              ]
-            },
-            {
-              "category": "Finance & Banking",
-              "roles": [
-                "Investment Banker at Goldman Sachs, Morgan Stanley",
-                "Finance Manager at ICICI Bank, HDFC Bank",
-                "Portfolio Manager at mutual fund companies",
-                "CFO track at mid to large enterprises"
-              ]
-            },
-            {
-              "category": "Operations & Entrepreneurship",
-              "roles": [
-                "Operations Manager at Amazon, Flipkart, Zomato",
-                "Supply Chain Manager at Tata Motors, Maruti",
-                "Startup Founder with MBA background",
-                "General Manager at hotel or hospitality chains"
-              ]
-            }
-          ],
-          "faq": [
-            {
-              "q": "  What are the eligibility requirements for international applicants? ",
-              "a": "Candidates must have passed 10+2 with 45% aggregate marks (with English) or equivalent. 40% for reserved category candidates. International applicants should confirm documentation requirements with the Office of International Affairs. "
-            },
-            {
-              "q": " When do I choose my specialisation?    ",
-              "a": "Students begin with core journalism and communication foundations before selecting their specialisation track. The specific timing should be confirmed with the school during orientation.  "
-            },
-            {
-              "q": "  Is the AR/VR & Immersive Media track available for all students?",
-              "a": "  Yes. All five specialisation tracks are available as options within the BA JMC programme. The immersive media track is a distinctive offering that positions graduates for emerging roles in spatial storytelling and interactive content.  "
-            },
-            {
-              "q": "   What is the starting salary for journalism graduates?",
-              "a": "  Starting compensation varies widely by role and platform. Entry-level media positions in India typically start from INR 3–6 LPA, with digital content and PR roles often at the higher end. Independent content creators have variable income potential.  "
-            },
-            {
-              "q": "  Can I pursue an MA after this programme?  ",
-              "a": "  Yes. Graduates can pursue the MA Journalism & Mass Communication at Presidency or other institutions for advanced study and career progression.  "
-            },
-            {
-              "q": "   Is on-campus accommodation available for international students?  ",
-              "a": "Presidency University provides student housing. Contact the Office of International Affairs for details."
-            }
-          ],
-          "cta": {
-            "title": "Your Future Starts Here",
-            "subtitle": "Join Presidency University and build your career in technology.",
-            "button": "Apply Now"
-          }
-        },
-        {
-          "slug": "ma-jmc",
-          "name": "MA Journalism & Mass Communication",
-          "duration": "2 Years",
-          "type": "PG",
-          "degree": "Master of Business Administration",
-          "overview": [
-            "The MA Journalism & Mass Communication programme at Presidency University offers a comprehensive curriculum designed to build strong foundations and industry-relevant skills. Students gain both theoretical knowledge and practical expertise through project-based learning and industry engagement.",
-            "Through case studies, industry projects, and international exposure, students are equipped to lead organizations, drive innovation, and excel in competitive corporate environments."
-          ],
-          "hero": {
-            "title": {
-              "normal": "MA Journalism & Mass Communication",
-              "italic": ""
-            },
-            "description": "Discover our comprehensive MA Journalism & Mass Communication programme. Gain industry-relevant skills and knowledge to excel in your career. Join Presidency University for world-class education and career advancement.",
-            "breadcrumb": [
-              "Home",
-              "Schools",
-              "School of Management",
-              "MA Journalism & Mass Communication"
-            ],
-            "stats": [
-              {
-                "label": "Programme",
-                "value": "Master of Business Administration"
-              },
-              {
-                "label": "Campus",
-                "value": "Bengaluru, India"
-              },
-              {
-                "label": "Status",
-                "value": "Active"
-              }
-            ]
-          },
-          "details": {
-            "duration": "2 Years",
-            "campus": "Bengaluru, India",
-            "school": "School of Management"
-          },
-          "eligibility": {
-            "title": "Eligibility Criteria",
-            "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
-            "note": "Eligibility may vary for international students."
-          },
-          "highlights": [
-            {
-              "title": "Case-Based & Experiential Learning",
-              "description": "Curriculum built around real business cases, simulations, and live projects ensures students develop practical problem-solving and decision-making skills."
-            },
-            {
-              "title": "Leadership Development Programme",
-              "description": "Structured leadership training, personality development sessions, and executive mentoring prepare students to confidently lead teams and organisations."
-            },
-            {
-              "title": "Industry Immersion",
-              "description": "Regular industry visits, corporate guest lectures, and live consulting assignments keep students connected to real business environments throughout the programme."
-            },
-            {
-              "title": "Strong MBA Placement Network",
-              "description": "A wide alumni network and active placement cell connects students with top recruiters in consulting, finance, marketing, and operations from day one."
-            },
-            {
-              "title": "International Business Exposure",
-              "description": "Global case studies, international faculty collaborations, and optional study-abroad exchanges develop a truly global business perspective."
-            },
-            {
-              "title": "Entrepreneurship & Start-Up Support",
-              "description": "An on-campus incubator with mentorship, funding guidance, and networking events supports students who aspire to build their own ventures."
-            }
-          ],
-          "careers": [
-            {
-              "category": "Business Strategy & Consulting",
-              "roles": [
-                "Management Consultant at McKinsey, BCG, Bain",
-                "Business Analyst at Accenture, Deloitte, EY",
-                "Strategy Manager at Tata Group, Mahindra",
-                "Corporate Planning Manager at MNCs"
-              ]
-            },
-            {
-              "category": "Marketing & Brand Management",
-              "roles": [
-                "Marketing Manager at Unilever, P&G, ITC",
-                "Brand Manager at Nestlé, HUL, Dabur",
-                "Digital Marketing Head at startups",
-                "Product Marketing Manager at tech companies"
-              ]
-            },
-            {
-              "category": "Finance & Banking",
-              "roles": [
-                "Investment Banker at Goldman Sachs, Morgan Stanley",
-                "Finance Manager at ICICI Bank, HDFC Bank",
-                "Portfolio Manager at mutual fund companies",
-                "CFO track at mid to large enterprises"
-              ]
-            },
-            {
-              "category": "Operations & Entrepreneurship",
-              "roles": [
-                "Operations Manager at Amazon, Flipkart, Zomato",
-                "Supply Chain Manager at Tata Motors, Maruti",
-                "Startup Founder with MBA background",
-                "General Manager at hotel or hospitality chains"
-              ]
-            }
-          ],
-          "faq": [
-            {
-              "q": "What are the specializations?",
-              "a": "We offer specializations in Finance, Marketing, Operations, HR, and Business Analytics"
-            },
-            {
-              "q": "Is there industry exposure?",
-              "a": "Yes, we organize industry visits, guest lectures, and projects with real companies"
-            },
-            {
-              "q": "What is the average placement package?",
-              "a": "MBA graduates get average packages of 15-25 LPA with top companies like Google, Amazon, Goldman Sachs"
-            },
-            {
-              "q": "Are there exchange programs?",
-              "a": "Yes, we have international partnerships for semester abroad and student exchanges"
-            },
-            {
-              "q": "What are the admission requirements?",
-              "a": "For MBA: Bachelor's degree, GMAT/CAT scores, and work experience (preferred)"
-            },
-            {
-              "q": "Is there a startup incubation center?",
-              "a": "Yes, we support student startups with mentorship, funding, and resources"
-            }
-          ]
-        },
+       
+        
+       
         {
           "slug": "mba-banking-finance-management",
           "name": "MBA (Banking and Finance Management)",
@@ -10935,7 +10137,7 @@
           "normal": "School of",
           "italic": "Management"
         },
-        "description": "Lead with Excellence. Our management programs prepare strategic leaders and business professionals to navigate complex organizational challenges and drive sustainable business growth.",
+        "description": "Develop the leadership, analytical, and strategic skills to drive business success. From general management and finance to digital marketing and aviation, our school offers undergraduate, postgraduate, and doctoral programmes that prepare international students for impactful careers in the global business landscape.",
         "breadcrumb": [
           "Home",
           "Schools",
@@ -10943,23 +10145,28 @@
         ],
         "stats": [
           {
-            "label": "Programs",
-            "value": "14"
+            "label": "UG Programmes ",
+            "value": "6"
           },
           {
-            "label": "Faculty",
-            "value": "45+"
+            "label": "PG Programmes ",
+            "value": "5"
           },
           {
-            "label": "Students",
-            "value": "400+"
+            "label": "Doctoral Programmes ",
+            "value": "5 "
+          },
+           {
+            "label": "PG Diploma",
+            "value": "1"
           }
         ]
       },
       "about": {
-        "title": "About the School",
+        "title": "Inspiring Responsible Business Leaders",
         "content": [
-          "The School of Management offers rigorous business education combining management theory, case study analysis, and real-world projects. Our programs develop leaders and managers equipped with strategic thinking, entrepreneurial mindset, and global business acumen."
+          "The Presidency School of Management offers a comprehensive portfolio of business education programmes spanning undergraduate BBA degrees, postgraduate MBA specialisations, doctoral research, and a postgraduate diploma in public administration. The school teaches all aspects of management — from finance, marketing, and human resource management to business analytics, digital marketing, and operations. With an AICTE-approved MBA programme and curricula built on the Choice Based Credit System (CBCS) and Outcome Based Education (OBE), students receive an education designed to produce industry-ready professionals and entrepreneurial thinkers.",
+        "The school goes beyond placement preparation. Due emphasis is placed on soft skill development, relevant certification programmes, and experiential learning including simulation exercises, case studies, corporate internships, and social project-based learning. The curriculum embeds internship experience directly into the academic programme, while networking with companies, firms, NGOs, and professional organisations provides students with real-world exposure. Guest speaker programmes and mentored courses bridge theory and practice, ensuring that graduates enter the workforce with both academic knowledge and practical professional capability. The School of Management has been nationally ranked among India’s top private B-Schools."
         ],
         "images": [
           "/img/management/m1.jpg",
@@ -10968,40 +10175,25 @@
         ],
         "features": [
           {
-            "title": "Case-Based Learning",
-            "description": "Harvard-style case studies and business simulations every semester."
+            "title": "AICTE-Approved MBA Programme",
+            "description": "The postgraduate MBA programme is approved by AICTE, New Delhi, with multiple specialisation tracks in finance, marketing, banking, digital marketing, and business analytics."
           },
           {
-            "title": "Industry Immersion",
-            "description": "Corporate visits, live projects, and guest CEO lectures throughout the year."
-          },
-          {
-            "title": "Global Business",
-            "description": "International exposure through exchange programmes and global case studies."
-          },
-          {
-            "title": "Leadership Labs",
-            "description": "Dedicated leadership and personality development sessions."
-          },
-          {
-            "title": "Startup Incubator",
-            "description": "On-campus incubator with funding support for student entrepreneurs."
-          },
-          {
-            "title": "Placement Network",
-            "description": "Active recruiter network spanning consulting, banking, and tech sectors."
+            "title": "Industry-Embedded Curriculum ",
+            "description": "Internships, corporate simulations, case studies, and social project-based learning are integrated directly into the academic structure across all programmes."
           }
+        
         ]
       },
       "visionMission": {
         "vision": {
           "title": "Vision",
-          "description": "To develop ethical, visionary leaders who create sustainable value for organizations and society in an increasingly complex global business environment.",
+          "description": "To inspire and develop responsible leaders who generate meaningful and lasting impact on businesses, communities, and society.",
           "points": []
         },
         "mission": {
           "title": "Mission",
-          "description": "To provide comprehensive management education emphasizing strategic thinking, ethical leadership, and business innovation, fostering professionals who drive organizational excellence and social responsibility.",
+          "description": "To provide students with the knowledge, skills, and ethical foundation needed to lead with integrity and drive sustainable change in business and society.",
           "points": []
         }
       },
@@ -11099,6 +10291,11 @@
           "type": "PG",
           "title": "Postgraduate Programmes",
           "subtitle": "Advance your expertise with specialized studies"
+        },
+         {
+          "type": "Diploma",
+          "title": "Post Graduate Diploma Programmes",
+          "subtitle": "Develop specialized skills for career advancement and professional excellence."
         }
       ],
       "phdSummary": {
@@ -12772,7 +11969,7 @@
         }
       ],
       "hero": {
-        "image": "/img/banner/soc.jpg",
+        "image": "/img/banner/socs.jpg",
         "title": {
           "normal": "School of",
           "italic": "Commerce"
@@ -12923,7 +12120,12 @@
           "type": "UG",
           "title": "Undergraduate Programmes",
           "subtitle": "Build strong foundations in your field of interest"
-        }
+        },
+        {
+  "type": "Diploma",
+  "title": "Post Graduate Diploma Programmes",
+  "subtitle": "Gain industry-focused expertise with advanced professional programmes."
+}
       ],
       "phdSummary": {
         "title": "Ph.D. Research Programme",
@@ -14868,7 +14070,12 @@
           "type": "UG",
           "title": "Undergraduate Programmes",
           "subtitle": "Build strong foundations in your field of interest"
-        }
+        },
+        {
+  "type": "Diploma",
+  "title": "Post Graduate Diploma Programmes",
+  "subtitle": "Gain industry-focused expertise with advanced professional programmes."
+}
       ],
       "phdSummary": {
         "title": "Ph.D. Research Programme",
@@ -15771,7 +14978,12 @@
           "type": "PG",
           "title": "Postgraduate Programmes",
           "subtitle": "Advance your expertise with specialized studies"
-        }
+        },
+        {
+  "type": "Diploma",
+  "title": "Post Graduate Diploma Programmes",
+  "subtitle": "Gain industry-focused expertise with advanced professional programmes."
+}
       
       ],
       "phdSummary": {
@@ -16929,7 +16141,12 @@
           "type": "PG",
           "title": "Postgraduate Programmes",
           "subtitle": "Advance your expertise with specialized studies"
-        }
+        },
+        {
+  "type": "Diploma",
+  "title": "Post Graduate Diploma Programmes",
+  "subtitle": "Gain industry-focused expertise with advanced professional programmes."
+}
       ],
       "phdSummary": {
         "title": "Ph.D. Research Programme",
@@ -21259,7 +20476,12 @@
           "type": "PG",
           "title": "Postgraduate Programmes",
           "subtitle": "Advance your expertise with specialized studies"
-        }
+        },
+        {
+  "type": "Diploma",
+  "title": "Post Graduate Diploma Programmes",
+  "subtitle": "Gain industry-focused expertise with advanced professional programmes."
+}
       ],
       "phdSummary": {
         "title": "Ph.D. Research Programme",
@@ -22239,7 +21461,12 @@
           "type": "UG",
           "title": "Undergraduate Programmes",
           "subtitle": "Build strong foundations in your field of interest"
-        }
+        },
+        {
+  "type": "Diploma",
+  "title": "Post Graduate Diploma Programmes",
+  "subtitle": "Gain industry-focused expertise with advanced professional programmes."
+}
       ],
       "phdSummary": {
         "title": "Ph.D. Research Programme",

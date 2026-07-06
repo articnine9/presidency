@@ -303,10 +303,7 @@ export function Navigation() {
         },
       ],
       phd: [
-        {
-          label: "Ph.D. Research Programme",
-          href: "/schools/management#phd-research",
-        },
+       
       ],
       diploma: [
         {

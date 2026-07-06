@@ -113,7 +113,7 @@
               "normal": "B.Tech Computer Science",
               "italic": " & Engineering"
             },
-            "description": "Build a strong foundation in computing, AI, and modern software technologies.",
+            "description": "Build a strong foundation in computing with one of the most versatile and sought-after engineering degrees in the world. This four-year programme covers the full breadth of computer science — from programming and algorithms to AI, cloud computing, and software architecture — preparing you for a global career in technology.",
             "breadcrumb": [
               "Home",
               "Schools",
@@ -141,8 +141,8 @@
             "school": "Computer Science & Engineering"
           },
           "overview": [
-            "The B.Tech in Electronics & Communication Engineering explores the design, development, and deployment of electronic devices, circuits, and communication systems that underpin modern life. From mobile networks and satellite communications to embedded controllers and IoT devices, the programme builds expertise across analogue and digital electronics, signal processing, wireless systems, VLSI technology, and microcontroller-based design. Students gain fluency in both hardware and software aspects of electronic engineering through an integrated curriculum of theory, laboratory practice, and project work.",
-            "Bengaluru’s position as a centre for semiconductor manufacturing, telecom R&D, and electronics innovation gives students proximity to major employers and research organisations. The programme incorporates industry-oriented certifications, collaborative projects, and internship placements that connect classroom learning to professional practice. Graduates emerge prepared for roles in telecommunications, semiconductor design, consumer electronics, aerospace, defence, and automation industries worldwide."
+            "The Bachelor of Technology in Computer Science & Engineering provides a thorough grounding in the theoretical foundations and practical applications of computing. The programme covers core topics including programming, data structures, algorithms, databases, operating systems, computer networks, artificial intelligence, machine learning, cyber security, and software engineering.",
+            "Graduates emerge equipped with the technical depth and problem-solving abilities needed to design, develop, and oversee complex software systems. The programme’s emphasis on interconnected technologies — spanning AI, machine learning, cyber security, data science, cloud, IoT, and blockchain — ensures students build holistic solutions rather than isolated components. Industry mentorship, hackathon culture, and global internship pathways further strengthen career readiness."
           ],
           "image": "/img/programme/cse/cse2.jpg",
           "images": [
@@ -4719,7 +4719,7 @@
           "normal": "School of",
           "italic": "Computer Science & Engineering"
         },
-        "description": "Innovate, Code, Transform. Our CS&E programs prepare developers, engineers, and innovators to build tomorrow's digital solutions and lead technological advancement globally.",
+        "description": "Discover cutting-edge computing programmes in India’s technology capital. From artificial intelligence to blockchain, our school prepares international students for careers at the forefront of global innovation.",
         "breadcrumb": [
           "Home",
           "Schools",
@@ -4727,16 +4727,16 @@
         ],
         "stats": [
           {
-            "label": "Programs",
-            "value": "17"
+            "label": "UG Programmes ",
+            "value": "13+"
           },
           {
-            "label": "Faculty",
-            "value": "60+"
+            "label": "PG Programmes ",
+            "value": "2 "
           },
           {
-            "label": "Students",
-            "value": "600+"
+            "label": "Doctoral Research",
+            "value": "Ph.D"
           }
         ]
       },
@@ -9868,6 +9868,8 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Business Administration",
+          "overviewtitle": "A Comprehensive Foundation in ",
+          "highlight": "Business Management",
           "hero": {
             "image": "/img/banner/som.JPG",
             "title": {
@@ -9913,7 +9915,7 @@
           ],
           "eligibility": {
             "title": "Eligibility Criteria",
-            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "description": "Candidates who have passed 10+2 / PUC / Equivalent Examination with a minimum aggregate of 40% (including languages) are eligible to apply.",
             "note": "Eligibility may vary for international students."
           },
           "tabs": {
@@ -9922,16 +9924,32 @@
                 "semester": "Semester 1",
                 "modules": [
                   {
-                    "name": "Mathematics I",
-                    "code": "MAT101"
+                    "name": "Business Accounting",
+                    "code": ""
                   },
                   {
-                    "name": "Programming in C",
-                    "code": "CSE101"
+                    "name": "Managerial Economics",
+                    "code": ""
                   },
                   {
-                    "name": "Physics",
-                    "code": "PHY101"
+                    "name": "Management and Behavioural Practices",
+                    "code": ""
+                  },
+                  {
+                    "name": "Corporate Governance & Business Ethics",
+                    "code": ""
+                  },
+                  {
+                    "name": "Human Resource Management",
+                    "code": ""
+                  },
+                  {
+                    "name": "Mastering English Communication",
+                    "code": ""
+                  },
+                  {
+                    "name": "Introduction to Soft Skills",
+                    "code": ""
                   }
                 ]
               },
@@ -9939,16 +9957,172 @@
                 "semester": "Semester 2",
                 "modules": [
                   {
-                    "name": "Data Structures",
-                    "code": "CSE201"
+                    "name": "Corporate Accounting",
+                    "code": ""
                   },
                   {
-                    "name": "Discrete Mathematics",
-                    "code": "MAT201"
+                    "name": "Business Information Systems",
+                    "code": ""
                   },
                   {
-                    "name": "Digital Logic",
-                    "code": "CSE202"
+                    "name": "Marketing Management",
+                    "code": ""
+                  },
+                  {
+                    "name": "Business Statistics",
+                    "code": ""
+                  },
+                  {
+                    "name": "Multidisciplinary – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Business English",
+                    "code": ""
+                  },
+                  {
+                    "name": "Language Elective",
+                    "code": ""
+                  },
+                  {
+                    "name": "Basics of Excel",
+                    "code": ""
+                  },
+                  {
+                    "name": "Employability for Young Professionals",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Financial Management",
+                    "code": ""
+                  },
+                  {
+                    "name": "International Business",
+                    "code": ""
+                  },
+                  {
+                    "name": "Entrepreneurship and Innovation",
+                    "code": ""
+                  },
+                  {
+                    "name": "Business Law",
+                    "code": ""
+                  },
+                  {
+                    "name": "Research Methodology",
+                    "code": ""
+                  },
+                  {
+                    "name": "Multidisciplinary – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Advanced Excel",
+                    "code": ""
+                  },
+                  {
+                    "name": "Corporate Communication",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "Cost Accounting",
+                    "code": ""
+                  },
+                  {
+                    "name": "Strategic Management",
+                    "code": ""
+                  },
+                  {
+                    "name": "Income Tax for Managers",
+                    "code": ""
+                  },
+                  {
+                    "name": "Project Management",
+                    "code": ""
+                  },
+                  {
+                    "name": "Multidisciplinary – III",
+                    "code": ""
+                  },
+                  {
+                    "name": "Environmental Studies and Sustainable Development",
+                    "code": ""
+                  },
+                  {
+                    "name": "Data Analysis using Software",
+                    "code": ""
+                  },
+                  {
+                    "name": "Introduction to Aptitude",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 5",
+                "modules": [
+                  {
+                    "name": "Discipline Elective – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective – III",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective – IV",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective – V",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective – VI",
+                    "code": ""
+                  },
+                  {
+                    "name": "Preparedness for Interview",
+                    "code": ""
+                  },
+                  {
+                    "name": "Internship",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 6",
+                "modules": [
+                  {
+                    "name": "Functional Area Project",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective – VII",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective – VIII",
+                    "code": ""
+                  },
+                  {
+                    "name": "Social Immersion Project",
+                    "code": ""
                   }
                 ]
               }
@@ -10052,39 +10226,39 @@
           ],
           "careers": [
             {
-              "category": "Business Strategy & Consulting",
+              "category": "Corporate Management",
               "roles": [
-                "Management Consultant at McKinsey, BCG, Bain",
-                "Business Analyst at Accenture, Deloitte, EY",
-                "Strategy Manager at Tata Group, Mahindra",
-                "Corporate Planning Manager at MNCs"
+                "Business Development Executive",
+                "Operations Manager",
+                "Management Trainee",
+                "Corporate Strategy Analyst"
               ]
             },
             {
-              "category": "Marketing & Brand Management",
+              "category": "Marketing & Sales",
               "roles": [
-                "Marketing Manager at Unilever, P&G, ITC",
-                "Brand Manager at Nestlé, HUL, Dabur",
-                "Digital Marketing Head at startups",
-                "Product Marketing Manager at tech companies"
+                "Marketing Executive",
+                "Brand Manager",
+                "Sales Manager",
+                "Client Relationship Manager"
               ]
             },
             {
-              "category": "Finance & Banking",
+              "category": "Finance & Accounting",
               "roles": [
-                "Investment Banker at Goldman Sachs, Morgan Stanley",
-                "Finance Manager at ICICI Bank, HDFC Bank",
-                "Portfolio Manager at mutual fund companies",
-                "CFO track at mid to large enterprises"
+                "Financial Analyst",
+                "Business Analyst",
+                "Accounts Manager",
+                "Investment Associate"
               ]
             },
             {
-              "category": "Operations & Entrepreneurship",
+              "category": "Entrepreneurship",
               "roles": [
-                "Operations Manager at Amazon, Flipkart, Zomato",
-                "Supply Chain Manager at Tata Motors, Maruti",
-                "Startup Founder with MBA background",
-                "General Manager at hotel or hospitality chains"
+                "Startup Founder",
+                "Business Consultant",
+                "Franchise Manager",
+                "Supply Chain Analyst"
               ]
             }
           ],
@@ -10126,6 +10300,8 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Business Administration",
+          "overviewtitle": "Managing the ",
+          "highlight": "Business of Flight",
           "hero": {
             "image": "/img/banner/som.JPG",
             "title": {
@@ -10171,7 +10347,7 @@
           ],
           "eligibility": {
             "title": "Eligibility Criteria",
-            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "description": "Candidates who have passed 10+2 / PUC / Equivalent Examination with a minimum aggregate of 40% (including languages) are eligible to apply.",
             "note": "Eligibility may vary for international students."
           },
           "tabs": {
@@ -10180,16 +10356,32 @@
                 "semester": "Semester 1",
                 "modules": [
                   {
-                    "name": "Mathematics I",
-                    "code": "MAT101"
+                    "name": "Genesis and Overview of Aviation",
+                    "code": ""
                   },
                   {
-                    "name": "Programming in C",
-                    "code": "CSE101"
+                    "name": "Airport Operations – Basics",
+                    "code": ""
                   },
                   {
-                    "name": "Physics",
-                    "code": "PHY101"
+                    "name": "Management and Behavioural Practices",
+                    "code": ""
+                  },
+                  {
+                    "name": "Corporate Governance & Business Ethics",
+                    "code": ""
+                  },
+                  {
+                    "name": "Human Resources Management",
+                    "code": ""
+                  },
+                  {
+                    "name": "Mastering English Communication",
+                    "code": ""
+                  },
+                  {
+                    "name": "Introduction to Soft Skills",
+                    "code": ""
                   }
                 ]
               },
@@ -10197,16 +10389,156 @@
                 "semester": "Semester 2",
                 "modules": [
                   {
-                    "name": "Data Structures",
-                    "code": "CSE201"
+                    "name": "Airport Operations – Advanced",
+                    "code": ""
                   },
                   {
-                    "name": "Discrete Mathematics",
-                    "code": "MAT201"
+                    "name": "Regulatory Framework of Aviation",
+                    "code": ""
                   },
                   {
-                    "name": "Digital Logic",
-                    "code": "CSE202"
+                    "name": "Marketing Management",
+                    "code": ""
+                  },
+                  {
+                    "name": "Business Statistics",
+                    "code": ""
+                  },
+                  {
+                    "name": "Multidisciplinary – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Business English",
+                    "code": ""
+                  },
+                  {
+                    "name": "Language Elective",
+                    "code": ""
+                  },
+                  {
+                    "name": "Basics of Excel",
+                    "code": ""
+                  },
+                  {
+                    "name": "Employability for Young Professionals",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Aviation Maintenance Management",
+                    "code": ""
+                  },
+                  {
+                    "name": "Air Traffic Control",
+                    "code": ""
+                  },
+                  {
+                    "name": "Research Methodology",
+                    "code": ""
+                  },
+                  {
+                    "name": "International Business",
+                    "code": ""
+                  },
+                  {
+                    "name": "Business Law",
+                    "code": ""
+                  },
+                  {
+                    "name": "Multidisciplinary – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Advanced Excel",
+                    "code": ""
+                  },
+                  {
+                    "name": "Corporate Communication",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "Air Cargo and Logistics",
+                    "code": ""
+                  },
+                  {
+                    "name": "Airport Management",
+                    "code": ""
+                  },
+                  {
+                    "name": "Customer Relationship Management",
+                    "code": ""
+                  },
+                  {
+                    "name": "Entrepreneurship and Innovation",
+                    "code": ""
+                  },
+                  {
+                    "name": "Multidisciplinary – III",
+                    "code": ""
+                  },
+                  {
+                    "name": "Environmental Studies and Sustainable Development",
+                    "code": ""
+                  },
+                  {
+                    "name": "Data Analysis for Decision Making",
+                    "code": ""
+                  },
+                  {
+                    "name": "Introduction to Aptitude",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 5",
+                "modules": [
+                  {
+                    "name": "Airline and Cabin Crew Management",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Electives",
+                    "code": ""
+                  },
+                  {
+                    "name": "Preparedness for Interview",
+                    "code": ""
+                  },
+                  {
+                    "name": "Internship",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 6",
+                "modules": [
+                  {
+                    "name": "Functional Project",
+                    "code": ""
+                  },
+                  {
+                    "name": "Airport and Aircraft Emergencies",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective",
+                    "code": ""
+                  },
+                  {
+                    "name": "Social Immersion Project",
+                    "code": ""
                   }
                 ]
               }
@@ -10306,39 +10638,38 @@
           ],
           "careers": [
             {
-              "category": "Business Strategy & Consulting",
+              "category": "Airline Operations",
               "roles": [
-                "Management Consultant at McKinsey, BCG, Bain",
-                "Business Analyst at Accenture, Deloitte, EY",
-                "Strategy Manager at Tata Group, Mahindra",
-                "Corporate Planning Manager at MNCs"
+                "Airline Operations Executive",
+                "Cabin Crew Manager",
+                "Flight Dispatch Coordinator",
+                "Airline Revenue Manager"
               ]
             },
             {
-              "category": "Marketing & Brand Management",
+              "category": "Airport Management",
               "roles": [
-                "Marketing Manager at Unilever, P&G, ITC",
-                "Brand Manager at Nestlé, HUL, Dabur",
-                "Digital Marketing Head at startups",
-                "Product Marketing Manager at tech companies"
+                "Airport Operations Manager",
+                "Ground Handling Supervisor",
+                "Terminal Manager",
+                "Aviation Safety Officer"
               ]
             },
             {
-              "category": "Finance & Banking",
+              "category": "Travel & Tourism",
               "roles": [
-                "Investment Banker at Goldman Sachs, Morgan Stanley",
-                "Finance Manager at ICICI Bank, HDFC Bank",
-                "Portfolio Manager at mutual fund companies",
-                "CFO track at mid to large enterprises"
+                "Travel Consultant",
+                "Tour Operations Manager",
+                "Corporate Travel Manager",
+                "Tourism Marketing Executive"
               ]
             },
             {
-              "category": "Operations & Entrepreneurship",
+              "category": "Support Services",
               "roles": [
-                "Operations Manager at Amazon, Flipkart, Zomato",
-                "Supply Chain Manager at Tata Motors, Maruti",
-                "Startup Founder with MBA background",
-                "General Manager at hotel or hospitality chains"
+                "Aviation Logistics Coordinator",
+                "Cargo Management Executive",
+                "Aviation Customer Service Manager"
               ]
             }
           ],
@@ -10380,6 +10711,8 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Business Administration",
+          "overviewtitle": "Where Business Thinking Meets",
+          "highlight": "Data Intelligence",
           "hero": {
             "image": "/img/banner/som.JPG",
             "title": {
@@ -10425,7 +10758,7 @@
           ],
           "eligibility": {
             "title": "Eligibility Criteria",
-            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "description": "Candidates who have passed 10+2 / PUC / Equivalent Examination with a minimum aggregate of 40% (including languages) are eligible to apply.",
             "note": "Eligibility may vary for international students."
           },
           "tabs": {
@@ -10434,16 +10767,32 @@
                 "semester": "Semester 1",
                 "modules": [
                   {
-                    "name": "Mathematics I",
-                    "code": "MAT101"
+                    "name": "Business Accounting",
+                    "code": ""
                   },
                   {
-                    "name": "Programming in C",
-                    "code": "CSE101"
+                    "name": "Managerial Economics",
+                    "code": ""
                   },
                   {
-                    "name": "Physics",
-                    "code": "PHY101"
+                    "name": "Management and Behavioural Practices",
+                    "code": ""
+                  },
+                  {
+                    "name": "Corporate Governance & Business Ethics",
+                    "code": ""
+                  },
+                  {
+                    "name": "Human Resources Management",
+                    "code": ""
+                  },
+                  {
+                    "name": "Mastering English Communication",
+                    "code": ""
+                  },
+                  {
+                    "name": "Introduction to Soft Skills",
+                    "code": ""
                   }
                 ]
               },
@@ -10451,16 +10800,172 @@
                 "semester": "Semester 2",
                 "modules": [
                   {
-                    "name": "Data Structures",
-                    "code": "CSE201"
+                    "name": "Essentials of Business Analytics",
+                    "code": ""
                   },
                   {
-                    "name": "Discrete Mathematics",
-                    "code": "MAT201"
+                    "name": "Business Information Systems",
+                    "code": ""
                   },
                   {
-                    "name": "Digital Logic",
-                    "code": "CSE202"
+                    "name": "Marketing Management",
+                    "code": ""
+                  },
+                  {
+                    "name": "Business Statistics",
+                    "code": ""
+                  },
+                  {
+                    "name": "Multidisciplinary – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Business English",
+                    "code": ""
+                  },
+                  {
+                    "name": "Language Elective",
+                    "code": ""
+                  },
+                  {
+                    "name": "Excel for Managers",
+                    "code": ""
+                  },
+                  {
+                    "name": "Employability for Young Professionals",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Application of Business Analytics",
+                    "code": ""
+                  },
+                  {
+                    "name": "Entrepreneurship and Innovation",
+                    "code": ""
+                  },
+                  {
+                    "name": "Research Methodology",
+                    "code": ""
+                  },
+                  {
+                    "name": "Marketing Analytics",
+                    "code": ""
+                  },
+                  {
+                    "name": "Business Law",
+                    "code": ""
+                  },
+                  {
+                    "name": "Multidisciplinary – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Predictive Analytics",
+                    "code": ""
+                  },
+                  {
+                    "name": "Corporate Communication",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "HR Analytics",
+                    "code": ""
+                  },
+                  {
+                    "name": "Strategic Management",
+                    "code": ""
+                  },
+                  {
+                    "name": "Income Tax for Managers",
+                    "code": ""
+                  },
+                  {
+                    "name": "Machine Learning",
+                    "code": ""
+                  },
+                  {
+                    "name": "Multidisciplinary – III",
+                    "code": ""
+                  },
+                  {
+                    "name": "Environmental Studies and Sustainable Development",
+                    "code": ""
+                  },
+                  {
+                    "name": "Visual Analytics",
+                    "code": ""
+                  },
+                  {
+                    "name": "Introduction to Aptitude",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 5",
+                "modules": [
+                  {
+                    "name": "Finance and Risk Analytics",
+                    "code": ""
+                  },
+                  {
+                    "name": "Structured Query Language (SQL)",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective – III",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective – IV",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective – V",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective – VI",
+                    "code": ""
+                  },
+                  {
+                    "name": "Preparedness for Interview",
+                    "code": ""
+                  },
+                  {
+                    "name": "Internship",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 6",
+                "modules": [
+                  {
+                    "name": "Functional Area Project",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective – VII",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective – VIII",
+                    "code": ""
+                  },
+                  {
+                    "name": "Social Immersion Project",
+                    "code": ""
                   }
                 ]
               }
@@ -10560,39 +11065,37 @@
           ],
           "careers": [
             {
-              "category": "Business Strategy & Consulting",
+              "category": "Business Analytics",
               "roles": [
-                "Management Consultant at McKinsey, BCG, Bain",
-                "Business Analyst at Accenture, Deloitte, EY",
-                "Strategy Manager at Tata Group, Mahindra",
-                "Corporate Planning Manager at MNCs"
+                "Business Analyst",
+                "Business Intelligence Analyst",
+                "Data Analyst",
+                "Operations Analyst"
               ]
             },
             {
-              "category": "Marketing & Brand Management",
+              "category": "Marketing & Finance Analytics",
               "roles": [
-                "Marketing Manager at Unilever, P&G, ITC",
-                "Brand Manager at Nestlé, HUL, Dabur",
-                "Digital Marketing Head at startups",
-                "Product Marketing Manager at tech companies"
+                "Marketing Analyst",
+                "Financial Analyst",
+                "Customer Insights Analyst",
+                "Risk Analytics Associate"
               ]
             },
             {
-              "category": "Finance & Banking",
+              "category": "Consulting & Strategy",
               "roles": [
-                "Investment Banker at Goldman Sachs, Morgan Stanley",
-                "Finance Manager at ICICI Bank, HDFC Bank",
-                "Portfolio Manager at mutual fund companies",
-                "CFO track at mid to large enterprises"
+                "Management Consultant (Analytics)",
+                "Strategy Analyst",
+                "Decision Support Analyst"
               ]
             },
             {
-              "category": "Operations & Entrepreneurship",
+              "category": "Technology & Data",
               "roles": [
-                "Operations Manager at Amazon, Flipkart, Zomato",
-                "Supply Chain Manager at Tata Motors, Maruti",
-                "Startup Founder with MBA background",
-                "General Manager at hotel or hospitality chains"
+                "Data Visualisation Specialist",
+                "Analytics Engineer",
+                "CRM Analyst"
               ]
             }
           ],
@@ -10634,6 +11137,8 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Business Administration",
+          "overviewtitle": "Driving Business Growth Through ",
+          "highlight": "Digital Channels",
           "hero": {
             "image": "/img/banner/som.JPG",
             "title": {
@@ -10679,7 +11184,7 @@
           ],
           "eligibility": {
             "title": "Eligibility Criteria",
-            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "description": "Candidates who have passed 10+2 / PUC / Equivalent Examination with a minimum aggregate of 40% (including languages) are eligible to apply.",
             "note": "Eligibility may vary for international students."
           },
           "tabs": {
@@ -10688,16 +11193,32 @@
                 "semester": "Semester 1",
                 "modules": [
                   {
-                    "name": "Mathematics I",
-                    "code": "MAT101"
+                    "name": "Business Accounting",
+                    "code": ""
                   },
                   {
-                    "name": "Programming in C",
-                    "code": "CSE101"
+                    "name": "Managerial Economics",
+                    "code": ""
                   },
                   {
-                    "name": "Physics",
-                    "code": "PHY101"
+                    "name": "Management and Behavioural Practices",
+                    "code": ""
+                  },
+                  {
+                    "name": "Corporate Governance and Business Ethics",
+                    "code": ""
+                  },
+                  {
+                    "name": "Human Resources Management",
+                    "code": ""
+                  },
+                  {
+                    "name": "Mastering English Communication",
+                    "code": ""
+                  },
+                  {
+                    "name": "Introduction to Soft Skills",
+                    "code": ""
                   }
                 ]
               },
@@ -10705,16 +11226,172 @@
                 "semester": "Semester 2",
                 "modules": [
                   {
-                    "name": "Data Structures",
-                    "code": "CSE201"
+                    "name": "Introduction to Digital Marketing",
+                    "code": ""
                   },
                   {
-                    "name": "Discrete Mathematics",
-                    "code": "MAT201"
+                    "name": "Business Information Systems",
+                    "code": ""
                   },
                   {
-                    "name": "Digital Logic",
-                    "code": "CSE202"
+                    "name": "Marketing Management",
+                    "code": ""
+                  },
+                  {
+                    "name": "Business Statistics",
+                    "code": ""
+                  },
+                  {
+                    "name": "Multidisciplinary – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Business English",
+                    "code": ""
+                  },
+                  {
+                    "name": "Language Elective",
+                    "code": ""
+                  },
+                  {
+                    "name": "Basics of Excel",
+                    "code": ""
+                  },
+                  {
+                    "name": "Employability for Young Professionals",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Research Methodology",
+                    "code": ""
+                  },
+                  {
+                    "name": "Web Design and Development",
+                    "code": ""
+                  },
+                  {
+                    "name": "Business Law",
+                    "code": ""
+                  },
+                  {
+                    "name": "Affiliate Marketing",
+                    "code": ""
+                  },
+                  {
+                    "name": "Mobile and Email Marketing",
+                    "code": ""
+                  },
+                  {
+                    "name": "Multidisciplinary – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Advanced Excel",
+                    "code": ""
+                  },
+                  {
+                    "name": "Corporate Communication",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "Search Engine Optimization (SEO)",
+                    "code": ""
+                  },
+                  {
+                    "name": "Content Strategy",
+                    "code": ""
+                  },
+                  {
+                    "name": "Income Tax for Managers",
+                    "code": ""
+                  },
+                  {
+                    "name": "Social Media Marketing",
+                    "code": ""
+                  },
+                  {
+                    "name": "Multidisciplinary – III",
+                    "code": ""
+                  },
+                  {
+                    "name": "Environmental Studies and Sustainable Development",
+                    "code": ""
+                  },
+                  {
+                    "name": "Data Analysis using Software",
+                    "code": ""
+                  },
+                  {
+                    "name": "Introduction to Aptitude",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 5",
+                "modules": [
+                  {
+                    "name": "Social and Web Analytics",
+                    "code": ""
+                  },
+                  {
+                    "name": "Digital Media Laws",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective – III",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective – IV",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective – V",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective – VI",
+                    "code": ""
+                  },
+                  {
+                    "name": "Preparedness for Interview",
+                    "code": ""
+                  },
+                  {
+                    "name": "Internship",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 6",
+                "modules": [
+                  {
+                    "name": "Functional Area Project",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective – VII",
+                    "code": ""
+                  },
+                  {
+                    "name": "Discipline Elective – VIII",
+                    "code": ""
+                  },
+                  {
+                    "name": "Social Immersion Project",
+                    "code": ""
                   }
                 ]
               }
@@ -10814,39 +11491,37 @@
           ],
           "careers": [
             {
-              "category": "Business Strategy & Consulting",
+              "category": "Business Analytics",
               "roles": [
-                "Management Consultant at McKinsey, BCG, Bain",
-                "Business Analyst at Accenture, Deloitte, EY",
-                "Strategy Manager at Tata Group, Mahindra",
-                "Corporate Planning Manager at MNCs"
+                "Business Analyst",
+                "Business Intelligence Analyst",
+                "Data Analyst",
+                "Operations Analyst"
               ]
             },
             {
-              "category": "Marketing & Brand Management",
+              "category": "Marketing & Finance Analytics",
               "roles": [
-                "Marketing Manager at Unilever, P&G, ITC",
-                "Brand Manager at Nestlé, HUL, Dabur",
-                "Digital Marketing Head at startups",
-                "Product Marketing Manager at tech companies"
+                "Marketing Analyst",
+                "Financial Analyst",
+                "Customer Insights Analyst",
+                "Risk Analytics Associate"
               ]
             },
             {
-              "category": "Finance & Banking",
+              "category": "Consulting & Strategy",
               "roles": [
-                "Investment Banker at Goldman Sachs, Morgan Stanley",
-                "Finance Manager at ICICI Bank, HDFC Bank",
-                "Portfolio Manager at mutual fund companies",
-                "CFO track at mid to large enterprises"
+                "Management Consultant (Analytics)",
+                "Strategy Analyst",
+                "Decision Support Analyst"
               ]
             },
             {
-              "category": "Operations & Entrepreneurship",
+              "category": "Technology & Data",
               "roles": [
-                "Operations Manager at Amazon, Flipkart, Zomato",
-                "Supply Chain Manager at Tata Motors, Maruti",
-                "Startup Founder with MBA background",
-                "General Manager at hotel or hospitality chains"
+                "Data Visualisation Specialist",
+                "Analytics Engineer",
+                "CRM Analyst"
               ]
             }
           ],
@@ -10888,6 +11563,8 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Business Administration",
+          "overviewtitle": "Leading Business in ",
+          "highlight": "the Digital Age",
           "hero": {
             "image": "/img/banner/som.JPG",
             "title": {
@@ -10933,7 +11610,7 @@
           ],
           "eligibility": {
             "title": "Eligibility Criteria",
-            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "description": "Candidates who have passed 10+2 / PUC / Equivalent Examination with a minimum aggregate of 50% (including languages) are eligible to apply.",
             "note": "Eligibility may vary for international students."
           },
           "tabs": {
@@ -10942,16 +11619,28 @@
                 "semester": "Semester 1",
                 "modules": [
                   {
-                    "name": "Mathematics I",
-                    "code": "MAT101"
+                    "name": "Business Accounting",
+                    "code": ""
                   },
                   {
-                    "name": "Programming in C",
-                    "code": "CSE101"
+                    "name": "Management and Behavioural Practices",
+                    "code": ""
                   },
                   {
-                    "name": "Physics",
-                    "code": "PHY101"
+                    "name": "Foundations of Marketing & Customer Strategies",
+                    "code": ""
+                  },
+                  {
+                    "name": "Fundamentals of Digital Business & Management",
+                    "code": ""
+                  },
+                  {
+                    "name": "Essentials of Communication",
+                    "code": ""
+                  },
+                  {
+                    "name": "Introduction to Soft Skills",
+                    "code": ""
                   }
                 ]
               },
@@ -10959,16 +11648,172 @@
                 "semester": "Semester 2",
                 "modules": [
                   {
-                    "name": "Data Structures",
-                    "code": "CSE201"
+                    "name": "Introduction to Website & Design Essentials",
+                    "code": ""
                   },
                   {
-                    "name": "Discrete Mathematics",
-                    "code": "MAT201"
+                    "name": "Organic Social Media Marketing",
+                    "code": ""
                   },
                   {
-                    "name": "Digital Logic",
-                    "code": "CSE202"
+                    "name": "Managerial Economics",
+                    "code": ""
+                  },
+                  {
+                    "name": "Multidisciplinary Open Elective",
+                    "code": ""
+                  },
+                  {
+                    "name": "Business English",
+                    "code": ""
+                  },
+                  {
+                    "name": "Sarala Kannada / Savi Kannada / Introduction to French Language",
+                    "code": ""
+                  },
+                  {
+                    "name": "Spreadsheet Basics",
+                    "code": ""
+                  },
+                  {
+                    "name": "Employability for Young Professionals",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Paid Social Media Marketing",
+                    "code": ""
+                  },
+                  {
+                    "name": "Fundamentals of Search Engine Optimization",
+                    "code": ""
+                  },
+                  {
+                    "name": "Business Statistics",
+                    "code": ""
+                  },
+                  {
+                    "name": "Multidisciplinary Open Elective – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Human Resource Management",
+                    "code": ""
+                  },
+                  {
+                    "name": "Financial Management",
+                    "code": ""
+                  },
+                  {
+                    "name": "Corporate Communication",
+                    "code": ""
+                  },
+                  {
+                    "name": "Summer Internship",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "Advanced Paid Advertisements",
+                    "code": ""
+                  },
+                  {
+                    "name": "Advanced Search Engine Optimization Strategies",
+                    "code": ""
+                  },
+                  {
+                    "name": "Multidisciplinary Open Elective – III",
+                    "code": ""
+                  },
+                  {
+                    "name": "Environmental Studies and Sustainable Development",
+                    "code": ""
+                  },
+                  {
+                    "name": "Introduction to Aptitude",
+                    "code": ""
+                  },
+                  {
+                    "name": "Entrepreneurship and Innovation",
+                    "code": ""
+                  },
+                  {
+                    "name": "Business Law",
+                    "code": ""
+                  },
+                  {
+                    "name": "Corporate Governance & Business Ethics",
+                    "code": ""
+                  },
+                  {
+                    "name": "Research Methodology",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 5",
+                "modules": [
+                  {
+                    "name": "Ecommerce Marketing",
+                    "code": ""
+                  },
+                  {
+                    "name": "Lead Generation & Analytics",
+                    "code": ""
+                  },
+                  {
+                    "name": "Online Reputation Management & Influencer Marketing",
+                    "code": ""
+                  },
+                  {
+                    "name": "International Business",
+                    "code": ""
+                  },
+                  {
+                    "name": "AI in Digital Business",
+                    "code": ""
+                  },
+                  {
+                    "name": "Preparedness for Interview",
+                    "code": ""
+                  },
+                  {
+                    "name": "Data Analysis for Decision Making",
+                    "code": ""
+                  },
+                  {
+                    "name": "Summer Internship",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 6",
+                "modules": [
+                  {
+                    "name": "Marketing Automation & Conversion Optimization",
+                    "code": ""
+                  },
+                  {
+                    "name": "Media Planning & Buying",
+                    "code": ""
+                  },
+                  {
+                    "name": "Campaign Planning",
+                    "code": ""
+                  },
+                  {
+                    "name": "Social Immersion Project",
+                    "code": ""
                   }
                 ]
               }
@@ -11068,39 +11913,38 @@
           ],
           "careers": [
             {
-              "category": "Business Strategy & Consulting",
+              "category": "Digital Business Management",
               "roles": [
-                "Management Consultant at McKinsey, BCG, Bain",
-                "Business Analyst at Accenture, Deloitte, EY",
-                "Strategy Manager at Tata Group, Mahindra",
-                "Corporate Planning Manager at MNCs"
+                "Digital Business Manager",
+                "E-Commerce Manager",
+                "Online Marketplace Manager",
+                "D2C Brand Manager"
               ]
             },
             {
-              "category": "Marketing & Brand Management",
+              "category": "Digital Marketing",
               "roles": [
-                "Marketing Manager at Unilever, P&G, ITC",
-                "Brand Manager at Nestlé, HUL, Dabur",
-                "Digital Marketing Head at startups",
-                "Product Marketing Manager at tech companies"
+                "PPC Campaign Manager",
+                "Social Media Manager",
+                "Content Marketing Strategist",
+                "SEO Specialist"
               ]
             },
             {
-              "category": "Finance & Banking",
+              "category": "Analytics & Strategy",
               "roles": [
-                "Investment Banker at Goldman Sachs, Morgan Stanley",
-                "Finance Manager at ICICI Bank, HDFC Bank",
-                "Portfolio Manager at mutual fund companies",
-                "CFO track at mid to large enterprises"
+                "Digital Analytics Manager",
+                "Business Development Executive (Digital)",
+                "CRM Specialist"
               ]
             },
             {
-              "category": "Operations & Entrepreneurship",
+              "category": "Entrepreneurship",
               "roles": [
-                "Operations Manager at Amazon, Flipkart, Zomato",
-                "Supply Chain Manager at Tata Motors, Maruti",
-                "Startup Founder with MBA background",
-                "General Manager at hotel or hospitality chains"
+                "Digital Startup Founder",
+                "E-Commerce Entrepreneur",
+                "Content Creator",
+                "Influencer Marketing Manager"
               ]
             }
           ],
@@ -11142,6 +11986,8 @@
           "duration": "3 Years",
           "type": "UG",
           "degree": "Bachelor of Business Administration",
+          "overviewtitle": "Managing World-Class",
+          "highlight": "Guest Experiences",
           "hero": {
             "image": "/img/banner/som.JPG",
             "title": {
@@ -11187,7 +12033,7 @@
           ],
           "eligibility": {
             "title": "Eligibility Criteria",
-            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "description": "Candidates who have passed 10+2 / PUC / Equivalent Examination are eligible to apply for the programme. (The programme follows Presidency University's undergraduate admission criteria.",
             "note": "Eligibility may vary for international students."
           },
           "tabs": {
@@ -11196,16 +12042,36 @@
                 "semester": "Semester 1",
                 "modules": [
                   {
-                    "name": "Mathematics I",
-                    "code": "MAT101"
+                    "name": "Fundamentals of Financial Accounting",
+                    "code": "CBS1021"
                   },
                   {
-                    "name": "Programming in C",
-                    "code": "CSE101"
+                    "name": "Principles of Management",
+                    "code": "CBS1014"
                   },
                   {
-                    "name": "Physics",
-                    "code": "PHY101"
+                    "name": "Managerial Economics",
+                    "code": "CBS1001"
+                  },
+                  {
+                    "name": "Introduction to Hospitality Industry",
+                    "code": ""
+                  },
+                  {
+                    "name": "Introduction to Marketing",
+                    "code": "CBS1018"
+                  },
+                  {
+                    "name": "Essentials of Communication",
+                    "code": "ENG1901"
+                  },
+                  {
+                    "name": "Business Environment",
+                    "code": "CBS1030"
+                  },
+                  {
+                    "name": "Industry Readiness Program – I",
+                    "code": "PPS1025"
                   }
                 ]
               },
@@ -11213,16 +12079,156 @@
                 "semester": "Semester 2",
                 "modules": [
                   {
-                    "name": "Data Structures",
-                    "code": "CSE201"
+                    "name": "Front Office Operations",
+                    "code": ""
                   },
                   {
-                    "name": "Discrete Mathematics",
-                    "code": "MAT201"
+                    "name": "Business Statistics",
+                    "code": "CBS1017"
                   },
                   {
-                    "name": "Digital Logic",
-                    "code": "CSE202"
+                    "name": "Human Resource Management",
+                    "code": "CBS1019"
+                  },
+                  {
+                    "name": "Open Elective Course – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Business English",
+                    "code": "ENG2020"
+                  },
+                  {
+                    "name": "Sarala Kannada / Savi Kannada / Introduction to French Language / Foreign Language",
+                    "code": ""
+                  },
+                  {
+                    "name": "Spreadsheets for Business",
+                    "code": "CBS1023"
+                  },
+                  {
+                    "name": "Indian Constitution",
+                    "code": "LAW7601"
+                  },
+                  {
+                    "name": "Industry Readiness Program – II",
+                    "code": "PPS1026"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Business Law",
+                    "code": "CBS1002"
+                  },
+                  {
+                    "name": "Housekeeping Operations",
+                    "code": ""
+                  },
+                  {
+                    "name": "Food & Beverage Operations",
+                    "code": ""
+                  },
+                  {
+                    "name": "Advanced Spreadsheets",
+                    "code": "CBS2035"
+                  },
+                  {
+                    "name": "Food Production",
+                    "code": ""
+                  },
+                  {
+                    "name": "Open Elective Course – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Preparedness for Interview",
+                    "code": "PPS3018"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "Nutrition and Food Sciences",
+                    "code": ""
+                  },
+                  {
+                    "name": "Strategic Management",
+                    "code": "CBS3001"
+                  },
+                  {
+                    "name": "Accommodation & Operations Management",
+                    "code": ""
+                  },
+                  {
+                    "name": "Entrepreneurship and Business Ethics",
+                    "code": "CBS3035"
+                  },
+                  {
+                    "name": "International Business",
+                    "code": "CBS2001"
+                  },
+                  {
+                    "name": "Environmental Studies and Sustainable Development",
+                    "code": "CHE1020"
+                  },
+                  {
+                    "name": "Operations Research",
+                    "code": "CBS3002"
+                  },
+                  {
+                    "name": "Data Analysis for Decision Making",
+                    "code": "CBS2037"
+                  },
+                  {
+                    "name": "Aptitude Training",
+                    "code": "PPS4002"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 5",
+                "modules": [
+                  {
+                    "name": "Hospitality Sales and Marketing",
+                    "code": ""
+                  },
+                  {
+                    "name": "Event Management Basics",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Course – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Course – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Course – III",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Course – IV",
+                    "code": ""
+                  },
+                  {
+                    "name": "Summer Internship",
+                    "code": "CBS7000"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 6",
+                "modules": [
+                  {
+                    "name": "On-the-Job Training (OJT)",
+                    "code": ""
                   }
                 ]
               }
@@ -11322,39 +12328,39 @@
           ],
           "careers": [
             {
-              "category": "Business Strategy & Consulting",
+              "category": "Hotel Management",
               "roles": [
-                "Management Consultant at McKinsey, BCG, Bain",
-                "Business Analyst at Accenture, Deloitte, EY",
-                "Strategy Manager at Tata Group, Mahindra",
-                "Corporate Planning Manager at MNCs"
+                "Hotel Operations Manager",
+                "Front Office Manager",
+                "Housekeeping Manager",
+                "Guest Relations Manager"
               ]
             },
             {
-              "category": "Marketing & Brand Management",
+              "category": "Food & Beverage",
               "roles": [
-                "Marketing Manager at Unilever, P&G, ITC",
-                "Brand Manager at Nestlé, HUL, Dabur",
-                "Digital Marketing Head at startups",
-                "Product Marketing Manager at tech companies"
+                "F&B Manager",
+                "Restaurant Manager",
+                "Catering Manager",
+                "Banquet Coordinator"
               ]
             },
             {
-              "category": "Finance & Banking",
+              "category": "Tourism & Events",
               "roles": [
-                "Investment Banker at Goldman Sachs, Morgan Stanley",
-                "Finance Manager at ICICI Bank, HDFC Bank",
-                "Portfolio Manager at mutual fund companies",
-                "CFO track at mid to large enterprises"
+                "Tourism Marketing Executive",
+                "Event Manager",
+                "MICE Coordinator",
+                "Travel Operations Manager"
               ]
             },
             {
-              "category": "Operations & Entrepreneurship",
+              "category": "Entrepreneurship",
               "roles": [
-                "Operations Manager at Amazon, Flipkart, Zomato",
-                "Supply Chain Manager at Tata Motors, Maruti",
-                "Startup Founder with MBA background",
-                "General Manager at hotel or hospitality chains"
+                "Restaurant Owner",
+                "Boutique Hotel Operator",
+                "Event Planning Entrepreneur",
+                "Hospitality Consultant"
               ]
             }
           ],
@@ -11391,11 +12397,389 @@
           }
         },
         {
+          "slug": "mba",
+          "name": "MBA",
+          "duration": "2 Years",
+          "type": "PG",
+          "degree": "Master of Business Administration",
+          "overviewtitle": "Building Strategic ",
+          "highlight": "Business Leaders",
+          "hero": {
+            "image": "/img/banner/som.JPG",
+            "title": {
+              "normal": "Master of Business Administration",
+              "italic": ""
+            },
+            "description": "Accelerate your career with an AICTE-approved MBA from a nationally ranked B-School. Choose from specialisations across business domains, marketing and finance, banking, digital marketing, and business analytics — each designed to develop the strategic, analytical, and leadership skills that organisations seek in senior management professionals.",
+            "breadcrumb": [
+              "Home",
+              "Schools",
+              "School of Management",
+              "MBA"
+            ],
+            "stats": [
+              {
+                "label": "Duration",
+                "value": "2 Yr"
+              },
+              {
+                "label": "Semesters",
+                "value": "4"
+              },
+              {
+                "label": "Core Programme",
+                "value": "MBA"
+              }
+            ]
+          },
+          "details": {
+            "duration": "2 Years Full-Time",
+            "campus": "Bengaluru, India",
+            "school": "School of Management"
+          },
+          "overview": [
+            "The MBA programme at Presidency School of Management is a two-year, full-time AICTE-approved postgraduate degree offered across five distinct specialisation tracks. The curriculum is built on the Choice Based Credit System (CBCS) with a focus on social project-based learning, industrial training, and internship — enabling students to become fully equipped for employment, higher studies, or entrepreneurship. All MBA tracks share a common foundation in management fundamentals before branching into specialised modules in the second year.",
+            "The MBA General programme offers specialisations across high-demand fields including Finance, Marketing, Human Resource Management, Operations and Supply Chain Management, Business Analytics, FinTech, Applied AI, Luxury Retail and Lifestyle Management, Sustainability and ESG, International Business and Trade Management, Metaverse/Web 3.0 and Virtual Business, and Advertising and Brand Management. The dedicated specialisation tracks — Marketing and Finance, Banking and Finance Management, Digital Marketing, and Business Analytics — provide deeper focus for students who have already identified their career direction. All tracks incorporate case studies, corporate simulations, management consulting assignments, and corporate internships."
+          ],
+          "image": "/img/programme/m/m1.jpg",
+          "images": [
+            "/img/programme/m/m1.jpg",
+            "/img/programme/m/m2.jpg",
+            "/img/programme/m/m3.jpg"
+          ],
+          "eligibility": {
+            "title": "Eligibility Criteria",
+            "description": "A Bachelor's Degree of a minimum 3-year duration At least 50% aggregate marks (45% for reserved category candidates) A valid score in CAT, CMAT, MAT, KMAT, PGCET MBA, or other accepted entrance examinations.",
+            "note": "Eligibility may vary for international students."
+          },
+          "highlights": [
+            {
+              "title": "AICTE-Approved Programme",
+              "description": "Fully approved by AICTE, New Delhi, with a curriculum that meets national postgraduate management education standards."
+            },
+            {
+              "title": "Five Specialisation Tracks",
+              "description": "Choose from general business domains, Marketing & Finance, Banking, Digital Marketing, or Business Analytics based on your career objectives."
+            },
+            {
+              "title": "New Age Specialisations",
+              "description": "Options including FinTech, Applied AI, Sustainability & ESG, International Business, and Metaverse/Web 3.0 reflecting emerging business trends."
+            },
+            {
+              "title": "Corporate Internship & Projects",
+              "description": "Mandatory internship, live business projects, and management consulting assignments with industry organisations."
+            },
+            {
+              "title": "Business Simulation & Case Studies",
+              "description": "Case-based pedagogy using the Harvard Business Essentials framework, corporate simulations, and real-world business problem-solving."
+            },
+            {
+              "title": "State-of-the-Art Business Labs",
+              "description": "Financial modelling tools, data analytics software, and market research platforms available in dedicated management computing facilities."
+            },
+            {
+              "title": "Nationally Ranked B-School",
+              "description": "Ranked among India's top private B-Schools by Times, The Week, Business Today, and other national ranking surveys."
+            },
+            {
+              "title": "Strong Placement Network",
+              "description": "Career services division connecting graduates with recruiters in consulting, banking, FMCG, IT, healthcare, and corporate management sectors."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Strategy & Consulting",
+              "roles": [
+                "Management Consultant",
+                "Business Strategy Analyst",
+                "Corporate Planning Manager",
+                "Operations Consultant"
+              ]
+            },
+            {
+              "category": "Finance & Banking",
+              "roles": [
+                "Financial Analyst",
+                "Investment Banker",
+                "Credit Analyst",
+                "Treasury Manager",
+                "FinTech Product Manager"
+              ]
+            },
+            {
+              "category": "Marketing & Digital",
+              "roles": [
+                "Marketing Manager",
+                "Brand Manager",
+                "Digital Marketing Director",
+                "Social Media Strategist"
+              ]
+            },
+            {
+              "category": "Analytics & Technology",
+              "roles": [
+                "Business Analytics Manager",
+                "Data Strategy Lead",
+                "AI Product Manager",
+                "Business Intelligence Director"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "What are the eligibility requirements for international MBA applicants?",
+              "a": "Applicants must hold a recognised bachelor's degree with a minimum of 50% marks (or equivalent). MBA admissions typically require valid scores from recognised management entrance examinations. International applicants should confirm specific admission requirements with the Office of International Affairs."
+            },
+            {
+              "q": "Which MBA specialisation should I choose?",
+              "a": "The General MBA offers maximum flexibility with more than 12 specialisation options that can be chosen during the programme. Students with a defined career goal in Banking, Digital Marketing, or Business Analytics may benefit from selecting the corresponding specialised MBA track for focused industry-oriented training."
+            },
+            {
+              "q": "What is the FinTech specialisation?",
+              "a": "The FinTech specialisation covers blockchain technology, cryptocurrency, digital payments, financial data analytics, cybersecurity in finance, and regulatory frameworks, preparing graduates for careers at the intersection of finance and technology."
+            },
+            {
+              "q": "What are the typical placement outcomes?",
+              "a": "MBA graduates are recruited by consulting firms, banks, FMCG companies, IT organisations, healthcare firms, and startups. The Career Services Division conducts structured placement drives during the final year."
+            },
+            {
+              "q": "Can international students access internship placements?",
+              "a": "Yes. The mandatory internship is supported through the university's industry network. International students can access internship opportunities with assistance from the Career Services Division and the Office of International Affairs."
+            },
+            {
+              "q": "Is on-campus accommodation available for international students?",
+              "a": "Yes. Presidency University provides student housing. International students should contact the Office of International Affairs for accommodation details."
+            }
+          ],
+          "cta": {
+            "title": "Advance Your Finance Career",
+            "subtitle": "Join Presidency University's MBA in Banking and Finance Management.",
+            "button": "Apply Now"
+          },
+          "tabs": {
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Applied Business Statistics",
+                    "code": "QNT4111"
+                  },
+                  {
+                    "name": "Applied Data Analysis and Visualization",
+                    "code": "QNT4112"
+                  },
+                  {
+                    "name": "Financial Accounting and Reporting",
+                    "code": "FIN4111"
+                  },
+                  {
+                    "name": "Human Behaviour in Organizations",
+                    "code": "OBH4111"
+                  },
+                  {
+                    "name": "Managerial Economics",
+                    "code": "GMM4111"
+                  },
+                  {
+                    "name": "Production Operations and Logistics Management",
+                    "code": "OPS4111"
+                  },
+                  {
+                    "name": "Strategic Marketing Management",
+                    "code": "MKT4111"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Business Analytics for Managerial Decision Making",
+                    "code": "QNT4113"
+                  },
+                  {
+                    "name": "Communication for Leaders",
+                    "code": "GMM4112"
+                  },
+                  {
+                    "name": "Digital Marketing Strategy, Tools and Trends",
+                    "code": "MKT4112"
+                  },
+                  {
+                    "name": "Financial Modelling and Corporate Finance",
+                    "code": "FIN4112"
+                  },
+                  {
+                    "name": "People, Performance and HR Strategy",
+                    "code": "OBH4112"
+                  },
+                  {
+                    "name": "Specialization Track Core – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Track Core – II",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Business Strategy and Corporate Transformation",
+                    "code": "GMM4113"
+                  },
+                  {
+                    "name": "Business Law and Regulatory Compliance",
+                    "code": "GMM4114"
+                  },
+                  {
+                    "name": "Specialization Track Core – III",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Track Core – IV",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Track Elective – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Track Elective – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Track Elective – III",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Track Elective – IV",
+                    "code": ""
+                  },
+                  {
+                    "name": "Summer Internship Project",
+                    "code": "INT7111"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "Corporate Governance, Ethics and Social Responsibility",
+                    "code": "GMM4115"
+                  },
+                  {
+                    "name": "Entrepreneurship and Innovation Management",
+                    "code": "GMM4116"
+                  },
+                  {
+                    "name": "Specialization Track Elective – V",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Track Elective – VI",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Track Elective – VII",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Track Elective – VIII",
+                    "code": ""
+                  },
+                  {
+                    "name": "Capstone Research Project",
+                    "code": "CRP7111"
+                  }
+                ]
+              }
+            ],
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Industry-Ready Leadership",
+                  "text": "Prepare graduates who are industry-ready with high integrity, social responsibility, and leadership capabilities."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Analytical & Design Thinking",
+                  "text": "Develop graduates enhanced with analytical skills and design thinking approaches to solve complex business problems."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Entrepreneurial Mindset",
+                  "text": "Foster graduates able to pursue entrepreneurial ventures through creativity, innovation, and strategic thinking."
+                },
+                {
+                  "id": "PEO 4",
+                  "title": "Lifelong Learning",
+                  "text": "Enable graduates to engage in and benefit from continuous professional development throughout their careers."
+                }
+              ],
+              "POs": [
+                {
+                  "id": "PO 1",
+                  "text": "Lead themselves and others to achieve organisational goals, contributing effectively to team environments."
+                },
+                {
+                  "id": "PO 2",
+                  "text": "Integrate functional knowledge and apply managerial skills in changing business environments."
+                },
+                {
+                  "id": "PO 3",
+                  "text": "Identify real-world problems across management functions and solve them through strategic planning, critical thinking, and innovation."
+                },
+                {
+                  "id": "PO 4",
+                  "text": "Identify and evaluate business ideas and opportunities for entrepreneurial and intrapreneurial ventures."
+                },
+                {
+                  "id": "PO 5",
+                  "text": "Make data-driven decisions and communicate effectively with diverse stakeholders."
+                },
+                {
+                  "id": "PO 6",
+                  "text": "Evaluate and integrate ethical and societal considerations when making business decisions."
+                },
+                {
+                  "id": "PO 7",
+                  "text": "Demonstrate commitment to continuous learning and professional development."
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Functional Domain Expertise",
+                  "text": "Ability to apply significant business administration knowledge across HR management, finance, marketing, operations & supply chain, and business analytics."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Cross-Functional Problem Analysis",
+                  "text": "Ability to analyse business problems from multiple functional perspectives, integrating insights across disciplines."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Data-Driven Communication",
+                  "text": "Ability to make data-driven decisions and communicate findings effectively to stakeholders at all organisational levels."
+                }
+              ]
+            }
+          }
+        },
+        {
           "slug": "mba-banking-finance-management",
           "name": "MBA (Banking and Finance Management)",
           "duration": "2 Years",
           "type": "PG",
           "degree": "Master of Business Administration",
+          "overviewtitle": "Leading Growth in",
+          "highlight": "Banking & Finance",
           "hero": {
             "image": "/img/banner/som.JPG",
             "title": {
@@ -11430,8 +12814,8 @@
             "school": "School of Management"
           },
           "overview": [
-            "The MBA in Banking and Finance Management prepares students for leadership roles in banking, financial services, and investment sectors.",
-            "The programme covers financial analysis, banking operations, risk management, corporate finance, and regulatory frameworks with strong industry engagement."
+            "The MBA in Banking and Finance Management is designed to prepare future banking and finance professionals capable of meeting the evolving demands of the Banking, Financial Services, and Insurance (BFSI) sector.",
+            "The programme provides a strong foundation in commercial banking, investment management, financial modelling, forex and treasury operations, fintech, portfolio management, financial regulations, and business analytics. Students gain practical exposure through internships, live projects, financial case studies, stock market simulations, and industry interactions, enabling them to excel in banking, financial services, investment firms, fintech companies, and consulting organizations."
           ],
           "image": "/img/programme/m/m1.jpg",
           "images": [
@@ -11441,39 +12825,124 @@
           ],
           "eligibility": {
             "title": "Eligibility Criteria",
-            "description": "Candidates must have a bachelor's degree with minimum 50% marks from a recognised university.",
+            "description": "A Bachelor's Degree of a minimum 3-year duration. At least 50% aggregate marks (45% for reserved category candidates). A valid score in CAT, CMAT, MAT, KMAT, PGCET MBA, or other accepted entrance examinations.",
             "note": "Eligibility may vary for international students."
           },
           "highlights": [
             {
-              "title": "Banking & Finance Focus",
-              "description": "Specialised curriculum covering banking regulations, risk management, and financial instruments."
+              "title": "Comprehensive Banking & Finance Curriculum",
+              "description": "Comprehensive curriculum covering Investment Banking, Financial Risk Management, FinTech, Corporate Finance, Wealth Management, Forex, and Treasury Operations."
             },
             {
-              "title": "Industry Exposure",
-              "description": "Live projects and internships with leading banks and financial institutions."
+              "title": "State-of-the-Art Finance Labs",
+              "description": "Finance labs equipped with Bloomberg Terminals, Stock Market Simulators, and Financial Modelling Tools."
+            },
+            {
+              "title": "Expert Faculty & Industry Mentorship",
+              "description": "Experienced faculty supported by industry mentors to provide academic excellence and practical financial insights."
+            },
+            {
+              "title": "Hands-on Financial Learning",
+              "description": "Practical learning through live projects, financial case studies, stock market analysis, and corporate finance simulations."
+            },
+            {
+              "title": "Global Exposure",
+              "description": "Global internship and study-abroad opportunities that enhance international business and finance perspectives."
+            },
+            {
+              "title": "Industry Collaborations",
+              "description": "Strong collaborations with banks, investment firms, fintech companies, and regulatory organisations."
+            },
+            {
+              "title": "Professional Certification Support",
+              "description": "Preparation for professional certifications including CFA, FRM, NISM, and Financial Modelling."
+            },
+            {
+              "title": "Excellent Career Opportunities",
+              "description": "Strong placement opportunities across banking, insurance, fintech, investment firms, and financial consulting organisations."
             }
           ],
           "careers": [
             {
-              "category": "Banking & Finance",
+              "category": "Banking",
               "roles": [
-                "Bank Manager",
-                "Financial Analyst",
+                "Corporate Banker",
+                "Retail Banker",
+                "Commercial Banker",
+                "Credit Analyst",
+                "Branch Operations Manager"
+              ]
+            },
+            {
+              "category": "Investment & Finance",
+              "roles": [
                 "Investment Banker",
-                "Risk Manager",
-                "Credit Officer"
+                "Wealth Manager",
+                "Portfolio Manager",
+                "Treasury Manager",
+                "Financial Planner"
+              ]
+            },
+            {
+              "category": "Risk & Compliance",
+              "roles": [
+                "Risk Analyst",
+                "Compliance Officer",
+                "Financial Risk Manager",
+                "Internal Auditor"
+              ]
+            },
+            {
+              "category": "Financial Markets",
+              "roles": [
+                "Forex Trader",
+                "Securities Analyst",
+                "Investment Analyst",
+                "Financial Consultant",
+                "Banking Relationship Manager"
               ]
             }
           ],
           "faq": [
             {
-              "q": "What is the eligibility?",
-              "a": "A bachelor's degree with minimum 50% marks is required."
+              "q": "What is the duration of the MBA (Banking and Finance Management) programme?",
+              "a": "The programme is a two-year postgraduate degree consisting of four semesters."
             },
             {
-              "q": "Are placements available?",
-              "a": "Yes, the university has strong ties with banking and financial institutions."
+              "q": "What are the eligibility criteria?",
+              "a": "Applicants must hold a bachelor's degree of at least three years' duration with a minimum of 50% aggregate marks (45% for reserved category candidates) and possess a valid score in CAT, CMAT, MAT, KMAT, or PGCET MBA."
+            },
+            {
+              "q": "How is MBA in Banking and Finance different from a regular MBA in Finance?",
+              "a": "While a regular MBA in Finance covers broader financial management concepts, the MBA in Banking and Finance Management focuses specifically on banking operations, credit systems, financial regulations, commercial banking, and the BFSI sector."
+            },
+            {
+              "q": "What industry exposure will students receive?",
+              "a": "Students gain practical exposure through structured internships, project-based learning, financial case studies, guest lectures, corporate interactions, and industry projects."
+            },
+            {
+              "q": "Is this programme suitable for careers in FinTech?",
+              "a": "Yes. The curriculum includes FinTech for Modern Finance, along with financial technologies and digital banking concepts, preparing students for careers in both traditional banking and fintech companies."
+            },
+            {
+              "q": "What is the average starting salary after graduation?",
+              "a": "Graduates generally receive an average starting salary ranging between ₹4 LPA and ₹7 LPA, depending on their skills, employer, and experience."
+            },
+            {
+              "q": "Which industries recruit MBA (Banking and Finance Management) graduates?",
+              "a": "Graduates are recruited by commercial banks, investment banks, NBFCs, insurance companies, fintech firms, financial consulting organisations, wealth management firms, and regulatory institutions."
+            },
+            {
+              "q": "Is work experience mandatory for admission?",
+              "a": "No. Both fresh graduates and working professionals are eligible to apply for the programme."
+            },
+            {
+              "q": "What skills will I develop during the programme?",
+              "a": "Students develop expertise in commercial banking, investment management, portfolio management, forex trading, treasury operations, financial modelling, risk management, fintech, business analytics, and strategic decision-making."
+            },
+            {
+              "q": "What makes this programme unique?",
+              "a": "The programme combines banking, finance, fintech, investment management, and business analytics with Bloomberg labs, stock market simulations, industry certifications such as CFA, FRM, and NISM, internships, and strong corporate partnerships, preparing graduates for leadership roles in the rapidly evolving BFSI sector."
             }
           ],
           "cta": {
@@ -11482,11 +12951,218 @@
             "button": "Apply Now"
           },
           "tabs": {
-            "curriculum": [],
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Applied Business Statistics",
+                    "code": "QNT4111"
+                  },
+                  {
+                    "name": "Applied Data Analysis and Visualization",
+                    "code": "QNT4112"
+                  },
+                  {
+                    "name": "Financial Accounting and Reporting",
+                    "code": "FIN4111"
+                  },
+                  {
+                    "name": "Human Behaviour in Organizations",
+                    "code": "OBH4111"
+                  },
+                  {
+                    "name": "Managerial Economics",
+                    "code": "GMM4111"
+                  },
+                  {
+                    "name": "Production Operations and Logistics Management",
+                    "code": "OPS4111"
+                  },
+                  {
+                    "name": "Strategic Marketing Management",
+                    "code": "MKT4111"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Business Analytics for Managerial Decision Making",
+                    "code": "QNT4113"
+                  },
+                  {
+                    "name": "Communication for Leaders",
+                    "code": "GMM4112"
+                  },
+                  {
+                    "name": "Digital Marketing Strategy, Tools and Trends",
+                    "code": "MKT4112"
+                  },
+                  {
+                    "name": "Financial Modelling and Corporate Finance",
+                    "code": "FIN4112"
+                  },
+                  {
+                    "name": "People, Performance and HR Strategy",
+                    "code": "OBH4112"
+                  },
+                  {
+                    "name": "Commercial Banking",
+                    "code": "BNK5111"
+                  },
+                  {
+                    "name": "Investment and Portfolio Management",
+                    "code": "FIN5111"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Business Strategy and Corporate Transformation",
+                    "code": "GMM4113"
+                  },
+                  {
+                    "name": "Business Law and Regulatory Compliance",
+                    "code": "GMM4114"
+                  },
+                  {
+                    "name": "Forex and Treasury Operations",
+                    "code": "BNK5112"
+                  },
+                  {
+                    "name": "FinTech for Modern Finance",
+                    "code": "FIN5112"
+                  },
+                  {
+                    "name": "Specialization Track Elective – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Track Elective – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Track Elective – III",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Track Elective – IV",
+                    "code": ""
+                  },
+                  {
+                    "name": "Summer Internship Project",
+                    "code": "INT7111"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "Corporate Governance, Ethics and Social Responsibility",
+                    "code": "GMM4115"
+                  },
+                  {
+                    "name": "Entrepreneurship and Innovation Management",
+                    "code": "GMM4116"
+                  },
+                  {
+                    "name": "Specialization Track Elective – V",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Track Elective – VI",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Track Elective – VII",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Track Elective – VIII",
+                    "code": ""
+                  },
+                  {
+                    "name": "Capstone Research Project",
+                    "code": "CRP7111"
+                  }
+                ]
+              }
+            ],
             "outcomes": {
-              "PEOs": [],
-              "POs": [],
-              "PSOs": []
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Industry-Ready Leadership",
+                  "text": "Become industry-ready professionals with leadership capabilities, integrity, and social responsibility."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Analytical Thinking & Innovation",
+                  "text": "Apply analytical thinking and design-thinking approaches to solve business problems."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Entrepreneurial Mindset",
+                  "text": "Foster entrepreneurial thinking through creativity and innovation."
+                },
+                {
+                  "id": "PEO 4",
+                  "title": "Lifelong Learning",
+                  "text": "Engage in lifelong learning and continuous professional development."
+                }
+              ],
+              "POs": [
+                {
+                  "id": "PO 1",
+                  "text": "Lead teams and achieve organizational goals."
+                },
+                {
+                  "id": "PO 2",
+                  "text": "Integrate functional knowledge with managerial skills."
+                },
+                {
+                  "id": "PO 3",
+                  "text": "Solve real-world business problems through strategic thinking."
+                },
+                {
+                  "id": "PO 4",
+                  "text": "Identify and evaluate business opportunities."
+                },
+                {
+                  "id": "PO 5",
+                  "text": "Make data-driven decisions and communicate effectively."
+                },
+                {
+                  "id": "PO 6",
+                  "text": "Demonstrate ethical and socially responsible business practices."
+                },
+                {
+                  "id": "PO 7",
+                  "text": "Commit to continuous learning and professional growth."
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Banking & Finance Expertise",
+                  "text": "Apply business administration knowledge in Banking and Finance Management."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Technology-Driven Banking",
+                  "text": "Improve banking efficiency through advanced technologies while ensuring business sustainability."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Financial Analysis & Investment Management",
+                  "text": "Analyze company reports, forecast economic trends, value securities, develop investment portfolios, evaluate risk and return, create financial plans, and integrate technology into financial services."
+                }
+              ]
             }
           }
         },
@@ -11496,6 +13172,8 @@
           "duration": "2 Years",
           "type": "PG",
           "degree": "Master of Business Administration",
+          "overviewtitle": "Driving Growth Through",
+          "highlight": "Digital Marketing",
           "hero": {
             "image": "/img/banner/som.JPG",
             "title": {
@@ -11530,8 +13208,8 @@
             "school": "School of Management"
           },
           "overview": [
-            "The MBA in Digital Marketing equips students with advanced skills in digital strategy, data-driven marketing, and brand management.",
-            "Students learn SEO, SEM, social media marketing, content strategy, and analytics tools to lead marketing functions in modern organisations."
+            "The MBA in Digital Marketing is designed to prepare students for leadership roles in the rapidly evolving digital economy. The programme combines core business management concepts with specialized digital marketing knowledge, enabling students to develop expertise in SEO, social media marketing, digital advertising, web analytics, content marketing, e-commerce, B2B marketing, and interactive marketing.",
+            "Students gain practical exposure through live campaigns, website development, digital marketing research, internships, case studies, industry projects, and certifications, preparing them for careers in digital agencies, multinational companies, startups, media organizations, and e-commerce businesses."
           ],
           "image": "/img/programme/m/m1.jpg",
           "images": [
@@ -11541,17 +13219,41 @@
           ],
           "eligibility": {
             "title": "Eligibility Criteria",
-            "description": "Candidates must have a bachelor's degree with minimum 50% marks from a recognised university.",
+            "description": "A Bachelor's Degree of a minimum 3-year duration. At least 50% aggregate marks (45% for reserved category candidates).A valid score in CAT, CMAT, MAT, KMAT, PGCET MBA, or other accepted entrance examinations.",
             "note": "Eligibility may vary for international students."
           },
           "highlights": [
             {
-              "title": "Digital Strategy & Analytics",
-              "description": "Master digital marketing channels, campaign management, and data analytics for business growth."
+              "title": "Comprehensive Digital Marketing Curriculum",
+              "description": "Comprehensive curriculum covering SEO, Social Media Marketing, Content Strategy, PPC Advertising, Web Analytics, and E-commerce Marketing."
             },
             {
-              "title": "Industry Tools",
-              "description": "Hands-on training with Google Ads, Meta Business Suite, HubSpot, and analytics platforms."
+              "title": "State-of-the-Art Digital Marketing Labs",
+              "description": "Digital marketing labs equipped with Google Analytics, SEMrush, HubSpot, Meta Ads Manager, and Canva."
+            },
+            {
+              "title": "Expert Faculty & Industry Mentorship",
+              "description": "Experienced faculty supported by industry mentors to provide practical insights and professional guidance."
+            },
+            {
+              "title": "Hands-on Marketing Experience",
+              "description": "Practical learning through live campaigns, influencer marketing projects, brand strategy simulations, and real-world case studies."
+            },
+            {
+              "title": "Global Exposure",
+              "description": "Global internship and study-abroad opportunities that enhance international business and digital marketing perspectives."
+            },
+            {
+              "title": "Industry Collaborations",
+              "description": "Strong collaborations with digital marketing agencies, multinational corporations, e-commerce firms, and media houses."
+            },
+            {
+              "title": "Professional Certification Support",
+              "description": "Preparation for industry certifications including Google Ads, HubSpot Inbound Marketing, Facebook Blueprint, and Content Marketing."
+            },
+            {
+              "title": "Excellent Career Opportunities",
+              "description": "Strong placement opportunities with leading recruiters in digital marketing, e-commerce, media, and multinational companies."
             }
           ],
           "careers": [
@@ -11559,21 +13261,69 @@
               "category": "Digital Marketing",
               "roles": [
                 "Digital Marketing Manager",
+                "Performance Marketing Manager",
                 "SEO Specialist",
+                "SEM Specialist",
+                "Social Media Manager"
+              ]
+            },
+            {
+              "category": "Content & Advertising",
+              "roles": [
+                "Content Marketing Manager",
                 "Content Strategist",
-                "Brand Manager",
-                "Growth Hacker"
+                "Copywriter",
+                "Influencer Marketing Manager",
+                "Brand Manager"
+              ]
+            },
+            {
+              "category": "Analytics & E-commerce",
+              "roles": [
+                "Marketing Data Analyst",
+                "Web Analytics Specialist",
+                "E-commerce Specialist",
+                "Conversion Rate Optimization (CRO) Specialist"
+              ]
+            },
+            {
+              "category": "Business & Strategy",
+              "roles": [
+                "Digital Strategy Consultant",
+                "Growth Marketing Manager",
+                "Marketing Automation Specialist",
+                "Digital Business Consultant"
               ]
             }
           ],
           "faq": [
             {
-              "q": "What is the eligibility?",
-              "a": "A bachelor's degree with minimum 50% marks is required."
+              "q": "What is the duration of the MBA (Digital Marketing) programme?",
+              "a": "The programme is a two-year postgraduate degree consisting of four semesters."
             },
             {
-              "q": "What tools will I learn?",
-              "a": "Google Analytics, SEMrush, HubSpot, Meta Ads Manager and more."
+              "q": "What are the eligibility criteria?",
+              "a": "Applicants must hold a bachelor's degree of at least three years' duration with a minimum of 50% aggregate marks (45% for reserved category candidates) and possess a valid score in accepted MBA entrance examinations."
+            },
+            {
+              "q": "Is an entrance exam mandatory?",
+              "a": "No. A specific entrance examination is not mandatory; however, the university accepts valid scores from CAT, CMAT, MAT, KMAT, and PGCET MBA."
+            },
+            {
+              "q": "How does the placement process work?",
+              "a": "The university provides placement training, internships, industry interactions, career guidance, and campus recruitment drives to prepare students for successful careers in Digital Marketing."
+            },
+            {
+              "q": "What companies recruit MBA (Digital Marketing) graduates?",
+              "a": "Graduates are recruited by digital marketing agencies, advertising firms, e-commerce companies, IT companies, media houses, startups, and multinational corporations."
+            },
+            {
+              "q": "What is the average starting salary after graduation?",
+              "a": "The average starting salary generally ranges between ₹4 LPA and ₹8 LPA, depending on skills, certifications, employer, and experience."
+            },
+            {
+              "q": "What practical skills will I gain during the programme?",
+              "a": "Students develop expertise in SEO, social media marketing, website development, email marketing, web analytics, digital advertising, content strategy, e-commerce, and campaign management."
             }
           ],
           "cta": {
@@ -11582,11 +13332,218 @@
             "button": "Apply Now"
           },
           "tabs": {
-            "curriculum": [],
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Applied Business Statistics",
+                    "code": "QNT4111"
+                  },
+                  {
+                    "name": "Applied Data Analysis and Visualization",
+                    "code": "QNT4112"
+                  },
+                  {
+                    "name": "Financial Accounting and Reporting",
+                    "code": "FIN4111"
+                  },
+                  {
+                    "name": "Human Behaviour in Organizations",
+                    "code": "OBH4111"
+                  },
+                  {
+                    "name": "Managerial Economics",
+                    "code": "GMM4111"
+                  },
+                  {
+                    "name": "Production Operations and Logistics Management",
+                    "code": "OPS4111"
+                  },
+                  {
+                    "name": "Strategic Marketing Management",
+                    "code": "MKT4111"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Business Analytics for Managerial Decision Making",
+                    "code": "QNT4113"
+                  },
+                  {
+                    "name": "Communication for Leaders",
+                    "code": "GMM4112"
+                  },
+                  {
+                    "name": "Digital Marketing Strategy, Tools and Trends",
+                    "code": "MKT4112"
+                  },
+                  {
+                    "name": "Financial Modelling and Corporate Finance",
+                    "code": "FIN4112"
+                  },
+                  {
+                    "name": "People, Performance and HR Strategy",
+                    "code": "OBH4112"
+                  },
+                  {
+                    "name": "E-Mail Marketing Campaign",
+                    "code": "DMT5111"
+                  },
+                  {
+                    "name": "Website Design and Development",
+                    "code": "DMT5112"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Business Strategy and Corporate Transformation",
+                    "code": "GMM4113"
+                  },
+                  {
+                    "name": "Business Law and Regulatory Compliance",
+                    "code": "GMM4114"
+                  },
+                  {
+                    "name": "Social Media Advertising",
+                    "code": "DMT5113"
+                  },
+                  {
+                    "name": "E-Commerce and Digital Payment",
+                    "code": "DMT5114"
+                  },
+                  {
+                    "name": "Specialization Track Elective – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Track Elective – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Track Elective – III",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Track Elective – IV",
+                    "code": ""
+                  },
+                  {
+                    "name": "Summer Internship Project",
+                    "code": "INT7111"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "Corporate Governance, Ethics and Social Responsibility",
+                    "code": "GMM4115"
+                  },
+                  {
+                    "name": "Entrepreneurship and Innovation Management",
+                    "code": "GMM4116"
+                  },
+                  {
+                    "name": "Specialization Track Elective – V",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Track Elective – VI",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Track Elective – VII",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Track Elective – VIII",
+                    "code": ""
+                  },
+                  {
+                    "name": "Capstone Research Project",
+                    "code": "CRP7111"
+                  }
+                ]
+              }
+            ],
             "outcomes": {
-              "PEOs": [],
-              "POs": [],
-              "PSOs": []
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Digital Marketing Integration",
+                  "text": "Integrate Digital Marketing theories, models, and frameworks with real-world business practices."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Analytical Thinking & Design",
+                  "text": "Apply analytical skills and design-thinking approaches to solve business problems."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Entrepreneurial Mindset",
+                  "text": "Foster entrepreneurial thinking through creativity and innovation."
+                },
+                {
+                  "id": "PEO 4",
+                  "title": "Lifelong Learning",
+                  "text": "Engage in lifelong learning and professional development."
+                }
+              ],
+              "POs": [
+                {
+                  "id": "PO 1",
+                  "text": "Lead teams and achieve organizational goals."
+                },
+                {
+                  "id": "PO 2",
+                  "text": "Integrate functional knowledge with managerial skills."
+                },
+                {
+                  "id": "PO 3",
+                  "text": "Solve business challenges using strategic thinking and innovation."
+                },
+                {
+                  "id": "PO 4",
+                  "text": "Identify and evaluate business opportunities."
+                },
+                {
+                  "id": "PO 5",
+                  "text": "Make data-driven decisions and communicate effectively."
+                },
+                {
+                  "id": "PO 6",
+                  "text": "Demonstrate ethical and socially responsible leadership."
+                },
+                {
+                  "id": "PO 7",
+                  "text": "Commit to continuous learning and professional growth."
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Digital Marketing Campaign Management",
+                  "text": "Plan, create, and execute effective Digital Marketing campaigns across social media, mobile, and web platforms."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Consumer Behaviour & Marketing Channels",
+                  "text": "Apply best practices in marketing channels and gain insights into digital consumer behaviour."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Digital Marketing Research & Innovation",
+                  "text": "Demonstrate expertise in Digital Marketing Research, emerging trends, and modern digital marketing tools."
+                }
+              ]
             }
           }
         },
@@ -11596,6 +13553,8 @@
           "duration": "2 Years",
           "type": "PG",
           "degree": "Master of Business Administration",
+          "overviewtitle": "Transforming Data into",
+          "highlight": "Business Intelligence",
           "hero": {
             "image": "/img/banner/som.JPG",
             "title": {
@@ -11630,8 +13589,8 @@
             "school": "School of Management"
           },
           "overview": [
-            "The MBA in Business Analytics develops professionals who can harness data to drive strategic business decisions.",
-            "The programme combines MBA fundamentals with data science, statistical modelling, machine learning applications, and business intelligence tools."
+            "The MBA in Business Analytics is designed to prepare students for data-driven leadership roles by combining management principles with advanced analytics techniques. The programme integrates statistics, mathematics, computing, artificial intelligence, machine learning, business intelligence, predictive analytics, and data visualization to help students solve complex business problems and make informed strategic decisions.",
+            "Students gain hands-on experience through analytics labs, live projects, case studies, business simulations, internships, and industry interactions, enabling them to excel across consulting, IT, banking, retail, healthcare, manufacturing, and e-commerce sectors."
           ],
           "image": "/img/programme/m/m1.jpg",
           "images": [
@@ -11641,68 +13600,369 @@
           ],
           "eligibility": {
             "title": "Eligibility Criteria",
-            "description": "Candidates must have a bachelor's degree with minimum 50% marks from a recognised university.",
+            "description": "A Bachelor's Degree of a minimum 3-year duration.At least 50% aggregate marks (45% for reserved category candidates).A valid score in CAT, CMAT, MAT, KMAT, PGCET MBA, or other accepted entrance examinations.",
             "note": "Eligibility may vary for international students."
           },
-          "highlights": [
-            {
-              "title": "Data-Driven Decision Making",
-              "description": "Learn to extract actionable insights from complex datasets using advanced analytical tools."
-            },
-            {
-              "title": "Business Intelligence Tools",
-              "description": "Hands-on experience with Tableau, Power BI, Python, R, and SQL for business analysis."
-            }
-          ],
-          "careers": [
-            {
-              "category": "Analytics & Data",
-              "roles": [
-                "Business Analyst",
-                "Data Analyst",
-                "Analytics Manager",
-                "Strategy Consultant",
-                "BI Developer"
-              ]
-            }
-          ],
-          "faq": [
-            {
-              "q": "What is the eligibility?",
-              "a": "A bachelor's degree with minimum 50% marks is required."
-            },
-            {
-              "q": "What programming skills are taught?",
-              "a": "Python, R, and SQL are core components of the analytics curriculum."
-            }
-          ],
+       
+"highlights": [
+  {
+    "title": "Comprehensive Business Analytics Curriculum",
+    "description": "Comprehensive curriculum covering Business Analytics, Predictive Modelling, Artificial Intelligence, Machine Learning, and Business Intelligence."
+  },
+  {
+    "title": "State-of-the-Art Analytics Labs",
+    "description": "Analytics labs equipped with Python, R, Tableau, Power BI, SAS, and SQL."
+  },
+  {
+    "title": "Expert Faculty & Industry Mentorship",
+    "description": "Experienced faculty supported by industry mentors to provide practical insights and advanced analytical expertise."
+  },
+  {
+    "title": "Hands-on Analytics Learning",
+    "description": "Practical learning through live projects, big data applications, case studies, and analytics-driven business simulations."
+  },
+  {
+    "title": "Global Exposure",
+    "description": "Global internship and study-abroad opportunities that provide international exposure to business analytics and data-driven decision-making."
+  },
+  {
+    "title": "Industry Collaborations",
+    "description": "Strong collaborations with analytics firms, consulting companies, financial institutions, and IT organisations."
+  },
+  {
+    "title": "Professional Certification Support",
+    "description": "Preparation for industry certifications including Google Data Analytics, IBM Data Science, SAS, and Advanced Excel."
+  },
+  {
+    "title": "Excellent Career Opportunities",
+    "description": "Strong placement opportunities across consulting, banking, IT, e-commerce, and business intelligence sectors."
+  }
+]
+
+,
+       
+"careers": [
+  {
+    "category": "Data & Analytics",
+    "roles": [
+      "Business Analyst",
+      "Data Analyst",
+      "Business Intelligence Analyst",
+      "Data Visualization Specialist",
+      "Analytics Consultant"
+    ]
+  },
+  {
+    "category": "Marketing & Customer Analytics",
+    "roles": [
+      "Marketing Analyst",
+      "Customer Experience (CX) Analyst",
+      "Consumer Insights Analyst",
+      "Digital Analytics Specialist"
+    ]
+  },
+  {
+    "category": "Finance & Risk",
+    "roles": [
+      "Financial Analyst",
+      "Risk Analyst",
+      "Credit Analytics Specialist",
+      "Investment Analyst"
+    ]
+  },
+  {
+    "category": "Operations & Strategy",
+    "roles": [
+      "Operations Analyst",
+      "Supply Chain Analyst",
+      "Strategy Consultant",
+      "Product Analyst",
+      "Business Consultant"
+    ]
+  }
+]
+
+,
+"faq": [
+  {
+    "q": "What is the duration of the MBA (Business Analytics) programme?",
+    "a": "The programme is a two-year postgraduate degree consisting of four semesters."
+  },
+  {
+    "q": "What are the eligibility criteria?",
+    "a": "Applicants must hold a bachelor's degree of at least three years' duration with a minimum of 50% aggregate marks (45% for reserved category candidates) and possess a valid score in CAT, MAT, KMAT, PGCET MBA, or other accepted entrance examinations."
+  },
+  {
+    "q": "Is CAT or any other entrance exam required?",
+    "a": "Yes. Candidates should have appeared for a recognised national or state-level management entrance examination such as CAT, MAT, KMAT, or PGCET MBA."
+  },
+  {
+    "q": "How is an MBA in Business Analytics different from a Data Analytics course?",
+    "a": "An MBA in Business Analytics combines management education with analytics to support business decision-making, whereas a Data Analytics course primarily focuses on technical areas such as programming, data processing, statistics, and analytical tools."
+  },
+  {
+    "q": "What type of industry exposure do students receive?",
+    "a": "Students gain practical exposure through analytics-focused internships, live projects, case studies, business simulations, and expert sessions with industry professionals."
+  },
+  {
+    "q": "What is the average starting salary after graduation?",
+    "a": "Graduates generally receive an average starting salary ranging between ₹4 LPA and ₹8 LPA, depending on their skills, employer, and experience."
+  },
+  {
+    "q": "Which industries recruit MBA (Business Analytics) graduates?",
+    "a": "Graduates are recruited by IT companies, consulting firms, banks, financial institutions, healthcare organisations, manufacturing companies, retail businesses, e-commerce firms, and analytics consulting companies."
+  },
+  {
+    "q": "What technical skills will I develop during the programme?",
+    "a": "Students gain expertise in Python, R, SQL, Tableau, Power BI, SAS, Predictive Analytics, Data Mining, Business Intelligence, Machine Learning, and Data Visualisation."
+  },
+  {
+    "q": "Does the programme include internships?",
+    "a": "Yes. The curriculum includes a Summer Internship Project along with live analytics projects and a Capstone Research Project to provide practical industry experience."
+  },
+  {
+    "q": "What makes this programme unique?",
+    "a": "The programme combines business management with advanced analytics, offering hands-on experience through Artificial Intelligence, Machine Learning, Predictive Analytics, Business Intelligence tools, live industry projects, global certifications, internships, and corporate mentorship, preparing graduates for high-demand data-driven leadership roles."
+  }
+]
+
+,
           "cta": {
             "title": "Become a Data-Driven Leader",
             "subtitle": "Master business analytics with our industry-aligned MBA programme.",
             "button": "Apply Now"
           },
           "tabs": {
-            "curriculum": [],
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Applied Business Statistics",
+                    "code": "QNT4111"
+                  },
+                  {
+                    "name": "Applied Data Analysis and Visualization",
+                    "code": "QNT4112"
+                  },
+                  {
+                    "name": "Financial Accounting and Reporting",
+                    "code": "FIN4111"
+                  },
+                  {
+                    "name": "Human Behaviour in Organizations",
+                    "code": "OBH4111"
+                  },
+                  {
+                    "name": "Managerial Economics",
+                    "code": "GMM4111"
+                  },
+                  {
+                    "name": "Production Operations and Logistics Management",
+                    "code": "OPS4111"
+                  },
+                  {
+                    "name": "Strategic Marketing Management",
+                    "code": "MKT4111"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Business Analytics for Managerial Decision Making",
+                    "code": "QNT4113"
+                  },
+                  {
+                    "name": "Communication for Leaders",
+                    "code": "GMM4112"
+                  },
+                  {
+                    "name": "Digital Marketing Strategy, Tools and Trends",
+                    "code": "MKT4112"
+                  },
+                  {
+                    "name": "Financial Modelling and Corporate Finance",
+                    "code": "FIN4112"
+                  },
+                  {
+                    "name": "People, Performance and HR Strategy",
+                    "code": "OBH4112"
+                  },
+                  {
+                    "name": "Programming for Business Data Analytics",
+                    "code": "QNT5101"
+                  },
+                  {
+                    "name": "Data Storytelling",
+                    "code": "QNT5102"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Business Strategy and Corporate Transformation",
+                    "code": "GMM4113"
+                  },
+                  {
+                    "name": "Business Law and Regulatory Compliance",
+                    "code": "GMM4114"
+                  },
+                  {
+                    "name": "Predictive Analytics and Business Forecasting",
+                    "code": "QNT5103"
+                  },
+                  {
+                    "name": "Data Mining and Intelligent Decision Making",
+                    "code": "QNT5104"
+                  },
+                  {
+                    "name": "Specialization Track Elective – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Track Elective – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Track Elective – III",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Track Elective – IV",
+                    "code": ""
+                  },
+                  {
+                    "name": "Summer Internship Project",
+                    "code": "INT7111"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "Corporate Governance, Ethics and Social Responsibility",
+                    "code": "GMM4115"
+                  },
+                  {
+                    "name": "Entrepreneurship and Innovation Management",
+                    "code": "GMM4116"
+                  },
+                  {
+                    "name": "Specialization Track Elective – V",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Track Elective – VI",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Track Elective – VII",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Track Elective – VIII",
+                    "code": ""
+                  },
+                  {
+                    "name": "Capstone Research Project",
+                    "code": "CRP7111"
+                  }
+                ]
+              }
+            ],
             "outcomes": {
-              "PEOs": [],
-              "POs": [],
-              "PSOs": []
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Industry-Ready Leadership",
+                  "text": "Become industry-ready professionals with leadership capabilities, integrity, and social responsibility."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Analytical & Design Thinking",
+                  "text": "Apply analytical thinking and design-thinking approaches to solve business problems."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Entrepreneurial Mindset",
+                  "text": "Foster entrepreneurial thinking through creativity and innovation."
+                },
+                {
+                  "id": "PEO 4",
+                  "title": "Lifelong Learning",
+                  "text": "Engage in lifelong learning and continuous professional development."
+                }
+              ],
+              "POs": [
+                {
+                  "id": "PO 1",
+                  "text": "Lead teams and achieve organizational goals."
+                },
+                {
+                  "id": "PO 2",
+                  "text": "Integrate functional knowledge with managerial skills."
+                },
+                {
+                  "id": "PO 3",
+                  "text": "Solve real-world business problems through strategic thinking and innovation."
+                },
+                {
+                  "id": "PO 4",
+                  "text": "Identify and evaluate business opportunities."
+                },
+                {
+                  "id": "PO 5",
+                  "text": "Make data-driven decisions and communicate effectively."
+                },
+                {
+                  "id": "PO 6",
+                  "text": "Demonstrate ethical and socially responsible business practices."
+                },
+                {
+                  "id": "PO 7",
+                  "text": "Commit to continuous learning and professional growth."
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Business Analytics Expertise",
+                  "text": "Apply business administration knowledge across HR, Finance, Marketing, Operations, Supply Chain Management, and Business Analytics."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Cross-Functional Business Analysis",
+                  "text": "Analyze business problems from multiple functional perspectives."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Data-Driven Decision Making",
+                  "text": "Make data-driven decisions and effectively communicate insights to stakeholders."
+                }
+              ]
             }
           }
         },
         {
           "slug": "pg-diploma-public-administration",
           "name": "Post Graduate Diploma in Public Administration",
-          "duration": "1 Year",
+          "duration": "14-16 months",
           "type": "Diploma",
           "degree": "Post Graduate Diploma",
+          "overviewtitle": "Preparing Leaders for",
+          "highlight": "Public Service",
           "hero": {
             "image": "/img/banner/som.JPG",
             "title": {
               "normal": "PG Diploma in",
               "italic": "Public Administration"
             },
-            "description": "Build a career in governance and public service with our Post Graduate Diploma in Public Administration.",
+            "description": "Develop the governance, policy, and administrative skills for public service. This diploma programme covers public policy analysis, government administration, public finance, and organisational leadership — preparing you for roles in government agencies, non-governmental organisations, and public sector institutions.",
             "breadcrumb": [
               "Home",
               "Schools",
@@ -11719,7 +13979,7 @@
                 "value": "2"
               },
               {
-                "label": "Core Programme",
+                "label": "Programme",
                 "value": "Diploma"
               }
             ]
@@ -11730,8 +13990,8 @@
             "school": "School of Management"
           },
           "overview": [
-            "The Post Graduate Diploma in Public Administration provides a thorough grounding in governance, public policy, and administrative systems.",
-            "The programme prepares students for roles in government, public sector undertakings, NGOs, and international organisations."
+            "The Post Graduate Diploma in Public Administration provides focused training in the principles and practices of government administration, public policy, and organisational management in public sector contexts. The programme covers public policy analysis, government finance, administrative law, organisational behaviour in public institutions, and governance frameworks — building the knowledge base needed for effective public service in government agencies, regulatory bodies, NGOs, and international development organisations.",
+            "This diploma offers a pathway for graduates from any discipline who wish to transition into public administration or complement their existing expertise with governance and policy skills. The programme combines theoretical frameworks with practical case studies of public administration challenges in India and globally, producing graduates who understand the complexities of public service delivery, policy implementation, and institutional management."
           ],
           "image": "/img/programme/m/m1.jpg",
           "images": [
@@ -11741,39 +14001,103 @@
           ],
           "eligibility": {
             "title": "Eligibility Criteria",
-            "description": "Candidates must have a bachelor's degree with minimum 50% marks from a recognised university.",
+            "description": "A Bachelor's degree in Political Science or Public Administration. Minimum 50% aggregate marks (45% for SC/ST candidates from Karnataka). 50% marks in the cognate subject in the qualifying university examination.",
             "note": "Eligibility may vary for international students."
           },
           "highlights": [
             {
-              "title": "Public Policy & Governance",
-              "description": "Comprehensive study of governance frameworks, public policy design, and administrative processes."
+              "title": "Focused Public Administration Training",
+              "description": "Dedicated curriculum covering governance, policy analysis, public finance, and institutional management."
             },
             {
-              "title": "NGO & Government Exposure",
-              "description": "Industry interactions with government officials and NGO representatives."
+              "title": "Accessible Entry Requirements",
+              "description": "Open to graduates from any discipline seeking to enter or advance in public administration careers."
+            },
+            {
+              "title": "Career Acceleration",
+              "description": "Diploma format delivers focused, job-ready skills in a shorter timeframe than a full master's degree."
+            },
+            {
+              "title": "Indian Governance Context",
+              "description": "Case studies and policy analysis grounded in Indian governance structures, complemented by international comparative perspectives."
+            },
+            {
+              "title": "Public Sector Career Pathways",
+              "description": "Preparation for roles in government agencies, regulatory bodies, NGOs, international development organisations, and think tanks."
+            },
+            {
+              "title": "Ethics & Accountability Focus",
+              "description": "Strong emphasis on ethical governance, transparency, and accountability in public service delivery."
+            },
+            {
+              "title": "Policy Analysis Skills",
+              "description": "Training in evidence-based policy analysis and recommendation development for government and institutional decision-making."
+            },
+            {
+              "title": "Complementary Qualification",
+              "description": "Adds governance and policy expertise to existing professional qualifications across any discipline."
             }
           ],
           "careers": [
             {
-              "category": "Public Sector",
+              "category": "Government & Public Sector",
               "roles": [
-                "Government Officer",
+                "Public Administration Officer",
                 "Policy Analyst",
-                "NGO Programme Manager",
-                "Public Relations Officer",
-                "Administrative Officer"
+                "Government Programme Manager",
+                "Administrative Services Officer"
+              ]
+            },
+            {
+              "category": "NGO & Development",
+              "roles": [
+                "NGO Manager",
+                "Development Programme Coordinator",
+                "Social Policy Analyst",
+                "International Development Officer"
+              ]
+            },
+            {
+              "category": "Consulting & Research",
+              "roles": [
+                "Public Policy Consultant",
+                "Governance Researcher",
+                "Think Tank Analyst"
+              ]
+            },
+            {
+              "category": "Regulatory & Compliance",
+              "roles": [
+                "Regulatory Affairs Officer",
+                "Compliance Manager (Public Sector)",
+                "Institutional Governance Advisor"
               ]
             }
           ],
           "faq": [
             {
-              "q": "What is the eligibility?",
-              "a": "A bachelor's degree with minimum 50% marks is required."
+              "q": "What are the eligibility requirements?",
+              "a": "Candidates typically need a recognised undergraduate degree. International applicants should confirm the specific eligibility requirements with the admissions team."
             },
             {
-              "q": "Is this a recognised qualification?",
-              "a": "Yes, the diploma is awarded by Presidency University, a UGC-recognised institution."
+              "q": "Is this programme suitable for those without a management background?",
+              "a": "Yes. The diploma is designed for graduates from any discipline who wish to develop knowledge and skills in public administration, governance, and public policy."
+            },
+            {
+              "q": "Can this diploma lead to further studies?",
+              "a": "Yes. The diploma provides a strong foundation for pursuing master's programmes in Public Administration, Public Policy, and other governance-related disciplines in India and abroad."
+            },
+            {
+              "q": "What sectors hire public administration graduates?",
+              "a": "Graduates can pursue opportunities in government agencies, regulatory bodies, NGOs, international development organisations, think tanks, public policy consultancies, and corporate social responsibility divisions."
+            },
+            {
+              "q": "Is the programme relevant for international students?",
+              "a": "Yes. The programme combines Indian governance practices with comparative international perspectives, making it relevant for students interested in public service and governance careers worldwide."
+            },
+            {
+              "q": "Is on-campus accommodation available for international students?",
+              "a": "Yes. Presidency University provides student housing. International students should contact the Office of International Affairs for accommodation details."
             }
           ],
           "cta": {
@@ -11781,14 +14105,129 @@
             "subtitle": "Build a rewarding career in governance and public administration.",
             "button": "Apply Now"
           },
-          "tabs": {
-            "curriculum": [],
-            "outcomes": {
-              "PEOs": [],
-              "POs": [],
-              "PSOs": []
-            }
-          }
+        
+"tabs": {
+  "curriculum": [
+    {
+      "semester": "Semester 1",
+      "modules": [
+        {
+          "name": "Evidence in Public Policy",
+          "code": ""
+        },
+        {
+          "name": "Policy Design and Implementation",
+          "code": ""
+        },
+        {
+          "name": "Economics for Public Policy",
+          "code": ""
+        },
+        {
+          "name": "Leadership for Policy Professionals",
+          "code": ""
+        },
+        {
+          "name": "Policy Communication",
+          "code": ""
+        },
+        {
+          "name": "Reading and Writing Analytically",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "semester": "Semester 2",
+      "modules": [
+        {
+          "name": "Monitoring and Evaluation of Policies",
+          "code": ""
+        },
+        {
+          "name": "Negotiations",
+          "code": ""
+        },
+        {
+          "name": "Climate Policy and Sustainability",
+          "code": ""
+        },
+        {
+          "name": "Financial Policy and Regulations in India",
+          "code": ""
+        },
+        {
+          "name": "Behavioural Science",
+          "code": ""
+        },
+        {
+          "name": "Infrastructure Policy",
+          "code": ""
+        }
+      ]
+    }
+  ],
+  "outcomes": {
+    "PEOs": [
+      {
+        "id": "PEO 1",
+        "title": "Public Administration Competence",
+        "text": "Prepare graduates with comprehensive understanding of government administration, public policy, and institutional management."
+      },
+      {
+        "id": "PEO 2",
+        "title": "Governance & Ethics",
+        "text": "Develop graduates committed to ethical governance, transparent administration, and accountable public service delivery."
+      },
+      {
+        "id": "PEO 3",
+        "title": "Continuous Development",
+        "text": "Foster graduates who engage in lifelong learning to stay current with evolving governance frameworks and public policy challenges."
+      }
+    ],
+    "POs": [
+      {
+        "id": "PO 1",
+        "text": "Analyse public policy challenges and develop evidence-based recommendations for government and institutional decision-making."
+      },
+      {
+        "id": "PO 2",
+        "text": "Apply administrative and management principles to public sector organisational contexts."
+      },
+      {
+        "id": "PO 3",
+        "text": "Understand public finance, budgeting processes, and resource allocation in government and institutional settings."
+      },
+      {
+        "id": "PO 4",
+        "text": "Demonstrate awareness of legal, ethical, and regulatory frameworks governing public administration."
+      },
+      {
+        "id": "PO 5",
+        "text": "Communicate policy recommendations effectively to diverse stakeholders including government officials, civil society, and the public."
+      }
+    ],
+    "PSOs": [
+      {
+        "id": "PSO 1",
+        "title": "Policy Analysis",
+        "text": "Ability to analyse, evaluate, and develop public policy recommendations using appropriate analytical frameworks and evidence."
+      },
+      {
+        "id": "PSO 2",
+        "title": "Public Sector Management",
+        "text": "Competence in managing public sector organisations, programmes, and service delivery systems effectively and accountably."
+      },
+      {
+        "id": "PSO 3",
+        "title": "Governance Awareness",
+        "text": "Understanding of governance structures, administrative law, and regulatory compliance in public administration contexts."
+      }
+    ]
+  }
+}
+
+
         }
       ],
       "hero": {
@@ -12984,7 +15423,7 @@
           "type": "UG",
           "degree": "Bachelor of Commerce",
           "overviewtitle": "A Global Management ",
-"highlight": "Accounting Credential",
+          "highlight": "Accounting Credential",
           "hero": {
             "image": "/img/banner/socs.jpg",
             "title": {
@@ -13034,7 +15473,206 @@
             "note": ""
           },
           "tabs": {
-           "curriculum": [ { "semester": "Semester 1", "modules": [ { "name": "Basics of Accounting", "code": "CBS1034" }, { "name": "Principles of Management", "code": "CBS1014" }, { "name": "Microeconomics", "code": "CBS1015" }, { "name": "Human Resource Management", "code": "CBS1019" }, { "name": "Introduction to Marketing", "code": "CBS1018" }, { "name": "Financial Planning and Performance", "code": "CBS1035" }, { "name": "Essentials of Communication", "code": "ENG1901" }, { "name": "Industry Readiness Program – I", "code": "PPS1025" } ] }, { "semester": "Semester 2", "modules": [ { "name": "International Financial Reporting", "code": "CBS1036" }, { "name": "Financial Analytics and Control", "code": "CBS2048" }, { "name": "Introduction to Banking", "code": "CBS1020" }, { "name": "Macroeconomics", "code": "CBS2016" }, { "name": "Business English", "code": "ENG2020" }, { "name": "Sarala Kannada / Savi Kannada / Introduction to French Language / Foreign Language", "code": "" }, { "name": "Spreadsheets for Business", "code": "CBS1023" }, { "name": "Indian Constitution", "code": "LAW7601" }, { "name": "Industry Readiness Program – II", "code": "PPS1026" } ] }, { "semester": "Semester 3", "modules": [ { "name": "Strategic Financial Management – I", "code": "CBS2049" }, { "name": "AI for Managers", "code": "CBS2028" }, { "name": "Business Statistics", "code": "CBS1017" }, { "name": "Income Tax Law – I", "code": "CBS2030" }, { "name": "Open Elective – I", "code": "" }, { "name": "Advanced Spreadsheets", "code": "CBS2035" }, { "name": "Preparedness for Interview", "code": "PPS3018" } ] }, { "semester": "Semester 4", "modules": [ { "name": "Income Tax Law – II", "code": "CBS2031" }, { "name": "Strategic Financial Management – II", "code": "CBS2050" }, { "name": "Corporate Accounting", "code": "CBS2027" }, { "name": "Open Elective – II", "code": "" }, { "name": "Environmental Studies and Sustainable Development", "code": "CHE1020" }, { "name": "Financial Data Modelling", "code": "CBS2036" }, { "name": "Aptitude Training", "code": "PPS4002" }, { "name": "Principles and Practices of Auditing", "code": "CBS2047" } ] }, { "semester": "Semester 5", "modules": [ { "name": "Entrepreneurship and Business Ethics", "code": "CBS3035" }, { "name": "GST and Customs Duty", "code": "CBS3054" }, { "name": "Specialization Core Course – I", "code": "" }, { "name": "Specialization Core Course – II", "code": "" }, { "name": "Specialization Core Course – III", "code": "" }, { "name": "Specialization Core Course – IV", "code": "" }, { "name": "Summer Internship", "code": "CBS7000" } ] }, { "semester": "Semester 6", "modules": [ { "name": "Project", "code": "CBS7001" }, { "name": "Specialization Elective Course – I", "code": "" }, { "name": "Specialization Elective Course – II", "code": "" } ] } ],
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Basics of Accounting",
+                    "code": "CBS1034"
+                  },
+                  {
+                    "name": "Principles of Management",
+                    "code": "CBS1014"
+                  },
+                  {
+                    "name": "Microeconomics",
+                    "code": "CBS1015"
+                  },
+                  {
+                    "name": "Human Resource Management",
+                    "code": "CBS1019"
+                  },
+                  {
+                    "name": "Introduction to Marketing",
+                    "code": "CBS1018"
+                  },
+                  {
+                    "name": "Financial Planning and Performance",
+                    "code": "CBS1035"
+                  },
+                  {
+                    "name": "Essentials of Communication",
+                    "code": "ENG1901"
+                  },
+                  {
+                    "name": "Industry Readiness Program – I",
+                    "code": "PPS1025"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "International Financial Reporting",
+                    "code": "CBS1036"
+                  },
+                  {
+                    "name": "Financial Analytics and Control",
+                    "code": "CBS2048"
+                  },
+                  {
+                    "name": "Introduction to Banking",
+                    "code": "CBS1020"
+                  },
+                  {
+                    "name": "Macroeconomics",
+                    "code": "CBS2016"
+                  },
+                  {
+                    "name": "Business English",
+                    "code": "ENG2020"
+                  },
+                  {
+                    "name": "Sarala Kannada / Savi Kannada / Introduction to French Language / Foreign Language",
+                    "code": ""
+                  },
+                  {
+                    "name": "Spreadsheets for Business",
+                    "code": "CBS1023"
+                  },
+                  {
+                    "name": "Indian Constitution",
+                    "code": "LAW7601"
+                  },
+                  {
+                    "name": "Industry Readiness Program – II",
+                    "code": "PPS1026"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Strategic Financial Management – I",
+                    "code": "CBS2049"
+                  },
+                  {
+                    "name": "AI for Managers",
+                    "code": "CBS2028"
+                  },
+                  {
+                    "name": "Business Statistics",
+                    "code": "CBS1017"
+                  },
+                  {
+                    "name": "Income Tax Law – I",
+                    "code": "CBS2030"
+                  },
+                  {
+                    "name": "Open Elective – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Advanced Spreadsheets",
+                    "code": "CBS2035"
+                  },
+                  {
+                    "name": "Preparedness for Interview",
+                    "code": "PPS3018"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "Income Tax Law – II",
+                    "code": "CBS2031"
+                  },
+                  {
+                    "name": "Strategic Financial Management – II",
+                    "code": "CBS2050"
+                  },
+                  {
+                    "name": "Corporate Accounting",
+                    "code": "CBS2027"
+                  },
+                  {
+                    "name": "Open Elective – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Environmental Studies and Sustainable Development",
+                    "code": "CHE1020"
+                  },
+                  {
+                    "name": "Financial Data Modelling",
+                    "code": "CBS2036"
+                  },
+                  {
+                    "name": "Aptitude Training",
+                    "code": "PPS4002"
+                  },
+                  {
+                    "name": "Principles and Practices of Auditing",
+                    "code": "CBS2047"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 5",
+                "modules": [
+                  {
+                    "name": "Entrepreneurship and Business Ethics",
+                    "code": "CBS3035"
+                  },
+                  {
+                    "name": "GST and Customs Duty",
+                    "code": "CBS3054"
+                  },
+                  {
+                    "name": "Specialization Core Course – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Core Course – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Core Course – III",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Core Course – IV",
+                    "code": ""
+                  },
+                  {
+                    "name": "Summer Internship",
+                    "code": "CBS7000"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 6",
+                "modules": [
+                  {
+                    "name": "Project",
+                    "code": "CBS7001"
+                  },
+                  {
+                    "name": "Specialization Elective Course – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Elective Course – II",
+                    "code": ""
+                  }
+                ]
+              }
+            ],
             "outcomes": {
               "PEOs": [
                 {
@@ -13133,45 +15771,42 @@
               "description": "Academics and practitioners providing insights into corporate finance, cost management, and US accounting standards."
             }
           ],
-        
-"careers": [
-  {
-    "category": "Management Accounting",
-    "roles": [
-      "Certified Management Accountant",
-      "Cost Analyst",
-      "Management Reporting Specialist",
-      "Performance Analyst"
-    ]
-  },
-  {
-    "category": "Corporate Finance",
-    "roles": [
-      "Financial Planning Analyst",
-      "Corporate Finance Manager",
-      "Budget Director",
-      "M&A Analyst"
-    ]
-  },
-  {
-    "category": "Strategy & Consulting",
-    "roles": [
-      "Management Consultant (Finance)",
-      "Internal Audit Manager",
-      "Financial Strategy Advisor"
-    ]
-  },
-  {
-    "category": "International Roles",
-    "roles": [
-      "Multinational Finance Manager",
-      "International Financial Controller",
-      "Global Cost Management Director"
-    ]
-  }
-]
-
-,
+          "careers": [
+            {
+              "category": "Management Accounting",
+              "roles": [
+                "Certified Management Accountant",
+                "Cost Analyst",
+                "Management Reporting Specialist",
+                "Performance Analyst"
+              ]
+            },
+            {
+              "category": "Corporate Finance",
+              "roles": [
+                "Financial Planning Analyst",
+                "Corporate Finance Manager",
+                "Budget Director",
+                "M&A Analyst"
+              ]
+            },
+            {
+              "category": "Strategy & Consulting",
+              "roles": [
+                "Management Consultant (Finance)",
+                "Internal Audit Manager",
+                "Financial Strategy Advisor"
+              ]
+            },
+            {
+              "category": "International Roles",
+              "roles": [
+                "Multinational Finance Manager",
+                "International Financial Controller",
+                "Global Cost Management Director"
+              ]
+            }
+          ],
           "faq": [
             {
               "q": "What is CMA-US?",
@@ -13957,7 +16592,214 @@
             "note": ""
           },
           "tabs": {
-            "curriculum": [ { "semester": "Semester 1", "modules": [ { "name": "Fundamentals of Financial Accounting", "code": "CBS1021" }, { "name": "Principles of Management", "code": "CBS1014" }, { "name": "Microeconomics", "code": "CBS1015" }, { "name": "Introduction to Marketing", "code": "CBS1018" }, { "name": "Fundamentals of Business Analytics", "code": "CBS1029" }, { "name": "Business Statistics", "code": "CBS1017" }, { "name": "Essentials of Communication", "code": "ENG1901" }, { "name": "Industry Readiness Program – I", "code": "PPS1025" } ] }, { "semester": "Semester 2", "modules": [ { "name": "Human Resource Management", "code": "CBS1019" }, { "name": "Application of Business Analytics", "code": "CBS2043" }, { "name": "Introduction to Banking", "code": "CBS1020" }, { "name": "Macroeconomics", "code": "CBS2016" }, { "name": "AI for Managers", "code": "CBS2028" }, { "name": "Business English", "code": "ENG2020" }, { "name": "Sarala Kannada / Savi Kannada / Introduction to French / Foreign Language", "code": "" }, { "name": "Spreadsheets for Business", "code": "CBS1023" }, { "name": "Indian Constitution", "code": "LAW7601" }, { "name": "Industry Readiness Program – II", "code": "PPS1026" } ] }, { "semester": "Semester 3", "modules": [ { "name": "Financial Management", "code": "CBS2029" }, { "name": "Corporate Accounting", "code": "CBS2027" }, { "name": "Data Visualization and Storytelling", "code": "CBS2044" }, { "name": "Income Tax Law – I", "code": "CBS2030" }, { "name": "Open Elective – I", "code": "" }, { "name": "Advanced Spreadsheets", "code": "CBS2035" }, { "name": "Preparedness for Interview", "code": "PPS3018" } ] }, { "semester": "Semester 4", "modules": [ { "name": "Income Tax Law – II", "code": "CBS2031" }, { "name": "Entrepreneurship and Business Ethics", "code": "CBS3035" }, { "name": "Financial Data Modelling", "code": "CBS2036" }, { "name": "Open Elective – II", "code": "" }, { "name": "Environmental Studies and Sustainable Development", "code": "CHE1020" }, { "name": "GST and Customs Duty", "code": "CBS3054" }, { "name": "Aptitude Training", "code": "PPS4002" }, { "name": "Principles and Practices of Auditing", "code": "CBS2047" } ] }, { "semester": "Semester 5", "modules": [ { "name": "Storing, Processing and Querying Business Data", "code": "CBS3080" }, { "name": "AI–ML and its Business Applications", "code": "CBS3081" }, { "name": "Blockchain Analytics", "code": "CBS3079" }, { "name": "Specialization Core Course – I", "code": "" }, { "name": "Specialization Core Course – II", "code": "" }, { "name": "Specialization Core Course – III", "code": "" }, { "name": "Specialization Core Course – IV", "code": "" }, { "name": "Summer Internship", "code": "CBS7000" } ] }, { "semester": "Semester 6", "modules": [ { "name": "Project", "code": "CBS7001" }, { "name": "Specialization Elective Course – I", "code": "" }, { "name": "Specialization Elective Course – II", "code": "" } ] } ],
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Fundamentals of Financial Accounting",
+                    "code": "CBS1021"
+                  },
+                  {
+                    "name": "Principles of Management",
+                    "code": "CBS1014"
+                  },
+                  {
+                    "name": "Microeconomics",
+                    "code": "CBS1015"
+                  },
+                  {
+                    "name": "Introduction to Marketing",
+                    "code": "CBS1018"
+                  },
+                  {
+                    "name": "Fundamentals of Business Analytics",
+                    "code": "CBS1029"
+                  },
+                  {
+                    "name": "Business Statistics",
+                    "code": "CBS1017"
+                  },
+                  {
+                    "name": "Essentials of Communication",
+                    "code": "ENG1901"
+                  },
+                  {
+                    "name": "Industry Readiness Program – I",
+                    "code": "PPS1025"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Human Resource Management",
+                    "code": "CBS1019"
+                  },
+                  {
+                    "name": "Application of Business Analytics",
+                    "code": "CBS2043"
+                  },
+                  {
+                    "name": "Introduction to Banking",
+                    "code": "CBS1020"
+                  },
+                  {
+                    "name": "Macroeconomics",
+                    "code": "CBS2016"
+                  },
+                  {
+                    "name": "AI for Managers",
+                    "code": "CBS2028"
+                  },
+                  {
+                    "name": "Business English",
+                    "code": "ENG2020"
+                  },
+                  {
+                    "name": "Sarala Kannada / Savi Kannada / Introduction to French / Foreign Language",
+                    "code": ""
+                  },
+                  {
+                    "name": "Spreadsheets for Business",
+                    "code": "CBS1023"
+                  },
+                  {
+                    "name": "Indian Constitution",
+                    "code": "LAW7601"
+                  },
+                  {
+                    "name": "Industry Readiness Program – II",
+                    "code": "PPS1026"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Financial Management",
+                    "code": "CBS2029"
+                  },
+                  {
+                    "name": "Corporate Accounting",
+                    "code": "CBS2027"
+                  },
+                  {
+                    "name": "Data Visualization and Storytelling",
+                    "code": "CBS2044"
+                  },
+                  {
+                    "name": "Income Tax Law – I",
+                    "code": "CBS2030"
+                  },
+                  {
+                    "name": "Open Elective – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Advanced Spreadsheets",
+                    "code": "CBS2035"
+                  },
+                  {
+                    "name": "Preparedness for Interview",
+                    "code": "PPS3018"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "Income Tax Law – II",
+                    "code": "CBS2031"
+                  },
+                  {
+                    "name": "Entrepreneurship and Business Ethics",
+                    "code": "CBS3035"
+                  },
+                  {
+                    "name": "Financial Data Modelling",
+                    "code": "CBS2036"
+                  },
+                  {
+                    "name": "Open Elective – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Environmental Studies and Sustainable Development",
+                    "code": "CHE1020"
+                  },
+                  {
+                    "name": "GST and Customs Duty",
+                    "code": "CBS3054"
+                  },
+                  {
+                    "name": "Aptitude Training",
+                    "code": "PPS4002"
+                  },
+                  {
+                    "name": "Principles and Practices of Auditing",
+                    "code": "CBS2047"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 5",
+                "modules": [
+                  {
+                    "name": "Storing, Processing and Querying Business Data",
+                    "code": "CBS3080"
+                  },
+                  {
+                    "name": "AI–ML and its Business Applications",
+                    "code": "CBS3081"
+                  },
+                  {
+                    "name": "Blockchain Analytics",
+                    "code": "CBS3079"
+                  },
+                  {
+                    "name": "Specialization Core Course – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Core Course – II",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Core Course – III",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Core Course – IV",
+                    "code": ""
+                  },
+                  {
+                    "name": "Summer Internship",
+                    "code": "CBS7000"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 6",
+                "modules": [
+                  {
+                    "name": "Project",
+                    "code": "CBS7001"
+                  },
+                  {
+                    "name": "Specialization Elective Course – I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Elective Course – II",
+                    "code": ""
+                  }
+                ]
+              }
+            ],
             "outcomes": {
               "PEOs": [
                 {
@@ -14051,45 +16893,42 @@
               "description": "Proximity to analytics firms, consulting companies, and data-driven enterprises actively hiring analytics talent."
             }
           ],
-        
-"careers": [
-  {
-    "category": "Business Analytics",
-    "roles": [
-      "Business Analyst",
-      "Business Intelligence Analyst",
-      "Data Analyst",
-      "Operations Analyst"
-    ]
-  },
-  {
-    "category": "Financial Analytics",
-    "roles": [
-      "Financial Data Analyst",
-      "Risk Analytics Associate",
-      "Credit Analytics Specialist"
-    ]
-  },
-  {
-    "category": "Marketing & HR Analytics",
-    "roles": [
-      "Marketing Analyst",
-      "Customer Insights Analyst",
-      "HR Analytics Associate",
-      "Compensation Analyst"
-    ]
-  },
-  {
-    "category": "Consulting",
-    "roles": [
-      "Analytics Consultant",
-      "Management Consulting Associate",
-      "Decision Support Analyst"
-    ]
-  }
-]
-
-,
+          "careers": [
+            {
+              "category": "Business Analytics",
+              "roles": [
+                "Business Analyst",
+                "Business Intelligence Analyst",
+                "Data Analyst",
+                "Operations Analyst"
+              ]
+            },
+            {
+              "category": "Financial Analytics",
+              "roles": [
+                "Financial Data Analyst",
+                "Risk Analytics Associate",
+                "Credit Analytics Specialist"
+              ]
+            },
+            {
+              "category": "Marketing & HR Analytics",
+              "roles": [
+                "Marketing Analyst",
+                "Customer Insights Analyst",
+                "HR Analytics Associate",
+                "Compensation Analyst"
+              ]
+            },
+            {
+              "category": "Consulting",
+              "roles": [
+                "Analytics Consultant",
+                "Management Consulting Associate",
+                "Decision Support Analyst"
+              ]
+            }
+          ],
           "faq": [
             {
               "q": "How does B.Com Business Analytics differ from BBA Business Analytics?",

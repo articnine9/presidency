@@ -90,7 +90,7 @@ export function FooterSection() {
               </Link>
             </li>
             <li>
-              <Link href="/schools/liberal-arts" className={linkClass}>
+              <Link href="/schools/liberal-arts-science" className={linkClass}>
                 Liberal Arts & Sciences
               </Link>
             </li>
