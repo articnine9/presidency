@@ -41,7 +41,7 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
         return (
           <span key={index} className="flex items-center">
             {index === 0 ? (
-              <Link href="/" className="hover:text-blue-600">
+              <Link href="/" className="text-gray-600 hover:text-gray-600 no-underline hover:no-underline">
                 {item}
               </Link>
             ) : isLast ? (
