@@ -63,6 +63,13 @@ export default function CourseOverview({ data }: any) {
                 <p className="mt-1 text-sm leading-relaxed text-[#4B5563]">
                   {data.eligibility?.description}
                 </p>
+                {
+                  data.eligibility?.lateraldescription &&
+                  <p className="mt-1 text-sm leading-relaxed text-[#4B5563]">
+                  {data.eligibility?.lateraldescription}
+                </p>
+                }
+                 
 
                 <p className="mt-1 text-xs text-[#C89B2B]">
                    {data.eligibility?.note}

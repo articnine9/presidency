@@ -4566,7 +4566,6 @@
             "title": "Industry Partnerships ",
             "description": "Collaborations with leading technology companies facilitate internships, globally recognised certifications (AWS, Google Cloud, Microsoft Azure), and placement opportunities."
           }
-         
         ]
       },
       "visionMission": {
@@ -4593,10 +4592,10 @@
           "subtitle": "Advance your expertise with specialized studies"
         },
         {
-  "type": "Diploma",
-  "title": "Post Graduate Diploma Programmes",
-  "subtitle": "Gain industry-focused expertise with advanced professional programmes."
-}
+          "type": "Diploma",
+          "title": "Post Graduate Diploma Programmes",
+          "subtitle": "Gain industry-focused expertise with advanced professional programmes."
+        }
       ],
       "phdSummary": {
         "title": "Ph.D. Research Programme",
@@ -7022,10 +7021,10 @@
           "subtitle": "Advance your expertise with specialized studies"
         },
         {
-  "type": "Diploma",
-  "title": "Post Graduate Diploma Programmes",
-  "subtitle": "Gain industry-focused expertise with advanced professional programmes."
-}
+          "type": "Diploma",
+          "title": "Post Graduate Diploma Programmes",
+          "subtitle": "Gain industry-focused expertise with advanced professional programmes."
+        }
       ],
       "phdSummary": {
         "title": "Ph.D. Research Programme",
@@ -7064,7 +7063,7 @@
         "breadcrumb": [
           "Home",
           "Schools",
-          "Engineering"
+          "Information Science"
         ],
         "stats": [
           {
@@ -7136,28 +7135,16 @@
         ],
         "features": [
           {
-            "title": "Cloud Computing",
-            "description": "Deep training in AWS, Azure, GCP and cloud-native development."
+            "title": "Global AI Hub Certification Partnership ",
+            "description": "Strategic collaboration with a Switzerland-based organisation providing AI and data science certification training to students, with over 2,800 certifications delivered."
           },
           {
-            "title": "Industry Mentorship",
-            "description": "Senior professionals from top IT firms mentor students every semester."
+            "title": "IIT Collaboration & XR Centre of Excellence ",
+            "description": "Faculty trained at IIT Madras in extended reality technologies, with an XR Centre of Excellence under development and ongoing partnerships with premier Indian institutions."
           },
           {
-            "title": "Newest Research",
-            "description": "Students engage with cutting-edge data science and AI research."
-          },
-          {
-            "title": "Research Ecosystem",
-            "description": "Collaborative research in databases, algorithms, and ML pipelines."
-          },
-          {
-            "title": "Global Certifications",
-            "description": "Integrated pathways to earn internationally recognised IT credentials."
-          },
-          {
-            "title": "Career Pathways",
-            "description": "Structured placement support with leading tech and data companies."
+            "title": "Industry-Ready Skills Programme ",
+            "description": "The Super-60 advanced training programme identifies fast learners and provides specialised skill development including CODEATHON events and hands-on modern software tool training."
           }
         ]
       },
@@ -7271,10 +7258,10 @@
           "subtitle": "MCA — 2-Year Full-Time"
         },
         {
-  "type": "Diploma",
-  "title": "Post Graduate Diploma Programmes",
-  "subtitle": "Gain industry-focused expertise with advanced professional programmes."
-}
+          "type": "Diploma",
+          "title": "Post Graduate Diploma Programmes",
+          "subtitle": "Gain industry-focused expertise with advanced professional programmes."
+        }
       ],
       "programs": [
         {
@@ -9477,8 +9464,6 @@
             "button": "Apply Now"
           }
         },
-        
-       
         {
           "slug": "mba",
           "name": "MBA Finance",
@@ -9755,9 +9740,6 @@
             }
           ]
         },
-       
-        
-       
         {
           "slug": "mba-banking-finance-management",
           "name": "MBA (Banking and Finance Management)",
@@ -10156,7 +10138,7 @@
             "label": "Doctoral Programmes ",
             "value": "5 "
           },
-           {
+          {
             "label": "PG Diploma",
             "value": "1"
           }
@@ -10166,7 +10148,7 @@
         "title": "Inspiring Responsible Business Leaders",
         "content": [
           "The Presidency School of Management offers a comprehensive portfolio of business education programmes spanning undergraduate BBA degrees, postgraduate MBA specialisations, doctoral research, and a postgraduate diploma in public administration. The school teaches all aspects of management — from finance, marketing, and human resource management to business analytics, digital marketing, and operations. With an AICTE-approved MBA programme and curricula built on the Choice Based Credit System (CBCS) and Outcome Based Education (OBE), students receive an education designed to produce industry-ready professionals and entrepreneurial thinkers.",
-        "The school goes beyond placement preparation. Due emphasis is placed on soft skill development, relevant certification programmes, and experiential learning including simulation exercises, case studies, corporate internships, and social project-based learning. The curriculum embeds internship experience directly into the academic programme, while networking with companies, firms, NGOs, and professional organisations provides students with real-world exposure. Guest speaker programmes and mentored courses bridge theory and practice, ensuring that graduates enter the workforce with both academic knowledge and practical professional capability. The School of Management has been nationally ranked among India’s top private B-Schools."
+          "The school goes beyond placement preparation. Due emphasis is placed on soft skill development, relevant certification programmes, and experiential learning including simulation exercises, case studies, corporate internships, and social project-based learning. The curriculum embeds internship experience directly into the academic programme, while networking with companies, firms, NGOs, and professional organisations provides students with real-world exposure. Guest speaker programmes and mentored courses bridge theory and practice, ensuring that graduates enter the workforce with both academic knowledge and practical professional capability. The School of Management has been nationally ranked among India’s top private B-Schools."
         ],
         "images": [
           "/img/management/m1.jpg",
@@ -10182,7 +10164,6 @@
             "title": "Industry-Embedded Curriculum ",
             "description": "Internships, corporate simulations, case studies, and social project-based learning are integrated directly into the academic structure across all programmes."
           }
-        
         ]
       },
       "visionMission": {
@@ -10292,7 +10273,7 @@
           "title": "Postgraduate Programmes",
           "subtitle": "Advance your expertise with specialized studies"
         },
-         {
+        {
           "type": "Diploma",
           "title": "Post Graduate Diploma Programmes",
           "subtitle": "Develop specialized skills for career advancement and professional excellence."
@@ -11989,7 +11970,6 @@
             "label": "Doctoral Programmes",
             "value": "2"
           }
-          
         ]
       },
       "about": {
@@ -12016,7 +11996,6 @@
             "title": "Research-Oriented Learning Culture ",
             "description": "The annual Anveshan research convention, faculty development programmes, and active student research forums foster an environment of inquiry-driven commerce education."
           }
-         
         ]
       },
       "visionMission": {
@@ -12122,10 +12101,10 @@
           "subtitle": "Build strong foundations in your field of interest"
         },
         {
-  "type": "Diploma",
-  "title": "Post Graduate Diploma Programmes",
-  "subtitle": "Gain industry-focused expertise with advanced professional programmes."
-}
+          "type": "Diploma",
+          "title": "Post Graduate Diploma Programmes",
+          "subtitle": "Gain industry-focused expertise with advanced professional programmes."
+        }
       ],
       "phdSummary": {
         "title": "Ph.D. Research Programme",
@@ -14072,10 +14051,10 @@
           "subtitle": "Build strong foundations in your field of interest"
         },
         {
-  "type": "Diploma",
-  "title": "Post Graduate Diploma Programmes",
-  "subtitle": "Gain industry-focused expertise with advanced professional programmes."
-}
+          "type": "Diploma",
+          "title": "Post Graduate Diploma Programmes",
+          "subtitle": "Gain industry-focused expertise with advanced professional programmes."
+        }
       ],
       "phdSummary": {
         "title": "Ph.D. Research Programme",
@@ -14887,7 +14866,6 @@
             "title": "Five Honours Specialisation Tracks ",
             "description": "Students choose from Corporate & Commercial Law, Criminal Law, Constitutional & Administrative Law, Technology & IP Law, or International Trade Law to build focused expertise."
           }
-       
         ]
       },
       "visionMission": {
@@ -14980,11 +14958,10 @@
           "subtitle": "Advance your expertise with specialized studies"
         },
         {
-  "type": "Diploma",
-  "title": "Post Graduate Diploma Programmes",
-  "subtitle": "Gain industry-focused expertise with advanced professional programmes."
-}
-      
+          "type": "Diploma",
+          "title": "Post Graduate Diploma Programmes",
+          "subtitle": "Gain industry-focused expertise with advanced professional programmes."
+        }
       ],
       "phdSummary": {
         "title": "Ph.D. Research Programme",
@@ -16032,7 +16009,6 @@
             "title": "Convergence Journalism Training ",
             "description": "Hands-on experience across print, electronic, digital, and mobile media — mastering reporting, broadcasting, data journalism, and real-time storytelling."
           }
-         
         ]
       },
       "visionMission": {
@@ -16143,10 +16119,10 @@
           "subtitle": "Advance your expertise with specialized studies"
         },
         {
-  "type": "Diploma",
-  "title": "Post Graduate Diploma Programmes",
-  "subtitle": "Gain industry-focused expertise with advanced professional programmes."
-}
+          "type": "Diploma",
+          "title": "Post Graduate Diploma Programmes",
+          "subtitle": "Gain industry-focused expertise with advanced professional programmes."
+        }
       ],
       "phdSummary": {
         "title": "Ph.D. Research Programme",
@@ -17694,13 +17670,13 @@
             }
           ]
         },
-          {
+        {
           "slug": "ba-performing-arts-western-music-instrumental-psychology",
           "name": "B.A. (Performing Arts – Western Music – Instrumental, Psychology)",
           "duration": "3 Years",
           "type": "UG",
           "degree": "B.A.",
-         "overviewtitle": "Exploring Human Expression Through",
+          "overviewtitle": "Exploring Human Expression Through",
           "highlight": "Music & Psychology",
           "overview": [
             "The B.A. (Performing Arts – Western Music – Instrumental, English) programme combines Western instrumental music training with English language, literature, communication, and cultural studies.",
@@ -18110,9 +18086,7 @@
           "degree": "B.A.",
           "overviewtitle": "Exploring Human Expression Through",
           "highlight": "Theatre & Psychology",
-          "overview": [
-            
-          ],
+          "overview": [],
           "image": "/img/programme/la/la1.jpg",
           "images": [
             "/img/programme/la/la1.jpg",
@@ -18158,30 +18132,16 @@
             "note": ""
           },
           "tabs": {
-            "curriculum": [
-             
-            ],
+            "curriculum": [],
             "outcomes": {
-              "PEOs": [
-                
-              ],
-              "POs": [
-               
-              ],
-              "PSOs": [
-                
-              ]
+              "PEOs": [],
+              "POs": [],
+              "PSOs": []
             }
           },
-          "highlights": [
-          
-          ],
-          "careers": [
-           
-          ],
-          "faq": [
-          
-          ]
+          "highlights": [],
+          "careers": [],
+          "faq": []
         },
         {
           "slug": "msc-psychology-child-clinical-counselling-industrial-psychology",
@@ -18240,7 +18200,120 @@
             "note": " "
           },
           "tabs": {
-           "curriculum": [ { "semester": "Semester 1", "modules": [ { "name": "Fundamental Theories in Psychology", "code": "" }, { "name": "Psychobiology", "code": "" }, { "name": "Developmental Theories", "code": "" }, { "name": "Quantitative Research Methods in Psychology", "code": "" }, { "name": "Psychology of Social Behaviour", "code": "" }, { "name": "Perception & Memory Experiments / Cognitive Assessments", "code": "" } ] }, { "semester": "Semester 2", "modules": [ { "name": "Advanced Cognitive Psychology", "code": "" }, { "name": "Theories of Personality", "code": "" }, { "name": "Interpersonal Communication", "code": "" }, { "name": "Qualitative Research Methods", "code": "" }, { "name": "Psychopathology", "code": "" }, { "name": "Assessment of Personality and Intelligence", "code": "" } ] }, { "semester": "Semester 3", "modules": [ { "name": "Psychometrics", "code": "" }, { "name": "Forensic Psychology", "code": "" }, { "name": "Therapeutic Communication", "code": "" }, { "name": "Track 1 – Clinical Psychology", "code": "" }, { "name": "Track 2 – Organisational Psychology", "code": "" }, { "name": "Track 3 – Child and Adolescent Psychology", "code": "" }, { "name": "Gender and Society: Understanding Identities and Inequalities", "code": "" } ] }, { "semester": "Semester 4", "modules": [ { "name": "Track 4 – Counselling Psychology", "code": "" }, { "name": "Specialization Track 5", "code": "" }, { "name": "Dissertation / Major Research Project", "code": "" }, { "name": "Internship", "code": "" } ] } ],
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Fundamental Theories in Psychology",
+                    "code": ""
+                  },
+                  {
+                    "name": "Psychobiology",
+                    "code": ""
+                  },
+                  {
+                    "name": "Developmental Theories",
+                    "code": ""
+                  },
+                  {
+                    "name": "Quantitative Research Methods in Psychology",
+                    "code": ""
+                  },
+                  {
+                    "name": "Psychology of Social Behaviour",
+                    "code": ""
+                  },
+                  {
+                    "name": "Perception & Memory Experiments / Cognitive Assessments",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Advanced Cognitive Psychology",
+                    "code": ""
+                  },
+                  {
+                    "name": "Theories of Personality",
+                    "code": ""
+                  },
+                  {
+                    "name": "Interpersonal Communication",
+                    "code": ""
+                  },
+                  {
+                    "name": "Qualitative Research Methods",
+                    "code": ""
+                  },
+                  {
+                    "name": "Psychopathology",
+                    "code": ""
+                  },
+                  {
+                    "name": "Assessment of Personality and Intelligence",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Psychometrics",
+                    "code": ""
+                  },
+                  {
+                    "name": "Forensic Psychology",
+                    "code": ""
+                  },
+                  {
+                    "name": "Therapeutic Communication",
+                    "code": ""
+                  },
+                  {
+                    "name": "Track 1 – Clinical Psychology",
+                    "code": ""
+                  },
+                  {
+                    "name": "Track 2 – Organisational Psychology",
+                    "code": ""
+                  },
+                  {
+                    "name": "Track 3 – Child and Adolescent Psychology",
+                    "code": ""
+                  },
+                  {
+                    "name": "Gender and Society: Understanding Identities and Inequalities",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "Track 4 – Counselling Psychology",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Track 5",
+                    "code": ""
+                  },
+                  {
+                    "name": "Dissertation / Major Research Project",
+                    "code": ""
+                  },
+                  {
+                    "name": "Internship",
+                    "code": ""
+                  }
+                ]
+              }
+            ],
             "outcomes": {
               "PEOs": [
                 {
@@ -18451,7 +18524,116 @@
             "note": " "
           },
           "tabs": {
-           "curriculum": [ { "semester": "Semester 1", "modules": [ { "name": "Introduction to Literary Theory and Criticism", "code": "" }, { "name": "Introduction to Linguistics", "code": "" }, { "name": "Indian Writings in English", "code": "" }, { "name": "English Language: Pedagogy and Practice", "code": "" }, { "name": "AI Tools for Academic & Professional Writing", "code": "" } ] }, { "semester": "Semester 2", "modules": [ { "name": "Contemporary Theory and Criticism", "code": "" }, { "name": "South Asian Literature", "code": "" }, { "name": "Gender Studies", "code": "" }, { "name": "World Literatures", "code": "" }, { "name": "Research Methods for English Studies", "code": "" }, { "name": "Podcasting and Audio Narratives", "code": "" } ] }, { "semester": "Semester 3", "modules": [ { "name": "Marginality, Resistance and Representation", "code": "" }, { "name": "Reading Cinema: Theory and Narrative", "code": "" }, { "name": "Specialization Track Course 1", "code": "" }, { "name": "Specialization Track Course 2", "code": "" }, { "name": "Multidisciplinary I", "code": "" }, { "name": "Internship", "code": "" } ] }, { "semester": "Semester 4", "modules": [ { "name": "Indian Literatures in English Translations", "code": "" }, { "name": "Reimagining Ability: Disability, Representation, and Power", "code": "" }, { "name": "Specialization Track Course 3", "code": "" }, { "name": "Specialization Track Course 4", "code": "" }, { "name": "Dissertation / Major Research Project", "code": "" } ] } ],
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Introduction to Literary Theory and Criticism",
+                    "code": ""
+                  },
+                  {
+                    "name": "Introduction to Linguistics",
+                    "code": ""
+                  },
+                  {
+                    "name": "Indian Writings in English",
+                    "code": ""
+                  },
+                  {
+                    "name": "English Language: Pedagogy and Practice",
+                    "code": ""
+                  },
+                  {
+                    "name": "AI Tools for Academic & Professional Writing",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Contemporary Theory and Criticism",
+                    "code": ""
+                  },
+                  {
+                    "name": "South Asian Literature",
+                    "code": ""
+                  },
+                  {
+                    "name": "Gender Studies",
+                    "code": ""
+                  },
+                  {
+                    "name": "World Literatures",
+                    "code": ""
+                  },
+                  {
+                    "name": "Research Methods for English Studies",
+                    "code": ""
+                  },
+                  {
+                    "name": "Podcasting and Audio Narratives",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Marginality, Resistance and Representation",
+                    "code": ""
+                  },
+                  {
+                    "name": "Reading Cinema: Theory and Narrative",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Track Course 1",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Track Course 2",
+                    "code": ""
+                  },
+                  {
+                    "name": "Multidisciplinary I",
+                    "code": ""
+                  },
+                  {
+                    "name": "Internship",
+                    "code": ""
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "Indian Literatures in English Translations",
+                    "code": ""
+                  },
+                  {
+                    "name": "Reimagining Ability: Disability, Representation, and Power",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Track Course 3",
+                    "code": ""
+                  },
+                  {
+                    "name": "Specialization Track Course 4",
+                    "code": ""
+                  },
+                  {
+                    "name": "Dissertation / Major Research Project",
+                    "code": ""
+                  }
+                ]
+              }
+            ],
             "outcomes": {
               "PEOs": [
                 {
@@ -19760,7 +19942,7 @@
             }
           }
         },
-       {
+        {
           "slug": "ba-communication-and-media-english",
           "name": "B.A. (Communication and Media Studies, English)",
           "duration": "3 Years",
@@ -20478,10 +20660,10 @@
           "subtitle": "Advance your expertise with specialized studies"
         },
         {
-  "type": "Diploma",
-  "title": "Post Graduate Diploma Programmes",
-  "subtitle": "Gain industry-focused expertise with advanced professional programmes."
-}
+          "type": "Diploma",
+          "title": "Post Graduate Diploma Programmes",
+          "subtitle": "Gain industry-focused expertise with advanced professional programmes."
+        }
       ],
       "phdSummary": {
         "title": "Ph.D. Research Programme",
@@ -21463,10 +21645,10 @@
           "subtitle": "Build strong foundations in your field of interest"
         },
         {
-  "type": "Diploma",
-  "title": "Post Graduate Diploma Programmes",
-  "subtitle": "Gain industry-focused expertise with advanced professional programmes."
-}
+          "type": "Diploma",
+          "title": "Post Graduate Diploma Programmes",
+          "subtitle": "Gain industry-focused expertise with advanced professional programmes."
+        }
       ],
       "phdSummary": {
         "title": "Ph.D. Research Programme",

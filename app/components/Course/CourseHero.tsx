@@ -3,19 +3,72 @@ import { GraduationCap, CalendarDays, Building2, MapPin } from "lucide-react";
 import { ArrowRight, Play } from "lucide-react";
 import { motion } from "motion/react";
 import { H1 } from "@/app/components/Headings";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+
+
 
 export default function CourseHero({ data, school }: any) {
   const hero = data.hero;
+  const pathname = usePathname();
+const segments = pathname.split("/").filter(Boolean);
 
   return (
     <>
-      {hero.breadcrumb && (
+    {hero.breadcrumb && (
+  <div className="bg-[#f5f7fa] py-3">
+    <div className="max-w-[1400px] mx-auto px-4 md:px-6 text-xs md:text-sm text-gray-600 flex flex-wrap">
+      {hero?.breadcrumb?.map((item: string, index: number) => {
+        const isLast = index === hero.breadcrumb.length - 1;
+
+        let href = "";
+
+        if (index === 0) {
+          href = "/";
+        } else if (index > 1) {
+         
+          href =
+            "/" +
+            segments
+              .slice(0, index)
+              .join("/");
+        }
+
+        return (
+          <span key={index} className="flex items-center">
+            {index === 0 ? (
+              <Link href={href} className="text-gray-600 hover:text-gray-600 no-underline hover:no-underline">
+                {item}
+              </Link>
+            ) : index === 1 ? (
+              // Schools - no link
+              <span>{item}</span>
+            ) : !isLast ? (
+              <Link href={href} >
+                {item}
+              </Link>
+            ) : (
+              
+              <span className="font-medium text-gray-700">{item}</span>
+            )}
+
+            {!isLast && (
+              <span className="mx-2 text-gray-400">›</span>
+            )}
+          </span>
+        );
+      })}
+    </div>
+  </div>
+)}
+    
+      {/* {hero.breadcrumb && (
         <div className="bg-[#f5f7fa] py-3">
           <div className="max-w-[1400px] mx-auto px-4 md:px-6 text-xs md:text-sm text-gray-600 flex flex-wrap">
             {hero?.breadcrumb?.join(" › ")}
           </div>
         </div>
-      )}
+      )} */}
       <div className="block md:hidden">
         <section className="relative min-h-screen overflow-hidden">
           {/* BG IMAGE */}

@@ -31,7 +31,35 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
   return (
     <>
       {/* 🔹 BREADCRUMB */}
+
       {data.breadcrumb && (
+  <div className="bg-[#f5f7fa] py-3">
+    <div className="mx-auto flex max-w-[1400px] flex-wrap px-4 text-xs text-gray-600 md:px-6 md:text-sm">
+      {data.breadcrumb.map((item, index, arr) => {
+        const isLast = index === arr.length - 1;
+
+        return (
+          <span key={index} className="flex items-center">
+            {index === 0 ? (
+              <Link href="/" className="hover:text-blue-600">
+                {item}
+              </Link>
+            ) : isLast ? (
+              <span className="font-medium text-gray-900">{item}</span>
+            ) : (
+              <span>{item}</span> // "Schools" is plain text
+            )}
+
+            {!isLast && (
+              <span className="mx-2 text-gray-400">›</span>
+            )}
+          </span>
+        );
+      })}
+    </div>
+  </div>
+)}
+      {/* {data.breadcrumb && (
         <div className="bg-[#f5f7fa] py-3">
           <div className="mx-auto flex max-w-[1400px] flex-wrap px-4 text-xs text-gray-600 md:px-6 md:text-sm">
             {data.breadcrumb.map((item, index, arr) => (
@@ -45,7 +73,7 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
             ))}
           </div>
         </div>
-      )}
+      )} */}
 
       {/* ================= HERO ================= */}
       <section

@@ -162,10 +162,10 @@ export function Navigation() {
         },
       ],
       phd: [
-        {
-          label: "Ph.D. Research Programme",
-          href: "/schools/computer-science/phd-research",
-        },
+        // {
+        //   label: "Ph.D. Research Programme",
+        //   href: "/schools/computer-science/phd-research",
+        // },
       ],
       diploma: [
         {
@@ -245,10 +245,10 @@ export function Navigation() {
         },
       ],
       phd: [
-        {
-          label: "Ph.D. Research Programme",
-          href: "/schools/information-science#phd-research",
-        },
+        // {
+        //   label: "Ph.D. Research Programme",
+        //   href: "/schools/information-science#phd-research",
+        // },
       ],
       diploma: [],
     },
