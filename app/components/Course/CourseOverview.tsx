@@ -36,7 +36,7 @@ export default function CourseOverview({ data }: any) {
               <p className="text-base">{data.overview}</p>
             )}
           </div>
-          <div
+          {/* <div
             className="
     mt-10
     max-w-[520px]
@@ -49,12 +49,12 @@ export default function CourseOverview({ data }: any) {
   "
           >
             <div className="flex items-start gap-3">
-              {/* ICON */}
+            
               <div className="mt-1 text-[#F5A623]">
                 <CheckCircle2 size={18} strokeWidth={1.8} />
               </div>
 
-              {/* CONTENT */}
+           
               <div>
                 <H5 className="text-[#2B2B2B]">
                   Eligibility
@@ -76,7 +76,7 @@ export default function CourseOverview({ data }: any) {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </motion.div>
         <div className="hidden md:block">
           {/* 🔥 RIGHT IMAGE */}
@@ -97,6 +97,49 @@ export default function CourseOverview({ data }: any) {
               />
             </div>
           </motion.div>
+        </div>
+      </div>
+       <div className="max-w-[1400px] mx-auto px-6">
+        <div
+          className="
+    mt-10
+    w-[full]
+    rounded-md
+    border-l-[4px]
+    border-[#F58233]
+    bg-[#F7F7F5]
+    px-5 py-4
+    shadow-sm
+  "
+        >
+          <div className="flex items-start gap-3">
+            {/* ICON */}
+            <div className="mt-1 text-[#F5A623]">
+              <CheckCircle2 size={18} strokeWidth={1.8} />
+            </div>
+
+            {/* CONTENT */}
+            <div>
+              <H5 className="text-[#2B2B2B]">
+                Eligibility
+              </H5>
+
+              <p className="mt-1 text-sm leading-relaxed text-[#4B5563]">
+                {data.eligibility?.description}
+              </p>
+              {
+                data.eligibility?.lateraldescription &&
+                <p className="mt-1 text-sm leading-relaxed text-[#4B5563]">
+                  {data.eligibility?.lateraldescription}
+                </p>
+              }
+
+
+              <p className="mt-1 text-xs text-[#C89B2B]">
+                {data.eligibility?.note}
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
