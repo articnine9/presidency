@@ -777,7 +777,9 @@ export function Navigation() {
                     <div
                       onMouseEnter={() => handleMouseEnter(item.label)}
                       onMouseLeave={handleMouseLeave}
-                      className="absolute left-1/2 top-full z-50 mt-2 w-[min(calc(100vw-2rem),1400px)] max-w-[calc(100vw-2rem)] -translate-x-1/2"
+                     className={`absolute left-1/2 top-full z-50 mt-2 w-[min(calc(100vw-2rem),1400px)] max-w-[calc(100vw-2rem)] -translate-x-1/2 ${
+    item.label === "Schools" ? "ml-30" : ""
+  }`}
                     >
                       {/* 🔥 CUSTOM PROGRAMMES MENU */}
                       {item.customMega ? (

@@ -4622,6 +4622,7 @@
     {
       "slug": "engineering",
       "name": "School of Engineering",
+      
       "programPreview": {
         "title": "About the School of Law",
         "subtitle": "Building Future Legal Professionals",
@@ -6939,7 +6940,7 @@
           "normal": "School of",
           "italic": "Engineering"
         },
-        "description": "Engineer Solutions for Tomorrow. Our engineering programs develop skilled professionals capable of designing, building, and innovating solutions to complex technical and societal challenges.",
+        "description": "Build the foundations of tomorrow across five core engineering disciplines. From electrical power systems and semiconductor design to civil infrastructure and energy exploration, our school equips international students with the technical expertise and practical skills demanded by industries worldwide.",
         "breadcrumb": [
           "Home",
           "Schools",
@@ -6947,23 +6948,28 @@
         ],
         "stats": [
           {
-            "label": "Programs",
-            "value": "14"
+            "label": "UG Programmes ",
+            "value": "6"
           },
           {
-            "label": "Faculty",
-            "value": "70+"
+            "label": "PG Programmes ",
+            "value": "2 "
           },
           {
-            "label": "Students",
-            "value": "700+"
+            "label": "Doctoral Programmes ",
+            "value": "5"
+          },
+          {
+            "label": "PG Diploma ",
+            "value": "1"
           }
         ]
       },
       "about": {
-        "title": "About the School",
+        "title": "Core Engineering on a Global Campus",
         "content": [
-          "The School of Engineering encompasses multiple disciplines including mechanical, civil, electrical, petroleum, and specialized engineering fields. We emphasize practical skills, hands-on laboratory experience, and collaboration with industry to prepare engineers for real-world challenges."
+          "The Presidency School of Engineering encompasses five established engineering departments — Electronics & Communication, Electrical & Electronics, Civil, Mechanical, and Petroleum Engineering — each delivering rigorous undergraduate and postgraduate education rooted in practical application. Located on the Presidency University campus in Bengaluru, the school provides international students with an engineering education that balances foundational theory, laboratory experience, and industry engagement within one of India’s foremost technology and manufacturing hubs.",
+        "The school’s programme portfolio spans traditional engineering disciplines alongside specialised offerings in VLSI design, embedded systems, building and construction technology, and drone technology. Faculty members bring credentials from leading Indian institutions including IITs and NITs, complemented by active research profiles and industry consulting experience. Students benefit from modern laboratory infrastructure, collaborative project work, study-abroad partnerships, and placement support connecting them to employers across sectors including semiconductor manufacturing, energy, construction, automotive, aerospace, and oil and gas."
         ],
         "images": [
           "/img/management/eng1.jpeg",
@@ -6972,40 +6978,29 @@
         ],
         "features": [
           {
-            "title": "Advanced Laboratories",
-            "description": "State-of-the-art labs for ECE, Mechanical, Civil and Petroleum disciplines."
+            "title": "Industry-Standard Laboratory Infrastructure ",
+            "description": "Work with advanced equipment across dedicated labs for circuit design, CNC machining, 3D printing, fluid mechanics, drilling simulation, and VLSI prototyping — all maintained to professional standards."
           },
           {
-            "title": "Industry Projects",
-            "description": "Live projects with Siemens, L&T, Bosch, and ONGC through the year."
+            "title": "Faculty with Premier Credentials ",
+            "description": "Learn from academics with doctoral qualifications from IITs and NITs, combined with active research output and consulting experience across electronics, power, civil, mechanical, and petroleum sectors."
           },
           {
-            "title": "Research Centres",
-            "description": "Dedicated research cells with faculty support for publications and patents."
-          },
-          {
-            "title": "GATE Preparation",
-            "description": "Structured coaching for GATE and PSU recruitment examinations."
-          },
-          {
-            "title": "Expert Faculty",
-            "description": "Faculty with deep industry and academic experience across disciplines."
-          },
-          {
-            "title": "Sustainability Focus",
-            "description": "Curriculum incorporating green engineering, renewables, and smart systems."
+            "title": "International Exchange and Placement ",
+            "description": "Access study-abroad partnerships with universities across Europe, Taiwan, and beyond, alongside campus placement drives featuring national and international recruiters."
           }
+         
         ]
       },
       "visionMission": {
         "vision": {
           "title": "Vision",
-          "description": "To cultivate world-class engineers who drive innovation, sustainability, and progress through advanced technical knowledge and ethical practice.",
+          "description": "To be a value-based, practice-driven school of engineering and technology, committed to developing globally competent engineers dedicated to transforming society.",
           "points": []
         },
         "mission": {
           "title": "Mission",
-          "description": "To deliver comprehensive engineering education combining theoretical rigor with practical application, foster research and innovation, and develop engineers committed to sustainable development.",
+          "description": "Cultivate a practice-driven environment with contemporary learning pedagogy integrating theory and practice - Attract and nurture world-class faculty to excel in teaching and research in core engineering - Establish state-of-the-art facilities for effective teaching and learning experiences - Promote interdisciplinary studies to nurture talent and impart relevant skill sets for global impact - Instil entrepreneurial and leadership skills to address social, environmental, and community needs",
           "points": []
         }
       },

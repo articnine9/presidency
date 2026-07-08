@@ -8242,7 +8242,7 @@
               "normal": "B.Tech Electronics & Communication",
               "italic": "Engineering"
             },
-            "description": "Build a strong foundation in computing, AI, and modern software technologies.",
+            "description": "Master the technologies connecting the modern world. This four-year programme covers electronic systems design, wireless communication, embedded technology, and signal processing — preparing you for a career in one of engineering’s most versatile and in-demand disciplines.",
             "breadcrumb": [
               "Home",
               "Schools",
@@ -8255,16 +8255,17 @@
                 "value": "4 Yr"
               },
               {
-                "label": "Semesters",
-                "value": "8"
+                "label": "Core Programme",
+                "value": "B.Tech"
               },
               {
-                "label": "Core Programme",
+                "label": "Specialisation",
                 "value": "ECE"
               }
             ]
           },
           "details": {
+            "degree": "Bachelor of Technology",
             "duration": "4 Years Full-Time",
             "campus": "Bengaluru, India",
             "school": "Engineering"
@@ -8281,7 +8282,7 @@
           ],
           "eligibility": {
             "title": "Eligibility Criteria",
-            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "description": "Passed 10+2 examination with Physics/ Mathematics Compulsory along with Chemistry/ Computer Science/ Electronics/ Information Technology/ Biology/ Informatics Practices/ Biotechnology/ Technical Vocational subject/ Agriculture/ Engineering Graphics/ Business Studies Obtained at least 45% marks (40% marks in case of candidates belonging to reserved category) in the above subjects taken together.",
             "note": "Eligibility may vary for international students."
           },
           "tabs": {
@@ -8335,7 +8336,7 @@
                 "semester": "Semester 2",
                 "modules": [
                   {
-                    "name": "Transform Techniques, PDEs and Complex Variables",
+                    "name": "Transform Techniques, Partial Differential Equations and Complex Variables",
                     "code": "MAT2302"
                   },
                   {
@@ -8433,7 +8434,7 @@
                 "semester": "Semester 4",
                 "modules": [
                   {
-                    "name": "Numerical Methods, Probability and Sampling",
+                    "name": "Numerical Methods, Probability Distributions and Sampling Techniques",
                     "code": "MAT2504"
                   },
                   {
@@ -8503,11 +8504,11 @@
                   },
                   {
                     "name": "Professional Elective – I",
-                    "code": ""
+                    "code": "ECEXXXX"
                   },
                   {
                     "name": "Professional Elective – II",
-                    "code": ""
+                    "code": "ECEXXXX"
                   },
                   {
                     "name": "Essentials of AI Lab",
@@ -8536,15 +8537,15 @@
                   },
                   {
                     "name": "Professional Elective – III",
-                    "code": ""
+                    "code": "ECEXXXX"
                   },
                   {
                     "name": "Professional Elective – IV",
-                    "code": ""
+                    "code": "ECEXXXX"
                   },
                   {
                     "name": "Open Elective – I",
-                    "code": ""
+                    "code": "XXXXXXX"
                   },
                   {
                     "name": "Digital VLSI Design Lab",
@@ -8573,11 +8574,11 @@
                   },
                   {
                     "name": "Professional Elective – V",
-                    "code": ""
+                    "code": "ECEXXXX"
                   },
                   {
                     "name": "Professional Elective – VI",
-                    "code": ""
+                    "code": "ECEXXXX"
                   },
                   {
                     "name": "Microwave Antenna and Wave Propagation Lab",
@@ -8585,7 +8586,7 @@
                   },
                   {
                     "name": "Open Elective – II",
-                    "code": ""
+                    "code": "XXXXXXX"
                   },
                   {
                     "name": "Internship",
@@ -8628,23 +8629,28 @@
               "POs": [
                 {
                   "id": "PO 1",
-                  "text": "Apply knowledge of mathematics, science, and engineering fundamentals to solve complex engineering problems."
+                  "title": "",
+                  "text": "Apply knowledge of mathematics, science, and engineering fundamentals to solve complex electronics and communication engineering problems."
                 },
                 {
                   "id": "PO 2",
+                  "title": "",
                   "text": "Identify, formulate, and analyse complex engineering problems using first principles of mathematics, natural sciences, and engineering."
                 },
                 {
                   "id": "PO 3",
-                  "text": "Design solutions for complex problems, including system components and processes, considering public health, safety, and societal and environmental factors."
+                  "title": "",
+                  "text": "Design solutions for complex problems including system components and processes that meet specified requirements while considering public health, safety, and environmental factors."
                 },
                 {
                   "id": "PO 4",
-                  "text": "Conduct investigations of complex problems using research-based methods, data analysis, and synthesis to provide valid conclusions."
+                  "title": "",
+                  "text": "Conduct investigations of complex problems using research-based knowledge and methods, including design of experiments, data analysis, and synthesis of information."
                 },
                 {
                   "id": "PO 5",
-                  "text": "Select and apply appropriate techniques, resources, and modern engineering tools — including prediction and modelling — to complex engineering activities."
+                  "title": "",
+                  "text": "Select and apply appropriate techniques, resources, and modern engineering tools to complex engineering activities with an understanding of their limitations."
                 }
               ],
               "PSOs": [
@@ -8795,16 +8801,17 @@
                 "value": "4 Yr"
               },
               {
-                "label": "Semesters",
-                "value": "8"
+                "label": "Core Programme",
+                "value": "B.Tech"
               },
               {
-                "label": "Core Programme",
+                "label": "Specialisation",
                 "value": "EEE"
               }
             ]
           },
           "details": {
+            "degree": "Bachelor of Technology",
             "duration": "4 Years Full-Time",
             "campus": "Bengaluru, India",
             "school": " Engineering"
@@ -8821,7 +8828,7 @@
           ],
           "eligibility": {
             "title": "Eligibility Criteria",
-            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "description": "Passed 10+2 examination with Physics/ Mathematics Compulsory along with Chemistry/ Computer Science/ Electronics/ Information Technology/ Biology/ Informatics Practices/ Biotechnology/ Technical Vocational subject/ Agriculture/ Engineering Graphics/ Business Studies Obtained at least 45% marks (40% marks in case of candidates belonging to reserved category) in the above subjects taken together.",
             "note": "Eligibility may vary for international students."
           },
           "tabs": {
@@ -8956,7 +8963,7 @@
                     "code": "FIN1002"
                   },
                   {
-                    "name": "Universal Human Values",
+                    "name": "Universal Human Values (MOOC)",
                     "code": "CIV7601"
                   },
                   {
@@ -9035,11 +9042,11 @@
                   },
                   {
                     "name": "Professional Elective – I",
-                    "code": ""
+                    "code": "EEEXXXX"
                   },
                   {
                     "name": "Professional Elective – II",
-                    "code": ""
+                    "code": "EEEXXXX"
                   },
                   {
                     "name": "Essentials of AI",
@@ -9072,11 +9079,11 @@
                   },
                   {
                     "name": "Professional Elective – III",
-                    "code": ""
+                    "code": "EEEXXXX"
                   },
                   {
                     "name": "Professional Elective – IV",
-                    "code": ""
+                    "code": "EEEXXXX"
                   },
                   {
                     "name": "Electrical CAD Lab",
@@ -9084,15 +9091,15 @@
                   },
                   {
                     "name": "Open Elective – I",
-                    "code": ""
-                  },
-                  {
-                    "name": "Minor Project",
-                    "code": "EEE7100"
+                    "code": "XXXXXXX"
                   },
                   {
                     "name": "Aptitude for Employability",
                     "code": "APT4005"
+                  },
+                  {
+                    "name": "Minor Project",
+                    "code": "EEE7100"
                   }
                 ]
               },
@@ -9113,23 +9120,23 @@
                   },
                   {
                     "name": "Professional Elective – V",
-                    "code": ""
+                    "code": "EEEXXXX"
                   },
                   {
                     "name": "Professional Elective – VI",
-                    "code": ""
+                    "code": "EEEXXXX"
                   },
                   {
                     "name": "Open Elective – II",
-                    "code": ""
-                  },
-                  {
-                    "name": "Internship",
-                    "code": "EEE7000"
+                    "code": "XXXXXXX"
                   },
                   {
                     "name": "Preparedness for Interview",
                     "code": "PPS3018"
+                  },
+                  {
+                    "name": "Internship",
+                    "code": "EEE7000"
                   }
                 ]
               },
@@ -9284,19 +9291,19 @@
               "a": "EEE focuses on electrical power generation, distribution, control systems, and energy management. ECE concentrates on electronic devices, communication systems, signal processing, and VLSI design. EEE graduates typically enter power, energy, and automation sectors, while ECE graduates tend toward telecom, semiconductor, and electronics industries."
             },
             {
-              "q": " Is EEE relevant for the electric vehicle industry?",
-              "a": " Highly relevant. EEE graduates bring expertise in power electronics, motor control, battery management systems, and electrical drivetrain design — all critical competencies for the rapidly growing electric vehicle sector in India and globally. "
+              "q": "Is EEE relevant for the electric vehicle industry?",
+              "a": "Highly relevant. EEE graduates bring expertise in power electronics, motor control, battery management systems, and electrical drivetrain design — all critical competencies for the rapidly growing electric vehicle sector in India and globally. "
             },
             {
               "q": "Can EEE graduates work in the renewable energy sector?  ",
-              "a": " Yes. The programme covers power systems, energy conversion, and grid management — all foundational to careers in solar energy, wind power, energy storage, and sustainable infrastructure development. "
+              "a": "Yes. The programme covers power systems, energy conversion, and grid management — all foundational to careers in solar energy, wind power, energy storage, and sustainable infrastructure development. "
             },
             {
-              "q": " Are government sector jobs accessible to EEE graduates? ",
-              "a": " Yes. EEE graduates are eligible for Indian Engineering Services (IES) examinations and recruitment by public sector undertakings including BHEL, NTPC, ONGC, Power Grid Corporation, and ISRO. International students should check specific eligibility requirements for government "
+              "q": "Are government sector jobs accessible to EEE graduates? ",
+              "a": "Yes. EEE graduates are eligible for Indian Engineering Services (IES) examinations and recruitment by public sector undertakings including BHEL, NTPC, ONGC, Power Grid Corporation, and ISRO. International students should check specific eligibility requirements for government "
             },
             {
-              "q": " What programming languages are covered in the EEE curriculum?",
+              "q": "What programming languages are covered in the EEE curriculum?",
               "a": "The programme includes C, C++, Python, and MATLAB for tasks including automation, system modelling, simulation, data analysis, and embedded systems programming.  "
             },
             {
@@ -9337,16 +9344,17 @@
                 "value": "4 Yr"
               },
               {
-                "label": "Semesters",
-                "value": "8"
+                "label": "Core Programme",
+                "value": "B.Tech"
               },
               {
-                "label": "Core Programme",
+                "label": "Specialisation",
                 "value": "VLSI "
               }
             ]
           },
           "details": {
+            "degree": "Bachelor of Technology",
             "duration": "4 Years Full-Time",
             "campus": "Bengaluru, India",
             "school": " Engineering   "
@@ -9363,7 +9371,7 @@
           ],
           "eligibility": {
             "title": "Eligibility Criteria",
-            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "description": "Passed 10+2 examination with Physics/ Mathematics Compulsory along with Chemistry/ Computer Science/ Electronics/ Information Technology/ Biology/ Informatics Practices/ Biotechnology/ Technical Vocational subject/ Agriculture/ Engineering Graphics/ Business Studies Obtained at least 45% marks (40% marks in case of candidates belonging to reserved category) in the above subjects taken together.",
             "note": "Eligibility may vary for international students."
           },
           "tabs": {
@@ -9429,7 +9437,7 @@
                     "code": "PHY2502"
                   },
                   {
-                    "name": "Advanced Materials and Quantum Physics for Engineers Lab",
+                    "name": "Advanced Materials and Quantum Physics Lab",
                     "code": "PHY2505"
                   },
                   {
@@ -9478,7 +9486,7 @@
                     "code": "ECE2508"
                   },
                   {
-                    "name": "Signals Processing Lab",
+                    "name": "Signal Processing Lab",
                     "code": "ECE2558"
                   },
                   {
@@ -9581,11 +9589,11 @@
                   },
                   {
                     "name": "Professional Elective – I",
-                    "code": ""
+                    "code": "ECEXXXX"
                   },
                   {
                     "name": "Professional Elective – II",
-                    "code": ""
+                    "code": "ECEXXXX"
                   },
                   {
                     "name": "Essentials of AI Lab",
@@ -9622,15 +9630,15 @@
                   },
                   {
                     "name": "Professional Elective – III",
-                    "code": ""
+                    "code": "ECEXXXX"
                   },
                   {
                     "name": "Professional Elective – IV",
-                    "code": ""
+                    "code": "ECEXXXX"
                   },
                   {
                     "name": "Open Elective – I",
-                    "code": ""
+                    "code": "XXXXXXX"
                   },
                   {
                     "name": "Minor Project",
@@ -9659,15 +9667,15 @@
                   },
                   {
                     "name": "Professional Elective – V",
-                    "code": ""
+                    "code": "ECEXXXX"
                   },
                   {
                     "name": "Professional Elective – VI",
-                    "code": ""
+                    "code": "ECEXXXX"
                   },
                   {
                     "name": "Open Elective – II",
-                    "code": ""
+                    "code": "XXXXXXX"
                   },
                   {
                     "name": "Internship",
@@ -9824,23 +9832,23 @@
               "a": "B.Tech VLSI is a specialised programme focusing specifically on integrated circuit design, semiconductor technology, and chip verification. ECE provides broader coverage of electronics and communication systems including VLSI as one component alongside wireless communication, signal processing, and IoT. VLSI graduates typically enter semiconductor-focused roles. "
             },
             {
-              "q": "  Which EDA tools are used in the VLSI programme?",
-              "a": "  Students work with industry-standard tools including Cadence Virtuoso, Synopsys Design Compiler, Xilinx Vivado, and Mentor Graphics platforms for circuit design, simulation, synthesis, and verification.  "
+              "q": "Which EDA tools are used in the VLSI programme?",
+              "a": "Students work with industry-standard tools including Cadence Virtuoso, Synopsys Design Compiler, Xilinx Vivado, and Mentor Graphics platforms for circuit design, simulation, synthesis, and verification.  "
             },
             {
               "q": "Is the VLSI programme relevant given the growth of semiconductor manufacturing in India?  ",
-              "a": " Highly relevant. India’s semiconductor industry is expanding significantly with new fabrication and design facilities being established. The demand for trained VLSI designers and verification engineers is projected to grow substantially, making this one of the most career-strategic engineering specialisations available.  "
+              "a": "Highly relevant. India’s semiconductor industry is expanding significantly with new fabrication and design facilities being established. The demand for trained VLSI designers and verification engineers is projected to grow substantially, making this one of the most career-strategic engineering specialisations available.  "
             },
             {
-              "q": "  What salary range can VLSI graduates expect? ",
-              "a": "  Starting compensation for VLSI roles in India typically ranges from INR 4–8 LPA, with experienced professionals earning significantly more. International positions in semiconductor firms may offer different compensation structures depending on role and location.  "
+              "q": "What salary range can VLSI graduates expect? ",
+              "a": "Starting compensation for VLSI roles in India typically ranges from INR 4–8 LPA, with experienced professionals earning significantly more. International positions in semiconductor firms may offer different compensation structures depending on role and location.  "
             },
             {
-              "q": " Can VLSI graduates pursue higher studies? ",
-              "a": " Yes. B.Tech VLSI graduates are well-positioned for M.Tech and MS programmes in VLSI design, embedded systems, semiconductor technology, and related fields at institutions in India and internationally. The programme also provides a foundation for doctoral research in semiconductor technology.   "
+              "q": "Can VLSI graduates pursue higher studies? ",
+              "a": "Yes. B.Tech VLSI graduates are well-positioned for M.Tech and MS programmes in VLSI design, embedded systems, semiconductor technology, and related fields at institutions in India and internationally. The programme also provides a foundation for doctoral research in semiconductor technology.   "
             },
             {
-              "q": " Is on-campus accommodation available for international students? ",
+              "q": "Is on-campus accommodation available for international students? ",
               "a": "Presidency University offers dedicated student housing. International students should contact the Office of International Affairs for details on availability and booking.  "
             }
           ],
@@ -9869,7 +9877,7 @@
               "Home",
               "Schools",
               "Engineering",
-              " B.Tech Civil"
+              "B.Tech Civil"
             ],
             "stats": [
               {
@@ -9877,19 +9885,20 @@
                 "value": "4 Yr"
               },
               {
-                "label": "Semesters",
-                "value": "8"
+                "label": "Core Programme",
+                "value": "B.Tech"
               },
               {
-                "label": "Core Programme",
-                "value": " B.Tech Civil  "
+                "label": "Specialisation",
+                "value": "Civil"
               }
             ]
           },
           "details": {
+            "degree": "Bachelor of Technology",
             "duration": "4 Years Full-Time",
             "campus": "Bengaluru, India",
-            "school": "  Engineering   "
+            "school": "Engineering"
           },
           "overview": [
             "The B.Tech in Civil Engineering provides comprehensive training in the planning, design, construction, and maintenance of physical infrastructure. The programme covers structural engineering, geotechnical engineering, transportation engineering, water resources, environmental engineering, and construction management. Students develop proficiency in mathematics, applied sciences, and engineering technology to analyse and design structures, systems, and processes that serve society. The curriculum combines classroom instruction with laboratory practice, site visits, and design projects that simulate professional civil engineering challenges.",
@@ -9903,7 +9912,7 @@
           ],
           "eligibility": {
             "title": "Eligibility Criteria",
-            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "description": "Passed 10+2 examination with Physics/ Mathematics Compulsory along with Chemistry/ Computer Science/ Electronics/ Information Technology/ Biology/ Informatics Practices/ Biotechnology/ Technical Vocational subject/ Agriculture/ Engineering Graphics/ Business Studies Obtained at least 45% marks (40% marks in case of candidates belonging to reserved category) in the above subjects taken together.",
             "note": "Eligibility may vary for international students."
           },
           "tabs": {
@@ -9965,7 +9974,7 @@
                     "code": "DES1146"
                   },
                   {
-                    "name": "Transform Techniques, PDEs, and Complex Variables",
+                    "name": "Transform Techniques, PDEs and Complex Variables",
                     "code": "MAT2302"
                   },
                   {
@@ -10047,7 +10056,7 @@
                 "semester": "Semester 4",
                 "modules": [
                   {
-                    "name": "Numerical Methods, Probability, and Sampling",
+                    "name": "Numerical Methods, Probability and Sampling",
                     "code": "MAT2304"
                   },
                   {
@@ -10109,11 +10118,11 @@
                   },
                   {
                     "name": "Professional Elective – I",
-                    "code": ""
+                    "code": "CIV3XXX"
                   },
                   {
                     "name": "Professional Elective – II",
-                    "code": ""
+                    "code": "CIV3XXX"
                   },
                   {
                     "name": "Geotechnical Engineering Lab",
@@ -10141,7 +10150,7 @@
                     "code": "CIV2510"
                   },
                   {
-                    "name": "Quantity Surveying, Cost Estimation, and Valuation",
+                    "name": "Quantity Surveying, Cost Estimation and Valuation",
                     "code": "CIV2518"
                   },
                   {
@@ -10150,15 +10159,15 @@
                   },
                   {
                     "name": "Professional Elective – III",
-                    "code": ""
+                    "code": "CIV3XXX"
                   },
                   {
                     "name": "Professional Elective – IV",
-                    "code": ""
+                    "code": "CIV3XXX"
                   },
                   {
                     "name": "Open Elective – I",
-                    "code": ""
+                    "code": "XXXXXX"
                   },
                   {
                     "name": "Environmental Engineering Lab",
@@ -10191,15 +10200,15 @@
                   },
                   {
                     "name": "Professional Elective – V",
-                    "code": ""
+                    "code": "CIV3XXX"
                   },
                   {
                     "name": "Professional Elective – VI",
-                    "code": ""
+                    "code": "CIV3XXX"
                   },
                   {
                     "name": "Open Elective – II",
-                    "code": ""
+                    "code": "XXXXXX"
                   },
                   {
                     "name": "Construction Project Management Lab",
@@ -10371,23 +10380,23 @@
               "a": "Students develop proficiency in AutoCAD, STAAD.Pro, ETABS, Revit BIM, and GIS mapping software — all industry-standard tools used by professional civil engineering firms. "
             },
             {
-              "q": "  Are field visits and practical training included?",
-              "a": "  Yes. The programme incorporates regular site visits, industrial training placements, and field projects that expose students to real-world construction processes, project management, and site engineering practice.   "
+              "q": "Are field visits and practical training included?",
+              "a": "Yes. The programme incorporates regular site visits, industrial training placements, and field projects that expose students to real-world construction processes, project management, and site engineering practice.   "
             },
             {
               "q": "Is civil engineering relevant in the age of AI and automation?  ",
-              "a": " Strongly relevant. Civil engineering is incorporating AI for structural health monitoring, BIM for digital construction, drones for surveying, and computational modelling for design optimisation. The profession is evolving, and the foundational skills remain essential.  "
+              "a": "Strongly relevant. Civil engineering is incorporating AI for structural health monitoring, BIM for digital construction, drones for surveying, and computational modelling for design optimisation. The profession is evolving, and the foundational skills remain essential.  "
             },
             {
-              "q": "  What is the placement scenario for civil engineering graduates?",
-              "a": "  Graduates are recruited by construction companies, consulting firms, infrastructure developers, government agencies, and real estate organisations. Companies such as L&T, Tata Projects, and other national firms participate in campus recruitment drives.  "
+              "q": "What is the placement scenario for civil engineering graduates?",
+              "a": "Graduates are recruited by construction companies, consulting firms, infrastructure developers, government agencies, and real estate organisations. Companies such as L&T, Tata Projects, and other national firms participate in campus recruitment drives.  "
             },
             {
-              "q": " Can international students access study-abroad programmes? ",
-              "a": " Yes. Civil engineering students have participated in exchange programmes at institutions including the University of Manchester and other partner universities. The Office of International Affairs facilitates these opportunities.    "
+              "q": "Can international students access study-abroad programmes? ",
+              "a": "Yes. Civil engineering students have participated in exchange programmes at institutions including the University of Manchester and other partner universities. The Office of International Affairs facilitates these opportunities.    "
             },
             {
-              "q": " Is on-campus accommodation available for international students? ",
+              "q": "Is on-campus accommodation available for international students? ",
               "a": "Presidency University provides student housing. Contact the Office of International Affairs for information on availability and booking.  "
             }
           ],
@@ -10424,11 +10433,11 @@
                 "value": "4 Yr"
               },
               {
-                "label": "Semesters",
-                "value": "8"
+                "label": "Core Programme",
+                "value": "B.Tech"
               },
               {
-                "label": "Core Programme",
+                "label": "Specialisation",
                 "value": "Mechanical "
               }
             ]
@@ -10436,7 +10445,7 @@
           "details": {
             "duration": "4 Years Full-Time",
             "campus": "Bengaluru, India",
-            "school": "  Engineering   "
+            "school": "Engineering"
           },
           "overview": [
             "The B.Tech in Mechanical Engineering delivers a comprehensive foundation across the core domains of mechanical science — thermodynamics, fluid mechanics, machine design, manufacturing processes, materials science, and mechatronics. The curriculum blends fundamental theory with hands-on experience in product design, prototyping, computer-aided engineering, and industrial automation. Students develop the analytical, computational, and design skills needed to conceive, develop, and manufacture mechanical systems ranging from precision components to large-scale industrial machinery.",
@@ -10450,7 +10459,7 @@
           ],
           "eligibility": {
             "title": "Eligibility Criteria",
-            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "description": "Passed 10+2 examination with Physics/ Mathematics Compulsory along with Chemistry/ Computer Science/ Electronics/ Information Technology/ Biology/ Informatics Practices/ Biotechnology/ Technical Vocational subject/ Agriculture/ Engineering Graphics/ Business Studies Obtained at least 45% marks (40% marks in case of candidates belonging to reserved category) in the above subjects taken together.",
             "note": "Eligibility may vary for international students."
           },
           "tabs": {
@@ -10664,11 +10673,11 @@
                   },
                   {
                     "name": "Professional Elective – I",
-                    "code": ""
+                    "code": "MECXXXX"
                   },
                   {
                     "name": "Professional Elective – II",
-                    "code": ""
+                    "code": "MECXXXX"
                   },
                   {
                     "name": "Computer Aided Machine Drawing",
@@ -10713,11 +10722,11 @@
                   },
                   {
                     "name": "Professional Elective – III",
-                    "code": ""
+                    "code": "MECXXXX"
                   },
                   {
                     "name": "Professional Elective – IV",
-                    "code": ""
+                    "code": "MECXXXX"
                   },
                   {
                     "name": "Aptitude for Employability",
@@ -10725,7 +10734,7 @@
                   },
                   {
                     "name": "Open Elective – I",
-                    "code": ""
+                    "code": "XXXXXXX"
                   }
                 ]
               },
@@ -10746,15 +10755,15 @@
                   },
                   {
                     "name": "Professional Elective – V",
-                    "code": ""
+                    "code": "MECXXXX"
                   },
                   {
                     "name": "Professional Elective – VI",
-                    "code": ""
+                    "code": "MECXXXX"
                   },
                   {
                     "name": "Open Elective – II",
-                    "code": ""
+                    "code": "XXXXXXX"
                   },
                   {
                     "name": "Internship",
@@ -10909,27 +10918,27 @@
           ],
           "faq": [
             {
-              "q": " Is mechanical engineering still relevant with the rise of software and AI? ",
+              "q": "Is mechanical engineering still relevant with the rise of software and AI? ",
               "a": "Highly relevant. Mechanical engineering is evolving through integration with AI, robotics, and automation. Modern mechanical engineers work with 3D printing, computational design, autonomous systems, and smart manufacturing — making it one of the most adaptable and enduring engineering disciplines. "
             },
             {
-              "q": "   What is the mechatronics specialisation?",
-              "a": " The mechatronics specialisation combines mechanical engineering with electronics, control systems, and computer science. It prepares graduates for roles in robotics, automation, smart manufacturing, and Industry 4.0 applications.    "
+              "q": "What is the mechatronics specialisation?",
+              "a": "The mechatronics specialisation combines mechanical engineering with electronics, control systems, and computer science. It prepares graduates for roles in robotics, automation, smart manufacturing, and Industry 4.0 applications.    "
             },
             {
               "q": "Which companies recruit mechanical engineering graduates from Presidency?  ",
-              "a": " Recruiters include automotive manufacturers such as TVS Motors, engineering conglomerates such as L&T, aerospace companies, energy firms, and manufacturing organisations. Both national and international employers participate in placement drives.  "
+              "a": "Recruiters include automotive manufacturers such as TVS Motors, engineering conglomerates such as L&T, aerospace companies, energy firms, and manufacturing organisations. Both national and international employers participate in placement drives.  "
             },
             {
-              "q": " What laboratory facilities are available?",
-              "a": "  The department maintains laboratories for manufacturing processes, fluid mechanics, thermodynamics, materials testing, CNC machining, 3D printing, and CAD/CAM — all equipped with industry-standard machinery and software.   "
+              "q": "What laboratory facilities are available?",
+              "a": "The department maintains laboratories for manufacturing processes, fluid mechanics, thermodynamics, materials testing, CNC machining, 3D printing, and CAD/CAM — all equipped with industry-standard machinery and software.   "
             },
             {
-              "q": " Can mechanical engineering graduates pursue higher studies abroad?",
-              "a": " Yes. The B.Tech degree is well-recognised internationally. Graduates pursue M.S. and M.Tech programmes at institutions worldwide. The Office of International Affairs supports students exploring international academic pathways.   "
+              "q": "Can mechanical engineering graduates pursue higher studies abroad?",
+              "a": "Yes. The B.Tech degree is well-recognised internationally. Graduates pursue M.S. and M.Tech programmes at institutions worldwide. The Office of International Affairs supports students exploring international academic pathways.   "
             },
             {
-              "q": " Is on-campus accommodation available for international students? ",
+              "q": "Is on-campus accommodation available for international students? ",
               "a": "Presidency University provides student housing. Contact the Office of International Affairs for details.  "
             }
           ],
@@ -10966,16 +10975,17 @@
                 "value": "4 Yr"
               },
               {
-                "label": "Semesters",
-                "value": "8"
+                "label": "Core Programme",
+                "value": "B.Tech"
               },
               {
-                "label": "Core Programme",
-                "value": "Petroleum  "
+                "label": "Specialisation",
+                "value": "Petroleum"
               }
             ]
           },
           "details": {
+            "degree": "Bachelor of Technology",
             "duration": "4 Years Full-Time",
             "campus": "Bengaluru, India",
             "school": "  Engineering   "
@@ -10992,7 +11002,7 @@
           ],
           "eligibility": {
             "title": "Eligibility Criteria",
-            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "description": "Passed 10+2 examination with Physics/ Mathematics Compulsory along with Chemistry/ Computer Science/ Electronics/ Information Technology/ Biology/ Informatics Practices/ Biotechnology/ Technical Vocational subject/ Agriculture/ Engineering Graphics/ Business Studies Obtained at least 45% marks (40% marks in case of candidates belonging to reserved category) in the above subjects taken together.",
             "note": "Eligibility may vary for international students."
           },
           "tabs": {
@@ -11001,16 +11011,44 @@
                 "semester": "Semester 1",
                 "modules": [
                   {
-                    "name": "Mathematics I",
-                    "code": "MAT101"
+                    "name": "Calculus and Differential Equations",
+                    "code": "MAT2301"
                   },
                   {
-                    "name": "Programming in C",
-                    "code": "CSE101"
+                    "name": "Foundations of Integrated Engineering",
+                    "code": "CIV1200"
                   },
                   {
-                    "name": "Physics",
-                    "code": "PHY101"
+                    "name": "Workshop Practice",
+                    "code": "MEC1000"
+                  },
+                  {
+                    "name": "Material Chemistry for Engineers",
+                    "code": "CHE2505"
+                  },
+                  {
+                    "name": "Material Chemistry Lab",
+                    "code": "CHE2506"
+                  },
+                  {
+                    "name": "Basics of Electrical and Electronics Engineering",
+                    "code": "EEE1200"
+                  },
+                  {
+                    "name": "Basics of Electrical and Electronics Engineering Lab",
+                    "code": "EEE1250"
+                  },
+                  {
+                    "name": "English for Technical Communication",
+                    "code": "ENG1900"
+                  },
+                  {
+                    "name": "Industry Readiness Program – I",
+                    "code": "PPS1025"
+                  },
+                  {
+                    "name": "Indian Constitution",
+                    "code": "LAW7601"
                   }
                 ]
               },
@@ -11018,16 +11056,250 @@
                 "semester": "Semester 2",
                 "modules": [
                   {
-                    "name": "Data Structures",
-                    "code": "CSE201"
+                    "name": "Transform Techniques, Partial Differential Equations and Complex Variables",
+                    "code": "MAT2302"
                   },
                   {
-                    "name": "Discrete Mathematics",
-                    "code": "MAT201"
+                    "name": "Fundamentals of Materials Physics",
+                    "code": "PHY2503"
                   },
                   {
-                    "name": "Digital Logic",
-                    "code": "CSE202"
+                    "name": "Fundamentals of Materials Physics Lab",
+                    "code": "PHY2506"
+                  },
+                  {
+                    "name": "Engineering Mechanics",
+                    "code": "MEC2500"
+                  },
+                  {
+                    "name": "Engineering Graphics",
+                    "code": "MEC1006"
+                  },
+                  {
+                    "name": "Design Workshop",
+                    "code": "ECE1511"
+                  },
+                  {
+                    "name": "Advanced English",
+                    "code": "ENG2501"
+                  },
+                  {
+                    "name": "Introduction to Design Thinking",
+                    "code": "DES1146"
+                  },
+                  {
+                    "name": "Industry Readiness Program – II",
+                    "code": "PPS1026"
+                  },
+                  {
+                    "name": "Environmental Studies",
+                    "code": "CHE7601"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Linear Algebra and Vector Calculus",
+                    "code": "MAT2303"
+                  },
+                  {
+                    "name": "Petroleum Geology",
+                    "code": "PET2500"
+                  },
+                  {
+                    "name": "Fluid Mechanics",
+                    "code": "MEC2502"
+                  },
+                  {
+                    "name": "Fluid Mechanics Lab",
+                    "code": "MEC2503"
+                  },
+                  {
+                    "name": "Reservoir Rock and Fluid Properties",
+                    "code": "PET2501"
+                  },
+                  {
+                    "name": "Drilling Engineering",
+                    "code": "PET2502"
+                  },
+                  {
+                    "name": "Drilling Engineering Lab",
+                    "code": "PET2552"
+                  },
+                  {
+                    "name": "Essentials of Finance",
+                    "code": "FIN1002"
+                  },
+                  {
+                    "name": "Universal Human Values and Ethics",
+                    "code": "CIV7601"
+                  },
+                  {
+                    "name": "Introduction to Aptitude",
+                    "code": "APT4002"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "Numerical Methods, Probability Distributions and Sampling Techniques",
+                    "code": "MAT2304"
+                  },
+                  {
+                    "name": "Reservoir Engineering",
+                    "code": "PET2503"
+                  },
+                  {
+                    "name": "Petroleum Production Engineering",
+                    "code": "PET2504"
+                  },
+                  {
+                    "name": "Formation Evaluation",
+                    "code": "PET2505"
+                  },
+                  {
+                    "name": "Reservoir Engineering Lab",
+                    "code": "PET2553"
+                  },
+                  {
+                    "name": "Production Engineering Lab",
+                    "code": "PET2554"
+                  },
+                  {
+                    "name": "Computational Thinking and AI Programming",
+                    "code": "CSE2282"
+                  },
+                  {
+                    "name": "Computational Thinking and AI Programming Lab",
+                    "code": "CSE2283"
+                  },
+                  {
+                    "name": "Aptitude Training – Intermediate",
+                    "code": "APT4004"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 5",
+                "modules": [
+                  {
+                    "name": "Well Logging and Formation Evaluation",
+                    "code": "PET2506"
+                  },
+                  {
+                    "name": "Enhanced Oil Recovery Techniques",
+                    "code": "PET2507"
+                  },
+                  {
+                    "name": "Natural Gas Engineering",
+                    "code": "PET2508"
+                  },
+                  {
+                    "name": "Petroleum Refining Technology",
+                    "code": "PET2509"
+                  },
+                  {
+                    "name": "Professional Elective – I",
+                    "code": "PETXXXX"
+                  },
+                  {
+                    "name": "Professional Elective – II",
+                    "code": "PETXXXX"
+                  },
+                  {
+                    "name": "Petroleum Engineering Lab",
+                    "code": "PET2555"
+                  },
+                  {
+                    "name": "Logical and Critical Thinking",
+                    "code": "APT4006"
+                  },
+                  {
+                    "name": "Minor Project",
+                    "code": "PET7100"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 6",
+                "modules": [
+                  {
+                    "name": "Offshore Drilling Technology",
+                    "code": "PET2510"
+                  },
+                  {
+                    "name": "Reservoir Simulation",
+                    "code": "PET2511"
+                  },
+                  {
+                    "name": "Pipeline Engineering",
+                    "code": "PET2512"
+                  },
+                  {
+                    "name": "Professional Elective – III",
+                    "code": "PETXXXX"
+                  },
+                  {
+                    "name": "Professional Elective – IV",
+                    "code": "PETXXXX"
+                  },
+                  {
+                    "name": "Open Elective – I",
+                    "code": "XXXXXXX"
+                  },
+                  {
+                    "name": "Reservoir Simulation Lab",
+                    "code": "PET2556"
+                  },
+                  {
+                    "name": "Aptitude for Employability",
+                    "code": "APT4005"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 7",
+                "modules": [
+                  {
+                    "name": "Health, Safety and Environment in Petroleum Industry",
+                    "code": "PET2513"
+                  },
+                  {
+                    "name": "Petroleum Economics and Project Management",
+                    "code": "PET2514"
+                  },
+                  {
+                    "name": "Professional Elective – V",
+                    "code": "PETXXXX"
+                  },
+                  {
+                    "name": "Professional Elective – VI",
+                    "code": "PETXXXX"
+                  },
+                  {
+                    "name": "Open Elective – II",
+                    "code": "XXXXXXX"
+                  },
+                  {
+                    "name": "Internship",
+                    "code": "PET7000"
+                  },
+                  {
+                    "name": "Preparedness for Interview",
+                    "code": "PPS3018"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 8",
+                "modules": [
+                  {
+                    "name": "Capstone Project",
+                    "code": "PET7300"
                   }
                 ]
               }
@@ -11221,16 +11493,17 @@
                 "value": "2 Yr "
               },
               {
-                "label": "Semesters",
-                "value": "4"
+                "label": "Core Programme",
+                "value": "M.Tech"
               },
               {
-                "label": "Core Programme",
+                "label": "Specialisation",
                 "value": "VLSI "
               }
             ]
           },
           "details": {
+            "degree": "Master of Technology",
             "duration": "2 Years Full-Time",
             "campus": "Bengaluru, India",
             "school": "Engineering"
@@ -11247,7 +11520,7 @@
           ],
           "eligibility": {
             "title": "Eligibility Criteria",
-            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "description": "Passed Bachelor’s Degree or equivalent. Obtained at least 50% marks (45% marks in case of candidates belonging to reserved category) in the qualifying examination, in relevant branch of Engineering and Technology as mentioned in the AICTE APH 2024-25.",
             "note": "Eligibility may vary for international students."
           },
           "tabs": {
@@ -11540,16 +11813,17 @@
                 "value": "2 Yr "
               },
               {
-                "label": "Semesters",
-                "value": "4"
+                "label": "Core Programme",
+                "value": "M.Tech"
               },
               {
-                "label": "Core Programme",
+                "label": "Specialisation",
                 "value": "BCT "
               }
             ]
           },
           "details": {
+            "degree": "Master of Technology",
             "duration": "2 Years Full-Time",
             "campus": "Bengaluru, India",
             "school": "Engineering"
@@ -11566,7 +11840,7 @@
           ],
           "eligibility": {
             "title": "Eligibility Criteria",
-            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "description": "Passed Bachelor’s Degree or equivalent. Obtained at least 50% marks (45% marks in case of candidates belonging to reserved category) in the qualifying examination, in relevant branch of Engineering and Technology as mentioned in the AICTE APH 2024-25.",
             "note": "Eligibility may vary for international students."
           },
           "tabs": {
@@ -11576,7 +11850,7 @@
                 "modules": [
                   {
                     "name": "Advanced Engineering Mathematics",
-                    "code": "MAT4004"
+                    "code": "MAT6001"
                   },
                   {
                     "name": "English for Employability",
@@ -11633,11 +11907,11 @@
                   },
                   {
                     "name": "Open Elective – I",
-                    "code": "XXXXXX"
+                    "code": "XXXXXXX"
                   },
                   {
                     "name": "Open Elective – II",
-                    "code": "XXXXXX"
+                    "code": "XXXXXXX"
                   },
                   {
                     "name": "Seminar – II",
@@ -11662,6 +11936,60 @@
                     "code": "PIP6002"
                   }
                 ]
+              }
+            ],
+            "discipline_electives": [
+              {
+                "name": "Construction Demolition and Waste Management",
+                "code": "CIV5008"
+              },
+              {
+                "name": "Mechanization in Construction",
+                "code": "CIV5009"
+              },
+              {
+                "name": "Pre-Engineered Construction",
+                "code": "CIV6003"
+              },
+              {
+                "name": "Retrofitting and Repair Techniques",
+                "code": "CIV6004"
+              },
+              {
+                "name": "Formwork and Scaffolding Design",
+                "code": "CIV6005"
+              },
+              {
+                "name": "Building Automation and 3D Printing",
+                "code": "CIV5010"
+              },
+              {
+                "name": "Advanced Design of RC Structures",
+                "code": "CIV6006"
+              },
+              {
+                "name": "Seismic Analysis and Design of Buildings",
+                "code": "CIV6007"
+              },
+              {
+                "name": "Human Resource Management",
+                "code": "CIV5011"
+              },
+              {
+                "name": "Elements of Prestressed Concrete Structures",
+                "code": "CIV5012"
+              },
+              {
+                "name": "Advanced Design of Steel Structures",
+                "code": "CIV6008"
+              },
+              {
+                "name": "Design Concepts of Substructures",
+                "code": "CIV5013"
+              },
+              {
+                "name": "Applications of Remote Sensing and GIS in Construction",
+                "code": "CIV5014"
               }
             ],
             "outcomes": {
@@ -11856,16 +12184,17 @@
                 "value": "1 Yr "
               },
               {
-                "label": "Semesters",
-                "value": "2"
+                "label": "Core Programme",
+                "value": "PG Diploma"
               },
               {
-                "label": "Core Programme",
-                "value": "UAV  "
+                "label": "Specialisation",
+                "value": "UAV"
               }
             ]
           },
           "details": {
+            "degree": "Post Graduate Diploma",
             "duration": "1 Year Full-Time",
             "campus": "Bengaluru, India",
             "school": "Engineering"
@@ -11882,7 +12211,7 @@
           ],
           "eligibility": {
             "title": "Eligibility Criteria",
-            "description": "Candidates must have completed 10+2 with Physics and Mathematics with a minimum of 45% marks.",
+            "description": "Candidates who have secured 50% in the aggregate of all subjects (45% for SC/ST candidates from Karnataka) and 50% in the cognate subjects in the qualifying University Examinations are eligible to apply.",
             "note": "Eligibility may vary for international students."
           },
           "tabs": {
@@ -13810,232 +14139,232 @@
             "note": "Eligibility may vary for international students."
           },
           "tabs": {
-  "curriculum": [
-    {
-      "semester": "Semester I",
-      "modules": [
-        {
-          "name": "English for Employability",
-          "code": "ENG5001"
-        },
-        {
-          "name": "Probability and Statistics",
-          "code": "MAT4001"
-        },
-        {
-          "name": "Computer Networks and Security",
-          "code": "CSA4203"
-        },
-        {
-          "name": "Data Structures and Algorithms",
-          "code": "CSA4201"
-        },
-        {
-          "name": "Database Systems",
-          "code": "CSA4202"
-        },
-        {
-          "name": "Web Technology",
-          "code": "CSA4303"
-        },
-        {
-          "name": "Advanced Python Programming",
-          "code": "CSA4305"
-        },
-        {
-          "name": "Data Structures and Algorithms Lab",
-          "code": "CSA4301"
-        },
-        {
-          "name": "Database Systems Lab",
-          "code": "CSA4302"
-        },
-        {
-          "name": "C Programming and Data Structures (Bridge Course)",
-          "code": "CSA9001"
-        },
-        {
-          "name": "Fundamentals of Information Technology (Bridge Course)",
-          "code": "CSA9002"
-        }
-      ]
-    },
-    {
-      "semester": "Semester II",
-      "modules": [
-        {
-          "name": "Cloud Computing",
-          "code": "CSA4501"
-        },
-        {
-          "name": "Object Oriented Programming using Java",
-          "code": "CSA4204"
-        },
-        {
-          "name": "Adaptive Software Engineering",
-          "code": "CSA4205"
-        },
-        {
-          "name": "Machine Learning",
-          "code": "CSA4502"
-        },
-        {
-          "name": "Elective – I",
-          "code": "CSAXXXX"
-        },
-        {
-          "name": "Quantitative Skills and Logical Reasoning",
-          "code": "PPS4008"
-        },
-        {
-          "name": "Problem Solving through Aptitude",
-          "code": "PPS3001"
-        },
-        {
-          "name": "Elective – II",
-          "code": "CSAXXXX"
-        },
-        {
-          "name": "Cloud Computing Lab",
-          "code": "CSA4601"
-        },
-        {
-          "name": "Object Oriented Programming using Java Lab",
-          "code": "CSA4304"
-        },
-        {
-          "name": "Machine Learning Lab",
-          "code": "CSA4602"
-        }
-      ]
-    },
-    {
-      "semester": "Semester III",
-      "modules": [
-        {
-          "name": "Data Analytics and Visualization",
-          "code": "CSA4503"
-        },
-        {
-          "name": "MERN Full Stack Development",
-          "code": "CSA4504"
-        },
-        {
-          "name": "Elective – III",
-          "code": "CSAXXXX"
-        },
-        {
-          "name": "Elective – IV",
-          "code": "CSAXXXX"
-        },
-        {
-          "name": "Elective – V",
-          "code": "CSAXXXX"
-        },
-        {
-          "name": "Introduction to Operation Research",
-          "code": "MAT4002"
-        },
-        {
-          "name": "Corporate Communications",
-          "code": "PPS3019"
-        },
-        {
-          "name": "Data Analytics and Visualization Lab",
-          "code": "CSA4603"
-        },
-        {
-          "name": "MERN Full Stack Development Lab",
-          "code": "CSA4604"
-        },
-        {
-          "name": "Mobile Application Development using Flutter",
-          "code": "CSA4605"
-        },
-        {
-          "name": "Mini Project",
-          "code": "CSA8100"
-        }
-      ]
-    },
-    {
-      "semester": "Semester IV",
-      "modules": [
-        {
-          "name": "Open Elective",
-          "code": "OEXXXX"
-        },
-        {
-          "name": "Major Project",
-          "code": "CSA8300"
-        }
-      ]
-    }
-  ],
-  "outcomes": {
-    "PEOs": [
-      {
-        "id": "PEO 1",
-        "title": "Software Engineering Competence",
-        "text": "Prepare graduates who apply software engineering concepts to design, develop, test, and maintain systems meeting user requirements and industry standards."
-      },
-      {
-        "id": "PEO 2",
-        "title": "Effective Communication",
-        "text": "Develop graduates who communicate technical information effectively to diverse audiences, facilitating clear interaction within teams and with stakeholders."
-      },
-      {
-        "id": "PEO 3",
-        "title": "Research & Lifelong Learning",
-        "text": "Foster graduates who engage in quality research and lifelong learning, staying current with global emerging technologies and adapting to evolving industry demands."
-      }
-    ],
-    "POs": [
-      {
-        "id": "PO 1",
-        "title": "",
-        "text": "Apply knowledge of computing fundamentals, specialisation, mathematics, and domain knowledge to the abstraction and conceptualisation of computing models."
-      },
-      {
-        "id": "PO 2",
-        "title": "",
-        "text": "Identify, formulate, research, and solve complex computing problems using fundamental principles of mathematics and computing sciences."
-      },
-      {
-        "id": "PO 3",
-        "title": "",
-        "text": "Design computing solutions and system components that meet specified needs while considering health, safety, cultural, societal, and environmental factors."
-      },
-      {
-        "id": "PO 4",
-        "title": "",
-        "text": "Conduct investigations of complex computing problems using research-based methods including experimental design and data analysis."
-      },
-      {
-        "id": "PO 5",
-        "title": "",
-        "text": "Select and apply appropriate techniques, tools, and computing platforms to complex activities with understanding of their limitations."
-      }
-    ],
-    "PSOs": [
-      {
-        "id": "PSO 1",
-        "title": "Software System Design",
-        "text": "Ability to design, develop, and deploy software solutions applying cutting-edge technology stacks, programming frameworks, and industry best practices."
-      },
-      {
-        "id": "PSO 2",
-        "title": "Industry Problem Solving",
-        "text": "Competence in solving real-world computing problems across industries by applying software engineering, mathematics, and associated disciplines to meet business objectives."
-      },
-      {
-        "id": "PSO 3",
-        "title": "Research & Innovation",
-        "text": "Ability to conduct research, explore emerging technologies, and contribute to the field of computer applications through innovative solutions, research papers, and projects."
-      }
-    ]
-  }
-},
+            "curriculum": [
+              {
+                "semester": "Semester I",
+                "modules": [
+                  {
+                    "name": "English for Employability",
+                    "code": "ENG5001"
+                  },
+                  {
+                    "name": "Probability and Statistics",
+                    "code": "MAT4001"
+                  },
+                  {
+                    "name": "Computer Networks and Security",
+                    "code": "CSA4203"
+                  },
+                  {
+                    "name": "Data Structures and Algorithms",
+                    "code": "CSA4201"
+                  },
+                  {
+                    "name": "Database Systems",
+                    "code": "CSA4202"
+                  },
+                  {
+                    "name": "Web Technology",
+                    "code": "CSA4303"
+                  },
+                  {
+                    "name": "Advanced Python Programming",
+                    "code": "CSA4305"
+                  },
+                  {
+                    "name": "Data Structures and Algorithms Lab",
+                    "code": "CSA4301"
+                  },
+                  {
+                    "name": "Database Systems Lab",
+                    "code": "CSA4302"
+                  },
+                  {
+                    "name": "C Programming and Data Structures (Bridge Course)",
+                    "code": "CSA9001"
+                  },
+                  {
+                    "name": "Fundamentals of Information Technology (Bridge Course)",
+                    "code": "CSA9002"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester II",
+                "modules": [
+                  {
+                    "name": "Cloud Computing",
+                    "code": "CSA4501"
+                  },
+                  {
+                    "name": "Object Oriented Programming using Java",
+                    "code": "CSA4204"
+                  },
+                  {
+                    "name": "Adaptive Software Engineering",
+                    "code": "CSA4205"
+                  },
+                  {
+                    "name": "Machine Learning",
+                    "code": "CSA4502"
+                  },
+                  {
+                    "name": "Elective – I",
+                    "code": "CSAXXXX"
+                  },
+                  {
+                    "name": "Quantitative Skills and Logical Reasoning",
+                    "code": "PPS4008"
+                  },
+                  {
+                    "name": "Problem Solving through Aptitude",
+                    "code": "PPS3001"
+                  },
+                  {
+                    "name": "Elective – II",
+                    "code": "CSAXXXX"
+                  },
+                  {
+                    "name": "Cloud Computing Lab",
+                    "code": "CSA4601"
+                  },
+                  {
+                    "name": "Object Oriented Programming using Java Lab",
+                    "code": "CSA4304"
+                  },
+                  {
+                    "name": "Machine Learning Lab",
+                    "code": "CSA4602"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester III",
+                "modules": [
+                  {
+                    "name": "Data Analytics and Visualization",
+                    "code": "CSA4503"
+                  },
+                  {
+                    "name": "MERN Full Stack Development",
+                    "code": "CSA4504"
+                  },
+                  {
+                    "name": "Elective – III",
+                    "code": "CSAXXXX"
+                  },
+                  {
+                    "name": "Elective – IV",
+                    "code": "CSAXXXX"
+                  },
+                  {
+                    "name": "Elective – V",
+                    "code": "CSAXXXX"
+                  },
+                  {
+                    "name": "Introduction to Operation Research",
+                    "code": "MAT4002"
+                  },
+                  {
+                    "name": "Corporate Communications",
+                    "code": "PPS3019"
+                  },
+                  {
+                    "name": "Data Analytics and Visualization Lab",
+                    "code": "CSA4603"
+                  },
+                  {
+                    "name": "MERN Full Stack Development Lab",
+                    "code": "CSA4604"
+                  },
+                  {
+                    "name": "Mobile Application Development using Flutter",
+                    "code": "CSA4605"
+                  },
+                  {
+                    "name": "Mini Project",
+                    "code": "CSA8100"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester IV",
+                "modules": [
+                  {
+                    "name": "Open Elective",
+                    "code": "OEXXXX"
+                  },
+                  {
+                    "name": "Major Project",
+                    "code": "CSA8300"
+                  }
+                ]
+              }
+            ],
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Software Engineering Competence",
+                  "text": "Prepare graduates who apply software engineering concepts to design, develop, test, and maintain systems meeting user requirements and industry standards."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Effective Communication",
+                  "text": "Develop graduates who communicate technical information effectively to diverse audiences, facilitating clear interaction within teams and with stakeholders."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Research & Lifelong Learning",
+                  "text": "Foster graduates who engage in quality research and lifelong learning, staying current with global emerging technologies and adapting to evolving industry demands."
+                }
+              ],
+              "POs": [
+                {
+                  "id": "PO 1",
+                  "title": "",
+                  "text": "Apply knowledge of computing fundamentals, specialisation, mathematics, and domain knowledge to the abstraction and conceptualisation of computing models."
+                },
+                {
+                  "id": "PO 2",
+                  "title": "",
+                  "text": "Identify, formulate, research, and solve complex computing problems using fundamental principles of mathematics and computing sciences."
+                },
+                {
+                  "id": "PO 3",
+                  "title": "",
+                  "text": "Design computing solutions and system components that meet specified needs while considering health, safety, cultural, societal, and environmental factors."
+                },
+                {
+                  "id": "PO 4",
+                  "title": "",
+                  "text": "Conduct investigations of complex computing problems using research-based methods including experimental design and data analysis."
+                },
+                {
+                  "id": "PO 5",
+                  "title": "",
+                  "text": "Select and apply appropriate techniques, tools, and computing platforms to complex activities with understanding of their limitations."
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Software System Design",
+                  "text": "Ability to design, develop, and deploy software solutions applying cutting-edge technology stacks, programming frameworks, and industry best practices."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Industry Problem Solving",
+                  "text": "Competence in solving real-world computing problems across industries by applying software engineering, mathematics, and associated disciplines to meet business objectives."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Research & Innovation",
+                  "text": "Ability to conduct research, explore emerging technologies, and contribute to the field of computer applications through innovative solutions, research papers, and projects."
+                }
+              ]
+            }
+          },
           "highlights": [
             {
               "title": "Advanced Multi-Track Curriculum",
