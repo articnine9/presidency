@@ -254,7 +254,7 @@ export default function SchoolHero({ data }: SchoolHeroProps) {
                   hover:bg-white/10
                 "
               >
-                Contact The Oia
+                Contact The OIA
                 <Phone size={15} />
               </button>
 

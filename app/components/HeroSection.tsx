@@ -154,7 +154,7 @@ export function HeroSection() {
                 transition-all
               "
             >
-              Contact The Oia
+              Contact The OIA
               <Play size={16} />
             </Link>
 
