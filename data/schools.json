@@ -70,20 +70,20 @@
       },
       "faq": [
         {
-          "q": "What is the difference between B.A. LL.B. and B.B.A. LL.B.?",
-          "a": "B.A. LL.B focuses on humanities while B.B.A. LL.B focuses on business subjects."
+          "q": "What B.Tech specialisations are offered in Computer Science?",
+          "a": "We offer B.Tech in CSE, CSE (AI & ML), CSE (Data Science), CSE (Cybersecurity), CSE (IoT), CSE (Cloud Computing), CSE (Full Stack), and CSE (Blockchain), among others."
         },
         {
           "q": "What are the eligibility requirements?",
-          "a": "Candidates must have completed 10+2 with minimum required marks."
+          "a": "Candidates must have completed 10+2 with Physics, Chemistry, and Mathematics with a minimum of 45% aggregate marks."
         },
         {
           "q": "Can I specialise during my studies?",
-          "a": "Yes, students can choose specialisation tracks."
+          "a": "Yes, students can choose elective specialisation tracks from the third year onwards in areas such as AI, Cybersecurity, Cloud, and Data Science."
         },
         {
           "q": "Are internships included?",
-          "a": "Yes, internships and practical training are part of the programme."
+          "a": "Yes, industry internships and live projects with technology companies are integrated into the curriculum."
         }
       ],
       "highlights": [
@@ -8784,6 +8784,7 @@
           "overviewtitle": "Engineering the Power Systems That",
           "highlight": "Drive Modern Life",
           "hero": {
+            "image": "/img/banner/soe.JPG",
             "title": {
               "normal": "B.Tech Electrical & Electronics",
               "italic": "Engineering"
@@ -19180,7 +19181,313 @@
               "q": "Is there practical training?",
               "a": "Yes, we emphasize practical training with real-world financial cases and simulations"
             }
-          ]
+          ],
+          "tabs": {
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Industry Readiness",
+                  "text": "Equip graduates with commerce knowledge and skills to work in banking, finance, accounting, and business sectors at state, national, and global levels."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Professional Accountancy Pathway",
+                  "text": "Prepare graduates to pursue professional certifications including CA, CMA, and CS through a strong foundation in financial accounting, taxation, and auditing."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Entrepreneurial Excellence",
+                  "text": "Foster entrepreneurial thinking and business acumen to enable graduates to start, manage, and grow enterprises effectively."
+                },
+                {
+                  "id": "PEO 4",
+                  "title": "Ethical Business Practice",
+                  "text": "Develop graduates who apply ethical standards, corporate governance, and social responsibility in financial and commercial decision-making."
+                },
+                {
+                  "id": "PEO 5",
+                  "title": "Academic and Professional Growth",
+                  "text": "Enable graduates to pursue postgraduate programmes in management, finance, or law, and to engage in lifelong learning and professional development."
+                }
+              ],
+              "POs": [
+                {
+                  "id": "PO 1",
+                  "title": "Commerce Fundamentals",
+                  "text": "Apply core commerce and economics concepts to analyse business operations, financial markets, and commercial transactions."
+                },
+                {
+                  "id": "PO 2",
+                  "title": "Financial Accounting",
+                  "text": "Demonstrate proficiency in preparing, analysing, and interpreting financial statements and accounting records."
+                },
+                {
+                  "id": "PO 3",
+                  "title": "Taxation and Compliance",
+                  "text": "Apply GST, income tax, and corporate tax provisions to practical business and personal finance scenarios."
+                },
+                {
+                  "id": "PO 4",
+                  "title": "Auditing and Assurance",
+                  "text": "Understand auditing principles and internal control frameworks as applied in organisational and financial contexts."
+                },
+                {
+                  "id": "PO 5",
+                  "title": "Business Law and Ethics",
+                  "text": "Apply business law, contract law, company law, and professional ethics in commercial decision-making."
+                },
+                {
+                  "id": "PO 6",
+                  "title": "Digital Business Tools",
+                  "text": "Use accounting software, spreadsheets, and digital tools for financial analysis and business reporting."
+                },
+                {
+                  "id": "PO 7",
+                  "title": "Communication Skills",
+                  "text": "Communicate effectively in professional business contexts through written reports, presentations, and correspondence."
+                },
+                {
+                  "id": "PO 8",
+                  "title": "Teamwork and Leadership",
+                  "text": "Collaborate effectively in teams and demonstrate initiative and leadership in business and project environments."
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Financial Accounting and Reporting",
+                  "text": "Perform bookkeeping, prepare financial statements, and conduct audits in line with Indian and international accounting standards."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Taxation and Business Law",
+                  "text": "Apply direct and indirect tax provisions and business law principles to real-world commercial and regulatory situations."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Commerce in Practice",
+                  "text": "Analyse financial data, evaluate investment decisions, and support business planning using commerce and economic principles."
+                }
+              ]
+            },
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Financial Accounting – I",
+                    "code": "CBC1001"
+                  },
+                  {
+                    "name": "Business Economics (Micro)",
+                    "code": "CBC1002"
+                  },
+                  {
+                    "name": "Principles of Management",
+                    "code": "CBC1003"
+                  },
+                  {
+                    "name": "Business Mathematics",
+                    "code": "CBC1004"
+                  },
+                  {
+                    "name": "Business Communication",
+                    "code": "CBC1005"
+                  },
+                  {
+                    "name": "Computer Applications in Business",
+                    "code": "CBC1006"
+                  },
+                  {
+                    "name": "Environmental Studies",
+                    "code": "EVS1001"
+                  },
+                  {
+                    "name": "Industry Readiness Programme – I",
+                    "code": "PPS1001"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Financial Accounting – II",
+                    "code": "CBC1007"
+                  },
+                  {
+                    "name": "Business Economics (Macro)",
+                    "code": "CBC1008"
+                  },
+                  {
+                    "name": "Cost Accounting",
+                    "code": "CBC1009"
+                  },
+                  {
+                    "name": "Business Statistics",
+                    "code": "CBC1010"
+                  },
+                  {
+                    "name": "Business Law",
+                    "code": "CBC1011"
+                  },
+                  {
+                    "name": "Banking Theory, Law & Practice",
+                    "code": "CBC1012"
+                  },
+                  {
+                    "name": "Life Skills",
+                    "code": "LSK1001"
+                  },
+                  {
+                    "name": "Industry Readiness Programme – II",
+                    "code": "PPS1002"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Corporate Accounting – I",
+                    "code": "CBC2001"
+                  },
+                  {
+                    "name": "Income Tax Law & Practice",
+                    "code": "CBC2002"
+                  },
+                  {
+                    "name": "Auditing and Assurance",
+                    "code": "CBC2003"
+                  },
+                  {
+                    "name": "Financial Management",
+                    "code": "CBC2004"
+                  },
+                  {
+                    "name": "Human Resource Management",
+                    "code": "CBC2005"
+                  },
+                  {
+                    "name": "Entrepreneurship Development",
+                    "code": "CBC2006"
+                  },
+                  {
+                    "name": "E-Commerce and Digital Business",
+                    "code": "CBC2007"
+                  },
+                  {
+                    "name": "Industry Readiness Programme – III",
+                    "code": "PPS2001"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "Corporate Accounting – II",
+                    "code": "CBC2008"
+                  },
+                  {
+                    "name": "Goods and Services Tax (GST)",
+                    "code": "CBC2009"
+                  },
+                  {
+                    "name": "Management Accounting",
+                    "code": "CBC2010"
+                  },
+                  {
+                    "name": "Corporate Law & Secretarial Practice",
+                    "code": "CBC2011"
+                  },
+                  {
+                    "name": "Marketing Management",
+                    "code": "CBC2012"
+                  },
+                  {
+                    "name": "Investment Management",
+                    "code": "CBC2013"
+                  },
+                  {
+                    "name": "Research Methodology",
+                    "code": "CBC2014"
+                  },
+                  {
+                    "name": "Industry Readiness Programme – IV",
+                    "code": "PPS2002"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 5",
+                "modules": [
+                  {
+                    "name": "Advanced Auditing",
+                    "code": "CBC3001"
+                  },
+                  {
+                    "name": "International Business",
+                    "code": "CBC3002"
+                  },
+                  {
+                    "name": "Corporate Governance & Ethics",
+                    "code": "CBC3003"
+                  },
+                  {
+                    "name": "Financial Services and Insurance",
+                    "code": "CBC3004"
+                  },
+                  {
+                    "name": "Elective I – Banking / Taxation / Finance",
+                    "code": "CBC3005"
+                  },
+                  {
+                    "name": "Project Work – I",
+                    "code": "CBC3006"
+                  },
+                  {
+                    "name": "Industry Readiness Programme – V",
+                    "code": "PPS3001"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 6",
+                "modules": [
+                  {
+                    "name": "Advanced Direct and Indirect Taxation",
+                    "code": "CBC3007"
+                  },
+                  {
+                    "name": "Business Strategy and Policy",
+                    "code": "CBC3008"
+                  },
+                  {
+                    "name": "Elective II – Banking / Taxation / Finance",
+                    "code": "CBC3009"
+                  },
+                  {
+                    "name": "Corporate Social Responsibility",
+                    "code": "CBC3010"
+                  },
+                  {
+                    "name": "Project Work – II and Dissertation",
+                    "code": "CBC3011"
+                  },
+                  {
+                    "name": "Internship and Industry Viva",
+                    "code": "CBC3012"
+                  },
+                  {
+                    "name": "Industry Readiness Programme – VI",
+                    "code": "PPS3002"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "slug": "bcom-banking-and-finance",
@@ -28187,9 +28494,253 @@
             "description": "Candidates must have completed 10+2 with relevant subjects and minimum 45% marks.",
             "note": "Eligibility may vary for international students."
           },
-          "highlights": [],
-          "careers": [],
-          "faq": []
+          "highlights": [
+            {
+              "title": "Industry-Led Film Production",
+              "description": "Learn from working film directors, cinematographers, and editors through hands-on production workshops and masterclasses."
+            },
+            {
+              "title": "Professional Studio Access",
+              "description": "Train on industry-standard cameras, lighting rigs, editing suites, and sound studios throughout the programme."
+            },
+            {
+              "title": "Short Film Portfolio",
+              "description": "Graduate with a portfolio of self-directed short films, documentaries, and commercial projects ready for submission to festivals and studios."
+            },
+            {
+              "title": "OTT and Digital Media Focus",
+              "description": "Curriculum covers storytelling formats for OTT platforms, YouTube, advertising, and digital streaming — aligned with where the industry is heading."
+            },
+            {
+              "title": "Film Festival Exposure",
+              "description": "Students are encouraged to submit work to national and international film festivals, gaining early industry recognition."
+            },
+            {
+              "title": "Compact Intensive Format",
+              "description": "A one-year full-time diploma designed to fast-track graduates into the film industry with focused, accelerated learning."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Direction and Production",
+              "roles": [
+                "Film Director",
+                "Assistant Director",
+                "Production Manager",
+                "Line Producer"
+              ]
+            },
+            {
+              "category": "Cinematography and Camera",
+              "roles": [
+                "Cinematographer / DOP",
+                "Camera Operator",
+                "Focus Puller",
+                "Drone Camera Operator"
+              ]
+            },
+            {
+              "category": "Post-Production",
+              "roles": [
+                "Film Editor",
+                "Colour Grading Artist",
+                "Visual Effects (VFX) Coordinator",
+                "Sound Designer"
+              ]
+            },
+            {
+              "category": "Screenwriting and Development",
+              "roles": [
+                "Screenwriter",
+                "Story Developer",
+                "Script Consultant",
+                "Content Writer for OTT"
+              ]
+            },
+            {
+              "category": "Documentary and Digital Content",
+              "roles": [
+                "Documentary Filmmaker",
+                "Digital Content Creator",
+                "Corporate Video Producer",
+                "YouTube / OTT Content Director"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "Who is this diploma designed for?",
+              "a": "This programme is designed for graduates from any discipline who are passionate about filmmaking and want to enter the film, OTT, or digital content industry. No prior filmmaking experience is required."
+            },
+            {
+              "q": "What equipment will I have access to?",
+              "a": "Students have access to professional DSLR and cinema cameras, lighting equipment, sound recording gear, and editing suites with Premiere Pro, DaVinci Resolve, and Pro Tools."
+            },
+            {
+              "q": "Will I produce actual films during the course?",
+              "a": "Yes. The programme is structured around two major workshop projects — a short film in Semester 1 and a final film project in Semester 2 — along with several smaller exercises and assignments."
+            },
+            {
+              "q": "Can I submit my films to festivals?",
+              "a": "Absolutely. Students are actively encouraged to submit their work to national and international film festivals, and faculty provide guidance on submission strategies and requirements."
+            },
+            {
+              "q": "What careers can I pursue after this diploma?",
+              "a": "Graduates work as film directors, assistant directors, cinematographers, editors, screenwriters, documentary filmmakers, corporate video producers, and digital content creators for OTT platforms."
+            }
+          ],
+          "tabs": {
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Film Production Excellence",
+                  "text": "Produce graduates skilled in all phases of film production — development, pre-production, production, post-production, and distribution."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Storytelling and Narrative Craft",
+                  "text": "Develop strong storytelling and narrative abilities for feature films, short films, documentaries, and digital content."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Industry Integration",
+                  "text": "Prepare graduates for professional careers in film, OTT platforms, advertising, and the broader screen media industry."
+                },
+                {
+                  "id": "PEO 4",
+                  "title": "Creative and Technical Mastery",
+                  "text": "Combine creative vision with technical proficiency in cinematography, editing, sound design, and visual storytelling tools."
+                }
+              ],
+              "POs": [
+                {
+                  "id": "PO 1",
+                  "title": "Production Workflow",
+                  "text": "Manage all stages of film production from concept development and scripting through to final delivery."
+                },
+                {
+                  "id": "PO 2",
+                  "title": "Screenwriting",
+                  "text": "Write original screenplays, story treatments, and dialogue that meet professional industry standards."
+                },
+                {
+                  "id": "PO 3",
+                  "title": "Direction",
+                  "text": "Direct actors, manage creative teams, and realise a unified artistic vision on set."
+                },
+                {
+                  "id": "PO 4",
+                  "title": "Cinematography and Lighting",
+                  "text": "Operate professional camera systems and design lighting setups for film and digital production."
+                },
+                {
+                  "id": "PO 5",
+                  "title": "Post-Production and Editing",
+                  "text": "Edit footage, grade colour, and mix sound using industry-standard software including Premiere Pro and DaVinci Resolve."
+                },
+                {
+                  "id": "PO 6",
+                  "title": "Documentary and Non-Fiction",
+                  "text": "Research, shoot, and produce documentary films and non-fiction content for broadcast and digital platforms."
+                },
+                {
+                  "id": "PO 7",
+                  "title": "Collaborative Practice",
+                  "text": "Work effectively in creative production teams, respecting roles, timelines, and collaborative filmmaking processes."
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Short Film and Commercial Production",
+                  "text": "Direct, shoot, and produce short films and commercial content with professional-grade technical and creative quality."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Cinematography and Post-Production",
+                  "text": "Apply cinematography, non-linear editing, colour grading, and sound design techniques for screen media."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Script and Story Development",
+                  "text": "Develop original stories, adapt existing works, and write professional-quality scripts for film and digital platforms."
+                }
+              ]
+            },
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Introduction to Film Language and Grammar",
+                    "code": "FLM5001"
+                  },
+                  {
+                    "name": "Screenwriting and Story Development",
+                    "code": "FLM5002"
+                  },
+                  {
+                    "name": "Cinematography and Camera Techniques",
+                    "code": "FLM5003"
+                  },
+                  {
+                    "name": "Lighting Design for Film",
+                    "code": "FLM5004"
+                  },
+                  {
+                    "name": "Direction and Scene Construction",
+                    "code": "FLM5005"
+                  },
+                  {
+                    "name": "Sound Recording and Production Sound",
+                    "code": "FLM5006"
+                  },
+                  {
+                    "name": "Film History and Aesthetics",
+                    "code": "FLM5007"
+                  },
+                  {
+                    "name": "Workshop: Short Film Production – I",
+                    "code": "FLM5008"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Advanced Screenwriting and Adaptation",
+                    "code": "FLM5009"
+                  },
+                  {
+                    "name": "Non-Linear Editing (Premiere Pro / DaVinci Resolve)",
+                    "code": "FLM5010"
+                  },
+                  {
+                    "name": "Colour Grading and Visual Post-Production",
+                    "code": "FLM5011"
+                  },
+                  {
+                    "name": "Documentary Film Production",
+                    "code": "FLM5012"
+                  },
+                  {
+                    "name": "Production Design and Art Direction",
+                    "code": "FLM5013"
+                  },
+                  {
+                    "name": "Film Distribution and OTT Platforms",
+                    "code": "FLM5014"
+                  },
+                  {
+                    "name": "Workshop: Final Film Project",
+                    "code": "FLM5015"
+                  }
+                ]
+              }
+            ]
+          }
         }
       ],
       "hero": {
@@ -28757,7 +29308,95 @@
                   }
                 ]
               }
-            ]
+            ],
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Interdisciplinary Understanding",
+                  "text": "Integrate psychological and economic frameworks to analyse human behaviour, decision-making, and social systems at individual and societal levels."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Research Competence",
+                  "text": "Design and conduct rigorous research using quantitative and qualitative methods across behavioural economics, psychology, and social sciences."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Professional Versatility",
+                  "text": "Prepare graduates for careers in counselling, policy analysis, human resources, banking, public administration, and academic research."
+                },
+                {
+                  "id": "PEO 4",
+                  "title": "Ethical and Social Responsibility",
+                  "text": "Apply ethical standards, cultural sensitivity, and social awareness in psychological practice, economic analysis, and community engagement."
+                },
+                {
+                  "id": "PEO 5",
+                  "title": "Academic Advancement",
+                  "text": "Build the analytical and intellectual foundation required for postgraduate studies in psychology, economics, or social sciences."
+                }
+              ],
+              "POs": [
+                {
+                  "id": "PO 1",
+                  "title": "Psychological Theories",
+                  "text": "Apply major psychological theories — cognitive, behavioural, developmental, and social — to understand human thought, emotion, and behaviour."
+                },
+                {
+                  "id": "PO 2",
+                  "title": "Economic Principles",
+                  "text": "Analyse micro and macroeconomic principles and their application in real-world markets, public policy, and organisational contexts."
+                },
+                {
+                  "id": "PO 3",
+                  "title": "Research Methods",
+                  "text": "Design and conduct research using appropriate quantitative and qualitative methodologies in social science contexts."
+                },
+                {
+                  "id": "PO 4",
+                  "title": "Statistical Analysis",
+                  "text": "Apply statistical tools and software for data collection, analysis, and interpretation in research projects."
+                },
+                {
+                  "id": "PO 5",
+                  "title": "Behavioural Economics",
+                  "text": "Understand the intersection of psychology and economics in explaining decision-making, cognitive biases, and consumer behaviour."
+                },
+                {
+                  "id": "PO 6",
+                  "title": "Communication and Presentation",
+                  "text": "Communicate complex social and behavioural insights effectively through written reports, presentations, and academic essays."
+                },
+                {
+                  "id": "PO 7",
+                  "title": "Ethics in Research and Practice",
+                  "text": "Apply ethical principles in research design, psychological assessment, and professional interactions."
+                },
+                {
+                  "id": "PO 8",
+                  "title": "Critical Thinking",
+                  "text": "Demonstrate critical analysis, problem-solving, and evidence-based reasoning in interdisciplinary academic and professional contexts."
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Psychological Assessment and Practice",
+                  "text": "Apply psychological assessment tools, counselling micro-skills, and behavioural observation techniques in professional and research contexts."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Economic Analysis and Policy",
+                  "text": "Analyse economic data, model behavioural patterns, and evaluate policy implications in consumer, market, and public sector contexts."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Behavioural Insights in Practice",
+                  "text": "Integrate behavioural economics, cognitive psychology, and social theory to address real-world challenges in wellbeing, finance, and governance."
+                }
+              ]
+            }
           },
           "highlights": [
             {
@@ -32630,16 +33269,308 @@
             "note": ""
           },
           "tabs": {
-            "curriculum": [],
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Introduction to Theatre and Performance",
+                    "code": "TAP1001"
+                  },
+                  {
+                    "name": "History of World Theatre",
+                    "code": "TAP1002"
+                  },
+                  {
+                    "name": "General Psychology",
+                    "code": "TAP1003"
+                  },
+                  {
+                    "name": "Social Psychology",
+                    "code": "TAP1004"
+                  },
+                  {
+                    "name": "Voice and Body Work",
+                    "code": "TAP1005"
+                  },
+                  {
+                    "name": "Communication Skills",
+                    "code": "ENG1001"
+                  },
+                  {
+                    "name": "Environmental Studies",
+                    "code": "EVS1001"
+                  },
+                  {
+                    "name": "Industry Readiness Programme – I",
+                    "code": "PPS1001"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Acting Techniques and Methodology",
+                    "code": "TAP1006"
+                  },
+                  {
+                    "name": "Indian Theatre Traditions",
+                    "code": "TAP1007"
+                  },
+                  {
+                    "name": "Developmental Psychology",
+                    "code": "TAP1008"
+                  },
+                  {
+                    "name": "Cognitive Psychology",
+                    "code": "TAP1009"
+                  },
+                  {
+                    "name": "Script Reading and Analysis",
+                    "code": "TAP1010"
+                  },
+                  {
+                    "name": "Life Skills",
+                    "code": "LSK1001"
+                  },
+                  {
+                    "name": "Industry Readiness Programme – II",
+                    "code": "PPS1002"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Directing for Stage",
+                    "code": "TAP2001"
+                  },
+                  {
+                    "name": "Playwriting and Dramaturgy",
+                    "code": "TAP2002"
+                  },
+                  {
+                    "name": "Abnormal Psychology",
+                    "code": "TAP2003"
+                  },
+                  {
+                    "name": "Personality and Individual Differences",
+                    "code": "TAP2004"
+                  },
+                  {
+                    "name": "Stage Design, Costumes, and Lighting",
+                    "code": "TAP2005"
+                  },
+                  {
+                    "name": "Research Methods in Social Sciences",
+                    "code": "TAP2006"
+                  },
+                  {
+                    "name": "Industry Readiness Programme – III",
+                    "code": "PPS2001"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "Advanced Acting: Classical and Contemporary",
+                    "code": "TAP2007"
+                  },
+                  {
+                    "name": "Contemporary Theatre and Devised Performance",
+                    "code": "TAP2008"
+                  },
+                  {
+                    "name": "Counselling Psychology",
+                    "code": "TAP2009"
+                  },
+                  {
+                    "name": "Clinical Psychology",
+                    "code": "TAP2010"
+                  },
+                  {
+                    "name": "Applied Theatre: Education and Community",
+                    "code": "TAP2011"
+                  },
+                  {
+                    "name": "Statistics for Psychology",
+                    "code": "TAP2012"
+                  },
+                  {
+                    "name": "Industry Readiness Programme – IV",
+                    "code": "PPS2002"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 5",
+                "modules": [
+                  {
+                    "name": "Theatre Production Management",
+                    "code": "TAP3001"
+                  },
+                  {
+                    "name": "Drama Therapy and Applied Arts",
+                    "code": "TAP3002"
+                  },
+                  {
+                    "name": "Health and Positive Psychology",
+                    "code": "TAP3003"
+                  },
+                  {
+                    "name": "Elective – Performance Psychology / Arts Administration",
+                    "code": "TAP3004"
+                  },
+                  {
+                    "name": "Internship in Theatre or Psychology",
+                    "code": "TAP3005"
+                  },
+                  {
+                    "name": "Project Work – I",
+                    "code": "TAP3006"
+                  },
+                  {
+                    "name": "Industry Readiness Programme – V",
+                    "code": "PPS3001"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 6",
+                "modules": [
+                  {
+                    "name": "Advanced Directing and Stage Production",
+                    "code": "TAP3007"
+                  },
+                  {
+                    "name": "Psychology of Creativity and Performance",
+                    "code": "TAP3008"
+                  },
+                  {
+                    "name": "Elective – Community Theatre / Organisational Psychology",
+                    "code": "TAP3009"
+                  },
+                  {
+                    "name": "Final Production or Research Project",
+                    "code": "TAP3010"
+                  },
+                  {
+                    "name": "Dissertation",
+                    "code": "TAP3011"
+                  },
+                  {
+                    "name": "Industry Readiness Programme – VI",
+                    "code": "PPS3002"
+                  }
+                ]
+              }
+            ],
             "outcomes": {
               "PEOs": [],
               "POs": [],
               "PSOs": []
             }
           },
-          "highlights": [],
-          "careers": [],
-          "faq": []
+          "highlights": [
+            {
+              "title": "Unique Interdisciplinary Curriculum",
+              "description": "Combines the study of theatre performance, directing, and playwriting with psychology — creating graduates who understand both human behaviour and artistic expression."
+            },
+            {
+              "title": "Practical Performance Training",
+              "description": "Regular acting workshops, stage productions, voice training, and body movement sessions develop hands-on performance skills throughout the programme."
+            },
+            {
+              "title": "Drama Therapy Integration",
+              "description": "Applied modules in drama therapy and community theatre prepare students for careers at the intersection of arts and mental health."
+            },
+            {
+              "title": "Psychology Research Skills",
+              "description": "Training in psychological research methods, statistics, and assessment tools opens doors to academic and applied research pathways."
+            },
+            {
+              "title": "Live Stage Productions",
+              "description": "Students direct and perform in live productions each year, building a strong portfolio of practical theatre experience."
+            },
+            {
+              "title": "Civil Services and Public Sector Readiness",
+              "description": "Strong grounding in psychology, sociology, and communication equips graduates for civil services, counselling, HR, and public administration roles."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Theatre and Performing Arts",
+              "roles": [
+                "Theatre Actor",
+                "Stage Director",
+                "Playwright and Script Writer",
+                "Drama Teacher",
+                "Performing Arts Coordinator"
+              ]
+            },
+            {
+              "category": "Psychology and Counselling",
+              "roles": [
+                "Counselling Assistant",
+                "Community Mental Health Worker",
+                "School Counsellor (after PG qualification)",
+                "HR and Employee Wellness Associate"
+              ]
+            },
+            {
+              "category": "Applied and Community Theatre",
+              "roles": [
+                "Drama Therapist (after postgraduate training)",
+                "Community Theatre Practitioner",
+                "Arts-in-Education Facilitator",
+                "Theatre for Development Coordinator"
+              ]
+            },
+            {
+              "category": "Media and Communication",
+              "roles": [
+                "Actor (Film / TV / OTT)",
+                "Voice-Over Artist",
+                "Content Writer and Storyteller",
+                "Corporate Trainer and Facilitator"
+              ]
+            },
+            {
+              "category": "Education and Research",
+              "roles": [
+                "Lecturer (Theatre / Psychology)",
+                "Social Science Researcher",
+                "Child Development Specialist",
+                "Academic Tutor"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "What makes this programme different from a regular Theatre or Psychology degree?",
+              "a": "The interdisciplinary design combines rigorous training in both disciplines. Students gain practical performance skills alongside clinical psychological knowledge, making them uniquely versatile in creative, therapeutic, and research careers."
+            },
+            {
+              "q": "Is this programme suitable for students who want to become professional actors?",
+              "a": "Yes. The programme provides extensive acting, voice, and body movement training as well as stage production experience. Students can pursue acting professionally alongside psychology-based careers."
+            },
+            {
+              "q": "Can I pursue further studies in psychology after this degree?",
+              "a": "Yes. Graduates can apply for postgraduate programmes in psychology, counselling, applied behaviour analysis, or social work. Some universities may require specific prerequisite credits, so check individual programme requirements."
+            },
+            {
+              "q": "What is drama therapy?",
+              "a": "Drama therapy is a recognised form of psychotherapy that uses theatrical techniques — role-play, storytelling, improvisation, and performance — to support emotional wellbeing, communication, and personal development. It is practised in schools, hospitals, community centres, and rehabilitation settings."
+            },
+            {
+              "q": "Are internship opportunities included?",
+              "a": "Yes. Semester 5 includes an internship placement in either a theatre organisation or a psychology-related setting, providing valuable professional exposure before graduation."
+            }
+          ]
         },
         {
           "slug": "msc-psychology-child-clinical-counselling-industrial-psychology",
@@ -35467,7 +36398,74 @@
             "button": "Apply Now"
           },
           "tabs": {
-            "curriculum": [],
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Introduction to Bharatanatyam: History and Theory",
+                    "code": "DBN1001"
+                  },
+                  {
+                    "name": "Adavus – Basic Footwork and Hand Gestures",
+                    "code": "DBN1002"
+                  },
+                  {
+                    "name": "Jathis and Korvais",
+                    "code": "DBN1003"
+                  },
+                  {
+                    "name": "Abhinaya – Facial Expression and Navarasas",
+                    "code": "DBN1004"
+                  },
+                  {
+                    "name": "Indian Classical Music for Dancers",
+                    "code": "DBN1005"
+                  },
+                  {
+                    "name": "Tala and Rhythm Theory",
+                    "code": "DBN1006"
+                  },
+                  {
+                    "name": "Natya Shastra and Indian Cultural Heritage",
+                    "code": "DBN1007"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Alarippu and Jatiswaram",
+                    "code": "DBN1008"
+                  },
+                  {
+                    "name": "Shabdam and Varnam",
+                    "code": "DBN1009"
+                  },
+                  {
+                    "name": "Padam and Thillana",
+                    "code": "DBN1010"
+                  },
+                  {
+                    "name": "Advanced Abhinaya and Narrative Dance",
+                    "code": "DBN1011"
+                  },
+                  {
+                    "name": "Costume, Make-up, and Stage Craft",
+                    "code": "DBN1012"
+                  },
+                  {
+                    "name": "Choreography and Stage Presentation",
+                    "code": "DBN1013"
+                  },
+                  {
+                    "name": "Recital and Performance Viva",
+                    "code": "DBN1014"
+                  }
+                ]
+              }
+            ],
             "outcomes": {
               "PEOs": [],
               "POs": [],
@@ -35567,7 +36565,74 @@
             "button": "Apply Now"
           },
           "tabs": {
-            "curriculum": [],
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Introduction to Kathak: History and Gharanas",
+                    "code": "DKK1001"
+                  },
+                  {
+                    "name": "Basic Taals and Bols",
+                    "code": "DKK1002"
+                  },
+                  {
+                    "name": "Thaat and Aamad",
+                    "code": "DKK1003"
+                  },
+                  {
+                    "name": "Tatkaar – Footwork Techniques",
+                    "code": "DKK1004"
+                  },
+                  {
+                    "name": "Abhinaya and Emotional Expression",
+                    "code": "DKK1005"
+                  },
+                  {
+                    "name": "Hindustani Music for Dancers",
+                    "code": "DKK1006"
+                  },
+                  {
+                    "name": "Natya Shastra and Classical Dance Theory",
+                    "code": "DKK1007"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Tukda, Toda, and Paran",
+                    "code": "DKK1008"
+                  },
+                  {
+                    "name": "Chakkardar and Tihai",
+                    "code": "DKK1009"
+                  },
+                  {
+                    "name": "Kavitt and Bhajan",
+                    "code": "DKK1010"
+                  },
+                  {
+                    "name": "Thumri and Ghazal Abhinaya",
+                    "code": "DKK1011"
+                  },
+                  {
+                    "name": "Costume, Make-up, and Stage Presentation",
+                    "code": "DKK1012"
+                  },
+                  {
+                    "name": "Choreography and Composition",
+                    "code": "DKK1013"
+                  },
+                  {
+                    "name": "Recital and Performance Viva",
+                    "code": "DKK1014"
+                  }
+                ]
+              }
+            ],
             "outcomes": {
               "PEOs": [],
               "POs": [],
@@ -35667,7 +36732,74 @@
             "button": "Apply Now"
           },
           "tabs": {
-            "curriculum": [],
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Introduction to Kuchipudi: History and Tradition",
+                    "code": "DKP1001"
+                  },
+                  {
+                    "name": "Jathis and Adavus",
+                    "code": "DKP1002"
+                  },
+                  {
+                    "name": "Chollu and Korvai",
+                    "code": "DKP1003"
+                  },
+                  {
+                    "name": "Abhinaya and Sanchari Bhavas",
+                    "code": "DKP1004"
+                  },
+                  {
+                    "name": "Carnatic Music for Dancers",
+                    "code": "DKP1005"
+                  },
+                  {
+                    "name": "Natya Shastra and Dance Theory",
+                    "code": "DKP1006"
+                  },
+                  {
+                    "name": "Telugu and Sanskrit for Classical Dance",
+                    "code": "DKP1007"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Tarangam – Brass Plate Dance",
+                    "code": "DKP1008"
+                  },
+                  {
+                    "name": "Shabdam and Varnam",
+                    "code": "DKP1009"
+                  },
+                  {
+                    "name": "Padam and Javali",
+                    "code": "DKP1010"
+                  },
+                  {
+                    "name": "Drama Elements and Yakshagana in Kuchipudi",
+                    "code": "DKP1011"
+                  },
+                  {
+                    "name": "Costume, Make-up, and Stage Craft",
+                    "code": "DKP1012"
+                  },
+                  {
+                    "name": "Choreography and Stage Presentation",
+                    "code": "DKP1013"
+                  },
+                  {
+                    "name": "Recital and Performance Viva",
+                    "code": "DKP1014"
+                  }
+                ]
+              }
+            ],
             "outcomes": {
               "PEOs": [],
               "POs": [],
@@ -35767,7 +36899,74 @@
             "button": "Apply Now"
           },
           "tabs": {
-            "curriculum": [],
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Introduction to Mohiniyattam: History and Aesthetics",
+                    "code": "DMY1001"
+                  },
+                  {
+                    "name": "Cholkettu and Basic Adavus",
+                    "code": "DMY1002"
+                  },
+                  {
+                    "name": "Lasya Movement and Feminine Expressiveness",
+                    "code": "DMY1003"
+                  },
+                  {
+                    "name": "Abhinaya and Sanchari Bhavas",
+                    "code": "DMY1004"
+                  },
+                  {
+                    "name": "Carnatic Music for Mohiniyattam",
+                    "code": "DMY1005"
+                  },
+                  {
+                    "name": "Natya Shastra and Kerala Dance Traditions",
+                    "code": "DMY1006"
+                  },
+                  {
+                    "name": "Malayalam and Sanskrit for Classical Dance",
+                    "code": "DMY1007"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Varnam and Padam",
+                    "code": "DMY1008"
+                  },
+                  {
+                    "name": "Chollu and Korvai",
+                    "code": "DMY1009"
+                  },
+                  {
+                    "name": "Bhava and Rasa in Mohiniyattam",
+                    "code": "DMY1010"
+                  },
+                  {
+                    "name": "Swara Pallavi and Thillana",
+                    "code": "DMY1011"
+                  },
+                  {
+                    "name": "Costume, Make-up, and Stage Craft",
+                    "code": "DMY1012"
+                  },
+                  {
+                    "name": "Choreography and Stage Presentation",
+                    "code": "DMY1013"
+                  },
+                  {
+                    "name": "Recital and Performance Viva",
+                    "code": "DMY1014"
+                  }
+                ]
+              }
+            ],
             "outcomes": {
               "PEOs": [],
               "POs": [],
@@ -36194,7 +37393,7 @@
               "normal": "B.A. (Political Science &",
               "italic": "Sociology)"
             },
-            "description": "Discover the lyrical grace and expressive beauty of Mohiniyattam, the dance of the enchantress, at Presidency University.",
+            "description": "Explore the forces that shape societies and governments. This interdisciplinary programme combines political theory, governance, public policy, and sociology to prepare graduates for careers in civil services, public administration, research, law, and social development.",
             "breadcrumb": [
               "Home",
               "Schools",
@@ -36347,8 +37546,8 @@
             }
           ],
           "cta": {
-            "title": "Move with Graceful Elegance",
-            "subtitle": "Learn the art of Mohiniyattam at Presidency University.",
+            "title": "Shape Society Through Knowledge",
+            "subtitle": "Study Political Science & Sociology at Presidency University, Bangalore.",
             "button": "Apply Now"
           },
           "tabs": {
@@ -37340,7 +38539,95 @@
                   }
                 ]
               }
-            ]
+            ],
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Clinical Excellence",
+                  "text": "Produce physiotherapy graduates with strong clinical reasoning, diagnostic skills, and hands-on patient care capabilities across diverse rehabilitation settings."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Rehabilitation Expertise",
+                  "text": "Develop expertise in orthopaedic, neurological, cardiopulmonary, paediatric, and sports physiotherapy for comprehensive patient rehabilitation."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Research and Evidence-Based Practice",
+                  "text": "Contribute to physiotherapy research and apply evidence-based treatment protocols in clinical and community health contexts."
+                },
+                {
+                  "id": "PEO 4",
+                  "title": "Professional and Ethical Commitment",
+                  "text": "Uphold professional ethics, patient dignity, informed consent, and safety standards in all clinical interactions."
+                },
+                {
+                  "id": "PEO 5",
+                  "title": "Leadership in Allied Healthcare",
+                  "text": "Take leadership roles in hospitals, sports academies, rehabilitation centres, and community health programmes."
+                }
+              ],
+              "POs": [
+                {
+                  "id": "PO 1",
+                  "title": "Clinical Assessment",
+                  "text": "Assess and evaluate musculoskeletal, neurological, and cardiopulmonary conditions using standardised clinical tools and outcome measures."
+                },
+                {
+                  "id": "PO 2",
+                  "title": "Treatment Planning",
+                  "text": "Design, implement, and progress individualised physiotherapy treatment plans based on patient assessment and evidence-based guidelines."
+                },
+                {
+                  "id": "PO 3",
+                  "title": "Therapeutic Interventions",
+                  "text": "Apply manual therapy, electrotherapy, hydrotherapy, and exercise-based interventions safely and effectively for functional recovery."
+                },
+                {
+                  "id": "PO 4",
+                  "title": "Clinical Anatomy and Biomechanics",
+                  "text": "Apply in-depth knowledge of anatomy, physiology, kinesiology, and biomechanics in clinical reasoning and treatment decisions."
+                },
+                {
+                  "id": "PO 5",
+                  "title": "Patient Communication",
+                  "text": "Demonstrate therapeutic communication skills with patients, families, and caregivers across diverse cultural and linguistic backgrounds."
+                },
+                {
+                  "id": "PO 6",
+                  "title": "Multidisciplinary Collaboration",
+                  "text": "Work collaboratively within multidisciplinary healthcare teams including physicians, nurses, occupational therapists, and orthotists."
+                },
+                {
+                  "id": "PO 7",
+                  "title": "Research and Continuous Learning",
+                  "text": "Conduct and critically appraise physiotherapy research to inform and improve clinical practice."
+                },
+                {
+                  "id": "PO 8",
+                  "title": "Professional Ethics",
+                  "text": "Uphold professional ethics, patient confidentiality, and informed consent in all aspects of physiotherapy practice."
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Orthopaedic and Neurological Rehabilitation",
+                  "text": "Perform comprehensive physiotherapy assessments and rehabilitation programmes for orthopaedic, neurological, and sports-related conditions."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Evidence-Based Physiotherapy",
+                  "text": "Apply evidence-based physiotherapy protocols and outcome measures in hospital, sports, geriatric, and community health settings."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Therapeutic Modalities",
+                  "text": "Use electrotherapy modalities, manual therapy techniques, and therapeutic exercise progressions to restore function and minimise disability."
+                }
+              ]
+            }
           },
           "highlights": [
             {
@@ -37860,9 +39147,477 @@
             "description": "",
             "note": ""
           },
-          "highlights": [],
-          "careers": [],
-          "faq": []
+          "highlights": [
+            {
+              "title": "Comprehensive Diagnostic Training",
+              "description": "Covers haematology, clinical biochemistry, microbiology, immunology, histopathology, and blood banking — providing complete coverage of diagnostic laboratory science."
+            },
+            {
+              "title": "Hands-On Laboratory Practice",
+              "description": "Extensive practical sessions in fully equipped clinical labs from the first year, with four progressive clinical internship placements in hospitals."
+            },
+            {
+              "title": "Advanced Instrumentation",
+              "description": "Hands-on training with automated analysers, haematology counters, flow cytometers, PCR machines, and laboratory information systems used in top diagnostic centres."
+            },
+            {
+              "title": "NABL-Aligned Quality Standards",
+              "description": "Curriculum incorporates laboratory quality management, NABL accreditation standards, and ISO compliance — preparing graduates for quality-focused laboratory roles."
+            },
+            {
+              "title": "Molecular Diagnostics Module",
+              "description": "Dedicated training in molecular biology, PCR, and next-generation diagnostic techniques reflecting the future of precision laboratory medicine."
+            },
+            {
+              "title": "Strong Hospital Placement Network",
+              "description": "Clinical internships in affiliated hospitals and diagnostic centres provide real-world patient sample handling and multi-department exposure."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Hospital and Clinical Laboratories",
+              "roles": [
+                "Medical Laboratory Technologist",
+                "Clinical Biochemistry Technician",
+                "Haematology Laboratory Analyst",
+                "Histopathology Technician",
+                "Blood Bank Technician"
+              ]
+            },
+            {
+              "category": "Diagnostic Centres and Pathology",
+              "roles": [
+                "Pathology Laboratory Technologist",
+                "Senior Laboratory Analyst",
+                "Phlebotomist",
+                "Immunology and Serology Technician"
+              ]
+            },
+            {
+              "category": "Research and Molecular Diagnostics",
+              "roles": [
+                "Molecular Biology Research Technician",
+                "Genomics Laboratory Assistant",
+                "Clinical Research Associate (CRA)",
+                "Public Health Laboratory Technologist"
+              ]
+            },
+            {
+              "category": "Government and Public Health",
+              "roles": [
+                "Government Hospital Laboratory Technician",
+                "Public Health Laboratory Officer",
+                "Epidemiology Field Laboratory Technician"
+              ]
+            },
+            {
+              "category": "Industry and Pharmaceutical",
+              "roles": [
+                "Quality Control Analyst",
+                "Biomedical Sales and Technical Support",
+                "Pharmaceutical Laboratory Technician",
+                "Reagent and Diagnostics Industry Specialist"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "What is the duration of the B.Sc. MLT programme?",
+              "a": "The programme is four years full-time, structured across eight semesters with progressive clinical internship placements integrated from the fifth semester onwards."
+            },
+            {
+              "q": "What laboratory departments will I train in?",
+              "a": "Students receive training across haematology, clinical biochemistry, microbiology, immunology and serology, histopathology and cytology, and blood banking and transfusion medicine."
+            },
+            {
+              "q": "Is a clinical internship mandatory?",
+              "a": "Yes. Four clinical internship rotations are integrated into the programme from Semester 5 through Semester 8, providing supervised practical experience in affiliated hospital laboratories."
+            },
+            {
+              "q": "What are the career prospects after B.Sc. MLT?",
+              "a": "Graduates work in hospital clinical labs, diagnostic centres, public health laboratories, research institutions, pharmaceutical QC departments, and biomedical companies. Government laboratory positions are also available through state and central recruitment."
+            },
+            {
+              "q": "Can I pursue postgraduate studies after this degree?",
+              "a": "Yes. Graduates can pursue M.Sc. in Medical Laboratory Technology, Clinical Biochemistry, Microbiology, or related disciplines, as well as MBA in Hospital Administration."
+            },
+            {
+              "q": "What registration is required to practise as an MLT professional?",
+              "a": "In India, MLT professionals are registered under the Allied and Healthcare Professions Act, 2021. State-level paramedical councils may also require registration depending on the location of practice."
+            }
+          ],
+          "tabs": {
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Diagnostic Laboratory Expertise",
+                  "text": "Develop skilled medical laboratory technologists capable of performing complex diagnostic tests that directly inform clinical decisions and patient treatment."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Technology and Instrumentation",
+                  "text": "Prepare graduates to work proficiently with advanced laboratory instruments, automated analysers, and emerging diagnostic platforms."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Patient Safety and Quality Assurance",
+                  "text": "Uphold laboratory safety protocols, quality control standards, and accreditation requirements in all laboratory operations."
+                },
+                {
+                  "id": "PEO 4",
+                  "title": "Research and Continuous Learning",
+                  "text": "Contribute to laboratory medicine research and continuously adopt evolving technologies and diagnostic methodologies."
+                },
+                {
+                  "id": "PEO 5",
+                  "title": "Healthcare Team Integration",
+                  "text": "Work effectively alongside clinicians, pathologists, and healthcare professionals to support accurate diagnosis and patient management."
+                }
+              ],
+              "POs": [
+                {
+                  "id": "PO 1",
+                  "title": "Laboratory Testing",
+                  "text": "Perform routine and specialised tests in haematology, clinical biochemistry, microbiology, immunology, and histopathology."
+                },
+                {
+                  "id": "PO 2",
+                  "title": "Instrumentation",
+                  "text": "Operate, calibrate, and maintain laboratory instruments including biochemistry analysers, haematology counters, and microscopes."
+                },
+                {
+                  "id": "PO 3",
+                  "title": "Specimen Handling",
+                  "text": "Collect, process, transport, and store biological specimens following standard pre-analytical protocols and safety guidelines."
+                },
+                {
+                  "id": "PO 4",
+                  "title": "Quality Control",
+                  "text": "Apply quality management systems, internal quality control procedures, and external quality assurance programmes in laboratory practice."
+                },
+                {
+                  "id": "PO 5",
+                  "title": "Result Interpretation",
+                  "text": "Interpret laboratory results accurately in the context of clinical presentations and communicate findings to healthcare teams."
+                },
+                {
+                  "id": "PO 6",
+                  "title": "Pathophysiology",
+                  "text": "Apply knowledge of disease processes and pathophysiology to understand the significance of abnormal laboratory findings."
+                },
+                {
+                  "id": "PO 7",
+                  "title": "Laboratory Safety",
+                  "text": "Implement biosafety levels, chemical safety protocols, and infection control measures in laboratory environments."
+                },
+                {
+                  "id": "PO 8",
+                  "title": "Professional Ethics",
+                  "text": "Demonstrate ethical responsibility in handling patient data, biological samples, and confidential diagnostic information."
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Clinical Laboratory Diagnostics",
+                  "text": "Execute diagnostic procedures in haematology, clinical biochemistry, microbiology, serology, and histopathology with accuracy and precision."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Laboratory Quality and Safety",
+                  "text": "Apply laboratory quality management systems, biosafety protocols, and accreditation standards in clinical and research laboratory settings."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Diagnostic Support",
+                  "text": "Assist in disease diagnosis and patient monitoring through accurate laboratory testing, result reporting, and data interpretation in support of clinical care."
+                }
+              ]
+            },
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Human Anatomy and Physiology – I",
+                    "code": "MLT1001"
+                  },
+                  {
+                    "name": "Fundamentals of Biochemistry",
+                    "code": "MLT1002"
+                  },
+                  {
+                    "name": "Medical Microbiology – I",
+                    "code": "MLT1003"
+                  },
+                  {
+                    "name": "Introduction to Pathology",
+                    "code": "MLT1004"
+                  },
+                  {
+                    "name": "Introduction to Clinical Laboratory Practice",
+                    "code": "MLT1005"
+                  },
+                  {
+                    "name": "Laboratory Safety and Techniques",
+                    "code": "MLT1006"
+                  },
+                  {
+                    "name": "Communication Skills",
+                    "code": "ENG1001"
+                  },
+                  {
+                    "name": "Industry Readiness Programme – I",
+                    "code": "PPS1001"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Human Anatomy and Physiology – II",
+                    "code": "MLT1007"
+                  },
+                  {
+                    "name": "Applied Biochemistry",
+                    "code": "MLT1008"
+                  },
+                  {
+                    "name": "Medical Microbiology – II",
+                    "code": "MLT1009"
+                  },
+                  {
+                    "name": "Haematology – I",
+                    "code": "MLT1010"
+                  },
+                  {
+                    "name": "Parasitology and Mycology",
+                    "code": "MLT1011"
+                  },
+                  {
+                    "name": "Immunology and Serology – I",
+                    "code": "MLT1012"
+                  },
+                  {
+                    "name": "Life Skills",
+                    "code": "LSK1001"
+                  },
+                  {
+                    "name": "Industry Readiness Programme – II",
+                    "code": "PPS1002"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Clinical Biochemistry – I",
+                    "code": "MLT2001"
+                  },
+                  {
+                    "name": "Haematology – II",
+                    "code": "MLT2002"
+                  },
+                  {
+                    "name": "Histopathology and Cytology – I",
+                    "code": "MLT2003"
+                  },
+                  {
+                    "name": "Blood Banking and Transfusion Medicine – I",
+                    "code": "MLT2004"
+                  },
+                  {
+                    "name": "Immunology and Serology – II",
+                    "code": "MLT2005"
+                  },
+                  {
+                    "name": "Molecular Biology and Genetics – I",
+                    "code": "MLT2006"
+                  },
+                  {
+                    "name": "Research Methods in Health Sciences",
+                    "code": "MLT2007"
+                  },
+                  {
+                    "name": "Industry Readiness Programme – III",
+                    "code": "PPS2001"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "Clinical Biochemistry – II",
+                    "code": "MLT2008"
+                  },
+                  {
+                    "name": "Haematology – III",
+                    "code": "MLT2009"
+                  },
+                  {
+                    "name": "Histopathology and Cytology – II",
+                    "code": "MLT2010"
+                  },
+                  {
+                    "name": "Blood Banking and Transfusion Medicine – II",
+                    "code": "MLT2011"
+                  },
+                  {
+                    "name": "Advanced Clinical Microbiology",
+                    "code": "MLT2012"
+                  },
+                  {
+                    "name": "Laboratory Quality Management – I",
+                    "code": "MLT2013"
+                  },
+                  {
+                    "name": "Biostatistics and Epidemiology",
+                    "code": "MLT2014"
+                  },
+                  {
+                    "name": "Industry Readiness Programme – IV",
+                    "code": "PPS2002"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 5",
+                "modules": [
+                  {
+                    "name": "Advanced Clinical Biochemistry",
+                    "code": "MLT3001"
+                  },
+                  {
+                    "name": "Advanced Haematology and Coagulation",
+                    "code": "MLT3002"
+                  },
+                  {
+                    "name": "Molecular Diagnostics",
+                    "code": "MLT3003"
+                  },
+                  {
+                    "name": "Endocrinology and Hormonal Assays",
+                    "code": "MLT3004"
+                  },
+                  {
+                    "name": "Laboratory Quality Management – II",
+                    "code": "MLT3005"
+                  },
+                  {
+                    "name": "Hospital Infection Control",
+                    "code": "MLT3006"
+                  },
+                  {
+                    "name": "Clinical Internship – I",
+                    "code": "MLT3007"
+                  },
+                  {
+                    "name": "Industry Readiness Programme – V",
+                    "code": "PPS3001"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 6",
+                "modules": [
+                  {
+                    "name": "Advanced Immunology and Autoimmune Disorders",
+                    "code": "MLT3008"
+                  },
+                  {
+                    "name": "Advanced Histopathology and Cytopathology",
+                    "code": "MLT3009"
+                  },
+                  {
+                    "name": "Point-of-Care Testing and Rapid Diagnostics",
+                    "code": "MLT3010"
+                  },
+                  {
+                    "name": "Laboratory Information Systems",
+                    "code": "MLT3011"
+                  },
+                  {
+                    "name": "Clinical Internship – II",
+                    "code": "MLT3012"
+                  },
+                  {
+                    "name": "Project Work – I",
+                    "code": "MLT3013"
+                  },
+                  {
+                    "name": "Industry Readiness Programme – VI",
+                    "code": "PPS3002"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 7",
+                "modules": [
+                  {
+                    "name": "Elective I – Molecular Pathology / Transfusion Medicine",
+                    "code": "MLT4001"
+                  },
+                  {
+                    "name": "Advanced Microbiology and Antimicrobial Resistance",
+                    "code": "MLT4002"
+                  },
+                  {
+                    "name": "Laboratory Accreditation and NABL Standards",
+                    "code": "MLT4003"
+                  },
+                  {
+                    "name": "Research Methodology",
+                    "code": "MLT4004"
+                  },
+                  {
+                    "name": "Clinical Internship – III",
+                    "code": "MLT4005"
+                  },
+                  {
+                    "name": "Project Work – II",
+                    "code": "MLT4006"
+                  },
+                  {
+                    "name": "Industry Readiness Programme – VII",
+                    "code": "PPS4001"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 8",
+                "modules": [
+                  {
+                    "name": "Elective II – Cytogenetics / Flow Cytometry / Advanced Serology",
+                    "code": "MLT4007"
+                  },
+                  {
+                    "name": "Hospital Laboratory Administration and Management",
+                    "code": "MLT4008"
+                  },
+                  {
+                    "name": "Clinical Internship – IV",
+                    "code": "MLT4009"
+                  },
+                  {
+                    "name": "Final Project and Dissertation",
+                    "code": "MLT4010"
+                  },
+                  {
+                    "name": "Comprehensive Examination",
+                    "code": "MLT4011"
+                  },
+                  {
+                    "name": "Industry Readiness Programme – VIII",
+                    "code": "PPS4002"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "slug": "bsc-cct",
@@ -37878,7 +39633,7 @@
               "normal": "B.Sc",
               "italic": "Cardiac Care Technology (CCT)"
             },
-            "description": "Unlock the secrets of disease diagnosis. Our MLT program trains technologists to perform complex laboratory tests that inform clinical decisions and patient treatment.",
+            "description": "Train to save lives at the heart of modern medicine. This four-year programme prepares you as a skilled Cardiac Care Technologist — operating ECG, echocardiography, and cardiac monitoring equipment under the guidance of cardiologists in hospitals and cardiac care units.",
             "breadcrumb": [
               "Home",
               "Schools",
@@ -38336,9 +40091,407 @@
             "description": "",
             "note": ""
           },
-          "highlights": [],
-          "careers": [],
-          "faq": []
+          "highlights": [
+            {
+              "title": "Critical Care and ICU Training",
+              "description": "Hands-on training in mechanical ventilation, arterial blood gas analysis, and cardiopulmonary monitoring prepares graduates for high-demand ICU and critical care roles."
+            },
+            {
+              "title": "Specialised Respiratory Equipment",
+              "description": "Students train on mechanical ventilators, spirometers, nebulisers, high-flow oxygen systems, and sleep study equipment used in modern hospitals."
+            },
+            {
+              "title": "Neonatal and Paediatric Focus",
+              "description": "Dedicated modules in neonatal and paediatric respiratory care — one of the most specialised and sought-after areas in allied health."
+            },
+            {
+              "title": "Clinical Internship in Hospitals",
+              "description": "Progressive clinical internship placements in ICU, HDU, pulmonology, and emergency departments provide real-world patient care experience."
+            },
+            {
+              "title": "Growing Demand Across India",
+              "description": "With rising incidences of COPD, asthma, and post-COVID complications, trained respiratory care technologists are in acute demand across hospitals and rehabilitation centres."
+            },
+            {
+              "title": "BLS and Emergency Response Certified",
+              "description": "All students complete Basic Life Support (BLS) and Cardiopulmonary Resuscitation (CPR) certification as part of the core curriculum."
+            }
+          ],
+          "careers": [
+            {
+              "category": "Hospital and Critical Care",
+              "roles": [
+                "Respiratory Care Technologist",
+                "ICU Respiratory Therapist",
+                "Ventilator Management Specialist",
+                "Cardiopulmonary Technician",
+                "Emergency Respiratory Support Technician"
+              ]
+            },
+            {
+              "category": "Pulmonology and Diagnostics",
+              "roles": [
+                "Pulmonary Function Testing (PFT) Technician",
+                "Sleep Lab Technologist (Polysomnography)",
+                "Bronchoscopy Assistance Technician",
+                "Respiratory Diagnostic Specialist"
+              ]
+            },
+            {
+              "category": "Neonatal and Paediatric Care",
+              "roles": [
+                "Neonatal ICU (NICU) Respiratory Therapist",
+                "Paediatric Respiratory Care Specialist",
+                "Neonatal Ventilation Technician"
+              ]
+            },
+            {
+              "category": "Rehabilitation and Community Health",
+              "roles": [
+                "Pulmonary Rehabilitation Therapist",
+                "Home Care Ventilation Specialist",
+                "Respiratory Health Educator",
+                "COPD and Asthma Management Coordinator"
+              ]
+            },
+            {
+              "category": "Industry and Research",
+              "roles": [
+                "Medical Equipment Sales and Support (Respiratory Devices)",
+                "Clinical Research Associate — Pulmonology Trials",
+                "Respiratory Equipment Trainer",
+                "Public Health Respiratory Programme Officer"
+              ]
+            }
+          ],
+          "faq": [
+            {
+              "q": "What is Respiratory Care Technology?",
+              "a": "Respiratory Care Technology is an allied health discipline focused on the assessment, treatment, and management of patients with breathing disorders and cardiopulmonary conditions. Respiratory Care Technologists work in ICUs, pulmonology wards, NICUs, and sleep labs."
+            },
+            {
+              "q": "What is the duration of this programme?",
+              "a": "The B.Sc. Respiratory Care Technology programme is three years full-time, structured across six semesters with progressive clinical internship placements integrated from Semester 4."
+            },
+            {
+              "q": "What settings will I work in during clinical internship?",
+              "a": "Clinical internship rotations cover ICU, HDU, pulmonology outpatient departments, emergency departments, neonatal ICU, and sleep laboratories in affiliated hospitals."
+            },
+            {
+              "q": "Is there demand for RCT professionals in India?",
+              "a": "Yes, significantly. Post-COVID, the demand for trained respiratory care professionals has grown rapidly. Hospitals across India are actively recruiting RCT graduates for ICU expansion, pulmonology departments, and home ventilation programmes."
+            },
+            {
+              "q": "Can I pursue postgraduate studies after B.Sc. RCT?",
+              "a": "Yes. Graduates can pursue M.Sc. in Respiratory Therapy or related health sciences, as well as postgraduate diplomas in Critical Care, Pulmonology, or Hospital Administration."
+            },
+            {
+              "q": "What certifications are included in the programme?",
+              "a": "All students complete Basic Life Support (BLS) and CPR certification during the programme. Additional certifications in advanced ventilator management and pulmonary function testing are also covered."
+            }
+          ],
+          "tabs": {
+            "outcomes": {
+              "PEOs": [
+                {
+                  "id": "PEO 1",
+                  "title": "Respiratory Care Competence",
+                  "text": "Train graduates in comprehensive respiratory assessment, therapeutic interventions, and critical care ventilation management for diverse patient populations."
+                },
+                {
+                  "id": "PEO 2",
+                  "title": "Clinical Technology Proficiency",
+                  "text": "Develop proficiency in operating mechanical ventilators, spirometers, nebulisers, and other respiratory therapy equipment in ICU and ward settings."
+                },
+                {
+                  "id": "PEO 3",
+                  "title": "Patient-Centred Care",
+                  "text": "Provide compassionate, evidence-based respiratory care that prioritises patient safety, dignity, and therapeutic outcomes across all age groups."
+                },
+                {
+                  "id": "PEO 4",
+                  "title": "Research and Professional Development",
+                  "text": "Engage in respiratory medicine research and pursue continuous professional education to stay current with evolving clinical standards."
+                },
+                {
+                  "id": "PEO 5",
+                  "title": "Healthcare Team Integration",
+                  "text": "Collaborate effectively with pulmonologists, intensivists, and critical care teams to deliver coordinated respiratory therapy in hospital settings."
+                }
+              ],
+              "POs": [
+                {
+                  "id": "PO 1",
+                  "title": "Respiratory Assessment",
+                  "text": "Assess and monitor respiratory function using spirometry, arterial blood gas analysis, pulse oximetry, and clinical observation."
+                },
+                {
+                  "id": "PO 2",
+                  "title": "Therapeutic Interventions",
+                  "text": "Administer oxygen therapy, aerosol therapy, chest physiotherapy, and pulmonary rehabilitation programmes to patients with respiratory conditions."
+                },
+                {
+                  "id": "PO 3",
+                  "title": "Mechanical Ventilation",
+                  "text": "Set up, operate, and manage mechanical ventilators in ICU, emergency, and neonatal settings with appropriate monitoring and adjustment."
+                },
+                {
+                  "id": "PO 4",
+                  "title": "Airway Management",
+                  "text": "Assist in airway management procedures including endotracheal intubation support, suctioning, and tracheostomy care."
+                },
+                {
+                  "id": "PO 5",
+                  "title": "Pulmonary Physiology",
+                  "text": "Apply knowledge of pulmonary anatomy, physiology, and pathology to clinical reasoning and respiratory therapy decisions."
+                },
+                {
+                  "id": "PO 6",
+                  "title": "Emergency Response",
+                  "text": "Respond effectively to respiratory emergencies including acute respiratory failure, bronchospasm, and cardiopulmonary arrest in hospital settings."
+                },
+                {
+                  "id": "PO 7",
+                  "title": "Patient and Caregiver Education",
+                  "text": "Educate patients and caregivers on respiratory health, inhaler technique, smoking cessation, and self-management of chronic conditions."
+                },
+                {
+                  "id": "PO 8",
+                  "title": "Equipment Maintenance and Safety",
+                  "text": "Maintain respiratory therapy equipment, conduct safety checks, and adhere to infection control and biomedical equipment protocols."
+                }
+              ],
+              "PSOs": [
+                {
+                  "id": "PSO 1",
+                  "title": "Critical Care Respiratory Therapy",
+                  "text": "Deliver comprehensive respiratory therapy including mechanical ventilation management, oxygen therapy, and chest physiotherapy in ICU, HDU, and ward settings."
+                },
+                {
+                  "id": "PSO 2",
+                  "title": "Pulmonary Diagnostics",
+                  "text": "Perform pulmonary function testing, sleep studies, and neonatal respiratory monitoring using specialised diagnostic equipment."
+                },
+                {
+                  "id": "PSO 3",
+                  "title": "Evidence-Based Respiratory Care",
+                  "text": "Apply evidence-based respiratory care protocols for patients with COPD, asthma, pneumonia, ARDS, and acute respiratory failure across hospital departments."
+                }
+              ]
+            },
+            "curriculum": [
+              {
+                "semester": "Semester 1",
+                "modules": [
+                  {
+                    "name": "Human Anatomy and Physiology – I",
+                    "code": "RCT1001"
+                  },
+                  {
+                    "name": "Fundamentals of Respiratory Care",
+                    "code": "RCT1002"
+                  },
+                  {
+                    "name": "Basic Medical Sciences",
+                    "code": "RCT1003"
+                  },
+                  {
+                    "name": "Introduction to Clinical Equipment",
+                    "code": "RCT1004"
+                  },
+                  {
+                    "name": "Medical Microbiology for Respiratory Care",
+                    "code": "RCT1005"
+                  },
+                  {
+                    "name": "Communication Skills",
+                    "code": "ENG1001"
+                  },
+                  {
+                    "name": "Environmental Studies",
+                    "code": "EVS1001"
+                  },
+                  {
+                    "name": "Industry Readiness Programme – I",
+                    "code": "PPS1001"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 2",
+                "modules": [
+                  {
+                    "name": "Human Anatomy and Physiology – II (Cardiopulmonary)",
+                    "code": "RCT1006"
+                  },
+                  {
+                    "name": "Oxygen Therapy and Aerosol Therapy",
+                    "code": "RCT1007"
+                  },
+                  {
+                    "name": "Pulmonary Function Testing – I",
+                    "code": "RCT1008"
+                  },
+                  {
+                    "name": "Introduction to Mechanical Ventilation",
+                    "code": "RCT1009"
+                  },
+                  {
+                    "name": "Pharmacology for Respiratory Care",
+                    "code": "RCT1010"
+                  },
+                  {
+                    "name": "Basic Cardiac Life Support (BLS/CPR)",
+                    "code": "RCT1011"
+                  },
+                  {
+                    "name": "Life Skills",
+                    "code": "LSK1001"
+                  },
+                  {
+                    "name": "Industry Readiness Programme – II",
+                    "code": "PPS1002"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 3",
+                "modules": [
+                  {
+                    "name": "Advanced Mechanical Ventilation",
+                    "code": "RCT2001"
+                  },
+                  {
+                    "name": "Arterial Blood Gas Analysis and Interpretation",
+                    "code": "RCT2002"
+                  },
+                  {
+                    "name": "Pulmonary Function Testing – II",
+                    "code": "RCT2003"
+                  },
+                  {
+                    "name": "Neonatal and Paediatric Respiratory Care",
+                    "code": "RCT2004"
+                  },
+                  {
+                    "name": "Cardiopulmonary Rehabilitation",
+                    "code": "RCT2005"
+                  },
+                  {
+                    "name": "Respiratory Disease Management",
+                    "code": "RCT2006"
+                  },
+                  {
+                    "name": "Research Methods in Allied Health",
+                    "code": "RCT2007"
+                  },
+                  {
+                    "name": "Industry Readiness Programme – III",
+                    "code": "PPS2001"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 4",
+                "modules": [
+                  {
+                    "name": "Critical Care and ICU Respiratory Management",
+                    "code": "RCT2008"
+                  },
+                  {
+                    "name": "Sleep Studies and Polysomnography",
+                    "code": "RCT2009"
+                  },
+                  {
+                    "name": "Advanced Cardiopulmonary Monitoring",
+                    "code": "RCT2010"
+                  },
+                  {
+                    "name": "Airway Management and Bronchoscopy Assistance",
+                    "code": "RCT2011"
+                  },
+                  {
+                    "name": "Biomedical Equipment Maintenance",
+                    "code": "RCT2012"
+                  },
+                  {
+                    "name": "Infection Control and Hospital Safety",
+                    "code": "RCT2013"
+                  },
+                  {
+                    "name": "Clinical Internship – I",
+                    "code": "RCT2014"
+                  },
+                  {
+                    "name": "Industry Readiness Programme – IV",
+                    "code": "PPS2002"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 5",
+                "modules": [
+                  {
+                    "name": "Elective I – Paediatric ICU / Home Care Ventilation",
+                    "code": "RCT3001"
+                  },
+                  {
+                    "name": "Cardiopulmonary Emergencies and Rapid Response",
+                    "code": "RCT3002"
+                  },
+                  {
+                    "name": "Patient Education and Pulmonary Rehabilitation",
+                    "code": "RCT3003"
+                  },
+                  {
+                    "name": "Ethics and Professionalism in Healthcare",
+                    "code": "RCT3004"
+                  },
+                  {
+                    "name": "Clinical Internship – II",
+                    "code": "RCT3005"
+                  },
+                  {
+                    "name": "Project Work – I",
+                    "code": "RCT3006"
+                  },
+                  {
+                    "name": "Industry Readiness Programme – V",
+                    "code": "PPS3001"
+                  }
+                ]
+              },
+              {
+                "semester": "Semester 6",
+                "modules": [
+                  {
+                    "name": "Elective II – Advanced Ventilation Strategies / Research in RCT",
+                    "code": "RCT3007"
+                  },
+                  {
+                    "name": "Hospital Administration and Quality Management",
+                    "code": "RCT3008"
+                  },
+                  {
+                    "name": "Advanced Clinical Practicum",
+                    "code": "RCT3009"
+                  },
+                  {
+                    "name": "Final Project and Dissertation",
+                    "code": "RCT3010"
+                  },
+                  {
+                    "name": "Comprehensive Examination",
+                    "code": "RCT3011"
+                  },
+                  {
+                    "name": "Industry Readiness Programme – VI",
+                    "code": "PPS3002"
+                  }
+                ]
+              }
+            ]
+          }
         },
         {
           "slug": "bsc-mrit",
@@ -38354,7 +40507,7 @@
               "normal": "B.Sc",
               "italic": "Medical Radiology & Imaging Technology (MRIT)"
             },
-            "description": "Unlock the secrets of disease diagnosis. Our MLT program trains technologists to perform complex laboratory tests that inform clinical decisions and patient treatment.",
+            "description": "See inside the human body with cutting-edge precision. This programme trains you to operate X-ray, CT, MRI, and ultrasound imaging systems — supporting clinical diagnosis and patient care across hospitals, radiology centres, and diagnostic imaging departments.",
             "breadcrumb": [
               "Home",
               "Schools",

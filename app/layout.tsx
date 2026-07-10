@@ -29,6 +29,7 @@ const bodyFont = Outfit({
 /* ---------------- METADATA ---------------- */
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://presidency.international"),
   title: "Presidency University International",
   description:
     "Study at Presidency University Bangalore – a globally connected campus offering undergraduate, postgraduate and doctoral programmes.",
